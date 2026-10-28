@@ -325,6 +325,21 @@ export async function placeImage(p: Place): Promise<Img> {
   if (site) return site
   const commons = await commonsImage(p.name, p.city === 'nyc' ? 'New York' : p.city === 'philly' ? 'Philadelphia' : 'Princeton')
   if (commons) return commons
+  // The Infatuation's review page, when there is one: its lead photo is of the restaurant.
+  if (p.city === 'nyc' || p.city === 'philly') {
+    const review = `https://www.theinfatuation.com/${p.city === 'nyc' ? 'new-york' : 'philadelphia'}/reviews/${p.id}`
+    try {
+      const html = await page(review)
+      const title = html.match(/<meta[^>]+property=["']og:title["'][^>]+content=["']([^"']+)["']/i)?.[1] ?? ''
+      const first = p.name.split(/\s+/)[0].replace(/[’']s$/, '').toLowerCase()
+      if (title.toLowerCase().includes(first)) {
+        const img = await pageImage(review)
+        if (img) return { ...img, credit: 'The Infatuation' }
+      }
+    } catch {
+      /* no review page */
+    }
+  }
   // OpenTable and Tock pages carry the restaurant's own photos.
   return p.book?.url ? pageImage(p.book.url) : null
 }
