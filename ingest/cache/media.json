@@ -989,5 +989,23 @@
   "link": "https://www.emmettphilly.com/",
   "w": 1330,
   "h": 1330
- }
+ },
+ "wiki2:Wagner_Free_Institute_of_Science": null,
+ "commons:Kalaya|Philadelphia": null,
+ "commons:Provenance|Philadelphia": null,
+ "commons:Bar Cicci|Philadelphia": null,
+ "commons:Zahav|Philadelphia": null,
+ "commons:John’s Roast Pork|Philadelphia": null,
+ "commons:XiBei Cuisine|Princeton": null,
+ "commons:Madras Dosa Company|Princeton": null,
+ "commons:Blue Point Grill|Princeton": null,
+ "commons:Hoagie Haven|Princeton": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hoagie_Haven.jpg/1920px-Hoagie_Haven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://commons.wikimedia.org/wiki/File:Hoagie_Haven.jpg",
+  "w": 3264,
+  "h": 2448
+ },
+ "commons:The Bent Spoon|Princeton": null,
+ "commons:Agricola|Princeton": null
 }
