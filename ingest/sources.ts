@@ -58,9 +58,9 @@ export const SOURCES: Source[] = [
     homepage: 'https://luma.com/nyc',
     city: 'nyc',
     kind: 'luma',
-    category: 'startups',
+    category: 'unusual',
     fetch: (ctx) =>
-      fromLuma('nyc', { city: 'nyc', category: 'startups', sourceName: 'Luma', homepage: 'https://luma.com/nyc' }, ctx),
+      fromLuma('nyc', { city: 'nyc', category: 'unusual', sourceName: 'Luma', homepage: 'https://luma.com/nyc' }, ctx),
   },
   {
     id: 'columbia-entrepreneurship',
@@ -92,9 +92,9 @@ export const SOURCES: Source[] = [
     homepage: 'https://luma.com/philadelphia',
     city: 'philly',
     kind: 'luma',
-    category: 'startups',
+    category: 'unusual',
     fetch: (ctx) =>
-      fromLuma('philadelphia', { city: 'philly', category: 'startups', sourceName: 'Luma', homepage: 'https://luma.com/philadelphia' }, ctx),
+      fromLuma('philadelphia', { city: 'philly', category: 'unusual', sourceName: 'Luma', homepage: 'https://luma.com/philadelphia' }, ctx),
   },
   { id: 'sixers', name: 'Philadelphia 76ers (NBA)', homepage: 'https://www.nba.com/sixers/schedule', city: 'philly', kind: 'espn', category: 'sports',
     fetch: (ctx) => espn('basketball/nba', '20', { ...XFINITY, league: 'NBA', sourceUrl: 'https://www.nba.com/sixers/schedule' }, ctx) },

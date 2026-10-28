@@ -7,10 +7,10 @@ import type { CategoryId, WGEvent } from '../../src/shared/types.ts'
 const RULES: [CategoryId, RegExp][] = [
   ['comedy', /\b(comedy|comedian|stand-?up|improv|sketch show|roast|open mic)\b/i],
   ['unusual', /\b(ghost|haunted|parade|flea|night market|stargazing|observatory|carillon|scavenger|puzzle hunt|trivia)\b/i],
-  ['startups', /\b(startup|start-up|founders?|venture|vc\b|pitch|accelerator|entrepreneur|demo (day|night)|fundrais|investors?|angel|hackathon|ai demos?)\b/i],
+  ['startups', /\b(startups?|start-up|founders?|venture|vc\b|pitch|accelerator|entrepreneurs?|demo (day|night)|fundrais|investors?|angel|hackathon|ai|agents?|llms?|devs?|developers?|engineers?|builders?|robotics|saas|fintech|tech)\b/i],
   ['sports', /\b(vs\.?|versus|football|basketball|hockey|baseball|soccer|lacrosse|regatta|marathon|tip-?off|kickoff)\b/i],
   ['music', /\b(concert|jazz|quartet|quintet|trio|orchestra|symphony|choir|chorus|recital|live music|album release|opera|philharmonic|ensemble|songwriter|dj set)\b/i],
-  ['art', /\b(exhibition|exhibit|gallery|museum|architecture|installation|opening reception|artist talk|sculpture|dance|ballet|film|screening|theater|theatre|symposium on art)\b/i],
+  ['art', /\b(exhibition|exhibit|gallery|museum|architecture|installation|opening (night|reception)|artist talk|sculpture|dance|ballet|film|screening|theater|theatre|symposium on art)\b/i],
   ['ideas', /\b(lecture|talk|conversation|panel|reading|author|book|symposium|keynote|colloquium|discussion|speaker|forum|debate|philosophy)\b/i],
   ['unusual', /\b(festival|fair|tasting|workshop)\b/i],
 ]
@@ -18,7 +18,8 @@ const RULES: [CategoryId, RegExp][] = [
 /** Classify by title first; fall back to the longer text only if the title says nothing. */
 export function categorize(title: string, more: string, fallback: CategoryId): CategoryId {
   for (const [cat, re] of RULES) if (re.test(title)) return cat
-  for (const [cat, re] of RULES) if (re.test(more)) return cat
+  // Descriptions mention sponsors and "founders" constantly; don't let that make a party a startup event.
+  for (const [cat, re] of RULES) if (cat !== 'startups' && re.test(more)) return cat
   return fallback
 }
 

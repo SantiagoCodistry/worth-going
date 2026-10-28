@@ -129,7 +129,7 @@ async function run() {
 function collapseRepeats(events: WGEvent[]): WGEvent[] {
   const groups = new Map<string, WGEvent[]>()
   for (const e of events) {
-    const key = e.provenance === 'live' ? `${e.sourceId}|${slug(e.title)}|${slug(e.venue.name)}` : e.id
+    const key = e.provenance === 'live' ? `${e.sourceId}|${slug(e.title)}` : e.id
     groups.set(key, [...(groups.get(key) ?? []), e])
   }
   const day = (e: WGEvent) => nyDateKey(e.start)
