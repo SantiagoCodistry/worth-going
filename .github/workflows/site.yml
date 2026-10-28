@@ -1,0 +1,77 @@
+# Daily: fetch live events + photos, commit the data, deploy to GitHub Pages,
+# then screenshot the live site (download from the run's artifacts).
+# No secrets needed. Enable Pages once: Settings → Pages → Source: GitHub Actions.
+name: Refresh and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 10 * * *' # ~6 am New York
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Fetch events and photos
+        run: npm run ingest
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+      - name: Commit refreshed data
+        run: |
+          git config user.name "worth-going-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/events.json ingest/cache
+          git diff --cached --quiet || (git commit -m "Refresh events $(date -u +%Y-%m-%d)" && git push)
+      - name: Build for Pages
+        run: npm run build
+        env:
+          VITE_BASE: /${{ github.event.repository.name }}/
+      - run: cp dist/index.html dist/404.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  screenshots:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm i --no-save playwright && npx playwright install --with-deps chromium
+      - run: node scripts/screenshots.mjs "${{ needs.deploy.outputs.url }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: screenshots

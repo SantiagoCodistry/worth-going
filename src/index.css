@@ -1,0 +1,182 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/familjen-grotesk';
+
+/* Worth Going. Night-time palette: photos carry the colour, the interface
+   stays dark and quiet. One warm accent, the colour of a sodium streetlight. */
+:root {
+  color-scheme: dark;
+  --bg: #0f0f0e;
+  --bg-2: #171715;
+  --card: #1e1e1b;
+  --ink: #f3f1ec;
+  --ink-2: #c8c5bd;
+  --mute: #8f8b82;
+  --rule: #f3f1ec1f;
+  --accent: #ffb43c;
+  --accent-ink: #1a1203;
+
+  /* Cover grounds when no photo is available yet */
+  --c-music: #1f2c36;
+  --c-ideas: #26331f;
+  --c-startups: #34301d;
+  --c-art: #3a2a26;
+  --c-sports: #183129;
+  --c-unusual: #43231a;
+  --c-dining: #3a2129;
+}
+
+@theme {
+  --font-sans: 'Familjen Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Familjen Grotesk Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --color-bg: var(--bg);
+  --color-bg-2: var(--bg-2);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-mute: var(--mute);
+  --color-rule: var(--rule);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+
+  --ease-out-soft: cubic-bezier(0.2, 0.7, 0.1, 1);
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
+@layer components {
+  .display {
+    font-weight: 700;
+    letter-spacing: -0.035em;
+    line-height: 0.98;
+  }
+  .rule {
+    border-color: var(--rule);
+  }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s var(--ease-out-soft);
+  }
+  .group:hover .link-underline,
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    flex-shrink: 0;
+    border-radius: 999px;
+    padding: 0.5rem 0.95rem;
+    font-size: 14px;
+    font-weight: 550;
+    color: var(--ink-2);
+    background: var(--bg-2);
+    transition:
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    color: var(--ink);
+    background: var(--card);
+  }
+  .chip[aria-pressed='true'],
+  .chip[aria-selected='true'] {
+    background: var(--ink);
+    color: var(--bg);
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    padding: 0.8rem 1.25rem;
+    font-size: 15px;
+    font-weight: 600;
+    transition:
+      background-color 0.2s,
+      color 0.2s,
+      transform 0.15s;
+  }
+  .btn:active {
+    transform: scale(0.98);
+  }
+  .btn-accent {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+  .btn-accent:hover {
+    background: #ffc463;
+  }
+  .btn-quiet {
+    background: var(--bg-2);
+    color: var(--ink);
+  }
+  .btn-quiet:hover {
+    background: var(--card);
+  }
+  .prose-wg p + p {
+    margin-top: 1em;
+  }
+}
+
+@keyframes rise {
+  from {
+    opacity: 0.001;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 0.55s var(--ease-out-soft) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}

@@ -1,0 +1,94 @@
+// App state: the dataset (fetched once), the chosen city, and saved items.
+// Saved items live in localStorage — no account needed.
+import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import type { CityFilter, Dataset, WGEvent } from '../shared/types.ts'
+
+interface Store {
+  data: Dataset | null
+  error: string | null
+  city: CityFilter
+  setCity: (c: CityFilter) => void
+  saved: string[]
+  isSaved: (id: string) => boolean
+  toggleSaved: (id: string) => void
+  byId: (id: string) => WGEvent | undefined
+}
+
+const Ctx = createContext<Store | null>(null)
+
+function readLocal<T>(key: string, fallback: T): T {
+  try {
+    const raw = localStorage.getItem(key)
+    return raw ? (JSON.parse(raw) as T) : fallback
+  } catch {
+    return fallback
+  }
+}
+
+function writeLocal(key: string, value: unknown) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value))
+  } catch {
+    /* private mode — saving just won't persist */
+  }
+}
+
+export function StoreProvider({ children }: { children: ReactNode }) {
+  const [data, setData] = useState<Dataset | null>(null)
+  const [error, setError] = useState<string | null>(null)
+  const [city, setCityState] = useState<CityFilter>(() => readLocal('wg.city', 'all'))
+  const [saved, setSaved] = useState<string[]>(() => readLocal('wg.saved', []))
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/events.json`, { cache: 'no-cache' })
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error(`HTTP ${r.status}`))))
+      .then(setData)
+      .catch((e: Error) => setError(e.message))
+  }, [])
+
+  // Keep saved items in sync across tabs.
+  useEffect(() => {
+    const onStorage = (e: StorageEvent) => {
+      if (e.key === 'wg.saved') setSaved(readLocal('wg.saved', []))
+    }
+    window.addEventListener('storage', onStorage)
+    return () => window.removeEventListener('storage', onStorage)
+  }, [])
+
+  const setCity = useCallback((c: CityFilter) => {
+    setCityState(c)
+    writeLocal('wg.city', c)
+  }, [])
+
+  const toggleSaved = useCallback((id: string) => {
+    setSaved((prev) => {
+      const next = prev.includes(id) ? prev.filter((x) => x !== id) : [id, ...prev]
+      writeLocal('wg.saved', next)
+      return next
+    })
+  }, [])
+
+  const index = useMemo(() => new Map((data?.events ?? []).map((e) => [e.id, e])), [data])
+
+  const value = useMemo<Store>(
+    () => ({
+      data,
+      error,
+      city,
+      setCity,
+      saved,
+      isSaved: (id) => saved.includes(id),
+      toggleSaved,
+      byId: (id) => index.get(id),
+    }),
+    [data, error, city, setCity, saved, toggleSaved, index],
+  )
+
+  return <Ctx.Provider value={value}>{children}</Ctx.Provider>
+}
+
+export function useStore() {
+  const s = useContext(Ctx)
+  if (!s) throw new Error('useStore outside StoreProvider')
+  return s
+}

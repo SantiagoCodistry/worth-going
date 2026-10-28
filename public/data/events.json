@@ -1,0 +1,1306 @@
+{
+ "generatedAt": "2026-10-28T15:45:29.823Z",
+ "events": [
+  {
+   "id": "met-costume-art",
+   "kind": "exhibition",
+   "title": "Costume Art",
+   "subtitle": "The Costume Institute",
+   "city": "nyc",
+   "category": "art",
+   "tags": [
+    "museum",
+    "fashion"
+   ],
+   "start": "2026-05-10",
+   "end": "2027-01-10",
+   "venue": {
+    "name": "The Met",
+    "address": "1000 Fifth Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "description": "The Costume Institute’s exhibition in the new Thom Browne Gallery.",
+   "why": "Weekday mornings are the quietest time to go.",
+   "sourceName": "The Met",
+   "sourceUrl": "https://www.metmuseum.org/press-releases/spring-2026-exhibitions",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 21
+  },
+  {
+   "id": "met-krasner-pollock",
+   "kind": "exhibition",
+   "title": "Krasner and Pollock: Past Continuous",
+   "city": "nyc",
+   "category": "art",
+   "tags": [
+    "museum"
+   ],
+   "start": "2026-10-04",
+   "venue": {
+    "name": "The Met",
+    "address": "1000 Fifth Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "people": [
+    {
+     "name": "Lee Krasner",
+     "role": "Abstract Expressionist painter",
+     "wiki": "Lee_Krasner"
+    },
+    {
+     "name": "Jackson Pollock",
+     "role": "Abstract Expressionist painter",
+     "wiki": "Jackson_Pollock"
+    }
+   ],
+   "description": "Follows the careers of Lee Krasner and Jackson Pollock, peers and partners, side by side.",
+   "why": "Krasner finally gets equal billing.",
+   "sourceName": "The Met",
+   "sourceUrl": "https://www.metmuseum.org/hubs/fall-at-the-met",
+   "note": "Closing date not confirmed. Check The Met.",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 21
+  },
+  {
+   "id": "pma-duchamp-retrospective",
+   "kind": "exhibition",
+   "title": "Marcel Duchamp",
+   "subtitle": "The retrospective",
+   "city": "philly",
+   "category": "art",
+   "tags": [
+    "museum"
+   ],
+   "start": "2026-10-10",
+   "end": "2027-01-31",
+   "venue": {
+    "name": "Philadelphia Art Museum",
+    "address": "2600 Benjamin Franklin Pkwy, Philadelphia",
+    "neighborhood": "Fairmount"
+   },
+   "people": [
+    {
+     "name": "Marcel Duchamp",
+     "role": "French artist who exhibited a urinal as art in 1917",
+     "wiki": "Marcel_Duchamp"
+    }
+   ],
+   "description": "The first North American Duchamp retrospective in more than 50 years.",
+   "why": "Philadelphia owns the key Duchamp works, including The Large Glass. This is the show it was built for.",
+   "sourceName": "Visit Philadelphia",
+   "sourceUrl": "https://www.visitphilly.com/articles/philadelphia/exhibitions-2026",
+   "ticketUrl": "https://www.philamuseum.org/",
+   "pick": true,
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 61
+  },
+  {
+   "id": "eastern-state-halloween-nights-2026",
+   "kind": "exhibition",
+   "title": "Halloween Nights at Eastern State Penitentiary",
+   "city": "philly",
+   "category": "unusual",
+   "tags": [
+    "halloween",
+    "haunted house"
+   ],
+   "start": "2026-10-28",
+   "end": "2026-11-07",
+   "venue": {
+    "name": "Eastern State Penitentiary",
+    "address": "2027 Fairmount Ave, Philadelphia",
+    "neighborhood": "Fairmount"
+   },
+   "description": "Five haunted houses inside a crumbling 19th-century prison, plus live performers, themed bars and food.",
+   "why": "A real abandoned prison is a better haunted house than anything built for the purpose. Last week of the season.",
+   "sourceName": "Visit Philadelphia",
+   "sourceUrl": "https://www.visitphilly.com/articles/philadelphia/top-halloween-events-and-activities-in-philadelphia/",
+   "ticketUrl": "https://www.easternstate.org/",
+   "note": "Runs on select nights only. Check Eastern State’s calendar for open dates.",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 8
+  },
+  {
+   "id": "village-halloween-parade-2026",
+   "title": "Village Halloween Parade",
+   "subtitle": "Sixth Avenue, from Canal Street north",
+   "city": "nyc",
+   "category": "unusual",
+   "tags": [
+    "free",
+    "outdoors",
+    "parade"
+   ],
+   "start": "2026-10-31T23:00:00.000Z",
+   "end": "2026-11-01T02:00:00.000Z",
+   "venue": {
+    "name": "Sixth Avenue",
+    "address": "Lineup at Sixth Ave & Canal St",
+    "neighborhood": "Greenwich Village"
+   },
+   "description": "The city’s homemade Halloween parade goes north on Sixth Avenue from Canal Street, rain or shine. Anyone in costume can join the march at the Canal Street lineup.",
+   "why": "You can march in it, not just watch. Line up at Canal Street from about 6:30 pm.",
+   "isFree": true,
+   "price": "Free",
+   "sourceName": "Time Out New York",
+   "sourceUrl": "https://www.timeout.com/newyork/news/the-worlds-biggest-halloween-parade-returns-to-nyc-next-month-and-the-titillating-2026-theme-has-just-been-revealed-091626",
+   "note": "The northern end of the route is given as 15th or 16th Street.",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 64
+  },
+  {
+   "id": "tcs-nyc-marathon-2026",
+   "title": "NYC Marathon",
+   "subtitle": "Staten Island to Central Park, through all five boroughs",
+   "city": "nyc",
+   "category": "unusual",
+   "tags": [
+    "free",
+    "outdoors",
+    "spectator"
+   ],
+   "start": "2026-11-01",
+   "timeTBA": true,
+   "venue": {
+    "name": "All five boroughs",
+    "address": "Finish in Central Park",
+    "neighborhood": "Citywide"
+   },
+   "description": "Tens of thousands of runners cross the Verrazzano and run through Brooklyn, Queens, the Bronx and Manhattan to a finish in Central Park.",
+   "why": "Free to watch and the best mood in the city all year. First Avenue and Fourth Avenue in Brooklyn are loud spots.",
+   "isFree": true,
+   "price": "Free to watch",
+   "sourceName": "TCS New York City Marathon",
+   "sourceUrl": "https://www.tcsnycmarathon.org/",
+   "note": "Clocks go back an hour that morning.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 17
+  },
+  {
+   "id": "92ny-neil-degrasse-tyson-2026",
+   "title": "Neil deGrasse Tyson: Take Me to Your Leader",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [
+    "science",
+    "space"
+   ],
+   "start": "2026-11-02",
+   "timeTBA": true,
+   "venue": {
+    "name": "92NY",
+    "address": "1395 Lexington Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "people": [
+    {
+     "name": "Neil deGrasse Tyson",
+     "role": "Astrophysicist, director of the Hayden Planetarium and host of StarTalk",
+     "wiki": "Neil_deGrasse_Tyson"
+    }
+   ],
+   "description": "Neil deGrasse Tyson on stage at 92NY with his new talk, Take Me to Your Leader.",
+   "why": "The most entertaining science explainer alive, in a room that seats under a thousand.",
+   "sourceName": "92NY",
+   "sourceUrl": "https://bigseason.92ny.org/talks",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 64
+  },
+  {
+   "id": "moth-storyslam-bell-house-2026-11-04",
+   "title": "The Moth StorySLAM",
+   "subtitle": "Open-mic true stories, five minutes each",
+   "city": "nyc",
+   "category": "unusual",
+   "tags": [
+    "storytelling",
+    "comedy"
+   ],
+   "start": "2026-11-05T01:00:00.000Z",
+   "venue": {
+    "name": "The Bell House",
+    "address": "149 7th St, Brooklyn",
+    "neighborhood": "Gowanus"
+   },
+   "description": "Anyone can put their name in the hat. Ten names are drawn, each storyteller gets five minutes, no notes, and audience judges score them.",
+   "why": "You never know who gets drawn. Some nights are funnier than any comedy show in town.",
+   "price": "$22–23",
+   "sourceName": "Ticketmaster",
+   "sourceUrl": "https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-11-04-2026/event/300064BB1911E6D0",
+   "ticketUrl": "https://themoth.org/events",
+   "note": "A Manhattan StorySLAM is also listed the same night at Rodney’s on First Avenue.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 12
+  },
+  {
+   "id": "outliers-summit-nyc-2026",
+   "title": "The Outliers Summit",
+   "subtitle": "Two days with founders who built big internet companies",
+   "city": "nyc",
+   "category": "startups",
+   "tags": [
+    "founders",
+    "conference"
+   ],
+   "start": "2026-11-05",
+   "end": "2026-11-06",
+   "timeTBA": true,
+   "venue": {
+    "name": "New York",
+    "address": "Venue on registration"
+   },
+   "people": [
+    {
+     "name": "Sam Parr",
+     "role": "Founder of The Hustle, co-host of My First Million"
+    },
+    {
+     "name": "Ryan Hoover",
+     "role": "Founder of Product Hunt"
+    },
+    {
+     "name": "Sahil Lavingia",
+     "role": "Founder of Gumroad",
+     "wiki": "Sahil_Lavingia"
+    },
+    {
+     "name": "Zach Sims",
+     "role": "Co-founder of Codecademy",
+     "wiki": "Zach_Sims"
+    },
+    {
+     "name": "Andy Dunn",
+     "role": "Co-founder of Bonobos",
+     "wiki": "Andy_Dunn"
+    },
+    {
+     "name": "Ankur Nagpal",
+     "role": "Founder of Teachable, co-host"
+    },
+    {
+     "name": "Andrew Yeung",
+     "role": "NYC tech community organizer, co-host"
+    }
+   ],
+   "description": "Hosted by Ankur Nagpal and Andrew Yeung with AngelList. Day one is hands-on sessions.",
+   "why": "A rare chance to hear the founders of Product Hunt, Gumroad, Codecademy and Bonobos in one room.",
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/2026",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 47
+  },
+  {
+   "id": "princeton-lecture-ruth-wilson-gilmore",
+   "title": "Ruth Wilson Gilmore: Policing the Crisis, Revisited",
+   "subtitle": "Princeton University Public Lecture",
+   "city": "princeton",
+   "category": "ideas",
+   "tags": [
+    "free",
+    "lecture",
+    "university"
+   ],
+   "start": "2026-11-05T21:30:00.000Z",
+   "venue": {
+    "name": "McCosh Hall 50",
+    "address": "Princeton University",
+    "neighborhood": "Main campus"
+   },
+   "people": [
+    {
+     "name": "Ruth Wilson Gilmore",
+     "role": "Geographer at the CUNY Graduate Center, author of Golden Gulag",
+     "wiki": "Ruth_Wilson_Gilmore"
+    }
+   ],
+   "description": "Gilmore gives the Stafford Little Lecture, one of Princeton’s public lecture series.",
+   "why": "Free, open to everyone, and one of the most influential scholars of prisons in the US.",
+   "isFree": true,
+   "price": "Free",
+   "sourceName": "Princeton University",
+   "sourceUrl": "https://www.princeton.edu/events/2026/princeton-university-public-lecture-ruth-wilson-gilmore",
+   "note": "The event page lists 4:30 pm. The lectures site lists 5:00 pm.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 30
+  },
+  {
+   "id": "nerd-nite-nyc-nov-2026",
+   "title": "Nerd Nite: Sitting",
+   "subtitle": "Three short talks and drinks at Caveat",
+   "city": "nyc",
+   "category": "unusual",
+   "tags": [
+    "talks",
+    "bar",
+    "comedy"
+   ],
+   "start": "2026-11-06T00:00:00.000Z",
+   "venue": {
+    "name": "Caveat",
+    "address": "21A Clinton St, New York",
+    "neighborhood": "Lower East Side"
+   },
+   "description": "This month’s theme is sitting. Talks cover the history of the deck chair, how seating works on mass transit, and world records, one of which involves audience members popping balloons by sitting on them.",
+   "why": "Smart, short talks in a bar, and a chance to set a world record with your backside.",
+   "price": "$16 early, $21 standard, $26 at the door",
+   "sourceName": "Caveat",
+   "sourceUrl": "https://caveat.nyc/events/nerd-nite",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 56
+  },
+  {
+   "id": "wagner-first-saturday-creature-feature-2026",
+   "title": "Spooky Creature Feature",
+   "subtitle": "First Saturday open house at the Wagner Free Institute of Science",
+   "city": "philly",
+   "category": "unusual",
+   "tags": [
+    "museum",
+    "family",
+    "costumes"
+   ],
+   "start": "2026-11-07T17:00:00.000Z",
+   "end": "2026-11-07T21:00:00.000Z",
+   "venue": {
+    "name": "Wagner Free Institute of Science",
+    "address": "1700 W Montgomery Ave, Philadelphia",
+    "neighborhood": "North Philadelphia"
+   },
+   "description": "A monthly open house at the Wagner, a natural history museum whose cabinets and lecture hall have barely changed since the 1800s. Visitors are encouraged to come in costume.",
+   "why": "A Victorian science museum, intact, full of specimens in wooden cases. Few people in Philadelphia have been.",
+   "sourceName": "Wagner Free Institute of Science",
+   "sourceUrl": "https://www.wagnerfreeinstitute.org/events-1-1/november-first-saturday-open-housespooky-creature-feature",
+   "note": "The Wagner’s schedule page says November 6; the event page says Saturday, November 7.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 16
+  },
+  {
+   "id": "fillmore-geese-2026",
+   "title": "Geese",
+   "city": "philly",
+   "category": "music",
+   "tags": [
+    "rock"
+   ],
+   "start": "2026-11-08",
+   "timeTBA": true,
+   "venue": {
+    "name": "The Fillmore",
+    "address": "29 E Allen St, Philadelphia",
+    "neighborhood": "Fishtown"
+   },
+   "people": [
+    {
+     "name": "Geese",
+     "role": "Brooklyn rock band",
+     "wiki": "Geese_(band)"
+    }
+   ],
+   "description": "The Brooklyn band on its North American tour.",
+   "why": "One of the most talked-about young rock bands in the US.",
+   "sourceName": "TickPick",
+   "sourceUrl": "https://www.tickpick.com/blog/upcoming-concerts-in-philadelphia/",
+   "note": "One listing shows November 7 and 8. Another shows November 8 only.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 9
+  },
+  {
+   "id": "eagles-giants-2026-11-08",
+   "title": "Eagles vs. Giants",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nfl",
+    "football"
+   ],
+   "start": "2026-11-08T18:00:00.000Z",
+   "venue": {
+    "name": "Lincoln Financial Field",
+    "address": "1 Lincoln Financial Field Way, Philadelphia",
+    "neighborhood": "South Philadelphia"
+   },
+   "description": "A division game at the Linc.",
+   "sourceName": "FOX 29 Philadelphia",
+   "sourceUrl": "https://www.fox29.com/sports/philadelphia-eagles-2026-2027-full-schedule-released-everything-you-need-know",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "why": "Lincoln Financial Field is home to the Eagles.",
+   "score": 14
+  },
+  {
+   "id": "92ny-inon-abu-sarah-2026",
+   "title": "The Future Is Peace",
+   "subtitle": "Maoz Inon and Aziz Abu Sarah in conversation",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [
+    "politics",
+    "middle east"
+   ],
+   "start": "2026-11-09T00:00:00.000Z",
+   "end": "2026-11-09T02:00:00.000Z",
+   "venue": {
+    "name": "92NY",
+    "address": "1395 Lexington Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "people": [
+    {
+     "name": "Maoz Inon",
+     "role": "Israeli entrepreneur and peace activist whose parents were killed on October 7",
+     "wiki": "Maoz_Inon"
+    },
+    {
+     "name": "Aziz Abu Sarah",
+     "role": "Palestinian peace activist and co-founder of MEJDI Tours",
+     "wiki": "Aziz_Abu_Sarah"
+    }
+   ],
+   "description": "An Israeli and a Palestinian who both lost family to the conflict talk about working together for peace.",
+   "why": "Two people with every reason to hate each other, on stage as friends.",
+   "sourceName": "doNYC",
+   "sourceUrl": "https://donyc.com/venues/92ny",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 27
+  },
+  {
+   "id": "92ny-annie-proulx-2026",
+   "title": "Annie Proulx in conversation with Michael Cunningham",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [
+    "books",
+    "reading"
+   ],
+   "start": "2026-11-10",
+   "timeTBA": true,
+   "venue": {
+    "name": "92NY",
+    "address": "1395 Lexington Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "people": [
+    {
+     "name": "Annie Proulx",
+     "role": "Pulitzer-winning author of The Shipping News and Brokeback Mountain",
+     "wiki": "Annie_Proulx"
+    },
+    {
+     "name": "Michael Cunningham",
+     "role": "Pulitzer-winning author of The Hours",
+     "wiki": "Michael_Cunningham"
+    }
+   ],
+   "description": "Proulx launches her New and Collected Stories in conversation with Michael Cunningham.",
+   "why": "Two Pulitzer winners talking about short stories. Proulx rarely does public events.",
+   "sourceName": "92NY",
+   "sourceUrl": "https://bigseason.92ny.org/readings",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 24
+  },
+  {
+   "id": "brooklyn-steel-chat-pile-2026",
+   "title": "Chat Pile",
+   "city": "nyc",
+   "category": "music",
+   "tags": [
+    "noise rock",
+    "metal"
+   ],
+   "start": "2026-11-10",
+   "timeTBA": true,
+   "venue": {
+    "name": "Brooklyn Steel",
+    "address": "319 Frost St, Brooklyn",
+    "neighborhood": "East Williamsburg"
+   },
+   "people": [
+    {
+     "name": "Chat Pile",
+     "role": "Noise-rock band from Oklahoma City",
+     "wiki": "Chat_Pile"
+    }
+   ],
+   "description": "The Oklahoma noise-rock band at Brooklyn Steel. They also play Union Transfer in Philadelphia the next night.",
+   "why": "Heavy, bleak and very loud. Earplugs advised.",
+   "sourceName": "JamBase",
+   "sourceUrl": "https://www.jambase.com/venue/brooklyn-steel",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 9
+  },
+  {
+   "id": "princeton-lecture-valeria-luiselli",
+   "title": "Valeria Luiselli",
+   "subtitle": "Princeton University Public Lecture",
+   "city": "princeton",
+   "category": "ideas",
+   "tags": [
+    "free",
+    "lecture",
+    "literature",
+    "university"
+   ],
+   "start": "2026-11-10T21:30:00.000Z",
+   "venue": {
+    "name": "McCosh Hall 50",
+    "address": "Princeton University",
+    "neighborhood": "Main campus"
+   },
+   "people": [
+    {
+     "name": "Valeria Luiselli",
+     "role": "Mexican novelist, author of Lost Children Archive",
+     "wiki": "Valeria_Luiselli"
+    }
+   ],
+   "description": "The novelist and essayist gives a Princeton University Public Lecture.",
+   "why": "Free and open to the public.",
+   "isFree": true,
+   "price": "Free",
+   "sourceName": "Princeton University",
+   "sourceUrl": "https://www.princeton.edu/events/2026/princeton-university-public-lectures-valeria-luiselli",
+   "note": "The university page says November 10. A community newsletter lists November 18 at 5 pm.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 30
+  },
+  {
+   "id": "92ny-munk-debate-liberalism-2026",
+   "title": "Munk Debate: Has Liberalism Failed America?",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [
+    "debate",
+    "politics"
+   ],
+   "start": "2026-11-12",
+   "timeTBA": true,
+   "venue": {
+    "name": "92NY",
+    "address": "1395 Lexington Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "people": [
+    {
+     "name": "Fareed Zakaria",
+     "role": "Host of CNN’s Fareed Zakaria GPS and Washington Post columnist",
+     "wiki": "Fareed_Zakaria"
+    },
+    {
+     "name": "Patrick Deneen",
+     "role": "Notre Dame political theorist, author of Why Liberalism Failed",
+     "wiki": "Patrick_Deneen"
+    },
+    {
+     "name": "Rudyard Griffiths",
+     "role": "Chair of the Munk Debates, moderator",
+     "wiki": "Rudyard_Griffiths"
+    }
+   ],
+   "description": "The Munk Debates come to New York for the first time. Zakaria argues for liberalism, Deneen against, and the audience votes before and after.",
+   "why": "A real debate with a winner, decided by the room. The author of Why Liberalism Failed against its best-known defender.",
+   "sourceName": "92NY",
+   "sourceUrl": "https://bigseason.92ny.org/talks",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 64
+  },
+  {
+   "id": "brooklyn-steel-jalen-ngonda-2026",
+   "title": "Jalen Ngonda",
+   "city": "nyc",
+   "category": "music",
+   "tags": [
+    "soul"
+   ],
+   "start": "2026-11-12",
+   "timeTBA": true,
+   "venue": {
+    "name": "Brooklyn Steel",
+    "address": "319 Frost St, Brooklyn",
+    "neighborhood": "East Williamsburg"
+   },
+   "people": [
+    {
+     "name": "Jalen Ngonda",
+     "role": "Soul singer-songwriter signed to Daptone Records",
+     "wiki": "Jalen_Ngonda"
+    }
+   ],
+   "description": "The Daptone soul singer at Brooklyn Steel.",
+   "why": "A voice that sounds like 1967 Detroit, live.",
+   "sourceName": "JamBase",
+   "sourceUrl": "https://www.jambase.com/venue/brooklyn-steel",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 9
+  },
+  {
+   "id": "mutter-meet-geek-frankenstein-2026",
+   "title": "Meet & Geek: Fathoming Frankenstein",
+   "subtitle": "An evening talk at the Mütter Museum",
+   "city": "philly",
+   "category": "unusual",
+   "tags": [
+    "museum",
+    "talk",
+    "medical history"
+   ],
+   "start": "2026-11-12T23:00:00.000Z",
+   "end": "2026-11-13T00:30:00.000Z",
+   "venue": {
+    "name": "Mütter Museum",
+    "address": "19 S 22nd St, Philadelphia",
+    "neighborhood": "Rittenhouse"
+   },
+   "description": "An after-hours talk on the science and history behind Frankenstein, at Philadelphia’s museum of medical history.",
+   "why": "The Mütter is the best museum of strange anatomy in the country. Seeing it after hours makes it stranger.",
+   "price": "$20",
+   "sourceName": "Mütter Museum",
+   "sourceUrl": "https://muttermuseum.org/events/",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 52
+  },
+  {
+   "id": "pu-concerts-radulovic-2026",
+   "title": "Nemanja Radulović and Double Sens",
+   "subtitle": "Princeton University Concerts",
+   "city": "princeton",
+   "category": "music",
+   "tags": [
+    "classical",
+    "violin"
+   ],
+   "start": "2026-11-13T00:30:00.000Z",
+   "venue": {
+    "name": "Richardson Auditorium",
+    "address": "Alexander Hall, Princeton University",
+    "neighborhood": "Main campus"
+   },
+   "people": [
+    {
+     "name": "Nemanja Radulović",
+     "role": "Serbian-French violinist known for high-energy performances",
+     "wiki": "Nemanja_Radulović"
+    }
+   ],
+   "description": "The violinist and his string ensemble Double Sens.",
+   "why": "A classical violinist who plays like a rock star.",
+   "sourceName": "Princeton Department of Music",
+   "sourceUrl": "https://music.princeton.edu/events",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 27
+  },
+  {
+   "id": "carnegie-silkroad-giddens-ma-2026",
+   "title": "Silkroad with Rhiannon Giddens and Yo-Yo Ma",
+   "city": "nyc",
+   "category": "music",
+   "tags": [
+    "folk",
+    "classical"
+   ],
+   "start": "2026-11-15T00:00:00.000Z",
+   "venue": {
+    "name": "Carnegie Hall",
+    "address": "881 Seventh Ave, New York",
+    "neighborhood": "Midtown"
+   },
+   "people": [
+    {
+     "name": "Rhiannon Giddens",
+     "role": "Grammy-winning folk musician, Silkroad’s artistic director",
+     "wiki": "Rhiannon_Giddens"
+    },
+    {
+     "name": "Yo-Yo Ma",
+     "role": "Cellist and founder of Silkroad",
+     "wiki": "Yo-Yo_Ma"
+    }
+   ],
+   "description": "The ensemble Yo-Yo Ma founded, led by Rhiannon Giddens, with Ma himself.",
+   "why": "Giddens and Ma on the same stage. This one will sell out.",
+   "price": "From $178 (resale)",
+   "sourceName": "TickPick",
+   "sourceUrl": "https://www.tickpick.com/buy-silkroad-ensemble-rhiannon-giddens-yo-yo-ma-tickets-carnegie-hall-isaac-stern-auditorium-11-14-26-7pm/7913701/",
+   "ticketUrl": "https://www.carnegiehall.org/Calendar",
+   "note": "Found on a resale site. Check Carnegie Hall for face-value tickets.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 32
+  },
+  {
+   "id": "mccarter-eric-lu-2026",
+   "title": "Eric Lu",
+   "subtitle": "Piano recital: Brahms, Schubert, Chopin",
+   "city": "princeton",
+   "category": "music",
+   "tags": [
+    "classical",
+    "piano"
+   ],
+   "start": "2026-11-17",
+   "timeTBA": true,
+   "venue": {
+    "name": "McCarter Theatre",
+    "address": "91 University Pl, Princeton",
+    "neighborhood": "Princeton"
+   },
+   "people": [
+    {
+     "name": "Eric Lu",
+     "role": "Pianist, winner of the International Chopin Piano Competition",
+     "wiki": "Eric_Lu"
+    }
+   ],
+   "description": "A solo recital by the Chopin Competition winner.",
+   "sourceName": "BroadwayWorld",
+   "sourceUrl": "https://www.broadwayworld.com/article/McCarter-Theatre-Center-Reveals-20262027-Dance-and-Music-Series-20260429",
+   "ticketUrl": "https://www.mccarter.org/",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
+   "score": 21
+  },
+  {
+   "id": "new-york-venture-summit-2026",
+   "title": "New York Venture Summit",
+   "subtitle": "Investor panels, showcases and one-on-one meetings",
+   "city": "nyc",
+   "category": "startups",
+   "tags": [
+    "conference",
+    "venture"
+   ],
+   "start": "2026-11-18",
+   "end": "2026-11-19",
+   "timeTBA": true,
+   "venue": {
+    "name": "Javits Center",
+    "address": "429 11th Ave, New York",
+    "neighborhood": "Hudson Yards"
+   },
+   "description": "A two-day event with more than 160 investors listed and pre-scheduled founder–investor meetings.",
+   "why": "Most useful if you’re raising: meetings with investors are booked ahead.",
+   "sourceName": "Advance Ventures",
+   "sourceUrl": "https://advanceventures.com/event/new-york-venture-summit-2026/",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 7
+  },
+  {
+   "id": "lcd-soundsystem-knockdown-2026",
+   "title": "LCD Soundsystem",
+   "subtitle": "Holiday residency, Knockdown Center run",
+   "city": "nyc",
+   "category": "music",
+   "tags": [
+    "dance",
+    "residency"
+   ],
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "timeTBA": true,
+   "venue": {
+    "name": "Knockdown Center",
+    "address": "52-19 Flushing Ave, Queens",
+    "neighborhood": "Maspeth"
+   },
+   "people": [
+    {
+     "name": "LCD Soundsystem",
+     "role": "James Murphy’s New York dance-punk band",
+     "wiki": "LCD_Soundsystem"
+    }
+   ],
+   "description": "Four nights in a former glass factory in Queens, the first leg of a 12-show residency that continues at Brooklyn Steel from November 30.",
+   "why": "The definitive New York band playing a warehouse in Queens. Tickets go fast.",
+   "sourceName": "Relix",
+   "sourceUrl": "https://relix.com/news/detail/lcd-soundsystem-confirm-annual-new-york-residency-dates",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 49
+  },
+  {
+   "id": "techday-ai-founders-day-2026",
+   "title": "TechDay AI Founders Day",
+   "subtitle": "Investors on what they fund in AI",
+   "city": "nyc",
+   "category": "startups",
+   "tags": [
+    "ai",
+    "venture"
+   ],
+   "start": "2026-11-21",
+   "timeTBA": true,
+   "venue": {
+    "name": "Brown Rudnick",
+    "address": "7 Times Square, New York",
+    "neighborhood": "Times Square"
+   },
+   "people": [
+    {
+     "name": "Betsy Mulé",
+     "role": "Investor, F-Prime Capital"
+    },
+    {
+     "name": "Thomson Nguyen",
+     "role": "Investor, Saga Ventures"
+    },
+    {
+     "name": "Emily Zhu",
+     "role": "Investor, New York Life Ventures"
+    },
+    {
+     "name": "Charlie Stephens",
+     "role": "Fidelity, moderator"
+    }
+   ],
+   "description": "A one-day program for AI founders with an investor panel.",
+   "note": "Sold out when we checked, with a waitlist open.",
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/6bmnoex9",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "why": "",
+   "score": 7
+  },
+  {
+   "id": "princeton-football-penn-2026",
+   "title": "Princeton vs. Penn",
+   "subtitle": "Ivy League football, season finale",
+   "city": "princeton",
+   "category": "sports",
+   "tags": [
+    "college",
+    "football",
+    "rivalry"
+   ],
+   "start": "2026-11-21",
+   "timeTBA": true,
+   "venue": {
+    "name": "Princeton Stadium",
+    "address": "Princeton University",
+    "neighborhood": "Campus"
+   },
+   "description": "The Tigers close the 2026 season at home against Penn.",
+   "why": "The last home game of the year, against the rival. Cheap tickets, good tailgates.",
+   "sourceName": "Princeton Athletics",
+   "sourceUrl": "https://goprincetontigers.com/news/2026/5/4/football-releases-2026-schedule",
+   "note": "One listing shows a 5:00 pm kickoff. Confirm with Princeton Athletics.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 9
+  },
+  {
+   "id": "mccarter-ira-glass-2026",
+   "title": "Ira Glass",
+   "subtitle": "Live at McCarter",
+   "city": "princeton",
+   "category": "ideas",
+   "tags": [
+    "storytelling",
+    "radio"
+   ],
+   "start": "2026-11-22T00:30:00.000Z",
+   "venue": {
+    "name": "McCarter Theatre",
+    "address": "91 University Pl, Princeton",
+    "neighborhood": "Princeton"
+   },
+   "people": [
+    {
+     "name": "Ira Glass",
+     "role": "Host and creator of This American Life",
+     "wiki": "Ira_Glass"
+    }
+   ],
+   "description": "The host of This American Life on stage at McCarter’s Matthews Theatre.",
+   "price": "From $76 (resale)",
+   "sourceName": "TickPick",
+   "sourceUrl": "https://www.tickpick.com/buy-ira-glass-tickets-matthews-theatre-mccarter-theatre-center-11-21-26-7pm/8190079/",
+   "ticketUrl": "https://www.mccarter.org/",
+   "note": "Found on a resale site. Buy from McCarter for face-value tickets.",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
+   "score": 24
+  },
+  {
+   "id": "92ny-muldoons-picnic-2026",
+   "title": "Muldoon’s Picnic",
+   "subtitle": "Poetry, songs and conversation",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [
+    "poetry",
+    "music"
+   ],
+   "start": "2026-11-24",
+   "timeTBA": true,
+   "venue": {
+    "name": "92NY",
+    "address": "1395 Lexington Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "people": [
+    {
+     "name": "Paul Muldoon",
+     "role": "Pulitzer-winning Irish poet and host",
+     "wiki": "Paul_Muldoon"
+    },
+    {
+     "name": "Richard Thompson",
+     "role": "British singer-songwriter and guitarist, formerly of Fairport Convention",
+     "wiki": "Richard_Thompson_(musician)"
+    },
+    {
+     "name": "Marie Howe",
+     "role": "Poet, former New York State Poet",
+     "wiki": "Marie_Howe"
+    },
+    {
+     "name": "Molly Jong-Fast",
+     "role": "Writer and political commentator",
+     "wiki": "Molly_Jong-Fast"
+    }
+   ],
+   "description": "Paul Muldoon’s variety night of poems, songs and talk, with his band Rogue Oliphant.",
+   "why": "Richard Thompson playing guitar in a 92NY variety show is not something you see often.",
+   "sourceName": "bookevents.nyc",
+   "sourceUrl": "https://bookevents.nyc/venues/92ny",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 24
+  },
+  {
+   "id": "knicks-heat-nba-cup-2026-11-27",
+   "title": "Knicks vs. Heat",
+   "subtitle": "NBA Cup",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba",
+    "basketball"
+   ],
+   "start": "2026-11-28T00:00:00.000Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York",
+    "neighborhood": "Midtown"
+   },
+   "description": "An NBA Cup group game at the Garden the night after Thanksgiving.",
+   "why": "An old rivalry, and the result counts toward the Cup.",
+   "sourceName": "EssentiallySports",
+   "sourceUrl": "https://www.essentiallysports.com/nba-active-basketball-news-new-york-knicks-2026-27-schedule-all-dates-and-notable-matches/",
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 16
+  }
+ ],
+ "placeImages": {},
+ "sources": [
+  {
+   "id": "carnegie-hall",
+   "name": "Carnegie Hall calendar",
+   "city": "nyc",
+   "kind": "jsonld",
+   "homepage": "https://www.carnegiehall.org/Calendar",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "columbia-entrepreneurship",
+   "name": "Columbia Entrepreneurship",
+   "city": "nyc",
+   "kind": "tribe",
+   "homepage": "https://entrepreneurship.columbia.edu/events/",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "eagles",
+   "name": "Philadelphia Eagles (ESPN)",
+   "city": "philly",
+   "kind": "espn",
+   "homepage": "https://www.philadelphiaeagles.com/schedule/",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "flyers",
+   "name": "Philadelphia Flyers (NHL)",
+   "city": "philly",
+   "kind": "nhl",
+   "homepage": "https://www.nhl.com/flyers/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "knicks",
+   "name": "New York Knicks (NBA)",
+   "city": "nyc",
+   "kind": "nba",
+   "homepage": "https://www.nba.com/knicks/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "luma-nyc",
+   "name": "Luma — New York",
+   "city": "nyc",
+   "kind": "luma",
+   "homepage": "https://luma.com/nyc",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "luma-philly",
+   "name": "Luma — Philadelphia",
+   "city": "philly",
+   "kind": "luma",
+   "homepage": "https://luma.com/philly",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "mets",
+   "name": "New York Mets (MLB)",
+   "city": "nyc",
+   "kind": "mlb",
+   "homepage": "https://www.mlb.com/mets/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "nets",
+   "name": "Brooklyn Nets (NBA)",
+   "city": "nyc",
+   "kind": "nba",
+   "homepage": "https://www.nba.com/nets/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "phillies",
+   "name": "Philadelphia Phillies (MLB)",
+   "city": "philly",
+   "kind": "mlb",
+   "homepage": "https://www.mlb.com/phillies/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "planet-princeton",
+   "name": "Planet Princeton community calendar",
+   "city": "princeton",
+   "kind": "tribe",
+   "homepage": "https://planetprinceton.com/events/",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "preview",
+   "name": "Preview listings (researched by hand)",
+   "city": "multi",
+   "kind": "manual",
+   "homepage": "",
+   "ok": true,
+   "count": 31,
+   "ms": 0
+  },
+  {
+   "id": "princeton-edu",
+   "name": "Princeton University events",
+   "city": "princeton",
+   "kind": "jsonld",
+   "homepage": "https://www.princeton.edu/events",
+   "ok": false,
+   "count": 0,
+   "ms": 1,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "princeton-football",
+   "name": "Princeton Tigers football (ESPN)",
+   "city": "princeton",
+   "kind": "espn",
+   "homepage": "https://goprincetontigers.com/sports/football/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "princeton-lectures",
+   "name": "Princeton University Public Lectures",
+   "city": "princeton",
+   "kind": "jsonld",
+   "homepage": "https://lectures.princeton.edu/",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "princeton-mbb",
+   "name": "Princeton Tigers men’s basketball (ESPN)",
+   "city": "princeton",
+   "kind": "espn",
+   "homepage": "https://goprincetontigers.com/sports/mens-basketball/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "rangers",
+   "name": "New York Rangers (NHL)",
+   "city": "nyc",
+   "kind": "nhl",
+   "homepage": "https://www.nhl.com/rangers/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "sixers",
+   "name": "Philadelphia 76ers (NBA)",
+   "city": "philly",
+   "kind": "nba",
+   "homepage": "https://www.nba.com/sixers/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "village-vanguard",
+   "name": "Village Vanguard",
+   "city": "nyc",
+   "kind": "jsonld",
+   "homepage": "https://villagevanguard.com/",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  },
+  {
+   "id": "yankees",
+   "name": "New York Yankees (MLB)",
+   "city": "nyc",
+   "kind": "mlb",
+   "homepage": "https://www.mlb.com/yankees/schedule",
+   "ok": false,
+   "count": 0,
+   "ms": 0,
+   "error": "skipped (offline run)"
+  }
+ ]
+}
