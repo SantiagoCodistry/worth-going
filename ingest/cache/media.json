@@ -904,5 +904,28 @@
   "menu": "https://agricolaeatery.com/menus/",
   "lat": 40.3501239,
   "lng": -74.6598063
+ },
+ "wiki2:New_York_City_Marathon": null,
+ "wiki2:Patrick_Deneen": null,
+ "wiki2:Slow_Pulp": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Slow_Pulp.jpg/1400px-Slow_Pulp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Slow_Pulp",
+  "w": 5536,
+  "h": 3692
+ },
+ "wiki2:Adam_Friedland": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Adam_Friedland%2C_Jan_2026_%28cropped%29.jpg/1400px-Adam_Friedland%2C_Jan_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Adam_Friedland",
+  "w": 1989,
+  "h": 2651
+ },
+ "wiki2:Javits_Center": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Javits_Center_-_Full_Front_%2849052081016%29.jpg/1400px-Javits_Center_-_Full_Front_%2849052081016%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Javits_Center",
+  "w": 3925,
+  "h": 2208
  }
 }
