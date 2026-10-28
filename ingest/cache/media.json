@@ -3401,5 +3401,494 @@
   "link": "https://en.wikipedia.org/wiki/Cyndi_Lauper",
   "w": 1523,
   "h": 1868
- }
+ },
+ "who2:A. G. Cook": {
+  "role": "English record producer (born 1990)",
+  "wiki": "A._G._Cook"
+ },
+ "who2:Hudson Mohawke": {
+  "role": "Scottish music producer (born 1986)",
+  "wiki": "Hudson_Mohawke"
+ },
+ "who2:Umru": {
+  "role": "American musician (born 1999)",
+  "wiki": "Umru"
+ },
+ "wiki2:A._G._Cook": null,
+ "wiki2:Hudson_Mohawke": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Hudson_Mohawke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Hudson_Mohawke",
+  "w": 683,
+  "h": 1024
+ },
+ "wiki2:Umru": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Umru_Rothenberg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Umru",
+  "w": 918,
+  "h": 1224
+ },
+ "who2:Sophia Stel": null,
+ "who2:horsegiirL": {
+  "role": "German DJ and singer (born 2000)",
+  "wiki": "HorsegiirL"
+ },
+ "wiki2:HorsegiirL": null,
+ "who2:Jacuzzi Boys": {
+  "role": "American rock band",
+  "wiki": "Jacuzzi_Boys"
+ },
+ "wiki2:Jacuzzi_Boys": null,
+ "who2:Kevin Dombrowski": null,
+ "who2:Gus Constantellis": null,
+ "who2:Shane Torres": null,
+ "who2:Watsky": {
+  "role": "American rapper, singer and poet",
+  "wiki": "George_Watsky"
+ },
+ "wiki2:George_Watsky": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/George_Watsky_by_Gage_Skidmore.jpg/1280px-George_Watsky_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/George_Watsky",
+  "w": 2156,
+  "h": 2970
+ },
+ "who2:Guerilla Toss": {
+  "role": "American art rock band",
+  "wiki": "Guerilla_Toss"
+ },
+ "wiki2:Guerilla_Toss": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Guerilla_Toss_Live%2C_November_16%2C_2022.jpg/1280px-Guerilla_Toss_Live%2C_November_16%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Guerilla_Toss",
+  "w": 6000,
+  "h": 4000
+ },
+ "who2:Tatiana Frank": null,
+ "who2:Austin Nasso": null,
+ "who2:Michele Durante": null,
+ "who2:E-Town Concrete": {
+  "role": "American hardcore punk band",
+  "wiki": "E.Town_Concrete"
+ },
+ "wiki2:E.Town_Concrete": null,
+ "who2:Dev Lemons": {
+  "role": "American singer-songwriter and record producer (born 1999)",
+  "wiki": "Dev_Lemons"
+ },
+ "wiki2:Dev_Lemons": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Dev-Lemons-Performing-2026.jpg/1280px-Dev-Lemons-Performing-2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Dev_Lemons",
+  "w": 4284,
+  "h": 5712
+ },
+ "who2:Ben Katzman's Degreaser": null,
+ "who2:Gary Vider": null,
+ "who2:Maximilian Spinelli": null,
+ "who2:Mariza": {
+  "role": "Portuguese fado singer (born 1973)",
+  "wiki": "Mariza"
+ },
+ "wiki2:Mariza": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg/1280px-Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Mariza",
+  "w": 1758,
+  "h": 2076
+ },
+ "who2:Grocer": null,
+ "who2:Gurleen Pannu": null,
+ "who2:Candlebox": {
+  "role": "American rock band",
+  "wiki": "Candlebox"
+ },
+ "wiki2:Candlebox": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Candlebox_2009_Aberdeen_1.jpg/1280px-Candlebox_2009_Aberdeen_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Candlebox",
+  "w": 3504,
+  "h": 2336
+ },
+ "who2:Sponge": {
+  "role": "American rock band",
+  "wiki": "Sponge_(band)"
+ },
+ "wiki2:Sponge_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Sponge_%28band%29_2008.jpg/1280px-Sponge_%28band%29_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Sponge_(band)",
+  "w": 3648,
+  "h": 2736
+ },
+ "who2:The Barr Brothers": {
+  "role": "Canadian-American indie folk band",
+  "wiki": "The_Barr_Brothers"
+ },
+ "wiki2:The_Barr_Brothers": null,
+ "who2:Jon Lampley": null,
+ "who2:Hurricane Wisdom": {
+  "role": "American rapper (born 2004)",
+  "wiki": "Hurricane_Wisdom"
+ },
+ "wiki2:Hurricane_Wisdom": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Hurricane_Wisdom.webp?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Hurricane_Wisdom",
+  "w": 831,
+  "h": 774
+ },
+ "who2:Coco Montoya": {
+  "role": "American blues guitarist and singer",
+  "wiki": "Coco_Montoya"
+ },
+ "wiki2:Coco_Montoya": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Coco_Montoya_7Dec2007.jpg/1280px-Coco_Montoya_7Dec2007.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Coco_Montoya",
+  "w": 3646,
+  "h": 2712
+ },
+ "who2:Machine Girl": {
+  "role": "American electronic music group",
+  "wiki": "Machine_Girl"
+ },
+ "wiki2:Machine_Girl": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Machine_Girl_Dec14-2024.jpg/1280px-Machine_Girl_Dec14-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Machine_Girl",
+  "w": 3024,
+  "h": 4032
+ },
+ "who2:Immortal Technique": {
+  "role": "American rapper (born 1978)",
+  "wiki": "Immortal_Technique"
+ },
+ "wiki2:Immortal_Technique": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Immortal_Technique_performing_in_2010_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Immortal_Technique",
+  "w": 905,
+  "h": 1206
+ },
+ "who2:Model/Actriz": {
+  "role": "American rock band",
+  "wiki": "Model/Actriz"
+ },
+ "wiki2:Model/Actriz": null,
+ "who2:Bad Bunny": {
+  "role": "Puerto Rican rapper (born 1994)",
+  "wiki": "Bad_Bunny"
+ },
+ "wiki2:Bad_Bunny": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/1280px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Bad_Bunny",
+  "w": 2650,
+  "h": 4010
+ },
+ "who2:Lenny Kaye": {
+  "role": "American guitarist, composer, and writer (born 1946)",
+  "wiki": "Lenny_Kaye"
+ },
+ "wiki2:Lenny_Kaye": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Lenny_Kaye_and_guitar_1978.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Lenny_Kaye",
+  "w": 670,
+  "h": 684
+ },
+ "who2:Keith Washington": {
+  "role": "American singer (born 1960)",
+  "wiki": "Keith_Washington"
+ },
+ "wiki2:Keith_Washington": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Keith_Washington_Head_Shot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Keith_Washington",
+  "w": 1036,
+  "h": 1440
+ },
+ "who2:Blake Whiten": {
+  "role": "American country singer (born 2004)",
+  "wiki": "Blake_Whiten"
+ },
+ "who2:The Wrecks": {
+  "role": "American pop rock band",
+  "wiki": "The_Wrecks"
+ },
+ "who2:The Amity Affliction": {
+  "role": "Australian post-hardcore band",
+  "wiki": "The_Amity_Affliction"
+ },
+ "wiki2:The_Wrecks": null,
+ "wiki2:The_Amity_Affliction": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Amity_Affliction_Summer_of_Loud_2025_Phoenix.jpg/1280px-Amity_Affliction_Summer_of_Loud_2025_Phoenix.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Amity_Affliction",
+  "w": 4032,
+  "h": 3024
+ },
+ "who2:Willie J Healey": {
+  "role": "English singer-songwriter",
+  "wiki": "Willie_J_Healey"
+ },
+ "wiki2:Willie_J_Healey": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Willie_J._Healey%2C_Ampere_-_Munich%2C_2024.jpg/1280px-Willie_J._Healey%2C_Ampere_-_Munich%2C_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Willie_J_Healey",
+  "w": 4036,
+  "h": 6048
+ },
+ "who2:Kate Nash": {
+  "role": "British musician (born 1987)",
+  "wiki": "Kate_Nash"
+ },
+ "wiki2:Kate_Nash": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Kate_Nash_UPROXX_interview_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Kate_Nash",
+  "w": 657,
+  "h": 876
+ },
+ "who2:Ólafur Arnalds": {
+  "role": "Icelandic musician and composer (born 1986)",
+  "wiki": "Ólafur_Arnalds"
+ },
+ "wiki2:Ólafur_Arnalds": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg/1280px-20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/%C3%93lafur_Arnalds",
+  "w": 4041,
+  "h": 2694
+ },
+ "who2:Pete Rock": {
+  "role": "American record producer (born 1970)",
+  "wiki": "Pete_Rock"
+ },
+ "wiki2:Pete_Rock": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Pete_Rock_%40_The_Brookyln_Bowl_in_2016.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Pete_Rock",
+  "w": 1000,
+  "h": 664
+ },
+ "who2:Gus Dapperton": {
+  "role": "American singer-songwriter (born 1997)",
+  "wiki": "Gus_Dapperton"
+ },
+ "who2:Slomosa": {
+  "role": "Norwegian rock band",
+  "wiki": "Slomosa"
+ },
+ "wiki2:Slomosa": null,
+ "who2:Clutch": {
+  "role": "American rock band",
+  "wiki": "Clutch_(band)"
+ },
+ "wiki2:Clutch_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Clutch_-_Wacken_Open_Air_2022_05_%28cropped%29.jpg/1280px-Clutch_-_Wacken_Open_Air_2022_05_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Clutch_(band)",
+  "w": 4150,
+  "h": 2335
+ },
+ "who2:Johnny Jewel": {
+  "role": "American musician, record producer, and visual artist (born 1974)",
+  "wiki": "Johnny_Jewel"
+ },
+ "wiki2:Johnny_Jewel": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Johnny_Jewel_%28152735200%29_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Johnny_Jewel",
+  "w": 1210,
+  "h": 1304
+ },
+ "who2:William Basinski": {
+  "role": "American composer (born 1958)",
+  "wiki": "William_Basinski"
+ },
+ "wiki2:William_Basinski": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/William_Basinski_%28cropped%29.jpg/1280px-William_Basinski_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/William_Basinski",
+  "w": 1426,
+  "h": 1590
+ },
+ "who2:Born of Osiris": {
+  "role": "American metalcore band",
+  "wiki": "Born_of_Osiris"
+ },
+ "who2:Miss May I": {
+  "role": "American metalcore band",
+  "wiki": "Miss_May_I"
+ },
+ "who2:Jukebox the Ghost": {
+  "role": "American three-piece power pop band",
+  "wiki": "Jukebox_the_Ghost"
+ },
+ "wiki2:Born_of_Osiris": null,
+ "wiki2:Jukebox_the_Ghost": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/JukeboxTheGhost_DIAL_Paste_CortneyArmitage126A09952016_%281%29_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jukebox_the_Ghost",
+  "w": 1200,
+  "h": 800
+ },
+ "wiki2:Miss_May_I": null,
+ "who2:Beartooth": {
+  "role": "American rock band",
+  "wiki": "Beartooth_(band)"
+ },
+ "who2:Manchester Orchestra": {
+  "role": "American indie rock band",
+  "wiki": "Manchester_Orchestra"
+ },
+ "wiki2:Beartooth_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Beartooth_-_Rock_am_Ring_2019-2922.jpg/1280px-Beartooth_-_Rock_am_Ring_2019-2922.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Beartooth_(band)",
+  "w": 5192,
+  "h": 2552
+ },
+ "wiki2:Manchester_Orchestra": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Manchester_Orchestra_-_September_24%2C_2017_%40_Concord_Music_Hall.jpg/1280px-Manchester_Orchestra_-_September_24%2C_2017_%40_Concord_Music_Hall.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Manchester_Orchestra",
+  "w": 4032,
+  "h": 3024
+ },
+ "who2:Victoria Monét": {
+  "role": "American singer-songwriter (born 1989)",
+  "wiki": "Victoria_Monét"
+ },
+ "who2:Phillip Phillips": {
+  "role": "American singer",
+  "wiki": "Phillip_Phillips"
+ },
+ "wiki2:Victoria_Monét": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Victoria_Mon%C3%A9t_WHTA_2023.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Victoria_Mon%C3%A9t",
+  "w": 612,
+  "h": 821
+ },
+ "wiki2:Phillip_Phillips": null,
+ "who2:DJ Snake": {
+  "role": "French record producer (born 1986)",
+  "wiki": "DJ_Snake"
+ },
+ "wiki2:DJ_Snake": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/DJS-Presskit05_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/DJ_Snake",
+  "w": 1262,
+  "h": 1950
+ },
+ "who2:Nia Archives": {
+  "role": "English record producer, DJ and songwriter",
+  "wiki": "Nia_Archives"
+ },
+ "who2:Grand Funk Railroad": {
+  "role": "American band",
+  "wiki": "Grand_Funk_Railroad"
+ },
+ "wiki2:Nia_Archives": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Nia_Archives_2024-11-16_Amsterdam.jpg/1280px-Nia_Archives_2024-11-16_Amsterdam.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Nia_Archives",
+  "w": 3816,
+  "h": 2889
+ },
+ "wiki2:Grand_Funk_Railroad": null,
+ "who2:Yung Gravy": {
+  "role": "American rapper (born 1996)",
+  "wiki": "Yung_Gravy"
+ },
+ "wiki2:Yung_Gravy": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Yung_Gravy_2023_%28cropped%29_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Yung_Gravy",
+  "w": 1251,
+  "h": 2002
+ },
+ "who2:Lalah Hathaway": {
+  "role": "American singer (born 1968)",
+  "wiki": "Lalah_Hathaway"
+ },
+ "wiki2:Lalah_Hathaway": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lalah_Hathaway%2C_2021.jpg/1280px-Lalah_Hathaway%2C_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Lalah_Hathaway",
+  "w": 5304,
+  "h": 7952
+ },
+ "who2:Stella Lefty": {
+  "role": "American singer-songwriter (born 2002)",
+  "wiki": "Stella_Lefty"
+ },
+ "wiki2:Stella_Lefty": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Stella_Lefty_%40_Moroccan_Lounge.jpg/1280px-Stella_Lefty_%40_Moroccan_Lounge.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Stella_Lefty",
+  "w": 3200,
+  "h": 4000
+ },
+ "who2:Jerry Seinfeld": {
+  "role": "American comedian and actor (born 1954)",
+  "wiki": "Jerry_Seinfeld"
+ },
+ "wiki2:Jerry_Seinfeld": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Jerry_Seinfeld_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jerry_Seinfeld",
+  "w": 910,
+  "h": 1146
+ },
+ "who2:Stevie Wonder": {
+  "role": "American musician (born 1950)",
+  "wiki": "Stevie_Wonder"
+ },
+ "wiki2:Stevie_Wonder": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/SWonderBSTHyde060719-72_%28cropped%29.jpg/1280px-SWonderBSTHyde060719-72_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Stevie_Wonder",
+  "w": 1479,
+  "h": 1971
+ },
+ "who2:Guster": {
+  "role": "American alternative rock band",
+  "wiki": "Guster"
+ },
+ "wiki2:Guster": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Guster_at_FleetBoston_Pavil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Guster",
+  "w": 800,
+  "h": 397
+ },
+ "who2:The Pineapple Thief": {
+  "role": "British progressive rock band",
+  "wiki": "The_Pineapple_Thief"
+ },
+ "wiki2:The_Pineapple_Thief": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/20190227_Batschkapp_Frankfurt_051_Pineapple_Thief.jpg/1280px-20190227_Batschkapp_Frankfurt_051_Pineapple_Thief.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Pineapple_Thief",
+  "w": 4032,
+  "h": 2268
+ },
+ "who2:Ify Nwadiwe": {
+  "role": "American actor and comedian",
+  "wiki": "Ify_Nwadiwe"
+ },
+ "wiki2:Ify_Nwadiwe": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Ify_Nwadiwe.jpg/1280px-Ify_Nwadiwe.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Ify_Nwadiwe",
+  "w": 1796,
+  "h": 2245
+ },
+ "og2:https://www.songkick.com/concerts/43292121-liana-flores-at-bowery-ballroom?utm_medium=organic&utm_source=microformat": null
 }
