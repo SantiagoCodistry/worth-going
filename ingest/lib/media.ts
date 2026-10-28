@@ -375,6 +375,44 @@ export async function placeImage(p: Place): Promise<Img> {
   return p.book?.url ? pageImage(p.book.url) : null
 }
 
+// ——— Venue coordinates (OpenStreetMap Nominatim: one request a second) ———
+
+// Roughly New Haven to Wilmington, the Shore to the Lehigh Valley.
+const REGION = { minLng: -76.2, minLat: 39.3, maxLng: -72.8, maxLat: 41.6 }
+const NOT_A_PLACE = /address shared|after you register|see listing|online|zoom|virtual|tba|to be announced|private home|venue given|webinar/i
+let lastGeocode = 0
+
+export async function geocodeVenue(name: string, address: string | undefined, cityName: string): Promise<{ lat: number; lng: number } | null> {
+  const key = `geo:${name}|${address ?? ''}|${cityName}`
+  if (key in cache) return cache[key] as unknown as { lat: number; lng: number } | null
+  if (NOT_A_PLACE.test(`${name} ${address ?? ''}`)) return null
+  const queries = [
+    address && `${name}, ${address}`,
+    address && /\d/.test(address) ? address : undefined,
+    `${name}, ${cityName}`,
+  ].filter((q): q is string => !!q)
+  let found: { lat: number; lng: number } | null = null
+  try {
+    for (const q of queries) {
+      const wait = lastGeocode + 1100 - Date.now()
+      if (wait > 0) await new Promise((ok) => setTimeout(ok, wait))
+      lastGeocode = Date.now()
+      const box = `${REGION.minLng},${REGION.maxLat},${REGION.maxLng},${REGION.minLat}`
+      const res = await getJson<{ lat: string; lon: string }[]>(
+        `https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&viewbox=${box}&bounded=1&q=${encodeURIComponent(q)}`,
+      )
+      if (res[0]) {
+        found = { lat: Math.round(Number(res[0].lat) * 1e5) / 1e5, lng: Math.round(Number(res[0].lon) * 1e5) / 1e5 }
+        break
+      }
+    }
+  } catch {
+    return null // network trouble: try again next run
+  }
+  ;(cache as Record<string, unknown>)[key] = found
+  return found
+}
+
 export function saveCache() {
   mkdirSync(dirname(CACHE), { recursive: true })
   writeFileSync(CACHE, JSON.stringify(cache, null, 1))

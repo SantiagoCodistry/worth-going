@@ -4,6 +4,7 @@
 // developer.ticketmaster.com). Everything else works without it.
 import type { CategoryId, Person } from '../../src/shared/types.ts'
 import { areaFor } from '../lib/area.ts'
+import { latLng } from './feeds.ts'
 import { getJson } from '../lib/http.ts'
 import type { Draft, FetchContext } from './types.ts'
 
@@ -27,7 +28,7 @@ type TMEvent = {
   priceRanges?: { min: number; max: number; currency?: string }[]
   classifications?: TMClass[]
   _embedded?: {
-    venues?: { name: string; address?: { line1?: string }; city?: { name: string }; state?: { stateCode: string } }[]
+    venues?: { name: string; address?: { line1?: string }; city?: { name: string }; state?: { stateCode: string }; location?: { latitude: string; longitude: string } }[]
     attractions?: { name: string; classifications?: TMClass[] }[]
   }
 }
@@ -128,6 +129,7 @@ export async function ticketmasterRegion(ctx: FetchContext): Promise<Draft[]> {
       venue: {
         name: v?.name ?? 'Venue on the listing',
         address: [v?.address?.line1, v?.city?.name, v?.state?.stateCode].filter(Boolean).join(', ') || undefined,
+        ...latLng(v?.location?.latitude, v?.location?.longitude),
       },
       description: (e.info ?? '').trim() || `${formatFor(c) ?? 'Live event'} at ${v?.name ?? 'the venue'}, ${v?.city?.name ?? ''}.`.replace(/, \.$/, '.'),
       people: people.length ? people : undefined,

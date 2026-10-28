@@ -32,6 +32,13 @@ function splitLocation(loc = ''): { name: string; address?: string } {
   return { name: name || 'See listing', address: rest.join(', ') || undefined }
 }
 
+/** Coordinates when both are real numbers. */
+export function latLng(lat: unknown, lng: unknown): { lat?: number; lng?: number } {
+  const a = Number(lat)
+  const b = Number(lng)
+  return Number.isFinite(a) && Number.isFinite(b) && a && b && Math.abs(a) <= 90 && Math.abs(b) <= 180 ? { lat: a, lng: b } : {}
+}
+
 const isFree = (text: string) => /\b(free|no charge|no cost|admission is free)\b/i.test(text)
 
 // ——— iCalendar ———
@@ -55,7 +62,7 @@ export async function fromIcs(url: string, d: Defaults, ctx: FetchContext): Prom
         tags: e.categories.map((c) => c.toLowerCase()).slice(0, 5),
         start: e.start,
         end: e.end,
-        venue: splitLocation(e.location),
+        venue: { ...splitLocation(e.location), ...(e.geo ?? {}) },
         description: description || e.summary,
         isFree: isFree(text) || undefined,
         image: e.image ? { url: e.image } : undefined,
@@ -78,7 +85,7 @@ interface TribeEvent {
   end_date: string
   cost?: string
   image?: { url: string } | false
-  venue?: { venue?: string; address?: string; city?: string } | []
+  venue?: { venue?: string; address?: string; city?: string; geo_lat?: number | string; geo_lng?: number | string } | []
   categories?: { name: string }[]
 }
 
@@ -111,6 +118,7 @@ export async function fromTribe(base: string, d: Defaults, ctx: FetchContext): P
         venue: {
           name: plain(venue?.venue ?? '') || 'See listing',
           address: [venue?.address, venue?.city].filter(Boolean).join(', ') || undefined,
+          ...latLng(venue?.geo_lat, venue?.geo_lng),
         },
         description: description || title,
         price: e.cost || undefined,
@@ -180,6 +188,7 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
       const end = endRaw ? instant(endRaw) : undefined
       const loc = (Array.isArray(e.location) ? e.location[0] : e.location) as Json | undefined
       const addr = loc?.address as Json | string | undefined
+      const geo = loc?.geo as Json | undefined
       const offers = (Array.isArray(e.offers) ? e.offers[0] : e.offers) as Json | undefined
       // Listing sites often fill description with "Artist at Venue at <date>"; that says nothing.
       const rawDesc = excerpt(plain(String(e.description ?? '')))
@@ -210,6 +219,7 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
               : addr
                 ? [addr.streetAddress, addr.addressLocality].filter(Boolean).join(', ')
                 : undefined,
+          ...latLng(geo?.latitude, geo?.longitude),
         },
         description: description || title,
         price,
@@ -260,6 +270,7 @@ type LocalistEvent = {
   ticket_cost?: string
   ticket_url?: string
   filters?: { event_types?: { name: string }[] }
+  geo?: { latitude?: string; longitude?: string }
   event_instances: { event_instance: { start: string; end?: string; all_day?: boolean } }[]
 }
 
@@ -292,7 +303,7 @@ export async function fromLocalist(base: string, d: Defaults, ctx: FetchContext)
         tags: types.map((t) => t.toLowerCase()).slice(0, 5),
         start,
         end: end === start ? undefined : end,
-        venue: { name: plain(e.location_name ?? '') || d.sourceName, address: e.address || undefined },
+        venue: { name: plain(e.location_name ?? '') || d.sourceName, address: e.address || undefined, ...latLng(e.geo?.latitude, e.geo?.longitude) },
         description: description || title,
         price: e.free ? 'Free' : e.ticket_cost || undefined,
         isFree: e.free || isFree(text) || undefined,

@@ -15,6 +15,7 @@ export interface IcsEvent {
   allDay: boolean
   categories: string[]
   image?: string
+  geo?: { lat: number; lng: number }
 }
 
 function unfold(text: string): string[] {
@@ -88,6 +89,7 @@ export function parseIcs(text: string): IcsEvent[] {
             allDay: s.allDay,
             categories: (cur['CATEGORIES'] ?? []).flatMap((c) => unescape(c.v).split(',')).map((c) => c.trim()),
             image: attach ?? first('X-WP-IMAGE-URL')?.v,
+            geo: parseGeo(first('GEO')?.v),
           })
         }
       } catch {
@@ -102,4 +104,10 @@ export function parseIcs(text: string): IcsEvent[] {
     }
   }
   return out
+}
+
+/** GEO:lat;lng */
+function parseGeo(v?: string): { lat: number; lng: number } | undefined {
+  const [lat, lng] = (v ?? '').split(/[;,]/).map(Number)
+  return Number.isFinite(lat) && Number.isFinite(lng) && (lat || lng) ? { lat, lng } : undefined
 }

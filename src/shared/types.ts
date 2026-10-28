@@ -27,6 +27,9 @@ export interface Venue {
   name: string
   address?: string
   neighborhood?: string
+  /** Map position, from the source or geocoded during ingest. */
+  lat?: number
+  lng?: number
 }
 
 /** Someone appearing at an event: a speaker, performer or host. */

@@ -13,7 +13,7 @@ import { addDays, nyDateKey, sortTime } from '../src/shared/time.ts'
 import type { Draft } from './adapters/types.ts'
 import { CONFIG } from './config.ts'
 import { isNoise, outOfArea, score, whyFor } from './lib/enrich.ts'
-import { addMedia, placeImage, placeMeta, saveCache, standardThumb } from './lib/media.ts'
+import { addMedia, geocodeVenue, placeImage, placeMeta, saveCache, standardThumb } from './lib/media.ts'
 import { cityById } from '../src/shared/taxonomy.ts'
 import { PLACES } from '../src/data/places.ts'
 import { slug } from './lib/http.ts'
@@ -110,6 +110,27 @@ async function run() {
     }
   }
   if (!offline) await addMedia(final)
+
+  // Map positions for "near me". Offline runs reuse the last ones; online runs look up
+  // venues that have none (cached, so each venue is looked up once).
+  const placed = new Map<string, { lat: number; lng: number }>()
+  for (const e of before.values()) if (e.venue.lat && e.venue.lng) placed.set(e.id, { lat: e.venue.lat, lng: e.venue.lng })
+  let lookups = 0
+  for (const e of final) {
+    if (e.venue.lat && e.venue.lng) continue
+    const old = placed.get(e.id)
+    if (old) {
+      Object.assign(e.venue, old)
+      continue
+    }
+    // At most 250 new lookups a run, to stay well inside OpenStreetMap's usage policy.
+    if (offline || lookups >= 250) continue
+    const t = Date.now()
+    const g = await geocodeVenue(e.venue.name, e.venue.address, cityById(e.city).name)
+    if (Date.now() - t > 500) lookups++
+    if (g) Object.assign(e.venue, g)
+  }
+  if (!offline) saveCache()
   for (const e of final) e.score = score(e)
 
   const placeImages: NonNullable<Dataset['placeImages']> = offline ? { ...(prev?.placeImages ?? {}) } : {}
@@ -140,6 +161,7 @@ async function run() {
   if (!existsSync(dirname(OUT))) mkdirSync(dirname(OUT), { recursive: true })
   writeFileSync(OUT, JSON.stringify(data, null, 1))
   const liveCount = final.filter((e) => e.provenance === 'live').length
+  console.log(`Map positions for ${final.filter((e) => e.venue.lat).length} of ${final.length} events`)
   console.log(`\nWrote ${final.length} events (${liveCount} live, ${final.length - liveCount} preview) → public/data/events.json`)
 }
 
