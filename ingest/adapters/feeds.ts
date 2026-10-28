@@ -1,7 +1,7 @@
 // Generic adapters for the open web: iCalendar feeds, WordPress sites
 // running The Events Calendar, Luma city calendars and schema.org JSON-LD.
 import type { CategoryId, CityId } from '../../src/shared/types.ts'
-import { categorize } from '../lib/enrich.ts'
+import { categorize, formatFor } from '../lib/enrich.ts'
 import { excerpt, get, getJson, plain, slug } from '../lib/http.ts'
 import { parseIcs } from '../lib/ics.ts'
 import type { Draft, FetchContext } from './types.ts'
@@ -37,13 +37,14 @@ export async function fromIcs(url: string, d: Defaults, ctx: FetchContext): Prom
     .filter((e) => !d.include || d.include.test(`${e.summary} ${e.description ?? ''}`))
     .map((e) => {
       const description = excerpt(plain(e.description ?? ''))
-      const text = `${e.summary} ${e.categories.join(' ')} ${description}`
+      const text = `${e.categories.join(' ')} ${description}`
       return {
         id: `${slug(d.sourceName)}-${slug(e.uid ?? e.summary)}-${e.start.slice(0, 10)}`,
         title: e.summary,
         kind: 'event' as const,
         city: d.city,
-        category: categorize(text, d.category),
+        category: categorize(e.summary, text, d.category),
+        format: formatFor(e.summary),
         tags: e.categories.map((c) => c.toLowerCase()).slice(0, 5),
         start: e.start,
         end: e.end,
@@ -85,8 +86,8 @@ export async function fromTribe(base: string, d: Defaults, ctx: FetchContext): P
       const title = plain(e.title)
       const description = excerpt(plain(e.description))
       const cats = (e.categories ?? []).map((c) => c.name)
-      const text = `${title} ${cats.join(' ')} ${description}`
-      if (d.include && !d.include.test(text)) continue
+      const text = `${cats.join(' ')} ${description}`
+      if (d.include && !d.include.test(`${title} ${text}`)) continue
       const venue = Array.isArray(e.venue) ? undefined : e.venue
       const start = e.all_day ? e.start_date.slice(0, 10) : e.utc_start_date.replace(' ', 'T') + 'Z'
       const end = e.all_day ? e.end_date.slice(0, 10) : e.utc_end_date.replace(' ', 'T') + 'Z'
@@ -95,7 +96,8 @@ export async function fromTribe(base: string, d: Defaults, ctx: FetchContext): P
         title,
         kind: 'event',
         city: d.city,
-        category: categorize(text, d.category),
+        category: categorize(title, text, d.category),
+        format: formatFor(title),
         tags: cats.map((c) => c.toLowerCase()).slice(0, 5),
         start,
         end: end === start ? undefined : end,
@@ -165,14 +167,15 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
       const addr = loc?.address as Json | string | undefined
       const offers = (Array.isArray(e.offers) ? e.offers[0] : e.offers) as Json | undefined
       const description = excerpt(plain(String(e.description ?? '')))
-      const text = `${title} ${description}`
+      const text = description
       const price = offers?.price != null ? (Number(offers.price) === 0 ? 'Free' : `$${offers.price}`) : undefined
       return {
         id: `${slug(d.sourceName)}-${slug(title)}-${start.slice(0, 10)}`,
         title,
         kind: 'event',
         city: d.city,
-        category: categorize(text, d.category),
+        category: categorize(title, text, d.category),
+        format: formatFor(title),
         tags: [],
         start,
         end,
@@ -187,7 +190,7 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
         },
         description: description || title,
         price,
-        isFree: price === 'Free' || isFree(text) || undefined,
+        isFree: price === 'Free' || isFree(`${title} ${text}`) || undefined,
         image: str(e.image) ? { url: str(e.image)! } : undefined,
         sourceName: d.sourceName,
         sourceUrl: str(e.url) ?? url,

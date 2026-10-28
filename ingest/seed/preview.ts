@@ -927,51 +927,9 @@ const seeds: Seed[] = [
   },
 
   // ——— Sports ———
-  {
-    id: 'princeton-football-penn-2026',
-    format: 'College football',
-    title: 'Princeton vs. Penn',
-    subtitle: 'Ivy League football, last game of the season',
-    city: 'princeton',
-    category: 'sports',
-    tags: ['football'],
-    start: '2026-11-21',
-    timeTBA: true,
-    venue: { name: 'Princeton Stadium', address: 'Princeton University', neighborhood: 'Campus' },
-    description: 'Princeton’s last home game of 2026, against its oldest rival.',
-    sourceName: 'Princeton Athletics',
-    sourceUrl: 'https://goprincetontigers.com/news/2026/5/4/football-releases-2026-schedule',
-    note: 'One listing says 5:00 pm kickoff.',
-  },
-  {
-    id: 'knicks-heat-nba-cup-2026-11-27',
-    format: 'NBA basketball',
-    title: 'Knicks vs. Heat',
-    subtitle: 'NBA Cup',
-    city: 'nyc',
-    category: 'sports',
-    tags: ['nba'],
-    start: '2026-11-27 19:00',
-    venue: { name: 'Madison Square Garden', address: '4 Pennsylvania Plaza, New York', neighborhood: 'Midtown' },
-    description: 'An NBA Cup group game the night after Thanksgiving.',
-    sourceName: 'EssentiallySports',
-    sourceUrl:
-      'https://www.essentiallysports.com/nba-active-basketball-news-new-york-knicks-2026-27-schedule-all-dates-and-notable-matches/',
-  },
-  {
-    id: 'eagles-giants-2026-11-08',
-    format: 'NFL football',
-    title: 'Eagles vs. Giants',
-    city: 'philly',
-    category: 'sports',
-    tags: ['nfl'],
-    start: '2026-11-08 13:00',
-    venue: { name: 'Lincoln Financial Field', address: '1 Lincoln Financial Field Way, Philadelphia', neighborhood: 'South Philadelphia' },
-    description: 'A division game at the Linc.',
-    sourceName: 'FOX 29 Philadelphia',
-    sourceUrl:
-      'https://www.fox29.com/sports/philadelphia-eagles-2026-2027-full-schedule-released-everything-you-need-know',
-  },
+
+
+
   {
     id: 'philadelphia-marathon-2026',
     format: 'Marathon, free to watch',

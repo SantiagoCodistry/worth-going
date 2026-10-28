@@ -108,11 +108,17 @@ test('ICS parser: folding, escapes, TZID, UTC and all-day', () => {
 })
 
 test('curation rules', () => {
-  assert.equal(categorize('Founder pitch night with seed investors', 'ideas'), 'startups')
-  assert.equal(categorize('Brad Mehldau Trio', 'ideas'), 'music')
-  assert.equal(categorize('Book talk: author in conversation', 'music'), 'ideas')
-  assert.ok(isNoise({ title: 'FPO: Jane Doe dissertation defense', description: '' }))
-  assert.ok(!isNoise({ title: 'Public lecture on democracy', description: 'Open to all.' }))
+  assert.equal(categorize('Founder pitch night with seed investors', '', 'ideas'), 'startups')
+  assert.equal(categorize('Brad Mehldau Trio', '', 'ideas'), 'music')
+  assert.equal(categorize('Book talk: author in conversation', '', 'music'), 'ideas')
+  // Title wins over a description that mentions a band.
+  assert.equal(categorize('Hometown Halloween Parade', 'with a marching band', 'ideas'), 'unusual')
+  assert.equal(categorize('The Original Asbury Park Ghost Tours', 'a tour of', 'music'), 'unusual')
+  const v = { name: 'Somewhere' }
+  assert.ok(isNoise({ title: 'FPO: Jane Doe dissertation defense', description: '', venue: v }))
+  assert.ok(isNoise({ title: 'Gratitude Yoga Class', description: '', venue: v }))
+  assert.ok(isNoise({ title: 'Saucony x 212 Athletic Shakeout Run', description: '', venue: v }))
+  assert.ok(!isNoise({ title: 'Public lecture on democracy', description: 'Open to all.', venue: v }))
 })
 
 const ctx = { from: new Date('2026-10-28T12:00:00Z'), to: new Date('2026-12-12T12:00:00Z') }

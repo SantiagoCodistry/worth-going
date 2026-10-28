@@ -5,8 +5,8 @@
 // Only public, keyless endpoints that publishers offer for reuse (iCal
 // subscriptions, their own REST APIs, structured data they embed for
 // search engines). Ticketmaster is the one exception and is opt-in.
-import { espn, mlb, nba, nhl } from './adapters/sports.ts'
-import { fromJsonLd, fromLuma, fromTribe } from './adapters/feeds.ts'
+import { espn, mlb, nhl } from './adapters/sports.ts'
+import { fromLuma, fromTribe } from './adapters/feeds.ts'
 import { ticketmaster } from './adapters/ticketmaster.ts'
 import type { Source } from './adapters/types.ts'
 
@@ -28,26 +28,8 @@ export const SOURCES: Source[] = [
     fetch: (ctx) =>
       fromTribe('https://planetprinceton.com', { city: 'princeton', category: 'ideas', sourceName: 'Planet Princeton', homepage: 'https://planetprinceton.com/events/' }, ctx),
   },
-  {
-    id: 'princeton-edu',
-    name: 'Princeton University events',
-    homepage: 'https://www.princeton.edu/events',
-    city: 'princeton',
-    kind: 'jsonld',
-    category: 'ideas',
-    fetch: (ctx) =>
-      fromJsonLd('https://www.princeton.edu/events', { city: 'princeton', category: 'ideas', sourceName: 'Princeton University', homepage: 'https://www.princeton.edu/events' }, ctx),
-  },
-  {
-    id: 'princeton-lectures',
-    name: 'Princeton University Public Lectures',
-    homepage: 'https://lectures.princeton.edu/',
-    city: 'princeton',
-    kind: 'jsonld',
-    category: 'ideas',
-    fetch: (ctx) =>
-      fromJsonLd('https://lectures.princeton.edu/', { city: 'princeton', category: 'ideas', sourceName: 'Princeton University', homepage: 'https://lectures.princeton.edu/' }, ctx),
-  },
+
+
   {
     id: 'princeton-football',
     name: 'Princeton Tigers football (ESPN)',
@@ -90,30 +72,12 @@ export const SOURCES: Source[] = [
     fetch: (ctx) =>
       fromTribe('https://entrepreneurship.columbia.edu', { city: 'nyc', category: 'startups', sourceName: 'Columbia Entrepreneurship', homepage: 'https://entrepreneurship.columbia.edu/events/' }, ctx),
   },
-  {
-    id: 'carnegie-hall',
-    name: 'Carnegie Hall calendar',
-    homepage: 'https://www.carnegiehall.org/Calendar',
-    city: 'nyc',
-    kind: 'jsonld',
-    category: 'music',
-    fetch: (ctx) =>
-      fromJsonLd('https://www.carnegiehall.org/Calendar', { city: 'nyc', category: 'music', sourceName: 'Carnegie Hall', homepage: 'https://www.carnegiehall.org/Calendar' }, ctx),
-  },
-  {
-    id: 'village-vanguard',
-    name: 'Village Vanguard',
-    homepage: 'https://villagevanguard.com/',
-    city: 'nyc',
-    kind: 'jsonld',
-    category: 'music',
-    fetch: (ctx) =>
-      fromJsonLd('https://villagevanguard.com/', { city: 'nyc', category: 'music', sourceName: 'Village Vanguard', homepage: 'https://villagevanguard.com/' }, ctx),
-  },
-  { id: 'knicks', name: 'New York Knicks (NBA)', homepage: 'https://www.nba.com/knicks/schedule', city: 'nyc', kind: 'nba', category: 'sports',
-    fetch: (ctx) => nba('NYK', { ...MSG, league: 'NBA', sourceUrl: 'https://www.nba.com/knicks/schedule' }, ctx) },
-  { id: 'nets', name: 'Brooklyn Nets (NBA)', homepage: 'https://www.nba.com/nets/schedule', city: 'nyc', kind: 'nba', category: 'sports',
-    fetch: (ctx) => nba('BKN', { ...BARCLAYS, league: 'NBA', sourceUrl: 'https://www.nba.com/nets/schedule' }, ctx) },
+
+
+  { id: 'knicks', name: 'New York Knicks (NBA)', homepage: 'https://www.nba.com/knicks/schedule', city: 'nyc', kind: 'espn', category: 'sports',
+    fetch: (ctx) => espn('basketball/nba', '18', { ...MSG, league: 'NBA', sourceUrl: 'https://www.nba.com/knicks/schedule' }, ctx) },
+  { id: 'nets', name: 'Brooklyn Nets (NBA)', homepage: 'https://www.nba.com/nets/schedule', city: 'nyc', kind: 'espn', category: 'sports',
+    fetch: (ctx) => espn('basketball/nba', '17', { ...BARCLAYS, league: 'NBA', sourceUrl: 'https://www.nba.com/nets/schedule' }, ctx) },
   { id: 'rangers', name: 'New York Rangers (NHL)', homepage: 'https://www.nhl.com/rangers/schedule', city: 'nyc', kind: 'nhl', category: 'sports',
     fetch: (ctx) => nhl('NYR', { ...MSG, league: 'NHL', sourceUrl: 'https://www.nhl.com/rangers/schedule' }, ctx) },
   { id: 'yankees', name: 'New York Yankees (MLB)', homepage: 'https://www.mlb.com/yankees/schedule', city: 'nyc', kind: 'mlb', category: 'sports',
@@ -125,15 +89,15 @@ export const SOURCES: Source[] = [
   {
     id: 'luma-philly',
     name: 'Luma — Philadelphia',
-    homepage: 'https://luma.com/philly',
+    homepage: 'https://luma.com/philadelphia',
     city: 'philly',
     kind: 'luma',
     category: 'startups',
     fetch: (ctx) =>
-      fromLuma('philly', { city: 'philly', category: 'startups', sourceName: 'Luma', homepage: 'https://luma.com/philly' }, ctx),
+      fromLuma('philadelphia', { city: 'philly', category: 'startups', sourceName: 'Luma', homepage: 'https://luma.com/philadelphia' }, ctx),
   },
-  { id: 'sixers', name: 'Philadelphia 76ers (NBA)', homepage: 'https://www.nba.com/sixers/schedule', city: 'philly', kind: 'nba', category: 'sports',
-    fetch: (ctx) => nba('PHI', { ...XFINITY, league: 'NBA', sourceUrl: 'https://www.nba.com/sixers/schedule' }, ctx) },
+  { id: 'sixers', name: 'Philadelphia 76ers (NBA)', homepage: 'https://www.nba.com/sixers/schedule', city: 'philly', kind: 'espn', category: 'sports',
+    fetch: (ctx) => espn('basketball/nba', '20', { ...XFINITY, league: 'NBA', sourceUrl: 'https://www.nba.com/sixers/schedule' }, ctx) },
   { id: 'flyers', name: 'Philadelphia Flyers (NHL)', homepage: 'https://www.nhl.com/flyers/schedule', city: 'philly', kind: 'nhl', category: 'sports',
     fetch: (ctx) => nhl('PHI', { ...XFINITY, league: 'NHL', sourceUrl: 'https://www.nhl.com/flyers/schedule' }, ctx) },
   { id: 'phillies', name: 'Philadelphia Phillies (MLB)', homepage: 'https://www.mlb.com/phillies/schedule', city: 'philly', kind: 'mlb', category: 'sports',

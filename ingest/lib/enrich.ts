@@ -5,26 +5,74 @@
 import type { CategoryId, WGEvent } from '../../src/shared/types.ts'
 
 const RULES: [CategoryId, RegExp][] = [
-  ['startups', /\b(startup|start-up|founder|venture|vc\b|pitch|accelerator|entrepreneur|demo day|fundrais|investor|angel|seed round|hackathon|tech meetup|networking)\b/i],
-  ['comedy', /\b(comedy|comedian|stand-?up|improv|sketch)\b/i],
-  ['sports', /\b(vs\.?|versus|game|match|football|basketball|hockey|baseball|soccer|lacrosse|regatta|marathon|tip-?off|kickoff)\b/i],
-  ['music', /\b(concert|jazz|quartet|quintet|trio|orchestra|symphony|choir|chorus|recital|band|dj\b|live music|album|tour|opera|philharmonic|ensemble|songwriter)\b/i],
-  ['art', /\b(exhibition|exhibit|gallery|museum|architecture|installation|opening reception|artist talk|curator|photograph|sculpture|dance|ballet|film screening|screening|theater|theatre)\b/i],
-  ['ideas', /\b(lecture|talk|conversation|panel|reading|author|book launch|symposium|keynote|colloquium|in conversation|discussion|speaker|forum|debate)\b/i],
-  ['unusual', /\b(parade|festival|night market|walking tour|tour of|ghost|observatory|stargazing|flea|fair|workshop|tasting|ball\b|haunted)\b/i],
+  ['comedy', /\b(comedy|comedian|stand-?up|improv|sketch show|roast|open mic)\b/i],
+  ['unusual', /\b(ghost|haunted|parade|flea|night market|stargazing|observatory|carillon|scavenger|puzzle hunt|trivia)\b/i],
+  ['startups', /\b(startup|start-up|founders?|venture|vc\b|pitch|accelerator|entrepreneur|demo (day|night)|fundrais|investors?|angel|hackathon|ai demos?)\b/i],
+  ['sports', /\b(vs\.?|versus|football|basketball|hockey|baseball|soccer|lacrosse|regatta|marathon|tip-?off|kickoff)\b/i],
+  ['music', /\b(concert|jazz|quartet|quintet|trio|orchestra|symphony|choir|chorus|recital|live music|album release|opera|philharmonic|ensemble|songwriter|dj set)\b/i],
+  ['art', /\b(exhibition|exhibit|gallery|museum|architecture|installation|opening reception|artist talk|sculpture|dance|ballet|film|screening|theater|theatre|symposium on art)\b/i],
+  ['ideas', /\b(lecture|talk|conversation|panel|reading|author|book|symposium|keynote|colloquium|discussion|speaker|forum|debate|philosophy)\b/i],
+  ['unusual', /\b(festival|fair|tasting|workshop)\b/i],
 ]
 
-export function categorize(text: string, fallback: CategoryId): CategoryId {
-  for (const [cat, re] of RULES) if (re.test(text)) return cat
+/** Classify by title first; fall back to the longer text only if the title says nothing. */
+export function categorize(title: string, more: string, fallback: CategoryId): CategoryId {
+  for (const [cat, re] of RULES) if (re.test(title)) return cat
+  for (const [cat, re] of RULES) if (re.test(more)) return cat
   return fallback
 }
 
-/** Listings we never surface: internal, administrative or online-only. */
-const NOISE =
-  /\b(dissertation|thesis defen[cs]e|fpo\b|office hours|deadline|cancel+ed|postponed|staff meeting|lab meeting|faculty meeting|orientation|registration|info(rmation)? session|training|webinar|zoom only|virtual only|online only|study break|blood drive|commencement rehearsal|members only|private event|closed to the public|internal)\b/i
+const FORMATS: [RegExp, string][] = [
+  [/\bstand-?up|comedy\b/i, 'Comedy show'],
+  [/\bdebate\b/i, 'Debate'],
+  [/\bin conversation|conversation with\b/i, 'Conversation'],
+  [/\bbook (talk|launch|signing)|author\b/i, 'Book talk'],
+  [/\blecture|colloquium\b/i, 'Lecture'],
+  [/\bpanel\b/i, 'Panel discussion'],
+  [/\bsymposium\b/i, 'Symposium'],
+  [/\bhackathon\b/i, 'Hackathon'],
+  [/\bdemo (day|night)|demos\b/i, 'Demo night'],
+  [/\bpitch\b/i, 'Pitch competition'],
+  [/\bsummit|conference\b/i, 'Conference'],
+  [/\bscreening|film\b/i, 'Film screening'],
+  [/\bexhibition|exhibit\b/i, 'Exhibition'],
+  [/\bopening\b/i, 'Gallery opening'],
+  [/\bconcert|recital\b/i, 'Concert'],
+  [/\bjazz\b/i, 'Jazz'],
+  [/\bghost tour|walking tour\b/i, 'Walking tour'],
+  [/\bparade\b/i, 'Parade'],
+  [/\bworkshop\b/i, 'Workshop'],
+  [/\bparty\b/i, 'Party'],
+]
 
-export const isNoise = (e: Pick<WGEvent, 'title' | 'description'>) =>
-  NOISE.test(e.title) || /\b(closed to the public|princeton (university )?id required|by invitation only)\b/i.test(e.description)
+/** A short, plain label for what a fetched event is. */
+export function formatFor(title: string): string | undefined {
+  return FORMATS.find(([re]) => re.test(title))?.[1]
+}
+
+/** Listings we never surface: admin, online-only, classes, retail promos and kids’ stuff. */
+const NOISE =
+  /\b(dissertation|thesis defen[cs]e|fpo\b|office hours|deadline|cancel+ed|postponed|staff meeting|lab meeting|faculty meeting|orientation|registration|info(rmation)? session|training|webinar|zoom|virtual|online|livestream|study break|blood drive|members only|private event|internal|yoga|pilates|fitness|bootcamp|run club|run series|shake ?out|10k|5k|book swap|craft corner|storytime|story time|toddler|kids?\b|family fun|spooktacular|in-store|lululemon|mall|marketfair|watch party|support group|ladies.? networking|mixer)\b/i
+
+export const isNoise = (e: Pick<WGEvent, 'title' | 'description' | 'venue'>) =>
+  NOISE.test(e.title) ||
+  NOISE.test(e.venue.name) ||
+  /\b(closed to the public|princeton (university )?id required|by invitation only)\b/i.test(e.description)
+
+/**
+ * Princeton listings include the surrounding area and the corridor to New York
+ * and Philadelphia (Hopewell, Trenton, New Brunswick…). Drop only places clearly
+ * off that path, such as the Jersey Shore.
+ */
+const FAR_AWAY: Record<string, RegExp> = {
+  princeton:
+    /asbury park|atlantic city|cape may|long branch|red bank|toms river|ocean city|wildwood|point pleasant|belmar|seaside|morristown|paterson|hackensack/i,
+}
+export function outOfArea(e: WGEvent): boolean {
+  const re = FAR_AWAY[e.city]
+  if (!re || e.provenance !== 'live') return false
+  return re.test(`${e.venue.name} ${e.venue.address ?? ''} ${e.title}`)
+}
 
 interface VenueNote {
   match: RegExp
@@ -70,8 +118,16 @@ const CATEGORY_WEIGHT: Record<CategoryId, number> = {
   music: 12, ideas: 12, art: 10, startups: 10, unusual: 12, comedy: 12, sports: 6, dining: 0,
 }
 
+// Signs of a listing that's worth a detour, and of one that isn't.
+const GOOD = /\b(in conversation|conversation with|debate|lecture|author|premiere|festival|symposium|hackathon|demo night|concert|recital|screening|opening night|launch)\b/i
+const MEH = /\b(meetup|networking|happy hour|class|club|series|workshop|swap|social|brunch)\b/i
+
 export function score(e: WGEvent): number {
   let s = CATEGORY_WEIGHT[e.category]
+  if (e.provenance === 'preview') s += 20 // hand-picked
+  if (GOOD.test(e.title)) s += 8
+  if (MEH.test(e.title)) s -= 10
+  if (e.people?.length) s += 6
   if (e.pick) s += 40
   s += venueNote(`${e.venue.name} ${e.venue.address ?? ''}`)?.weight ?? 0
   if (e.isFree) s += 8

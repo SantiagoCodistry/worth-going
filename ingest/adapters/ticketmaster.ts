@@ -41,7 +41,7 @@ export async function ticketmaster(city: CityId, ctx: FetchContext): Promise<Dra
       title: e.name,
       kind: 'event',
       city,
-      category: categorize(`${e.name} ${genre ?? ''}`, 'music'),
+      category: categorize(e.name, genre ?? '', 'music'),
       tags: genre ? [genre.toLowerCase()] : [],
       start: e.dates.start.dateTime ?? e.dates.start.localDate,
       timeTBA: !e.dates.start.dateTime || undefined,

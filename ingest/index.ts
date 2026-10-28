@@ -9,10 +9,10 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import type { Dataset, SourceStatus, WGEvent } from '../src/shared/types.ts'
-import { sortTime } from '../src/shared/time.ts'
+import { addDays, nyDateKey, sortTime } from '../src/shared/time.ts'
 import type { Draft } from './adapters/types.ts'
 import { CONFIG } from './config.ts'
-import { isNoise, score, whyFor } from './lib/enrich.ts'
+import { isNoise, outOfArea, score, whyFor } from './lib/enrich.ts'
 import { addMedia, pageImage } from './lib/media.ts'
 import { PLACES } from '../src/data/places.ts'
 import { slug } from './lib/http.ts'
@@ -80,13 +80,13 @@ async function run() {
   const cutoff = now.getTime() - 3 * 3600000
   const byId = new Map<string, WGEvent>()
   for (const e of events) {
-    if (isNoise(e)) continue
+    if (isNoise(e) || outOfArea(e)) continue
     // Exhibitions without a published closing date stay listed for up to six months.
     const lastDay = e.end ?? (e.kind === 'exhibition' ? new Date(sortTime(e.start) + 180 * 86400000).toISOString() : e.start)
     if (sortTime(lastDay) < cutoff) continue
     if (!byId.has(e.id)) byId.set(e.id, e)
   }
-  const final = [...byId.values()].sort((a, b) => sortTime(a.start) - sortTime(b.start))
+  const final = collapseRepeats([...byId.values()]).sort((a, b) => sortTime(a.start) - sortTime(b.start))
 
   // Pictures: reuse what earlier runs found, then look up anything missing.
   const before = new Map((prev?.events ?? []).map((e) => [e.id, e]))
@@ -119,6 +119,40 @@ async function run() {
   writeFileSync(OUT, JSON.stringify(data, null, 1))
   const liveCount = final.filter((e) => e.provenance === 'live').length
   console.log(`\nWrote ${final.length} events (${liveCount} live, ${final.length - liveCount} preview) → public/data/events.json`)
+}
+
+/**
+ * Feeds list a recurring event once per day. Show it once instead:
+ * consecutive days become a date range; spaced dates keep the next one and
+ * mention the rest.
+ */
+function collapseRepeats(events: WGEvent[]): WGEvent[] {
+  const groups = new Map<string, WGEvent[]>()
+  for (const e of events) {
+    const key = e.provenance === 'live' ? `${e.sourceId}|${slug(e.title)}|${slug(e.venue.name)}` : e.id
+    groups.set(key, [...(groups.get(key) ?? []), e])
+  }
+  const day = (e: WGEvent) => nyDateKey(e.start)
+  return [...groups.values()].map((list) => {
+    if (list.length === 1) return list[0]
+    list.sort((a, b) => sortTime(a.start) - sortTime(b.start))
+    const first = { ...list[0] }
+    const days = [...new Set(list.map(day))]
+    const consecutive = days.every((d, i) => i === 0 || addDays(days[i - 1], 1) === d)
+    if (consecutive && days.length >= 3) {
+      first.kind = 'exhibition'
+      first.start = days[0]
+      first.end = days.at(-1)
+      first.timeTBA = true
+    } else {
+      const more = days.slice(1, 5).map((d) => {
+        const [, m, dd] = d.split('-').map(Number)
+        return `${['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][m - 1]} ${dd}`
+      })
+      if (more.length) first.note = [first.note, `Also on ${more.join(', ')}${days.length > 5 ? ' and later' : ''}.`].filter(Boolean).join(' ')
+    }
+    return first
+  })
 }
 
 function dedupeKey(e: Pick<WGEvent, 'title' | 'start'>) {
