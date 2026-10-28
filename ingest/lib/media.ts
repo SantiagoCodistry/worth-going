@@ -265,14 +265,21 @@ const PERFORMER = /\b(singer|band|rapper|musician|comedian|comic|actor|actress|d
 
 /** Who is this performer? Wikipedia's one-line description, if the page is clearly about a performer. */
 export async function whoIs(name: string): Promise<{ role: string; wiki: string } | null> {
-  const key = `who:${name}`
+  const key = `who2:${name}`
   if (key in cache) return cache[key] as unknown as { role: string; wiki: string } | null
   let out: { role: string; wiki: string } | null = null
   try {
     type S = { type?: string; title: string; description?: string }
-    const s = await getJson<S>(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name.replace(/ /g, '_'))}`)
-    if (s.type === 'standard' && s.description && PERFORMER.test(s.description)) {
-      out = { role: s.description.charAt(0).toUpperCase() + s.description.slice(1), wiki: s.title.replace(/ /g, '_') }
+    // Plain name first, then the usual disambiguations for acts ("Geese (band)").
+    for (const title of [name, `${name} (band)`, `${name} (musician)`, `${name} (comedian)`, `${name} (rapper)`, `${name} (singer)`]) {
+      const s = await getJson<S>(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`).catch((e: Error) => {
+        if (/HTTP 404/.test(e.message)) return null
+        throw e
+      })
+      if (s?.type === 'standard' && s.description && PERFORMER.test(s.description)) {
+        out = { role: s.description.charAt(0).toUpperCase() + s.description.slice(1), wiki: s.title.replace(/ /g, '_') }
+        break
+      }
     }
   } catch (e) {
     if (!/HTTP 404/.test((e as Error).message)) return null

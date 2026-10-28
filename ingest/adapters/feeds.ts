@@ -175,6 +175,12 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
       const description = excerpt(plain(String(e.description ?? '')))
       const text = description
       const price = offers?.price != null ? (Number(offers.price) === 0 ? 'Free' : `$${offers.price}`) : undefined
+      // Billed performers, so the card can say who they are.
+      const performers = ([] as unknown[])
+        .concat(e.performer ?? [])
+        .map((x) => (typeof x === 'string' ? x : plain(String((x as Json)?.name ?? ''))))
+        .filter((n) => n && n.length < 60)
+        .slice(0, 4)
       return {
         id: `${slug(d.sourceName)}-${slug(title)}-${start.slice(0, 10)}`,
         title,
@@ -201,6 +207,7 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
         sourceName: d.sourceName,
         sourceUrl: str(e.url) ?? url,
         ticketUrl: str(offers?.url),
+        people: performers.length ? performers.map((name) => ({ name, role: d.category === 'comedy' ? 'Comedian' : 'Performer' })) : undefined,
       }
     })
     .filter((e): e is Draft => !!e && inWindow(e.start, e.end, ctx))
