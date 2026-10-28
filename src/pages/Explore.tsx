@@ -5,6 +5,7 @@ import { CATEGORIES } from '../shared/taxonomy.ts'
 import { sortTime } from '../shared/time.ts'
 import { WHEN_OPTIONS, dayParts, relativeDay, startKey, todayKey, type When } from '../lib/dates.ts'
 import { applyFilters } from '../lib/recommend.ts'
+import { artistAt } from '../lib/spotify.ts'
 import { useStore } from '../lib/store.tsx'
 import { EventRow } from '../components/Cards.tsx'
 import { CityTabs } from '../components/Layout.tsx'
@@ -14,11 +15,12 @@ import { LoadError } from './Home.tsx'
 const isWhen = (s: string | null): s is When => !!s && WHEN_OPTIONS.some((w) => w.id === s)
 
 export function Explore() {
-  const { data, error, city, setCity } = useStore()
+  const { data, error, city, setCity, profile } = useStore()
   const [params, setParams] = useSearchParams()
   const when: When = isWhen(params.get('when')) ? (params.get('when') as When) : 'month'
   const cat = (params.get('cat') as CategoryId | null) ?? 'all'
   const free = params.get('free') === '1'
+  const mine = params.get('mine') === '1'
   const [q, setQ] = useState(params.get('q') ?? '')
 
   // A shared link may carry ?city=…
@@ -46,8 +48,8 @@ export function Explore() {
   }
 
   const results = useMemo(
-    () => applyFilters(data?.events ?? [], { city, category: cat, when, q, free }),
-    [data, city, cat, when, q, free],
+    () => applyFilters(data?.events ?? [], { city, category: cat, when, q, free }).filter((e) => !mine || !!artistAt(e, profile.artists ?? [])),
+    [data, city, cat, when, q, free, mine, profile.artists],
   )
 
   const { days, exhibits } = useMemo(() => {
@@ -106,6 +108,12 @@ export function Explore() {
               />
               Free only
             </label>
+            {(profile.artists?.length ?? 0) > 0 && (
+              <label className="ml-4 inline-flex items-center gap-2">
+                <input type="checkbox" checked={mine} onChange={(e) => update({ mine: e.target.checked ? '1' : null })} className="h-4 w-4 accent-[var(--accent)]" />
+                My artists
+              </label>
+            )}
           </div>
         </div>
         <div className="no-scrollbar flex gap-1.5 overflow-x-auto">

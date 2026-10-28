@@ -92,6 +92,17 @@ Without setup, everything a visitor saves stays in their browser. To add sign-in
 
 The anon key is meant to be public; the row-level security policies are what protect the data.
 
+## Spotify (optional)
+
+Anyone can type in artists they like on **Your taste**; shows by those artists go to the top. To also let people connect Spotify (read-only: top and followed artists):
+
+1. At [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard), create an app. Choose **Web API**.
+2. Add the redirect URI `https://santiagocodistry.github.io/worth-going/spotify` (and `http://127.0.0.1:5173/spotify` for local development).
+3. Copy the **Client ID** and add it to GitHub as a repository **variable** (not a secret) named `VITE_SPOTIFY_CLIENT_ID`. Rerun the workflow.
+4. New Spotify apps start in development mode: only accounts you add under **User Management** in the dashboard can connect. Spotify grants wider access only on request, and currently only to established businesses, so for a personal project add yourself and your friends there.
+
+The site never stores a Spotify token: it reads artists once, keeps their names and genres in the taste profile, and discards the token.
+
 ## Legal
 
 `/privacy` and `/terms` (in `src/pages/Legal.tsx`) and the footer disclaimers are plain-language starting points covering local storage, accounts, third-party listings and prices, non-affiliation, and Wikimedia, Ticketmaster and OpenStreetMap attribution. Have a lawyer review them before relying on them.

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { CITIES } from '../shared/taxonomy.ts'
 import { DEFAULT_PROFILE, INTERESTS, type BusyBlock, type Level } from '../lib/profile.ts'
 import { useStore } from '../lib/store.tsx'
+import { MusicTaste } from '../components/MusicTaste.tsx'
 
 const LEVELS: { v: Level; label: string }[] = [
   { v: 0, label: 'Not for me' },
@@ -31,7 +32,7 @@ export function You() {
       <section className="pt-8 md:pt-12">
         <h1 className="display text-[56px] md:text-[96px]">Your taste</h1>
         <p className="mt-2 max-w-xl text-[15px] text-ink-2">
-          This decides what shows up first on For you. It’s saved on this device only.
+          This decides what shows up first on For you. It’s saved in this browser, and in your account if you sign in.
         </p>
       </section>
 
@@ -59,6 +60,10 @@ export function You() {
           ))}
         </ul>
       </section>
+
+      <div id="music">
+        <MusicTaste />
+      </div>
 
       <section className="mt-12">
         <h2 className="display border-t-[3px] border-ink pt-3 text-[32px] md:text-[40px]">Where are you based?</h2>

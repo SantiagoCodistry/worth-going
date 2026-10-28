@@ -1,6 +1,7 @@
 // Generic adapters for the open web: iCalendar feeds, WordPress sites
 // running The Events Calendar, Luma city calendars and schema.org JSON-LD.
 import type { CategoryId, CityId } from '../../src/shared/types.ts'
+import { nyToUtc } from '../../src/shared/time.ts'
 import { categorize, formatFor } from '../lib/enrich.ts'
 import { excerpt, get, getJson, plain, slug } from '../lib/http.ts'
 import { parseIcs } from '../lib/ics.ts'
@@ -150,6 +151,14 @@ function collectEvents(node: unknown, out: Json[]) {
 const str = (v: unknown): string | undefined =>
   typeof v === 'string' ? v : Array.isArray(v) ? str(v[0]) : v && typeof v === 'object' ? str((v as Json).url) : undefined
 
+/** schema.org date or datetime → our ISO form. A datetime with no offset is New York local time. */
+export function instant(raw: string): string {
+  if (!/T/.test(raw)) return raw.slice(0, 10)
+  if (/(Z|[+-]\d{2}:?\d{2})$/.test(raw)) return new Date(raw.replace(/([+-]\d{2})(\d{2})$/, '$1:$2')).toISOString()
+  const [y, mo, d, h = 0, mi = 0] = raw.split(/[-T:]/).map(Number)
+  return nyToUtc(y, mo, d, h, mi).toISOString()
+}
+
 export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): Promise<Draft[]> {
   const html = await get(url, 'text/html')
   const found: Json[] = []
@@ -165,14 +174,16 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
       const title = (d.retitle ?? ((t: string) => t))(plain(String(e.name ?? ''))).trim()
       const startRaw = String(e.startDate ?? '')
       if (!title || !startRaw) return null
-      // Dates without an offset are local; date-only stays date-only.
-      const start = /T/.test(startRaw) ? new Date(startRaw).toISOString() : startRaw.slice(0, 10)
+      // Dates without an offset are New York local time; date-only stays date-only.
+      const start = instant(startRaw)
       const endRaw = e.endDate ? String(e.endDate) : undefined
-      const end = endRaw ? (/T/.test(endRaw) ? new Date(endRaw).toISOString() : endRaw.slice(0, 10)) : undefined
+      const end = endRaw ? instant(endRaw) : undefined
       const loc = (Array.isArray(e.location) ? e.location[0] : e.location) as Json | undefined
       const addr = loc?.address as Json | string | undefined
       const offers = (Array.isArray(e.offers) ? e.offers[0] : e.offers) as Json | undefined
-      const description = excerpt(plain(String(e.description ?? '')))
+      // Listing sites often fill description with "Artist at Venue at <date>"; that says nothing.
+      const rawDesc = excerpt(plain(String(e.description ?? '')))
+      const description = /\bat .+ at \d{4}-\d{2}-\d{2}T/.test(rawDesc) || rawDesc.toLowerCase() === title.toLowerCase() ? '' : rawDesc
       const text = description
       const price = offers?.price != null ? (Number(offers.price) === 0 ? 'Free' : `$${offers.price}`) : undefined
       // Billed performers, so the card can say who they are.

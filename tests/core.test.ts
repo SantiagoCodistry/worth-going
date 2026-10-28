@@ -242,3 +242,20 @@ test('portraits must be named after the person', async () => {
   assert.ok(isPortraitOf('https://upload.wikimedia.org/x/Fareed_Zakaria_at_UChicago.jpg?utm=1', 'Fareed Zakaria'))
   assert.ok(!isPortraitOf('https://upload.wikimedia.org/x/1280px-Eisenhower_Executive_Office_Building_26.jpg', 'Sahil Lavingia'))
 })
+
+test('your artists match their shows, and only whole names', async () => {
+  const { artistAt } = await import('../src/lib/spotify.ts')
+  const ev = (title: string, people: string[] = []) => ({ title, category: 'music', people: people.map((name) => ({ name, role: 'Performer' })) }) as never
+  const mine = [{ name: 'Geese', genres: ['indie rock'], from: 'spotify' as const }, { name: 'Yes', genres: [], from: 'you' as const }]
+  assert.equal(artistAt(ev('Geese: Getting Killed Tour'), mine)?.name, 'Geese')
+  assert.equal(artistAt(ev('Night at the Bowery', ['Geese']), mine)?.name, 'Geese')
+  assert.equal(artistAt(ev('Yes, Chef! A cooking show'), mine), undefined)
+})
+
+test('structured-data times without an offset are New York time', async () => {
+  const { instant } = await import('../ingest/adapters/feeds.ts')
+  assert.equal(instant('2026-10-29T20:00:00'), '2026-10-30T00:00:00.000Z')
+  assert.equal(instant('2026-10-29T20:00:00-0400'), '2026-10-30T00:00:00.000Z')
+  assert.equal(instant('2026-12-05T19:30:00'), '2026-12-06T00:30:00.000Z')
+  assert.equal(instant('2026-11-01'), '2026-11-01')
+})

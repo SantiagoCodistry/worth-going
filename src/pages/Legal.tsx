@@ -42,6 +42,14 @@ export function Privacy() {
         removes your email and synced data.
       </p>
 
+      <H>Spotify</H>
+      <p>
+        If you connect Spotify, we read your top and followed artists once, keep their names and genres in your taste
+        settings, and discard the access token. We can’t see your playlists, listening history beyond those artists, or account
+        details, and we never post anything. Remove the artists on Your taste at any time, and revoke access in your Spotify
+        account settings under Apps.
+      </p>
+
       <H>What we don’t do</H>
       <p>No advertising, no analytics or tracking scripts, no selling data, and no tracking cookies.</p>
 
