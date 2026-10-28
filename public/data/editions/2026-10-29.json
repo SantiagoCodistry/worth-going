@@ -366,7 +366,14 @@
    },
    "price": "With Garden admission",
    "link": "https://www.nybg.org/",
-   "sourceName": "NYC Tourism"
+   "sourceName": "NYC Tourism",
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_New_York_Botanical_Garden_Visitor_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/New_York_Botanical_Garden",
+    "w": 800,
+    "h": 532
+   }
   },
   {
    "id": "92ny-neil-degrasse-tyson-2026",
@@ -1629,5 +1636,5 @@
    }
   }
  ],
- "builtAt": "2026-10-28T19:55:06.013Z"
+ "builtAt": "2026-10-28T19:58:00.822Z"
 }

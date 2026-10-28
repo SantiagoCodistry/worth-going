@@ -5077,5 +5077,95 @@
   "link": "https://en.wikipedia.org/wiki/Rival_Sons",
   "w": 4032,
   "h": 3024
+ },
+ "who2:Robert Glasper Experiment": {
+  "role": "American jazz pianist, record producer, and songwriter",
+  "wiki": "Robert_Glasper"
+ },
+ "who2:Willi Carlisle": {
+  "role": "American folk musician (born 1989)",
+  "wiki": "Willi_Carlisle"
+ },
+ "wiki2:Willi_Carlisle": null,
+ "wiki2:Blake_Whiten": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/BlakeWhiten.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Blake_Whiten",
+  "w": 711,
+  "h": 948
+ },
+ "who2:Cheem": null,
+ "who2:Ethan Regan": null,
+ "who2:Ak'Chamel": null,
+ "who2:Muttlee": null,
+ "who2:Brass Against": null,
+ "who2:Cécile McLorin Salvant": null,
+ "who2:Ecology: Homestones": null,
+ "who2:AJJ": {
+  "role": "American folk-punk band",
+  "wiki": "AJJ_(band)"
+ },
+ "wiki2:AJJ_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Andrew_Jackson_Jihad_2014.jpg/1280px-Andrew_Jackson_Jihad_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/AJJ_(band)",
+  "w": 4608,
+  "h": 3072
+ },
+ "who2:Marshall Allen": null,
+ "who2:Lily Kershaw": null,
+ "who2:Silly Goose": null,
+ "who2:Yana": {
+  "role": "British singer (1932–1989)",
+  "wiki": "Yana_(singer)"
+ },
+ "wiki2:Yana_(singer)": null,
+ "who2:The Sword": {
+  "role": "American heavy metal band",
+  "wiki": "The_Sword"
+ },
+ "wiki2:The_Sword": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/TheSword-ObservatorySantaAnaCA-20130801.JPG/1280px-TheSword-ObservatorySantaAnaCA-20130801.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Sword",
+  "w": 4592,
+  "h": 3056
+ },
+ "who2:Edgar Alejandro": null,
+ "who2:Chicago": {
+  "role": "American rock band",
+  "wiki": "Chicago_(band)"
+ },
+ "wiki2:Chicago_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Chicago_performing_at_Caesars_Windsor%2C_2024-11-09_14.jpg/1280px-Chicago_performing_at_Caesars_Windsor%2C_2024-11-09_14.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Chicago_(band)",
+  "w": 4000,
+  "h": 2252
+ },
+ "who2:Wage War": {
+  "role": "American metalcore band",
+  "wiki": "Wage_War"
+ },
+ "wiki2:Wage_War": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Wage_War_Worcester_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Wage_War",
+  "w": 896,
+  "h": 672
+ },
+ "og2:https://artscouncilofprinceton.org/event/sketchgiving/": {
+  "url": "https://artscouncilofprinceton.org/wp-content/uploads/2026/10/sketchbookclub-copy.webp",
+  "credit": "artscouncilofprinceton.org",
+  "link": "https://artscouncilofprinceton.org/event/sketchgiving/",
+  "w": 1200,
+  "h": 670
+ },
+ "wiki2:New_York_Botanical_Garden": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_New_York_Botanical_Garden_Visitor_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/New_York_Botanical_Garden",
+  "w": 800,
+  "h": 532
  }
 }
