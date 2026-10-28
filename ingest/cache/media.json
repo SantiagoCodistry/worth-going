@@ -389,5 +389,364 @@
   "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Marie_howe_9021921.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
   "credit": "Wikimedia Commons",
   "link": "https://en.wikipedia.org/wiki/Marie_Howe"
- }
+ },
+ "wiki2:Jackson_Pollock": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Jackson_Pollock_by_Hans_Namuth_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jackson_Pollock",
+  "w": 703,
+  "h": 938
+ },
+ "wiki2:Lee_Krasner": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Lee_Krasner%2C_artist%2C_cropped.jpg/1400px-Lee_Krasner%2C_artist%2C_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Lee_Krasner",
+  "w": 2891,
+  "h": 4008
+ },
+ "wiki2:Marcel_Duchamp": {
+  "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg/1400px-Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Marcel_Duchamp",
+  "w": 1609,
+  "h": 2050
+ },
+ "wiki2:Eastern_State_Penitentiary": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif/lossy-page1-330px-Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Eastern_State_Penitentiary",
+  "w": 6903,
+  "h": 5456
+ },
+ "wiki2:Anna_Wintour_Costume_Center": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Savage_Beauty_exhibition.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Anna_Wintour_Costume_Center",
+  "w": 1024,
+  "h": 768
+ },
+ "og2:https://luma.com/nyc": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/nyc",
+  "w": 1200,
+  "h": 630
+ },
+ "og2:https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-10-28/": null,
+ "og2:https://luma.com/philadelphia": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/philadelphia",
+  "w": 1200,
+  "h": 630
+ },
+ "wiki2:Barclays_Center": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1400px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Barclays_Center",
+  "w": 8126,
+  "h": 4571
+ },
+ "og2:https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-10-28/": null,
+ "wiki2:Xfinity_Mobile_Arena": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
+  "w": 2794,
+  "h": 1634
+ },
+ "og2:https://goprincetontigers.com/sports/football/schedule": null,
+ "wiki2:Princeton_Stadium": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Princeton_Stadium%2C_2026_aerial_view.jpg/1400px-Princeton_Stadium%2C_2026_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Powers_Field_at_Princeton_Stadium",
+  "w": 8145,
+  "h": 5817
+ },
+ "og2:https://planetprinceton.com/event/jersey-art-meetup/2026-10-28/": null,
+ "og2:https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-10-29/": null,
+ "og2:https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/": null,
+ "og2:https://planetprinceton.com/event/winery-weekend-music-series/2026-10-31/": null,
+ "og2:https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/": {
+  "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=197582&type=planetprinceton-com&hash=7ef47e94b5cf2819265e0ad0d02badb4",
+  "credit": "planetprinceton.com",
+  "link": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/",
+  "w": 1800,
+  "h": 1200
+ },
+ "og2:https://planetprinceton.com/event/fall-music-series-8/": null,
+ "og2:https://planetprinceton.com/event/author-signing-kate-fox/": null,
+ "og2:https://planetprinceton.com/event/mays-barden-cafe-at-herrontown-woods/2026-11-01/": null,
+ "wiki2:Robert_Glasper": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RG_Trio_3.jpg/1400px-RG_Trio_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Robert_Glasper",
+  "w": 2400,
+  "h": 3600
+ },
+ "og2:https://www.timeout.com/newyork/news/the-worlds-biggest-halloween-parade-returns-to-nyc-next-month-and-the-titillating-2026-theme-has-just-been-revealed-091626": {
+  "url": "https://media.timeout.com/images/106448011/image.jpg",
+  "credit": "timeout.com",
+  "link": "https://www.timeout.com/newyork/news/the-worlds-biggest-halloween-parade-returns-to-nyc-next-month-and-the-titillating-2026-theme-has-just-been-revealed-091626",
+  "w": 3000,
+  "h": 2000
+ },
+ "wiki2:Neil_deGrasse_Tyson": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Neil_DeGrasse_Tyson_%282023%29.jpg/1400px-Neil_DeGrasse_Tyson_%282023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson",
+  "w": 1489,
+  "h": 1986
+ },
+ "og2:https://www.nhl.com/rangers/schedule": {
+  "url": "https://assets.nhle.com/team-arena/3.jpg",
+  "credit": "nhl.com",
+  "link": "https://www.nhl.com/rangers/schedule",
+  "w": 1296,
+  "h": 729
+ },
+ "og2:https://planetprinceton.com/event/free-carillon-concert-at-princeton-university-2-2-2/2026-11-01/": null,
+ "og2:https://www.nhl.com/flyers/schedule": {
+  "url": "https://assets.nhle.com/team-arena/4.jpg",
+  "credit": "nhl.com",
+  "link": "https://www.nhl.com/flyers/schedule",
+  "w": 1296,
+  "h": 729
+ },
+ "og2:https://www.kynra.ai/philadelphia/events": null,
+ "wiki2:Spike_Lee": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Neil_Grabosky_-_Spike_Lee_-_NEG_0876_%2854865282335%29.jpg/1400px-Neil_Grabosky_-_Spike_Lee_-_NEG_0876_%2854865282335%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Spike_Lee",
+  "w": 3209,
+  "h": 4813
+ },
+ "og2:https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/": {
+  "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=198911&type=planetprinceton-com&hash=f2ba2f266378f5020e1048ccb2aad87a",
+  "credit": "planetprinceton.com",
+  "link": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
+  "w": 1500,
+  "h": 1125
+ },
+ "og2:https://luma.com/2026": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/me/d1dfbc51-db83-4959-b6d2-79a7ded751ea.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/2026",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://abc7ny.com/post/2026-new-york-comedy-festival-returns-nyc-200-comedians-100-shows-november/19499323/": {
+  "url": "https://cdn.abcotvs.com/dip/images/19499429_nycfimg.jpg?w=1600",
+  "credit": "abc7ny.com",
+  "link": "https://abc7ny.com/post/2026-new-york-comedy-festival-returns-nyc-200-comedians-100-shows-november/19499323/",
+  "w": 1600,
+  "h": 900
+ },
+ "wiki2:Marc_Maron": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Marc_Maron_in_2026_at_a_live_episode_recording_of_On_with_Kara_Swisher_02_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Marc_Maron",
+  "w": 661,
+  "h": 827
+ },
+ "wiki2:Patti_Harrison": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Patti_Harrison_at_the_2026_Tribeca_Festival_for_She_Keeps_Me_Young_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Patti_Harrison",
+  "w": 805,
+  "h": 1006
+ },
+ "wiki2:Sarah_Sherman": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sarah_Sherman%2C_April_2026_%28cropped2%29.jpg/1400px-Sarah_Sherman%2C_April_2026_%28cropped2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Sarah_Sherman",
+  "w": 2080,
+  "h": 2080
+ },
+ "og2:https://planetprinceton.com/event/sondheims-afterlives-symposium/": {
+  "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=198713&type=planetprinceton-com&hash=759baa1aed266a176a089944db627f8a",
+  "credit": "planetprinceton.com",
+  "link": "https://planetprinceton.com/event/sondheims-afterlives-symposium/",
+  "w": 1440,
+  "h": 810
+ },
+ "og2:https://planetprinceton.com/event/an-evening-of-hope-to-prevent-suicide/": null,
+ "og2:https://festivalnet.com/101735/Brooklyn-New-York/Flea-Markets/Brooklyn-Flea-Market-November": null,
+ "og2:https://planetprinceton.com/event/acp-byob-wheel-ceramics-2/2026-11-06/": null,
+ "og2:https://www.philadelphiaeagles.com/schedule/": {
+  "url": "https://static.clubs.nfl.com/image/upload/v1698952597/eagles/cwhzlxizqgvs8abmyh6n.png",
+  "credit": "philadelphiaeagles.com",
+  "link": "https://www.philadelphiaeagles.com/schedule/",
+  "w": 1920,
+  "h": 1080
+ },
+ "wiki2:Michael_Cunningham": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Michael_Cunningham_JB_by_David_Shankbone.jpg/1400px-Michael_Cunningham_JB_by_David_Shankbone.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Michael_Cunningham",
+  "w": 1420,
+  "h": 1800
+ },
+ "og2:https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup": {
+  "url": "https://patch.com/img/cdn20/users/27228064/20260819/033617/styles/patch_image/public/2026-nycf-msg-photo-scaled___19153604175.jpg",
+  "credit": "patch.com",
+  "link": "https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup",
+  "w": 960,
+  "h": 720
+ },
+ "og2:https://www.wagnerfreeinstitute.org/events-1-1/november-first-saturday-open-housespooky-creature-feature": {
+  "url": "http://static1.squarespace.com/static/6346000b7779314cbb7e1ea2/68754e76b16a6365a1110bfc/6a7f6261dbb0785bfaf6f2c4/1792784313587/Loch_Ness_Monster_Surgeon%27s_photograph.jpg?format=1500w",
+  "credit": "wagnerfreeinstitute.org",
+  "link": "https://www.wagnerfreeinstitute.org/events-1-1/november-first-saturday-open-housespooky-creature-feature",
+  "w": 2384,
+  "h": 2112
+ },
+ "wiki2:Vic_Mensa": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/VicMensa_%28cropped%29.jpg/1400px-VicMensa_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Vic_Mensa",
+  "w": 2711,
+  "h": 3614
+ },
+ "og2:https://caveat.nyc/events/nerd-nite": null,
+ "og2:https://www.tickpick.com/blog/upcoming-concerts-in-philadelphia/": {
+  "url": "https://tpblog.tickpick.com/wp-content/uploads/2026/07/24364197672_60eac16b99_c.jpg",
+  "credit": "tickpick.com",
+  "link": "https://www.tickpick.com/blog/upcoming-concerts-in-philadelphia/",
+  "w": 800,
+  "h": 533
+ },
+ "og2:https://jazzin.nyc/venue/village-vanguard": {
+  "url": "https://jazzin.nyc/static/img/og-image.png",
+  "credit": "jazzin.nyc",
+  "link": "https://jazzin.nyc/venue/village-vanguard",
+  "w": 2400,
+  "h": 1260
+ },
+ "og2:https://www.jambase.com/venue/brooklyn-steel": null,
+ "og2:https://songkick.com/concerts/43208646-slow-pulp-at-union-transfer": null,
+ "og2:https://bigseason.92ny.org/talks": null,
+ "og2:https://www.hackprinceton.com/": {
+  "url": "https://www.hackprinceton.com/opengraph-image?4d6c01e45bfb4063",
+  "credit": "hackprinceton.com",
+  "link": "https://www.hackprinceton.com/",
+  "w": 1200,
+  "h": 630
+ },
+ "wiki2:Yo-Yo_Ma": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Yo-Yo_Ma_in_2018_%28cropped%29.jpg/1400px-Yo-Yo_Ma_in_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Yo-Yo_Ma",
+  "w": 2141,
+  "h": 2333
+ },
+ "og2:https://planetprinceton.com/event/136th-annual-princeton-triangle-show/2026-11-13/": null,
+ "wiki2:McCarter_Theatre": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg/1400px-McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/McCarter_Theatre",
+  "w": 4032,
+  "h": 3024
+ },
+ "og2:https://relix.com/news/detail/lcd-soundsystem-confirm-annual-new-york-residency-dates": null,
+ "og2:https://planetprinceton.com/event/pie-tasting-weekend/2026-11-14/": null,
+ "wiki2:Knockdown_Center": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/KdC_main_interior.jpg/1400px-KdC_main_interior.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Knockdown_Center",
+  "w": 3648,
+  "h": 2432
+ },
+ "og2:https://entrepreneurship.columbia.edu/event/fast-pitch-2026/": null,
+ "wiki2:Rufus_Wainwright": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Oliver_Mark_-_Rufus_Wainwright%2C_Berlin_2010.jpg/1400px-Oliver_Mark_-_Rufus_Wainwright%2C_Berlin_2010.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Rufus_Wainwright",
+  "w": 2026,
+  "h": 2500
+ },
+ "wiki2:Julia_Jacklin": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RF_2906_Julia-Jackin_Krists_Luhaers-14_%2834914133554%29.jpg/1400px-RF_2906_Julia-Jackin_Krists_Luhaers-14_%2834914133554%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Julia_Jacklin",
+  "w": 4525,
+  "h": 3017
+ },
+ "og2:https://advanceventures.com/event/new-york-venture-summit-2026/": null,
+ "wiki2:Terry_Gross": null,
+ "wiki2:Paul_McCartney": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/MaccaLyricsRFH051121_%2815_of_18%29_%28updated%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Paul_McCartney",
+  "w": 1209,
+  "h": 1613
+ },
+ "wiki2:Richard_Thompson_(musician)": null,
+ "wiki2:Paul_Muldoon": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Paul_Muldoon_in_Tepoztl%C3%A1n%2C_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Paul_Muldoon",
+  "w": 778,
+  "h": 1069
+ },
+ "wiki2:American_Museum_of_Natural_History": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/USA-NYC-American_Museum_of_Natural_History.JPG/1400px-USA-NYC-American_Museum_of_Natural_History.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/American_Museum_of_Natural_History",
+  "w": 4822,
+  "h": 2748
+ },
+ "og2:https://activeminds.org/event/philadelphia-marathon-weekend-2026/": {
+  "url": "https://assets.activeminds.org/wp-content/uploads/2025/12/Team-AM-Event-Image-Lockup-Philadelphia-2026_web.jpg",
+  "credit": "activeminds.org",
+  "link": "https://activeminds.org/event/philadelphia-marathon-weekend-2026/",
+  "w": 1800,
+  "h": 1800
+ },
+ "og2:https://entrepreneurship.columbia.edu/event/columbia-healthcare-ventures-fast-pitch-competition/": null,
+ "og2:https://planetprinceton.com/event/story-verse-a-storytelling-and-poetic-open-mic/2026-11-19/": null,
+ "og2:https://www.broadwayworld.com/article/McCarter-Theatre-Center-Reveals-20262027-Dance-and-Music-Series-20260429": {
+  "url": "https://cloudimages2.broadwayworld.com/columnpiccloud/McCarter-Theatre-Center-Reveals-2026-2027-Dance-and-Music-Series-1777440874.jpg?format=jpeg&quality=80&width=1200",
+  "credit": "broadwayworld.com",
+  "link": "https://www.broadwayworld.com/article/McCarter-Theatre-Center-Reveals-20262027-Dance-and-Music-Series-20260429",
+  "w": 1200,
+  "h": 600
+ },
+ "og2:https://planetprinceton.com/event/the-nutcracker/": null,
+ "og2:https://planetprinceton.com/event/palmer-square-annual-tree-lighting-2/": null,
+ "og2:https://planetprinceton.com/event/annual-menorah-lighting-2/": null,
+ "og2:https://planetprinceton.com/event/holiday-strolling-entertainment-9/": null,
+ "og2:https://luma.com/6bmnoex9": {
+  "url": "https://og.luma.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event?color0=%23d2ddd9&color1=%23de6c3c&color2=%231e1e1e&color3=%231454b8&img=https%3A%2F%2Fimages.lumacdn.com%2Fevent-covers%2F1j%2Ff2763e3f-c22c-4f17-b8a6-1a45c24b0721&name=TechDay%20AI%20Founders%20Day&palette_neutral=%23f8f9f9%3A22.26%2C%230d1012%3A12.33&palette_vibrant=%231750b0%3A17.7%2C%23ee6223%3A14.29%2C%231cab74%3A3.64%2C%232b9db5%3A2.9",
+  "credit": "luma.com",
+  "link": "https://luma.com/6bmnoex9",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://planetprinceton.com/event/cafe-improv/2026-11-28/": null,
+ "og2:https://muttermuseum.org/events/": {
+  "url": "https://muttermuseum.org/static/d32ed9e9a94b036be363a3b9f6351389/8ecb4/web_cppabout_featuredimage.jpg",
+  "credit": "muttermuseum.org",
+  "link": "https://muttermuseum.org/events/",
+  "w": 1700,
+  "h": 1550
+ },
+ "og2:https://www.viacarota.com/": null,
+ "og2:https://www.zahavrestaurant.com/": null,
+ "og2:https://www.johnsroastpork.com/": null,
+ "wiki2:Reading_Terminal_Market": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Reading_Terminal_Market_%2853587020195%29.jpg/1400px-Reading_Terminal_Market_%2853587020195%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Reading_Terminal_Market",
+  "w": 4478,
+  "h": 3359
+ },
+ "og2:https://www.smallworldcoffee.com/": {
+  "url": "http://smallworldcoffee.com/cdn/shop/files/SWC.jpg?v=1748273465",
+  "credit": "smallworldcoffee.com",
+  "link": "https://www.smallworldcoffee.com/",
+  "w": 2500,
+  "h": 1313
+ },
+ "og2:https://agricolaeatery.com/": null
 }
