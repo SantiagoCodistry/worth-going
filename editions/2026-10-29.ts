@@ -35,6 +35,7 @@ const edition: EditionSource = {
     { event: 'pma-duchamp-retrospective', why: 'The first North American Duchamp retrospective in more than 50 years, at the museum that owns much of his most important work.' },
     {
       id: 'nybg-dia-de-los-muertos-parade-2026',
+      wiki: 'New_York_Botanical_Garden',
       city: 'nyc',
       category: 'unusual',
       kind: 'Día de los Muertos parade',
