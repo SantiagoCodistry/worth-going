@@ -6,7 +6,7 @@ import { exhibitionLine, fullDate, timeLabel } from '../lib/dates.ts'
 import { rank } from '../lib/recommend.ts'
 import { useStore } from '../lib/store.tsx'
 import { Avatar, EventCard } from '../components/Cards.tsx'
-import { Cover } from '../components/Poster.tsx'
+import { Flyer } from '../components/Poster.tsx'
 import { SaveButton, Spinner } from '../components/bits.tsx'
 
 // Sandboxed previews block file downloads, so the .ics button is hidden there.
@@ -50,7 +50,7 @@ export function EventPage() {
 
   return (
     <article className="rise mx-auto max-w-[1400px] px-4 md:px-8">
-      <nav className="flex items-center gap-2 pt-6 text-[14px] font-semibold text-mute" aria-label="Breadcrumb">
+      <nav className="label flex items-center gap-2 pt-6" aria-label="Breadcrumb">
         <Link to="/explore" className="hover:text-ink">
           Calendar
         </Link>
@@ -62,7 +62,7 @@ export function EventPage() {
 
       <div className="mt-5 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-14">
         <div className="lg:sticky lg:top-24 lg:self-start">
-          <Cover event={e} size="lg" className="aspect-[4/5] md:aspect-[4/3] lg:aspect-[4/5]" />
+          <Flyer event={e} className="aspect-[3/4]" />
           {e.image?.credit && (
             <p className="mt-2 text-[12px] text-mute">
               Image:{' '}
@@ -78,14 +78,14 @@ export function EventPage() {
         </div>
 
         <div className="min-w-0">
-          <p className="text-[14px] font-semibold text-accent">
+          <p className="label">
             {cat.label} · {cityById(e.city).name}
           </p>
-          <h1 className="display mt-2 text-[40px] md:text-[60px]">{e.title}</h1>
+          <h1 className="display mt-2 text-[56px] md:text-[92px]">{e.title}</h1>
           {e.subtitle && <p className="mt-3 text-[18px] text-ink-2">{e.subtitle}</p>}
 
-          <div className="mt-6 space-y-1 text-[16px]">
-            <p className="font-semibold">{when}</p>
+          <div className="mt-6 space-y-1 border-y-[1.5px] border-ink py-4 text-[16px]">
+            <p className="stamp text-[15px]">{when}</p>
             <p className="text-ink-2">
               {e.venue.name}
               {e.venue.address ? `, ${e.venue.address}` : ''}
@@ -114,13 +114,13 @@ export function EventPage() {
 
           {e.people && e.people.length > 0 && (
             <section className="mt-10">
-              <h2 className="text-[20px] font-bold tracking-[-0.02em]">{whoTitle}</h2>
-              <ul className="mt-4 divide-y divide-[var(--rule)] rounded-xl bg-bg-2 px-4">
+              <h2 className="display text-[36px]">{whoTitle}</h2>
+              <ul className="mt-3 border-t-[1.5px] border-ink">
                 {e.people.map((p) => (
-                  <li key={p.name} className="flex items-center gap-4 py-4">
+                  <li key={p.name} className="flex items-center gap-4 border-b-[1.5px] border-ink py-4">
                     <Avatar p={p} size={56} />
                     <div className="min-w-0 flex-1">
-                      <p className="text-[17px] font-semibold leading-tight">{p.name}</p>
+                      <p className="text-[18px] font-bold leading-tight">{p.name}</p>
                       <p className="mt-0.5 text-[14.5px] text-ink-2">{p.role}</p>
                     </div>
                     {p.wiki && (
@@ -128,7 +128,7 @@ export function EventPage() {
                         href={`https://en.wikipedia.org/wiki/${p.wiki}`}
                         target="_blank"
                         rel="noreferrer"
-                        className="shrink-0 text-[13.5px] font-semibold text-mute hover:text-ink"
+                        className="label shrink-0 hover:underline"
                       >
                         Bio ↗
                       </a>
@@ -141,13 +141,13 @@ export function EventPage() {
 
           {e.why && (
             <section className="mt-10">
-              <h2 className="text-[20px] font-bold tracking-[-0.02em]">Why go</h2>
+              <h2 className="display text-[36px]">Why go</h2>
               <p className="mt-2 text-[18px] leading-relaxed text-ink-2">{e.why}</p>
             </section>
           )}
 
           <section className="mt-10">
-            <h2 className="text-[20px] font-bold tracking-[-0.02em]">About</h2>
+            <h2 className="display text-[36px]">About</h2>
             <div className="prose-wg mt-2 text-[16px] leading-relaxed text-ink-2">
               {e.description.split(/\n\n+/).map((para, i) => (
                 <p key={i}>{para}</p>
@@ -167,7 +167,7 @@ export function EventPage() {
 
       {related.length > 0 && (
         <section className="mt-20">
-          <h2 className="display mb-5 text-[26px]">More like this</h2>
+          <h2 className="display mb-5 border-t-[3px] border-ink pt-3 text-[40px] md:text-[56px]">More like this</h2>
           <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:gap-x-5 lg:grid-cols-4">
             {related.map((x) => (
               <EventCard key={x.id} e={x} />

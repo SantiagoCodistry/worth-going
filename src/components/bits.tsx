@@ -15,13 +15,13 @@ export function SaveButton({ id, className = '', label = false }: { id: string; 
       }}
       aria-pressed={on}
       aria-label={on ? 'Remove from saved' : 'Save'}
-      className={`group/save inline-flex items-center gap-2 transition-colors ${className}`}
+      className={`group/save inline-flex items-center gap-2 ${className}`}
     >
-      <svg width="13" height="16" viewBox="0 0 14 18" className="transition-transform duration-200 group-active/save:scale-90">
+      <svg width="13" height="17" viewBox="0 0 14 18" className="transition-transform duration-150 group-active/save:scale-90">
         <path
           d="M1 1h12v16l-6-4.2L1 17z"
-          fill={on ? 'var(--accent)' : 'none'}
-          stroke={on ? 'var(--accent)' : 'currentColor'}
+          fill={on ? 'var(--riso-pink)' : 'none'}
+          stroke="currentColor"
           strokeWidth="1.6"
           strokeLinejoin="round"
         />
@@ -34,7 +34,7 @@ export function SaveButton({ id, className = '', label = false }: { id: string; 
 export function PreviewTag({ e, className = '' }: { e: WGEvent; className?: string }) {
   if (e.provenance !== 'preview') return null
   return (
-    <span title="Added by hand for the preview. Check details at the source." className={`inline-block text-[12.5px] text-mute ${className}`}>
+    <span title="Added by hand for the preview. Check details at the source." className={`label inline-block text-[10.5px] text-mute ${className}`}>
       Preview listing
     </span>
   )
@@ -42,13 +42,13 @@ export function PreviewTag({ e, className = '' }: { e: WGEvent; className?: stri
 
 export function SectionHead({ title, blurb, to, toLabel = 'See all' }: { title: string; blurb?: string; to?: string; toLabel?: string }) {
   return (
-    <div className="mb-5 flex items-end justify-between gap-6">
-      <div>
-        <h2 className="display text-[28px] md:text-[36px]">{title}</h2>
-        {blurb && <p className="mt-1.5 text-[15px] text-mute">{blurb}</p>}
+    <div className="mb-5 flex items-end justify-between gap-6 border-t-[3px] border-ink pt-3">
+      <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1">
+        <h2 className="display text-[44px] md:text-[64px]">{title}</h2>
+        {blurb && <p className="text-[15px] text-ink-2">{blurb}</p>}
       </div>
       {to && (
-        <Link to={to} className="shrink-0 whitespace-nowrap text-[14px] font-semibold text-ink-2 hover:text-ink">
+        <Link to={to} className="label shrink-0 whitespace-nowrap pb-2 hover:underline">
           {toLabel} →
         </Link>
       )}
@@ -59,7 +59,7 @@ export function SectionHead({ title, blurb, to, toLabel = 'See all' }: { title: 
 export function Spinner() {
   return (
     <div className="flex min-h-[50vh] items-center justify-center">
-      <p className="animate-pulse text-mute">Loading…</p>
+      <p className="stamp animate-pulse text-[14px] text-mute">Loading</p>
     </div>
   )
 }

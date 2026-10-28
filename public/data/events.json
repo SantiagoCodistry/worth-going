@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T15:45:29.823Z",
+ "generatedAt": "2026-10-28T15:53:50.845Z",
  "events": [
   {
    "id": "met-costume-art",
@@ -1201,7 +1201,7 @@
    "homepage": "https://planetprinceton.com/events/",
    "ok": false,
    "count": 0,
-   "ms": 0,
+   "ms": 1,
    "error": "skipped (offline run)"
   },
   {
@@ -1222,7 +1222,7 @@
    "homepage": "https://www.princeton.edu/events",
    "ok": false,
    "count": 0,
-   "ms": 1,
+   "ms": 0,
    "error": "skipped (offline run)"
   },
   {

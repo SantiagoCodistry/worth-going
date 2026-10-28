@@ -24,12 +24,12 @@ export function Saved() {
   return (
     <div className="mx-auto max-w-[1400px] px-4 md:px-8">
       <section className="pt-10 md:pt-16">
-        <h1 className="display text-[40px] md:text-[64px]">Saved</h1>
+        <h1 className="display text-[72px] md:text-[128px]">Saved</h1>
         <p className="mt-2 text-[16px] text-ink-2 md:text-[17px]">Saved on this device. No account needed.</p>
       </section>
 
       {events.length === 0 && places.length === 0 && (
-        <div className="mt-8 rounded-xl bg-bg-2 py-16 text-center">
+        <div className="mt-8 border-[1.5px] border-ink py-16 text-center">
           <p className="text-[18px] font-medium">Nothing saved yet.</p>
           <p className="mt-2 text-mute">Tap the bookmark on any event or restaurant to keep it here.</p>
           <Link to="/" className="btn btn-quiet mt-5">
@@ -40,7 +40,7 @@ export function Saved() {
 
       {events.length > 0 && (
         <section className="mt-10">
-          <h2 className="mb-5 text-[15px] font-medium text-mute">Events · {events.length}</h2>
+          <h2 className="display mb-5 border-t-[3px] border-ink pt-3 text-[40px]">Events · {events.length}</h2>
           <div className="grid grid-cols-2 gap-x-4 gap-y-9 md:gap-x-5 lg:grid-cols-4">
             {events.map((e) => (
               <EventCard key={e!.id} e={e!} />
@@ -51,7 +51,7 @@ export function Saved() {
 
       {places.length > 0 && (
         <section className="mt-14">
-          <h2 className="mb-5 text-[15px] font-medium text-mute">Restaurants · {places.length}</h2>
+          <h2 className="display mb-5 border-t-[3px] border-ink pt-3 text-[40px]">Restaurants · {places.length}</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {places.map((p) => (
               <PlaceCard key={p!.id} p={p!} />

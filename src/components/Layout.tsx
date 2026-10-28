@@ -13,9 +13,11 @@ const NAV = [
 
 export function Wordmark({ className = '' }: { className?: string }) {
   return (
-    <span className={`inline-flex items-baseline gap-[0.12em] whitespace-nowrap text-[21px] font-bold tracking-[-0.04em] ${className}`}>
-      worth going
-      <span className="inline-block h-[0.32em] w-[0.32em] rounded-full bg-accent" aria-hidden />
+    <span className={`display relative inline-block whitespace-nowrap text-[34px] leading-none ${className}`}>
+      <span aria-hidden className="absolute left-[0.04em] top-[0.04em] text-[var(--riso-pink)] mix-blend-multiply">
+        Worth Going
+      </span>
+      <span className="relative">Worth Going</span>
     </span>
   )
 }
@@ -44,7 +46,7 @@ function SearchBox({ className = '' }: { className?: string }) {
         ev.preventDefault()
         nav(`/explore?q=${encodeURIComponent(q)}&when=all`)
       }}
-      className={`flex items-center gap-2 rounded-full bg-bg-2 px-4 focus-within:bg-card ${className}`}
+      className={`flex items-center gap-2 border-[1.5px] border-ink px-3 focus-within:bg-card ${className}`}
     >
       <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden className="text-mute">
         <circle cx="6" cy="6" r="4.8" fill="none" stroke="currentColor" strokeWidth="1.5" />
@@ -56,7 +58,7 @@ function SearchBox({ className = '' }: { className?: string }) {
         onChange={(e) => setQ(e.target.value)}
         placeholder="Search people, venues, events"
         aria-label="Search"
-        className="w-full bg-transparent py-2.5 text-[14px] outline-none placeholder:text-mute"
+        className="w-full bg-transparent py-2 text-[14px] outline-none placeholder:text-mute"
       />
     </form>
   )
@@ -72,7 +74,7 @@ export function Layout() {
 
   return (
     <div className="min-h-screen pb-20 md:pb-0">
-      <header className="sticky top-0 z-40 bg-bg/85 backdrop-blur-lg">
+      <header className="sticky top-0 z-40 border-b-[1.5px] border-ink bg-bg">
         <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between gap-6 px-4 md:px-8">
           <Link to="/" aria-label="Worth Going home">
             <Wordmark />
@@ -83,10 +85,10 @@ export function Layout() {
                 key={n.to}
                 to={n.to}
                 end={n.end}
-                className={({ isActive }) => `rounded-full px-4 py-2 text-[15px] font-semibold transition-colors ${isActive ? 'text-ink' : 'text-mute hover:text-ink'}`}
+                className={({ isActive }) => `label px-3 py-2 text-[13px] ${isActive ? 'bg-ink text-bg' : 'hover:bg-[var(--riso-yellow)]'}`}
               >
                 {n.label}
-                {n.to === '/saved' && saved.length > 0 && <span className="ml-1.5 text-accent">{saved.length}</span>}
+                {n.to === '/saved' && saved.length > 0 && <span className="ml-1.5">({saved.length})</span>}
               </NavLink>
             ))}
           </nav>
@@ -102,17 +104,17 @@ export function Layout() {
 
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t rule bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden"
+        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t-[1.5px] border-ink bg-bg pb-[env(safe-area-inset-bottom)] md:hidden"
       >
         {NAV.map((n) => (
           <NavLink
             key={n.to}
             to={n.to}
             end={n.end}
-            className={({ isActive }) => `relative py-3.5 text-center text-[13px] font-semibold ${isActive ? 'text-ink' : 'text-mute'}`}
+            className={({ isActive }) => `label relative py-3.5 text-center text-[11.5px] ${isActive ? 'bg-ink text-bg' : ''}`}
           >
             {n.label}
-            {n.to === '/saved' && saved.length > 0 && <span className="absolute right-[18%] top-3 h-1.5 w-1.5 rounded-full bg-accent" />}
+            {n.to === '/saved' && saved.length > 0 && <span className="absolute right-[14%] top-3 h-1.5 w-1.5 rounded-full bg-[var(--riso-pink)]" />}
           </NavLink>
         ))}
       </nav>
@@ -126,20 +128,20 @@ function Footer() {
     ? new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(new Date(data.generatedAt))
     : ''
   return (
-    <footer className="mt-28 border-t rule">
-      <div className="mx-auto grid max-w-[1400px] gap-10 px-4 py-12 md:grid-cols-[1.6fr_1fr_1fr] md:px-8">
+    <footer className="mt-28 border-t-[3px] border-ink">
+      <div className="mx-auto grid max-w-[1400px] gap-10 px-4 py-10 md:grid-cols-[1.6fr_1fr_1fr] md:px-8">
         <div>
-          <Wordmark className="text-[28px]" />
-          <p className="mt-3 max-w-sm text-[14px] text-mute">New York, Philadelphia and Princeton. Picked by hand, linked to the source.</p>
+          <Wordmark className="text-[64px] md:text-[96px]" />
+          <p className="mt-3 max-w-sm text-[14px] text-ink-2">New York, Philadelphia and Princeton. Picked by hand, linked to the source.</p>
         </div>
-        <ul className="space-y-2 text-[14px] text-ink-2">
-          <li><Link className="hover:text-ink" to="/explore?when=weekend">This weekend</Link></li>
-          <li><Link className="hover:text-ink" to="/explore?cat=unusual">Unusual</Link></li>
-          <li><Link className="hover:text-ink" to="/explore?cat=ideas">Talks</Link></li>
-          <li><Link className="hover:text-ink" to="/explore?cat=startups">Startups</Link></li>
-          <li><Link className="hover:text-ink" to="/about">About and sources</Link></li>
+        <ul className="space-y-1.5 text-[14px] font-semibold">
+          <li><Link className="hover:underline" to="/explore?when=weekend">This weekend</Link></li>
+          <li><Link className="hover:underline" to="/explore?cat=unusual">Unusual</Link></li>
+          <li><Link className="hover:underline" to="/explore?cat=ideas">Talks</Link></li>
+          <li><Link className="hover:underline" to="/explore?cat=startups">Startups</Link></li>
+          <li><Link className="hover:underline" to="/about">About and sources</Link></li>
         </ul>
-        <div className="text-[14px] text-mute">
+        <div className="text-[14px] text-ink-2">
           {updated && <p>Updated {updated} ET.</p>}
           <p className="mt-2">Check times and tickets with the organizer before you go.</p>
         </div>

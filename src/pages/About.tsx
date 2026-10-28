@@ -13,7 +13,7 @@ export function About() {
   return (
     <div className="mx-auto max-w-[1400px] px-4 md:px-8">
       <section className="max-w-2xl pt-10 md:pt-16">
-        <h1 className="display text-[40px] md:text-[64px]">About</h1>
+        <h1 className="display text-[72px] md:text-[128px]">About</h1>
         <div className="mt-4 space-y-4 text-[17px] leading-relaxed text-ink-2">
           <p>
             Worth Going lists events and restaurants in New York, Philadelphia and Princeton. We collect listings from public
@@ -33,7 +33,7 @@ export function About() {
           ['Preview listings', String(preview), 'Added by hand for launch, each with a source link.'],
           ['Last updated', `${fmt.format(new Date(data.generatedAt))} ET`, 'Listings refresh every morning.'],
         ].map(([k, v, d]) => (
-          <div key={k} className="rounded-xl bg-bg-2 p-5">
+          <div key={k} className="border-[1.5px] border-ink p-5">
             <p className="text-[14px] text-mute">{k}</p>
             <p className="mt-1 text-[26px] font-medium tracking-[-0.02em] tabular-nums">{v}</p>
             <p className="mt-1 text-[14px] text-mute">{d}</p>
@@ -42,9 +42,9 @@ export function About() {
       </section>
 
       <section className="mt-16">
-        <h2 className="display text-[24px] md:text-[28px]">Sources</h2>
+        <h2 className="display border-t-[3px] border-ink pt-3 text-[40px] md:text-[56px]">Sources</h2>
         <p className="mt-1.5 text-[15px] text-mute">Status at the last update.</p>
-        <div className="mt-5 overflow-x-auto rounded-xl bg-bg-2">
+        <div className="mt-5 overflow-x-auto border-[1.5px] border-ink">
           <table className="w-full min-w-[640px] text-left text-[14px]">
             <thead className="text-mute">
               <tr>
@@ -71,7 +71,7 @@ export function About() {
                   <td className="py-3 pr-4 text-ink-2">{s.kind}</td>
                   <td className="py-3 pr-4 tabular-nums">{s.count}</td>
                   <td className="py-3 pr-5">
-                    <span className={`inline-flex items-center gap-1.5 ${s.ok ? 'text-[#7fd1a5]' : 'text-accent'}`}>
+                    <span className={`inline-flex items-center gap-1.5 ${s.ok ? 'text-[#7fd1a5]' : 'text-ink'}`}>
                       <span className={`h-1.5 w-1.5 rounded-full ${s.ok ? 'bg-[#7fd1a5]' : 'bg-accent'}`} />
                       {s.ok ? 'Working' : 'Unavailable'}
                     </span>
@@ -92,7 +92,7 @@ export function About() {
       </section>
 
       <section className="mt-16 max-w-2xl">
-        <h2 className="display text-[24px] md:text-[28px]">Coming next</h2>
+        <h2 className="display border-t-[3px] border-ink pt-3 text-[40px] md:text-[56px]">Coming next</h2>
         <p className="mt-3 text-[17px] leading-relaxed text-ink-2">
           A private version that connects to your calendar and suggests events that fit around your classes, training and meetings.
           Nothing personal is collected today, and saved items stay on your device.

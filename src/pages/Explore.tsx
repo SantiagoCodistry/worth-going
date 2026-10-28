@@ -68,7 +68,7 @@ export function Explore() {
   return (
     <div className="mx-auto max-w-[1400px] px-4 md:px-8">
       <section className="pt-10 md:pt-16">
-        <h1 className="display text-[40px] md:text-[64px]">Calendar</h1>
+        <h1 className="display text-[72px] md:text-[128px]">Calendar</h1>
         <p className="mt-3 text-[17px] text-ink-2">Everything we’re tracking, day by day.</p>
       </section>
 
@@ -77,7 +77,7 @@ export function Explore() {
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <CityTabs />
           <div className="flex items-center gap-4">
-            <div className="flex flex-1 items-center gap-2 rounded-full bg-bg-2 px-4 focus-within:bg-card lg:w-72 lg:flex-none">
+            <div className="flex flex-1 items-center gap-2 border-[1.5px] border-ink px-3 focus-within:bg-card lg:w-72 lg:flex-none">
               <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden className="text-mute">
                 <circle cx="6" cy="6" r="4.8" fill="none" stroke="currentColor" strokeWidth="1.4" />
                 <path d="M9.5 9.5L13 13" stroke="currentColor" strokeWidth="1.4" />
@@ -137,7 +137,7 @@ export function Explore() {
         return (
           <section key={key} className="mt-8 grid gap-1 md:grid-cols-[200px_1fr] md:gap-8">
             <div className="md:sticky md:top-24 md:self-start">
-              <h2 className="text-[20px] font-bold tracking-[-0.02em]">{rel === 'Today' || rel === 'Tomorrow' ? rel : p.weekdayLong}</h2>
+              <h2 className="display text-[30px] md:text-[36px]">{rel === 'Today' || rel === 'Tomorrow' ? rel : p.weekdayLong}</h2>
               <p className="text-[14px] text-mute">
                 {p.monthLong} {p.day}
               </p>
@@ -154,7 +154,7 @@ export function Explore() {
       {exhibits.length > 0 && (
         <section className="mt-12 grid gap-1 md:grid-cols-[200px_1fr] md:gap-8">
           <div>
-            <h2 className="text-[20px] font-bold tracking-[-0.02em]">On view</h2>
+            <h2 className="display text-[30px] md:text-[36px]">On view</h2>
             <p className="text-[14px] text-mute">Exhibitions</p>
           </div>
           <div className="border-t rule">
