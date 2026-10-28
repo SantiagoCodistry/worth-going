@@ -4686,5 +4686,137 @@
  "place:pizzeria-beddia": {
   "lat": 39.9705054,
   "lng": -75.1350963
+ },
+ "who2:Eric Neumann": {
+  "role": "German writer, psychologist and philosopher (1905–1960)",
+  "wiki": "Erich_Neumann_(psychologist)"
+ },
+ "wiki2:Erich_Neumann_(psychologist)": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Erich_Neumann%2C_psychologist.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Erich_Neumann_(psychologist)",
+  "w": 774,
+  "h": 1182
+ },
+ "who2:Patrick Droney": null,
+ "who2:Isiah Kelly": null,
+ "who2:Erin Maguire": null,
+ "who2:YEBBA": null,
+ "who2:Richie Redding": null,
+ "who2:Erin Jackson": null,
+ "who2:LeClerc": null,
+ "who2:NERVO": {
+  "role": "Australian musical sibling duo",
+  "wiki": "Nervo_(DJs)"
+ },
+ "who2:DVBBS": {
+  "role": "Canadian music production duo",
+  "wiki": "Dvbbs"
+ },
+ "who2:Holywatr": null,
+ "wiki2:Nervo_(DJs)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Life_Ball_2014_red_carpet_116_Miriam_Olivia_Nervo.jpg/1280px-Life_Ball_2014_red_carpet_116_Miriam_Olivia_Nervo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Nervo_(DJs)",
+  "w": 1440,
+  "h": 1750
+ },
+ "wiki2:Dvbbs": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/DVBBS_2021.jpg/1280px-DVBBS_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Dvbbs",
+  "w": 3749,
+  "h": 5624
+ },
+ "who2:Marion Grodin": null,
+ "who2:Paula J. Leon": null,
+ "who2:Greet Death": {
+  "role": "American rock band",
+  "wiki": "Greet_Death"
+ },
+ "wiki2:Greet_Death": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Greet_Death_%28May_2%2C_2026%29.jpg/1280px-Greet_Death_%28May_2%2C_2026%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Greet_Death",
+  "w": 4032,
+  "h": 3024
+ },
+ "who2:Cartel": {
+  "role": "American pop-punk band",
+  "wiki": "Cartel_(band)"
+ },
+ "wiki2:Cartel_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Cartellive.jpg/1280px-Cartellive.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Cartel_(band)",
+  "w": 3888,
+  "h": 2592
+ },
+ "who2:Spanish Love Songs": {
+  "role": "American rock band",
+  "wiki": "Spanish_Love_Songs"
+ },
+ "wiki2:Spanish_Love_Songs": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Spanish_Love_Songs_live.jpg/1280px-Spanish_Love_Songs_live.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Spanish_Love_Songs",
+  "w": 4032,
+  "h": 3024
+ },
+ "who2:Almost Monday": {
+  "role": "American indie pop band",
+  "wiki": "Almost_Monday"
+ },
+ "wiki2:Almost_Monday": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Almost_Monday%2C_Patterns%2C_Brighton.jpg/1280px-Almost_Monday%2C_Patterns%2C_Brighton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Almost_Monday",
+  "w": 3616,
+  "h": 2556
+ },
+ "who2:Ax and the Hatchetmen": {
+  "role": "American band",
+  "wiki": "Ax_and_the_Hatchetmen"
+ },
+ "wiki2:Ax_and_the_Hatchetmen": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Ax_and_the_Hatchetmen.jpg/1280px-Ax_and_the_Hatchetmen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Ax_and_the_Hatchetmen",
+  "w": 3840,
+  "h": 2160
+ },
+ "who2:Cut Copy": {
+  "role": "Australian synth-pop band",
+  "wiki": "Cut_Copy"
+ },
+ "wiki2:Cut_Copy": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Cut_Copy_%2845668059095%29.jpg/1280px-Cut_Copy_%2845668059095%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Cut_Copy",
+  "w": 5426,
+  "h": 4404
+ },
+ "commons:Pizzeria Beddia|Philadelphia": null,
+ "wiki2:Cécile_McLorin_Salvant": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg/1280px-Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/C%C3%A9cile_McLorin_Salvant",
+  "w": 8192,
+  "h": 5464
+ },
+ "wiki2:Yiyun_Li": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg/1280px-Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Yiyun_Li",
+  "w": 1386,
+  "h": 1383
+ },
+ "wiki2:Kaiju_Big_Battel": null,
+ "wiki2:Palmer_Square": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Palmer_Square_in_Princeton.jpg/1280px-Palmer_Square_in_Princeton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Palmer_Square",
+  "w": 1528,
+  "h": 1131
  }
 }

@@ -129,7 +129,7 @@
    "city": "nyc",
    "category": "comedy",
    "kind": "Taxidermy contest",
-   "title": "Wunderkammer, a taxidermy contest",
+   "title": "Wunderkammer",
    "why": "More than twenty taxidermists bring their strangest work to be judged on stage. As odd, and as funny, as it sounds.",
    "start": "2026-10-30T00:00:00.000Z",
    "venue": {
@@ -161,11 +161,11 @@
     }
    ],
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg/1280px-McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg/1280px-Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
-    "link": "https://en.wikipedia.org/wiki/McCarter_Theatre",
-    "w": 4032,
-    "h": 3024
+    "link": "https://en.wikipedia.org/wiki/C%C3%A9cile_McLorin_Salvant",
+    "w": 8192,
+    "h": 5464
    }
   },
   {
@@ -321,7 +321,14 @@
    "price": "Free",
    "isFree": true,
    "link": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/",
-   "sourceName": "Planet Princeton"
+   "sourceName": "Planet Princeton",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg/1280px-Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Yiyun_Li",
+    "w": 1386,
+    "h": 1383
+   }
   },
   {
    "id": "the-bell-house-kaiju-big-battel-satan-sleeps-tonight-2026-11-01",
@@ -354,7 +361,14 @@
    "price": "Free",
    "isFree": true,
    "link": "https://artscouncilofprinceton.org/event/50-hometown-halloween-parade/",
-   "sourceName": "Arts Council of Princeton"
+   "sourceName": "Arts Council of Princeton",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Palmer_Square_in_Princeton.jpg/1280px-Palmer_Square_in_Princeton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Palmer_Square",
+    "w": 1528,
+    "h": 1131
+   }
   },
   {
    "id": "blue-note-robert-glasper-2026-11-01",
@@ -379,11 +393,11 @@
     }
    ],
    "image": {
-    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Blue_Note_Jazz_Club%2C_New_York_City.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RG_Trio_3.jpg/1280px-RG_Trio_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
-    "link": "https://en.wikipedia.org/wiki/Blue_Note_Jazz_Club",
-    "w": 1182,
-    "h": 1576
+    "link": "https://en.wikipedia.org/wiki/Robert_Glasper",
+    "w": 2400,
+    "h": 3600
    }
   },
   {
@@ -1411,5 +1425,5 @@
    }
   }
  ],
- "builtAt": "2026-10-28T19:14:53.314Z"
+ "builtAt": "2026-10-28T19:19:47.425Z"
 }
