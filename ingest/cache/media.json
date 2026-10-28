@@ -828,13 +828,27 @@
   "lat": 40.7207443,
   "lng": -73.9957016
  },
- "place:lei": {},
- "place:mam": {},
+ "place:lei": {
+  "reserve": {
+   "platform": "Resy",
+   "url": "https://resy.com/cities/ny/lei"
+  },
+  "menu": "https://leiwine.nyc/menu",
+  "lat": 40.7143767,
+  "lng": -73.9980122
+ },
+ "place:mam": {
+  "lat": 40.7170443,
+  "lng": -73.9933568
+ },
  "place:penny": {
   "lat": 40.7308231,
   "lng": -73.989714
  },
- "place:shu-jiao-fu-zhou": {},
+ "place:shu-jiao-fu-zhou": {
+  "lat": 40.7184544,
+  "lng": -73.9916942
+ },
  "place:sam-pings": {},
  "place:great-ny-noodletown": {
   "lat": 40.7149725,
@@ -844,9 +858,16 @@
   "lat": 40.7278816,
   "lng": -73.9569597
  },
- "place:bong": {},
+ "place:bong": {
+  "lat": 40.6727061,
+  "lng": -73.9548016
+ },
  "place:trinidad-golden-place": {},
- "place:le-veau-dor": {},
+ "place:le-veau-dor": {
+  "menu": "https://www.lvdnyc.com/menus",
+  "lat": 40.7632212,
+  "lng": -73.9680874
+ },
  "place:via-carota": {
   "reserve": {
    "platform": "Resy",
@@ -856,13 +877,27 @@
   "lat": 40.73311,
   "lng": -74.0036496
  },
- "place:emmett": {},
+ "place:emmett": {
+  "reserve": {
+   "platform": "OpenTable",
+   "url": "https://www.opentable.com/r/emmett-reservations-philadelphia?restref=1368322&lang=en-US&ot_source=Restaurant%20website"
+  },
+  "menu": "https://www.emmettphilly.com/menus",
+  "lat": 39.9695248,
+  "lng": -75.1383426
+ },
  "wiki2:El_Chingon": null,
  "place:el-chingon": {},
  "wiki2:Kalaya_(restaurant)": null,
- "place:kalaya": {},
+ "place:kalaya": {
+  "lat": 39.975633,
+  "lng": -75.133092
+ },
  "place:provenance": {},
- "place:bar-cicci": {},
+ "place:bar-cicci": {
+  "lat": 39.9504301,
+  "lng": -75.1680186
+ },
  "wiki2:Zahav_(restaurant)": null,
  "place:zahav": {
   "menu": "https://www.zahavrestaurant.com/bar-menu",
@@ -880,10 +915,15 @@
  },
  "og2:https://www.princetonxibei.com/": null,
  "place:xibei": {
-  "menu": "https://www.princetonxibei.com/menu/"
+  "menu": "https://www.princetonxibei.com/menu/",
+  "lat": 40.351036,
+  "lng": -74.6602194
  },
  "place:madras-dosa": {},
- "place:blue-point-grill": {},
+ "place:blue-point-grill": {
+  "lat": 40.3524512,
+  "lng": -74.6510893
+ },
  "place:hoagie-haven": {
   "lat": 40.3521955,
   "lng": -74.6519045
@@ -927,5 +967,27 @@
   "link": "https://en.wikipedia.org/wiki/Javits_Center",
   "w": 3925,
   "h": 2208
+ },
+ "og2:https://leiwine.nyc/": {
+  "url": "http://static1.squarespace.com/static/681282bb6b86085cb558827c/t/68ae2cb9c1bfc45b6dc47c7f/1756245177666/_X7A5631.jpg?format=1500w",
+  "credit": "leiwine.nyc",
+  "link": "https://leiwine.nyc/",
+  "w": 1500,
+  "h": 1072
+ },
+ "wiki2:Mắm_(restaurant)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/M%E1%BA%AFm_NYC.jpg/1400px-M%E1%BA%AFm_NYC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/M%E1%BA%AFm_(restaurant)",
+  "w": 4032,
+  "h": 3024
+ },
+ "og2:https://www.lvdnyc.com/": null,
+ "og2:https://www.emmettphilly.com/": {
+  "url": "https://static.wixstatic.com/media/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg",
+  "credit": "emmettphilly.com",
+  "link": "https://www.emmettphilly.com/",
+  "w": 1330,
+  "h": 1330
  }
 }
