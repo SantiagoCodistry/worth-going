@@ -1671,5 +1671,20 @@
   "w": 4032,
   "h": 3024
  },
- "commons:El Chingon|Philadelphia": null
+ "commons:El Chingon|Philadelphia": null,
+ "og2:https://www.livenation.com/venue/KovZpZAkJtvA/blue-note-jazz-club-events/pg/2": null,
+ "wiki2:Blue_Note_Jazz_Club": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Blue_Note_Jazz_Club%2C_New_York_City.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Blue_Note_Jazz_Club",
+  "w": 1182,
+  "h": 1576
+ },
+ "wiki2:The_Town_Hall_(New_York_City)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Town_Hall_123_W43_near_sun_jeh.jpg/1280px-Town_Hall_123_W43_near_sun_jeh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Town_Hall_(New_York_City)",
+  "w": 3001,
+  "h": 2801
+ }
 }
