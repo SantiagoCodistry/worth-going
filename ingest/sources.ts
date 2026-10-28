@@ -6,7 +6,7 @@
 // subscriptions, their own REST APIs, structured data they embed for
 // search engines). Ticketmaster is the one exception and is opt-in.
 import { espn, mlb, nhl } from './adapters/sports.ts'
-import { fromLuma, fromTribe } from './adapters/feeds.ts'
+import { fromIcs, fromJsonLd, fromLuma, fromTribe } from './adapters/feeds.ts'
 import { ticketmasterRegion } from './adapters/ticketmaster.ts'
 import type { Source } from './adapters/types.ts'
 
@@ -30,6 +30,26 @@ export const SOURCES: Source[] = [
   },
 
 
+  {
+    id: 'arts-council-princeton',
+    name: 'Arts Council of Princeton',
+    homepage: 'https://artscouncilofprinceton.org/events/',
+    city: 'princeton',
+    kind: 'tribe',
+    category: 'art',
+    fetch: (ctx) =>
+      fromTribe('https://artscouncilofprinceton.org', { city: 'princeton', category: 'art', sourceName: 'Arts Council of Princeton', homepage: 'https://artscouncilofprinceton.org/events/' }, ctx),
+  },
+  {
+    id: 'princeton-history',
+    name: 'Historical Society of Princeton',
+    homepage: 'https://www.princetonhistory.org/events/',
+    city: 'princeton',
+    kind: 'ics',
+    category: 'unusual',
+    fetch: (ctx) =>
+      fromIcs('https://www.princetonhistory.org/?ical=1', { city: 'princeton', category: 'unusual', sourceName: 'Historical Society of Princeton', homepage: 'https://www.princetonhistory.org/events/', include: /tour|walk|talk|lecture|night|history|cemetery/i }, ctx),
+  },
   {
     id: 'princeton-football',
     name: 'Princeton Tigers football (ESPN)',
@@ -74,6 +94,17 @@ export const SOURCES: Source[] = [
   },
 
 
+  {
+    id: 'bell-house',
+    name: 'The Bell House',
+    homepage: 'https://www.thebellhouseny.com/calendar',
+    city: 'nyc',
+    kind: 'jsonld',
+    category: 'comedy',
+    fetch: (ctx) =>
+      fromJsonLd('https://www.thebellhouseny.com/calendar', { city: 'nyc', category: 'comedy', sourceName: 'The Bell House', homepage: 'https://www.thebellhouseny.com/calendar' }, ctx),
+  },
+
   { id: 'knicks', name: 'New York Knicks (NBA)', homepage: 'https://www.nba.com/knicks/schedule', city: 'nyc', kind: 'espn', category: 'sports',
     fetch: (ctx) => espn('basketball/nba', '18', { ...MSG, league: 'NBA', sourceUrl: 'https://www.nba.com/knicks/schedule' }, ctx) },
   { id: 'nets', name: 'Brooklyn Nets (NBA)', homepage: 'https://www.nba.com/nets/schedule', city: 'nyc', kind: 'espn', category: 'sports',
@@ -95,6 +126,16 @@ export const SOURCES: Source[] = [
     category: 'unusual',
     fetch: (ctx) =>
       fromLuma('philadelphia', { city: 'philly', category: 'unusual', sourceName: 'Luma', homepage: 'https://luma.com/philadelphia' }, ctx),
+  },
+  {
+    id: 'punchline-philly',
+    name: 'Punch Line Philly',
+    homepage: 'https://www.punchlinephilly.com/shows',
+    city: 'philly',
+    kind: 'jsonld',
+    category: 'comedy',
+    fetch: (ctx) =>
+      fromJsonLd('https://www.punchlinephilly.com/shows', { city: 'philly', category: 'comedy', sourceName: 'Punch Line Philly', homepage: 'https://www.punchlinephilly.com/shows' }, ctx),
   },
   { id: 'sixers', name: 'Philadelphia 76ers (NBA)', homepage: 'https://www.nba.com/sixers/schedule', city: 'philly', kind: 'espn', category: 'sports',
     fetch: (ctx) => espn('basketball/nba', '20', { ...XFINITY, league: 'NBA', sourceUrl: 'https://www.nba.com/sixers/schedule' }, ctx) },

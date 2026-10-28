@@ -2,103 +2,72 @@
 // works. Run in CI (the dev container can't reach these sites):
 //   npx tsx scripts/probe-sources.ts > probe.json
 import { writeFileSync } from 'node:fs'
-import { fromIcs, fromJsonLd, fromLocalist, fromTribe, type Defaults } from '../ingest/adapters/feeds.ts'
+import { fromJsonLd, fromLuma, type Defaults } from '../ingest/adapters/feeds.ts'
 import type { Draft } from '../ingest/adapters/types.ts'
 import type { CityId } from '../src/shared/types.ts'
 
-const C: [CityId, string][] = [
-  // Princeton and central NJ
-  ['princeton', 'https://events.princeton.edu'],
-  ['princeton', 'https://artscouncilofprinceton.org'],
-  ['princeton', 'https://www.mccarter.org'],
-  ['princeton', 'https://princetonlibrary.org'],
-  ['princeton', 'https://www.morven.org'],
-  ['princeton', 'https://www.labyrinthbooks.com'],
-  ['princeton', 'https://www.princetongardentheatre.org'],
-  ['princeton', 'https://drgreenway.org'],
-  ['princeton', 'https://www.hopewelltheater.com'],
-  ['princeton', 'https://www.princetonsymphony.org'],
-  ['princeton', 'https://princetonuniversityconcerts.org'],
-  ['princeton', 'https://www.princetonhistory.org'],
-  ['princeton', 'https://palmersquare.com'],
-  ['princeton', 'https://artmuseum.princeton.edu'],
-  ['princeton', 'https://www.terhuneorchards.com'],
-  ['princeton', 'https://www.kelseytheatre.org'],
-  ['princeton', 'https://events.tcnj.edu'],
-  ['princeton', 'https://www.groundsforsculpture.org'],
-  ['princeton', 'https://www.sesamepl.com'],
-  ['princeton', 'https://www.princetonchamber.org'],
-  ['princeton', 'https://www.ias.edu'],
-  ['princeton', 'https://www.cityofprinceton.org'],
-  ['nj', 'https://www.statetheatrenj.org'],
-  ['nj', 'https://events.rutgers.edu'],
-  ['nj', 'https://events.stevens.edu'],
-  ['nj', 'https://events.njit.edu'],
-  ['nj', 'https://www.njpac.org'],
-  ['nj', 'https://www.whiteeaglehall.org'],
-  ['nj', 'https://www.montclairfilm.org'],
-  ['nj', 'https://www.thewellmont.com'],
-  ['nj', 'https://www.asburylanes.com'],
-  ['nj', 'https://www.stonepony.com'],
-  // New York
-  ['nyc', 'https://events.columbia.edu'],
-  ['nyc', 'https://events.nyu.edu'],
-  ['nyc', 'https://events.newschool.edu'],
-  ['nyc', 'https://www.caveat.nyc'],
-  ['nyc', 'https://www.thebellhouseny.com'],
-  ['nyc', 'https://www.unionhallny.com'],
-  ['nyc', 'https://www.littlefieldnyc.com'],
-  ['nyc', 'https://www.nerdnitenyc.com'],
-  ['nyc', 'https://pioneerworks.org'],
-  ['nyc', 'https://www.lpr.com'],
-  ['nyc', 'https://www.joespub.com'],
-  ['nyc', 'https://www.housingworks.org'],
-  ['nyc', 'https://www.strandbooks.com'],
-  ['nyc', 'https://www.bklynlibrary.org'],
-  ['nyc', 'https://www.morbidanatomymuseum.org'],
-  ['nyc', 'https://www.brooklynbowl.com'],
-  ['nyc', 'https://www.unionpool.com'],
-  ['nyc', 'https://www.babysallright.com'],
-  ['nyc', 'https://www.publicrecords.nyc'],
-  ['nyc', 'https://www.nationalsawdust.org'],
-  ['nyc', 'https://www.smalls.live'],
-  ['nyc', 'https://www.bluenotejazz.com'],
-  ['nyc', 'https://www.thestandnyc.com'],
-  ['nyc', 'https://www.comedycellar.com'],
-  ['nyc', 'https://www.unionsquaremusic.com'],
-  ['nyc', 'https://www.makerversity.com'],
-  ['nyc', 'https://www.ny.techweek.com'],
-  ['nyc', 'https://www.nyhistory.org'],
-  ['nyc', 'https://www.brooklynmuseum.org'],
-  ['nyc', 'https://www.newmuseum.org'],
-  ['nyc', 'https://www.moma.org'],
-  ['nyc', 'https://www.thehighline.org'],
-  ['nyc', 'https://www.bam.org'],
-  ['nyc', 'https://www.thekitchen.org'],
-  ['nyc', 'https://www.symphonyspace.org'],
-  ['nyc', 'https://www.92ny.org'],
-  ['nyc', 'https://www.asphaltgreen.org'],
-  ['nyc', 'https://www.nycgovparks.org'],
-  ['nyc', 'https://www.brooklynbrainery.com'],
-  ['nyc', 'https://www.secretscience.com'],
-  // Philadelphia
-  ['philly', 'https://events.temple.edu'],
-  ['philly', 'https://events.drexel.edu'],
-  ['philly', 'https://www.upenn.edu'],
-  ['philly', 'https://www.worldcafelive.com'],
-  ['philly', 'https://www.utphilly.com'],
-  ['philly', 'https://www.johnnybrendas.com'],
-  ['philly', 'https://www.franklinmusichall.com'],
-  ['philly', 'https://www.fi.edu'],
-  ['philly', 'https://www.easternstate.org'],
-  ['philly', 'https://www.wagnerfreeinstitute.org'],
-  ['philly', 'https://www.freelibrary.org'],
-  ['philly', 'https://www.philamuseum.org'],
-  ['philly', 'https://www.thephillycomedycenter.com'],
-  ['philly', 'https://www.punchlinephilly.com'],
-  ['philly', 'https://www.philadelphiamagicgardens.org'],
-  ['philly', 'https://www.thebarnes.org'],
+// Round 2: pages that list many events at once, tried with JSON-LD and Luma.
+const PAGES: [CityId, string][] = [
+  ['princeton', 'https://www.eventbrite.com/d/nj--princeton/all-events/'],
+  ['princeton', 'https://www.eventbrite.com/d/nj--princeton/events--this-month/'],
+  ['nj', 'https://www.eventbrite.com/d/nj--new-brunswick/all-events/'],
+  ['nyc', 'https://www.eventbrite.com/d/ny--new-york/comedy--events/'],
+  ['nyc', 'https://www.eventbrite.com/d/ny--new-york/science-and-tech--events/'],
+  ['nyc', 'https://www.eventbrite.com/d/ny--new-york/startups--events/'],
+  ['nyc', 'https://www.eventbrite.com/d/ny--new-york/talks--events/'],
+  ['philly', 'https://www.eventbrite.com/d/pa--philadelphia/comedy--events/'],
+  ['philly', 'https://www.eventbrite.com/d/pa--philadelphia/science-and-tech--events/'],
+  ['nyc', 'https://www.songkick.com/metro-areas/7644-us-new-york-nyc'],
+  ['philly', 'https://www.songkick.com/metro-areas/5202-us-philadelphia'],
+  ['nyc', 'https://www.unionhallny.com/calendar'],
+  ['nyc', 'https://www.thebellhouseny.com/calendar'],
+  ['nyc', 'https://www.gothamcomedyclub.com/calendar'],
+  ['nyc', 'https://www.newyorkcomedyclub.com/calendar'],
+  ['nyc', 'https://standupny.com/calendar'],
+  ['nyc', 'https://www.thestandnyc.com/shows'],
+  ['nyc', 'https://www.caveat.nyc/events'],
+  ['nyc', 'https://www.brooklyncomedycollective.com/calendar'],
+  ['nyc', 'https://www.unionpool.com/calendar'],
+  ['nyc', 'https://www.babysallright.com/calendar'],
+  ['nyc', 'https://www.bowerypresents.com/new-york-city/shows'],
+  ['nyc', 'https://www.mercuryeastpresents.com/'],
+  ['nyc', 'https://www.irvingplaza.com/shows'],
+  ['nyc', 'https://www.bowery.com/events'],
+  ['nyc', 'https://www.knittingfactory.com/brooklyn/'],
+  ['nyc', 'https://www.nationalsawdust.org/events'],
+  ['nyc', 'https://www.villagevanguard.com/'],
+  ['nyc', 'https://www.smallslive.com/'],
+  ['nyc', 'https://www.dizzysclub.org/'],
+  ['princeton', 'https://www.mccarter.org/events/'],
+  ['princeton', 'https://www.mccarter.org/season/'],
+  ['princeton', 'https://princetonlibrary.org/events/'],
+  ['princeton', 'https://www.labyrinthbooks.com/events/'],
+  ['princeton', 'https://www.princetongardentheatre.org/films/'],
+  ['princeton', 'https://www.hopewelltheater.com/events'],
+  ['princeton', 'https://www.hopewelltheater.com/shows'],
+  ['princeton', 'https://www.kelseytheatre.org/shows'],
+  ['princeton', 'https://www.groundsforsculpture.org/events/'],
+  ['princeton', 'https://www.morven.org/events/'],
+  ['princeton', 'https://drgreenway.org/events/'],
+  ['princeton', 'https://princetonuniversityconcerts.org/concerts/'],
+  ['princeton', 'https://www.princetonsymphony.org/concerts/'],
+  ['nj', 'https://www.stonepony.com/events'],
+  ['nj', 'https://www.asburylanes.com/events'],
+  ['nj', 'https://www.thewellmont.com/events'],
+  ['nj', 'https://www.njpac.org/events/'],
+  ['nj', 'https://www.mayoarts.org/events'],
+  ['nj', 'https://www.statetheatrenj.org/events'],
+  ['philly', 'https://www.utphilly.com/events'],
+  ['philly', 'https://www.johnnybrendas.com/events'],
+  ['philly', 'https://www.franklinmusichall.com/events'],
+  ['philly', 'https://www.worldcafelive.com/events'],
+  ['philly', 'https://www.thefillmorephilly.com/shows'],
+  ['philly', 'https://www.helium-comedy.com/philadelphia'],
+  ['philly', 'https://philadelphia.heliumcomedy.com/events'],
+  ['philly', 'https://www.easternstate.org/events'],
+  ['philly', 'https://www.wagnerfreeinstitute.org/events'],
 ]
+const LUMA = ['tech', 'ai', 'princeton', 'new-jersey', 'nj', 'brooklyn', 'philly', 'newyork', 'arts', 'climate', 'crypto', 'wellness', 'food']
 
 const now = new Date()
 const ctx = { from: now, to: new Date(now.getTime() + 45 * 86400000) }
@@ -112,26 +81,20 @@ async function attempt(base: string, city: CityId, method: string, url: string, 
   const d: Defaults = { city, category: 'unusual', sourceName: new URL(base).hostname, homepage: base }
   try {
     const got = await timeout(run(d))
-    if (got.length) results.push({ base, city, method, url, count: got.length, sample: got.slice(0, 6).map((e) => `${e.start.slice(0, 10)} ${e.title}`) })
+    if (got.length) results.push({ base, city, method, url, count: got.length, sample: got.slice(0, 10).map((e) => `${e.start.slice(0, 10)} ${e.title} @ ${e.venue.name}`) })
     else (errors[base] ??= []).push(`${method}: 0 events`)
   } catch (e) {
     ;(errors[base] ??= []).push(`${method}: ${(e as Error).message.slice(0, 90)}`)
   }
 }
 
-async function probe([city, base]: [CityId, string]) {
-  await attempt(base, city, 'tribe', base, (d) => fromTribe(base, d, ctx))
-  await attempt(base, city, 'localist', base, (d) => fromLocalist(base, d, ctx))
-  for (const path of ['/events/?ical=1', '/?ical=1', '/events.ics', '/calendar.ics'])
-    await attempt(base, city, 'ics', base + path, (d) => fromIcs(base + path, d, ctx))
-  for (const path of ['', '/events', '/events/', '/calendar', '/shows', '/whats-on', '/upcoming-events'])
-    await attempt(base, city, 'jsonld', base + path, (d) => fromJsonLd(base + path, d, ctx))
-}
-
-const queue = [...C]
+const queue: (() => Promise<void>)[] = [
+  ...PAGES.map(([city, url]) => () => attempt(url, city, 'jsonld', url, (d) => fromJsonLd(url, d, ctx))),
+  ...LUMA.map((slug) => () => attempt(`https://luma.com/${slug}`, 'nyc', 'luma', `https://luma.com/${slug}`, (d) => fromLuma(slug, d, ctx))),
+]
 await Promise.all(
-  Array.from({ length: 8 }, async () => {
-    for (let c = queue.shift(); c; c = queue.shift()) await probe(c)
+  Array.from({ length: 6 }, async () => {
+    for (let job = queue.shift(); job; job = queue.shift()) await job()
   }),
 )
 // Best method per site.
@@ -139,4 +102,4 @@ const best = new Map<string, Result>()
 for (const r of results) if (!best.has(r.base) || best.get(r.base)!.count < r.count) best.set(r.base, r)
 const report = { at: now.toISOString(), working: [...best.values()].sort((a, b) => b.count - a.count), failing: Object.fromEntries(Object.entries(errors).filter(([b]) => !best.has(b))) }
 writeFileSync('probe.json', JSON.stringify(report, null, 1))
-console.log(`${best.size} of ${C.length} sites returned events`)
+console.log(`${best.size} of ${PAGES.length + LUMA.length} pages returned events`)
