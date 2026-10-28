@@ -15,6 +15,17 @@ interface Store {
   byId: (id: string) => WGEvent | undefined
   profile: Profile
   setProfile: (p: Profile) => void
+  /** Your restaurant log, Beli-style. */
+  places: Record<string, PlaceLog>
+  logPlace: (id: string, entry: PlaceLog | null) => void
+}
+
+export interface PlaceLog {
+  status: 'want' | 'been'
+  verdict?: 'loved' | 'liked' | 'meh'
+  note?: string
+  /** YYYY-MM-DD you marked it been */
+  date?: string
 }
 
 const Ctx = createContext<Store | null>(null)
@@ -45,6 +56,16 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const setProfile = useCallback((p: Profile) => {
     setProfileState(p)
     writeLocal('wg.profile', p)
+  }, [])
+  const [places, setPlaces] = useState<Record<string, PlaceLog>>(() => readLocal('wg.places', {}))
+  const logPlace = useCallback((id: string, entry: PlaceLog | null) => {
+    setPlaces((prev) => {
+      const next = { ...prev }
+      if (entry) next[id] = entry
+      else delete next[id]
+      writeLocal('wg.places', next)
+      return next
+    })
   }, [])
 
   useEffect(() => {
@@ -90,8 +111,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       byId: (id) => index.get(id),
       profile,
       setProfile,
+      places,
+      logPlace,
     }),
-    [data, error, city, setCity, saved, toggleSaved, index, profile, setProfile],
+    [data, error, city, setCity, saved, toggleSaved, index, profile, setProfile, places, logPlace],
   )
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>

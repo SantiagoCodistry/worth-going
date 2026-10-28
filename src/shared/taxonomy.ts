@@ -9,9 +9,10 @@ export interface City {
 }
 
 export const CITIES: City[] = [
-  { id: 'nyc', name: 'New York City', short: 'New York' },
+  { id: 'princeton', name: 'Princeton area', short: 'Princeton' },
+  { id: 'nyc', name: 'New York', short: 'New York' },
+  { id: 'nj', name: 'New Jersey', short: 'New Jersey' },
   { id: 'philly', name: 'Philadelphia', short: 'Philadelphia' },
-  { id: 'princeton', name: 'Princeton', short: 'Princeton' },
 ]
 
 export const cityById = (id: CityId) => CITIES.find((c) => c.id === id)!

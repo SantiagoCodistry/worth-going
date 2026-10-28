@@ -7,7 +7,7 @@
 // search engines). Ticketmaster is the one exception and is opt-in.
 import { espn, mlb, nhl } from './adapters/sports.ts'
 import { fromLuma, fromTribe } from './adapters/feeds.ts'
-import { ticketmaster } from './adapters/ticketmaster.ts'
+import { ticketmasterRegion } from './adapters/ticketmaster.ts'
 import type { Source } from './adapters/types.ts'
 
 const MSG = { city: 'nyc' as const, venue: 'Madison Square Garden', address: '4 Pennsylvania Plaza, New York' }
@@ -105,9 +105,7 @@ export const SOURCES: Source[] = [
   { id: 'eagles', name: 'Philadelphia Eagles (ESPN)', homepage: 'https://www.philadelphiaeagles.com/schedule/', city: 'philly', kind: 'espn', category: 'sports',
     fetch: (ctx) => espn('football/nfl', '21', { city: 'philly', venue: 'Lincoln Financial Field', address: '1 Lincoln Financial Field Way, Philadelphia', league: 'NFL', sourceUrl: 'https://www.philadelphiaeagles.com/schedule/' }, ctx) },
 
-  // ——— Optional, needs a free key ———
-  { id: 'ticketmaster-nyc', name: 'Ticketmaster — New York (optional)', homepage: 'https://developer.ticketmaster.com/', city: 'nyc', kind: 'ticketmaster', category: 'music',
-    enabled: !!process.env.TICKETMASTER_API_KEY, fetch: (ctx) => ticketmaster('nyc', ctx) },
-  { id: 'ticketmaster-philly', name: 'Ticketmaster — Philadelphia (optional)', homepage: 'https://developer.ticketmaster.com/', city: 'philly', kind: 'ticketmaster', category: 'music',
-    enabled: !!process.env.TICKETMASTER_API_KEY, fetch: (ctx) => ticketmaster('philly', ctx) },
+  // ——— Region-wide, needs a free key ———
+  { id: 'ticketmaster', name: 'Ticketmaster (whole region)', homepage: 'https://www.ticketmaster.com/', city: 'multi', kind: 'ticketmaster', category: 'music',
+    enabled: !!process.env.TICKETMASTER_API_KEY, fetch: (ctx) => ticketmasterRegion(ctx) },
 ]

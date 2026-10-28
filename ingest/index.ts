@@ -13,7 +13,8 @@ import { addDays, nyDateKey, sortTime } from '../src/shared/time.ts'
 import type { Draft } from './adapters/types.ts'
 import { CONFIG } from './config.ts'
 import { isNoise, outOfArea, score, whyFor } from './lib/enrich.ts'
-import { addMedia, placeImage, saveCache } from './lib/media.ts'
+import { addMedia, placeImage, placeMeta, saveCache } from './lib/media.ts'
+import { cityById } from '../src/shared/taxonomy.ts'
 import { PLACES } from '../src/data/places.ts'
 import { slug } from './lib/http.ts'
 import { previewEvents } from './seed/preview.ts'
@@ -102,10 +103,12 @@ async function run() {
   for (const e of final) e.score = score(e)
 
   const placeImages: NonNullable<Dataset['placeImages']> = offline ? { ...(prev?.placeImages ?? {}) } : {}
+  const placeInfo: NonNullable<Dataset['placeMeta']> = offline ? { ...(prev?.placeMeta ?? {}) } : {}
   if (!offline) {
     for (const p of PLACES) {
       const img = await placeImage(p)
       if (img) placeImages[p.id] = img
+      placeInfo[p.id] = await placeMeta(p, cityById(p.city).name)
     }
     saveCache()
   }
@@ -114,6 +117,7 @@ async function run() {
     generatedAt: now.toISOString(),
     events: final,
     placeImages,
+    placeMeta: placeInfo,
     sources: statuses.sort((a, b) => a.id.localeCompare(b.id)),
   }
   if (!existsSync(dirname(OUT))) mkdirSync(dirname(OUT), { recursive: true })

@@ -60,19 +60,9 @@ export const isNoise = (e: Pick<WGEvent, 'title' | 'description' | 'venue'>) =>
   NOISE.test(e.venue.name) ||
   /\b(closed to the public|princeton (university )?id required|by invitation only)\b/i.test(e.description)
 
-/**
- * Princeton listings include the surrounding area and the corridor to New York
- * and Philadelphia (Hopewell, Trenton, New Brunswick…). Drop only places clearly
- * off that path, such as the Jersey Shore.
- */
-const FAR_AWAY: Record<string, RegExp> = {
-  princeton:
-    /asbury park|atlantic city|cape may|long branch|red bank|toms river|ocean city|wildwood|point pleasant|belmar|seaside|morristown|paterson|hackensack/i,
-}
-export function outOfArea(e: WGEvent): boolean {
-  const re = FAR_AWAY[e.city]
-  if (!re || e.provenance !== 'live') return false
-  return re.test(`${e.venue.name} ${e.venue.address ?? ''} ${e.title}`)
+/** Everything in the NYC–Philadelphia region is in scope now; only online events are dropped (see NOISE). */
+export function outOfArea(_e: WGEvent): boolean {
+  return false
 }
 
 interface VenueNote {
@@ -129,6 +119,8 @@ export function score(e: WGEvent): number {
   if (GOOD.test(e.title)) s += 8
   if (MEH.test(e.title)) s -= 10
   if (e.people?.length) s += 6
+  // A performer notable enough for a Wikipedia page is a decent sign.
+  if (e.provenance === 'live' && e.people?.some((p) => p.wiki)) s += 14
   if (e.pick) s += 40
   s += venueNote(`${e.venue.name} ${e.venue.address ?? ''}`)?.weight ?? 0
   if (e.isFree) s += 8

@@ -113,12 +113,19 @@ function absolute(url: string, base: string) {
   }
 }
 
+const pages = new Map<string, Promise<string>>()
+/** Fetch a page once per run, however many helpers need it. */
+const page = (url: string) => {
+  if (!pages.has(url)) pages.set(url, get(url, 'text/html', 15000))
+  return pages.get(url)!
+}
+
 export async function pageImage(pageUrl: string): Promise<Img> {
   const key = `og2:${pageUrl}`
   if (key in cache) return cache[key]
   let img: Img = null
   try {
-    const html = await get(pageUrl, 'text/html', 15000)
+    const html = await page(pageUrl)
     const m =
       html.match(/<meta[^>]+(?:property|name)=["'](?:og:image(?::secure_url)?|twitter:image)["'][^>]+content=["']([^"']+)["']/i) ??
       html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+(?:property|name)=["'](?:og:image|twitter:image)["']/i)
@@ -203,11 +210,42 @@ const venueWiki = (e: WGEvent) => VENUE_WIKI.find(([re]) => re.test(`${e.venue.n
 
 const NOT_BILLED = /moderator$|(^|,\s*)(co-)?host$/i
 
-async function withPortraits(list: Person[] = []): Promise<Person[]> {
-  return Promise.all(list.map(async (p) => (p.wiki ? { ...p, image: (await wikiImage(p.wiki)) ?? undefined } : p)))
+const PERFORMER = /\b(singer|band|rapper|musician|comedian|comic|actor|actress|dj|group|songwriter|composer|producer|duo|trio|orchestra|ensemble|pianist|guitarist|violinist|cellist|drummer|team|club|podcaster|author|writer|magician|dancer|choir|quartet|personality|host)\b/i
+
+/** Who is this performer? Wikipedia's one-line description, if the page is clearly about a performer. */
+export async function whoIs(name: string): Promise<{ role: string; wiki: string } | null> {
+  const key = `who:${name}`
+  if (key in cache) return cache[key] as unknown as { role: string; wiki: string } | null
+  let out: { role: string; wiki: string } | null = null
+  try {
+    type S = { type?: string; title: string; description?: string }
+    const s = await getJson<S>(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(name.replace(/ /g, '_'))}`)
+    if (s.type === 'standard' && s.description && PERFORMER.test(s.description)) {
+      out = { role: s.description.charAt(0).toUpperCase() + s.description.slice(1), wiki: s.title.replace(/ /g, '_') }
+    }
+  } catch (e) {
+    if (!/HTTP 404/.test((e as Error).message)) return null
+  }
+  ;(cache as Record<string, unknown>)[key] = out
+  return out
+}
+
+async function withPortraits(list: Person[] = [], lookup = false): Promise<Person[]> {
+  return Promise.all(
+    list.map(async (p) => {
+      let q = p
+      if (lookup && !p.wiki) {
+        const w = await whoIs(p.name)
+        if (w) q = { ...p, role: w.role, wiki: w.wiki }
+      }
+      return q.wiki ? { ...q, image: (await wikiImage(q.wiki)) ?? undefined } : q
+    }),
+  )
 }
 
 async function pickImage(e: WGEvent): Promise<Img> {
+  // Ticketmaster artwork is the artist's official image at full size.
+  if (e.image?.credit === 'Ticketmaster') return e.image
   if (e.wiki) {
     const own = await wikiImage(e.wiki)
     if (own) return own
@@ -226,8 +264,12 @@ export async function addMedia(events: WGEvent[], concurrency = 8): Promise<void
   await Promise.all(
     Array.from({ length: concurrency }, async () => {
       for (let e = queue.shift(); e; e = queue.shift()) {
-        if (e.people?.length) e.people = await withPortraits(e.people)
+        if (e.people?.length) e.people = await withPortraits(e.people, e.provenance === 'live')
         e.image = (await pickImage(e)) ?? undefined
+        if (!e.price && e.provenance === 'preview') {
+          const price = (await pagePrice(e.ticketUrl ?? e.sourceUrl)) ?? (e.ticketUrl ? await pagePrice(e.sourceUrl) : null)
+          if (price) e.price = price
+        }
       }
     }),
   )
@@ -245,4 +287,93 @@ export async function placeImage(p: Place): Promise<Img> {
 export function saveCache() {
   mkdirSync(dirname(CACHE), { recursive: true })
   writeFileSync(CACHE, JSON.stringify(cache, null, 1))
+}
+
+// ——— Prices from the event page’s own structured data ———
+
+export async function pagePrice(pageUrl: string): Promise<string | null> {
+  const key = `price:${pageUrl}`
+  if (key in cache) return (cache as Record<string, unknown>)[key] as string | null
+  let price: string | null = null
+  try {
+    const html = await page(pageUrl)
+    const prices: number[] = []
+    for (const m of html.matchAll(/<script[^>]+application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi)) {
+      try {
+        const walk = (n: unknown): void => {
+          if (Array.isArray(n)) return n.forEach(walk)
+          if (!n || typeof n !== 'object') return
+          const o = n as Record<string, unknown>
+          for (const k of ['lowPrice', 'price']) {
+            const v = Number(o[k])
+            if (Number.isFinite(v) && v > 0) prices.push(v)
+          }
+          Object.values(o).forEach(walk)
+        }
+        walk(JSON.parse(m[1].trim()))
+      } catch {
+        /* ignore */
+      }
+    }
+    if (prices.length) price = `From $${Math.round(Math.min(...prices))}`
+  } catch {
+    return null
+  }
+  ;(cache as Record<string, unknown>)[key] = price
+  return price
+}
+
+// ——— Restaurants: booking link, menu and map position ———
+
+export interface PlaceMeta {
+  reserve?: { platform: string; url: string }
+  menu?: string
+  lat?: number
+  lng?: number
+}
+
+const BOOKING: [RegExp, string][] = [
+  [/https?:\/\/(www\.)?resy\.com\/cities\/[^"'\s<>]+/i, 'Resy'],
+  [/https?:\/\/(www\.)?opentable\.com\/(r|restref)\/[^"'\s<>]+/i, 'OpenTable'],
+  [/https?:\/\/(www\.)?exploretock\.com\/[^"'\s<>]+/i, 'Tock'],
+  [/https?:\/\/(www\.)?sevenrooms\.com\/reservations\/[^"'\s<>]+/i, 'SevenRooms'],
+]
+
+export async function placeMeta(p: Place, cityName: string): Promise<PlaceMeta> {
+  const key = `place:${p.id}`
+  const cached = (cache as Record<string, unknown>)[key] as PlaceMeta | undefined
+  if (cached && (cached.lat || cached.reserve || cached.menu)) return cached
+  const meta: PlaceMeta = {}
+  if (p.website) {
+    try {
+      const html = await page(p.website)
+      for (const [re, platform] of BOOKING) {
+        const m = html.match(re)
+        if (m) {
+          meta.reserve = { platform, url: m[0].replace(/&amp;/g, '&') }
+          break
+        }
+      }
+      const menu = [...html.matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)].find(
+        ([, href, text]) => /menu/i.test(href) || /\bmenus?\b/i.test(text.replace(/<[^>]+>/g, '')),
+      )
+      if (menu) meta.menu = absolute(menu[1], p.website)
+    } catch {
+      /* site unreachable: keep going */
+    }
+  }
+  // OpenStreetMap geocoding (Nominatim): one request a second, identified.
+  try {
+    const q = encodeURIComponent(`${p.name}, ${p.address ?? `${p.neighborhood}, ${cityName}`}`)
+    await new Promise((ok) => setTimeout(ok, 1100))
+    const res = await getJson<{ lat: string; lon: string }[]>(`https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${q}`)
+    if (res[0]) {
+      meta.lat = Number(res[0].lat)
+      meta.lng = Number(res[0].lon)
+    }
+  } catch {
+    /* no map pin */
+  }
+  ;(cache as Record<string, unknown>)[key] = meta
+  return meta
 }

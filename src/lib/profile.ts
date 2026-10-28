@@ -81,7 +81,7 @@ export function fit(e: WGEvent, p: Profile): Fit {
   const reasons = matched.filter((i) => p.levels[i.id] === 2).map((i) => i.label)
   if (e.city === p.home) {
     score += 10
-    reasons.push(`In ${p.home === 'nyc' ? 'New York' : p.home === 'philly' ? 'Philadelphia' : 'Princeton'}`)
+    reasons.push(`Near you`)
   }
   if (p.budget === 'cheap' && e.isFree) score += 10
   const clash = clashes(e, p.busy)

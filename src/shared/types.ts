@@ -1,7 +1,8 @@
 // Data model shared by the web app and the ingestion pipeline (ingest/).
 // Keep this file dependency-free so both runtimes can import it.
 
-export type CityId = 'nyc' | 'philly' | 'princeton'
+/** Areas, not just cities: New Jersey covers the rest of the state outside the Princeton area. */
+export type CityId = 'nyc' | 'nj' | 'princeton' | 'philly'
 export type CityFilter = CityId | 'all'
 
 export type CategoryId =
@@ -69,7 +70,7 @@ export interface WGEvent {
   people?: Person[]
   /** Wikipedia page for the event itself (a parade, a marathon), used for a photo. */
   wiki?: string
-  image?: { url: string; credit?: string; link?: string }
+  image?: { url: string; credit?: string; link?: string; w?: number; h?: number }
   sourceName: string
   sourceUrl: string
   ticketUrl?: string
@@ -128,5 +129,7 @@ export interface Dataset {
   events: WGEvent[]
   /** Restaurant id → photo from the restaurant’s own site. */
   placeImages?: Record<string, { url: string; credit?: string; link?: string }>
+  /** Restaurant id → booking link, menu link and map position, found on the restaurant’s own site. */
+  placeMeta?: Record<string, { reserve?: { platform: string; url: string }; menu?: string; lat?: number; lng?: number }>
   sources: SourceStatus[]
 }
