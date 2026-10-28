@@ -3890,5 +3890,523 @@
   "w": 1796,
   "h": 2245
  },
- "og2:https://www.songkick.com/concerts/43292121-liana-flores-at-bowery-ballroom?utm_medium=organic&utm_source=microformat": null
+ "og2:https://www.songkick.com/concerts/43292121-liana-flores-at-bowery-ballroom?utm_medium=organic&utm_source=microformat": null,
+ "wiki2:Yoko_Ono": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/MEX_MM_CONFERENCIA_YOKO_ONO_%28cropped%29.jpg/1280px-MEX_MM_CONFERENCIA_YOKO_ONO_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Yoko_Ono",
+  "w": 1307,
+  "h": 1743
+ },
+ "wiki2:Constantin_Brâncuși": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Edward_Steichen_-_Brancusi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Constantin_Br%C3%A2ncu%C8%99i",
+  "w": 1012,
+  "h": 1256
+ },
+ "wiki2:Taryn_Simon": null,
+ "og2:https://www.visitphilly.com/articles/philadelphia/exhibitions-2026": {
+  "url": "https://www.visitphilly.com/wp-content/uploads/2026/05/declarations-journey-group-photo-crtsy-museumoftheamericanrevolution-2200x1237px.jpg",
+  "credit": "visitphilly.com",
+  "link": "https://www.visitphilly.com/articles/philadelphia/exhibitions-2026",
+  "w": 2200,
+  "h": 1237
+ },
+ "price:https://www.artrabbit.com/places/united-states/new-york/features/lists/20261001-20261231/mustsee-museum-shows": null,
+ "og2:https://www.artrabbit.com/places/united-states/new-york/features/lists/20261001-20261231/mustsee-museum-shows": null,
+ "who2:Meghan Hanley": null,
+ "who2:Rojo Perez": null,
+ "who2:St. Vincent": {
+  "role": "American musician (born 1982)",
+  "wiki": "St._Vincent_(musician)"
+ },
+ "wiki2:St._Vincent_(musician)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/St._Vincent_10_29_2018_-2_%2844237126380%29.jpg/1280px-St._Vincent_10_29_2018_-2_%2844237126380%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/St._Vincent_(musician)",
+  "w": 2000,
+  "h": 2500
+ },
+ "who2:SOAK": null,
+ "who2:Aaron McCann": {
+  "role": "Australian filmmaker, writer, and novelist",
+  "wiki": "Aaron_McCann"
+ },
+ "who2:Dan Ahdoot": {
+  "role": "American actor, writer, and comedian",
+  "wiki": "Dan_Ahdoot"
+ },
+ "wiki2:Aaron_McCann": null,
+ "wiki2:Dan_Ahdoot": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Dan_Ahdoot.jpg/1280px-Dan_Ahdoot.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Dan_Ahdoot",
+  "w": 2048,
+  "h": 3072
+ },
+ "who2:James Mattern": null,
+ "who2:Abby Kenna": null,
+ "who2:Vintage Culture": {
+  "role": "Brazilian DJ and music producer (born 1993)",
+  "wiki": "Vintage_Culture"
+ },
+ "wiki2:Vintage_Culture": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Vintage_Culture_in_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Vintage_Culture",
+  "w": 1200,
+  "h": 1200
+ },
+ "who2:Corinne Fisher": null,
+ "who2:Mike Britt": null,
+ "who2:Strange Velvet": null,
+ "who2:Ashley Austin Morris": {
+  "role": "American actress",
+  "wiki": "Ashley_Austin_Morris"
+ },
+ "wiki2:Ashley_Austin_Morris": null,
+ "who2:Sean Donnelly": null,
+ "who2:That One Mailman": null,
+ "who2:Riley Lassin": null,
+ "who2:Florry": {
+  "role": "American alternative country band led by Francie Medosch",
+  "wiki": "Florry"
+ },
+ "wiki2:Florry": null,
+ "who2:Armani White": {
+  "role": "American rapper (born 1996)",
+  "wiki": "Armani_White"
+ },
+ "wiki2:Armani_White": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Armani_White_in_2023_%28cropped%29.jpg/1280px-Armani_White_in_2023_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Armani_White",
+  "w": 1706,
+  "h": 2146
+ },
+ "who2:Lil Xan": {
+  "role": "American rapper (born 1996)",
+  "wiki": "Lil_Xan"
+ },
+ "who2:Mike Figs": null,
+ "wiki2:Lil_Xan": null,
+ "who2:Swamp Dogg": {
+  "role": "American songwriter (born 1942)",
+  "wiki": "Swamp_Dogg"
+ },
+ "wiki2:Swamp_Dogg": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Swamp-Dogg-2018.jpg/1280px-Swamp-Dogg-2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Swamp_Dogg",
+  "w": 1331,
+  "h": 1330
+ },
+ "who2:Chuck Nice": {
+  "role": "American comedian",
+  "wiki": "Chuck_Nice"
+ },
+ "wiki2:Chuck_Nice": null,
+ "who2:Max Antonucci": null,
+ "who2:Krewella": {
+  "role": "American electronic dance music group",
+  "wiki": "Krewella"
+ },
+ "wiki2:Krewella": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Krewella_2025_Medusa_Festival_interview.png/1280px-Krewella_2025_Medusa_Festival_interview.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Krewella",
+  "w": 1405,
+  "h": 1054
+ },
+ "who2:Motionless In White": {
+  "role": "American metalcore band",
+  "wiki": "Motionless_in_White"
+ },
+ "wiki2:Motionless_in_White": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Motionless_in_White_-_Rock_am_Ring_2017-AL2878.jpg/1280px-Motionless_in_White_-_Rock_am_Ring_2017-AL2878.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Motionless_in_White",
+  "w": 5303,
+  "h": 2831
+ },
+ "who2:Joel Corry": {
+  "role": "English DJ, producer and TV personality (born 1989)",
+  "wiki": "Joel_Corry"
+ },
+ "wiki2:Joel_Corry": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Joel_Corry_during_an_interview_in_2021.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Joel_Corry",
+  "w": 626,
+  "h": 1080
+ },
+ "who2:Old Man Gloom": {
+  "role": "American post-metal band",
+  "wiki": "Old_Man_Gloom"
+ },
+ "wiki2:Old_Man_Gloom": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Old_Man_Gloom_%40_Roadburn_Festival_2019-04-14_166.jpg/1280px-Old_Man_Gloom_%40_Roadburn_Festival_2019-04-14_166.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Old_Man_Gloom",
+  "w": 5172,
+  "h": 3448
+ },
+ "who2:Palace": {
+  "role": "British alternative rock band",
+  "wiki": "Palace_(band)"
+ },
+ "wiki2:Palace_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/WBW16_-_Palace_-_4.jpg/1280px-WBW16_-_Palace_-_4.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Palace_(band)",
+  "w": 6000,
+  "h": 4000
+ },
+ "who2:Bass Drum of Death": {
+  "role": "American garage punk band",
+  "wiki": "Bass_Drum_of_Death"
+ },
+ "wiki2:Bass_Drum_of_Death": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bass_Drum_of_Death_2023_%2801%29.jpg/1280px-Bass_Drum_of_Death_2023_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Bass_Drum_of_Death",
+  "w": 4030,
+  "h": 2267
+ },
+ "who2:Young Miko": {
+  "role": "Puerto Rican rapper (born 1997)",
+  "wiki": "Young_Miko"
+ },
+ "wiki2:Young_Miko": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/YOUNG_MIKO_%28Vb6-eaqyUe0%29_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Young_Miko",
+  "w": 760,
+  "h": 894
+ },
+ "who2:Slum Village": {
+  "role": "American hip-hop group",
+  "wiki": "Slum_Village"
+ },
+ "wiki2:Slum_Village": null,
+ "wiki2:Gus_Dapperton": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Gus_Dapperton_Piknik_i_Parken_2018_%28160223%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Gus_Dapperton",
+  "w": 760,
+  "h": 900
+ },
+ "who2:Robbie Fulks": {
+  "role": "American singer-songwriter",
+  "wiki": "Robbie_Fulks"
+ },
+ "wiki2:Robbie_Fulks": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Robbie-fulks.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Robbie_Fulks",
+  "w": 1080,
+  "h": 1920
+ },
+ "who2:Brother Ali": {
+  "role": "American rapper (born 1977)",
+  "wiki": "Brother_Ali"
+ },
+ "wiki2:Brother_Ali": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Brother_Ali-02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Brother_Ali",
+  "w": 935,
+  "h": 935
+ },
+ "who2:Slow Pulp": {
+  "role": "American indie rock band",
+  "wiki": "Slow_Pulp"
+ },
+ "who2:Qendresa": {
+  "role": "British-Kosovan singer and producer",
+  "wiki": "Qendresa"
+ },
+ "wiki2:Qendresa": null,
+ "who2:Julia Jacklin": {
+  "role": "Australian singer-songwriter",
+  "wiki": "Julia_Jacklin"
+ },
+ "who2:Jessie Reyez": {
+  "role": "Canadian singer-songwriter (born 1991)",
+  "wiki": "Jessie_Reyez"
+ },
+ "wiki2:Jessie_Reyez": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Jessie_Reyez_-_Collision_2019_Toronto_%2847105669284%29_%28cropped%29.jpg/1280px-Jessie_Reyez_-_Collision_2019_Toronto_%2847105669284%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jessie_Reyez",
+  "w": 1411,
+  "h": 2115
+ },
+ "who2:Jorja Smith": {
+  "role": "British singer and songwriter (born 1997)",
+  "wiki": "Jorja_Smith"
+ },
+ "wiki2:Jorja_Smith": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Jorja_Smith_11_26_2018_-5_%2845772599074%29.jpg/1280px-Jorja_Smith_11_26_2018_-5_%2845772599074%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jorja_Smith",
+  "w": 2000,
+  "h": 2800
+ },
+ "who2:Kelcey Ayer": {
+  "role": "American musician",
+  "wiki": "Kelcey_Ayer"
+ },
+ "wiki2:Kelcey_Ayer": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Local_Natives_at_LouFest_%289722497478%29.jpg/1280px-Local_Natives_at_LouFest_%289722497478%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Kelcey_Ayer",
+  "w": 3456,
+  "h": 5184
+ },
+ "who2:Inna": {
+  "role": "Romanian singer and songwriter (born 1986)",
+  "wiki": "Inna"
+ },
+ "wiki2:Inna": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Inna_at_Masked_Singer_Romania_2021.jpg/1280px-Inna_at_Masked_Singer_Romania_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Inna",
+  "w": 1500,
+  "h": 2250
+ },
+ "geo:Philadelphia Art Museum|2600 Benjamin Franklin Pkwy, Philadelphia|Philadelphia": {
+  "lat": 39.96557,
+  "lng": -75.18152
+ },
+ "geo:The Met|1000 Fifth Ave, New York|New York": {
+  "lat": 40.80216,
+  "lng": -73.94537
+ },
+ "geo:MoMA|11 W 53rd St, New York|New York": {
+  "lat": 40.76161,
+  "lng": -73.9775
+ },
+ "geo:Guggenheim Museum|1071 Fifth Ave, New York|New York": {
+  "lat": 40.80216,
+  "lng": -73.94537
+ },
+ "geo:Arts Council of Princeton||Princeton area": null,
+ "geo:Art at Bainbridge|158 Nassau Street, Princeton|Princeton area": {
+  "lat": 40.3504,
+  "lng": -74.65741
+ },
+ "geo:Eastern State Penitentiary|2027 Fairmount Ave, Philadelphia|Philadelphia": {
+  "lat": 39.96834,
+  "lng": -75.17266
+ },
+ "geo:Arts Council of Princeton|Princeton|Princeton area": null,
+ "geo:New York Comedy Club Upper West Side|236 W 78th Street, New York|New York": {
+  "lat": 40.78287,
+  "lng": -73.98013
+ },
+ "geo:Helium Comedy Club|2031 Sansom St, Philadelphia|Philadelphia": {
+  "lat": 39.95152,
+  "lng": -75.17474
+ },
+ "geo:New York Comedy Club| 241 East 24th Street, New York|New York": {
+  "lat": 40.73886,
+  "lng": -73.98084
+ },
+ "geo:New York Comedy Club on 4th Street|85 East 4th Street, New York|New York": {
+  "lat": 40.72659,
+  "lng": -73.9898
+ },
+ "geo:Matthews Theatre, McCarter Theatre Center|91 University Place, Princeton|Philadelphia": {
+  "lat": 40.34401,
+  "lng": -74.66053
+ },
+ "geo:The Paranormal Museum|621 Cookman Ave, Asbury Park|Princeton area": {
+  "lat": 40.21603,
+  "lng": -74.01118
+ },
+ "geo:Palmer Square Green|10 Palmer Square, Princeton|Princeton area": {
+  "lat": 40.35065,
+  "lng": -74.66184
+ },
+ "geo:Taplin Auditorium, Fine Hall|Fine Hall, Princeton|Princeton area": null,
+ "geo:Stateside Live!|1100 Pattison Ave., Philadelphia|Philadelphia": {
+  "lat": 39.90429,
+  "lng": -75.16936
+ },
+ "geo:Barclays Center|620 Atlantic Ave, Brooklyn|New York": {
+  "lat": 40.68251,
+  "lng": -73.97525
+ },
+ "geo:Xfinity Mobile Arena|3601 S Broad St, Philadelphia|Philadelphia": {
+  "lat": 39.9011,
+  "lng": -75.17202
+ },
+ "geo:Princeton Stadium|Princeton University|Princeton area": null,
+ "geo:On the Green at Palmer Square|40 Nassau Street, Princeton|Princeton area": {
+  "lat": 40.34915,
+  "lng": -74.66193
+ },
+ "geo:Cupid’s Bookshop|4347 Main Street, Philadelphia|Princeton area": {
+  "lat": 40.02564,
+  "lng": -75.2236
+ },
+ "geo:Sixth Avenue|Lineup at Sixth Ave & Canal St|New York": {
+  "lat": 40.91726,
+  "lng": -73.80562
+ },
+ "geo:All five boroughs|Finish in Central Park|New York": null,
+ "geo:Brooklyn Flea, DUMBO|Under the Manhattan Bridge archway, Brooklyn|New York": {
+  "lat": 40.7031,
+  "lng": -73.98786
+ },
+ "geo:Herrontown Woods||Princeton area": null,
+ "geo:Princeton Shopping Center|301 N Harrison Street, Princeton|Princeton area": {
+  "lat": 40.36342,
+  "lng": -74.65059
+ },
+ "geo:Madison Square Garden|4 Pennsylvania Plaza, New York|New York": {
+  "lat": 40.75051,
+  "lng": -73.99352
+ },
+ "geo:3515 Welsh Rd|Philadelphia|Philadelphia": {
+  "lat": 40.04418,
+  "lng": -75.02564
+ },
+ "geo:Blue Note|131 W 3rd St, New York|New York": {
+  "lat": 40.73083,
+  "lng": -74.00073
+ },
+ "geo:92NY|1395 Lexington Ave, New York|New York": {
+  "lat": 40.78304,
+  "lng": -73.95277
+ },
+ "geo:Garden Variety|Philadelphia|Philadelphia": null,
+ "geo:Philadelphia|Venue on Luma|Philadelphia": {
+  "lat": 39.95272,
+  "lng": -75.16353
+ },
+ "geo:Free Library, Parkway Central|1901 Vine St, Philadelphia|Philadelphia": {
+  "lat": 39.95959,
+  "lng": -75.17102
+ },
+ "geo:Wallace Theater, Lewis Arts complex|122 Alexander Street, Princeton, NJ|Princeton area": {
+  "lat": 40.34239,
+  "lng": -74.66031
+ },
+ "geo:McCosh Hall 50|Princeton University|Princeton area": null,
+ "geo:Cobblestone Creek Country Club|Lawrenceville|Princeton area": null,
+ "geo:Caveat|21A Clinton St, New York|New York": {
+  "lat": 41.19891,
+  "lng": -73.96365
+ },
+ "geo:Brooklyn Folk Festival 2026|Brooklyn|New York": null,
+ "geo:BAM|30 Lafayette Ave, Brooklyn|New York": {
+  "lat": 40.68642,
+  "lng": -73.97785
+ },
+ "geo:Beacon Theatre|2124 Broadway, New York|New York": {
+  "lat": 40.78049,
+  "lng": -73.98113
+ },
+ "geo:Wagner Free Institute of Science|1700 W Montgomery Ave, Philadelphia|Philadelphia": {
+  "lat": 39.98059,
+  "lng": -75.16286
+ },
+ "geo:The Town Hall|123 W 43rd St, New York|New York": {
+  "lat": 40.75602,
+  "lng": -73.98456
+ },
+ "geo:The Bell House|149 7th St, Brooklyn|New York": {
+  "lat": 40.67373,
+  "lng": -73.99168
+ },
+ "geo:Lincoln Financial Field|1 Lincoln Financial Field Way, Philadelphia|Philadelphia": {
+  "lat": 39.90091,
+  "lng": -75.16749
+ },
+ "geo:Village Vanguard|178 7th Ave S, New York|New York": {
+  "lat": 40.73602,
+  "lng": -74.00164
+ },
+ "geo:Philadelphia|Philadelphia|Philadelphia": {
+  "lat": 39.95272,
+  "lng": -75.16353
+ },
+ "geo:Union Hall|702 Union St, Brooklyn|New York": {
+  "lat": 40.67604,
+  "lng": -73.98009
+ },
+ "geo:Brooklyn Steel|319 Frost St, Brooklyn|New York": {
+  "lat": 40.71939,
+  "lng": -73.93875
+ },
+ "geo:Johnny Brenda’s|1201 N Frankford Ave, Philadelphia|Philadelphia": {
+  "lat": 39.96907,
+  "lng": -75.13426
+ },
+ "geo:Union Transfer|1026 Spring Garden St, Philadelphia|Philadelphia": {
+  "lat": 39.96138,
+  "lng": -75.15534
+ },
+ "geo:Hinds Plaza|66 Witherspoon Street, Princeton|Princeton area": {
+  "lat": 40.35148,
+  "lng": -74.66075
+ },
+ "geo:Mütter Museum|19 S 22nd St, Philadelphia|Philadelphia": {
+  "lat": 39.95328,
+  "lng": -75.17655
+ },
+ "geo:Richardson Auditorium|Alexander Hall, Princeton University|Princeton area": null,
+ "geo:Princeton University|Princeton, NJ|Princeton area": {
+  "lat": 40.33868,
+  "lng": -74.65837
+ },
+ "geo:Solley Theater – Arts Council of Princeton|Princeton|Princeton area": null,
+ "geo:Matthews Theatre at McCarter Theatre Center|91 University Place, Princeotn|Princeton area": null,
+ "geo:Taplin Gallery – Arts Council of Princeton|Princeton|Princeton area": null,
+ "geo:Solley Lobby – Arts Council of Princeton|Princeton|Princeton area": null,
+ "geo:Lower Level Gallery||Princeton area": null,
+ "geo:Carnegie Hall|881 Seventh Ave, New York|New York": {
+  "lat": 40.9159,
+  "lng": -73.80546
+ },
+ "geo:McCarter Theatre|91 University Pl, Princeton|Princeton area": {
+  "lat": 40.34401,
+  "lng": -74.66053
+ },
+ "geo:Javits Center|429 11th Ave, New York|New York": {
+  "lat": 40.75836,
+  "lng": -74.00221
+ },
+ "geo:Ruins, Knockdown Center|Queens|New York": null,
+ "geo:Knockdown Center|52-19 Flushing Ave, Queens|New York": {
+  "lat": 40.71528,
+  "lng": -73.91367
+ },
+ "geo:Brown Rudnick|7 Times Square, New York|New York": {
+  "lat": 40.7555,
+  "lng": -73.9869
+ },
+ "geo:Whitney Museum of American Art|99 Gansevoort St, New York|New York": {
+  "lat": 40.73965,
+  "lng": -74.00892
+ },
+ "geo:Benjamin Franklin Parkway|Start and finish near the Art Museum|Philadelphia": {
+  "lat": 39.96551,
+  "lng": -75.18087
+ },
+ "geo:American Museum of Natural History|200 Central Park West, New York|New York": {
+  "lat": 40.7811,
+  "lng": -73.97424
+ },
+ "geo:Graduate Hotel, 10 Chambers St, Princeton, NJ 08542|10 Chambers St, Princeton|Princeton area": {
+  "lat": 40.34934,
+  "lng": -74.66294
+ },
+ "geo:Nassau Inn Patio|10 Palmer Square, Princeton|Princeton area": {
+  "lat": 40.35065,
+  "lng": -74.66184
+ }
 }
