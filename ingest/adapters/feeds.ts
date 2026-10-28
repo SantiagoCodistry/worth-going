@@ -14,6 +14,8 @@ export interface Defaults {
   homepage: string
   /** Keep only entries whose text matches, e.g. to drop admin events. */
   include?: RegExp
+  /** Tidy titles, e.g. drop a venue suffix the source adds to every one. */
+  retitle?: (title: string) => string
 }
 
 const inWindow = (start: string, end: string | undefined, ctx: FetchContext) => {
@@ -160,7 +162,7 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
   }
   return found
     .map((e): Draft | null => {
-      const title = plain(String(e.name ?? ''))
+      const title = (d.retitle ?? ((t: string) => t))(plain(String(e.name ?? ''))).trim()
       const startRaw = String(e.startDate ?? '')
       if (!title || !startRaw) return null
       // Dates without an offset are local; date-only stays date-only.
@@ -210,6 +212,20 @@ export function stripBoilerplate(text: string): string {
     .replace(/^Get up-to-date information at:\s*\S+\s*/i, '')
     .replace(/^Address:\s*(Check event page for more details\.?|Register to see address\.?)?\s*/i, '')
     .trim()
+}
+
+/** Several listing pages of the same site (page 1, 2, …), merged. Later pages may not exist. */
+export async function fromJsonLdPages(urls: string[], d: Defaults, ctx: FetchContext): Promise<Draft[]> {
+  const out: Draft[] = []
+  for (const [i, url] of urls.entries()) {
+    try {
+      out.push(...(await fromJsonLd(url, d, ctx)))
+    } catch (e) {
+      if (i === 0) throw e
+      break
+    }
+  }
+  return out
 }
 
 // ——— Localist: the calendar platform many universities use (public JSON API) ———

@@ -6,9 +6,13 @@
 // subscriptions, their own REST APIs, structured data they embed for
 // search engines). Ticketmaster is the one exception and is opt-in.
 import { espn, mlb, nhl } from './adapters/sports.ts'
-import { fromIcs, fromJsonLd, fromLuma, fromTribe } from './adapters/feeds.ts'
+import { fromIcs, fromJsonLd, fromJsonLdPages, fromLuma, fromTribe } from './adapters/feeds.ts'
 import { ticketmasterRegion } from './adapters/ticketmaster.ts'
 import type { Source } from './adapters/types.ts'
+
+/** Songkick metro listings say "Artist @ Venue"; the venue is already its own field. */
+const songkickTitle = (t: string) => t.replace(/\s+@\s+[^@]+$/, '')
+const pages = (url: string, n: number) => Array.from({ length: n }, (_, i) => (i ? `${url}?page=${i + 1}` : url))
 
 const MSG = { city: 'nyc' as const, venue: 'Madison Square Garden', address: '4 Pennsylvania Plaza, New York' }
 const BARCLAYS = { city: 'nyc' as const, venue: 'Barclays Center', address: '620 Atlantic Ave, Brooklyn' }
@@ -105,6 +109,37 @@ export const SOURCES: Source[] = [
       fromJsonLd('https://www.thebellhouseny.com/calendar', { city: 'nyc', category: 'comedy', sourceName: 'The Bell House', homepage: 'https://www.thebellhouseny.com/calendar' }, ctx),
   },
 
+  {
+    id: 'songkick-nyc',
+    name: 'Songkick — New York concerts',
+    homepage: 'https://www.songkick.com/metro-areas/7644-us-new-york-nyc',
+    city: 'nyc',
+    kind: 'jsonld',
+    category: 'music',
+    fetch: (ctx) =>
+      fromJsonLdPages(pages('https://www.songkick.com/metro-areas/7644-us-new-york-nyc', 5), { city: 'nyc', category: 'music', sourceName: 'Songkick', homepage: 'https://www.songkick.com/metro-areas/7644-us-new-york-nyc', retitle: songkickTitle }, ctx),
+  },
+  {
+    id: 'irving-plaza',
+    name: 'Irving Plaza',
+    homepage: 'https://www.irvingplaza.com/shows',
+    city: 'nyc',
+    kind: 'jsonld',
+    category: 'music',
+    fetch: (ctx) =>
+      fromJsonLd('https://www.irvingplaza.com/shows', { city: 'nyc', category: 'music', sourceName: 'Irving Plaza', homepage: 'https://www.irvingplaza.com/shows' }, ctx),
+  },
+  {
+    id: 'ny-comedy-club',
+    name: 'New York Comedy Club',
+    homepage: 'https://www.newyorkcomedyclub.com/calendar',
+    city: 'nyc',
+    kind: 'jsonld',
+    category: 'comedy',
+    fetch: (ctx) =>
+      fromJsonLd('https://www.newyorkcomedyclub.com/calendar', { city: 'nyc', category: 'comedy', sourceName: 'New York Comedy Club', homepage: 'https://www.newyorkcomedyclub.com/calendar' }, ctx),
+  },
+
   { id: 'knicks', name: 'New York Knicks (NBA)', homepage: 'https://www.nba.com/knicks/schedule', city: 'nyc', kind: 'espn', category: 'sports',
     fetch: (ctx) => espn('basketball/nba', '18', { ...MSG, league: 'NBA', sourceUrl: 'https://www.nba.com/knicks/schedule' }, ctx) },
   { id: 'nets', name: 'Brooklyn Nets (NBA)', homepage: 'https://www.nba.com/nets/schedule', city: 'nyc', kind: 'espn', category: 'sports',
@@ -136,6 +171,36 @@ export const SOURCES: Source[] = [
     category: 'comedy',
     fetch: (ctx) =>
       fromJsonLd('https://www.punchlinephilly.com/shows', { city: 'philly', category: 'comedy', sourceName: 'Punch Line Philly', homepage: 'https://www.punchlinephilly.com/shows' }, ctx),
+  },
+  {
+    id: 'helium-philly',
+    name: 'Helium Comedy Club Philadelphia',
+    homepage: 'https://www.helium-comedy.com/philadelphia',
+    city: 'philly',
+    kind: 'jsonld',
+    category: 'comedy',
+    fetch: (ctx) =>
+      fromJsonLd('https://www.helium-comedy.com/philadelphia', { city: 'philly', category: 'comedy', sourceName: 'Helium Comedy Club', homepage: 'https://www.helium-comedy.com/philadelphia', retitle: (t) => t.replace(/\s+at Helium Comedy Club.*$/i, '') }, ctx),
+  },
+  {
+    id: 'fillmore-philly',
+    name: 'The Fillmore Philadelphia',
+    homepage: 'https://www.thefillmorephilly.com/shows',
+    city: 'philly',
+    kind: 'jsonld',
+    category: 'music',
+    fetch: (ctx) =>
+      fromJsonLd('https://www.thefillmorephilly.com/shows', { city: 'philly', category: 'music', sourceName: 'The Fillmore Philadelphia', homepage: 'https://www.thefillmorephilly.com/shows' }, ctx),
+  },
+  {
+    id: 'songkick-philly',
+    name: 'Songkick — Philadelphia concerts',
+    homepage: 'https://www.songkick.com/metro-areas/5202-us-philadelphia',
+    city: 'philly',
+    kind: 'jsonld',
+    category: 'music',
+    fetch: (ctx) =>
+      fromJsonLdPages(pages('https://www.songkick.com/metro-areas/5202-us-philadelphia', 4), { city: 'philly', category: 'music', sourceName: 'Songkick', homepage: 'https://www.songkick.com/metro-areas/5202-us-philadelphia', retitle: songkickTitle }, ctx),
   },
   { id: 'sixers', name: 'Philadelphia 76ers (NBA)', homepage: 'https://www.nba.com/sixers/schedule', city: 'philly', kind: 'espn', category: 'sports',
     fetch: (ctx) => espn('basketball/nba', '20', { ...XFINITY, league: 'NBA', sourceUrl: 'https://www.nba.com/sixers/schedule' }, ctx) },

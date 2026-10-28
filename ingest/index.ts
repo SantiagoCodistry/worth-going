@@ -80,12 +80,22 @@ async function run() {
 
   const cutoff = now.getTime() - 3 * 3600000
   const byId = new Map<string, WGEvent>()
+  // The same show often comes from several sources (a venue, Songkick, Ticketmaster): keep the richest.
+  const byShow = new Map<string, WGEvent>()
+  const richness = (e: WGEvent) =>
+    (e.provenance === 'preview' ? 10 : 0) + (e.price ? 2 : 0) + (e.ticketUrl ? 2 : 0) + (e.image ? 1 : 0) + (e.sourceId.startsWith('songkick') ? -3 : 0)
   for (const e of events) {
     if (isNoise(e) || outOfArea(e)) continue
     // Exhibitions without a published closing date stay listed for up to six months.
     const lastDay = e.end ?? (e.kind === 'exhibition' ? new Date(sortTime(e.start) + 180 * 86400000).toISOString() : e.start)
     if (sortTime(lastDay) < cutoff) continue
-    if (!byId.has(e.id)) byId.set(e.id, e)
+    if (byId.has(e.id)) continue
+    const key = dedupeKey(e)
+    const other = byShow.get(key)
+    if (other && richness(other) >= richness(e)) continue
+    if (other) byId.delete(other.id)
+    byShow.set(key, e)
+    byId.set(e.id, e)
   }
   const final = collapseRepeats([...byId.values()]).sort((a, b) => sortTime(a.start) - sortTime(b.start))
 
