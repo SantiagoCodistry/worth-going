@@ -1,67 +1,62 @@
 @import 'tailwindcss';
 @import '@fontsource-variable/anybody/standard.css';
+@import '@fontsource-variable/bodoni-moda/opsz.css';
+@import '@fontsource-variable/bodoni-moda/opsz-italic.css';
 @import '@fontsource-variable/archivo/standard.css';
 
-/* Worth Going looks like the flyers taped up outside a good venue:
-   risograph inks on uncoated paper. The flyers are loud; the interface
-   around them is plain paper, black type and thin rules. */
+/* Worth Going is a weekly riso-printed sheet: uncoated paper, black ink and
+   one fluorescent pink, printed slightly out of register. Condensed poster
+   capitals for headlines and numerals, a Bodoni italic for the one line that
+   says why, and a plain grotesk for everything you read fast. */
 :root {
   color-scheme: light;
-  --bg: #f2f0e9; /* uncoated stock */
-  --bg-2: #e8e5dc;
-  --card: #fbfaf6;
-  --ink: #161514;
-  --ink-2: #3d3b37;
-  --mute: #75716a;
-  --rule: #16151426;
-  --accent: #ff48b0; /* riso fluorescent pink */
-  --accent-ink: #161514;
-
-  /* Riso inks */
-  --riso-pink: #ff48b0;
-  --riso-blue: #0078bf;
-  --riso-yellow: #ffe800;
-  --riso-green: #00a95c;
-  --riso-orange: #ff6c2f;
-  --riso-teal: #00838a;
-  --riso-federal: #3255a4;
-  --riso-black: #1d1d1b;
+  --paper: #f4f0e8;
+  --paper-2: #ebe5da;
+  --ink: #15120f;
+  --ink-2: #3b3631;
+  --mute: #776f66;
+  --rule: #15120f24;
+  --rule-strong: #15120f;
+  --pink: #ff48b0; /* riso fluorescent pink */
+  --yellow: #ffe800; /* riso yellow, for highlights only */
+  --red: var(--pink);
 }
 
 @theme {
-  --font-sans: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Anybody Variable', 'Archivo Variable', ui-sans-serif, sans-serif;
+  --font-serif: 'Bodoni Moda Variable', 'Bodoni 72', Didot, 'Times New Roman', serif;
+  --font-sans: 'Archivo Variable', ui-sans-serif, system-ui, sans-serif;
 
-  --color-bg: var(--bg);
-  --color-bg-2: var(--bg-2);
-  --color-card: var(--card);
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
   --color-ink: var(--ink);
   --color-ink-2: var(--ink-2);
   --color-mute: var(--mute);
   --color-rule: var(--rule);
-  --color-accent: var(--accent);
-  --color-accent-ink: var(--accent-ink);
+  --color-red: var(--red);
+  --color-pink: var(--pink);
+  --color-yellow: var(--yellow);
 
   --ease-out-soft: cubic-bezier(0.2, 0.7, 0.1, 1);
 }
 
 html {
-  background: var(--bg);
+  background: var(--paper);
   color: var(--ink);
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 body {
   font-family: var(--font-sans);
-  background: var(--bg);
+  background: var(--paper);
   color: var(--ink);
-  font-size: 15px;
-  line-height: 1.45;
-  font-stretch: 100%;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 ::selection {
-  background: var(--riso-yellow);
+  background: var(--yellow);
   color: var(--ink);
 }
 
@@ -70,45 +65,123 @@ h2,
 h3 {
   text-wrap: balance;
 }
+p {
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 2px solid var(--red);
+  outline-offset: 3px;
+}
 
 @layer components {
-  /* Condensed poster type */
+  /* Poster capitals: headlines, numerals, the wordmark. */
   .display {
     font-family: var(--font-display);
     font-stretch: 62%;
     font-weight: 800;
     letter-spacing: -0.01em;
-    line-height: 0.88;
+    line-height: 0.86;
     text-transform: uppercase;
   }
-  /* Wide stamped type for dates and labels on flyers */
+  /* Wide stamped type for dates. */
   .stamp {
     font-family: var(--font-display);
     font-stretch: 140%;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1;
   }
-  .label {
-    font-size: 12px;
+  /* Out-of-register pink behind ink, like a two-colour riso pass.
+     Use on text: <span class="misreg" data-text="Same text">Same text</span> */
+  .misreg {
+    position: relative;
+    display: inline-block;
+    isolation: isolate;
+  }
+  .misreg::before {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    transform: translate(0.045em, 0.035em);
+    color: var(--pink);
+    mix-blend-mode: multiply;
+    z-index: -1;
+    pointer-events: none;
+  }
+  /* The editorial voice: Bodoni italic. */
+  .serif {
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-style: italic;
+    font-weight: 450;
+    letter-spacing: -0.005em;
+    line-height: 1.25;
+  }
+  .numeral {
+    font-family: var(--font-display);
+    font-stretch: 62%;
+    font-weight: 800;
+    font-variant-numeric: lining-nums tabular-nums;
+    line-height: 0.8;
+    letter-spacing: -0.02em;
+  }
+  /* Small spaced capitals for labels, kickers and the masthead. */
+  .caps {
+    font-family: var(--font-sans);
+    font-size: 11.5px;
     font-weight: 600;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
   }
-  .rule {
+  .hairline {
     border-color: var(--rule);
   }
-  .link-underline {
-    background-image: linear-gradient(currentColor, currentColor);
-    background-size: 0% 1.5px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.3s var(--ease-out-soft);
+  .link {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+    text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+    transition: text-decoration-color 0.2s;
   }
-  .group:hover .link-underline,
-  .link-underline:hover {
-    background-size: 100% 1.5px;
+  .link:hover {
+    text-decoration-color: currentColor;
+  }
+  /* The one button style: ink outline, fills on hover. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 44px;
+    padding: 0.55rem 1.1rem;
+    border: 1px solid var(--ink);
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    transition:
+      background-color 0.15s,
+      color 0.15s,
+      border-color 0.15s;
+  }
+  .btn:hover {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .btn-solid {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .btn-solid:hover {
+    background: var(--pink);
+    border-color: var(--pink);
+    color: var(--ink);
+  }
+  .btn:disabled {
+    opacity: 0.4;
+    pointer-events: none;
   }
   .no-scrollbar {
     scrollbar-width: none;
@@ -116,113 +189,16 @@ h3 {
   .no-scrollbar::-webkit-scrollbar {
     display: none;
   }
-  .chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    flex-shrink: 0;
-    padding: 0.42rem 0.8rem;
-    font-size: 13.5px;
-    font-weight: 600;
-    border: 1.5px solid var(--ink);
-    border-radius: 2px;
-    transition:
-      background-color 0.15s,
-      color 0.15s;
-  }
-  .chip:hover {
-    background: var(--riso-yellow);
-  }
-  .chip[aria-pressed='true'],
-  .chip[aria-selected='true'] {
-    background: var(--ink);
-    color: var(--bg);
-  }
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.1rem;
-    font-size: 14.5px;
-    font-weight: 700;
-    border: 1.5px solid var(--ink);
-    border-radius: 2px;
-    transition:
-      background-color 0.15s,
-      transform 0.1s;
-  }
-  .btn:active {
-    transform: translateY(1px);
-  }
-  .btn-accent {
-    background: var(--riso-pink);
-  }
-  .btn-accent:hover {
-    background: var(--riso-yellow);
-  }
-  .btn-quiet:hover {
-    background: var(--riso-yellow);
-  }
-  .prose-wg p + p {
-    margin-top: 1em;
-  }
-
-  /* Flyer: ink layers overprint like a risograph */
-  .flyer {
-    position: relative;
-    isolation: isolate;
-    overflow: hidden;
-    container-type: inline-size;
-  }
-  .flyer .ink {
-    mix-blend-mode: multiply;
-  }
-  .flyer .duotone {
-    filter: grayscale(1) contrast(1.15) brightness(1.05);
-    mix-blend-mode: multiply;
-  }
-  .flyer::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    pointer-events: none;
-    z-index: 5;
-    mix-blend-mode: multiply;
-    opacity: 0.55;
-    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.1  0 0 0 0 0.1  0 0 0 0 0.1  0 0 0 .22 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
-  }
-  /* Halftone dots, used as a texture block on flyers without a photo */
-  .halftone {
-    background-image: radial-gradient(currentColor 28%, transparent 30%);
-    background-size: 9px 9px;
-  }
 }
 
-@keyframes rise {
-  from {
-    opacity: 0.001;
-    transform: translateY(8px);
+@media (prefers-reduced-motion: no-preference) {
+  .rise {
+    animation: rise 0.6s var(--ease-out-soft) both;
   }
-  to {
-    opacity: 1;
-    transform: none;
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
   }
-}
-.rise {
-  animation: rise 0.5s var(--ease-out-soft) both;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
-:focus-visible {
-  outline: 2.5px solid var(--riso-blue);
-  outline-offset: 2px;
 }

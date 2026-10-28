@@ -70,6 +70,7 @@ const seeds: Seed[] = [
     sourceName: 'Caveat',
     sourceUrl: 'https://caveat.nyc/events/nerd-nite',
     pick: true,
+    why: 'Three short talks by people who know far too much about one thing, with drinks. Cheap, funny and over by 10.',
   },
   {
     id: 'moth-storyslam-bell-house-2026-11-04',
@@ -88,6 +89,7 @@ const seeds: Seed[] = [
     sourceUrl: 'https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-11-04-2026/event/300064BB1911E6D0',
     ticketUrl: 'https://themoth.org/events',
     note: 'There’s also a Manhattan StorySLAM that night at Rodney’s, 1118 First Ave.',
+    why: 'Ten people tell true five-minute stories on a theme and get scored by the audience. Some are great, all are short.',
   },
   {
     id: 'mutter-meet-geek-frankenstein-2026',
@@ -107,6 +109,7 @@ const seeds: Seed[] = [
     sourceName: 'Mütter Museum',
     sourceUrl: 'https://muttermuseum.org/events/',
     pick: true,
+    why: 'An after-hours talk about the real medicine behind Frankenstein, inside a museum full of skulls and specimens.',
   },
   {
     id: 'wagner-first-saturday-creature-feature-2026',
@@ -125,6 +128,7 @@ const seeds: Seed[] = [
     sourceName: 'Wagner Free Institute of Science',
     sourceUrl: 'https://www.wagnerfreeinstitute.org/events-1-1/november-first-saturday-open-housespooky-creature-feature',
     note: 'One Wagner page says November 6. The event page says Saturday, November 7.',
+    why: 'A free open house at a Victorian natural-history museum that has barely changed since the 1890s.',
   },
   {
     id: 'eastern-state-halloween-nights-2026',
@@ -135,15 +139,15 @@ const seeds: Seed[] = [
     city: 'philly',
     category: 'unusual',
     tags: ['halloween'],
-    start: '2026-10-28',
+    start: '2026-10-28 19:00',
     end: '2026-11-07',
     venue: { name: 'Eastern State Penitentiary', address: '2027 Fairmount Ave, Philadelphia', neighborhood: 'Fairmount' },
     description: 'Five haunted houses inside a 19th-century prison that has been abandoned since 1971, with bars and live performers.',
-    why: 'Last week of the season.',
     sourceName: 'Visit Philadelphia',
     sourceUrl: 'https://www.visitphilly.com/articles/philadelphia/top-halloween-events-and-activities-in-philadelphia/',
     ticketUrl: 'https://www.easternstate.org/',
     note: 'Open on select nights only. Check the calendar.',
+    why: 'Haunted-house season inside a real 1829 prison. Last week before it closes for the year.',
   },
   {
     id: 'village-halloween-parade-2026',
@@ -164,6 +168,7 @@ const seeds: Seed[] = [
     sourceUrl:
       'https://www.timeout.com/newyork/news/the-worlds-biggest-halloween-parade-returns-to-nyc-next-month-and-the-titillating-2026-theme-has-just-been-revealed-091626',
     note: 'The route ends at 15th or 16th Street, depending on the source.',
+    why: 'About 50,000 people in costume marching up Sixth Avenue. Anyone in costume can join; no ticket needed.',
   },
   {
     id: 'tcs-nyc-marathon-2026',
@@ -173,8 +178,7 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'unusual',
     tags: ['free', 'spectator'],
-    start: '2026-11-01',
-    timeTBA: true,
+    start: '2026-11-01 08:00',
     venue: { name: 'All five boroughs', address: 'Finish in Central Park', neighborhood: 'Citywide' },
     description:
       'Tens of thousands of runners go from Staten Island through all five boroughs to Central Park. Watching is free. First Avenue in Manhattan and Fourth Avenue in Brooklyn get the biggest crowds.',
@@ -182,7 +186,8 @@ const seeds: Seed[] = [
     price: 'Free to watch',
     sourceName: 'TCS New York City Marathon',
     sourceUrl: 'https://www.tcsnycmarathon.org/',
-    note: 'Clocks go back an hour that morning.',
+    why: 'The world’s biggest marathon, about 50,000 runners through all five boroughs. First Avenue and the Central Park finish are the loudest spots to watch.',
+    note: 'Clocks go back an hour that morning. Wheelchair racers start around 8 am, the main waves from about 9.',
   },
   {
     id: 'brooklyn-flea-dumbo-nov-2026',
@@ -211,15 +216,15 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'comedy',
     tags: ['comedy'],
-    start: '2026-11-08',
-    timeTBA: true,
+    start: '2026-11-08 19:30',
     venue: V.beacon,
     people: [p('Marc Maron', 'Comedian; hosted WTF, the podcast where Obama gave an interview in a garage', 'Marc_Maron')],
     description: 'Stand-up from Marc Maron at the Beacon Theatre, part of the New York Comedy Festival.',
     sourceName: 'Madison Square Garden Entertainment',
     sourceUrl: 'https://www.msg.com/events-tickets/marc-maron-new-york-comedy-festival-beacon-theatre-november-2026/3B0064D8E813752F',
-    note: 'One resale site lists November 10. The Beacon’s own listing is the one to trust.',
     pick: true,
+    why: 'Maron spent 16 years interviewing everyone from Obama to Robin Williams on WTF. This is his new hour, at the Beacon.',
+    ticketUrl: 'https://nycomedyfestival.com/',
   },
   {
     id: 'nycf-tim-dillon-beacon-2026',
@@ -229,12 +234,14 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'comedy',
     tags: ['comedy'],
-    start: '2026-11-07',
-    timeTBA: true,
+    start: '2026-11-07 19:00',
     venue: V.beacon,
     people: [p('Tim Dillon', 'Comedian; hosts The Tim Dillon Show, one of the biggest comedy podcasts', 'Tim_Dillon')],
     description: 'Stand-up from Tim Dillon at the Beacon Theatre.',
     ...NYCF,
+    why: 'One of the most popular podcasters in comedy doing stand-up at the Beacon, part of the New York Comedy Festival.',
+    ticketUrl: 'https://nycomedyfestival.com/',
+    note: 'ABC7’s festival schedule lists 7 pm; one listing says 9:30 pm.',
   },
   {
     id: 'nycf-sherman-harrison-town-hall-2026',
@@ -244,8 +251,7 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'comedy',
     tags: ['comedy'],
-    start: '2026-11-08',
-    timeTBA: true,
+    start: '2026-11-08 19:00',
     venue: V.townHall,
     people: [
       p('Sarah Sherman', 'Saturday Night Live cast member known for gross-out, body-horror sketches', 'Sarah_Sherman'),
@@ -253,6 +259,8 @@ const seeds: Seed[] = [
     ],
     description: 'Two of the strangest comedians working, on one bill at Town Hall.',
     ...NYCF,
+    why: 'Two of the strangest, funniest people in comedy right now: Sarah Sherman from SNL and Patti Harrison from Together Together and I Think You Should Leave.',
+    ticketUrl: 'https://nycomedyfestival.com/',
   },
   {
     id: 'nycf-adam-friedland-town-hall-2026',
@@ -277,13 +285,14 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'comedy',
     tags: ['comedy'],
-    start: '2026-11-08',
-    timeTBA: true,
+    start: '2026-11-08 19:30',
     venue: V.bellHouse,
     people: [p('Moshe Kasher', 'Comedian with several Netflix specials; grew up with deaf parents and writes about it', 'Moshe_Kasher')],
     description: 'Stand-up from Moshe Kasher at the Bell House in Gowanus.',
     sourceName: 'Patch',
     sourceUrl: 'https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup',
+    note: 'Only one ticket site lists a time (7:30 pm). Check the festival site.',
+    unconfirmed: true,
   },
   {
     id: 'nycf-eddie-pepitone-union-hall-2026',
@@ -293,14 +302,15 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'comedy',
     tags: ['comedy'],
-    start: '2026-11-10',
+    start: '2026-11-10 22:00',
     end: '2026-11-11',
-    timeTBA: true,
     venue: V.unionHall,
     people: [p('Eddie Pepitone', 'Veteran comedian known for furious, absurd rants; a Conan regular', 'Eddie_Pepitone')],
     description: 'Eddie Pepitone in the small basement room at Union Hall in Park Slope.',
     sourceName: 'Patch',
     sourceUrl: 'https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup',
+    why: 'A comic’s comic, best known as the Bitter Buddha. A late show in Union Hall’s small basement room.',
+    ticketUrl: 'https://nycomedyfestival.com/',
   },
 
   // ——— Talks ———
@@ -323,6 +333,7 @@ const seeds: Seed[] = [
     sourceName: 'Talkers',
     sourceUrl: 'https://talkers.com/2026/10/16/terry-gross-to-interview-sir-paul-mccartney-at-the-town-hall-in-nyc/',
     pick: true,
+    why: 'Terry Gross interviewing Paul McCartney on stage, for her 50th year hosting Fresh Air.',
   },
   {
     id: '92ny-neil-degrasse-tyson-2026',
@@ -331,13 +342,13 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'ideas',
     tags: ['science'],
-    start: '2026-11-02',
-    timeTBA: true,
+    start: '2026-11-02 19:00',
     venue: V.ny92,
     people: [p('Neil deGrasse Tyson', 'Astrophysicist, director of the Hayden Planetarium and host of StarTalk', 'Neil_deGrasse_Tyson')],
     description: 'Tyson’s new talk, on stage at 92NY.',
     sourceName: '92NY',
     sourceUrl: 'https://bigseason.92ny.org/talks',
+    why: 'Tyson on his new book about how we should greet aliens, after the congressional UFO hearings. 92NY’s main hall.',
   },
   {
     id: '92ny-munk-debate-liberalism-2026',
@@ -359,6 +370,8 @@ const seeds: Seed[] = [
     sourceName: '92NY',
     sourceUrl: 'https://bigseason.92ny.org/talks',
     pick: true,
+    note: 'We couldn’t find a current listing for this on October 28. Check 92NY before you plan around it.',
+    unconfirmed: true,
   },
   {
     id: '92ny-annie-proulx-2026',
@@ -377,6 +390,8 @@ const seeds: Seed[] = [
     description: 'Proulx talks about her New and Collected Stories with Michael Cunningham. Both have won the Pulitzer Prize.',
     sourceName: '92NY',
     sourceUrl: 'https://bigseason.92ny.org/readings',
+    note: 'We couldn’t find a current listing for this on October 28. Check 92NY before you plan around it.',
+    unconfirmed: true,
   },
   {
     id: '92ny-inon-abu-sarah-2026',
@@ -468,6 +483,7 @@ const seeds: Seed[] = [
     price: '$5',
     sourceName: 'Free Library of Philadelphia',
     sourceUrl: 'https://libwww.freelibrary.org/calendar/type/author-events',
+    why: 'The Times’s longtime chief classical critic in conversation about great singers. $5.',
   },
   {
     id: 'free-library-melissa-clark-2026',
@@ -498,6 +514,7 @@ const seeds: Seed[] = [
     price: '$5',
     sourceName: 'Free Library of Philadelphia',
     sourceUrl: 'https://libwww.freelibrary.org/calendar/type/author-events',
+    why: 'A New York Times editorial writer on a founder most people have never heard of. $5, in the Free Library’s central branch.',
   },
   {
     id: 'princeton-lecture-ruth-wilson-gilmore',
@@ -516,6 +533,7 @@ const seeds: Seed[] = [
     sourceName: 'Princeton University',
     sourceUrl: 'https://www.princeton.edu/events/2026/princeton-university-public-lecture-ruth-wilson-gilmore',
     note: 'The event page says 4:30 pm. The lectures site says 5:00 pm.',
+    why: 'Gilmore is one of the most cited scholars on prisons and policing. Free, on campus, no ticket needed.',
   },
   {
     id: 'princeton-lecture-valeria-luiselli',
@@ -534,6 +552,7 @@ const seeds: Seed[] = [
     sourceName: 'Princeton University',
     sourceUrl: 'https://www.princeton.edu/events/2026/princeton-university-public-lectures-valeria-luiselli',
     note: 'The university page says November 10. A community newsletter says November 18 at 5 pm.',
+    why: 'A MacArthur fellow and one of the best-known Mexican novelists writing today. Free, on campus.',
   },
   {
     id: 'mccarter-ira-glass-2026',
@@ -552,6 +571,7 @@ const seeds: Seed[] = [
     sourceUrl: 'https://www.tickpick.com/buy-ira-glass-tickets-matthews-theatre-mccarter-theatre-center-11-21-26-7pm/8190079/',
     ticketUrl: 'https://www.mccarter.org/',
     note: 'Found on a resale site. McCarter sells face-value tickets.',
+    why: 'The This American Life host on stage, with stories, tape and how the show gets made. Fifteen minutes from campus.',
   },
 
   // ——— Startups ———
@@ -569,11 +589,11 @@ const seeds: Seed[] = [
     venue: { name: 'Princeton University', address: 'Princeton, NJ', neighborhood: 'Campus' },
     description:
       'Princeton’s student hackathon, run by the Princeton Entrepreneurship Club. Teams build software or hardware projects over a weekend and demo them for judges and sponsors.',
-    why: 'The biggest builder event on campus this fall.',
     note: 'Applications closed on September 28.',
     sourceName: 'HackPrinceton',
     sourceUrl: 'https://www.hackprinceton.com/',
     pick: true,
+    why: 'The biggest builder event on campus this fall: 36 hours, a few hundred students, sponsors who hire.',
   },
   {
     id: 'outliers-summit-nyc-2026',
@@ -600,6 +620,8 @@ const seeds: Seed[] = [
     sourceName: 'Luma',
     sourceUrl: 'https://luma.com/2026',
     pick: true,
+    note: 'We couldn’t reconfirm this event on October 28. Check the Luma page before registering.',
+    unconfirmed: true,
   },
   {
     id: 'techday-ai-founders-day-2026',
@@ -622,6 +644,7 @@ const seeds: Seed[] = [
     note: 'Sold out when we checked. There’s a waitlist.',
     sourceName: 'Luma',
     sourceUrl: 'https://luma.com/6bmnoex9',
+    why: 'A day of AI founder pitches and investor panels in Times Square.',
   },
   {
     id: 'new-york-venture-summit-2026',
@@ -674,6 +697,7 @@ const seeds: Seed[] = [
     sourceName: 'Relix',
     sourceUrl: 'https://relix.com/news/detail/lcd-soundsystem-confirm-annual-new-york-residency-dates',
     pick: true,
+    why: 'LCD Soundsystem’s New York residency, in a former glass factory in Queens. These sell out.',
   },
   {
     id: 'vanguard-jazz-orchestra-2026-11-09',
@@ -690,6 +714,7 @@ const seeds: Seed[] = [
       'A 16-piece big band in a basement that holds about 120 people. The band has played the Vanguard on Monday nights since 1966. Also on November 16, 23 and 30.',
     sourceName: 'Jazz in NYC',
     sourceUrl: 'https://jazzin.nyc/venue/village-vanguard',
+    why: 'The house big band has played the Village Vanguard every Monday since 1966. Sixteen players in a basement that holds about 120.',
   },
   {
     id: 'blue-note-robert-glasper-2026-11-01',
@@ -705,6 +730,7 @@ const seeds: Seed[] = [
     description: 'Billed as the finale of Glasper’s Blue Note run, with his longtime bandmates Derrick Hodge on bass and Chris Dave on drums.',
     sourceName: 'Live Nation',
     sourceUrl: 'https://www.livenation.com/venue/KovZpZAkJtvA/blue-note-jazz-club-events/pg/2',
+    why: 'Glasper’s yearly Blue Note residency is a New York tradition; the late sets go to unexpected places.',
   },
   {
     id: 'blue-note-vic-mensa-2026',
@@ -741,6 +767,7 @@ const seeds: Seed[] = [
       'https://www.tickpick.com/buy-silkroad-ensemble-rhiannon-giddens-yo-yo-ma-tickets-carnegie-hall-isaac-stern-auditorium-11-14-26-7pm/7913701/',
     ticketUrl: 'https://www.carnegiehall.org/Calendar',
     note: 'Found on a resale site. Carnegie Hall sells face-value tickets.',
+    why: 'Rhiannon Giddens leads Yo-Yo Ma’s Silkroad ensemble, mixing American folk with music from along the Silk Road.',
   },
   {
     id: 'brooklyn-steel-jalen-ngonda-2026',
@@ -749,13 +776,13 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'music',
     tags: ['soul'],
-    start: '2026-11-12',
-    timeTBA: true,
+    start: '2026-11-12 20:00',
     venue: V.brooklynSteel,
     people: [p('Jalen Ngonda', 'Soul singer whose records sound like 1960s Motown', 'Jalen_Ngonda')],
     description: 'Classic-sounding soul from the Daptone singer.',
     sourceName: 'JamBase',
     sourceUrl: 'https://www.jambase.com/venue/brooklyn-steel',
+    why: 'A soul singer on Daptone Records who sounds like 1966 Motown, in a 1,800-capacity room.',
   },
   {
     id: 'brooklyn-steel-chat-pile-2026',
@@ -764,13 +791,13 @@ const seeds: Seed[] = [
     city: 'nyc',
     category: 'music',
     tags: ['noise rock'],
-    start: '2026-11-10',
-    timeTBA: true,
+    start: '2026-11-10 19:30',
     venue: V.brooklynSteel,
     people: [p('Chat Pile', 'Heavy, abrasive noise-rock band from Oklahoma City', 'Chat_Pile')],
     description: 'Very loud. They play Union Transfer in Philadelphia the next night.',
     sourceName: 'JamBase',
     sourceUrl: 'https://www.jambase.com/venue/brooklyn-steel',
+    why: 'Chat Pile are a noise-rock band from Oklahoma City whose 2022 album God’s Country was one of the most praised heavy records of that year. Soul Glo opens.',
   },
   {
     id: 'fillmore-geese-2026',
@@ -826,13 +853,13 @@ const seeds: Seed[] = [
     city: 'philly',
     category: 'music',
     tags: ['indie'],
-    start: '2026-11-12',
-    timeTBA: true,
+    start: '2026-11-12 20:00',
     venue: V.unionTransfer,
     people: [p('Slow Pulp', 'Chicago-based indie rock band; fuzzy guitars, soft vocals', 'Slow_Pulp')],
     description: 'Slow Pulp headline, with Her New Knife opening.',
     sourceName: 'Songkick',
     sourceUrl: 'https://songkick.com/concerts/43208646-slow-pulp-at-union-transfer',
+    why: 'Fuzzy, melodic indie rock, touring a new album released in September. Her New Knife opens.',
   },
   {
     id: 'mccarter-rufus-wainwright-judy-2026',
@@ -848,6 +875,7 @@ const seeds: Seed[] = [
     sourceName: 'Princeton Department of Music',
     sourceUrl: 'https://music.princeton.edu/events',
     ticketUrl: 'https://www.mccarter.org/',
+    why: 'Wainwright restaging Judy Garland’s 1961 Carnegie Hall concert, which he first recreated in 2006.',
   },
   {
     id: 'pu-concerts-radulovic-2026',
@@ -862,6 +890,7 @@ const seeds: Seed[] = [
     description: 'Princeton University Concerts presents the violinist with his string ensemble, Double Sens.',
     sourceName: 'Princeton Department of Music',
     sourceUrl: 'https://music.princeton.edu/events',
+    why: 'A Serbian violinist known for high-energy Bach and Vivaldi, in Princeton’s small Richardson Auditorium.',
   },
   {
     id: 'mccarter-eric-lu-2026',
@@ -1076,6 +1105,7 @@ const seeds: Seed[] = [
     price: 'Free to watch',
     sourceName: 'Active Minds',
     sourceUrl: 'https://activeminds.org/event/philadelphia-marathon-weekend-2026/',
+    why: 'Philadelphia’s marathon, starting and finishing at the Art Museum. Good for watching along Kelly Drive.',
   },
 ]
 

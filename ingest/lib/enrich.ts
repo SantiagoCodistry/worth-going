@@ -97,8 +97,28 @@ export function venueNote(text: string): VenueNote | undefined {
 }
 
 /** Only facts: a note about the venue, and whether it is free. Empty when we have neither. */
+/** "an American indie rock band" from Wikipedia's "American indie rock band (2016–present)". */
+function aRole(role: string): string {
+  const r = role.replace(/\s*\([^)]*\)/g, '').replace(/[.;,]\s*$/, '').trim()
+  if (!r) return ''
+  // Keep capitals on nationalities and names ("American", "Grammy-winning"); lower only common first words.
+  const first = r.split(/[ -]/)[0]
+  const body = /^[A-Z][a-z]+$/.test(first) && !/^(American|British|English|Canadian|Australian|Irish|Scottish|Mexican|French|German|Italian|Spanish|Japanese|Korean|Nigerian|Brazilian|Swedish|Norwegian|Dutch|Puerto|Jamaican|Cuban|Indian|Chinese|Israeli|Portuguese|Argentine|Colombian|Chilean|South|New|Welsh|Danish|Finnish|Icelandic|Belgian|Austrian|Swiss|Greek|Turkish|Polish|Russian|Ukrainian|Grammy)/.test(first) ? r.charAt(0).toLowerCase() + r.slice(1) : r
+  if (/^(the|an?|one of)\b/i.test(body)) return body
+  return `${/^[aeiouAEIOU]/.test(body) ? 'an' : 'a'} ${body}`
+}
+
+/**
+ * Plain reasons from facts we have: who the headliner is (from Wikipedia),
+ * what the venue is, and whether it's free. Empty when we know nothing useful.
+ */
 export function whyFor(e: WGEvent): string {
   const parts: string[] = []
+  const lead = e.people?.find((p) => p.wiki && p.role && !/^(performer|comedian|team|.* act)$/i.test(p.role))
+  if (lead) {
+    const role = aRole(lead.role)
+    if (role) parts.push(`${lead.name} is ${role}.`)
+  }
   if (e.isFree) parts.push(e.category === 'ideas' ? 'Free and open to the public.' : 'Free.')
   const v = venueNote(`${e.venue.name} ${e.venue.address ?? ''}`)
   if (v) parts.push(v.note)

@@ -86,6 +86,8 @@ export interface WGEvent {
   note?: string
   /** Hand-picked by the editors. */
   pick?: boolean
+  /** Hand-picked listing we couldn't reconfirm; kept out of the picks. */
+  unconfirmed?: boolean
   /** Computed by ingest/lib/score.ts. Higher = more worth going. */
   score?: number
 }

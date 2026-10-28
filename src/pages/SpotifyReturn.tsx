@@ -1,12 +1,13 @@
+// Spotify sends you back here after you approve read-only access.
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { finishSpotify } from '../lib/spotify.ts'
-import { useStore } from '../lib/store.tsx'
+import { usePrefs } from '../lib/prefs.tsx'
+import { Masthead } from '../components/Sheet.tsx'
 
-/** Spotify sends you back here after you approve. */
 export function SpotifyReturn() {
   const [params] = useSearchParams()
-  const { profile, setProfile } = useStore()
+  const { taste, setTaste } = usePrefs()
   const nav = useNavigate()
   const [error, setError] = useState(params.get('error') ? 'You didn’t connect Spotify.' : '')
   const started = useRef(false)
@@ -16,27 +17,29 @@ export function SpotifyReturn() {
     if (!code || started.current) return
     started.current = true
     finishSpotify(code)
-      .then((found) => {
-        const kept = (profile.favorites ?? []).filter((a) => a.from === 'you')
-        setProfile({ ...profile, favorites: [...kept, ...found.filter((f) => !kept.some((t) => t.name.toLowerCase() === f.name.toLowerCase()))] })
-        nav('/you#favorites', { replace: true })
+      .then((artists) => {
+        setTaste({ ...taste, artists })
+        nav('/', { replace: true })
       })
       .catch((e: Error) => setError(e.message))
-  }, [params, profile, setProfile, nav])
+  }, [params, taste, setTaste, nav])
 
   return (
-    <div className="mx-auto max-w-xl px-4 py-24 text-center">
-      {error ? (
-        <>
-          <p className="text-[20px] font-bold">Spotify didn’t connect.</p>
-          <p className="mt-3 text-ink-2">{error}</p>
-          <Link to="/you" className="btn btn-quiet mt-6">
-            Back to your taste
-          </Link>
-        </>
-      ) : (
-        <p className="text-[18px] font-semibold">Reading your artists from Spotify…</p>
-      )}
-    </div>
+    <>
+      <Masthead />
+      <div className="mx-auto max-w-xl px-4 py-24 text-center">
+        {error ? (
+          <>
+            <p className="display text-[44px]">Spotify didn’t connect.</p>
+            <p className="mt-3 text-ink-2">{error}</p>
+            <Link to="/" className="btn mt-6">
+              Back to this week
+            </Link>
+          </>
+        ) : (
+          <p className="stamp text-[13px]">Reading your artists…</p>
+        )}
+      </div>
+    </>
   )
 }

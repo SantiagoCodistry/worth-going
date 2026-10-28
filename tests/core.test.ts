@@ -5,8 +5,6 @@ import { test } from 'node:test'
 import type { WGEvent } from '../src/shared/types.ts'
 import { nyIso, nyDateKey } from '../src/shared/time.ts'
 import { endKey, overlaps, whenRange } from '../src/lib/dates.ts'
-import { googleCalendarUrl, icsFile } from '../src/lib/calendar.ts'
-import { applyFilters } from '../src/lib/recommend.ts'
 import { parseIcs } from '../ingest/lib/ics.ts'
 import { categorize, isNoise } from '../ingest/lib/enrich.ts'
 import { fromJsonLd, fromTribe } from '../ingest/adapters/feeds.ts'
@@ -50,29 +48,6 @@ test('exhibitions overlap any range they span; open-ended ones stay on', () => {
   assert.ok(overlaps(show, ['2026-10-28', '2026-10-28']))
   assert.ok(!overlaps(show, ['2027-02-01', '2027-02-02']))
   assert.equal(endKey(ev({ kind: 'exhibition', start: '2026-10-04' })), '9999-12-31')
-})
-
-test('filters: city, category, free, keyword', () => {
-  const list = [
-    ev({ id: 'a', title: 'Jazz at the Vanguard', venue: { name: 'Village Vanguard' }, start: nyIso('2026-11-02 20:00') }),
-    ev({ id: 'b', city: 'princeton', category: 'ideas', isFree: true, title: 'Public lecture', start: nyIso('2026-11-03 16:30') }),
-  ]
-  assert.deepEqual(applyFilters(list, { city: 'princeton' }).map((e) => e.id), ['b'])
-  assert.deepEqual(applyFilters(list, { city: 'all', free: true }).map((e) => e.id), ['b'])
-  assert.deepEqual(applyFilters(list, { city: 'all', q: 'vanguard' }).map((e) => e.id), ['a'])
-  assert.deepEqual(applyFilters(list, { city: 'all', category: 'ideas' }).map((e) => e.id), ['b'])
-})
-
-test('Google Calendar link and .ics use correct times', () => {
-  const e = ev({ title: 'Talk, with commas', start: nyIso('2026-11-05 16:30') })
-  const url = new URL(googleCalendarUrl(e))
-  assert.equal(url.searchParams.get('dates'), '20261105T213000Z/20261105T233000Z')
-  const ics = icsFile(e)
-  assert.match(ics, /DTSTART:20261105T213000Z/)
-  assert.match(ics, /SUMMARY:Talk\\, with commas/)
-  const allDay = icsFile(ev({ start: '2026-11-01', timeTBA: true }))
-  assert.match(allDay, /DTSTART;VALUE=DATE:20261101/)
-  assert.match(allDay, /DTEND;VALUE=DATE:20261102/)
 })
 
 test('ICS parser: folding, escapes, TZID, UTC and all-day', () => {
@@ -183,29 +158,7 @@ test('The Events Calendar adapter maps WordPress REST events', async () => {
   }
 })
 
-import { clashes, fit, DEFAULT_PROFILE } from '../src/lib/profile.ts'
 import { dimensions } from '../ingest/lib/media.ts'
-
-test('busy blocks hide events that start during them', () => {
-  const swim = { id: 's', label: 'Swim practice', days: [1, 2, 3, 4, 5], from: '06:00', to: '08:00' }
-  const tue7am = ev({ start: nyIso('2026-11-10 07:00') })
-  const tue730pm = ev({ start: nyIso('2026-11-10 19:30') })
-  const sat7am = ev({ start: nyIso('2026-11-14 07:00') })
-  assert.equal(clashes(tue7am, [swim])?.label, 'Swim practice')
-  assert.equal(clashes(tue730pm, [swim]), undefined)
-  assert.equal(clashes(sat7am, [swim]), undefined)
-  assert.equal(clashes(ev({ start: '2026-11-10', timeTBA: true }), [swim]), undefined)
-})
-
-test('taste ranking boosts loved categories and the home city', () => {
-  const comedy = ev({ category: 'comedy', score: 20, city: 'nyc' })
-  const classical = ev({ category: 'music', tags: ['classical'], score: 20, city: 'nyc' })
-  const local = ev({ category: 'comedy', score: 20, city: 'princeton' })
-  const p = DEFAULT_PROFILE
-  assert.ok(fit(comedy, p).score > fit(classical, p).score)
-  assert.ok(fit(local, p).score > fit(comedy, p).score)
-  assert.ok(fit(comedy, p).reasons.includes('Comedy'))
-})
 
 test('image size reader handles PNG and JPEG headers', () => {
   const png = new Uint8Array(24)
@@ -216,17 +169,6 @@ test('image size reader handles PNG and JPEG headers', () => {
   // SOI, then a SOF0 segment: length 17, precision 8, height 600, width 900
   const jpg = new Uint8Array([0xff, 0xd8, 0xff, 0xc0, 0x00, 0x11, 0x08, 0x02, 0x58, 0x03, 0x84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
   assert.deepEqual(dimensions(jpg), { w: 900, h: 600 })
-})
-
-test('account sync merges browser and account state without dropping anything', async () => {
-  const { mergeState } = await import('../src/lib/account.ts')
-  const m = mergeState(
-    { saved: ['a', 'b'], profile: null, places: { x: { status: 'want' } } },
-    { saved: ['b', 'c'], profile: { home: 'nyc', levels: {}, busy: [], budget: 'any' }, places: { y: { status: 'been', verdict: 'loved' } } },
-  )
-  assert.deepEqual(m.saved, ['a', 'b', 'c'])
-  assert.equal(m.profile?.home, 'nyc')
-  assert.deepEqual(Object.keys(m.places).sort(), ['x', 'y'])
 })
 
 test('Luma descriptions lose their boilerplate and give the event its own link', async () => {
@@ -243,30 +185,52 @@ test('portraits must be named after the person', async () => {
   assert.ok(!isPortraitOf('https://upload.wikimedia.org/x/1280px-Eisenhower_Executive_Office_Building_26.jpg', 'Sahil Lavingia'))
 })
 
-test('favorites match artists, teams, venues and people, and only whole names', async () => {
-  const { favoriteAt } = await import('../src/lib/favorites.ts')
-  const ev = (title: string, category = 'music', people: string[] = [], venue = 'Somewhere') =>
-    ({ title, category, people: people.map((name) => ({ name, role: 'Performer' })), venue: { name: venue } }) as never
-  const favs = [
-    { name: 'Geese', kind: 'artist' as const, from: 'spotify' as const },
-    { name: 'Yes', kind: 'artist' as const, from: 'you' as const },
-    { name: 'New York Knicks', kind: 'team' as const, from: 'you' as const },
-    { name: 'Mütter Museum', kind: 'venue' as const, from: 'you' as const },
-    { name: 'Jerome Powell', kind: 'person' as const, from: 'you' as const },
-  ]
-  assert.equal(favoriteAt(ev('Geese: Getting Killed Tour'), favs)?.name, 'Geese')
-  assert.equal(favoriteAt(ev('Night at the Bowery', 'music', ['Geese']), favs)?.name, 'Geese')
-  assert.equal(favoriteAt(ev('Yes, Chef! A cooking show', 'unusual'), favs), undefined)
-  assert.equal(favoriteAt(ev('Philadelphia 76ers vs. New York Knicks', 'sports'), favs)?.kind, 'team')
-  assert.equal(favoriteAt(ev('Knicks Watch Party', 'unusual'), favs), undefined)
-  assert.equal(favoriteAt(ev('Fathoming Frankenstein', 'ideas', [], 'Mutter Museum'), favs)?.kind, 'venue')
-  assert.equal(favoriteAt(ev('A conversation with Jerome Powell', 'ideas'), favs)?.kind, 'person')
-})
-
 test('structured-data times without an offset are New York time', async () => {
   const { instant } = await import('../ingest/adapters/feeds.ts')
   assert.equal(instant('2026-10-29T20:00:00'), '2026-10-30T00:00:00.000Z')
   assert.equal(instant('2026-10-29T20:00:00-0400'), '2026-10-30T00:00:00.000Z')
   assert.equal(instant('2026-12-05T19:30:00'), '2026-12-06T00:30:00.000Z')
   assert.equal(instant('2026-11-01'), '2026-11-01')
+})
+
+// ——— The weekly edition ———
+import type { Edition, Pick } from '../src/shared/edition.ts'
+
+const pick = (id: string, city: Pick['city'], category: Pick['category'], extra: Partial<Pick> = {}): Pick => ({
+  id, city, category, kind: 'Concert', title: id, why: 'Because.', start: '2026-10-31T23:00:00.000Z',
+  venue: { name: 'Somewhere' }, link: 'https://example.com', sourceName: 'Test', ...extra,
+})
+const ed: Edition = {
+  date: '2026-10-29', number: 1, weekOf: ['2026-10-29', '2026-11-04'], builtAt: '',
+  picks: [
+    ...Array.from({ length: 8 }, (_, i) => pick(`nyc${i}`, 'nyc', 'music')),
+    ...Array.from({ length: 6 }, (_, i) => pick(`pr${i}`, 'princeton', i === 5 ? 'comedy' : 'ideas')),
+    pick('geese', 'philly', 'music', { people: [{ name: 'Geese', role: 'band' }] }),
+  ],
+  places: (['nyc', 'philly', 'princeton'] as const).flatMap((c) => Array.from({ length: 10 }, (_, i) => ({ id: `${c}${i}`, city: c, name: '', neighborhood: '', cuisine: '', price: '', why: '', map: '' }))),
+}
+
+test('the ten: editor order by default, filtered by city, nudged by taste', async () => {
+  const { topTen, placesFor } = await import('../src/lib/edition.ts')
+  const none = { interests: [], artists: [] }
+  assert.deepEqual(topTen(ed, 'all', none).map((r) => r.pick.id), ['nyc0', 'nyc1', 'nyc2', 'nyc3', 'nyc4', 'nyc5', 'nyc6', 'nyc7', 'pr0', 'pr1'])
+  assert.equal(topTen(ed, 'princeton', none).length, 6)
+  // A comedy fan sees the comedy pick move up; a Spotify artist goes to the top with a reason.
+  const comedy = topTen(ed, 'princeton', { interests: ['comedy'], artists: [] }).map((r) => r.pick.id)
+  assert.ok(comedy.indexOf('pr5') < 5)
+  const fan = topTen(ed, 'all', { interests: [], artists: ['Geese'] })
+  assert.equal(fan[0].pick.id, 'geese')
+  assert.equal(fan[0].reason, 'You listen to Geese')
+  // Restaurants: ten for a city, a 4/3/3 mix for everywhere.
+  assert.equal(placesFor(ed, 'philly').length, 10)
+  assert.deepEqual(placesFor(ed, 'all').map((p) => p.city).join(), 'nyc,nyc,nyc,nyc,philly,philly,philly,princeton,princeton,princeton')
+})
+
+test('edition dates read in the pick’s own city time', async () => {
+  const { whenOf, calendarUrl, isPast } = await import('../src/lib/edition.ts')
+  assert.equal(whenOf(pick('a', 'nyc', 'music')), 'Saturday, October 31 · 7 pm')
+  assert.equal(whenOf(pick('b', 'nyc', 'art', { exhibition: true, start: '2026-10-10', end: '2027-01-31' })), 'On view through January 31')
+  assert.match(calendarUrl(pick('c', 'nyc', 'music')), /dates=20261031T230000Z%2F20261101T010000Z/)
+  assert.equal(isPast(pick('d', 'nyc', 'music'), Date.parse('2026-11-02T00:00:00Z')), true)
+  assert.equal(isPast(pick('e', 'nyc', 'music'), Date.parse('2026-10-30T00:00:00Z')), false)
 })

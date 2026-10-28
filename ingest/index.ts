@@ -110,6 +110,8 @@ async function run() {
     }
   }
   if (!offline) await addMedia(final)
+  // Reasons for live listings, now that we know who's on (from Wikipedia).
+  for (const e of final) if (e.provenance === 'live') e.why = whyFor(e) || undefined
 
   // Map positions for "near me". Offline runs reuse the last ones; online runs look up
   // venues that have none (cached, so each venue is looked up once).
@@ -211,8 +213,6 @@ function finish(d: Draft | WGEvent, sourceId: string, provenance: WGEvent['prove
     sourceId,
     checkedAt: 'checkedAt' in d && d.checkedAt ? d.checkedAt : now.toISOString(),
   }
-  // Hand-written listings carry their own reasons; don't pad them.
-  if (provenance === 'live') e.why ||= whyFor(e) || undefined
   e.score = score(e)
   return e
 }

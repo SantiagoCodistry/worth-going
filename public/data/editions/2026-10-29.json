@@ -1,0 +1,1400 @@
+{
+ "date": "2026-10-29",
+ "number": 1,
+ "weekOf": [
+  "2026-10-29",
+  "2026-11-04"
+ ],
+ "picks": [
+  {
+   "id": "village-halloween-parade-2026",
+   "city": "nyc",
+   "category": "unusual",
+   "kind": "Costume parade",
+   "title": "Village Halloween Parade",
+   "why": "Fifty thousand people in costume march up Sixth Avenue, and anyone dressed up can join in. No ticket, no RSVP.",
+   "start": "2026-10-31T23:00:00.000Z",
+   "end": "2026-11-01T02:00:00.000Z",
+   "venue": {
+    "name": "Sixth Avenue",
+    "address": "Lineup at Sixth Ave & Canal St",
+    "neighborhood": "Greenwich Village"
+   },
+   "price": "Free",
+   "isFree": true,
+   "link": "https://www.timeout.com/newyork/news/the-worlds-biggest-halloween-parade-returns-to-nyc-next-month-and-the-titillating-2026-theme-has-just-been-revealed-091626",
+   "sourceName": "Time Out New York",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Greenwich_Village_Halloween_Parade_%286451249051%29.jpg/1280px-Greenwich_Village_Halloween_Parade_%286451249051%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/New_York's_Village_Halloween_Parade",
+    "w": 1600,
+    "h": 1063
+   }
+  },
+  {
+   "id": "songkick-mariza-2026-10-29",
+   "city": "princeton",
+   "category": "music",
+   "kind": "Fado concert",
+   "title": "Mariza",
+   "why": "Mariza is the best-known fado singer of her generation, and Portugal’s music of longing sounds best in a room like McCarter’s.",
+   "start": "2026-10-29T23:30:00.000Z",
+   "end": "2026-10-29",
+   "venue": {
+    "name": "Matthews Theatre, McCarter Theatre Center",
+    "address": "91 University Place, Princeton"
+   },
+   "link": "https://www.mccarter.org/",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Mariza",
+     "role": "Portuguese fado singer (born 1973)",
+     "wiki": "Mariza",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg/1280px-Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Mariza",
+      "w": 1758,
+      "h": 2076
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg/1280px-Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Mariza",
+    "w": 1758,
+    "h": 2076
+   }
+  },
+  {
+   "id": "tcs-nyc-marathon-2026",
+   "city": "nyc",
+   "category": "unusual",
+   "kind": "Marathon, free to watch",
+   "title": "NYC Marathon",
+   "why": "The best free show in the city: about 50,000 runners, two million people cheering, and First Avenue at its loudest around mile 17.",
+   "start": "2026-11-01T13:00:00.000Z",
+   "venue": {
+    "name": "All five boroughs",
+    "address": "Finish in Central Park",
+    "neighborhood": "Citywide"
+   },
+   "price": "Free to watch",
+   "isFree": true,
+   "link": "https://www.tcsnycmarathon.org/",
+   "sourceName": "TCS New York City Marathon"
+  },
+  {
+   "id": "songkick-vince-staples-2026-10-31",
+   "city": "philly",
+   "category": "music",
+   "kind": "Rap show",
+   "title": "Vince Staples",
+   "why": "Vince Staples is one of the sharpest, funniest writers in rap, and Franklin Music Hall is the right size for him.",
+   "start": "2026-10-31T00:00:00.000Z",
+   "end": "2026-10-30",
+   "venue": {
+    "name": "Franklin Music Hall",
+    "address": "421 N. 7th Street, Philadelphia"
+   },
+   "link": "https://www.franklinmusichall.com/",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Vince Staples",
+     "role": "American rapper and actor (born 1993)",
+     "wiki": "Vince_Staples",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Vince_Staples_by_Gage_Skidmore.jpg/1280px-Vince_Staples_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Vince_Staples",
+      "w": 1831,
+      "h": 2565
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Vince_Staples_by_Gage_Skidmore.jpg/1280px-Vince_Staples_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Vince_Staples",
+    "w": 1831,
+    "h": 2565
+   }
+  },
+  {
+   "id": "the-bell-house-wunderkammer-a-taxidermy-showcase-and-competition-2026-10-30",
+   "city": "nyc",
+   "category": "comedy",
+   "kind": "Taxidermy contest",
+   "title": "Wunderkammer, a taxidermy contest",
+   "why": "More than twenty taxidermists bring their strangest work to be judged on stage. As odd, and as funny, as it sounds.",
+   "start": "2026-10-30T00:00:00.000Z",
+   "venue": {
+    "name": "The Bell House",
+    "address": "149 7th Street, Brooklyn"
+   },
+   "link": "https://www.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-competition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC",
+   "sourceName": "The Bell House"
+  },
+  {
+   "id": "songkick-cecile-mclorin-salvant-2026-11-01",
+   "city": "princeton",
+   "category": "music",
+   "kind": "Jazz concert",
+   "title": "Cécile McLorin Salvant",
+   "why": "Three Grammys for best jazz vocal album, and a voice that makes old standards feel newly written.",
+   "start": "2026-11-01T23:00:00.000Z",
+   "end": "2026-11-01",
+   "venue": {
+    "name": "Matthews Theatre, McCarter Theatre Center",
+    "address": "91 University Place, Princeton"
+   },
+   "link": "https://www.mccarter.org/",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Cécile McLorin Salvant",
+     "role": "Performer"
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg/1280px-McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/McCarter_Theatre",
+    "w": 4032,
+    "h": 3024
+   }
+  },
+  {
+   "id": "luma-evt-egejit1g5mvurua-events-lu-ma-2026-11-03",
+   "city": "philly",
+   "category": "art",
+   "kind": "Film and dinner",
+   "title": "Big Night, and a timpano",
+   "why": "Watch Big Night, the 1996 film about two brothers and their failing Italian restaurant, then eat the timpano from its famous dinner.",
+   "start": "2026-11-03T00:00:00.000Z",
+   "end": "2026-11-03T03:30:00.000Z",
+   "venue": {
+    "name": "Pen & Pencil Club",
+    "address": "1522 Latimer St, Philadelphia, PA 19102, USA"
+   },
+   "link": "https://luma.com/cr2xox31",
+   "sourceName": "Luma",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/bn/39ec8f1f-a781-4495-ae77-c16be84510c8.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/cr2xox31",
+    "w": 800,
+    "h": 420
+   }
+  },
+  {
+   "id": "songkick-st-vincent-2026-10-30",
+   "city": "nyc",
+   "category": "music",
+   "kind": "Cabaret residency",
+   "title": "St. Vincent",
+   "why": "St. Vincent singing standards in the Carlyle’s small supper club, the last of three nights. Bar seats are the cheapest way in.",
+   "start": "2026-10-30T00:45:00.000Z",
+   "end": "2026-10-29",
+   "venue": {
+    "name": "Cafe Carlyle",
+    "address": "35 East 76th Street, New York (NYC)"
+   },
+   "price": "From $175",
+   "link": "https://www.exploretock.com/cafecarlyle",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "St. Vincent",
+     "role": "American musician (born 1982)",
+     "wiki": "St._Vincent_(musician)",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/St._Vincent_10_29_2018_-2_%2844237126380%29.jpg/1280px-St._Vincent_10_29_2018_-2_%2844237126380%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/St._Vincent_(musician)",
+      "w": 2000,
+      "h": 2500
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/St._Vincent_10_29_2018_-2_%2844237126380%29.jpg/1280px-St._Vincent_10_29_2018_-2_%2844237126380%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/St._Vincent_(musician)",
+    "w": 2000,
+    "h": 2500
+   }
+  },
+  {
+   "id": "pma-duchamp-retrospective",
+   "city": "philly",
+   "category": "art",
+   "kind": "Art exhibition",
+   "title": "Marcel Duchamp",
+   "why": "The first North American Duchamp retrospective in more than 50 years, at the museum that owns much of his most important work.",
+   "start": "2026-10-10",
+   "end": "2027-01-31",
+   "exhibition": true,
+   "venue": {
+    "name": "Philadelphia Art Museum",
+    "address": "2600 Benjamin Franklin Pkwy, Philadelphia",
+    "neighborhood": "Fairmount"
+   },
+   "link": "https://www.philamuseum.org/",
+   "sourceName": "Visit Philadelphia",
+   "people": [
+    {
+     "name": "Marcel Duchamp",
+     "role": "French artist; in 1917 he submitted a urinal as a sculpture",
+     "wiki": "Marcel_Duchamp",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg/1280px-Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Marcel_Duchamp",
+      "w": 1609,
+      "h": 2050
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg/1280px-Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Marcel_Duchamp",
+    "w": 1609,
+    "h": 2050
+   }
+  },
+  {
+   "id": "92ny-neil-degrasse-tyson-2026",
+   "city": "nyc",
+   "category": "ideas",
+   "kind": "Science talk",
+   "title": "Neil deGrasse Tyson on meeting aliens",
+   "why": "Tyson on how we should greet the first aliens we meet, the subject of his new book. Expect jokes and a lot of physics.",
+   "start": "2026-11-03T00:00:00.000Z",
+   "venue": {
+    "name": "92NY",
+    "address": "1395 Lexington Ave, New York",
+    "neighborhood": "Upper East Side"
+   },
+   "link": "https://bigseason.92ny.org/talks",
+   "sourceName": "92NY",
+   "people": [
+    {
+     "name": "Neil deGrasse Tyson",
+     "role": "Astrophysicist, director of the Hayden Planetarium and host of StarTalk",
+     "wiki": "Neil_deGrasse_Tyson",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Neil_DeGrasse_Tyson_%282023%29.jpg/1280px-Neil_DeGrasse_Tyson_%282023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson",
+      "w": 1489,
+      "h": 1986
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Neil_DeGrasse_Tyson_%282023%29.jpg/1280px-Neil_DeGrasse_Tyson_%282023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson",
+    "w": 1489,
+    "h": 1986
+   }
+  },
+  {
+   "id": "planet-princeton-198590",
+   "city": "princeton",
+   "category": "ideas",
+   "kind": "Book talk",
+   "title": "Yiyun Li on her new novel",
+   "why": "Yiyun Li, one of the most admired novelists teaching at Princeton, on her new book. Free, on campus.",
+   "start": "2026-10-30T20:30:00Z",
+   "end": "2026-10-30T22:00:00Z",
+   "venue": {
+    "name": "Taplin Auditorium, Fine Hall",
+    "address": "Fine Hall, Princeton"
+   },
+   "price": "Free",
+   "isFree": true,
+   "link": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/",
+   "sourceName": "Planet Princeton"
+  },
+  {
+   "id": "the-bell-house-kaiju-big-battel-satan-sleeps-tonight-2026-11-01",
+   "city": "nyc",
+   "category": "comedy",
+   "kind": "Monster wrestling",
+   "title": "Kaiju Big Battel: Satan Sleeps Tonight",
+   "why": "Grown adults in rubber monster suits wrestle and flatten a cardboard city. A cult show since the 1990s.",
+   "start": "2026-11-01T23:00:00.000Z",
+   "venue": {
+    "name": "The Bell House",
+    "address": "149 7th Street, Brooklyn"
+   },
+   "link": "https://www.ticketmaster.com/kaiju-big-battel-satan-sleeps-tonight-brooklyn-new-york-11-01-2026/event/3000651E16B195B0",
+   "sourceName": "The Bell House"
+  },
+  {
+   "id": "arts-council-of-princeton-50272",
+   "city": "princeton",
+   "category": "unusual",
+   "kind": "Costume parade",
+   "title": "The Hometown Halloween Parade",
+   "why": "Princeton’s Halloween parade turns fifty: kids, dogs and whole families in costume around Palmer Square.",
+   "start": "2026-10-30T20:00:00Z",
+   "end": "2026-10-30T21:00:00Z",
+   "venue": {
+    "name": "Palmer Square Green",
+    "address": "10 Palmer Square, Princeton"
+   },
+   "price": "Free",
+   "isFree": true,
+   "link": "https://artscouncilofprinceton.org/event/50-hometown-halloween-parade/",
+   "sourceName": "Arts Council of Princeton"
+  },
+  {
+   "id": "blue-note-robert-glasper-2026-11-01",
+   "city": "nyc",
+   "category": "music",
+   "kind": "Jazz residency",
+   "title": "Robert Glasper",
+   "why": "Glasper’s fall residency at the Blue Note is a New York tradition, and the late set is where it gets loose.",
+   "start": "2026-11-02T03:30:00.000Z",
+   "venue": {
+    "name": "Blue Note",
+    "address": "131 W 3rd St, New York",
+    "neighborhood": "Greenwich Village"
+   },
+   "link": "https://www.livenation.com/venue/KovZpZAkJtvA/blue-note-jazz-club-events/pg/2",
+   "sourceName": "Live Nation",
+   "people": [
+    {
+     "name": "Robert Glasper",
+     "role": "Grammy-winning jazz pianist who works with rappers like Kendrick Lamar",
+     "wiki": "Robert_Glasper"
+    }
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Blue_Note_Jazz_Club%2C_New_York_City.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Blue_Note_Jazz_Club",
+    "w": 1182,
+    "h": 1576
+   }
+  },
+  {
+   "id": "songkick-afro-cuban-all-stars-2026-10-30",
+   "city": "philly",
+   "category": "music",
+   "kind": "Cuban big band",
+   "title": "Afro-Cuban All Stars",
+   "why": "The Cuban big band led by Juan de Marcos, who helped put together Buena Vista Social Club.",
+   "start": "2026-10-30T23:30:00.000Z",
+   "end": "2026-10-30",
+   "venue": {
+    "name": "Miller Theater, Kimmel Center",
+    "address": "250 S. Broad St., Philadelphia"
+   },
+   "link": "http://www.songkick.com/concerts/43329058-afrocuban-all-stars-at-miller-theater-kimmel-center?utm_medium=organic&utm_source=microformat",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Afro-Cuban All Stars",
+     "role": "Performer"
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Kimmel_Center_for_the_Performing_Arts_%2853587020645%29.jpg/1280px-Kimmel_Center_for_the_Performing_Arts_%2853587020645%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Kimmel_Center_for_the_Performing_Arts",
+    "w": 4607,
+    "h": 3455
+   }
+  },
+  {
+   "id": "the-bell-house-the-moth-storyslam-2026-11-05",
+   "city": "nyc",
+   "category": "comedy",
+   "kind": "Storytelling night",
+   "title": "The Moth StorySLAM",
+   "why": "Ten strangers tell true five-minute stories and the audience scores them. Some are great; none are long.",
+   "start": "2026-11-05T01:00:00.000Z",
+   "venue": {
+    "name": "The Bell House",
+    "address": "149 7th Street, Brooklyn"
+   },
+   "link": "https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-11-04-2026/event/300064BB1911E6D0",
+   "sourceName": "The Bell House"
+  },
+  {
+   "id": "eastern-state-halloween-nights-2026",
+   "city": "philly",
+   "category": "unusual",
+   "kind": "Haunted prison",
+   "title": "Halloween Nights at Eastern State",
+   "why": "Haunted houses inside a real 1829 prison, in the last stretch of the season.",
+   "start": "2026-10-28T23:00:00.000Z",
+   "end": "2026-11-07",
+   "exhibition": true,
+   "venue": {
+    "name": "Eastern State Penitentiary",
+    "address": "2027 Fairmount Ave, Philadelphia",
+    "neighborhood": "Fairmount"
+   },
+   "link": "https://www.easternstate.org/",
+   "sourceName": "Visit Philadelphia",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif/lossy-page1-330px-Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Eastern_State_Penitentiary",
+    "w": 6903,
+    "h": 5456
+   }
+  },
+  {
+   "id": "luma-evt-h80rhu7sxttgmqi-events-lu-ma-2026-10-31",
+   "city": "nyc",
+   "category": "art",
+   "kind": "Museum talk",
+   "title": "Philosophy at the Cloisters",
+   "why": "A guided conversation about medieval art inside the Cloisters, the Met’s castle-like branch above the Hudson.",
+   "start": "2026-10-31T18:00:00.000Z",
+   "end": "2026-10-31T20:00:00.000Z",
+   "venue": {
+    "name": "The Met Cloisters",
+    "address": "99 Margaret Corbin Dr, New York, NY 10040, USA"
+   },
+   "link": "https://luma.com/157thqlu",
+   "sourceName": "Luma",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/l0/3d34a5c7-e084-4bd0-86b8-3398418ef359.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/157thqlu",
+    "w": 800,
+    "h": 420
+   }
+  },
+  {
+   "id": "songkick-olafur-arnalds-2026-11-05",
+   "city": "nyc",
+   "category": "music",
+   "kind": "Concert",
+   "title": "Ólafur Arnalds",
+   "why": "Quiet piano and strings from the Icelandic composer, in Town Hall’s warm old room.",
+   "start": "2026-11-05T01:00:00.000Z",
+   "end": "2026-11-04",
+   "venue": {
+    "name": "The Town Hall",
+    "address": "123 West 43rd Street, New York (NYC)"
+   },
+   "link": "http://www.songkick.com/concerts/43021389-olafur-arnalds-at-town-hall?utm_medium=organic&utm_source=microformat",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Ólafur Arnalds",
+     "role": "Icelandic musician and composer (born 1986)",
+     "wiki": "Ólafur_Arnalds",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg/1280px-20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/%C3%93lafur_Arnalds",
+      "w": 4041,
+      "h": 2694
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg/1280px-20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/%C3%93lafur_Arnalds",
+    "w": 4041,
+    "h": 2694
+   }
+  },
+  {
+   "id": "planet-princeton-10055145",
+   "city": "princeton",
+   "category": "unusual",
+   "kind": "Bell concert",
+   "title": "Carillon concert at the Graduate College",
+   "why": "The Graduate College carillon has 67 bells. The Sunday concerts are free and best heard from the lawn.",
+   "start": "2026-11-01T18:00:00Z",
+   "end": "2026-11-01T19:00:00Z",
+   "venue": {
+    "name": "Princeton University Graduate College, Grover Cleveland Tower",
+    "address": "88 College Road West, Princeton"
+   },
+   "price": "Free",
+   "isFree": true,
+   "link": "https://planetprinceton.com/event/free-carillon-concert-at-princeton-university-2-2-2/2026-11-01/",
+   "sourceName": "Planet Princeton",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg/1280px-Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Princeton_University_Graduate_College",
+    "w": 3204,
+    "h": 2136
+   }
+  },
+  {
+   "id": "espn-401867831",
+   "city": "princeton",
+   "category": "sports",
+   "kind": "Ivy League football",
+   "title": "Princeton vs. Cornell",
+   "why": "Ivy League football at Princeton Stadium on Halloween, a short walk from Nassau Street.",
+   "start": "2026-10-31T16:00Z",
+   "venue": {
+    "name": "Princeton Stadium",
+    "address": "Princeton University"
+   },
+   "link": "https://goprincetontigers.com/sports/football/schedule",
+   "sourceName": "ESPN",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Princeton_Stadium%2C_2026_aerial_view.jpg/1280px-Princeton_Stadium%2C_2026_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Powers_Field_at_Princeton_Stadium",
+    "w": 8145,
+    "h": 5817
+   }
+  },
+  {
+   "id": "songkick-boy-harsher-2026-11-01",
+   "city": "philly",
+   "category": "music",
+   "kind": "Synth show",
+   "title": "Boy Harsher",
+   "why": "Dark, danceable synth music on Halloween night.",
+   "start": "2026-11-01T00:00:00.000Z",
+   "end": "2026-10-31",
+   "venue": {
+    "name": "Franklin Music Hall",
+    "address": "421 N. 7th Street, Philadelphia"
+   },
+   "link": "http://www.songkick.com/concerts/43263198-boy-harsher-at-franklin-music-hall?utm_medium=organic&utm_source=microformat",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Boy Harsher",
+     "role": "American electronic music band",
+     "wiki": "Boy_Harsher",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Boy_Harsher_live_at_Mars_Pub_in_February_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Boy_Harsher",
+      "w": 782,
+      "h": 589
+     }
+    },
+    {
+     "name": "Model/Actriz",
+     "role": "American rock band",
+     "wiki": "Model/Actriz"
+    },
+    {
+     "name": "Marie Davidson",
+     "role": "Performer"
+    }
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Boy_Harsher_live_at_Mars_Pub_in_February_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Boy_Harsher",
+    "w": 782,
+    "h": 589
+   }
+  },
+  {
+   "id": "free-library-jesse-wegman-2026",
+   "city": "philly",
+   "category": "ideas",
+   "kind": "History book talk",
+   "title": "Jesse Wegman: The Lost Founder",
+   "why": "A New York Times editorial writer on a founder most people have never heard of. $5 at the Free Library.",
+   "start": "2026-11-05T00:00:00.000Z",
+   "venue": {
+    "name": "Free Library, Parkway Central",
+    "address": "1901 Vine St, Philadelphia",
+    "neighborhood": "Logan Square"
+   },
+   "price": "$5",
+   "link": "https://libwww.freelibrary.org/calendar/type/author-events",
+   "sourceName": "Free Library of Philadelphia",
+   "people": [
+    {
+     "name": "Jesse Wegman",
+     "role": "New York Times editorial board member"
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/The_Free_Library_of_Philadelphia_%2853574634710%29.jpg/1280px-The_Free_Library_of_Philadelphia_%2853574634710%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Free_Library_of_Philadelphia",
+    "w": 5184,
+    "h": 2916
+   }
+  },
+  {
+   "id": "moma-brancusi-2026",
+   "city": "nyc",
+   "category": "art",
+   "kind": "Art exhibition",
+   "title": "Brancusi",
+   "why": "Brancusi’s polished bronzes and the studio he arranged like a work of its own, at MoMA.",
+   "start": "2026-10-25",
+   "end": "2027-02-27",
+   "exhibition": true,
+   "venue": {
+    "name": "MoMA",
+    "address": "11 W 53rd St, New York",
+    "neighborhood": "Midtown"
+   },
+   "link": "https://www.artrabbit.com/places/united-states/new-york/features/lists/20261001-20261231/mustsee-museum-shows",
+   "sourceName": "Art Rabbit",
+   "people": [
+    {
+     "name": "Constantin Brancusi",
+     "role": "Romanian modernist sculptor",
+     "wiki": "Constantin_Brâncuși",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Edward_Steichen_-_Brancusi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Constantin_Br%C3%A2ncu%C8%99i",
+      "w": 1012,
+      "h": 1256
+     }
+    }
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Edward_Steichen_-_Brancusi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Constantin_Br%C3%A2ncu%C8%99i",
+    "w": 1012,
+    "h": 1256
+   }
+  },
+  {
+   "id": "arts-council-of-princeton-50290",
+   "city": "princeton",
+   "category": "art",
+   "kind": "Festival",
+   "title": "Day of the Dead in Princeton",
+   "why": "The Arts Council’s free Day of the Dead celebration, for families, at the Princeton Shopping Center.",
+   "start": "2026-11-01T18:00:00Z",
+   "end": "2026-11-01T20:00:00Z",
+   "venue": {
+    "name": "Princeton Shopping Center",
+    "address": "301 N Harrison Street, Princeton"
+   },
+   "price": "Free",
+   "isFree": true,
+   "link": "https://artscouncilofprinceton.org/event/day-of-the-dead-26/",
+   "sourceName": "Arts Council of Princeton"
+  },
+  {
+   "id": "historical-society-of-princeton-1270-princetonhistory-org-2026-11-01",
+   "city": "princeton",
+   "category": "unusual",
+   "kind": "Walking tour",
+   "title": "A walk through Princeton history",
+   "why": "Two hours on foot through Princeton’s past with the Historical Society, starting at the Battle Monument.",
+   "start": "2026-11-01T19:00:00.000Z",
+   "end": "2026-11-01T21:00:00.000Z",
+   "venue": {
+    "name": "Princeton Battle Monument",
+    "address": "1 Monument Drive, Princeton, NJ, 08540, United States"
+   },
+   "link": "https://princetonhistory.org/events/princeton-history-walking-tour-271/",
+   "sourceName": "Historical Society of Princeton"
+  },
+  {
+   "id": "songkick-joanne-mcnally-2026-10-30",
+   "city": "philly",
+   "category": "music",
+   "kind": "Stand-up comedy",
+   "title": "Joanne McNally",
+   "why": "Joanne McNally, the Irish comedian behind the podcast My Therapist Ghosted Me, on tour.",
+   "start": "2026-10-30T00:00:00.000Z",
+   "end": "2026-10-29",
+   "venue": {
+    "name": "Punch Line - Philly",
+    "address": "1004 Canal St., Philadelphia"
+   },
+   "link": "http://www.songkick.com/concerts/43096876-joanne-mcnally-at-punch-line-philly?utm_medium=organic&utm_source=microformat",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Joanne McNally",
+     "role": "Irish comedian and actress (born 1983)",
+     "wiki": "Joanne_McNally",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Joanne_McNally_profile.jpg/1280px-Joanne_McNally_profile.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Joanne_McNally",
+      "w": 1290,
+      "h": 1679
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Joanne_McNally_profile.jpg/1280px-Joanne_McNally_profile.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Joanne_McNally",
+    "w": 1290,
+    "h": 1679
+   }
+  },
+  {
+   "id": "planet-princeton-10053133",
+   "city": "princeton",
+   "category": "music",
+   "kind": "Organ recital",
+   "title": "Organ at noon in the Chapel",
+   "why": "Half an hour of organ music in the University Chapel, one of the great Gothic rooms in New Jersey. Free, at lunchtime.",
+   "start": "2026-10-29T16:30:00Z",
+   "end": "2026-10-29T17:00:00Z",
+   "venue": {
+    "name": "Princeton University Chapel"
+   },
+   "price": "Free",
+   "isFree": true,
+   "link": "https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-10-29/",
+   "sourceName": "Planet Princeton",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Princeton_University_Chapel_%2855143708212%29.jpg/1280px-Princeton_University_Chapel_%2855143708212%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Princeton_University_Chapel",
+    "w": 5702,
+    "h": 5702
+   }
+  },
+  {
+   "id": "planet-princeton-198908",
+   "city": "princeton",
+   "category": "ideas",
+   "kind": "Book talk",
+   "title": "Paul Moses on The Italian Squad",
+   "why": "Paul Moses on The Italian Squad, the true story of the immigrant cops who took on the early Mafia in New York.",
+   "start": "2026-11-01T22:00:00Z",
+   "end": "2026-11-02T00:00:00Z",
+   "venue": {
+    "name": "Dorothea’s House",
+    "address": "120 John Street, Princeton"
+   },
+   "link": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
+   "sourceName": "Planet Princeton",
+   "image": {
+    "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=198911&type=planetprinceton-com&hash=f2ba2f266378f5020e1048ccb2aad87a",
+    "credit": "planetprinceton.com",
+    "link": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
+    "w": 1500,
+    "h": 1125
+   }
+  },
+  {
+   "id": "songkick-guerilla-toss-2026-10-29",
+   "city": "philly",
+   "category": "music",
+   "kind": "Art-punk show",
+   "title": "Guerilla Toss",
+   "why": "Guerilla Toss make wiry, joyful art-punk, and Ruba Club is small enough to stand right at the front.",
+   "start": "2026-10-29T23:00:00.000Z",
+   "end": "2026-10-29",
+   "venue": {
+    "name": "Ruba Club",
+    "address": "416 Green St, Philadelphia"
+   },
+   "link": "http://www.songkick.com/concerts/43345031-guerilla-toss-at-ruba-club?utm_medium=organic&utm_source=microformat",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Guerilla Toss",
+     "role": "American art rock band",
+     "wiki": "Guerilla_Toss",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Guerilla_Toss_Live%2C_November_16%2C_2022.jpg/1280px-Guerilla_Toss_Live%2C_November_16%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Guerilla_Toss",
+      "w": 6000,
+      "h": 4000
+     }
+    },
+    {
+     "name": "Ben Katzman's Degreaser",
+     "role": "Performer"
+    },
+    {
+     "name": "Grocer",
+     "role": "Performer"
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Guerilla_Toss_Live%2C_November_16%2C_2022.jpg/1280px-Guerilla_Toss_Live%2C_November_16%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Guerilla_Toss",
+    "w": 6000,
+    "h": 4000
+   }
+  },
+  {
+   "id": "songkick-bass-drum-of-death-2026-11-04",
+   "city": "philly",
+   "category": "music",
+   "kind": "Garage punk show",
+   "title": "Bass Drum of Death",
+   "why": "Loud, fast garage punk in Johnny Brenda’s small upstairs room.",
+   "start": "2026-11-04T01:00:00.000Z",
+   "end": "2026-11-03",
+   "venue": {
+    "name": "Johnny Brenda's",
+    "address": "1201 Frankford Avenue, Philadelphia"
+   },
+   "link": "http://www.songkick.com/concerts/43352624-bass-drum-of-death-at-johnny-brendas?utm_medium=organic&utm_source=microformat",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Bass Drum of Death",
+     "role": "American garage punk band",
+     "wiki": "Bass_Drum_of_Death",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bass_Drum_of_Death_2023_%2801%29.jpg/1280px-Bass_Drum_of_Death_2023_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Bass_Drum_of_Death",
+      "w": 4030,
+      "h": 2267
+     }
+    }
+   ],
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bass_Drum_of_Death_2023_%2801%29.jpg/1280px-Bass_Drum_of_Death_2023_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Bass_Drum_of_Death",
+    "w": 4030,
+    "h": 2267
+   }
+  }
+ ],
+ "places": [
+  {
+   "id": "agricola",
+   "city": "princeton",
+   "name": "Agricola",
+   "neighborhood": "Witherspoon Street",
+   "cuisine": "Seasonal American",
+   "price": "$$$",
+   "why": "The safe, good choice when parents visit.",
+   "address": "11 Witherspoon St, Princeton",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/morristown-nj/venues/agricola-morristown"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Agricola%2C%2011%20Witherspoon%20St%2C%20Princeton"
+  },
+  {
+   "id": "mistral",
+   "city": "princeton",
+   "name": "Mistral",
+   "neighborhood": "Witherspoon Street",
+   "cuisine": "Small plates",
+   "price": "$$$",
+   "why": "One of downtown Princeton’s better dinners, rated 4.6 by more than 3,000 OpenTable diners.",
+   "address": "66 Witherspoon St, Princeton",
+   "book": {
+    "via": "OpenTable",
+    "url": "https://www.opentable.com/mistral"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Mistral%2C%2066%20Witherspoon%20St%2C%20Princeton"
+  },
+  {
+   "id": "xibei",
+   "city": "princeton",
+   "name": "XiBei Cuisine",
+   "neighborhood": "Witherspoon Street",
+   "cuisine": "Northwest Chinese",
+   "price": "$$",
+   "why": "Opened in 2025. The Daily Princetonian and Princeton Alumni Weekly both recommend it.",
+   "order": "Soup dumplings, beef noodles, tomato and egg noodles.",
+   "address": "43 Witherspoon St, Princeton",
+   "map": "https://www.google.com/maps/search/?api=1&query=XiBei%20Cuisine%2C%2043%20Witherspoon%20St%2C%20Princeton"
+  },
+  {
+   "id": "eno-terra",
+   "city": "princeton",
+   "name": "Eno Terra",
+   "neighborhood": "Kingston",
+   "cuisine": "Italian",
+   "price": "$$$",
+   "why": "Rated 4.7 by nearly 4,000 OpenTable diners. Ten minutes from campus.",
+   "address": "4484 Route 27, Kingston",
+   "book": {
+    "via": "OpenTable",
+    "url": "https://www.opentable.com/r/eno-terra-kingston"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Eno%20Terra%2C%204484%20Route%2027%2C%20Kingston"
+  },
+  {
+   "id": "nomad-pizza",
+   "city": "princeton",
+   "name": "Nomad Pizza",
+   "neighborhood": "Hopewell",
+   "cuisine": "Wood-fired pizza",
+   "price": "$$",
+   "why": "Worth the 15-minute drive from Princeton.",
+   "address": "10 E Broad St, Hopewell",
+   "map": "https://www.google.com/maps/search/?api=1&query=Nomad%20Pizza%2C%2010%20E%20Broad%20St%2C%20Hopewell"
+  },
+  {
+   "id": "jammin-crepes",
+   "city": "princeton",
+   "name": "Jammin’ Crêpes",
+   "neighborhood": "Nassau Street",
+   "cuisine": "Crêpes",
+   "price": "$",
+   "why": "Started as a farmers market stand. Featured on Diners, Drive-Ins and Dives.",
+   "order": "Turkey club crêpe, or the 20-layer lemon crêpe cake.",
+   "address": "20 Nassau St, Princeton",
+   "map": "https://www.google.com/maps/search/?api=1&query=Jammin%E2%80%99%20Cr%C3%AApes%2C%2020%20Nassau%20St%2C%20Princeton"
+  },
+  {
+   "id": "dinky",
+   "city": "princeton",
+   "name": "The Dinky Bar & Kitchen",
+   "neighborhood": "University Place",
+   "cuisine": "Bar, small plates",
+   "price": "$$",
+   "why": "Right by McCarter Theatre, so it works before or after a show.",
+   "address": "94 University Pl, Princeton",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/prt/the-dinky-bar-and-kitchen"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=The%20Dinky%20Bar%20%26%20Kitchen%2C%2094%20University%20Pl%2C%20Princeton",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/%22Dinky%22_Sign_at_The_Dinky_Bar_%26_Kitchen_in_Princeton%2C_NJ.jpg/1280px-%22Dinky%22_Sign_at_The_Dinky_Bar_%26_Kitchen_in_Princeton%2C_NJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://commons.wikimedia.org/wiki/File:%22Dinky%22_Sign_at_The_Dinky_Bar_%26_Kitchen_in_Princeton,_NJ.jpg",
+    "w": 1536,
+    "h": 2048
+   }
+  },
+  {
+   "id": "hoagie-haven",
+   "city": "princeton",
+   "name": "Hoagie Haven",
+   "neighborhood": "Nassau Street",
+   "cuisine": "Sandwiches",
+   "price": "$",
+   "why": "The late-night Princeton tradition.",
+   "order": "The Phat Lady.",
+   "address": "242 Nassau St, Princeton",
+   "map": "https://www.google.com/maps/search/?api=1&query=Hoagie%20Haven%2C%20242%20Nassau%20St%2C%20Princeton",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hoagie_Haven.jpg/1920px-Hoagie_Haven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://commons.wikimedia.org/wiki/File:Hoagie_Haven.jpg",
+    "w": 3264,
+    "h": 2448
+   }
+  },
+  {
+   "id": "mamouns",
+   "city": "princeton",
+   "name": "Mamoun’s Falafel",
+   "neighborhood": "Witherspoon Street",
+   "cuisine": "Falafel, Middle Eastern",
+   "price": "$",
+   "why": "The cheap, fast standby downtown. Open 11 am to 9 pm every day.",
+   "address": "20 Witherspoon St, Princeton",
+   "map": "https://www.google.com/maps/search/?api=1&query=Mamoun%E2%80%99s%20Falafel%2C%2020%20Witherspoon%20St%2C%20Princeton",
+   "image": {
+    "url": "https://images.getbento.com/accounts/0e58cf8ea89fa9cc4ccdf16360d9f235/media/images/9541mamouns5386.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600",
+    "credit": "mamouns.com",
+    "link": "https://www.mamouns.com/location/mamouns-princeton-nj",
+    "w": 1200,
+    "h": 600
+   }
+  },
+  {
+   "id": "bent-spoon",
+   "city": "princeton",
+   "name": "The Bent Spoon",
+   "neighborhood": "Palmer Square",
+   "cuisine": "Ice cream",
+   "price": "$",
+   "why": "Made with ingredients from New Jersey farms. Worth the walk in any season.",
+   "address": "35 Palmer Square W, Princeton",
+   "map": "https://www.google.com/maps/search/?api=1&query=The%20Bent%20Spoon%2C%2035%20Palmer%20Square%20W%2C%20Princeton"
+  },
+  {
+   "id": "kabawa",
+   "city": "nyc",
+   "name": "Kabawa",
+   "neighborhood": "East Village",
+   "cuisine": "Caribbean",
+   "price": "$$$$",
+   "why": "Number one on The New York Times’s 2026 list of the city’s 100 best restaurants.",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/new-york-ny/search?query=Kabawa"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Kabawa%2C%20East%20Village%2C%20New%20York",
+   "image": {
+    "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/MDR_Group_Shot_1_AJB_1_fzrkiy",
+    "credit": "The Infatuation",
+    "link": "https://www.theinfatuation.com/new-york/reviews/kabawa",
+    "w": 1200,
+    "h": 771
+   }
+  },
+  {
+   "id": "semma",
+   "city": "nyc",
+   "name": "Semma",
+   "neighborhood": "West Village",
+   "cuisine": "South Indian",
+   "price": "$$$",
+   "why": "One of the most acclaimed Indian restaurants in the city, and very hard to book.",
+   "order": "Gunpowder dosa, the snail dish (nathai pirattal).",
+   "address": "60 Greenwich Ave, New York",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/new-york-ny/search?query=Semma"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Semma%2C%2060%20Greenwich%20Ave%2C%20New%20York"
+  },
+  {
+   "id": "torrisi",
+   "city": "nyc",
+   "name": "Torrisi",
+   "neighborhood": "Nolita",
+   "cuisine": "Italian-American",
+   "price": "$$$$",
+   "why": "Third on The New York Times’s 2026 list of the city’s 100 best restaurants.",
+   "address": "275 Mulberry St, New York",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/new-york-ny/search?query=Torrisi"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Torrisi%2C%20275%20Mulberry%20St%2C%20New%20York"
+  },
+  {
+   "id": "lei",
+   "city": "nyc",
+   "name": "Lei",
+   "neighborhood": "Chinatown, Doyers Street",
+   "cuisine": "Wine bar, Chinese small plates",
+   "price": "$$$",
+   "why": "Nominated for the 2026 James Beard Best New Restaurant award. About 25 seats and a wine list over 25 pages long.",
+   "order": "Chilled celtuce, cat’s ear noodles, the short rib.",
+   "address": "15-17 Doyers St, New York",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/ny/lei"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Lei%2C%2015-17%20Doyers%20St%2C%20New%20York",
+   "image": {
+    "url": "http://static1.squarespace.com/static/681282bb6b86085cb558827c/t/68ae2cb9c1bfc45b6dc47c7f/1756245177666/_X7A5631.jpg?format=1500w",
+    "credit": "leiwine.nyc",
+    "link": "https://leiwine.nyc/",
+    "w": 1500,
+    "h": 1072
+   }
+  },
+  {
+   "id": "l-industrie-pizzeria",
+   "city": "nyc",
+   "name": "L’Industrie Pizzeria",
+   "neighborhood": "Williamsburg",
+   "cuisine": "Pizza by the slice",
+   "price": "$",
+   "why": "Usually near the top of any New York slice ranking. Expect a line.",
+   "order": "Burrata slice.",
+   "address": "254 S 2nd St, Brooklyn",
+   "map": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99Industrie%20Pizzeria%2C%20254%20S%202nd%20St%2C%20Brooklyn"
+  },
+  {
+   "id": "katzs",
+   "city": "nyc",
+   "name": "Katz’s Delicatessen",
+   "neighborhood": "Lower East Side",
+   "cuisine": "Jewish deli",
+   "price": "$$",
+   "why": "The classic. Worth it once, and probably again.",
+   "order": "Pastrami on rye. Tip the cutter.",
+   "address": "205 E Houston St, New York",
+   "map": "https://www.google.com/maps/search/?api=1&query=Katz%E2%80%99s%20Delicatessen%2C%20205%20E%20Houston%20St%2C%20New%20York",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Katz%27s_Delicatessen_%2851623899326%29.jpg/1280px-Katz%27s_Delicatessen_%2851623899326%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Katz's_Delicatessen",
+    "w": 4979,
+    "h": 3112
+   }
+  },
+  {
+   "id": "thai-diner",
+   "city": "nyc",
+   "name": "Thai Diner",
+   "neighborhood": "Nolita",
+   "cuisine": "Thai-American diner",
+   "price": "$$",
+   "why": "One of the highest-rated restaurants in Manhattan on The Infatuation. Fun, loud and reasonably priced.",
+   "order": "Thai tea babka French toast.",
+   "address": "186 Mott St, New York",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/new-york-ny/search?query=Thai%20Diner"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Thai%20Diner%2C%20186%20Mott%20St%2C%20New%20York",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Thai_Diner_disco_fries.jpg/1920px-Thai_Diner_disco_fries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://commons.wikimedia.org/wiki/File:Thai_Diner_disco_fries.jpg",
+    "w": 4060,
+    "h": 3421
+   }
+  },
+  {
+   "id": "lucali",
+   "city": "nyc",
+   "name": "Lucali",
+   "neighborhood": "Carroll Gardens",
+   "cuisine": "Pizza",
+   "price": "$$",
+   "why": "One of the most famous pizzerias in New York.",
+   "address": "575 Henry St, Brooklyn",
+   "map": "https://www.google.com/maps/search/?api=1&query=Lucali%2C%20575%20Henry%20St%2C%20Brooklyn",
+   "image": {
+    "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/TeddyWolff.Lucali.Socials.56_wpuy1y",
+    "credit": "The Infatuation",
+    "link": "https://www.theinfatuation.com/new-york/reviews/lucali",
+    "w": 1200,
+    "h": 801
+   }
+  },
+  {
+   "id": "superiority-burger",
+   "city": "nyc",
+   "name": "Superiority Burger",
+   "neighborhood": "East Village",
+   "cuisine": "Vegetarian diner",
+   "price": "$$",
+   "why": "A vegetarian restaurant that meat eaters line up for.",
+   "order": "The Superiority Burger, burnt broccoli salad.",
+   "address": "119 Avenue A, New York",
+   "map": "https://www.google.com/maps/search/?api=1&query=Superiority%20Burger%2C%20119%20Avenue%20A%2C%20New%20York",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Superiority_Burger_NYC.jpg/1280px-Superiority_Burger_NYC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://commons.wikimedia.org/wiki/File:Superiority_Burger_NYC.jpg",
+    "w": 4032,
+    "h": 3024
+   }
+  },
+  {
+   "id": "penny",
+   "city": "nyc",
+   "name": "Penny",
+   "neighborhood": "East Village",
+   "cuisine": "Seafood counter",
+   "price": "$$$",
+   "why": "Rated 9.4 by The Infatuation. Good for a nice dinner without a full tasting menu.",
+   "address": "90 E 10th St, New York",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/new-york-ny/search?query=Penny"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Penny%2C%2090%20E%2010th%20St%2C%20New%20York",
+   "image": {
+    "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Penny_FoodAmbiance_KatePrevite_NYC_00001_1_ypg3vx",
+    "credit": "The Infatuation",
+    "link": "https://www.theinfatuation.com/new-york/reviews/penny",
+    "w": 1200,
+    "h": 800
+   }
+  },
+  {
+   "id": "zahav",
+   "city": "philly",
+   "name": "Zahav",
+   "neighborhood": "Society Hill",
+   "cuisine": "Israeli",
+   "price": "$$$",
+   "why": "Won the James Beard award for Outstanding Restaurant in 2019. Reservations go weeks ahead.",
+   "order": "Pomegranate lamb shoulder for the table.",
+   "address": "237 St James Pl, Philadelphia",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/philadelphia-pa/search?query=Zahav"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Zahav%2C%20237%20St%20James%20Pl%2C%20Philadelphia",
+   "image": {
+    "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Zahav_Group_Nicole_Guglielmo_Philly-180_sknqmz",
+    "credit": "The Infatuation",
+    "link": "https://www.theinfatuation.com/philadelphia/reviews/zahav",
+    "w": 1200,
+    "h": 801
+   }
+  },
+  {
+   "id": "kalaya",
+   "city": "philly",
+   "name": "Kalaya",
+   "neighborhood": "Fishtown",
+   "cuisine": "Southern Thai",
+   "price": "$$$",
+   "why": "Chef Nok Suntaranon’s restaurant is one of the most celebrated in Philadelphia.",
+   "address": "4 W Palmer St, Philadelphia",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/philadelphia-pa/search?query=Kalaya"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Kalaya%2C%204%20W%20Palmer%20St%2C%20Philadelphia"
+  },
+  {
+   "id": "emmett",
+   "city": "philly",
+   "name": "Emmett",
+   "neighborhood": "Kensington",
+   "cuisine": "Mediterranean and Middle Eastern",
+   "price": "$$$",
+   "why": "On The Infatuation’s 25 best restaurants in Philadelphia. Order the tasting menu; à la carte misses a lot.",
+   "order": "The tasting menu. Don’t skip the sesame madeleines.",
+   "address": "161 W Girard Ave, Philadelphia",
+   "book": {
+    "via": "OpenTable",
+    "url": "https://www.opentable.com/r/emmett-philadelphia"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Emmett%2C%20161%20W%20Girard%20Ave%2C%20Philadelphia",
+   "image": {
+    "url": "https://static.wixstatic.com/media/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg",
+    "credit": "emmettphilly.com",
+    "link": "https://www.emmettphilly.com/",
+    "w": 1330,
+    "h": 1330
+   }
+  },
+  {
+   "id": "suraya",
+   "city": "philly",
+   "name": "Suraya",
+   "neighborhood": "Fishtown",
+   "cuisine": "Lebanese",
+   "price": "$$$",
+   "why": "One of the best dinners in Fishtown. Sit in the garden when it’s warm.",
+   "order": "Mezze to share, then the kebabs.",
+   "address": "1528 Frankford Ave, Philadelphia",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/philadelphia-pa/search?query=Suraya"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Suraya%2C%201528%20Frankford%20Ave%2C%20Philadelphia"
+  },
+  {
+   "id": "vernick",
+   "city": "philly",
+   "name": "Vernick Food & Drink",
+   "neighborhood": "Rittenhouse",
+   "cuisine": "New American",
+   "price": "$$$",
+   "why": "Vernick won the James Beard award for best chef in the Mid-Atlantic. A safe bet for a nice dinner.",
+   "order": "Any of the toasts, the raw bar.",
+   "address": "2031 Walnut St, Philadelphia",
+   "book": {
+    "via": "Resy",
+    "url": "https://resy.com/cities/philadelphia-pa/search?query=Vernick%20Food%20%26%20Drink"
+   },
+   "map": "https://www.google.com/maps/search/?api=1&query=Vernick%20Food%20%26%20Drink%2C%202031%20Walnut%20St%2C%20Philadelphia"
+  },
+  {
+   "id": "pizzeria-beddia",
+   "city": "philly",
+   "name": "Pizzeria Beddia",
+   "neighborhood": "Fishtown",
+   "cuisine": "Pizza",
+   "price": "$$",
+   "why": "Bon Appétit named it the best pizza in America in 2015. Still worth the trip.",
+   "address": "1313 N Lee St, Philadelphia",
+   "map": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Beddia%2C%201313%20N%20Lee%20St%2C%20Philadelphia"
+  },
+  {
+   "id": "johns-roast-pork",
+   "city": "philly",
+   "name": "John’s Roast Pork",
+   "neighborhood": "South Philadelphia",
+   "cuisine": "Sandwiches",
+   "price": "$",
+   "why": "A family-run shack that won a James Beard America’s Classics award.",
+   "order": "Roast pork with greens and sharp provolone.",
+   "address": "14 E Snyder Ave, Philadelphia",
+   "map": "https://www.google.com/maps/search/?api=1&query=John%E2%80%99s%20Roast%20Pork%2C%2014%20E%20Snyder%20Ave%2C%20Philadelphia",
+   "image": {
+    "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/cms/c2fa1ccd-d692-4161-b8f4-2d6250d7b286",
+    "credit": "The Infatuation",
+    "link": "https://www.theinfatuation.com/philadelphia/reviews/johns-roast-pork",
+    "w": 1200,
+    "h": 801
+   }
+  },
+  {
+   "id": "el-chingon",
+   "city": "philly",
+   "name": "El Chingon",
+   "neighborhood": "East Passyunk",
+   "cuisine": "Mexican cemitas",
+   "price": "$",
+   "why": "On The Infatuation’s 25 best restaurants in Philadelphia.",
+   "order": "The clásica cemita with fried chicken, plus aguachile.",
+   "map": "https://www.google.com/maps/search/?api=1&query=El%20Chingon%2C%20East%20Passyunk%2C%20Philadelphia",
+   "image": {
+    "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/El_Chingon_Group_Nicole_Guglielmo_Philly-117_dbkamb",
+    "credit": "The Infatuation",
+    "link": "https://www.theinfatuation.com/philadelphia/reviews/el-chingon",
+    "w": 1200,
+    "h": 798
+   }
+  },
+  {
+   "id": "reading-terminal",
+   "city": "philly",
+   "name": "Reading Terminal Market",
+   "neighborhood": "Center City",
+   "cuisine": "Food hall",
+   "price": "$",
+   "why": "The easy answer when a group can’t agree.",
+   "order": "Roast pork at DiNic’s, then a doughnut from Beiler’s.",
+   "address": "51 N 12th St, Philadelphia",
+   "map": "https://www.google.com/maps/search/?api=1&query=Reading%20Terminal%20Market%2C%2051%20N%2012th%20St%2C%20Philadelphia",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Reading_Terminal_Market_%2853587020195%29.jpg/1280px-Reading_Terminal_Market_%2853587020195%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Reading_Terminal_Market",
+    "w": 4478,
+    "h": 3359
+   }
+  },
+  {
+   "id": "bar-cicci",
+   "city": "philly",
+   "name": "Bar Cicci",
+   "neighborhood": "Rittenhouse",
+   "cuisine": "Italian all-day bar",
+   "price": "$$",
+   "why": "On The Infatuation’s Philadelphia Hit List of new restaurants.",
+   "address": "1620 Sansom St, Philadelphia",
+   "map": "https://www.google.com/maps/search/?api=1&query=Bar%20Cicci%2C%201620%20Sansom%20St%2C%20Philadelphia",
+   "image": {
+    "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Bar_Cicci_Entree_Lifestyle_Nicole_Guglielmo_Philly-247_ir6twj",
+    "credit": "The Infatuation",
+    "link": "https://www.theinfatuation.com/philadelphia/reviews/bar-cicci",
+    "w": 1200,
+    "h": 789
+   }
+  }
+ ],
+ "builtAt": "2026-10-28T19:09:10.101Z"
+}

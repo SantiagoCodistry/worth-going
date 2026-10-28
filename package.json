@@ -9,12 +9,14 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "ingest": "tsx ingest/index.ts",
-    "test": "tsx --test tests/*.test.ts"
+    "test": "tsx --test tests/*.test.ts",
+    "edition": "tsx ingest/edition.ts",
+    "draft": "tsx ingest/draft.ts"
   },
   "dependencies": {
     "@fontsource-variable/anybody": "^5.3.0",
     "@fontsource-variable/archivo": "^5.3.0",
-    "@supabase/supabase-js": "^2.118.0",
+    "@fontsource-variable/bodoni-moda": "^5.3.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.5"

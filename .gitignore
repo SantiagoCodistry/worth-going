@@ -27,3 +27,4 @@ dist-ssr
 dist-preview
 *.zip
 probe.json
+editions/*.draft.ts

@@ -1,10 +1,9 @@
 // Spotify, read-only: your top and followed artists, used to pick concerts.
 // Browser-only OAuth with PKCE, so no server and no client secret. The access
 // token is used once to read artists and then thrown away; only artist names
-// and genres are kept (in your taste profile).
+// are kept, in this browser.
 // Turned on by VITE_SPOTIFY_CLIENT_ID at build time (see README → Spotify).
 /// <reference types="vite/client" />
-import type { Favorite } from './favorites.ts'
 import { appUrl } from './share.ts'
 
 const CLIENT_ID = import.meta.env?.VITE_SPOTIFY_CLIENT_ID as string | undefined
@@ -34,8 +33,8 @@ export async function connectSpotify() {
   window.location.assign(`https://accounts.spotify.com/authorize?${q}`)
 }
 
-/** Finish sign-in on the /spotify page and read your artists. */
-export async function finishSpotify(code: string): Promise<Favorite[]> {
+/** Finish sign-in and return your artists' names, most-played first. */
+export async function finishSpotify(code: string): Promise<string[]> {
   const verifier = sessionStorage.getItem(VERIFIER)
   if (!verifier) throw new Error('The sign-in started in another tab or expired. Try again.')
   const res = await fetch('https://accounts.spotify.com/api/token', {
@@ -59,8 +58,8 @@ export async function finishSpotify(code: string): Promise<Favorite[]> {
     get<{ items: A[] }>('me/top/artists?limit=30&time_range=short_term'),
     get<{ artists: { items: A[] } }>('me/following?type=artist&limit=50'),
   ])
-  const seen = new Map<string, Favorite>()
+  const seen = new Map<string, string>()
   for (const a of [...short.items, ...medium.items, ...long.items, ...followed.artists.items])
-    if (!seen.has(a.name.toLowerCase())) seen.set(a.name.toLowerCase(), { name: a.name, kind: 'artist', genres: a.genres.slice(0, 4), from: 'spotify' })
+    if (!seen.has(a.name.toLowerCase())) seen.set(a.name.toLowerCase(), a.name)
   return [...seen.values()].slice(0, 150)
 }
