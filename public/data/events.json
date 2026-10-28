@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T17:12:39.539Z",
+ "generatedAt": "2026-10-28T17:20:36.115Z",
  "events": [
   {
    "id": "met-costume-art",
@@ -163,7 +163,7 @@
    "sourceUrl": "https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 15,
    "timeTBA": true
@@ -188,7 +188,7 @@
    "sourceUrl": "https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 15,
    "timeTBA": true
@@ -254,7 +254,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -282,7 +282,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 20
   },
   {
@@ -309,35 +309,8 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 20
-  },
-  {
-   "id": "luma-evt-vxvspn7z9yeme0m-events-lu-ma-2026-10-28",
-   "title": "Hear Me Out: \"SCARE\"",
-   "kind": "event",
-   "city": "nyc",
-   "category": "unusual",
-   "tags": [],
-   "start": "2026-10-28T22:00:00.000Z",
-   "end": "2026-10-29T01:00:00.000Z",
-   "venue": {
-    "name": "Address shared after you register"
-   },
-   "description": "Get up-to-date information at: https://luma.com/rc0hrnyo\n\nAddress:\nCheck event page for more details.\n\nHear Me Out is an in-person music discovery club, with the aim of facilitating music discovery that de-centers algorithms and re-centers recommendations from real people.\nRight on time for spooky season, this month’s theme is “SCARE,\" and we’re asking you to share a song that gives you goosebumps.",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
-   "score": 22
   },
   {
    "id": "luma-evt-zobentmrxd3c1rn-events-lu-ma-2026-10-28",
@@ -365,7 +338,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 30
   },
   {
@@ -393,24 +366,22 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
-   "id": "luma-evt-8kpfo54jieskhdx-events-lu-ma-2026-10-28",
-   "title": "iMessage Agent Founder Pitch @Corgi",
+   "id": "luma-evt-vxvspn7z9yeme0m-events-lu-ma-2026-10-28",
+   "title": "Hear Me Out: \"SCARE\"",
    "kind": "event",
    "city": "nyc",
-   "category": "startups",
-   "format": "Pitch competition",
+   "category": "unusual",
    "tags": [],
-   "start": "2026-10-28T22:30:00.000Z",
+   "start": "2026-10-28T22:00:00.000Z",
    "end": "2026-10-29T01:00:00.000Z",
    "venue": {
-    "name": "Corgi Cafe",
-    "address": "121 E 27th St, New York, NY 10016, USA"
+    "name": "Address shared after you register"
    },
-   "description": "Get up-to-date information at: https://luma.com/photonhq-k0ni\n\nAddress:\nCorgi Cafe\nNew York, NY\nUnited States\n\nPersonal agents are the biggest wave in consumer AI right now, and iMessage is where they live. The best ones don’t need an app. They just text you.\nWe’re bringing 5 to 10 of the best personal agent founders to Corgi Cafe for one night of pitches.",
+   "description": "Get up-to-date information at: https://luma.com/rc0hrnyo\n\nAddress:\nCheck event page for more details.\n\nHear Me Out is an in-person music discovery club, with the aim of facilitating music discovery that de-centers algorithms and re-centers recommendations from real people.\nRight on time for spooky season, this month’s theme is “SCARE,\" and we’re asking you to share a song that gives you goosebumps.",
    "image": {
     "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
     "credit": "luma.com",
@@ -422,35 +393,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
-   "score": 20
-  },
-  {
-   "id": "luma-evt-obqgggevzlhrsb7-events-lu-ma-2026-10-28",
-   "title": "Papers We Love NYC | Learning Rules: What can math tell us about language",
-   "kind": "event",
-   "city": "nyc",
-   "category": "ideas",
-   "tags": [],
-   "start": "2026-10-28T22:30:00.000Z",
-   "end": "2026-10-29T00:30:00.000Z",
-   "venue": {
-    "name": "Mindspace Williamsburg",
-    "address": "25 Kent Ave lobby; Suite 401, Brooklyn, NY 11249, USA"
-   },
-   "description": "Get up-to-date information at: https://luma.com/xhgp3nlp\n\nAddress:\nMindspace Williamsburg\nUse the North Lobby and go to the 4th floor.\nBrooklyn, NY\nUnited States\n\nPapers We Love, Espresso AI, Authentic and Antithesis are pleased to present the October edition of PwL.\nPapers We Love is a community of programmers who love reading and discussing computer science papers.\nWhat was the last paper within the realm of…",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -478,8 +421,65 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
+  },
+  {
+   "id": "luma-evt-8kpfo54jieskhdx-events-lu-ma-2026-10-28",
+   "title": "iMessage Agent Founder Pitch @Corgi",
+   "kind": "event",
+   "city": "nyc",
+   "category": "startups",
+   "format": "Pitch competition",
+   "tags": [],
+   "start": "2026-10-28T22:30:00.000Z",
+   "end": "2026-10-29T01:00:00.000Z",
+   "venue": {
+    "name": "Corgi Cafe",
+    "address": "121 E 27th St, New York, NY 10016, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/photonhq-k0ni\n\nAddress:\nCorgi Cafe\nNew York, NY\nUnited States\n\nPersonal agents are the biggest wave in consumer AI right now, and iMessage is where they live. The best ones don’t need an app. They just text you.\nWe’re bringing 5 to 10 of the best personal agent founders to Corgi Cafe for one night of pitches.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc",
+    "w": 1200,
+    "h": 630
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
+   "score": 20
+  },
+  {
+   "id": "luma-evt-obqgggevzlhrsb7-events-lu-ma-2026-10-28",
+   "title": "Papers We Love NYC | Learning Rules: What can math tell us about language",
+   "kind": "event",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-10-28T22:30:00.000Z",
+   "end": "2026-10-29T00:30:00.000Z",
+   "venue": {
+    "name": "Mindspace Williamsburg",
+    "address": "25 Kent Ave lobby; Suite 401, Brooklyn, NY 11249, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/xhgp3nlp\n\nAddress:\nMindspace Williamsburg\nUse the North Lobby and go to the 4th floor.\nBrooklyn, NY\nUnited States\n\nPapers We Love, Espresso AI, Authentic and Antithesis are pleased to present the October edition of PwL.\nPapers We Love is a community of programmers who love reading and discussing computer science papers.\nWhat was the last paper within the realm of…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc",
+    "w": 1200,
+    "h": 630
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
+   "score": 22
   },
   {
    "id": "luma-evt-izq634anffqs0r0-events-lu-ma-2026-10-28",
@@ -505,7 +505,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -533,7 +533,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -555,7 +555,7 @@
    "sourceUrl": "https://planetprinceton.com/event/jersey-art-meetup/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 14,
    "note": "Also on Nov 4, Nov 11, Nov 18, Nov 25 and later."
@@ -586,7 +586,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 28
   },
@@ -616,7 +616,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 20
   },
   {
@@ -642,7 +642,7 @@
    "sourceUrl": "https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-10-29/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 22,
    "note": "Also on Nov 5, Nov 12, Nov 19, Nov 26 and later."
@@ -673,7 +673,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 18
   },
   {
@@ -702,7 +702,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 30
   },
   {
@@ -729,7 +729,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 20
   },
   {
@@ -758,7 +758,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 28
   },
   {
@@ -786,7 +786,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 28
   },
   {
@@ -815,7 +815,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -843,7 +843,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -870,8 +870,39 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
+  },
+  {
+   "id": "planet-princeton-10055505",
+   "title": "The Original Asbury Park Ghost Tours",
+   "kind": "event",
+   "city": "princeton",
+   "category": "unusual",
+   "format": "Walking tour",
+   "tags": [],
+   "start": "2026-10-30T12:00:00Z",
+   "end": "2026-10-31T02:00:00Z",
+   "venue": {
+    "name": "The Paranormal Museum",
+    "address": "621 Cookman Ave, Asbury Park"
+   },
+   "description": "The Original Asbury Park Ghost Tours take guests through the haunted history of Asbury Park with chilling stories of restless spirits, tragic events, and local legends tied to the city! \n\nStep into the shadows of Asbury Park’s storied past on The Original Asbury Park Ghost Tour: Ghosts & Legends of the Downtown.",
+   "price": "$27.28",
+   "image": {
+    "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=196522&type=planetprinceton-com&hash=bdccc3c1ae92f7fd285764d8c613b22a",
+    "credit": "planetprinceton.com",
+    "link": "https://planetprinceton.com/event/the-original-asbury-park-ghost-tours-2/2026-10-30/",
+    "w": 1553,
+    "h": 1200
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/the-original-asbury-park-ghost-tours-2/2026-10-30/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
+   "score": 22,
+   "note": "Also on Oct 31."
   },
   {
    "id": "luma-evt-if3vdbsomoe0dn4-events-lu-ma-2026-10-30",
@@ -899,7 +930,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 36
   },
@@ -928,7 +959,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 30
   },
   {
@@ -957,7 +988,7 @@
    "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -981,36 +1012,9 @@
    "sourceUrl": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free and open to the public.",
    "score": 32
-  },
-  {
-   "id": "luma-evt-g1yccgoc9218f9c-events-lu-ma-2026-10-30",
-   "title": "NousCon 2026",
-   "kind": "event",
-   "city": "nyc",
-   "category": "unusual",
-   "tags": [],
-   "start": "2026-10-30T22:00:00.000Z",
-   "end": "2026-10-31T04:00:00.000Z",
-   "venue": {
-    "name": "Address shared after you register"
-   },
-   "description": "Get up-to-date information at: https://luma.com/y0y9ngkm\n\nAddress:\nCheck event page for more details.\n\nNOUSCON is BACK baby\n\nLearn about the future of Hermes Agent. Meet the Nous Research team. Touch silicon.\n\nAn evening with people building open intelligence.\n\n• doors open 6pm\n• networking/exhibits 6-9pm\n• party from 9 till midnight\n\n *ੈ✩ TECHNOLOGICAL OPTIMISM IN TIMES OF GREAT WORRY *ੈ✩\n\nHosted by Nous Research",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
-   "score": 22
   },
   {
    "id": "luma-evt-6q5ipkgk7ptv2a4-events-lu-ma-2026-10-30",
@@ -1038,8 +1042,35 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 28
+  },
+  {
+   "id": "luma-evt-g1yccgoc9218f9c-events-lu-ma-2026-10-30",
+   "title": "NousCon 2026",
+   "kind": "event",
+   "city": "nyc",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-10-30T22:00:00.000Z",
+   "end": "2026-10-31T04:00:00.000Z",
+   "venue": {
+    "name": "Address shared after you register"
+   },
+   "description": "Get up-to-date information at: https://luma.com/y0y9ngkm\n\nAddress:\nCheck event page for more details.\n\nNOUSCON is BACK baby\n\nLearn about the future of Hermes Agent. Meet the Nous Research team. Touch silicon.\n\nAn evening with people building open intelligence.\n\n• doors open 6pm\n• networking/exhibits 6-9pm\n• party from 9 till midnight\n\n *ੈ✩ TECHNOLOGICAL OPTIMISM IN TIMES OF GREAT WORRY *ੈ✩\n\nHosted by Nous Research",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc",
+    "w": 1200,
+    "h": 630
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
+   "score": 22
   },
   {
    "id": "luma-evt-i124ievsgj6kxzq-events-lu-ma-2026-10-30",
@@ -1067,7 +1098,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 24
   },
   {
@@ -1095,7 +1126,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -1118,7 +1149,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1400px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1148,7 +1179,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1178,7 +1209,7 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 18,
    "image": {
@@ -1209,7 +1240,7 @@
    "sourceUrl": "https://planetprinceton.com/event/winery-weekend-music-series/2026-10-31/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 6,
    "note": "Also on Nov 1, Nov 7, Nov 8, Nov 14 and later."
   },
@@ -1238,7 +1269,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -1259,7 +1290,7 @@
    "sourceUrl": "https://planetprinceton.com/event/fall-music-series-8/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 6
   },
   {
@@ -1283,7 +1314,7 @@
    "sourceUrl": "https://planetprinceton.com/event/author-signing-kate-fox/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free and open to the public.",
    "score": 32
   },
@@ -1312,7 +1343,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "New York State residents can pay what they wish for admission to The Met.",
    "score": 35
   },
@@ -1431,7 +1462,7 @@
    "sourceUrl": "https://planetprinceton.com/event/mays-barden-cafe-at-herrontown-woods/2026-11-01/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16,
    "note": "Also on Dec 6."
   },
@@ -1459,7 +1490,7 @@
    "sourceUrl": "https://planetprinceton.com/event/free-carillon-concert-at-princeton-university-2-2-2/2026-11-01/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 32,
    "note": "Also on Nov 8, Nov 15, Nov 22, Nov 29 and later."
@@ -1484,7 +1515,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -1523,7 +1554,7 @@
    "sourceUrl": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 30
   },
   {
@@ -1546,7 +1577,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -1674,7 +1705,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16
   },
   {
@@ -1701,7 +1732,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -1730,7 +1761,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22,
    "note": "Also on Nov 16."
   },
@@ -1760,7 +1791,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 28
   },
   {
@@ -1783,9 +1814,16 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
+   }
   },
   {
    "id": "espn-401909912",
@@ -1807,7 +1845,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1842,7 +1880,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -1871,7 +1909,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 10
   },
   {
@@ -1899,7 +1937,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -1922,7 +1960,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -1953,7 +1991,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -2014,7 +2052,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -2041,7 +2079,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 20
   },
   {
@@ -2068,7 +2106,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -2095,7 +2133,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -2123,34 +2161,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
-   "score": 22
-  },
-  {
-   "id": "luma-evt-1bvi2tdxxkmd4lz-events-lu-ma-2026-11-05",
-   "title": "SemiAnalysis x vCluster Presents: The Assembly",
-   "kind": "event",
-   "city": "nyc",
-   "category": "ideas",
-   "tags": [],
-   "start": "2026-11-05T00:00:00.000Z",
-   "end": "2026-11-05T03:00:00.000Z",
-   "venue": {
-    "name": "Address shared after you register"
-   },
-   "description": "Get up-to-date information at: https://luma.com/semixvcluster\n\nAddress:\nCheck event page for more details.\n\nJoin vCluster and SemiAnalysis for an evening in New York with the people building and running the world’s AI infrastructure.\nWe’re bringing together operators from AI Cloud Providers, AI labs, and financial services firms to talk about what it takes to turn GPUs into a reliable, isolated, multi-team platform,…",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -2178,8 +2189,35 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
+  },
+  {
+   "id": "luma-evt-1bvi2tdxxkmd4lz-events-lu-ma-2026-11-05",
+   "title": "SemiAnalysis x vCluster Presents: The Assembly",
+   "kind": "event",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-11-05T00:00:00.000Z",
+   "end": "2026-11-05T03:00:00.000Z",
+   "venue": {
+    "name": "Address shared after you register"
+   },
+   "description": "Get up-to-date information at: https://luma.com/semixvcluster\n\nAddress:\nCheck event page for more details.\n\nJoin vCluster and SemiAnalysis for an evening in New York with the people building and running the world’s AI infrastructure.\nWe’re bringing together operators from AI Cloud Providers, AI labs, and financial services firms to talk about what it takes to turn GPUs into a reliable, isolated, multi-team platform,…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc",
+    "w": 1200,
+    "h": 630
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
+   "score": 22
   },
   {
    "id": "free-library-jesse-wegman-2026",
@@ -2214,30 +2252,6 @@
    "score": 48
   },
   {
-   "id": "espn-401909926",
-   "title": "New York Knicks vs. Chicago Bulls",
-   "subtitle": "NBA",
-   "kind": "event",
-   "city": "nyc",
-   "category": "sports",
-   "tags": [
-    "nba"
-   ],
-   "start": "2026-11-05T00:30Z",
-   "venue": {
-    "name": "Madison Square Garden",
-    "address": "4 Pennsylvania Plaza, New York"
-   },
-   "description": "New York Knicks host the Chicago Bulls at Madison Square Garden.",
-   "sourceName": "ESPN",
-   "sourceUrl": "https://www.nba.com/knicks/schedule",
-   "provenance": "live",
-   "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
-   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16
-  },
-  {
    "id": "espn-401909925",
    "title": "Brooklyn Nets vs. Charlotte Hornets",
    "subtitle": "NBA",
@@ -2257,7 +2271,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1400px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -2265,6 +2279,37 @@
     "link": "https://en.wikipedia.org/wiki/Barclays_Center",
     "w": 8126,
     "h": 4571
+   }
+  },
+  {
+   "id": "espn-401909926",
+   "title": "New York Knicks vs. Chicago Bulls",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-05T00:30Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Chicago Bulls at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
    }
   },
   {
@@ -2362,7 +2407,8 @@
     "link": "https://luma.com/2026",
     "w": 800,
     "h": 420
-   }
+   },
+   "price": "From $129"
   },
   {
    "id": "luma-evt-hxohzs3onfxtfxy-events-lu-ma-2026-11-05",
@@ -2389,7 +2435,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -2420,7 +2466,7 @@
    "sourceUrl": "https://planetprinceton.com/event/sondheims-afterlives-symposium/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free and open to the public.",
    "score": 38
   },
@@ -2449,7 +2495,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -2512,7 +2558,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -2539,7 +2585,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -2563,7 +2609,7 @@
    "sourceUrl": "https://planetprinceton.com/event/an-evening-of-hope-to-prevent-suicide/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16
   },
   {
@@ -2592,7 +2638,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 20
   },
   {
@@ -2621,7 +2667,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 30
   },
   {
@@ -2644,7 +2690,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -2752,7 +2798,7 @@
    "sourceUrl": "https://planetprinceton.com/event/acp-byob-wheel-ceramics-2/2026-11-06/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16
   },
   {
@@ -2780,7 +2826,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -2843,7 +2889,7 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 18,
    "image": {
@@ -2915,7 +2961,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -2943,7 +2989,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -3114,7 +3160,14 @@
     {
      "name": "Geese",
      "role": "Young Brooklyn rock band with a wild live show",
-     "wiki": "Geese_(band)"
+     "wiki": "Geese_(band)",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Geese_%28Band%29_Philadelphia_August_2024.jpg/1400px-Geese_%28Band%29_Philadelphia_August_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Geese_(band)",
+      "w": 5381,
+      "h": 3587
+     }
     }
    ],
    "description": "The Brooklyn band on its North American tour.",
@@ -3127,11 +3180,11 @@
    "checkedAt": "2026-10-28T12:00:00.000Z",
    "score": 41,
    "image": {
-    "url": "https://tpblog.tickpick.com/wp-content/uploads/2026/07/24364197672_60eac16b99_c.jpg",
-    "credit": "tickpick.com",
-    "link": "https://www.tickpick.com/blog/upcoming-concerts-in-philadelphia/",
-    "w": 800,
-    "h": 533
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Geese_%28Band%29_Philadelphia_August_2024.jpg/1400px-Geese_%28Band%29_Philadelphia_August_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Geese_(band)",
+    "w": 5381,
+    "h": 3587
    }
   },
   {
@@ -3154,7 +3207,7 @@
    "sourceUrl": "https://www.philadelphiaeagles.com/schedule/",
    "provenance": "live",
    "sourceId": "eagles",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Lincoln Financial Field is home to the Eagles.",
    "score": 20,
    "image": {
@@ -3264,7 +3317,14 @@
     {
      "name": "Eddie Pepitone",
      "role": "Veteran comedian known for furious, absurd rants; a Conan regular",
-     "wiki": "Eddie_Pepitone"
+     "wiki": "Eddie_Pepitone",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Eddie_Pepitone_in_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Eddie_Pepitone",
+      "w": 720,
+      "h": 720
+     }
     }
    ],
    "description": "Eddie Pepitone in the small basement room at Union Hall in Park Slope.",
@@ -3276,10 +3336,10 @@
    "checkedAt": "2026-10-28T12:00:00.000Z",
    "score": 41,
    "image": {
-    "url": "https://patch.com/img/cdn20/users/27228064/20260819/033617/styles/patch_image/public/2026-nycf-msg-photo-scaled___19153604175.jpg",
-    "credit": "patch.com",
-    "link": "https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup",
-    "w": 960,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Eddie_Pepitone_in_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Eddie_Pepitone",
+    "w": 720,
     "h": 720
    }
   },
@@ -3419,7 +3479,14 @@
     {
      "name": "Valeria Luiselli",
      "role": "Mexican novelist, author of Lost Children Archive",
-     "wiki": "Valeria_Luiselli"
+     "wiki": "Valeria_Luiselli",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hayfestival-2016-Valeria-Luiselli-stage.jpg/1400px-Hayfestival-2016-Valeria-Luiselli-stage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Valeria_Luiselli",
+      "w": 4000,
+      "h": 6000
+     }
     }
    ],
    "description": "A public lecture by the novelist. Free and open to everyone.",
@@ -3432,7 +3499,14 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 56
+   "score": 62,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hayfestival-2016-Valeria-Luiselli-stage.jpg/1400px-Hayfestival-2016-Valeria-Luiselli-stage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Valeria_Luiselli",
+    "w": 4000,
+    "h": 6000
+   }
   },
   {
    "id": "espn-401909960",
@@ -3454,9 +3528,16 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
+   }
   },
   {
    "id": "espn-401909961",
@@ -3478,7 +3559,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -3554,10 +3635,17 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16,
-   "note": "Also on Nov 25."
+   "score": 22,
+   "note": "Also on Nov 25.",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
+   }
   },
   {
    "id": "92ny-munk-debate-liberalism-2026",
@@ -3623,7 +3711,14 @@
     {
      "name": "Jalen Ngonda",
      "role": "Soul singer whose records sound like 1960s Motown",
-     "wiki": "Jalen_Ngonda"
+     "wiki": "Jalen_Ngonda",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jalen_Ngonda_in_Liverpool%2C_2025.jpg/1400px-Jalen_Ngonda_in_Liverpool%2C_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Jalen_Ngonda",
+      "w": 1999,
+      "h": 2666
+     }
     }
    ],
    "description": "Classic-sounding soul from the Daptone singer.",
@@ -3633,7 +3728,14 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 35
+   "score": 41,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jalen_Ngonda_in_Liverpool%2C_2025.jpg/1400px-Jalen_Ngonda_in_Liverpool%2C_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Jalen_Ngonda",
+    "w": 1999,
+    "h": 2666
+   }
   },
   {
    "id": "ut-slow-pulp-2026",
@@ -3694,7 +3796,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 20
   },
@@ -3723,7 +3825,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 10
   },
   {
@@ -3783,7 +3885,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -3819,7 +3921,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 20
   },
   {
@@ -3918,7 +4020,7 @@
    "sourceUrl": "https://planetprinceton.com/event/136th-annual-princeton-triangle-show/2026-11-13/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
    "score": 27,
    "timeTBA": true
@@ -4026,7 +4128,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -4053,7 +4155,7 @@
    "sourceUrl": "https://planetprinceton.com/event/pie-tasting-weekend/2026-11-14/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16,
    "note": "Also on Nov 15."
   },
@@ -4130,7 +4232,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4160,7 +4262,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -4190,7 +4292,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1400px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4220,7 +4322,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -4297,7 +4399,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -4320,7 +4422,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -4355,7 +4457,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -4406,7 +4508,7 @@
    "sourceUrl": "https://entrepreneurship.columbia.edu/event/fast-pitch-2026/",
    "provenance": "live",
    "sourceId": "columbia-entrepreneurship",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 14
   },
   {
@@ -4462,7 +4564,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1400px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4533,7 +4635,7 @@
    "sourceUrl": "https://planetprinceton.com/event/story-verse-a-storytelling-and-poetic-open-mic/2026-11-19/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Free.",
    "score": 24
   },
@@ -4603,7 +4705,7 @@
    "sourceUrl": "https://entrepreneurship.columbia.edu/event/columbia-healthcare-ventures-fast-pitch-competition/",
    "provenance": "live",
    "sourceId": "columbia-entrepreneurship",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 14
   },
   {
@@ -4626,7 +4728,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1400px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4687,7 +4789,8 @@
     "link": "https://luma.com/6bmnoex9",
     "w": 800,
     "h": 420
-   }
+   },
+   "price": "From $225"
   },
   {
    "id": "ut-julia-jacklin-2026",
@@ -4755,7 +4858,7 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 18,
    "image": {
@@ -4791,7 +4894,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12
   },
   {
@@ -4814,7 +4917,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4849,7 +4952,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -4872,9 +4975,16 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
+   }
   },
   {
    "id": "mccarter-ira-glass-2026",
@@ -4979,7 +5089,7 @@
    "sourceUrl": "https://luma.com/philadelphia",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 22
   },
   {
@@ -5002,7 +5112,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "note": "Also on Nov 30.",
@@ -5034,7 +5144,7 @@
    "sourceUrl": "https://www.philadelphiaeagles.com/schedule/",
    "provenance": "live",
    "sourceId": "eagles",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Lincoln Financial Field is home to the Eagles.",
    "score": 20,
    "image": {
@@ -5065,9 +5175,16 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
+   }
   },
   {
    "id": "town-hall-terry-gross-paul-mccartney-2026",
@@ -5142,7 +5259,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5191,7 +5308,14 @@
     {
      "name": "Marie Howe",
      "role": "Poet, former New York State Poet",
-     "wiki": "Marie_Howe"
+     "wiki": "Marie_Howe",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Marie_howe_9021921.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Marie_Howe",
+      "w": 1080,
+      "h": 1233
+     }
     },
     {
      "name": "Molly Jong-Fast",
@@ -5269,7 +5393,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5310,7 +5434,7 @@
    "sourceUrl": "https://planetprinceton.com/event/the-nutcracker/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
    "score": 32
   },
@@ -5334,7 +5458,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -5362,7 +5486,7 @@
    "sourceUrl": "https://planetprinceton.com/event/palmer-square-annual-tree-lighting-2/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16
   },
   {
@@ -5385,9 +5509,16 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
+   }
   },
   {
    "id": "planet-princeton-198176",
@@ -5406,7 +5537,7 @@
    "sourceUrl": "https://planetprinceton.com/event/holiday-strolling-entertainment-9/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16,
    "note": "Also on Nov 29, Dec 5, Dec 6, Dec 12."
   },
@@ -5430,7 +5561,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5459,7 +5590,7 @@
    "sourceUrl": "https://planetprinceton.com/event/cafe-improv/2026-11-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16
   },
   {
@@ -5482,7 +5613,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "note": "Also on Dec 3.",
    "image": {
@@ -5513,9 +5644,16 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 16
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
+   }
   },
   {
    "id": "espn-401910063",
@@ -5537,7 +5675,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1400px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5567,7 +5705,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5597,7 +5735,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1400px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5627,7 +5765,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5658,7 +5796,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5689,7 +5827,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5718,7 +5856,7 @@
    "sourceUrl": "https://planetprinceton.com/event/annual-menorah-lighting-2/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 16
   },
   {
@@ -5741,7 +5879,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:12:39.539Z",
+   "checkedAt": "2026-10-28T17:20:36.115Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -5768,6 +5906,85 @@
    "h": 1313
   }
  },
+ "placeMeta": {
+  "thai-diner": {
+   "lat": 40.7207443,
+   "lng": -73.9957016
+  },
+  "lei": {},
+  "mam": {},
+  "penny": {
+   "lat": 40.7308231,
+   "lng": -73.989714
+  },
+  "shu-jiao-fu-zhou": {},
+  "sam-pings": {},
+  "great-ny-noodletown": {
+   "lat": 40.7149725,
+   "lng": -73.9970927
+  },
+  "taqueria-ramirez": {
+   "lat": 40.7278816,
+   "lng": -73.9569597
+  },
+  "bong": {},
+  "trinidad-golden-place": {},
+  "le-veau-dor": {},
+  "via-carota": {
+   "reserve": {
+    "platform": "Resy",
+    "url": "https://resy.com/cities/new-york-ny/venues/via-carota"
+   },
+   "menu": "https://www.viacarota.com/#menu",
+   "lat": 40.73311,
+   "lng": -74.0036496
+  },
+  "emmett": {},
+  "el-chingon": {},
+  "kalaya": {},
+  "provenance": {},
+  "bar-cicci": {},
+  "zahav": {
+   "menu": "https://www.zahavrestaurant.com/bar-menu",
+   "lat": 39.946306,
+   "lng": -75.145187
+  },
+  "johns-roast-pork": {
+   "menu": "https://johnsroastpork.com/menu-2/",
+   "lat": 39.9210448,
+   "lng": -75.1449949
+  },
+  "reading-terminal": {
+   "lat": 39.9531441,
+   "lng": -75.1590492
+  },
+  "xibei": {
+   "menu": "https://www.princetonxibei.com/menu/"
+  },
+  "madras-dosa": {},
+  "blue-point-grill": {},
+  "hoagie-haven": {
+   "lat": 40.3521955,
+   "lng": -74.6519045
+  },
+  "bent-spoon": {
+   "lat": 40.3498809,
+   "lng": -74.6618512
+  },
+  "small-world": {
+   "lat": 40.3501429,
+   "lng": -74.6601565
+  },
+  "agricola": {
+   "reserve": {
+    "platform": "Resy",
+    "url": "https://resy.com/cities/morristown-nj/venues/agricola-morristown"
+   },
+   "menu": "https://agricolaeatery.com/menus/",
+   "lat": 40.3501239,
+   "lng": -74.6598063
+  }
+ },
  "sources": [
   {
    "id": "columbia-entrepreneurship",
@@ -5777,7 +5994,7 @@
    "homepage": "https://entrepreneurship.columbia.edu/events/",
    "ok": true,
    "count": 5,
-   "ms": 1922
+   "ms": 129
   },
   {
    "id": "eagles",
@@ -5787,7 +6004,7 @@
    "homepage": "https://www.philadelphiaeagles.com/schedule/",
    "ok": true,
    "count": 2,
-   "ms": 326
+   "ms": 309
   },
   {
    "id": "flyers",
@@ -5797,7 +6014,7 @@
    "homepage": "https://www.nhl.com/flyers/schedule",
    "ok": true,
    "count": 8,
-   "ms": 329
+   "ms": 351
   },
   {
    "id": "knicks",
@@ -5807,7 +6024,7 @@
    "homepage": "https://www.nba.com/knicks/schedule",
    "ok": true,
    "count": 9,
-   "ms": 204
+   "ms": 251
   },
   {
    "id": "luma-nyc",
@@ -5817,7 +6034,7 @@
    "homepage": "https://luma.com/nyc",
    "ok": true,
    "count": 50,
-   "ms": 920
+   "ms": 1043
   },
   {
    "id": "luma-philly",
@@ -5827,7 +6044,7 @@
    "homepage": "https://luma.com/philadelphia",
    "ok": true,
    "count": 21,
-   "ms": 932
+   "ms": 918
   },
   {
    "id": "mets",
@@ -5837,7 +6054,7 @@
    "homepage": "https://www.mlb.com/mets/schedule",
    "ok": true,
    "count": 0,
-   "ms": 283
+   "ms": 322
   },
   {
    "id": "nets",
@@ -5847,7 +6064,7 @@
    "homepage": "https://www.nba.com/nets/schedule",
    "ok": true,
    "count": 6,
-   "ms": 230
+   "ms": 238
   },
   {
    "id": "phillies",
@@ -5857,7 +6074,7 @@
    "homepage": "https://www.mlb.com/phillies/schedule",
    "ok": true,
    "count": 0,
-   "ms": 279
+   "ms": 354
   },
   {
    "id": "planet-princeton",
@@ -5867,7 +6084,7 @@
    "homepage": "https://planetprinceton.com/events/",
    "ok": true,
    "count": 169,
-   "ms": 4335
+   "ms": 5731
   },
   {
    "id": "preview",
@@ -5887,7 +6104,7 @@
    "homepage": "https://goprincetontigers.com/sports/football/schedule",
    "ok": true,
    "count": 3,
-   "ms": 104
+   "ms": 114
   },
   {
    "id": "princeton-mbb",
@@ -5897,7 +6114,7 @@
    "homepage": "https://goprincetontigers.com/sports/mens-basketball/schedule",
    "ok": true,
    "count": 0,
-   "ms": 104
+   "ms": 335
   },
   {
    "id": "rangers",
@@ -5907,7 +6124,7 @@
    "homepage": "https://www.nhl.com/rangers/schedule",
    "ok": true,
    "count": 10,
-   "ms": 315
+   "ms": 342
   },
   {
    "id": "sixers",
@@ -5917,7 +6134,7 @@
    "homepage": "https://www.nba.com/sixers/schedule",
    "ok": true,
    "count": 10,
-   "ms": 233
+   "ms": 335
   },
   {
    "id": "yankees",
@@ -5927,7 +6144,7 @@
    "homepage": "https://www.mlb.com/yankees/schedule",
    "ok": true,
    "count": 0,
-   "ms": 283
+   "ms": 327
   }
  ]
 }

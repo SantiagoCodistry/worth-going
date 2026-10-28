@@ -748,5 +748,161 @@
   "w": 2500,
   "h": 1313
  },
- "og2:https://agricolaeatery.com/": null
+ "og2:https://agricolaeatery.com/": null,
+ "price:https://www.philamuseum.org/": null,
+ "wiki2:Madison_Square_Garden": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1400px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+  "w": 5411,
+  "h": 3044
+ },
+ "price:https://festivalnet.com/101735/Brooklyn-New-York/Flea-Markets/Brooklyn-Flea-Market-November": null,
+ "price:https://www.visitphilly.com/articles/philadelphia/exhibitions-2026": null,
+ "og2:https://planetprinceton.com/event/the-original-asbury-park-ghost-tours-2/2026-10-30/": {
+  "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=196522&type=planetprinceton-com&hash=bdccc3c1ae92f7fd285764d8c613b22a",
+  "credit": "planetprinceton.com",
+  "link": "https://planetprinceton.com/event/the-original-asbury-park-ghost-tours-2/2026-10-30/",
+  "w": 1553,
+  "h": 1200
+ },
+ "price:https://www.kynra.ai/philadelphia/events": null,
+ "price:https://www.easternstate.org/": null,
+ "price:https://www.visitphilly.com/articles/philadelphia/top-halloween-events-and-activities-in-philadelphia/": null,
+ "price:https://bigseason.92ny.org/talks": null,
+ "price:https://luma.com/2026": "From $129",
+ "price:https://abc7ny.com/post/2026-new-york-comedy-festival-returns-nyc-200-comedians-100-shows-november/19499323/": null,
+ "wiki2:Geese_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Geese_%28Band%29_Philadelphia_August_2024.jpg/1400px-Geese_%28Band%29_Philadelphia_August_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Geese_(band)",
+  "w": 5381,
+  "h": 3587
+ },
+ "price:https://www.wagnerfreeinstitute.org/events-1-1/november-first-saturday-open-housespooky-creature-feature": null,
+ "price:https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup": null,
+ "wiki2:Eddie_Pepitone": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Eddie_Pepitone_in_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Eddie_Pepitone",
+  "w": 720,
+  "h": 720
+ },
+ "price:https://jazzin.nyc/venue/village-vanguard": null,
+ "wiki2:Valeria_Luiselli": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hayfestival-2016-Valeria-Luiselli-stage.jpg/1400px-Hayfestival-2016-Valeria-Luiselli-stage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Valeria_Luiselli",
+  "w": 4000,
+  "h": 6000
+ },
+ "price:https://www.msg.com/events-tickets/marc-maron-new-york-comedy-festival-beacon-theatre-november-2026/3B0064D8E813752F": null,
+ "wiki2:Jalen_Ngonda": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jalen_Ngonda_in_Liverpool%2C_2025.jpg/1400px-Jalen_Ngonda_in_Liverpool%2C_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jalen_Ngonda",
+  "w": 1999,
+  "h": 2666
+ },
+ "price:https://songkick.com/concerts/43208646-slow-pulp-at-union-transfer": null,
+ "price:https://bigseason.92ny.org/readings": null,
+ "wiki2:Melissa_Clark": null,
+ "price:https://www.tickpick.com/blog/upcoming-concerts-in-philadelphia/": null,
+ "price:https://www.mccarter.org/": null,
+ "price:https://www.hackprinceton.com/": null,
+ "price:https://www.timeout.com/newyork/events-calendar/november-events-calendar?package_page=35251": null,
+ "price:https://www.livenation.com/venue/KovZpZAkJtvA/blue-note-jazz-club-events/pg/2": null,
+ "wiki2:Marie_Howe": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Marie_howe_9021921.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Marie_Howe",
+  "w": 1080,
+  "h": 1233
+ },
+ "price:https://relix.com/news/detail/lcd-soundsystem-confirm-annual-new-york-residency-dates": null,
+ "price:https://www.broadwayworld.com/article/McCarter-Theatre-Center-Reveals-20262027-Dance-and-Music-Series-20260429": null,
+ "price:https://luma.com/6bmnoex9": "From $225",
+ "price:https://advanceventures.com/event/new-york-venture-summit-2026/": null,
+ "price:https://bookevents.nyc/venues/92ny": null,
+ "place:thai-diner": {
+  "lat": 40.7207443,
+  "lng": -73.9957016
+ },
+ "place:lei": {},
+ "place:mam": {},
+ "place:penny": {
+  "lat": 40.7308231,
+  "lng": -73.989714
+ },
+ "place:shu-jiao-fu-zhou": {},
+ "place:sam-pings": {},
+ "place:great-ny-noodletown": {
+  "lat": 40.7149725,
+  "lng": -73.9970927
+ },
+ "place:taqueria-ramirez": {
+  "lat": 40.7278816,
+  "lng": -73.9569597
+ },
+ "place:bong": {},
+ "place:trinidad-golden-place": {},
+ "place:le-veau-dor": {},
+ "place:via-carota": {
+  "reserve": {
+   "platform": "Resy",
+   "url": "https://resy.com/cities/new-york-ny/venues/via-carota"
+  },
+  "menu": "https://www.viacarota.com/#menu",
+  "lat": 40.73311,
+  "lng": -74.0036496
+ },
+ "place:emmett": {},
+ "wiki2:El_Chingon": null,
+ "place:el-chingon": {},
+ "wiki2:Kalaya_(restaurant)": null,
+ "place:kalaya": {},
+ "place:provenance": {},
+ "place:bar-cicci": {},
+ "wiki2:Zahav_(restaurant)": null,
+ "place:zahav": {
+  "menu": "https://www.zahavrestaurant.com/bar-menu",
+  "lat": 39.946306,
+  "lng": -75.145187
+ },
+ "place:johns-roast-pork": {
+  "menu": "https://johnsroastpork.com/menu-2/",
+  "lat": 39.9210448,
+  "lng": -75.1449949
+ },
+ "place:reading-terminal": {
+  "lat": 39.9531441,
+  "lng": -75.1590492
+ },
+ "og2:https://www.princetonxibei.com/": null,
+ "place:xibei": {
+  "menu": "https://www.princetonxibei.com/menu/"
+ },
+ "place:madras-dosa": {},
+ "place:blue-point-grill": {},
+ "place:hoagie-haven": {
+  "lat": 40.3521955,
+  "lng": -74.6519045
+ },
+ "place:bent-spoon": {
+  "lat": 40.3498809,
+  "lng": -74.6618512
+ },
+ "place:small-world": {
+  "lat": 40.3501429,
+  "lng": -74.6601565
+ },
+ "place:agricola": {
+  "reserve": {
+   "platform": "Resy",
+   "url": "https://resy.com/cities/morristown-nj/venues/agricola-morristown"
+  },
+  "menu": "https://agricolaeatery.com/menus/",
+  "lat": 40.3501239,
+  "lng": -74.6598063
+ }
 }
