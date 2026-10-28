@@ -37,7 +37,8 @@ export function applyFilters(events: WGEvent[], f: Filters): WGEvent[] {
     if (f.free && !e.isFree) return false
     if (!overlaps(e, range)) return false
     if (q) {
-      const hay = `${e.title} ${e.subtitle ?? ''} ${e.venue.name} ${e.venue.neighborhood ?? ''} ${e.description} ${e.tags.join(' ')}`.toLowerCase()
+      const people = (e.people ?? []).map((p) => `${p.name} ${p.role}`).join(' ')
+      const hay = `${e.title} ${e.subtitle ?? ''} ${e.format ?? ''} ${people} ${e.venue.name} ${e.venue.neighborhood ?? ''} ${e.description} ${e.tags.join(' ')}`.toLowerCase()
       if (!q.split(/\s+/).every((w) => hay.includes(w))) return false
     }
     return true

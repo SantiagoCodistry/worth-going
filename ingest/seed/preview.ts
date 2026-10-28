@@ -51,6 +51,7 @@ const seeds: Seed[] = [
   // ——— Unusual ———
   {
     id: 'nerd-nite-nyc-nov-2026',
+    format: 'Short talks in a bar',
     title: 'Nerd Nite',
     subtitle: 'Three short talks by experts, in a bar. This month’s theme: sitting.',
     city: 'nyc',
@@ -68,6 +69,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'moth-storyslam-bell-house-2026-11-04',
+    format: 'Storytelling open mic',
     title: 'The Moth StorySLAM',
     subtitle: 'An open-mic night of true stories, five minutes each',
     city: 'nyc',
@@ -85,6 +87,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'mutter-meet-geek-frankenstein-2026',
+    format: 'Museum talk',
     title: 'Fathoming Frankenstein',
     subtitle: 'An evening talk at the Mütter Museum',
     city: 'philly',
@@ -102,6 +105,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'wagner-first-saturday-creature-feature-2026',
+    format: 'Museum open house',
     title: 'Wagner Free Institute open house',
     subtitle: 'Spooky Creature Feature, costumes encouraged',
     city: 'philly',
@@ -118,6 +122,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'eastern-state-halloween-nights-2026',
+    format: 'Haunted house',
     kind: 'exhibition',
     title: 'Halloween Nights at Eastern State',
     city: 'philly',
@@ -135,6 +140,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'village-halloween-parade-2026',
+    format: 'Costume parade',
     title: 'Village Halloween Parade',
     city: 'nyc',
     category: 'unusual',
@@ -153,6 +159,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'tcs-nyc-marathon-2026',
+    format: 'Marathon, free to watch',
     title: 'NYC Marathon',
     city: 'nyc',
     category: 'unusual',
@@ -170,6 +177,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'brooklyn-flea-dumbo-nov-2026',
+    format: 'Flea market',
     kind: 'exhibition',
     title: 'Brooklyn Flea',
     subtitle: 'Saturdays and Sundays, 10 am–5 pm',
@@ -187,6 +195,7 @@ const seeds: Seed[] = [
   // ——— Comedy (New York Comedy Festival and others) ———
   {
     id: 'nycf-marc-maron-beacon-2026',
+    format: 'Stand-up comedy',
     title: 'Marc Maron',
     subtitle: 'New York Comedy Festival',
     city: 'nyc',
@@ -195,7 +204,7 @@ const seeds: Seed[] = [
     start: '2026-11-08',
     timeTBA: true,
     venue: V.beacon,
-    people: [p('Marc Maron', 'Comedian, longtime host of the WTF podcast', 'Marc_Maron')],
+    people: [p('Marc Maron', 'Comedian; hosted WTF, the podcast where Obama gave an interview in a garage', 'Marc_Maron')],
     description: 'Stand-up from Marc Maron at the Beacon Theatre, part of the New York Comedy Festival.',
     sourceName: 'Madison Square Garden Entertainment',
     sourceUrl: 'https://www.msg.com/events-tickets/marc-maron-new-york-comedy-festival-beacon-theatre-november-2026/3B0064D8E813752F',
@@ -204,6 +213,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'nycf-tim-dillon-beacon-2026',
+    format: 'Stand-up comedy',
     title: 'Tim Dillon',
     subtitle: 'New York Comedy Festival',
     city: 'nyc',
@@ -212,12 +222,13 @@ const seeds: Seed[] = [
     start: '2026-11-07',
     timeTBA: true,
     venue: V.beacon,
-    people: [p('Tim Dillon', 'Comedian and host of The Tim Dillon Show podcast', 'Tim_Dillon')],
+    people: [p('Tim Dillon', 'Comedian; hosts The Tim Dillon Show, one of the biggest comedy podcasts', 'Tim_Dillon')],
     description: 'Stand-up from Tim Dillon at the Beacon Theatre.',
     ...NYCF,
   },
   {
     id: 'nycf-sherman-harrison-town-hall-2026',
+    format: 'Stand-up comedy',
     title: 'Sarah Sherman and Patti Harrison',
     subtitle: 'New York Comedy Festival',
     city: 'nyc',
@@ -227,14 +238,15 @@ const seeds: Seed[] = [
     timeTBA: true,
     venue: V.townHall,
     people: [
-      p('Sarah Sherman', 'Saturday Night Live cast member', 'Sarah_Sherman'),
-      p('Patti Harrison', 'Comedian and actor (I Think You Should Leave, Together Together)', 'Patti_Harrison'),
+      p('Sarah Sherman', 'Saturday Night Live cast member known for gross-out, body-horror sketches', 'Sarah_Sherman'),
+      p('Patti Harrison', 'Comedian and actor from I Think You Should Leave and Shrill', 'Patti_Harrison'),
     ],
     description: 'Two of the strangest comedians working, on one bill at Town Hall.',
     ...NYCF,
   },
   {
     id: 'nycf-adam-friedland-town-hall-2026',
+    format: 'Stand-up comedy',
     title: 'Adam Friedland',
     subtitle: 'New York Comedy Festival',
     city: 'nyc',
@@ -243,12 +255,13 @@ const seeds: Seed[] = [
     start: '2026-11-13',
     timeTBA: true,
     venue: V.townHall,
-    people: [p('Adam Friedland', 'Comedian and host of The Adam Friedland Show', 'Adam_Friedland')],
+    people: [p('Adam Friedland', 'Comedian; hosts The Adam Friedland Show, a deadpan talk show with politicians and celebrities', 'Adam_Friedland')],
     description: 'Stand-up from Adam Friedland at Town Hall.',
     ...NYCF,
   },
   {
     id: 'nycf-moshe-kasher-bell-house-2026',
+    format: 'Stand-up comedy',
     title: 'Moshe Kasher',
     subtitle: 'New York Comedy Festival',
     city: 'nyc',
@@ -257,13 +270,14 @@ const seeds: Seed[] = [
     start: '2026-11-08',
     timeTBA: true,
     venue: V.bellHouse,
-    people: [p('Moshe Kasher', 'Comedian and writer', 'Moshe_Kasher')],
+    people: [p('Moshe Kasher', 'Comedian with several Netflix specials; grew up with deaf parents and writes about it', 'Moshe_Kasher')],
     description: 'Stand-up from Moshe Kasher at the Bell House in Gowanus.',
     sourceName: 'Patch',
     sourceUrl: 'https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup',
   },
   {
     id: 'nycf-eddie-pepitone-union-hall-2026',
+    format: 'Stand-up comedy',
     title: 'Eddie Pepitone',
     subtitle: 'Two nights at Union Hall',
     city: 'nyc',
@@ -273,7 +287,7 @@ const seeds: Seed[] = [
     end: '2026-11-11',
     timeTBA: true,
     venue: V.unionHall,
-    people: [p('Eddie Pepitone', 'Comedian known as “The Bitter Buddha”', 'Eddie_Pepitone')],
+    people: [p('Eddie Pepitone', 'Veteran comedian known for furious, absurd rants; a Conan regular', 'Eddie_Pepitone')],
     description: 'Eddie Pepitone in the small basement room at Union Hall in Park Slope.',
     sourceName: 'Patch',
     sourceUrl: 'https://patch.com/new-york/new-york-city/new-york-comedy-festival-adds-100-shows-see-2026-lineup',
@@ -282,6 +296,7 @@ const seeds: Seed[] = [
   // ——— Talks ———
   {
     id: 'town-hall-terry-gross-paul-mccartney-2026',
+    format: 'Live interview',
     title: 'Terry Gross interviews Paul McCartney',
     city: 'nyc',
     category: 'ideas',
@@ -301,6 +316,7 @@ const seeds: Seed[] = [
   },
   {
     id: '92ny-neil-degrasse-tyson-2026',
+    format: 'Science talk',
     title: 'Neil deGrasse Tyson: Take Me to Your Leader',
     city: 'nyc',
     category: 'ideas',
@@ -315,6 +331,7 @@ const seeds: Seed[] = [
   },
   {
     id: '92ny-munk-debate-liberalism-2026',
+    format: 'Live debate',
     title: 'Munk Debate: Has Liberalism Failed America?',
     city: 'nyc',
     category: 'ideas',
@@ -335,6 +352,7 @@ const seeds: Seed[] = [
   },
   {
     id: '92ny-annie-proulx-2026',
+    format: 'Book talk',
     title: 'Annie Proulx and Michael Cunningham',
     city: 'nyc',
     category: 'ideas',
@@ -352,6 +370,7 @@ const seeds: Seed[] = [
   },
   {
     id: '92ny-inon-abu-sarah-2026',
+    format: 'Conversation',
     title: 'The Future Is Peace',
     subtitle: 'Maoz Inon and Aziz Abu Sarah',
     city: 'nyc',
@@ -370,6 +389,7 @@ const seeds: Seed[] = [
   },
   {
     id: '92ny-muldoons-picnic-2026',
+    format: 'Poetry and music night',
     title: 'Muldoon’s Picnic',
     subtitle: 'Poems, songs and talk with Richard Thompson',
     city: 'nyc',
@@ -379,10 +399,10 @@ const seeds: Seed[] = [
     timeTBA: true,
     venue: V.ny92,
     people: [
-      p('Paul Muldoon', 'Irish poet, Pulitzer winner, host', 'Paul_Muldoon'),
-      p('Richard Thompson', 'British guitarist and songwriter, formerly of Fairport Convention', 'Richard_Thompson_(musician)'),
+      p('Paul Muldoon', 'Pulitzer-winning Irish poet, Princeton professor, and the night’s host', 'Paul_Muldoon'),
+      p('Richard Thompson', 'British folk-rock guitarist and songwriter; co-founded Fairport Convention', 'Richard_Thompson_(musician)'),
       p('Marie Howe', 'Poet, former New York State Poet', 'Marie_Howe'),
-      p('Molly Jong-Fast', 'Writer and political commentator', 'Molly_Jong-Fast'),
+      p('Molly Jong-Fast', 'Political writer and MSNBC commentator', 'Molly_Jong-Fast'),
     ],
     description: 'Paul Muldoon’s variety night, with his band Rogue Oliphant. Guests read, play and talk.',
     sourceName: 'bookevents.nyc',
@@ -390,6 +410,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'amnh-frontiers-clouds-2026',
+    format: 'Astronomy lecture',
     title: 'Clouds Across the Universe',
     subtitle: 'Frontiers Lecture at the Natural History Museum',
     city: 'nyc',
@@ -403,6 +424,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'free-library-ray-didinger-2026',
+    format: 'Book talk',
     title: 'Ray Didinger: Look What the Kid Wrote Today',
     city: 'philly',
     category: 'ideas',
@@ -420,6 +442,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'free-library-tommasini-mcgill-2026',
+    format: 'Book talk',
     title: 'Anthony Tommasini: Voice of a Century',
     city: 'philly',
     category: 'ideas',
@@ -437,6 +460,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'free-library-melissa-clark-2026',
+    format: 'Cookbook talk',
     title: 'Melissa Clark: The Big Book of Dinner',
     city: 'philly',
     category: 'ideas',
@@ -451,6 +475,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'free-library-jesse-wegman-2026',
+    format: 'History book talk',
     title: 'Jesse Wegman: The Lost Founder',
     city: 'philly',
     category: 'ideas',
@@ -465,6 +490,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'princeton-lecture-ruth-wilson-gilmore',
+    format: 'Public lecture',
     title: 'Ruth Wilson Gilmore: Policing the Crisis, Revisited',
     subtitle: 'Princeton University Public Lecture',
     city: 'princeton',
@@ -482,6 +508,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'princeton-lecture-valeria-luiselli',
+    format: 'Public lecture',
     title: 'Valeria Luiselli',
     subtitle: 'Princeton University Public Lecture',
     city: 'princeton',
@@ -499,6 +526,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'mccarter-ira-glass-2026',
+    format: 'Live radio storytelling',
     title: 'Ira Glass',
     subtitle: 'Live at McCarter',
     city: 'princeton',
@@ -518,6 +546,7 @@ const seeds: Seed[] = [
   // ——— Startups ———
   {
     id: 'outliers-summit-nyc-2026',
+    format: 'Founder conference',
     title: 'The Outliers Summit',
     subtitle: 'Two days of talks from founders of well-known internet companies',
     city: 'nyc',
@@ -534,7 +563,7 @@ const seeds: Seed[] = [
       p('Zach Sims', 'Co-founder of Codecademy', 'Zach_Sims'),
       p('Andy Dunn', 'Co-founder of Bonobos', 'Andy_Dunn'),
       p('Ankur Nagpal', 'Founder of Teachable, co-host'),
-      p('Andrew Yeung', 'NYC tech event organizer, co-host'),
+      p('Andrew Yeung', 'Runs popular NYC tech parties and dinners, co-host'),
     ],
     description: 'Run by Ankur Nagpal and Andrew Yeung with AngelList. Day one is hands-on workshops; day two is talks.',
     sourceName: 'Luma',
@@ -543,6 +572,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'techday-ai-founders-day-2026',
+    format: 'AI startup event',
     title: 'TechDay AI Founders Day',
     subtitle: 'Investors on what they fund in AI',
     city: 'nyc',
@@ -564,6 +594,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'new-york-venture-summit-2026',
+    format: 'Investor conference',
     title: 'New York Venture Summit',
     subtitle: 'Investor panels and booked one-on-one meetings',
     city: 'nyc',
@@ -579,6 +610,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'biolabs-sosv-investor-salon-philly-2026',
+    format: 'Biotech investor night',
     title: 'BioLabs Investor Salon with SOSV',
     city: 'philly',
     category: 'startups',
@@ -595,6 +627,7 @@ const seeds: Seed[] = [
   // ——— Music ———
   {
     id: 'lcd-soundsystem-knockdown-2026',
+    format: 'Dance-punk concert',
     title: 'LCD Soundsystem',
     subtitle: 'Four nights at Knockdown Center',
     city: 'nyc',
@@ -604,7 +637,7 @@ const seeds: Seed[] = [
     end: '2026-11-22',
     timeTBA: true,
     venue: { name: 'Knockdown Center', address: '52-19 Flushing Ave, Queens', neighborhood: 'Maspeth' },
-    people: [p('LCD Soundsystem', 'James Murphy’s New York dance-punk band', 'LCD_Soundsystem')],
+    people: [p('LCD Soundsystem', 'James Murphy’s New York dance-punk band (“All My Friends”, “Losing My Edge”)', 'LCD_Soundsystem')],
     description:
       'The band’s yearly New York residency starts with four nights in a former glass factory in Queens, then moves to Brooklyn Steel from November 30.',
     sourceName: 'Relix',
@@ -613,6 +646,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'vanguard-jazz-orchestra-2026-11-09',
+    format: 'Big band jazz',
     title: 'Vanguard Jazz Orchestra',
     subtitle: 'The Monday night big band, 8 and 10 pm',
     city: 'nyc',
@@ -620,7 +654,7 @@ const seeds: Seed[] = [
     tags: ['jazz'],
     start: '2026-11-09 20:00',
     venue: V.vanguard,
-    people: [p('Vanguard Jazz Orchestra', 'The Village Vanguard’s 16-piece house big band', 'Vanguard_Jazz_Orchestra')],
+    people: [p('Vanguard Jazz Orchestra', '16-piece big band that has played the Vanguard every Monday since 1966', 'Vanguard_Jazz_Orchestra')],
     description:
       'A 16-piece big band in a basement that holds about 120 people. The band has played the Vanguard on Monday nights since 1966. Also on November 16, 23 and 30.',
     sourceName: 'Jazz in NYC',
@@ -628,6 +662,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'blue-note-robert-glasper-2026-11-01',
+    format: 'Jazz and hip-hop',
     title: 'Robert Glasper',
     subtitle: 'With Derrick Hodge and Chris Dave',
     city: 'nyc',
@@ -635,13 +670,14 @@ const seeds: Seed[] = [
     tags: ['jazz'],
     start: '2026-11-01 22:30',
     venue: V.blueNote,
-    people: [p('Robert Glasper', 'Grammy-winning pianist who mixes jazz and hip-hop', 'Robert_Glasper')],
+    people: [p('Robert Glasper', 'Grammy-winning jazz pianist who works with rappers like Kendrick Lamar', 'Robert_Glasper')],
     description: 'Billed as the finale of Glasper’s Blue Note run, with his longtime bandmates Derrick Hodge on bass and Chris Dave on drums.',
     sourceName: 'Live Nation',
     sourceUrl: 'https://www.livenation.com/venue/KovZpZAkJtvA/blue-note-jazz-club-events/pg/2',
   },
   {
     id: 'blue-note-vic-mensa-2026',
+    format: 'Rap show',
     title: 'Vic Mensa',
     subtitle: 'With a live band',
     city: 'nyc',
@@ -649,13 +685,14 @@ const seeds: Seed[] = [
     tags: ['hip-hop'],
     start: '2026-11-10 20:00',
     venue: V.blueNote,
-    people: [p('Vic Mensa', 'Chicago rapper', 'Vic_Mensa')],
+    people: [p('Vic Mensa', 'Chicago rapper and activist', 'Vic_Mensa')],
     description: 'Vic Mensa with a live band at the Blue Note, a jazz club that seats about 200.',
     sourceName: 'Live Nation',
     sourceUrl: 'https://www.livenation.com/venue/KovZpZAkJtvA/blue-note-jazz-club-events/pg/2',
   },
   {
     id: 'carnegie-silkroad-giddens-ma-2026',
+    format: 'Folk and classical concert',
     title: 'Silkroad with Rhiannon Giddens and Yo-Yo Ma',
     city: 'nyc',
     category: 'music',
@@ -676,6 +713,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'brooklyn-steel-jalen-ngonda-2026',
+    format: 'Soul concert',
     title: 'Jalen Ngonda',
     city: 'nyc',
     category: 'music',
@@ -683,13 +721,14 @@ const seeds: Seed[] = [
     start: '2026-11-12',
     timeTBA: true,
     venue: V.brooklynSteel,
-    people: [p('Jalen Ngonda', 'Soul singer on Daptone Records', 'Jalen_Ngonda')],
+    people: [p('Jalen Ngonda', 'Soul singer whose records sound like 1960s Motown', 'Jalen_Ngonda')],
     description: 'Classic-sounding soul from the Daptone singer.',
     sourceName: 'JamBase',
     sourceUrl: 'https://www.jambase.com/venue/brooklyn-steel',
   },
   {
     id: 'brooklyn-steel-chat-pile-2026',
+    format: 'Noise-rock show',
     title: 'Chat Pile',
     city: 'nyc',
     category: 'music',
@@ -697,13 +736,14 @@ const seeds: Seed[] = [
     start: '2026-11-10',
     timeTBA: true,
     venue: V.brooklynSteel,
-    people: [p('Chat Pile', 'Noise-rock band from Oklahoma City', 'Chat_Pile')],
+    people: [p('Chat Pile', 'Heavy, abrasive noise-rock band from Oklahoma City', 'Chat_Pile')],
     description: 'Very loud. They play Union Transfer in Philadelphia the next night.',
     sourceName: 'JamBase',
     sourceUrl: 'https://www.jambase.com/venue/brooklyn-steel',
   },
   {
     id: 'fillmore-geese-2026',
+    format: 'Rock show',
     title: 'Geese',
     city: 'philly',
     category: 'music',
@@ -711,7 +751,7 @@ const seeds: Seed[] = [
     start: '2026-11-08',
     timeTBA: true,
     venue: { name: 'The Fillmore', address: '29 E Allen St, Philadelphia', neighborhood: 'Fishtown' },
-    people: [p('Geese', 'Brooklyn rock band', 'Geese_(band)')],
+    people: [p('Geese', 'Young Brooklyn rock band with a wild live show', 'Geese_(band)')],
     description: 'The Brooklyn band on its North American tour.',
     sourceName: 'TickPick',
     sourceUrl: 'https://www.tickpick.com/blog/upcoming-concerts-in-philadelphia/',
@@ -719,6 +759,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'johnny-brendas-the-tubs-2026',
+    format: 'Indie rock show',
     title: 'The Tubs',
     city: 'philly',
     category: 'music',
@@ -726,13 +767,14 @@ const seeds: Seed[] = [
     start: '2026-11-10',
     timeTBA: true,
     venue: V.johnnyBrendas,
-    people: [p('The Tubs', 'UK indie rock band')],
+    people: [p('The Tubs', 'UK indie rock band with jangly guitars')],
     description: 'The Tubs at Johnny Brenda’s, a 250-capacity room above a bar in Fishtown.',
     sourceName: 'JamBase',
     sourceUrl: 'https://www.jambase.com/venue/johnny-brendas',
   },
   {
     id: 'ut-julia-jacklin-2026',
+    format: 'Singer-songwriter show',
     title: 'Julia Jacklin',
     city: 'philly',
     category: 'music',
@@ -740,13 +782,14 @@ const seeds: Seed[] = [
     start: '2026-11-21',
     timeTBA: true,
     venue: V.unionTransfer,
-    people: [p('Julia Jacklin', 'Australian singer-songwriter', 'Julia_Jacklin')],
+    people: [p('Julia Jacklin', 'Australian singer-songwriter; quiet, sad guitar songs', 'Julia_Jacklin')],
     description: 'The Australian songwriter at Union Transfer.',
     sourceName: 'Bandsintown',
     sourceUrl: 'https://www.bandsintown.com/v/10000157-union-transfer',
   },
   {
     id: 'ut-slow-pulp-2026',
+    format: 'Indie rock show',
     title: 'Slow Pulp',
     subtitle: 'With Her New Knife',
     city: 'philly',
@@ -755,20 +798,21 @@ const seeds: Seed[] = [
     start: '2026-11-12',
     timeTBA: true,
     venue: V.unionTransfer,
-    people: [p('Slow Pulp', 'Indie rock band', 'Slow_Pulp')],
+    people: [p('Slow Pulp', 'Chicago-based indie rock band; fuzzy guitars, soft vocals', 'Slow_Pulp')],
     description: 'Slow Pulp headline, with Her New Knife opening.',
     sourceName: 'Songkick',
     sourceUrl: 'https://songkick.com/concerts/43208646-slow-pulp-at-union-transfer',
   },
   {
     id: 'mccarter-rufus-wainwright-judy-2026',
+    format: 'Cabaret concert',
     title: 'Rufus Wainwright: Wanted, Judy Garland',
     city: 'princeton',
     category: 'music',
     tags: ['cabaret'],
     start: '2026-11-19 19:30',
     venue: V.mccarter,
-    people: [p('Rufus Wainwright', 'Singer-songwriter', 'Rufus_Wainwright')],
+    people: [p('Rufus Wainwright', 'Singer-songwriter known for lush, operatic pop', 'Rufus_Wainwright')],
     description: 'Wainwright sings songs from Judy Garland’s repertoire. He recreated her 1961 Carnegie Hall concert in 2006.',
     sourceName: 'Princeton Department of Music',
     sourceUrl: 'https://music.princeton.edu/events',
@@ -776,19 +820,21 @@ const seeds: Seed[] = [
   },
   {
     id: 'pu-concerts-radulovic-2026',
+    format: 'Classical violin',
     title: 'Nemanja Radulović and Double Sens',
     city: 'princeton',
     category: 'music',
     tags: ['classical'],
     start: '2026-11-12 19:30',
     venue: V.richardson,
-    people: [p('Nemanja Radulović', 'Serbian-French violinist', 'Nemanja_Radulović')],
+    people: [p('Nemanja Radulović', 'Serbian-French violinist known for flashy, high-energy classical shows', 'Nemanja_Radulović')],
     description: 'Princeton University Concerts presents the violinist with his string ensemble, Double Sens.',
     sourceName: 'Princeton Department of Music',
     sourceUrl: 'https://music.princeton.edu/events',
   },
   {
     id: 'mccarter-eric-lu-2026',
+    format: 'Piano recital',
     title: 'Eric Lu',
     subtitle: 'Piano recital',
     city: 'princeton',
@@ -808,6 +854,7 @@ const seeds: Seed[] = [
   // ——— Art ———
   {
     id: 'bam-playback-spike-lee-2026',
+    format: 'Film festival',
     title: 'Playback',
     subtitle: 'A new two-day festival at BAM from Spike Lee',
     city: 'nyc',
@@ -817,13 +864,14 @@ const seeds: Seed[] = [
     end: '2026-11-07',
     timeTBA: true,
     venue: { name: 'BAM', address: '30 Lafayette Ave, Brooklyn', neighborhood: 'Fort Greene' },
-    people: [p('Spike Lee', 'Filmmaker', 'Spike_Lee')],
+    people: [p('Spike Lee', 'Filmmaker (Do the Right Thing, Malcolm X)', 'Spike_Lee')],
     description: 'Spike Lee and partners take over the Brooklyn Academy of Music for two days.',
     sourceName: 'Time Out New York',
     sourceUrl: 'https://www.timeout.com/newyork/events-calendar/november-events-calendar?package_page=35251',
   },
   {
     id: 'pma-duchamp-retrospective',
+    format: 'Art exhibition',
     kind: 'exhibition',
     title: 'Marcel Duchamp',
     subtitle: 'Retrospective',
@@ -843,6 +891,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'met-krasner-pollock',
+    format: 'Art exhibition',
     kind: 'exhibition',
     title: 'Krasner and Pollock',
     subtitle: 'Past Continuous',
@@ -862,6 +911,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'met-costume-art',
+    format: 'Fashion exhibition',
     kind: 'exhibition',
     title: 'Costume Art',
     subtitle: 'The Costume Institute',
@@ -879,6 +929,7 @@ const seeds: Seed[] = [
   // ——— Sports ———
   {
     id: 'princeton-football-penn-2026',
+    format: 'College football',
     title: 'Princeton vs. Penn',
     subtitle: 'Ivy League football, last game of the season',
     city: 'princeton',
@@ -894,6 +945,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'knicks-heat-nba-cup-2026-11-27',
+    format: 'NBA basketball',
     title: 'Knicks vs. Heat',
     subtitle: 'NBA Cup',
     city: 'nyc',
@@ -908,6 +960,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'eagles-giants-2026-11-08',
+    format: 'NFL football',
     title: 'Eagles vs. Giants',
     city: 'philly',
     category: 'sports',
@@ -921,6 +974,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'philadelphia-marathon-2026',
+    format: 'Marathon, free to watch',
     title: 'Philadelphia Marathon',
     city: 'philly',
     category: 'sports',

@@ -1,8 +1,9 @@
 {
- "generatedAt": "2026-10-28T16:04:45.723Z",
+ "generatedAt": "2026-10-28T16:16:45.004Z",
  "events": [
   {
    "id": "met-costume-art",
+   "format": "Fashion exhibition",
    "kind": "exhibition",
    "title": "Costume Art",
    "subtitle": "The Costume Institute",
@@ -29,6 +30,7 @@
   },
   {
    "id": "met-krasner-pollock",
+   "format": "Art exhibition",
    "kind": "exhibition",
    "title": "Krasner and Pollock",
    "subtitle": "Past Continuous",
@@ -66,6 +68,7 @@
   },
   {
    "id": "pma-duchamp-retrospective",
+   "format": "Art exhibition",
    "kind": "exhibition",
    "title": "Marcel Duchamp",
    "subtitle": "Retrospective",
@@ -100,6 +103,7 @@
   },
   {
    "id": "eastern-state-halloween-nights-2026",
+   "format": "Haunted house",
    "kind": "exhibition",
    "title": "Halloween Nights at Eastern State",
    "city": "philly",
@@ -127,6 +131,7 @@
   },
   {
    "id": "village-halloween-parade-2026",
+   "format": "Costume parade",
    "title": "Village Halloween Parade",
    "city": "nyc",
    "category": "unusual",
@@ -155,6 +160,7 @@
   },
   {
    "id": "tcs-nyc-marathon-2026",
+   "format": "Marathon, free to watch",
    "title": "NYC Marathon",
    "city": "nyc",
    "category": "unusual",
@@ -183,6 +189,7 @@
   },
   {
    "id": "brooklyn-flea-dumbo-nov-2026",
+   "format": "Flea market",
    "kind": "exhibition",
    "title": "Brooklyn Flea",
    "subtitle": "Saturdays and Sundays, 10 am–5 pm",
@@ -209,6 +216,7 @@
   },
   {
    "id": "blue-note-robert-glasper-2026-11-01",
+   "format": "Jazz and hip-hop",
    "title": "Robert Glasper",
    "subtitle": "With Derrick Hodge and Chris Dave",
    "city": "nyc",
@@ -225,7 +233,7 @@
    "people": [
     {
      "name": "Robert Glasper",
-     "role": "Grammy-winning pianist who mixes jazz and hip-hop",
+     "role": "Grammy-winning jazz pianist who works with rappers like Kendrick Lamar",
      "wiki": "Robert_Glasper"
     }
    ],
@@ -240,6 +248,7 @@
   },
   {
    "id": "92ny-neil-degrasse-tyson-2026",
+   "format": "Science talk",
    "title": "Neil deGrasse Tyson: Take Me to Your Leader",
    "city": "nyc",
    "category": "ideas",
@@ -271,6 +280,7 @@
   },
   {
    "id": "biolabs-sosv-investor-salon-philly-2026",
+   "format": "Biotech investor night",
    "title": "BioLabs Investor Salon with SOSV",
    "city": "philly",
    "category": "startups",
@@ -296,6 +306,7 @@
   },
   {
    "id": "free-library-jesse-wegman-2026",
+   "format": "History book talk",
    "title": "Jesse Wegman: The Lost Founder",
    "city": "philly",
    "category": "ideas",
@@ -327,6 +338,7 @@
   },
   {
    "id": "moth-storyslam-bell-house-2026-11-04",
+   "format": "Storytelling open mic",
    "title": "The Moth StorySLAM",
    "subtitle": "An open-mic night of true stories, five minutes each",
    "city": "nyc",
@@ -355,6 +367,7 @@
   },
   {
    "id": "outliers-summit-nyc-2026",
+   "format": "Founder conference",
    "title": "The Outliers Summit",
    "subtitle": "Two days of talks from founders of well-known internet companies",
    "city": "nyc",
@@ -400,7 +413,7 @@
     },
     {
      "name": "Andrew Yeung",
-     "role": "NYC tech event organizer, co-host"
+     "role": "Runs popular NYC tech parties and dinners, co-host"
     }
    ],
    "description": "Run by Ankur Nagpal and Andrew Yeung with AngelList. Day one is hands-on workshops; day two is talks.",
@@ -415,6 +428,7 @@
   },
   {
    "id": "princeton-lecture-ruth-wilson-gilmore",
+   "format": "Public lecture",
    "title": "Ruth Wilson Gilmore: Policing the Crisis, Revisited",
    "subtitle": "Princeton University Public Lecture",
    "city": "princeton",
@@ -450,6 +464,7 @@
   },
   {
    "id": "nerd-nite-nyc-nov-2026",
+   "format": "Short talks in a bar",
    "title": "Nerd Nite",
    "subtitle": "Three short talks by experts, in a bar. This month’s theme: sitting.",
    "city": "nyc",
@@ -479,6 +494,7 @@
   },
   {
    "id": "bam-playback-spike-lee-2026",
+   "format": "Film festival",
    "title": "Playback",
    "subtitle": "A new two-day festival at BAM from Spike Lee",
    "city": "nyc",
@@ -498,7 +514,7 @@
    "people": [
     {
      "name": "Spike Lee",
-     "role": "Filmmaker",
+     "role": "Filmmaker (Do the Right Thing, Malcolm X)",
      "wiki": "Spike_Lee"
     }
    ],
@@ -513,6 +529,7 @@
   },
   {
    "id": "nycf-tim-dillon-beacon-2026",
+   "format": "Stand-up comedy",
    "title": "Tim Dillon",
    "subtitle": "New York Comedy Festival",
    "city": "nyc",
@@ -530,7 +547,7 @@
    "people": [
     {
      "name": "Tim Dillon",
-     "role": "Comedian and host of The Tim Dillon Show podcast",
+     "role": "Comedian; hosts The Tim Dillon Show, one of the biggest comedy podcasts",
      "wiki": "Tim_Dillon"
     }
    ],
@@ -545,6 +562,7 @@
   },
   {
    "id": "wagner-first-saturday-creature-feature-2026",
+   "format": "Museum open house",
    "title": "Wagner Free Institute open house",
    "subtitle": "Spooky Creature Feature, costumes encouraged",
    "city": "philly",
@@ -572,6 +590,7 @@
   },
   {
    "id": "nycf-marc-maron-beacon-2026",
+   "format": "Stand-up comedy",
    "title": "Marc Maron",
    "subtitle": "New York Comedy Festival",
    "city": "nyc",
@@ -589,7 +608,7 @@
    "people": [
     {
      "name": "Marc Maron",
-     "role": "Comedian, longtime host of the WTF podcast",
+     "role": "Comedian; hosted WTF, the podcast where Obama gave an interview in a garage",
      "wiki": "Marc_Maron"
     }
    ],
@@ -606,6 +625,7 @@
   },
   {
    "id": "nycf-sherman-harrison-town-hall-2026",
+   "format": "Stand-up comedy",
    "title": "Sarah Sherman and Patti Harrison",
    "subtitle": "New York Comedy Festival",
    "city": "nyc",
@@ -623,12 +643,12 @@
    "people": [
     {
      "name": "Sarah Sherman",
-     "role": "Saturday Night Live cast member",
+     "role": "Saturday Night Live cast member known for gross-out, body-horror sketches",
      "wiki": "Sarah_Sherman"
     },
     {
      "name": "Patti Harrison",
-     "role": "Comedian and actor (I Think You Should Leave, Together Together)",
+     "role": "Comedian and actor from I Think You Should Leave and Shrill",
      "wiki": "Patti_Harrison"
     }
    ],
@@ -643,6 +663,7 @@
   },
   {
    "id": "nycf-moshe-kasher-bell-house-2026",
+   "format": "Stand-up comedy",
    "title": "Moshe Kasher",
    "subtitle": "New York Comedy Festival",
    "city": "nyc",
@@ -660,7 +681,7 @@
    "people": [
     {
      "name": "Moshe Kasher",
-     "role": "Comedian and writer",
+     "role": "Comedian with several Netflix specials; grew up with deaf parents and writes about it",
      "wiki": "Moshe_Kasher"
     }
    ],
@@ -675,6 +696,7 @@
   },
   {
    "id": "fillmore-geese-2026",
+   "format": "Rock show",
    "title": "Geese",
    "city": "philly",
    "category": "music",
@@ -691,7 +713,7 @@
    "people": [
     {
      "name": "Geese",
-     "role": "Brooklyn rock band",
+     "role": "Young Brooklyn rock band with a wild live show",
      "wiki": "Geese_(band)"
     }
    ],
@@ -707,6 +729,7 @@
   },
   {
    "id": "eagles-giants-2026-11-08",
+   "format": "NFL football",
    "title": "Eagles vs. Giants",
    "city": "philly",
    "category": "sports",
@@ -730,6 +753,7 @@
   },
   {
    "id": "92ny-inon-abu-sarah-2026",
+   "format": "Conversation",
    "title": "The Future Is Peace",
    "subtitle": "Maoz Inon and Aziz Abu Sarah",
    "city": "nyc",
@@ -767,6 +791,7 @@
   },
   {
    "id": "vanguard-jazz-orchestra-2026-11-09",
+   "format": "Big band jazz",
    "title": "Vanguard Jazz Orchestra",
    "subtitle": "The Monday night big band, 8 and 10 pm",
    "city": "nyc",
@@ -783,7 +808,7 @@
    "people": [
     {
      "name": "Vanguard Jazz Orchestra",
-     "role": "The Village Vanguard’s 16-piece house big band",
+     "role": "16-piece big band that has played the Vanguard every Monday since 1966",
      "wiki": "Vanguard_Jazz_Orchestra"
     }
    ],
@@ -798,6 +823,7 @@
   },
   {
    "id": "nycf-eddie-pepitone-union-hall-2026",
+   "format": "Stand-up comedy",
    "title": "Eddie Pepitone",
    "subtitle": "Two nights at Union Hall",
    "city": "nyc",
@@ -816,7 +842,7 @@
    "people": [
     {
      "name": "Eddie Pepitone",
-     "role": "Comedian known as “The Bitter Buddha”",
+     "role": "Veteran comedian known for furious, absurd rants; a Conan regular",
      "wiki": "Eddie_Pepitone"
     }
    ],
@@ -831,6 +857,7 @@
   },
   {
    "id": "92ny-annie-proulx-2026",
+   "format": "Book talk",
    "title": "Annie Proulx and Michael Cunningham",
    "city": "nyc",
    "category": "ideas",
@@ -867,6 +894,7 @@
   },
   {
    "id": "brooklyn-steel-chat-pile-2026",
+   "format": "Noise-rock show",
    "title": "Chat Pile",
    "city": "nyc",
    "category": "music",
@@ -883,7 +911,7 @@
    "people": [
     {
      "name": "Chat Pile",
-     "role": "Noise-rock band from Oklahoma City",
+     "role": "Heavy, abrasive noise-rock band from Oklahoma City",
      "wiki": "Chat_Pile"
     }
    ],
@@ -898,6 +926,7 @@
   },
   {
    "id": "johnny-brendas-the-tubs-2026",
+   "format": "Indie rock show",
    "title": "The Tubs",
    "city": "philly",
    "category": "music",
@@ -914,7 +943,7 @@
    "people": [
     {
      "name": "The Tubs",
-     "role": "UK indie rock band"
+     "role": "UK indie rock band with jangly guitars"
     }
    ],
    "description": "The Tubs at Johnny Brenda’s, a 250-capacity room above a bar in Fishtown.",
@@ -928,6 +957,7 @@
   },
   {
    "id": "princeton-lecture-valeria-luiselli",
+   "format": "Public lecture",
    "title": "Valeria Luiselli",
    "subtitle": "Princeton University Public Lecture",
    "city": "princeton",
@@ -964,6 +994,7 @@
   },
   {
    "id": "blue-note-vic-mensa-2026",
+   "format": "Rap show",
    "title": "Vic Mensa",
    "subtitle": "With a live band",
    "city": "nyc",
@@ -980,7 +1011,7 @@
    "people": [
     {
      "name": "Vic Mensa",
-     "role": "Chicago rapper",
+     "role": "Chicago rapper and activist",
      "wiki": "Vic_Mensa"
     }
    ],
@@ -995,6 +1026,7 @@
   },
   {
    "id": "92ny-munk-debate-liberalism-2026",
+   "format": "Live debate",
    "title": "Munk Debate: Has Liberalism Failed America?",
    "city": "nyc",
    "category": "ideas",
@@ -1038,6 +1070,7 @@
   },
   {
    "id": "brooklyn-steel-jalen-ngonda-2026",
+   "format": "Soul concert",
    "title": "Jalen Ngonda",
    "city": "nyc",
    "category": "music",
@@ -1054,7 +1087,7 @@
    "people": [
     {
      "name": "Jalen Ngonda",
-     "role": "Soul singer on Daptone Records",
+     "role": "Soul singer whose records sound like 1960s Motown",
      "wiki": "Jalen_Ngonda"
     }
    ],
@@ -1069,6 +1102,7 @@
   },
   {
    "id": "ut-slow-pulp-2026",
+   "format": "Indie rock show",
    "title": "Slow Pulp",
    "subtitle": "With Her New Knife",
    "city": "philly",
@@ -1086,7 +1120,7 @@
    "people": [
     {
      "name": "Slow Pulp",
-     "role": "Indie rock band",
+     "role": "Chicago-based indie rock band; fuzzy guitars, soft vocals",
      "wiki": "Slow_Pulp"
     }
    ],
@@ -1101,6 +1135,7 @@
   },
   {
    "id": "mutter-meet-geek-frankenstein-2026",
+   "format": "Museum talk",
    "title": "Fathoming Frankenstein",
    "subtitle": "An evening talk at the Mütter Museum",
    "city": "philly",
@@ -1129,6 +1164,7 @@
   },
   {
    "id": "free-library-tommasini-mcgill-2026",
+   "format": "Book talk",
    "title": "Anthony Tommasini: Voice of a Century",
    "city": "philly",
    "category": "ideas",
@@ -1166,6 +1202,7 @@
   },
   {
    "id": "pu-concerts-radulovic-2026",
+   "format": "Classical violin",
    "title": "Nemanja Radulović and Double Sens",
    "city": "princeton",
    "category": "music",
@@ -1181,7 +1218,7 @@
    "people": [
     {
      "name": "Nemanja Radulović",
-     "role": "Serbian-French violinist",
+     "role": "Serbian-French violinist known for flashy, high-energy classical shows",
      "wiki": "Nemanja_Radulović"
     }
    ],
@@ -1196,6 +1233,7 @@
   },
   {
    "id": "nycf-adam-friedland-town-hall-2026",
+   "format": "Stand-up comedy",
    "title": "Adam Friedland",
    "subtitle": "New York Comedy Festival",
    "city": "nyc",
@@ -1213,7 +1251,7 @@
    "people": [
     {
      "name": "Adam Friedland",
-     "role": "Comedian and host of The Adam Friedland Show",
+     "role": "Comedian; hosts The Adam Friedland Show, a deadpan talk show with politicians and celebrities",
      "wiki": "Adam_Friedland"
     }
    ],
@@ -1228,6 +1266,7 @@
   },
   {
    "id": "carnegie-silkroad-giddens-ma-2026",
+   "format": "Folk and classical concert",
    "title": "Silkroad with Rhiannon Giddens and Yo-Yo Ma",
    "city": "nyc",
    "category": "music",
@@ -1266,6 +1305,7 @@
   },
   {
    "id": "mccarter-eric-lu-2026",
+   "format": "Piano recital",
    "title": "Eric Lu",
    "subtitle": "Piano recital",
    "city": "princeton",
@@ -1299,6 +1339,7 @@
   },
   {
    "id": "free-library-ray-didinger-2026",
+   "format": "Book talk",
    "title": "Ray Didinger: Look What the Kid Wrote Today",
    "city": "philly",
    "category": "ideas",
@@ -1335,6 +1376,7 @@
   },
   {
    "id": "new-york-venture-summit-2026",
+   "format": "Investor conference",
    "title": "New York Venture Summit",
    "subtitle": "Investor panels and booked one-on-one meetings",
    "city": "nyc",
@@ -1362,6 +1404,7 @@
   },
   {
    "id": "free-library-melissa-clark-2026",
+   "format": "Cookbook talk",
    "title": "Melissa Clark: The Big Book of Dinner",
    "city": "philly",
    "category": "ideas",
@@ -1394,6 +1437,7 @@
   },
   {
    "id": "lcd-soundsystem-knockdown-2026",
+   "format": "Dance-punk concert",
    "title": "LCD Soundsystem",
    "subtitle": "Four nights at Knockdown Center",
    "city": "nyc",
@@ -1412,7 +1456,7 @@
    "people": [
     {
      "name": "LCD Soundsystem",
-     "role": "James Murphy’s New York dance-punk band",
+     "role": "James Murphy’s New York dance-punk band (“All My Friends”, “Losing My Edge”)",
      "wiki": "LCD_Soundsystem"
     }
    ],
@@ -1428,6 +1472,7 @@
   },
   {
    "id": "mccarter-rufus-wainwright-judy-2026",
+   "format": "Cabaret concert",
    "title": "Rufus Wainwright: Wanted, Judy Garland",
    "city": "princeton",
    "category": "music",
@@ -1443,7 +1488,7 @@
    "people": [
     {
      "name": "Rufus Wainwright",
-     "role": "Singer-songwriter",
+     "role": "Singer-songwriter known for lush, operatic pop",
      "wiki": "Rufus_Wainwright"
     }
    ],
@@ -1459,6 +1504,7 @@
   },
   {
    "id": "techday-ai-founders-day-2026",
+   "format": "AI startup event",
    "title": "TechDay AI Founders Day",
    "subtitle": "Investors on what they fund in AI",
    "city": "nyc",
@@ -1504,6 +1550,7 @@
   },
   {
    "id": "ut-julia-jacklin-2026",
+   "format": "Singer-songwriter show",
    "title": "Julia Jacklin",
    "city": "philly",
    "category": "music",
@@ -1520,7 +1567,7 @@
    "people": [
     {
      "name": "Julia Jacklin",
-     "role": "Australian singer-songwriter",
+     "role": "Australian singer-songwriter; quiet, sad guitar songs",
      "wiki": "Julia_Jacklin"
     }
    ],
@@ -1535,6 +1582,7 @@
   },
   {
    "id": "princeton-football-penn-2026",
+   "format": "College football",
    "title": "Princeton vs. Penn",
    "subtitle": "Ivy League football, last game of the season",
    "city": "princeton",
@@ -1561,6 +1609,7 @@
   },
   {
    "id": "mccarter-ira-glass-2026",
+   "format": "Live radio storytelling",
    "title": "Ira Glass",
    "subtitle": "Live at McCarter",
    "city": "princeton",
@@ -1595,6 +1644,7 @@
   },
   {
    "id": "philadelphia-marathon-2026",
+   "format": "Marathon, free to watch",
    "title": "Philadelphia Marathon",
    "city": "philly",
    "category": "sports",
@@ -1622,6 +1672,7 @@
   },
   {
    "id": "town-hall-terry-gross-paul-mccartney-2026",
+   "format": "Live interview",
    "title": "Terry Gross interviews Paul McCartney",
    "city": "nyc",
    "category": "ideas",
@@ -1660,6 +1711,7 @@
   },
   {
    "id": "92ny-muldoons-picnic-2026",
+   "format": "Poetry and music night",
    "title": "Muldoon’s Picnic",
    "subtitle": "Poems, songs and talk with Richard Thompson",
    "city": "nyc",
@@ -1678,12 +1730,12 @@
    "people": [
     {
      "name": "Paul Muldoon",
-     "role": "Irish poet, Pulitzer winner, host",
+     "role": "Pulitzer-winning Irish poet, Princeton professor, and the night’s host",
      "wiki": "Paul_Muldoon"
     },
     {
      "name": "Richard Thompson",
-     "role": "British guitarist and songwriter, formerly of Fairport Convention",
+     "role": "British folk-rock guitarist and songwriter; co-founded Fairport Convention",
      "wiki": "Richard_Thompson_(musician)"
     },
     {
@@ -1693,7 +1745,7 @@
     },
     {
      "name": "Molly Jong-Fast",
-     "role": "Writer and political commentator",
+     "role": "Political writer and MSNBC commentator",
      "wiki": "Molly_Jong-Fast"
     }
    ],
@@ -1708,6 +1760,7 @@
   },
   {
    "id": "amnh-frontiers-clouds-2026",
+   "format": "Astronomy lecture",
    "title": "Clouds Across the Universe",
    "subtitle": "Frontiers Lecture at the Natural History Museum",
    "city": "nyc",
@@ -1733,6 +1786,7 @@
   },
   {
    "id": "knicks-heat-nba-cup-2026-11-27",
+   "format": "NBA basketball",
    "title": "Knicks vs. Heat",
    "subtitle": "NBA Cup",
    "city": "nyc",
@@ -1821,7 +1875,7 @@
    "homepage": "https://luma.com/nyc",
    "ok": false,
    "count": 0,
-   "ms": 1,
+   "ms": 0,
    "error": "skipped (offline run)"
   },
   {

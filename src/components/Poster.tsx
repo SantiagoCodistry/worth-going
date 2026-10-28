@@ -6,9 +6,15 @@
 import { useState } from 'react'
 import type { CategoryId, WGEvent } from '../shared/types.ts'
 import { dayParts, timeLabel } from '../lib/dates.ts'
+import { categoryById } from '../shared/taxonomy.ts'
 
 /** Roles that support rather than headline: "…, co-host", "Fidelity, moderator". */
 export const NOT_BILLED = /moderator$|(^|,\s*)(co-)?host$/i
+
+/** "Stand-up comedy", "Book talk": what kind of thing this is. */
+export function formatOf(e: WGEvent): string {
+  return e.format ?? categoryById(e.category).label
+}
 
 /** The names that sell the event. */
 export function headliners(e: WGEvent): string[] {
@@ -88,6 +94,8 @@ export function Flyer({ event: e, className = '', compact = false }: { event: WG
   const [photoFailed, setPhotoFailed] = useState(false)
   const ink = inkFor(e.category, e.id)
   const names = headliners(e)
+  const billed = e.people?.filter((x) => !NOT_BILLED.test(x.role)) ?? []
+  const lead = billed.length === 1 ? billed[0] : undefined
   const p = dayParts(e.start)
   const t = timeLabel(e)
   const hasPhoto = !!e.image && !photoFailed
@@ -119,6 +127,7 @@ export function Flyer({ event: e, className = '', compact = false }: { event: WG
         <span>{date}</span>
         {t && e.kind !== 'exhibition' && <span>{t}</span>}
       </div>
+      <p className="label relative z-10 mt-[2cqw] text-[4.2cqw] tracking-[0.06em]">{formatOf(e)}</p>
 
       <div className="relative my-[4cqw] flex min-h-0 flex-1 overflow-hidden">
         {hasPhoto ? (
@@ -150,6 +159,7 @@ export function Flyer({ event: e, className = '', compact = false }: { event: WG
             ))}
           </div>
         </div>
+        {lead && <p className="relative mt-[2.5cqw] text-[4.4cqw] font-semibold leading-snug">{lead.role}</p>}
         <p className="stamp mt-[3cqw] truncate text-[3.8cqw] opacity-90">{e.venue.name}</p>
       </div>
      </div>

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import type { Person, WGEvent } from '../shared/types.ts'
 import { cityById } from '../shared/taxonomy.ts'
 import { dayParts, timeLabel, whenLine } from '../lib/dates.ts'
-import { Flyer, NOT_BILLED, Photo, hash } from './Poster.tsx'
+import { Flyer, NOT_BILLED, Photo, formatOf, hash } from './Poster.tsx'
 import { PreviewTag, SaveButton } from './bits.tsx'
 
 /** "Fareed Zakaria, Patrick Deneen": who's on. */
@@ -13,26 +13,36 @@ export function whoLine(people?: Person[]) {
   return names.length > 3 ? `${names.slice(0, 3).join(', ')} + ${names.length - 3} more` : names.join(', ')
 }
 
-/** One plain line under the flyer: what it is, or who the speaker is. */
-function caption(e: WGEvent) {
-  const names = e.people?.filter((p) => !NOT_BILLED.test(p.role)) ?? []
-  if (e.category === 'ideas' && names.length === 1) return names[0].role
-  return e.subtitle ?? (names.length ? `With ${whoLine(e.people)}` : null)
+/** "Marc Maron: comedian; hosted WTF…" for the people who headline. */
+function Billing({ e, max = 2 }: { e: WGEvent; max?: number }) {
+  const billed = e.people?.filter((p) => !NOT_BILLED.test(p.role)) ?? []
+  if (!billed.length) return e.subtitle ? <p className="mt-1 text-[14px] leading-snug text-ink-2">{e.subtitle}</p> : null
+  return (
+    <ul className="mt-1 space-y-1">
+      {billed.slice(0, max).map((p) => (
+        <li key={p.name} className="text-[14px] leading-snug text-ink-2">
+          {p.name !== e.title && <span className="font-semibold text-ink">{p.name}: </span>}
+          {p.role}
+        </li>
+      ))}
+      {billed.length > max && <li className="text-[13.5px] text-mute">+ {billed.length - max} more</li>}
+    </ul>
+  )
 }
 
 export function EventCard({ e, className = '' }: { e: WGEvent; className?: string }) {
-  const cap = caption(e)
   return (
     <Link to={`/e/${e.id}`} className={`group block ${className}`}>
       <Flyer event={e} className="aspect-[3/4] transition-transform duration-300 ease-out-soft group-hover:-translate-y-1 group-hover:rotate-[-0.6deg]" />
       <div className="mt-3 flex items-start justify-between gap-3">
         <div className="min-w-0">
-          <h3 className="text-[16px] font-bold leading-snug">
+          <p className="label text-[11px] text-mute">{formatOf(e)}</p>
+          <h3 className="mt-0.5 text-[16px] font-bold leading-snug">
             <span className="link-underline">{e.title}</span>
           </h3>
-          {cap && <p className="mt-0.5 text-[14px] leading-snug text-ink-2">{cap}</p>}
-          <p className="mt-1 text-[13.5px] text-mute">
-            {cityById(e.city).short}
+          <Billing e={e} />
+          <p className="mt-1.5 text-[13.5px] text-mute">
+            {e.venue.name}, {cityById(e.city).short}
             {e.price ? ` · ${e.price}` : e.isFree ? ' · Free' : ''}
           </p>
           <PreviewTag e={e} className="mt-1" />
@@ -48,6 +58,8 @@ export function EventRow({ e, showDate = true }: { e: WGEvent; showDate?: boolea
   const p = dayParts(e.start)
   const t = timeLabel(e)
   const who = whoLine(e.people)
+  const billed = e.people?.filter((x) => !NOT_BILLED.test(x.role)) ?? []
+  const lead = billed.length === 1 ? billed[0] : undefined
   return (
     <Link
       to={`/e/${e.id}`}
@@ -68,9 +80,12 @@ export function EventRow({ e, showDate = true }: { e: WGEvent; showDate?: boolea
         </p>
         <h3 className="mt-0.5 truncate text-[16px] font-bold md:text-[18px]">{e.title}</h3>
         <p className="truncate text-[14px] text-ink-2">
-          {who && who !== e.title ? `${who} · ` : ''}
+          <span className="font-semibold">{formatOf(e)}</span>
+          {lead ? ` · ${lead.name === e.title ? '' : lead.name + ', '}${lead.role}` : who && who !== e.title ? ` · ${who}` : ''}
+        </p>
+        <p className="truncate text-[13.5px] text-mute">
           {e.venue.name}, {cityById(e.city).short}
-          {e.isFree ? ' · Free' : ''}
+          {e.price ? ` · ${e.price}` : e.isFree ? ' · Free' : ''}
         </p>
       </div>
       <SaveButton id={e.id} className="h-9 w-9 justify-center" />

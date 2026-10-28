@@ -43,6 +43,8 @@ export interface WGEvent {
   title: string
   /** Performer line, speaker, matchup detail, etc. */
   subtitle?: string
+  /** What kind of thing this is, in a few words: "Stand-up comedy", "Book talk". */
+  format?: string
   /** `exhibition` = runs over a date range rather than at one time. */
   kind: 'event' | 'exhibition'
   city: CityId
