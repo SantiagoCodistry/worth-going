@@ -235,3 +235,10 @@ test('Luma descriptions lose their boilerplate and give the event its own link',
   assert.equal(stripBoilerplate(raw), 'Founders. Operators.')
   assert.equal(raw.match(/up-to-date information at:\s*(https?:\/\/\S+)/i)?.[1], 'https://luma.com/mx9dqfpr')
 })
+
+test('portraits must be named after the person', async () => {
+  const { isPortraitOf } = await import('../ingest/lib/media.ts')
+  assert.ok(isPortraitOf('https://upload.wikimedia.org/x/1280px-Marc_Maron_2019.jpg', 'Marc Maron'))
+  assert.ok(isPortraitOf('https://upload.wikimedia.org/x/Fareed_Zakaria_at_UChicago.jpg?utm=1', 'Fareed Zakaria'))
+  assert.ok(!isPortraitOf('https://upload.wikimedia.org/x/1280px-Eisenhower_Executive_Office_Building_26.jpg', 'Sahil Lavingia'))
+})

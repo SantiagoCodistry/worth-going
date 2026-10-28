@@ -367,7 +367,9 @@ export function PlacePage() {
       <div className="mt-5 grid gap-8 lg:grid-cols-[1.1fr_1fr] lg:gap-14">
         <div className="space-y-4">
           <PlaceImage p={p} className="aspect-[4/3] rounded-[3px]" />
-          <MapBox p={p} />
+          <div className="hidden lg:block">
+            <MapBox p={p} />
+          </div>
         </div>
         <div className="space-y-5">
           <div>
@@ -403,6 +405,9 @@ export function PlacePage() {
           </div>
           {p.know && <p className="text-[15px] text-ink-2">{p.know}</p>}
           {p.address && <p className="text-[15px]">{p.address}</p>}
+          <div className="lg:hidden">
+            <MapBox p={p} />
+          </div>
           <p className="flex flex-wrap gap-1">
             {p.goodFor.map((g) => (
               <span key={g} className="rounded-[2px] bg-bg-2 px-2 py-1 text-[13px] font-semibold">

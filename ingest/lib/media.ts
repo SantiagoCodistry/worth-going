@@ -289,9 +289,22 @@ async function withPortraits(list: Person[] = [], lookup = false): Promise<Perso
         const w = await whoIs(p.name)
         if (w) q = { ...p, role: w.role, wiki: w.wiki }
       }
-      return q.wiki ? { ...q, image: (await wikiImage(q.wiki)) ?? undefined } : q
+      if (!q.wiki) return q
+      const img = await wikiImage(q.wiki)
+      return { ...q, image: img && isPortraitOf(img.url, q.name) ? img : undefined }
     }),
   )
+}
+
+/**
+ * A Wikipedia article's lead image isn't always of the person (a building,
+ * a logo, a book cover). Only use it when the file is named after them.
+ */
+export function isPortraitOf(url: string, name: string): boolean {
+  const norm = (x: string) => x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+  const file = norm(decodeURIComponent(url.split('?')[0].split('/').pop() ?? '')).replace(/[^a-z0-9]+/g, ' ')
+  const words = norm(name).split(/[^a-z0-9]+/).filter((w) => w.length >= 4 || /^[a-z]{3}$/.test(w))
+  return words.some((w) => file.includes(w))
 }
 
 async function pickImage(e: WGEvent): Promise<Img> {
