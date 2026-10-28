@@ -1,15 +1,17 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import type { WGEvent } from '../shared/types.ts'
 import { categoryById, cityById } from '../shared/taxonomy.ts'
 import { downloadIcs, googleCalendarUrl } from '../lib/calendar.ts'
 import { exhibitionLine, fullDate, timeLabel, whenLine } from '../lib/dates.ts'
 import { rank } from '../lib/recommend.ts'
 import { useStore } from '../lib/store.tsx'
-import { Avatar, EventCard } from '../components/Cards.tsx'
-import { Cover, formatOf, summaryOf } from '../components/Poster.tsx'
+import { Avatar, EventCard, whoLine } from '../components/Cards.tsx'
+import { Cover, billed, dateStamp, formatOf, summaryOf } from '../components/Poster.tsx'
 import { clashes } from '../lib/profile.ts'
 import { SaveButton, ShareButton, Spinner } from '../components/bits.tsx'
 import { appUrl } from '../lib/share.ts'
+import { shareStory, storyWhere } from '../lib/story.ts'
 
 // Sandboxed previews block file downloads, so the .ics button is hidden there.
 const canDownload = import.meta.env.VITE_ROUTER !== 'memory'
@@ -109,6 +111,7 @@ export function EventPage() {
             </a>
             <SaveButton id={e.id} label className="btn btn-quiet" />
             <ShareButton title={e.title} text={`${e.title} — ${whenLine(e)}, ${e.venue.name}`} url={appUrl(`e/${e.id}`)} />
+            <StoryButton e={e} />
             <a href={googleCalendarUrl(e)} target="_blank" rel="noreferrer" className="btn btn-quiet">
               Google Calendar
             </a>
@@ -189,5 +192,35 @@ export function EventPage() {
         </section>
       )}
     </article>
+  )
+}
+
+const storyWho = (e: WGEvent) => {
+  const b = billed(e)
+  if (b.length === 1) return b[0].name === e.title ? b[0].role : `${b[0].name} · ${b[0].role}`
+  return whoLine(b) ?? undefined
+}
+
+/** Story-sized image for Instagram and the like. */
+function StoryButton({ e }: { e: WGEvent }) {
+  const [state, setState] = useState<'idle' | 'making' | 'downloaded' | 'failed'>('idle')
+  return (
+    <button
+      className="btn btn-quiet"
+      disabled={state === 'making'}
+      onClick={async () => {
+        setState('making')
+        try {
+          const r = await shareStory(e, { label: formatOf(e), title: e.title, when: dateStamp(e), where: storyWhere(e), who: storyWho(e), url: appUrl(`e/${e.id}`) })
+          setState(r === 'downloaded' ? 'downloaded' : 'idle')
+          if (r === 'downloaded') setTimeout(() => setState('idle'), 3000)
+        } catch {
+          setState('failed')
+          setTimeout(() => setState('idle'), 3000)
+        }
+      }}
+    >
+      {state === 'making' ? 'Making image…' : state === 'downloaded' ? 'Image saved' : state === 'failed' ? 'Couldn’t make it' : 'Share to story'}
+    </button>
   )
 }

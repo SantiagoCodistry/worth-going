@@ -103,6 +103,12 @@ Anyone can type in artists they like on **Your taste**; shows by those artists g
 
 The site never stores a Spotify token: it reads artists once, keeps their names and genres in the taste profile, and discards the token.
 
+## Sharing and the app
+
+- **Share links:** any event, restaurant or hand-picked list (Saved → Share a list with friends) becomes a link that opens for anyone, no account needed.
+- **Share to story:** event pages make a 1080×1920 image in the site's style and open the phone's share sheet, where Instagram, Snapchat or Messages can take it. On desktop it downloads. Instagram has no web API for posting stories, so this is the supported route.
+- **Install:** the site is a progressive web app (manifest, icons, offline cache in `public/sw.js`). On iPhone: Share → Add to Home Screen; on Android, Chrome offers Install. A store app later could wrap the same code (for example with Capacitor).
+
 ## Legal
 
 `/privacy` and `/terms` (in `src/pages/Legal.tsx`) and the footer disclaimers are plain-language starting points covering local storage, accounts, third-party listings and prices, non-affiliation, and Wikimedia, Ticketmaster and OpenStreetMap attribution. Have a lawyer review them before relying on them.
