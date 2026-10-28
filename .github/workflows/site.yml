@@ -75,3 +75,13 @@ jobs:
         with:
           name: screenshots
           path: screenshots
+      # Also keep the latest set on a `screenshots` branch so they can be viewed without artifact access.
+      - name: Publish screenshots branch
+        run: |
+          git config user.name "worth-going-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan screenshots-tmp
+          git rm -rfq --cached .
+          git add -f screenshots
+          git commit -qm "Screenshots $(date -u +%Y-%m-%dT%H:%M)"
+          git push -f origin HEAD:screenshots
