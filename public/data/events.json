@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T16:29:59.448Z",
+ "generatedAt": "2026-10-28T16:30:15.108Z",
  "events": [
   {
    "id": "met-costume-art",
@@ -103,7 +103,12 @@
     {
      "name": "Marcel Duchamp",
      "role": "French artist; in 1917 he submitted a urinal as a sculpture",
-     "wiki": "Marcel_Duchamp"
+     "wiki": "Marcel_Duchamp",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg/1000px-Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Marcel_Duchamp"
+     }
     }
    ],
    "description": "The first North American Duchamp retrospective in more than 50 years. The museum already owns the largest Duchamp collection anywhere, including The Large Glass.",
@@ -126,7 +131,7 @@
    "title": "Joint Effort Witherspoon-Jackson Community Princeton Safe Streets",
    "kind": "exhibition",
    "city": "princeton",
-   "category": "ideas",
+   "category": "art",
    "tags": [],
    "start": "2026-10-28",
    "end": "2026-12-12",
@@ -143,9 +148,9 @@
    "sourceUrl": "https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "why": "Free and open to the public.",
-   "score": 23,
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Free.",
+   "score": 21,
    "timeTBA": true
   },
   {
@@ -171,7 +176,7 @@
    "sourceUrl": "https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Free.",
    "score": 21,
    "timeTBA": true
@@ -215,6 +220,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Conference",
    "tags": [],
    "start": "2026-10-28T17:30:00.000Z",
    "end": "2026-10-28T23:30:00.000Z",
@@ -231,7 +237,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -257,7 +263,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -282,7 +288,60 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
+  },
+  {
+   "id": "luma-evt-zobentmrxd3c1rn-events-lu-ma-2026-10-28",
+   "title": "500 FINGER FILLET PRE-LAUNCH PARTY",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "format": "Party",
+   "tags": [],
+   "start": "2026-10-28T22:00:00.000Z",
+   "end": "2026-10-29T00:00:00.000Z",
+   "venue": {
+    "name": "C.M. Neff The Knife Shop",
+    "address": "1613 Passyunk Ave, Philadelphia, PA 19148, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/cxsxdhiy\n\nAddress:\nC.M. Neff The Knife Shop\nPhiladelphia, PA\nUnited States\n\nCome celebrate the impending release of 500 FINGER FILLET\nWED. OCT. 28th\n6-8 PM\nAt THE KNIFE SHOP\n1613 Passyunk Ave\nPhilly\n\n**MASKS REQUIRED**\n\nhttps://store.steampowered.com/app/4602120/500_FINGER_FILLET/\n\nEvent Disclaimer: By attending this event, you acknowledge and consent to the…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 28
+  },
+  {
+   "id": "luma-evt-trxmdztfpctbxkp-events-lu-ma-2026-10-28",
+   "title": "PHP×Philly's Whimsy Tank",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-10-28T22:00:00.000Z",
+   "end": "2026-10-29T00:00:00.000Z",
+   "venue": {
+    "name": "Curotec",
+    "address": "109 S 13th St Suite 119, Philadelphia, PA 19107, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/pg7ekbxm\n\nAddress:\nCurotec\nThe entrance is on 13th St, just left of Zios Pizza. You will see a sign for Eviama Spa—it's in the same building entrance as them. Use the touch screen at the entrance and press the button for Curotec.\n\nWhen you're inside, walk down the hall to the elevator.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -307,8 +366,34 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
+  },
+  {
+   "id": "luma-evt-5rb7dgxdj73gq2t-events-lu-ma-2026-10-28",
+   "title": "📚 Indy Hall Reading Club",
+   "kind": "event",
+   "city": "philly",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-10-28T22:30:00.000Z",
+   "end": "2026-10-29T00:30:00.000Z",
+   "venue": {
+    "name": "Indy Hall Clubhouse",
+    "address": "709 N 2nd St 3rd Floor, Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/readingclub-oct28\n\nAddress:\nIndy Hall Clubhouse\nPhiladelphia, Pennsylvania\nUnited States\n\nIndy Hall Reading Club is hosted on the 2nd & 4th Wednesday of ever month.\nGot a book that you’ve been dying to dive into? Come to the Indy Hall Reading Club, and join fellow readers.\nAt this low-key social event, we’ll get comfy, read individually, and discuss what you read with…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 12
   },
   {
    "id": "luma-evt-8kpfo54jieskhdx-events-lu-ma-2026-10-28",
@@ -316,6 +401,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Pitch competition",
    "tags": [],
    "start": "2026-10-28T22:30:00.000Z",
    "end": "2026-10-29T01:00:00.000Z",
@@ -333,7 +419,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -359,35 +445,8 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
-  },
-  {
-   "id": "planet-princeton-10053872",
-   "title": "Jersey Art Meetup",
-   "kind": "event",
-   "city": "princeton",
-   "category": "unusual",
-   "tags": [],
-   "start": "2026-10-28T23:00:00Z",
-   "end": "2026-10-29T01:00:00Z",
-   "venue": {
-    "name": "Arts Council of Princeton"
-   },
-   "description": "Princeton Comic Makers presents: JERSEY ART MEETUPS (JAM), a weekly social event connecting creatives within the greater Central Jersey area through a shared passion for sequential art and new media. Attendees may use this open workshop space to draw, write, and develop their own artwork, with an opportunity to receive peer review and feedback from other members if desired.",
-   "price": "Free",
-   "isFree": true,
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/01/COMICMAKERS_JAMBANNER-e1718819987740.jpg"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/jersey-art-meetup/2026-10-28/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "why": "Free.",
-   "score": 20,
-   "note": "Also on Nov 4, Nov 11, Nov 18, Nov 25 and later."
   },
   {
    "id": "luma-evt-izq634anffqs0r0-events-lu-ma-2026-10-28",
@@ -411,7 +470,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -419,7 +478,7 @@
    "title": "The New York Philosophy Club: Columbus Circle",
    "kind": "event",
    "city": "nyc",
-   "category": "startups",
+   "category": "ideas",
    "tags": [],
    "start": "2026-10-28T23:00:00.000Z",
    "end": "2026-10-29T02:00:00.000Z",
@@ -437,8 +496,35 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "score": 10
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 12
+  },
+  {
+   "id": "planet-princeton-10053872",
+   "title": "Jersey Art Meetup",
+   "kind": "event",
+   "city": "princeton",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-10-28T23:00:00Z",
+   "end": "2026-10-29T01:00:00Z",
+   "venue": {
+    "name": "Arts Council of Princeton"
+   },
+   "description": "Princeton Comic Makers presents: JERSEY ART MEETUPS (JAM), a weekly social event connecting creatives within the greater Central Jersey area through a shared passion for sequential art and new media. Attendees may use this open workshop space to draw, write, and develop their own artwork, with an opportunity to receive peer review and feedback from other members if desired.",
+   "price": "Free",
+   "isFree": true,
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/01/COMICMAKERS_JAMBANNER-e1718819987740.jpg"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/jersey-art-meetup/2026-10-28/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Free.",
+   "score": 20,
+   "note": "Also on Nov 4, Nov 11, Nov 18, Nov 25 and later."
   },
   {
    "id": "luma-evt-nszxvzu1h5peglv-events-lu-ma-2026-10-29",
@@ -464,7 +550,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Free.",
    "score": 28
   },
@@ -474,6 +560,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "ideas",
+   "format": "Conference",
    "tags": [],
    "start": "2026-10-29T14:00:00.000Z",
    "end": "2026-10-29T23:30:00.000Z",
@@ -491,7 +578,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
   },
   {
@@ -500,6 +587,7 @@
    "kind": "event",
    "city": "princeton",
    "category": "music",
+   "format": "Concert",
    "tags": [
     "free",
     "music"
@@ -519,7 +607,7 @@
    "sourceUrl": "https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-10-29/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Free.",
    "score": 28,
    "note": "Also on Nov 5, Nov 12, Nov 19, Nov 26 and later."
@@ -529,7 +617,8 @@
    "title": "AI/ML Lecture & Networking @ Intuit",
    "kind": "event",
    "city": "nyc",
-   "category": "startups",
+   "category": "ideas",
+   "format": "Lecture",
    "tags": [],
    "start": "2026-10-29T21:00:00.000Z",
    "end": "2026-10-30T00:00:00.000Z",
@@ -547,8 +636,8 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "score": 18
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
   },
   {
    "id": "luma-evt-zgwr93yuthwnyle-events-lu-ma-2026-10-29",
@@ -556,6 +645,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "ideas",
+   "format": "Conversation",
    "tags": [],
    "start": "2026-10-29T21:00:00.000Z",
    "end": "2026-10-29T23:00:00.000Z",
@@ -573,7 +663,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 30
   },
   {
@@ -598,7 +688,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -607,6 +697,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Gallery opening",
    "tags": [],
    "start": "2026-10-29T22:00:00.000Z",
    "end": "2026-10-30T00:00:00.000Z",
@@ -624,7 +715,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 28
   },
   {
@@ -633,6 +724,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Demo night",
    "tags": [],
    "start": "2026-10-29T22:30:00.000Z",
    "end": "2026-10-30T01:30:00.000Z",
@@ -649,7 +741,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 28
   },
   {
@@ -658,6 +750,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "ideas",
+   "format": "Panel discussion",
    "tags": [],
    "start": "2026-10-29T22:30:00.000Z",
    "end": "2026-10-30T05:00:00.000Z",
@@ -675,7 +768,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
   },
   {
@@ -701,7 +794,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -726,7 +819,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -735,6 +828,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Hackathon",
    "tags": [],
    "start": "2026-10-30T13:30:00.000Z",
    "end": "2026-10-30T21:00:00.000Z",
@@ -752,59 +846,9 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Free.",
    "score": 36
-  },
-  {
-   "id": "planet-princeton-197581",
-   "title": "50th Annual Hometown Halloween Parade",
-   "kind": "event",
-   "city": "princeton",
-   "category": "music",
-   "tags": [],
-   "start": "2026-10-30T20:00:00Z",
-   "end": "2026-10-30T21:00:00Z",
-   "venue": {
-    "name": "On the Green at Palmer Square",
-    "address": "40 Nassau Street, Princeton"
-   },
-   "description": "@ \n\nCelebrate 50 years of this spirited Princeton tradition!\nDon your best costume for the Arts Council of Princeton’s Hometown Halloween Parade — it’s been a Princeton tradition since 1976!\n\nGather with your friends and neighbors on the Green starting at 4pm to enjoy music by the Princeton University Band before departing promptly at 4:30pm.",
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/08/halloween-parade-2025-23-scaled-Rlnyf2.webp"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "score": 22
-  },
-  {
-   "id": "planet-princeton-198903",
-   "title": "50th Annual Hometown Halloween Parade",
-   "kind": "event",
-   "city": "princeton",
-   "category": "music",
-   "tags": [],
-   "start": "2026-10-30T20:00:00Z",
-   "end": "2026-10-30T21:00:00Z",
-   "venue": {
-    "name": "See listing"
-   },
-   "description": "Celebrate 50 years of this spirited Princeton tradition!\n\nDon your best costume for the Arts Council’s Hometown Halloween Parade — it’s been a Princeton tradition since 1976!\n\nGather with your friends and neighbors on Palmer Square Green starting at 4pm to enjoy music by the Princeton University Band before we depart promptly at 4:30pm.",
-   "price": "Free",
-   "isFree": true,
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/10/54879451055_2006ed3eda_c.jpg"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade-2/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "why": "Free.",
-   "score": 30
   },
   {
    "id": "luma-evt-vnfnnd0ixv6gat7-events-lu-ma-2026-10-30",
@@ -829,8 +873,60 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 28
+  },
+  {
+   "id": "planet-princeton-197581",
+   "title": "50th Annual Hometown Halloween Parade",
+   "kind": "event",
+   "city": "princeton",
+   "category": "unusual",
+   "format": "Parade",
+   "tags": [],
+   "start": "2026-10-30T20:00:00Z",
+   "end": "2026-10-30T21:00:00Z",
+   "venue": {
+    "name": "On the Green at Palmer Square",
+    "address": "40 Nassau Street, Princeton"
+   },
+   "description": "@ \n\nCelebrate 50 years of this spirited Princeton tradition!\nDon your best costume for the Arts Council of Princeton’s Hometown Halloween Parade — it’s been a Princeton tradition since 1976!\n\nGather with your friends and neighbors on the Green starting at 4pm to enjoy music by the Princeton University Band before departing promptly at 4:30pm.",
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/08/halloween-parade-2025-23-scaled-Rlnyf2.webp"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 22
+  },
+  {
+   "id": "planet-princeton-198903",
+   "title": "50th Annual Hometown Halloween Parade",
+   "kind": "event",
+   "city": "princeton",
+   "category": "unusual",
+   "format": "Parade",
+   "tags": [],
+   "start": "2026-10-30T20:00:00Z",
+   "end": "2026-10-30T21:00:00Z",
+   "venue": {
+    "name": "See listing"
+   },
+   "description": "Celebrate 50 years of this spirited Princeton tradition!\n\nDon your best costume for the Arts Council’s Hometown Halloween Parade — it’s been a Princeton tradition since 1976!\n\nGather with your friends and neighbors on Palmer Square Green starting at 4pm to enjoy music by the Princeton University Band before we depart promptly at 4:30pm.",
+   "price": "Free",
+   "isFree": true,
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/10/54879451055_2006ed3eda_c.jpg"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade-2/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Free.",
+   "score": 30
   },
   {
    "id": "planet-princeton-198590",
@@ -838,6 +934,7 @@
    "kind": "event",
    "city": "princeton",
    "category": "ideas",
+   "format": "Conversation",
    "tags": [],
    "start": "2026-10-30T20:30:00Z",
    "end": "2026-10-30T22:00:00Z",
@@ -855,9 +952,36 @@
    "sourceUrl": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Free and open to the public.",
    "score": 38
+  },
+  {
+   "id": "luma-evt-6q5ipkgk7ptv2a4-events-lu-ma-2026-10-30",
+   "title": "An Eye For An Eye Film Screening",
+   "kind": "event",
+   "city": "philly",
+   "category": "art",
+   "format": "Film screening",
+   "tags": [],
+   "start": "2026-10-30T22:00:00.000Z",
+   "end": "2026-10-31T00:45:00.000Z",
+   "venue": {
+    "name": "Village of Industry & Art",
+    "address": "320 S Broad St, Philadelphia, PA 19102, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/xgs21ojy\n\nAddress:\nVillage of Industry & Art\nPhiladelphia, PA\nUnited States\n\nThe Hamdeli Project & Middle East Center at UPenn are co-hosting a screening of An Eye For An Eye + Live Q&A with Director Tanaz Eshaghian and Producer, Cinematographer Gelareh Kiazand.\nThe Q&A discussion will be led by Armaghan Fakhraeirad, PhD Candidate in music studies at UPenn.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 28
   },
   {
    "id": "luma-evt-g1yccgoc9218f9c-events-lu-ma-2026-10-30",
@@ -881,7 +1005,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -890,6 +1014,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "sports",
+   "format": "Party",
    "tags": [],
    "start": "2026-10-30T23:00:00.000Z",
    "end": "2026-10-31T01:00:00.000Z",
@@ -907,7 +1032,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 24
   },
   {
@@ -915,7 +1040,7 @@
    "title": "Capture the Future",
    "kind": "event",
    "city": "nyc",
-   "category": "sports",
+   "category": "ideas",
    "tags": [],
    "start": "2026-10-30T23:00:00.000Z",
    "end": "2026-10-31T02:00:00.000Z",
@@ -933,8 +1058,78 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "score": 16
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 22
+  },
+  {
+   "id": "espn-401909279",
+   "title": "Brooklyn Nets vs. Detroit Pistons",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-10-30T23:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Detroit Pistons at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
+   "id": "espn-401909280",
+   "title": "Philadelphia 76ers vs. New York Knicks",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-10-30T23:30Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the New York Knicks at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
+   "id": "espn-401867831",
+   "title": "Princeton Tigers vs. Cornell Big Red",
+   "subtitle": "Ivy League football",
+   "kind": "event",
+   "city": "princeton",
+   "category": "sports",
+   "tags": [
+    "ivy league football"
+   ],
+   "start": "2026-10-31T16:00Z",
+   "venue": {
+    "name": "Princeton Stadium",
+    "address": "Princeton University"
+   },
+   "description": "Princeton Tigers host the Cornell Big Red at Princeton Stadium.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
+   "provenance": "live",
+   "sourceId": "princeton-football",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
+   "score": 12
   },
   {
    "id": "planet-princeton-10053752",
@@ -959,84 +1154,9 @@
    "sourceUrl": "https://planetprinceton.com/event/winery-weekend-music-series/2026-10-31/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
    "note": "Also on Nov 1, Nov 7, Nov 8, Nov 14 and later."
-  },
-  {
-   "id": "espn-401867831",
-   "title": "Princeton Tigers vs. Cornell Big Red",
-   "subtitle": "Ivy League football",
-   "kind": "event",
-   "city": "princeton",
-   "category": "sports",
-   "tags": [
-    "ivy league football"
-   ],
-   "start": "2026-10-31T16:00Z",
-   "venue": {
-    "name": "Princeton Stadium",
-    "address": "Princeton University"
-   },
-   "description": "Princeton Tigers host the Cornell Big Red at Princeton Stadium.",
-   "sourceName": "ESPN",
-   "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
-   "provenance": "live",
-   "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
-   "score": 12
-  },
-  {
-   "id": "planet-princeton-197583",
-   "title": "Fall Music Series",
-   "kind": "event",
-   "city": "princeton",
-   "category": "music",
-   "tags": [],
-   "start": "2026-10-31T17:00:00Z",
-   "end": "2026-10-31T19:00:00Z",
-   "venue": {
-    "name": "On the Green at Palmer Square",
-    "address": "40 Nassau Street, Princeton"
-   },
-   "description": "@ \n\nCelebrate the fall season with live music every Saturday afternoon on the Green! Enjoy al fresco dining, browse local shops, and let the sounds of acoustic covers, classic rock, and jazzy favorites bring the town to life.\n\nGrab a picnic table or bring your own chairs and blankets to relax on the lawn as you enjoy a crisp autumn afternoon filled with great music and good company! \n\nARTIST LINEUP: \n\n9/5: Charles…",
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/06/fall-music-series-F8Y9f0.webp"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/fall-music-series-8/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "score": 12
-  },
-  {
-   "id": "planet-princeton-198497",
-   "title": "Author Signing: Kate Fox",
-   "kind": "event",
-   "city": "princeton",
-   "category": "ideas",
-   "tags": [],
-   "start": "2026-10-31T17:00:00Z",
-   "end": "2026-10-31T19:00:00Z",
-   "venue": {
-    "name": "Cupid’s Bookshop",
-    "address": "4347 Main Street, Philadelphia"
-   },
-   "description": "Join us at Cupid’s Bookshop for an author signing with Kate Fox, celebrating her new paranormal romance, SUCCUBUS\n\nDate: Saturday, Oct 31, 2026\n\nTime: 1-3pm\n\nLocation: Cupid’s Bookshop – 4347 Main Street. Philadelphia, PA 19127\n\nTickets: FREE.",
-   "price": "Free",
-   "isFree": true,
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/09/Untitled-design.jpg"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/author-signing-kate-fox/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "why": "Free and open to the public.",
-   "score": 38
   },
   {
    "id": "luma-evt-y8uoybpakrbmhb7-events-lu-ma-2026-10-31",
@@ -1061,15 +1181,67 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
+  },
+  {
+   "id": "planet-princeton-197583",
+   "title": "Fall Music Series",
+   "kind": "event",
+   "city": "princeton",
+   "category": "music",
+   "tags": [],
+   "start": "2026-10-31T17:00:00Z",
+   "end": "2026-10-31T19:00:00Z",
+   "venue": {
+    "name": "On the Green at Palmer Square",
+    "address": "40 Nassau Street, Princeton"
+   },
+   "description": "@ \n\nCelebrate the fall season with live music every Saturday afternoon on the Green! Enjoy al fresco dining, browse local shops, and let the sounds of acoustic covers, classic rock, and jazzy favorites bring the town to life.\n\nGrab a picnic table or bring your own chairs and blankets to relax on the lawn as you enjoy a crisp autumn afternoon filled with great music and good company! \n\nARTIST LINEUP: \n\n9/5: Charles…",
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/06/fall-music-series-F8Y9f0.webp"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/fall-music-series-8/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 12
+  },
+  {
+   "id": "planet-princeton-198497",
+   "title": "Author Signing: Kate Fox",
+   "kind": "event",
+   "city": "princeton",
+   "category": "ideas",
+   "format": "Book talk",
+   "tags": [],
+   "start": "2026-10-31T17:00:00Z",
+   "end": "2026-10-31T19:00:00Z",
+   "venue": {
+    "name": "Cupid’s Bookshop",
+    "address": "4347 Main Street, Philadelphia"
+   },
+   "description": "Join us at Cupid’s Bookshop for an author signing with Kate Fox, celebrating her new paranormal romance, SUCCUBUS\n\nDate: Saturday, Oct 31, 2026\n\nTime: 1-3pm\n\nLocation: Cupid’s Bookshop – 4347 Main Street. Philadelphia, PA 19127\n\nTickets: FREE.",
+   "price": "Free",
+   "isFree": true,
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/09/Untitled-design.jpg"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/author-signing-kate-fox/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Free and open to the public.",
+   "score": 38
   },
   {
    "id": "luma-evt-h80rhu7sxttgmqi-events-lu-ma-2026-10-31",
    "title": "Philosophy at the Museum: Medieval Art at The Met Cloisters",
    "kind": "event",
    "city": "nyc",
-   "category": "music",
+   "category": "art",
    "tags": [],
    "start": "2026-10-31T18:00:00.000Z",
    "end": "2026-10-31T20:00:00.000Z",
@@ -1087,9 +1259,9 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "New York State residents can pay what they wish for admission to The Met.",
-   "score": 37
+   "score": 35
   },
   {
    "id": "village-halloween-parade-2026",
@@ -1209,7 +1381,7 @@
    "sourceUrl": "https://planetprinceton.com/event/mays-barden-cafe-at-herrontown-woods/2026-11-01/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22,
    "note": "Also on Dec 6."
   },
@@ -1218,7 +1390,8 @@
    "title": "Free Carillon Concert at Princeton University",
    "kind": "event",
    "city": "princeton",
-   "category": "music",
+   "category": "unusual",
+   "format": "Concert",
    "tags": [
     "free",
     "music"
@@ -1239,7 +1412,7 @@
    "sourceUrl": "https://planetprinceton.com/event/free-carillon-concert-at-princeton-university-2-2-2/2026-11-01/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Free.",
    "score": 38,
    "note": "Also on Nov 8, Nov 15, Nov 22, Nov 29 and later."
@@ -1264,7 +1437,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -1278,6 +1451,7 @@
    "kind": "event",
    "city": "princeton",
    "category": "ideas",
+   "format": "Book talk",
    "tags": [
     "books &amp; reading",
     "lecture"
@@ -1296,7 +1470,7 @@
    "sourceUrl": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 30
   },
   {
@@ -1319,7 +1493,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -1348,7 +1522,12 @@
     {
      "name": "Robert Glasper",
      "role": "Grammy-winning jazz pianist who works with rappers like Kendrick Lamar",
-     "wiki": "Robert_Glasper"
+     "wiki": "Robert_Glasper",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RG_Trio_3.jpg/1000px-RG_Trio_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Robert_Glasper"
+     }
     }
    ],
    "description": "Billed as the finale of Glasper’s Blue Note run, with his longtime bandmates Derrick Hodge on bass and Chris Dave on drums.",
@@ -1430,7 +1609,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 16
   },
   {
@@ -1455,8 +1634,110 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 10
+  },
+  {
+   "id": "luma-evt-am1g3eyoltieh9f-events-lu-ma-2026-11-02",
+   "title": "Native Plant Prep Party",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "format": "Party",
+   "tags": [],
+   "start": "2026-11-02T23:30:00.000Z",
+   "end": "2026-11-03T02:00:00.000Z",
+   "venue": {
+    "name": "Sulimay's Restaurant",
+    "address": "632 E Girard Ave, Philadelphia, PA 19125, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/oemofy6g\n\nAddress:\nSulimay's Restaurant\nPhiladelphia, PA\nUnited States\n\nWe're gearing up for the 2027 iteration of the Philly Native Plant Project, and we need YOUR HELP!\nThis year we distributed 15,000 packets of native plant seeds throughout the city.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20,
+   "note": "Also on Nov 16."
+  },
+  {
+   "id": "luma-evt-egejit1g5mvurua-events-lu-ma-2026-11-03",
+   "title": "BIG NIGHT screening & TIMPANO tasting!",
+   "kind": "event",
+   "city": "philly",
+   "category": "art",
+   "format": "Film screening",
+   "tags": [],
+   "start": "2026-11-03T00:00:00.000Z",
+   "end": "2026-11-03T03:30:00.000Z",
+   "venue": {
+    "name": "Pen & Pencil Club",
+    "address": "1522 Latimer St, Philadelphia, PA 19102, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/cr2xox31\n\nAddress:\nPen & Pencil Club\nPhiladelphia, PA\nUnited States\n\nOn Monday Nov. 2, we're celebrating 30 years of the best food film to come out of the Jersey Shore, \"The Big Night\" by Stanley Tucci and Campbell Scott.\nNo matter how hard we tried, we couldn't get Tucci to join us.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 28
+  },
+  {
+   "id": "espn-401909910",
+   "title": "New York Knicks vs. Brooklyn Nets",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-03T00:30Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Brooklyn Nets at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16
+  },
+  {
+   "id": "espn-401909912",
+   "title": "Philadelphia 76ers vs. Chicago Bulls",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-03T00:30Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Chicago Bulls at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
   },
   {
    "id": "luma-evt-rvb75rc8ev060sr-events-lu-ma-2026-11-03",
@@ -1464,6 +1745,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "unusual",
+   "format": "Workshop",
    "tags": [],
    "start": "2026-11-03T14:00:00.000Z",
    "end": "2026-11-03T17:00:00.000Z",
@@ -1480,7 +1762,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12
   },
   {
@@ -1489,6 +1771,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "unusual",
+   "format": "Workshop",
    "tags": [],
    "start": "2026-11-03T16:00:00.000Z",
    "end": "2026-11-03T23:00:00.000Z",
@@ -1506,7 +1789,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12
   },
   {
@@ -1515,6 +1798,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Party",
    "tags": [],
    "start": "2026-11-03T23:30:00.000Z",
    "end": "2026-11-04T02:30:00.000Z",
@@ -1531,7 +1815,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -1554,7 +1838,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -1583,7 +1867,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -1640,7 +1924,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 10
   },
   {
@@ -1665,7 +1949,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -1690,7 +1974,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -1716,8 +2000,34 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
+  },
+  {
+   "id": "luma-evt-fs6kacmzi7ootr6-events-lu-ma-2026-11-05",
+   "title": "clay club: garlands",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-05T00:00:00.000Z",
+   "end": "2026-11-05T02:30:00.000Z",
+   "venue": {
+    "name": "915 Spring Garden St",
+    "address": "Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/r5gibs2q\n\nAddress:\n915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 10
   },
   {
    "id": "luma-evt-1bvi2tdxxkmd4lz-events-lu-ma-2026-11-05",
@@ -1741,7 +2051,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
   },
   {
@@ -1775,6 +2085,53 @@
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
    "score": 48
+  },
+  {
+   "id": "espn-401909926",
+   "title": "New York Knicks vs. Chicago Bulls",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-05T00:30Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Chicago Bulls at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16
+  },
+  {
+   "id": "espn-401909925",
+   "title": "Brooklyn Nets vs. Charlotte Hornets",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-05T00:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Charlotte Hornets at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
   },
   {
    "id": "moth-storyslam-bell-house-2026-11-04",
@@ -1845,7 +2202,12 @@
     {
      "name": "Zach Sims",
      "role": "Co-founder of Codecademy",
-     "wiki": "Zach_Sims"
+     "wiki": "Zach_Sims",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Zach_Sims%2C_Co-Founder%2C_Codecademy_%26_Bobbie_Johnson%2C_European_Correspondent%2C_GigaOM_%40_LeWeb_London_2012_Central_Hall_Westminster-0672_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Zach_Sims"
+     }
     },
     {
      "name": "Andy Dunn",
@@ -1882,6 +2244,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Conference",
    "tags": [],
    "start": "2026-11-05T14:00:00.000Z",
    "end": "2026-11-06T22:00:00.000Z",
@@ -1898,7 +2261,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -1906,7 +2269,8 @@
    "title": "Sondheim’s Afterlives Symposium",
    "kind": "event",
    "city": "princeton",
-   "category": "art",
+   "category": "ideas",
+   "format": "Symposium",
    "tags": [],
    "start": "2026-11-05T18:00:00Z",
    "end": "2026-11-05T23:00:00Z",
@@ -1924,9 +2288,9 @@
    "sourceUrl": "https://planetprinceton.com/event/sondheims-afterlives-symposium/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "why": "Free.",
-   "score": 36
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Free and open to the public.",
+   "score": 38
   },
   {
    "id": "luma-evt-2e8lmob0lk9ekdb-events-lu-ma-2026-11-05",
@@ -1951,7 +2315,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -1975,7 +2339,12 @@
     {
      "name": "Ruth Wilson Gilmore",
      "role": "Geographer at the CUNY Graduate Center, author of Golden Gulag",
-     "wiki": "Ruth_Wilson_Gilmore"
+     "wiki": "Ruth_Wilson_Gilmore",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ruth_Wilson_Gilmore%2C_Heinrich_B%C3%B6ll_Foundation%2C_2012_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Ruth_Wilson_Gilmore"
+     }
     }
    ],
    "description": "Gilmore gives Princeton’s Stafford Little Lecture. Free and open to the public.",
@@ -1988,7 +2357,62 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 56
+   "score": 62,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ruth_Wilson_Gilmore%2C_Heinrich_B%C3%B6ll_Foundation%2C_2012_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Ruth_Wilson_Gilmore"
+   }
+  },
+  {
+   "id": "luma-evt-w8qzh9d4bszsy0k-events-lu-ma-2026-11-05",
+   "title": "Building a New Market: Compute as an Asset Class",
+   "kind": "event",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-11-05T22:30:00.000Z",
+   "end": "2026-11-06T00:30:00.000Z",
+   "venue": {
+    "name": "https://luma.com/event/evt-W8QZh9D4BsZsy0K"
+   },
+   "description": "Get up-to-date information at: https://luma.com/compute-spcnyc\n\nAddress:\nCheck event page for more details.\n\nWe're hosting a panel on the emerging market for AI compute.\n\nCompute is becoming something you can price, hedge, and trade.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 12
+  },
+  {
+   "id": "luma-evt-psdzaedyieuc1ql-events-lu-ma-2026-11-05",
+   "title": "Contra Studios",
+   "kind": "event",
+   "city": "nyc",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-05T22:30:00.000Z",
+   "end": "2026-11-06T03:00:00.000Z",
+   "venue": {
+    "name": "https://luma.com/event/evt-PsDZAEdYiEUC1Ql"
+   },
+   "description": "Get up-to-date information at: https://luma.com/zbysvhdt\n\nAddress:\nCheck event page for more details.\n\nAbout the Event\nJoin Contra for an evening of conversations, creativity, and community at the iconic Domino Sugar Refinery in Williamsburg, Brooklyn.\nWe're bringing together some of NYC's most exciting studio founders, independent designers, and creative leaders to explore the future of creative studios.\nFrom…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
   },
   {
    "id": "planet-princeton-198634",
@@ -2014,58 +2438,8 @@
    "sourceUrl": "https://planetprinceton.com/event/an-evening-of-hope-to-prevent-suicide/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
-  },
-  {
-   "id": "luma-evt-w8qzh9d4bszsy0k-events-lu-ma-2026-11-05",
-   "title": "Building a New Market: Compute as an Asset Class",
-   "kind": "event",
-   "city": "nyc",
-   "category": "ideas",
-   "tags": [],
-   "start": "2026-11-05T22:30:00.000Z",
-   "end": "2026-11-06T00:30:00.000Z",
-   "venue": {
-    "name": "https://luma.com/event/evt-W8QZh9D4BsZsy0K"
-   },
-   "description": "Get up-to-date information at: https://luma.com/compute-spcnyc\n\nAddress:\nCheck event page for more details.\n\nWe're hosting a panel on the emerging market for AI compute.\n\nCompute is becoming something you can price, hedge, and trade.",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "score": 12
-  },
-  {
-   "id": "luma-evt-psdzaedyieuc1ql-events-lu-ma-2026-11-05",
-   "title": "Contra Studios",
-   "kind": "event",
-   "city": "nyc",
-   "category": "startups",
-   "tags": [],
-   "start": "2026-11-05T22:30:00.000Z",
-   "end": "2026-11-06T03:00:00.000Z",
-   "venue": {
-    "name": "https://luma.com/event/evt-PsDZAEdYiEUC1Ql"
-   },
-   "description": "Get up-to-date information at: https://luma.com/zbysvhdt\n\nAddress:\nCheck event page for more details.\n\nAbout the Event\nJoin Contra for an evening of conversations, creativity, and community at the iconic Domino Sugar Refinery in Williamsburg, Brooklyn.\nWe're bringing together some of NYC's most exciting studio founders, independent designers, and creative leaders to explore the future of creative studios.\nFrom…",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "score": 20
   },
   {
    "id": "luma-evt-oyiw8ojkftydg9x-events-lu-ma-2026-11-05",
@@ -2090,7 +2464,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -2099,6 +2473,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Demo night",
    "tags": [],
    "start": "2026-11-05T23:00:00.000Z",
    "end": "2026-11-06T01:00:00.000Z",
@@ -2116,7 +2491,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 20
   },
   {
@@ -2125,6 +2500,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "ideas",
+   "format": "Conversation",
    "tags": [],
    "start": "2026-11-05T23:00:00.000Z",
    "end": "2026-11-06T01:00:00.000Z",
@@ -2142,7 +2518,7 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 30
   },
   {
@@ -2165,7 +2541,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -2232,7 +2608,12 @@
     {
      "name": "Spike Lee",
      "role": "Filmmaker (Do the Right Thing, Malcolm X)",
-     "wiki": "Spike_Lee"
+     "wiki": "Spike_Lee",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Neil_Grabosky_-_Spike_Lee_-_NEG_0876_%2854865282335%29.jpg/1000px-Neil_Grabosky_-_Spike_Lee_-_NEG_0876_%2854865282335%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Spike_Lee"
+     }
     }
    ],
    "description": "Spike Lee and partners take over the Brooklyn Academy of Music for two days.",
@@ -2270,8 +2651,34 @@
    "sourceUrl": "https://planetprinceton.com/event/acp-byob-wheel-ceramics-2/2026-11-06/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
+  },
+  {
+   "id": "luma-evt-tnz3ovokhaidzo5-events-lu-ma-2026-11-07",
+   "title": "platonic love club: friend dating (20s)",
+   "kind": "event",
+   "city": "philly",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-11-07T00:00:00.000Z",
+   "end": "2026-11-07T02:30:00.000Z",
+   "venue": {
+    "name": "At My House",
+    "address": "760 S 4th St, Philadelphia, PA 19147, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/3lz2au81\n\nAddress:\nAt My House\nPhiladelphia, Pennsylvania\nUnited States\n\nplatonic love club is the cutest, sweetest evening dedicated to making friends!! think bumble bff, but irl (and better) <333 we guide you with conversation starters, curated prompts, & even an after-hang.\nperf for introverts and extroverts! everyone coming is looking to make friends (whew) :)…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 12
   },
   {
    "id": "nycf-tim-dillon-beacon-2026",
@@ -2331,7 +2738,7 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 12
   },
@@ -2367,6 +2774,58 @@
     "credit": "wagnerfreeinstitute.org",
     "link": "https://www.wagnerfreeinstitute.org/events-1-1/november-first-saturday-open-housespooky-creature-feature"
    }
+  },
+  {
+   "id": "luma-evt-hjgdeekhhfx7asl-events-lu-ma-2026-11-07",
+   "title": "South Philly Sala / November 7/ Let there be light",
+   "kind": "event",
+   "city": "philly",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-11-07T18:00:00.000Z",
+   "end": "2026-11-07T22:00:00.000Z",
+   "venue": {
+    "name": "2322 S 10th St",
+    "address": "Philadelphia, PA 19148, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/fi96du5d\n\nAddress:\n2322 S 10th St\nPhiladelphia, PA\nUnited States\n\nSouth Philly Sala is a community gathering space in South Philadelphia that functions as a living room, community kitchen, workshop space, and mutual aid lab—a place where people can connect, create, share resources, learn across differences, and practice solidarity in everyday life.\nThis month, we are…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 22
+  },
+  {
+   "id": "luma-evt-cgw132hvflku362-events-lu-ma-2026-11-07",
+   "title": "Intro to Watercolor",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-07T20:00:00.000Z",
+   "end": "2026-11-07T22:00:00.000Z",
+   "venue": {
+    "name": "Freehand Art Supply",
+    "address": "308 E Girard Ave, Philadelphia, PA 19125, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/k6bidpqw\n\nAddress:\nFreehand Art Supply\nPhiladelphia, PA\nUnited States\n\n*Note: Just posted this second class date since the original date filled up immediately! Same class, different date/time\nAdults (18+)  |  All Materials Provided  |  No experience needed\nInstructor: Amy Kelly\nLearn the basics of watercolor in this 2-hour class designed specifically for beginners.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
   },
   {
    "id": "nycf-marc-maron-beacon-2026",
@@ -2487,7 +2946,12 @@
     {
      "name": "Moshe Kasher",
      "role": "Comedian with several Netflix specials; grew up with deaf parents and writes about it",
-     "wiki": "Moshe_Kasher"
+     "wiki": "Moshe_Kasher",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/MosheKasherSketchfest.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Moshe_Kasher"
+     }
     }
    ],
    "description": "Stand-up from Moshe Kasher at the Bell House in Gowanus.",
@@ -2524,7 +2988,12 @@
     {
      "name": "Geese",
      "role": "Young Brooklyn rock band with a wild live show",
-     "wiki": "Geese_(band)"
+     "wiki": "Geese_(band)",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Geese_%28Band%29_Philadelphia_August_2024.jpg/1000px-Geese_%28Band%29_Philadelphia_August_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Geese_(band)"
+     }
     }
    ],
    "description": "The Brooklyn band on its North American tour.",
@@ -2562,7 +3031,7 @@
    "sourceUrl": "https://www.philadelphiaeagles.com/schedule/",
    "provenance": "live",
    "sourceId": "eagles",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Lincoln Financial Field is home to the Eagles.",
    "score": 20,
    "image": {
@@ -2597,7 +3066,12 @@
     {
      "name": "Aziz Abu Sarah",
      "role": "Palestinian peace activist; his brother died after Israeli detention",
-     "wiki": "Aziz_Abu_Sarah"
+     "wiki": "Aziz_Abu_Sarah",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Aziz_Abu_Sarah.jpg/1000px-Aziz_Abu_Sarah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Aziz_Abu_Sarah"
+     }
     }
    ],
    "description": "An Israeli and a Palestinian who both lost family to the conflict, on working together for peace.",
@@ -2607,7 +3081,12 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 53
+   "score": 59,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Aziz_Abu_Sarah.jpg/1000px-Aziz_Abu_Sarah.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Aziz_Abu_Sarah"
+   }
   },
   {
    "id": "vanguard-jazz-orchestra-2026-11-09",
@@ -2710,7 +3189,12 @@
     {
      "name": "Annie Proulx",
      "role": "Author of The Shipping News and “Brokeback Mountain”",
-     "wiki": "Annie_Proulx"
+     "wiki": "Annie_Proulx",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/2018-us-nationalbookfestival-annie-proulx.jpg/1000px-2018-us-nationalbookfestival-annie-proulx.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Annie_Proulx"
+     }
     },
     {
      "name": "Michael Cunningham",
@@ -2832,7 +3316,12 @@
     {
      "name": "Valeria Luiselli",
      "role": "Mexican novelist, author of Lost Children Archive",
-     "wiki": "Valeria_Luiselli"
+     "wiki": "Valeria_Luiselli",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hayfestival-2016-Valeria-Luiselli-stage.jpg/1000px-Hayfestival-2016-Valeria-Luiselli-stage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Valeria_Luiselli"
+     }
     }
    ],
    "description": "A public lecture by the novelist. Free and open to everyone.",
@@ -2845,7 +3334,59 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 56
+   "score": 62,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Hayfestival-2016-Valeria-Luiselli-stage.jpg/1000px-Hayfestival-2016-Valeria-Luiselli-stage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Valeria_Luiselli"
+   }
+  },
+  {
+   "id": "espn-401909960",
+   "title": "New York Knicks vs. Milwaukee Bucks",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-11T00:30Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Milwaukee Bucks at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16
+  },
+  {
+   "id": "espn-401909961",
+   "title": "Philadelphia 76ers vs. Boston Celtics",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-11T01:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Boston Celtics at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
   },
   {
    "id": "blue-note-vic-mensa-2026",
@@ -2890,6 +3431,31 @@
    }
   },
   {
+   "id": "espn-401909967",
+   "title": "New York Knicks vs. Cleveland Cavaliers",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-12T00:00Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Cleveland Cavaliers at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16,
+   "note": "Also on Nov 25."
+  },
+  {
    "id": "92ny-munk-debate-liberalism-2026",
    "format": "Live debate",
    "title": "Munk Debate: Has Liberalism Failed America?",
@@ -2910,7 +3476,12 @@
     {
      "name": "Fareed Zakaria",
      "role": "Host of CNN’s Fareed Zakaria GPS and Washington Post columnist",
-     "wiki": "Fareed_Zakaria"
+     "wiki": "Fareed_Zakaria",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Fareed_Zakaria%2C_Peabody_Awards_%282012%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Fareed_Zakaria"
+     }
     },
     {
      "name": "Patrick Deneen",
@@ -2931,7 +3502,12 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 102
+   "score": 108,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Fareed_Zakaria%2C_Peabody_Awards_%282012%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Fareed_Zakaria"
+   }
   },
   {
    "id": "brooklyn-steel-jalen-ngonda-2026",
@@ -2953,7 +3529,12 @@
     {
      "name": "Jalen Ngonda",
      "role": "Soul singer whose records sound like 1960s Motown",
-     "wiki": "Jalen_Ngonda"
+     "wiki": "Jalen_Ngonda",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jalen_Ngonda_in_Liverpool%2C_2025.jpg/1000px-Jalen_Ngonda_in_Liverpool%2C_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Jalen_Ngonda"
+     }
     }
    ],
    "description": "Classic-sounding soul from the Daptone singer.",
@@ -2963,7 +3544,12 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 35
+   "score": 41,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Jalen_Ngonda_in_Liverpool%2C_2025.jpg/1000px-Jalen_Ngonda_in_Liverpool%2C_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Jalen_Ngonda"
+   }
   },
   {
    "id": "ut-slow-pulp-2026",
@@ -2986,7 +3572,12 @@
     {
      "name": "Slow Pulp",
      "role": "Chicago-based indie rock band; fuzzy guitars, soft vocals",
-     "wiki": "Slow_Pulp"
+     "wiki": "Slow_Pulp",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Slow_Pulp.jpg/1000px-Slow_Pulp.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Slow_Pulp"
+     }
     }
    ],
    "description": "Slow Pulp headline, with Her New Knife opening.",
@@ -3002,6 +3593,60 @@
     "credit": "songkick.com",
     "link": "https://songkick.com/concerts/43208646-slow-pulp-at-union-transfer"
    }
+  },
+  {
+   "id": "luma-evt-evw5uqle3nmhptj-events-lu-ma-2026-11-12",
+   "title": "Art Club / Open Studio: BYO Project",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-12T22:00:00.000Z",
+   "end": "2026-11-12T23:45:00.000Z",
+   "venue": {
+    "name": "Freehand Art Supply",
+    "address": "308 E Girard Ave, Philadelphia, PA 19125, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/53a0waw4\n\nAddress:\nFreehand Art Supply\nPhiladelphia, PA\nUnited States\n\nJoin us for a Thursday Night Art Club - Open Studio!\nIt's free to join, just BYO something to work on.",
+   "isFree": true,
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Free.",
+   "score": 18
+  },
+  {
+   "id": "luma-evt-5ujfi5dveavnz1o-events-lu-ma-2026-11-12",
+   "title": "Philly Fintech Meetup",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-12T23:00:00.000Z",
+   "end": "2026-11-13T01:30:00.000Z",
+   "venue": {
+    "name": "Love City Brewing",
+    "address": "1023 Hamilton St, Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/vdeitztz\n\nAddress:\nLove City Brewing\nPhiladelphia, PA\nUnited States\n\nWe’re back! Following a fantastic sold-out summer meetup, we’re excited to bring the Philly FinTech community together again on November 12th, 2026.\nOur Philly friends, 'Gregory Agency' are hosting us at the event.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 10
   },
   {
    "id": "mutter-meet-geek-frankenstein-2026",
@@ -3038,6 +3683,56 @@
    }
   },
   {
+   "id": "espn-401909976",
+   "title": "Philadelphia 76ers vs. Toronto Raptors",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-13T00:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Toronto Raptors at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
+   "id": "luma-evt-epb6pis79u9ramh-events-lu-ma-2026-11-13",
+   "title": "MAMABABY SPIRIT SWAMP FUNDRAISER PARTY 🌴",
+   "kind": "event",
+   "city": "philly",
+   "category": "art",
+   "format": "Party",
+   "tags": [],
+   "start": "2026-11-13T00:00:00.000Z",
+   "end": "2026-11-13T04:00:00.000Z",
+   "venue": {
+    "name": "Broad Hall",
+    "address": "699 N Broad St, Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/uwj8nxsv\n\nAddress:\nBroad Hall\nPhiladelphia, PA\nUnited States\n\nSink into the rich visual world of Xenia Matthews’ debut feature film MAMABABY for the first event in the film’s fundraising campaign.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
+  },
+  {
    "id": "free-library-tommasini-mcgill-2026",
    "format": "Book talk",
    "title": "Anthony Tommasini: Voice of a Century",
@@ -3062,7 +3757,12 @@
     {
      "name": "Anthony McGill",
      "role": "Principal clarinet of the New York Philharmonic, in conversation",
-     "wiki": "Anthony_McGill"
+     "wiki": "Anthony_McGill",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Anthony_McGill_PHC_2016-3.jpg/1000px-Anthony_McGill_PHC_2016-3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Anthony_McGill"
+     }
     }
    ],
    "description": "Tommasini discusses his new book with clarinetist Anthony McGill.",
@@ -3073,7 +3773,12 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 48
+   "score": 54,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Anthony_McGill_PHC_2016-3.jpg/1000px-Anthony_McGill_PHC_2016-3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Anthony_McGill"
+   }
   },
   {
    "id": "pu-concerts-radulovic-2026",
@@ -3094,7 +3799,12 @@
     {
      "name": "Nemanja Radulović",
      "role": "Serbian-French violinist known for flashy, high-energy classical shows",
-     "wiki": "Nemanja_Radulović"
+     "wiki": "Nemanja_Radulović",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nemanja_radulovic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Nemanja_Radulovi%C4%87"
+     }
     }
    ],
    "description": "Princeton University Concerts presents the violinist with his string ensemble, Double Sens.",
@@ -3104,7 +3814,12 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 53
+   "score": 59,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Nemanja_radulovic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Nemanja_Radulovi%C4%87"
+   }
   },
   {
    "id": "planet-princeton-10056155",
@@ -3129,7 +3844,7 @@
    "sourceUrl": "https://planetprinceton.com/event/136th-annual-princeton-triangle-show/2026-11-13/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
    "score": 27,
    "timeTBA": true
@@ -3155,7 +3870,12 @@
     {
      "name": "Adam Friedland",
      "role": "Comedian; hosts The Adam Friedland Show, a deadpan talk show with politicians and celebrities",
-     "wiki": "Adam_Friedland"
+     "wiki": "Adam_Friedland",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Adam_Friedland%2C_Jan_2026_%28cropped%29.jpg/1000px-Adam_Friedland%2C_Jan_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Adam_Friedland"
+     }
     }
    ],
    "description": "Stand-up from Adam Friedland at Town Hall.",
@@ -3171,6 +3891,32 @@
     "credit": "abc7ny.com",
     "link": "https://abc7ny.com/post/2026-new-york-comedy-festival-returns-nyc-200-comedians-100-shows-november/19499323/"
    }
+  },
+  {
+   "id": "luma-evt-6wb1ndvsfmmhjwx-events-lu-ma-2026-11-14",
+   "title": "Top Chef 23: Nana x Laurence Dinner at Percy 7:30pm",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-14T00:30:00.000Z",
+   "end": "2026-11-14T02:00:00.000Z",
+   "venue": {
+    "name": "Percy Diner & Bar",
+    "address": "1700 N Front St, Philadelphia, PA 19122, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/5bg0be3r\n\nAddress:\nPercy Diner & Bar\nPhiladelphia, PA\nUnited States\n\nTop Chef season 23 reunion: Chef Nana x Chef Laurence November 13th in Philadelphia!\nA Top Chef Season 23 reunion, one night only in Philadelphia — Chef Nana hosts Chef Laurence at Percy Diner in Fishtown for a collaboration dinner as part of his Have You Eaten Yet? tour\n\nLaurence Louie is a…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
   },
   {
    "id": "planet-princeton-10056084",
@@ -3199,7 +3945,7 @@
    "sourceUrl": "https://planetprinceton.com/event/pie-tasting-weekend/2026-11-14/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22,
    "note": "Also on Nov 15."
   },
@@ -3222,12 +3968,22 @@
     {
      "name": "Rhiannon Giddens",
      "role": "Grammy-winning folk musician, Silkroad’s artistic director",
-     "wiki": "Rhiannon_Giddens"
+     "wiki": "Rhiannon_Giddens",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Rhiannon_Giddens%2C_2016_%28cropped%29.jpg/1000px-Rhiannon_Giddens%2C_2016_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Rhiannon_Giddens"
+     }
     },
     {
      "name": "Yo-Yo Ma",
      "role": "Cellist and founder of Silkroad",
-     "wiki": "Yo-Yo_Ma"
+     "wiki": "Yo-Yo_Ma",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Yo-Yo_Ma_in_2018_%28cropped%29.jpg/1000px-Yo-Yo_Ma_in_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Yo-Yo_Ma"
+     }
     }
    ],
    "description": "The ensemble Yo-Yo Ma founded, led by Rhiannon Giddens, with Ma playing.",
@@ -3240,7 +3996,35 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 58
+   "score": 64,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Rhiannon_Giddens%2C_2016_%28cropped%29.jpg/1000px-Rhiannon_Giddens%2C_2016_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Rhiannon_Giddens"
+   }
+  },
+  {
+   "id": "espn-401909985",
+   "title": "Philadelphia 76ers vs. Indiana Pacers",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-15T18:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Indiana Pacers at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
   },
   {
    "id": "nhl-2026020326",
@@ -3262,13 +4046,36 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
     "credit": "nhl.com",
     "link": "https://www.nhl.com/flyers/schedule"
    }
+  },
+  {
+   "id": "espn-401909997",
+   "title": "Brooklyn Nets vs. Philadelphia 76ers",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-17T00:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Philadelphia 76ers at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
   },
   {
    "id": "nhl-2026020331",
@@ -3290,7 +4097,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -3320,7 +4127,12 @@
     {
      "name": "Eric Lu",
      "role": "Pianist, winner of the International Chopin Piano Competition",
-     "wiki": "Eric_Lu"
+     "wiki": "Eric_Lu",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Pianist_Eric_Lu_at_Tanglewood_2026_%28Photo_by_Jay_W%29_%28cropped%29.jpg/1000px-Pianist_Eric_Lu_at_Tanglewood_2026_%28Photo_by_Jay_W%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Eric_Lu"
+     }
     }
    ],
    "description": "Brahms, Schubert and Chopin.",
@@ -3337,6 +4149,32 @@
     "credit": "broadwayworld.com",
     "link": "https://www.broadwayworld.com/article/McCarter-Theatre-Center-Reveals-20262027-Dance-and-Music-Series-20260429"
    }
+  },
+  {
+   "id": "luma-evt-qb8rejwo3t31asf-events-lu-ma-2026-11-17",
+   "title": "Cursor Meetup Philadelphia — November",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-17T23:00:00.000Z",
+   "end": "2026-11-18T01:30:00.000Z",
+   "venue": {
+    "name": "Indy Hall Clubhouse at 709 N 2nd St",
+    "address": "709 N 2nd St 3rd Floor, Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/cursor-acqy\n\nAddress:\nIndy Hall Clubhouse at 709 N 2nd St\nIndy Hall Clubhouse at 709 N 2nd St, 709 N 2nd St 3rd Floor, Philadelphia, PA 19123, USA\nPhiladelphia, PA\nUnited States\n\n📍 Indy Hall, 709 N 2nd St 3rd Floor, Philadelphia, PA 19123\n🗓 Tuesday, November 17th\n🕕 6:00 – 8:30 PM\nA Philadelphia-based community for developers, designers, engineers, and AI enthusiasts…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 10
   },
   {
    "id": "nhl-2026020337",
@@ -3358,13 +4196,39 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
     "credit": "nhl.com",
     "link": "https://www.nhl.com/flyers/schedule"
    }
+  },
+  {
+   "id": "luma-evt-mxxrvtcieljoozq-events-lu-ma-2026-11-18",
+   "title": "BIPOC craft night",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-18T00:00:00.000Z",
+   "end": "2026-11-18T02:00:00.000Z",
+   "venue": {
+    "name": "915 Spring Garden St",
+    "address": "Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/x0aey23b\n\nAddress:\n915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
   },
   {
    "id": "new-york-venture-summit-2026",
@@ -3405,6 +4269,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Pitch competition",
    "tags": [
     "columbia engineering"
    ],
@@ -3418,7 +4283,7 @@
    "sourceUrl": "https://entrepreneurship.columbia.edu/event/fast-pitch-2026/",
    "provenance": "live",
    "sourceId": "columbia-entrepreneurship",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 14
   },
   {
@@ -3455,6 +4320,29 @@
    "score": 48
   },
   {
+   "id": "espn-401910011",
+   "title": "Brooklyn Nets vs. Chicago Bulls",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-19T00:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Chicago Bulls at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
    "id": "lcd-soundsystem-knockdown-2026",
    "format": "Dance-punk concert",
    "title": "LCD Soundsystem",
@@ -3476,7 +4364,12 @@
     {
      "name": "LCD Soundsystem",
      "role": "James Murphy’s New York dance-punk band (“All My Friends”, “Losing My Edge”)",
-     "wiki": "LCD_Soundsystem"
+     "wiki": "LCD_Soundsystem",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/LCD_Soundsystem_%28220535%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/LCD_Soundsystem"
+     }
     }
    ],
    "description": "The band’s yearly New York residency starts with four nights in a former glass factory in Queens, then moves to Brooklyn Steel from November 30.",
@@ -3499,7 +4392,7 @@
    "title": "Story & Verse: A Storytelling and Poetic Open Mic",
    "kind": "event",
    "city": "princeton",
-   "category": "art",
+   "category": "comedy",
    "tags": [],
    "start": "2026-11-20T00:00:00Z",
    "end": "2026-11-20T02:00:00Z",
@@ -3516,9 +4409,9 @@
    "sourceUrl": "https://planetprinceton.com/event/story-verse-a-storytelling-and-poetic-open-mic/2026-11-19/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Free.",
-   "score": 28
+   "score": 30
   },
   {
    "id": "mccarter-rufus-wainwright-judy-2026",
@@ -3568,6 +4461,7 @@
    "kind": "event",
    "city": "nyc",
    "category": "startups",
+   "format": "Pitch competition",
    "tags": [
     "columbia university mailman school of public health"
    ],
@@ -3581,8 +4475,31 @@
    "sourceUrl": "https://entrepreneurship.columbia.edu/event/columbia-healthcare-ventures-fast-pitch-competition/",
    "provenance": "live",
    "sourceId": "columbia-entrepreneurship",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 14
+  },
+  {
+   "id": "espn-401909306",
+   "title": "Brooklyn Nets vs. Orlando Magic",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-21T00:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Orlando Magic at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
   },
   {
    "id": "techday-ai-founders-day-2026",
@@ -3655,7 +4572,12 @@
     {
      "name": "Julia Jacklin",
      "role": "Australian singer-songwriter; quiet, sad guitar songs",
-     "wiki": "Julia_Jacklin"
+     "wiki": "Julia_Jacklin",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RF_2906_Julia-Jackin_Krists_Luhaers-14_%2834914133554%29.jpg/1000px-RF_2906_Julia-Jackin_Krists_Luhaers-14_%2834914133554%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Julia_Jacklin"
+     }
     }
    ],
    "description": "The Australian songwriter at Union Transfer.",
@@ -3665,7 +4587,12 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 45
+   "score": 51,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RF_2906_Julia-Jackin_Krists_Luhaers-14_%2834914133554%29.jpg/1000px-RF_2906_Julia-Jackin_Krists_Luhaers-14_%2834914133554%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Julia_Jacklin"
+   }
   },
   {
    "id": "espn-401872619",
@@ -3687,9 +4614,108 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 12
+  },
+  {
+   "id": "luma-evt-5hbo9afglswchrm-events-lu-ma-2026-11-21",
+   "title": "junk journal club",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-21T17:00:00.000Z",
+   "end": "2026-11-21T19:00:00.000Z",
+   "venue": {
+    "name": "915 Spring Garden St",
+    "address": "Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/iqxc4f2c\n\nAddress:\n915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 10
+  },
+  {
+   "id": "espn-401910023",
+   "title": "Philadelphia 76ers vs. Milwaukee Bucks",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-21T18:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Milwaukee Bucks at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
+   "id": "luma-evt-at7znpoqvtgqsvc-events-lu-ma-2026-11-21",
+   "title": "friendsgiving!",
+   "kind": "event",
+   "city": "philly",
+   "category": "startups",
+   "tags": [],
+   "start": "2026-11-21T22:00:00.000Z",
+   "end": "2026-11-22T00:00:00.000Z",
+   "venue": {
+    "name": "915 Spring Garden St",
+    "address": "Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/87palv5r\n\nAddress:\n915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 20
+  },
+  {
+   "id": "espn-401910024",
+   "title": "New York Knicks vs. Portland Trail Blazers",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-22T00:30Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Portland Trail Blazers at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16
   },
   {
    "id": "mccarter-ira-glass-2026",
@@ -3711,7 +4737,12 @@
     {
      "name": "Ira Glass",
      "role": "Host and creator of This American Life",
-     "wiki": "Ira_Glass"
+     "wiki": "Ira_Glass",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ira_Glass_This_American_Life-09_%28cropped%29.jpg/1000px-Ira_Glass_This_American_Life-09_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Ira_Glass"
+     }
     }
    ],
    "description": "The host of This American Life on stage at McCarter’s Matthews Theatre.",
@@ -3724,7 +4755,12 @@
    "provenance": "preview",
    "sourceId": "preview",
    "checkedAt": "2026-10-28T12:00:00.000Z",
-   "score": 50
+   "score": 56,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Ira_Glass_This_American_Life-09_%28cropped%29.jpg/1000px-Ira_Glass_This_American_Life-09_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Ira_Glass"
+   }
   },
   {
    "id": "philadelphia-marathon-2026",
@@ -3760,6 +4796,32 @@
    }
   },
   {
+   "id": "luma-evt-b4t18eslfecur14-events-lu-ma-2026-11-22",
+   "title": "Visible Mending with Sew+Sew",
+   "kind": "event",
+   "city": "philly",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-11-22T16:00:00.000Z",
+   "end": "2026-11-22T18:00:00.000Z",
+   "venue": {
+    "name": "Freehand Art Supply",
+    "address": "308 E Girard Ave, Philadelphia, PA 19125, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/9jics0tc\n\nAddress:\nFreehand Art Supply\nPhiladelphia, PA\nUnited States\n\nAdults (18+)  |  All Materials Provided  |  No experience needed\nInstructor: Cat\nLearn visible mending with Cat from sew+sew studio, the most colorful studio in philadelphia! In this one day workshop we will cover basic hand stitching techniques to keep your favorite clothes looking fresh and…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 22
+  },
+  {
    "id": "nhl-2026020373",
    "title": "New York Rangers vs. Carolina Hurricanes",
    "subtitle": "NHL",
@@ -3779,15 +4841,15 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
+   "note": "Also on Nov 30.",
    "image": {
     "url": "https://assets.nhle.com/team-arena/3.jpg",
     "credit": "nhl.com",
     "link": "https://www.nhl.com/rangers/schedule"
-   },
-   "note": "Also on Nov 30."
+   }
   },
   {
    "id": "espn-401873076",
@@ -3809,7 +4871,7 @@
    "sourceUrl": "https://www.philadelphiaeagles.com/schedule/",
    "provenance": "live",
    "sourceId": "eagles",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Lincoln Financial Field is home to the Eagles.",
    "score": 20,
    "image": {
@@ -3817,6 +4879,30 @@
     "credit": "philadelphiaeagles.com",
     "link": "https://www.philadelphiaeagles.com/schedule/"
    }
+  },
+  {
+   "id": "espn-401910034",
+   "title": "New York Knicks vs. Indiana Pacers",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-23T01:00Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Indiana Pacers at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16
   },
   {
    "id": "town-hall-terry-gross-paul-mccartney-2026",
@@ -3873,6 +4959,29 @@
    }
   },
   {
+   "id": "espn-401910037",
+   "title": "Philadelphia 76ers vs. Portland Trail Blazers",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-24T00:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Portland Trail Blazers at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
    "id": "92ny-muldoons-picnic-2026",
    "format": "Poetry and music night",
    "title": "Muldoon’s Picnic",
@@ -3894,7 +5003,12 @@
     {
      "name": "Paul Muldoon",
      "role": "Pulitzer-winning Irish poet, Princeton professor, and the night’s host",
-     "wiki": "Paul_Muldoon"
+     "wiki": "Paul_Muldoon",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Paul_Muldoon_in_Tepoztl%C3%A1n%2C_2018_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Paul_Muldoon"
+     }
     },
     {
      "name": "Richard Thompson",
@@ -3909,12 +5023,22 @@
     {
      "name": "Marie Howe",
      "role": "Poet, former New York State Poet",
-     "wiki": "Marie_Howe"
+     "wiki": "Marie_Howe",
+     "image": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Marie_howe_9021921.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Marie_Howe"
+     }
     },
     {
      "name": "Molly Jong-Fast",
      "role": "Political writer and MSNBC commentator",
-     "wiki": "Molly_Jong-Fast"
+     "wiki": "Molly_Jong-Fast",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Molly_Jong_Fast_Open_Congress_Austin_2023.jpg/1000px-Molly_Jong_Fast_Open_Congress_Austin_2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Molly_Jong-Fast"
+     }
     }
    ],
    "description": "Paul Muldoon’s variety night, with his band Rogue Oliphant. Guests read, play and talk.",
@@ -3958,6 +5082,29 @@
    "score": 32
   },
   {
+   "id": "espn-401909317",
+   "title": "Philadelphia 76ers vs. Miami Heat",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-25T22:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Miami Heat at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
    "id": "planet-princeton-197380",
    "title": "The Nutcracker",
    "kind": "event",
@@ -3986,7 +5133,7 @@
    "sourceUrl": "https://planetprinceton.com/event/the-nutcracker/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
    "score": 32
   },
@@ -4010,7 +5157,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -4039,8 +5186,32 @@
    "sourceUrl": "https://planetprinceton.com/event/palmer-square-annual-tree-lighting-2/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
+  },
+  {
+   "id": "espn-401909326",
+   "title": "New York Knicks vs. Miami Heat",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-28T00:00Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Miami Heat at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16
   },
   {
    "id": "planet-princeton-198176",
@@ -4062,9 +5233,38 @@
    "sourceUrl": "https://planetprinceton.com/event/holiday-strolling-entertainment-9/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22,
    "note": "Also on Nov 29, Dec 5, Dec 6, Dec 12."
+  },
+  {
+   "id": "nhl-2026020419",
+   "title": "New York Rangers vs. Calgary Flames",
+   "subtitle": "NHL",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nhl"
+   ],
+   "start": "2026-11-29T00:00:00Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Rangers host the Calgary Flames at Madison Square Garden.",
+   "sourceName": "NHL",
+   "sourceUrl": "https://www.nhl.com/rangers/schedule",
+   "provenance": "live",
+   "sourceId": "rangers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 22,
+   "image": {
+    "url": "https://assets.nhle.com/team-arena/3.jpg",
+    "credit": "nhl.com",
+    "link": "https://www.nhl.com/rangers/schedule"
+   }
   },
   {
    "id": "planet-princeton-10054104",
@@ -4087,37 +5287,8 @@
    "sourceUrl": "https://planetprinceton.com/event/cafe-improv/2026-11-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
-  },
-  {
-   "id": "nhl-2026020419",
-   "title": "New York Rangers vs. Calgary Flames",
-   "subtitle": "NHL",
-   "kind": "event",
-   "city": "nyc",
-   "category": "sports",
-   "tags": [
-    "nhl"
-   ],
-   "start": "2026-11-29T00:00:00Z",
-   "venue": {
-    "name": "Madison Square Garden",
-    "address": "4 Pennsylvania Plaza, New York"
-   },
-   "description": "New York Rangers host the Calgary Flames at Madison Square Garden.",
-   "sourceName": "NHL",
-   "sourceUrl": "https://www.nhl.com/rangers/schedule",
-   "provenance": "live",
-   "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
-   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 22,
-   "image": {
-    "url": "https://assets.nhle.com/team-arena/3.jpg",
-    "credit": "nhl.com",
-    "link": "https://www.nhl.com/rangers/schedule"
-   }
   },
   {
    "id": "nhl-2026020423",
@@ -4139,14 +5310,107 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
+   "note": "Also on Dec 3.",
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
     "credit": "nhl.com",
     "link": "https://www.nhl.com/flyers/schedule"
+   }
+  },
+  {
+   "id": "espn-401910056",
+   "title": "New York Knicks vs. Atlanta Hawks",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-29T23:00Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
    },
-   "note": "Also on Dec 3."
+   "description": "New York Knicks host the Atlanta Hawks at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 16
+  },
+  {
+   "id": "espn-401910063",
+   "title": "Brooklyn Nets vs. Oklahoma City Thunder",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-12-01T00:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Oklahoma City Thunder at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
+   "id": "espn-401910069",
+   "title": "Philadelphia 76ers vs. Memphis Grizzlies",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-12-02T00:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Memphis Grizzlies at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
+  },
+  {
+   "id": "espn-401910077",
+   "title": "Philadelphia 76ers vs. Denver Nuggets",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-12-03T00:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Denver Nuggets at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
+   "score": 6
   },
   {
    "id": "nhl-2026020451",
@@ -4168,7 +5432,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -4197,7 +5461,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -4226,7 +5490,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -4256,7 +5520,7 @@
    "sourceUrl": "https://planetprinceton.com/event/annual-menorah-lighting-2/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 22
   },
   {
@@ -4279,7 +5543,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T16:26:16.786Z",
+   "checkedAt": "2026-10-28T16:30:15.108Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -4317,10 +5581,9 @@
    "city": "nyc",
    "kind": "tribe",
    "homepage": "https://entrepreneurship.columbia.edu/events/",
-   "ok": false,
-   "count": 2,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 5,
+   "ms": 234
   },
   {
    "id": "eagles",
@@ -4328,10 +5591,9 @@
    "city": "philly",
    "kind": "espn",
    "homepage": "https://www.philadelphiaeagles.com/schedule/",
-   "ok": false,
+   "ok": true,
    "count": 2,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ms": 610
   },
   {
    "id": "flyers",
@@ -4339,10 +5601,9 @@
    "city": "philly",
    "kind": "nhl",
    "homepage": "https://www.nhl.com/flyers/schedule",
-   "ok": false,
-   "count": 7,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 8,
+   "ms": 676
   },
   {
    "id": "knicks",
@@ -4350,10 +5611,9 @@
    "city": "nyc",
    "kind": "espn",
    "homepage": "https://www.nba.com/knicks/schedule",
-   "ok": false,
-   "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 9,
+   "ms": 344
   },
   {
    "id": "luma-nyc",
@@ -4361,10 +5621,9 @@
    "city": "nyc",
    "kind": "luma",
    "homepage": "https://luma.com/nyc",
-   "ok": false,
-   "count": 42,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 50,
+   "ms": 959
   },
   {
    "id": "luma-philly",
@@ -4372,10 +5631,9 @@
    "city": "philly",
    "kind": "luma",
    "homepage": "https://luma.com/philadelphia",
-   "ok": false,
-   "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 21,
+   "ms": 831
   },
   {
    "id": "mets",
@@ -4383,10 +5641,9 @@
    "city": "nyc",
    "kind": "mlb",
    "homepage": "https://www.mlb.com/mets/schedule",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ms": 442
   },
   {
    "id": "nets",
@@ -4394,10 +5651,9 @@
    "city": "nyc",
    "kind": "espn",
    "homepage": "https://www.nba.com/nets/schedule",
-   "ok": false,
-   "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 6,
+   "ms": 400
   },
   {
    "id": "phillies",
@@ -4405,10 +5661,9 @@
    "city": "philly",
    "kind": "mlb",
    "homepage": "https://www.mlb.com/phillies/schedule",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ms": 517
   },
   {
    "id": "planet-princeton",
@@ -4416,10 +5671,9 @@
    "city": "princeton",
    "kind": "tribe",
    "homepage": "https://planetprinceton.com/events/",
-   "ok": false,
-   "count": 24,
-   "ms": 1,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 169,
+   "ms": 4437
   },
   {
    "id": "preview",
@@ -4437,10 +5691,9 @@
    "city": "princeton",
    "kind": "espn",
    "homepage": "https://goprincetontigers.com/sports/football/schedule",
-   "ok": false,
+   "ok": true,
    "count": 3,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ms": 244
   },
   {
    "id": "princeton-mbb",
@@ -4448,10 +5701,9 @@
    "city": "princeton",
    "kind": "espn",
    "homepage": "https://goprincetontigers.com/sports/mens-basketball/schedule",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ms": 270
   },
   {
    "id": "rangers",
@@ -4459,10 +5711,9 @@
    "city": "nyc",
    "kind": "nhl",
    "homepage": "https://www.nhl.com/rangers/schedule",
-   "ok": false,
-   "count": 9,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 10,
+   "ms": 511
   },
   {
    "id": "sixers",
@@ -4470,10 +5721,9 @@
    "city": "philly",
    "kind": "espn",
    "homepage": "https://www.nba.com/sixers/schedule",
-   "ok": false,
-   "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ok": true,
+   "count": 10,
+   "ms": 754
   },
   {
    "id": "yankees",
@@ -4481,10 +5731,9 @@
    "city": "nyc",
    "kind": "mlb",
    "homepage": "https://www.mlb.com/yankees/schedule",
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "ms": 0,
-   "error": "skipped (offline run)"
+   "ms": 425
   }
  ]
 }
