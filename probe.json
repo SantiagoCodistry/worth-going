@@ -1,0 +1,309 @@
+{
+ "at": "2026-10-28T18:53:31.029Z",
+ "working": [
+  {
+   "base": "https://www.songkick.com",
+   "city": "cdmx",
+   "method": "jsonld",
+   "url": "https://www.songkick.com/metro-areas/34385-mexico-mexico-city",
+   "count": 50,
+   "sample": [
+    "2026-10-28T23:00 Andrew Bird @ Teatro de la Ciudad Esperanza Iris @ Teatro de la Ciudad Esperanza Iris",
+    "2026-10-29T00:00 Omar Courtz @ Palacio de los Deportes @ Palacio de los Deportes",
+    "2026-10-28T23:00 Austin TV @ Polyforum Cultural Siqueiros @ Polyforum Cultural Siqueiros",
+    "2026-10-28T23:00 Hypnosis Therapy @ Rebel Rebel / El Club del Rock & Roll @ Rebel Rebel / El Club del Rock & Roll",
+    "2026-10-28T04:30 Areskuuja @ MEXICO @ MEXICO",
+    "2026-10-29T23:00 Jeanette @ Auditorio BB @ Auditorio BB",
+    "2026-10-30T00:00 Omar Courtz @ Palacio de los Deportes @ Palacio de los Deportes",
+    "2026-10-30T01:00 TIMØ @ Pepsi Center WTC @ Pepsi Center WTC",
+    "2026-10-29T23:00 Austin TV @ Polyforum Cultural Siqueiros @ Polyforum Cultural Siqueiros",
+    "2026-10-29T23:00 HORNA (Official hellsite) @ Circo Volador @ Circo Volador",
+    "2026-10-30T02:00 Yamagucci @ LooLoo @ LooLoo",
+    "2026-10-30T00:00 Maria Centeno @ Casa Gori @ Casa Gori",
+    "2026-10-29T23:00 Niña Lobo @ Chico @ Chico",
+    "2026-10-31T03:00 TEED @ Yu Yu Cine Club @ Yu Yu Cine Club",
+    "2026-10-30 Dethklok @ Circo Volador @ Circo Volador",
+    "2026-10-30 Luttrell @ Foro Basement @ Foro Basement",
+    "2026-10-31T00:30 Lng/Sht @ Pepsi Center WTC @ Pepsi Center WTC",
+    "2026-10-31T02:00 Gioli & Assia @ LooLoo @ LooLoo",
+    "2026-10-30T23:00 Mad Professor @ Foro Indie Rocks! @ Foro Indie Rocks!",
+    "2026-10-30T23:00 Saramalacara @ House of Vans @ House of Vans",
+    "2026-10-30 Omar Camacho @ Auto Drive Cinema @ Auto Drive Cinema",
+    "2026-10-30 Mystical Mysteries 2026 @ Ex Hacienda de San Pablo de Enmedio @ Ex Hacienda de San Pablo de Enmedio",
+    "2026-10-31 Dimitri Vegas & Like Mike @ Monumental Plaza de Toros México @ Monumental Plaza de Toros México",
+    "2026-10-31T23:00 The Buttertones @ Foro Veintiocho @ Foro Veintiocho",
+    "2026-10-31T23:00 Lewis OfMan @ Foro Indie Rocks! @ Foro Indie Rocks!",
+    "2026-10-31T23:00 Em Beihold @ Foro Indie Rocks! @ Foro Indie Rocks!",
+    "2026-11-01T00:00 Jose Maria Napoleon @ Auditorio Nacional @ Auditorio Nacional",
+    "2026-10-31T23:00 Austin TV @ Polyforum Cultural Siqueiros @ Polyforum Cultural Siqueiros",
+    "2026-10-31T23:00 Indios @ Foro Puebla @ Foro Puebla",
+    "2026-10-31T23:00 Queen Omega @ Foro Veintiocho @ Foro Veintiocho",
+    "2026-10-31 Zamna México City 2026 @ Velódromo Olímpico @ Velódromo Olímpico",
+    "2026-11-02T02:00 Akira Yamaoka @ Teatro Metropólitan @ Teatro Metropólitan",
+    "2026-11-02T00:00 Lila Downs @ Auditorio Nacional @ Auditorio Nacional",
+    "2026-11-02T00:00 Austin TV @ Polyforum Cultural Siqueiros @ Polyforum Cultural Siqueiros",
+    "2026-11-02T04:00 1tbsp @ Antro Juan @ Antro Juan",
+    "2026-11-02T00:00 Margaritas Podridas @ FÜCK OFF ROOM @ FÜCK OFF ROOM",
+    "2026-11-01T23:00 Grupo Compay Segundo @ Teatro de la Ciudad Esperanza Iris @ Teatro de la Ciudad Esperanza Iris",
+    "2026-11-02T00:00 DISTEST @ Parque Lira @ Parque Lira",
+    "2026-11-01 Festival Internacional Las Cuatro Casas 2026 @ Parque Naucalli Foro Felipe Villanueva @ Parque Naucalli Foro Felipe Villanueva",
+    "2026-11-03T01:00 John Maus @ Teatro de la Ciudad Esperanza Iris @ Teatro de la Ciudad Esperanza Iris"
+   ]
+  },
+  {
+   "base": "https://luma.com/mexico-city",
+   "city": "cdmx",
+   "method": "luma",
+   "url": "https://luma.com/mexico-city",
+   "count": 32,
+   "sample": [
+    "2026-10-28T15:00 500 Global - DemoDay LatAm @ Address shared after you register",
+    "2026-10-28T17:00 Hecho en México para el Mundo @ Address shared after you register",
+    "2026-10-28T20:00 Fast Track Week · 05 · Que la IA te recomiende: agentes de IA para SEO, GEO y AEO @ C. Marsella 45",
+    "2026-10-28T20:00 Notion Summit 2026 @ ESCOM - Escuela Superior de Cómputo - IPN",
+    "2026-10-28T21:00 AI Red Carpet. Salesforce. Locación 1. Exclusivo Mujeres @ Av. Ejército Nacional Mexicano 768-torre a",
+    "2026-10-28T21:00 Mexico Early Stage 100: Learn from Mexico's top startups. @ Address shared after you register",
+    "2026-10-28T23:00 Salud + Deeptech: soluciones para la mitad de la población, ¿quién las va a construir? @ Auditorio Glaxo - ccm",
+    "2026-10-28T23:30 Build to Win – F1 Experience with Oracle Red Bull Racing @ Address shared after you register",
+    "2026-10-29T01:00 After Hours: Art + Tech x Get on Board + Galería Sala Marte @ Address shared after you register",
+    "2026-10-29T01:00 Fuckup Nights x Mexico Tech Week @ Pinche Gringo BBQ Warehouse - Polanco",
+    "2026-10-29T01:00 VC Open House @ Address shared after you register",
+    "2026-10-29T01:30 Mercado Libre Happy Hour @ Darosa",
+    "2026-10-29T02:00 MXTW After Hours @ Address shared after you register",
+    "2026-10-29T15:00 AI-native startups :: De la IA que contesta a la IA que trabaja @ ISDI México",
+    "2026-10-29T15:00 OpenAI DevDay Exchange Community: Mexico City @ Barcelona 26",
+    "2026-10-29T15:00 Stablecoin Day by Reap | MXTW @ Teotihuacan 18",
+    "2026-10-29T17:00 Mexico City | Claude Code for Developers @ Barcelona 26",
+    "2026-10-29T20:45 🍻 Bits, Bytes & Beers x Devin 💻 @ C. Lucerna 34",
+    "2026-10-29T22:00 LEGO® SERIOUS PLAY® - LO QUE LA IA NO PUEDE CONSTRUIR @ Luis G. Urbina 4",
+    "2026-10-29T23:00 IA, React y el Futuro del Desarrollo de Software @ Address shared after you register",
+    "2026-10-29T23:00 MEXICO CITY: Agents In Production | Langchain Meetup @ Barcelona 26",
+    "2026-10-29T23:30 Mexico City | Claude for Music @ CASA LUMA CDMX",
+    "2026-10-30T01:00 Kuiper II: A Night At The Museum & Afterparty @ Address shared after you register",
+    "2026-10-30T01:00 Longevity Cocktail Night @ CAMPUS WORTEV",
+    "2026-10-30T01:00 Nickelback: Escucha su Nuevo Álbum en CDMX @ Ahumados Pelican",
+    "2026-10-30T04:00 After the Houses - The Closing @ Address shared after you register",
+    "2026-10-30T14:00 GrowthConf 2026 CDMX | Meaningful + NeoPerformance @ Yalo @ Torre Reforma Latino",
+    "2026-10-30T15:00 Mexico City | Claude Community House 🏠🇲🇽 @ Address shared after you register",
+    "2026-10-30T21:00 Burger-Party de Día de Muertos en Aburger @ Aburger Coyoacan Centro",
+    "2026-10-30T23:00 🎨 WINE, ART & TECHNOLOGY NETWORKING @ Address shared after you register",
+    "2026-10-31T00:00 Menos pasos, Más Tacos @ Av. P.º de la Reforma 390",
+    "2026-11-05T02:00 Book Club LEM | El murmullo de las abejas con Sofía Segovia @ Address shared after you register"
+   ]
+  }
+ ],
+ "failing": {
+  "espn mex.1": [
+   "espn: HTTP 400 for https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=2"
+  ],
+  "https://luma.com/cdmx": [
+   "luma: No Luma place id found on /cdmx"
+  ],
+  "https://luma.com/mexicocity": [
+   "luma: No Luma place id found on /mexicocity"
+  ],
+  "https://www.lunario.com.mx": [
+   "tribe: HTTP 404 for https://www.lunario.com.mx/wp-json/tribe/events/v1/events?start_date=2026-10-",
+   "localist: HTTP 404 for https://www.lunario.com.mx/api/2/events?days=45&pp=100&page=1 — https://www.l",
+   "ics: HTTP 404 for https://www.lunario.com.mx/events/?ical=1 — https://www.lunario.com.mx/events",
+   "jsonld: HTTP 404 for https://www.lunario.com.mx/eventos — https://www.lunario.com.mx/eventos",
+   "jsonld: 0 events",
+   "ics: 0 events",
+   "jsonld: 0 events"
+  ],
+  "https://luma.com/ciudad-de-mexico": [
+   "luma: HTTP 404 for https://lu.ma/ciudad-de-mexico — https://lu.ma/ciudad-de-mexico"
+  ],
+  "https://www.auditorio.com.mx": [
+   "tribe: HTTP 404 for https://www.auditorio.com.mx/wp-json/tribe/events/v1/events?start_date=2026-1",
+   "ics: HTTP 404 for https://www.auditorio.com.mx/events/?ical=1 — https://www.auditorio.com.mx/ev",
+   "localist: HTTP 404 for https://www.auditorio.com.mx/api/2/events?days=45&pp=100&page=1 — https://www",
+   "jsonld: HTTP 404 for https://www.auditorio.com.mx/cartelera — https://www.auditorio.com.mx/cartele",
+   "jsonld: HTTP 404 for https://www.auditorio.com.mx/eventos — https://www.auditorio.com.mx/eventos",
+   "ics: 0 events",
+   "jsonld: 0 events"
+  ],
+  "https://www.elplaza.mx": [
+   "tribe: ERR_TLS_CERT_ALTNAME_INVALID — https://www.elplaza.mx/wp-json/tribe/events/v1/events?start",
+   "localist: ERR_TLS_CERT_ALTNAME_INVALID — https://www.elplaza.mx/api/2/events?days=45&pp=100&page=1",
+   "ics: ERR_TLS_CERT_ALTNAME_INVALID — https://www.elplaza.mx/events/?ical=1",
+   "ics: ERR_TLS_CERT_ALTNAME_INVALID — https://www.elplaza.mx/?ical=1",
+   "jsonld: ERR_TLS_CERT_ALTNAME_INVALID — https://www.elplaza.mx/eventos",
+   "jsonld: ERR_TLS_CERT_ALTNAME_INVALID — https://www.elplaza.mx",
+   "jsonld: ERR_TLS_CERT_ALTNAME_INVALID — https://www.elplaza.mx/cartelera"
+  ],
+  "https://www.pepsicenter.com.mx": [
+   "tribe: ENOTFOUND — https://www.pepsicenter.com.mx/wp-json/tribe/events/v1/events?start_date=2026-",
+   "localist: ENOTFOUND — https://www.pepsicenter.com.mx/api/2/events?days=45&pp=100&page=1",
+   "ics: ENOTFOUND — https://www.pepsicenter.com.mx/events/?ical=1",
+   "jsonld: ENOTFOUND — https://www.pepsicenter.com.mx",
+   "ics: ENOTFOUND — https://www.pepsicenter.com.mx/?ical=1",
+   "jsonld: ENOTFOUND — https://www.pepsicenter.com.mx/eventos"
+  ],
+  "https://www.arenacdmx.com": [
+   "localist: HTTP 404 for https://www.arenacdmx.com/api/2/events?days=45&pp=100&page=1 — https://www.ar",
+   "tribe: HTTP 404 for https://www.arenacdmx.com/wp-json/tribe/events/v1/events?start_date=2026-10-2",
+   "jsonld: 0 events",
+   "jsonld: HTTP 404 for https://www.arenacdmx.com/eventos — https://www.arenacdmx.com/eventos",
+   "jsonld: HTTP 404 for https://www.arenacdmx.com/calendario — https://www.arenacdmx.com/calendario",
+   "ics: HTTP 404 for https://www.arenacdmx.com/events/?ical=1 — https://www.arenacdmx.com/events/?",
+   "ics: 0 events"
+  ],
+  "https://www.teatrometropolitan.com.mx": [
+   "localist: ENOTFOUND — https://www.teatrometropolitan.com.mx/api/2/events?days=45&pp=100&page=1",
+   "tribe: ENOTFOUND — https://www.teatrometropolitan.com.mx/wp-json/tribe/events/v1/events?start_dat",
+   "ics: ENOTFOUND — https://www.teatrometropolitan.com.mx/?ical=1",
+   "ics: ENOTFOUND — https://www.teatrometropolitan.com.mx/events/?ical=1",
+   "jsonld: ENOTFOUND — https://www.teatrometropolitan.com.mx",
+   "jsonld: ENOTFOUND — https://www.teatrometropolitan.com.mx/eventos"
+  ],
+  "https://indierocks.mx": [
+   "tribe: HTTP 404 for https://indierocks.mx/wp-json/tribe/events/v1/events?start_date=2026-10-28&en",
+   "jsonld: 0 events",
+   "ics: HTTP 404 for https://indierocks.mx/events/?ical=1 — https://indierocks.mx/events/?ical=1",
+   "jsonld: 0 events",
+   "localist: HTTP 404 for https://indierocks.mx/api/2/events?days=45&pp=100&page=1 — https://indierocks",
+   "ics: 0 events",
+   "jsonld: 0 events"
+  ],
+  "https://www.cinetecanacional.net": [
+   "tribe: Unexpected token '<', ...\"\n\n    \r\n  <!doctype \"... is not valid JSON",
+   "localist: Unexpected token '<', ...\"\n\n    \r\n  <!doctype \"... is not valid JSON",
+   "ics: 0 events",
+   "ics: 0 events",
+   "jsonld: 0 events",
+   "jsonld: 0 events",
+   "jsonld: 0 events"
+  ],
+  "https://muac.unam.mx": [
+   "localist: HTTP 404 for https://muac.unam.mx/api/2/events?days=45&pp=100&page=1 — https://muac.unam.m",
+   "tribe: HTTP 404 for https://muac.unam.mx/wp-json/tribe/events/v1/events?start_date=2026-10-28&end",
+   "ics: HTTP 404 for https://muac.unam.mx/events/?ical=1 — https://muac.unam.mx/events/?ical=1",
+   "jsonld: 0 events",
+   "jsonld: 0 events",
+   "ics: 0 events",
+   "jsonld: 0 events"
+  ],
+  "https://www.fundacionjumex.org": [
+   "tribe: HTTP 500 for https://www.fundacionjumex.org/wp-json/tribe/events/v1/events?start_date=2026",
+   "localist: HTTP 500 for https://www.fundacionjumex.org/api/2/events?days=45&pp=100&page=1 — https://w",
+   "ics: HTTP 500 for https://www.fundacionjumex.org/events/?ical=1 — https://www.fundacionjumex.or",
+   "ics: HTTP 500 for https://www.fundacionjumex.org/?ical=1 — https://www.fundacionjumex.org/?ical",
+   "jsonld: 0 events",
+   "jsonld: HTTP 404 for https://www.fundacionjumex.org/es/museo/calendario — https://www.fundacionjum",
+   "jsonld: HTTP 404 for https://www.fundacionjumex.org/es/museo/exposiciones — https://www.fundacionj"
+  ],
+  "https://www.museotamayo.org": [
+   "tribe: HTTP 404 for https://www.museotamayo.org/wp-json/tribe/events/v1/events?start_date=2026-10",
+   "localist: HTTP 404 for https://www.museotamayo.org/api/2/events?days=45&pp=100&page=1 — https://www.",
+   "ics: HTTP 404 for https://www.museotamayo.org/events/?ical=1 — https://www.museotamayo.org/even",
+   "jsonld: 0 events",
+   "jsonld: 0 events",
+   "jsonld: HTTP 404 for https://www.museotamayo.org/actividades — https://www.museotamayo.org/activid",
+   "ics: 0 events"
+  ],
+  "https://palacio.inba.gob.mx": [
+   "tribe: HTTP 403 for https://palacio.inba.gob.mx/wp-json/tribe/events/v1/events?start_date=2026-10",
+   "localist: HTTP 403 for https://palacio.inba.gob.mx/api/2/events?days=45&pp=100&page=1 — https://pala",
+   "ics: HTTP 403 for https://palacio.inba.gob.mx/?ical=1 — https://palacio.inba.gob.mx/?ical=1",
+   "ics: HTTP 403 for https://palacio.inba.gob.mx/events/?ical=1 — https://palacio.inba.gob.mx/even",
+   "jsonld: HTTP 403 for https://palacio.inba.gob.mx/exposiciones — https://palacio.inba.gob.mx/exposi",
+   "jsonld: HTTP 403 for https://palacio.inba.gob.mx — https://palacio.inba.gob.mx",
+   "jsonld: HTTP 403 for https://palacio.inba.gob.mx/cartelera — https://palacio.inba.gob.mx/cartelera"
+  ],
+  "https://www.museofridakahlo.org.mx": [
+   "localist: HTTP 404 for https://www.museofridakahlo.org.mx/api/2/events?days=45&pp=100&page=1 — https",
+   "ics: HTTP 404 for https://www.museofridakahlo.org.mx/events/?ical=1 — https://www.museofridakah",
+   "tribe: HTTP 401 for https://www.museofridakahlo.org.mx/wp-json/tribe/events/v1/events?start_date=",
+   "ics: 0 events",
+   "jsonld: HTTP 404 for https://www.museofridakahlo.org.mx/es/exposiciones — https://www.museofridaka",
+   "jsonld: 0 events"
+  ],
+  "https://kurimanzutto.com": [
+   "tribe: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "ics: 0 events",
+   "localist: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+   "ics: 0 events",
+   "jsonld: 0 events",
+   "jsonld: 0 events",
+   "jsonld: 0 events"
+  ],
+  "https://cartelera.cdmx.gob.mx": [
+   "localist: UND_ERR_CONNECT_TIMEOUT — https://cartelera.cdmx.gob.mx/api/2/events?days=45&pp=100&page=1",
+   "tribe: UND_ERR_CONNECT_TIMEOUT — https://cartelera.cdmx.gob.mx/wp-json/tribe/events/v1/events?sta",
+   "ics: UND_ERR_CONNECT_TIMEOUT — https://cartelera.cdmx.gob.mx/?ical=1",
+   "ics: UND_ERR_CONNECT_TIMEOUT — https://cartelera.cdmx.gob.mx/events/?ical=1",
+   "jsonld: UND_ERR_CONNECT_TIMEOUT — https://cartelera.cdmx.gob.mx",
+   "jsonld: UND_ERR_CONNECT_TIMEOUT — https://cartelera.cdmx.gob.mx/",
+   "jsonld: UND_ERR_CONNECT_TIMEOUT — https://cartelera.cdmx.gob.mx/busqueda"
+  ],
+  "https://www.cultura.unam.mx": [
+   "tribe: HTTP 404 for https://www.cultura.unam.mx/wp-json/tribe/events/v1/events?start_date=2026-10",
+   "ics: HTTP 404 for https://www.cultura.unam.mx/events/?ical=1 — https://www.cultura.unam.mx/even",
+   "localist: HTTP 404 for https://www.cultura.unam.mx/api/2/events?days=45&pp=100&page=1 — https://www.",
+   "jsonld: HTTP 404 for https://www.cultura.unam.mx/cartelera — https://www.cultura.unam.mx/cartelera",
+   "ics: 0 events",
+   "jsonld: 0 events",
+   "jsonld: 0 events"
+  ],
+  "https://www.eventbrite.com.mx": [
+   "tribe: HTTP 404 for https://www.eventbrite.com.mx/wp-json/tribe/events/v1/events?start_date=2026-",
+   "ics: HTTP 404 for https://www.eventbrite.com.mx/events/?ical=1 — https://www.eventbrite.com.mx/",
+   "jsonld: HTTP 405 for https://www.eventbrite.com.mx/d/mexico--ciudad-de-méxico/all-events/ — https:",
+   "jsonld: HTTP 405 for https://www.eventbrite.com.mx/d/mexico--ciudad-de-mexico/tecnologia--events/ ",
+   "ics: 0 events",
+   "jsonld: 0 events",
+   "localist: HTTP 404 for https://www.eventbrite.com.mx/api/2/events?days=45&pp=100&page=1 — https://ww"
+  ],
+  "https://www.ticketmaster.com.mx": [
+   "localist: HTTP 403 for https://www.ticketmaster.com.mx/api/2/events?days=45&pp=100&page=1 — https://",
+   "tribe: HTTP 403 for https://www.ticketmaster.com.mx/wp-json/tribe/events/v1/events?start_date=202",
+   "ics: HTTP 403 for https://www.ticketmaster.com.mx/events/?ical=1 — https://www.ticketmaster.com",
+   "ics: HTTP 403 for https://www.ticketmaster.com.mx/?ical=1 — https://www.ticketmaster.com.mx/?ic",
+   "jsonld: HTTP 403 for https://www.ticketmaster.com.mx — https://www.ticketmaster.com.mx",
+   "jsonld: HTTP 403 for https://www.ticketmaster.com.mx/discover/concerts — https://www.ticketmaster.",
+   "jsonld: HTTP 403 for https://www.ticketmaster.com.mx/ — https://www.ticketmaster.com.mx/"
+  ],
+  "https://www.boletia.com": [
+   "tribe: HTTP 403 for https://www.boletia.com/wp-json/tribe/events/v1/events?start_date=2026-10-28&",
+   "ics: HTTP 403 for https://www.boletia.com/?ical=1 — https://www.boletia.com/?ical=1",
+   "jsonld: HTTP 403 for https://www.boletia.com — https://www.boletia.com",
+   "jsonld: HTTP 403 for https://www.boletia.com/ — https://www.boletia.com/",
+   "ics: HTTP 403 for https://www.boletia.com/events/?ical=1 — https://www.boletia.com/events/?ical",
+   "localist: HTTP 403 for https://www.boletia.com/api/2/events?days=45&pp=100&page=1 — https://www.bole",
+   "jsonld: HTTP 403 for https://www.boletia.com/eventos — https://www.boletia.com/eventos"
+  ],
+  "https://www.passline.com": [
+   "tribe: HTTP 403 for https://www.passline.com/wp-json/tribe/events/v1/events?start_date=2026-10-28",
+   "ics: HTTP 403 for https://www.passline.com/?ical=1 — https://www.passline.com/?ical=1",
+   "ics: HTTP 403 for https://www.passline.com/events/?ical=1 — https://www.passline.com/events/?ic",
+   "localist: HTTP 403 for https://www.passline.com/api/2/events?days=45&pp=100&page=1 — https://www.pas",
+   "jsonld: HTTP 403 for https://www.passline.com — https://www.passline.com",
+   "jsonld: HTTP 404 for https://www.passline.com/eventos-en-ciudad-de-mexico — https://www.passline.c"
+  ],
+  "https://www.residentadvisor.net": [
+   "ics: HTTP 403 for https://www.residentadvisor.net/?ical=1 — https://www.residentadvisor.net/?ic",
+   "jsonld: HTTP 403 for https://www.residentadvisor.net — https://www.residentadvisor.net",
+   "ics: HTTP 403 for https://www.residentadvisor.net/events/?ical=1 — https://www.residentadvisor.",
+   "tribe: HTTP 404 for https://www.residentadvisor.net/wp-json/tribe/events/v1/events?start_date=202",
+   "jsonld: HTTP 403 for https://www.residentadvisor.net/events/mx/mexicocity — https://www.residentad",
+   "localist: HTTP 404 for https://www.residentadvisor.net/api/2/events?days=45&pp=100&page=1 — https://"
+  ],
+  "https://ra.co": [
+   "ics: HTTP 403 for https://ra.co/events/?ical=1 — https://ra.co/events/?ical=1",
+   "ics: HTTP 403 for https://ra.co/?ical=1 — https://ra.co/?ical=1",
+   "jsonld: HTTP 403 for https://ra.co — https://ra.co",
+   "tribe: HTTP 404 for https://ra.co/wp-json/tribe/events/v1/events?start_date=2026-10-28&end_date=2",
+   "jsonld: HTTP 403 for https://ra.co/events/mx/mexicocity — https://ra.co/events/mx/mexicocity",
+   "localist: HTTP 404 for https://ra.co/api/2/events?days=45&pp=100&page=1 — https://ra.co/api/2/events"
+  ],
+  "https://www.timeoutmexico.mx": [
+   "tribe: HTTP 404 for https://www.timeoutmexico.mx/wp-json/tribe/events/v1/events?start_date=2026-1",
+   "jsonld: 0 events",
+   "ics: 0 events",
+   "localist: HTTP 400 for https://www.timeoutmexico.mx/api/2/events?days=45&pp=100&page=1 — https://www",
+   "ics: HTTP 404 for https://www.timeoutmexico.mx/events/?ical=1 — https://www.timeoutmexico.mx/ev",
+   "jsonld: 0 events"
+  ]
+ }
+}
