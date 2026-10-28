@@ -13,7 +13,7 @@ import { addDays, nyDateKey, sortTime } from '../src/shared/time.ts'
 import type { Draft } from './adapters/types.ts'
 import { CONFIG } from './config.ts'
 import { isNoise, outOfArea, score, whyFor } from './lib/enrich.ts'
-import { addMedia, placeImage, placeMeta, saveCache } from './lib/media.ts'
+import { addMedia, placeImage, placeMeta, saveCache, standardThumb } from './lib/media.ts'
 import { cityById } from '../src/shared/taxonomy.ts'
 import { PLACES } from '../src/data/places.ts'
 import { slug } from './lib/http.ts'
@@ -112,6 +112,13 @@ async function run() {
     }
     saveCache()
   }
+
+  // Wikimedia thumbnails must use standard widths or they don't load.
+  for (const e of final) {
+    if (e.image) e.image.url = standardThumb(e.image.url)
+    for (const p of e.people ?? []) if (p.image) p.image.url = standardThumb(p.image.url)
+  }
+  for (const img of Object.values(placeImages)) if (img) img.url = standardThumb(img.url)
 
   const data: Dataset = {
     generatedAt: now.toISOString(),

@@ -99,9 +99,31 @@ export function TypeCover({ e, className = '' }: { e: WGEvent; className?: strin
   )
 }
 
+/**
+ * Organizer flyers (Luma covers, posters) usually carry text, so they're shown
+ * whole over a blurred copy instead of cropped. Photos from Wikimedia and
+ * ticketing sites fill the frame.
+ */
+function isFlyer(img: NonNullable<WGEvent['image']>) {
+  if (/wikimedia|ticketmaster/i.test(img.credit ?? '') || !img.w || !img.h) return false
+  return Math.abs(img.w / img.h - 4 / 3) > 0.2
+}
+
 /** Photo when there is one, typographic cover otherwise. */
 export function Cover({ e, className = '' }: { e: WGEvent; className?: string }) {
   const [failed, setFailed] = useState(false)
+  if (e.image && !failed && isFlyer(e.image))
+    return (
+      <div className={`relative overflow-hidden bg-ink ${className}`}>
+        <Photo src={e.image.url} className="absolute inset-0 h-full w-full scale-125 object-cover opacity-60 blur-2xl" />
+        <Photo
+          src={e.image.url}
+          alt=""
+          onFail={() => setFailed(true)}
+          className="absolute inset-0 h-full w-full object-contain transition-transform duration-500 ease-out-soft group-hover:scale-[1.03]"
+        />
+      </div>
+    )
   if (e.image && !failed)
     return (
       <div className={`relative overflow-hidden bg-bg-2 ${className}`}>

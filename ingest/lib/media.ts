@@ -139,9 +139,20 @@ export async function pageImage(pageUrl: string): Promise<Img> {
   return img
 }
 
+/** Wikimedia only serves thumbnails at standard widths; anything else fails to load. */
+const THUMB_WIDTHS = [250, 330, 500, 960, 1280, 1920]
+export function standardThumb(url: string): string {
+  if (!/wikimedia\.org\/.*\/thumb\//.test(url)) return url
+  return url.replace(/\/(\d+)px-/, (m, w) => {
+    const n = Number(w)
+    return THUMB_WIDTHS.includes(n) ? m : `/${THUMB_WIDTHS.find((x) => x >= Math.min(n, 1280)) ?? 1280}px-`
+  })
+}
+const fixThumb = (img: Img): Img => (img ? { ...img, url: standardThumb(img.url) } : img)
+
 export async function wikiImage(title: string): Promise<Img> {
   const key = `wiki2:${title}`
-  if (key in cache) return cache[key]
+  if (key in cache) return fixThumb(cache[key])
   let img: Img = null
   try {
     type Pic = { source: string; width: number; height: number }
@@ -149,10 +160,10 @@ export async function wikiImage(title: string): Promise<Img> {
     const s = await getJson<S>(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`)
     const o = s.originalimage
     if (o && o.width >= 600) {
-      // Ask for a 1400px rendition when the original is larger; otherwise use it as is.
+      // Ask for a 1280px rendition when the original is larger; otherwise use it as is.
       const url =
-        o.width > 1400 && s.thumbnail?.source.includes('/thumb/')
-          ? s.thumbnail.source.replace(/\/\d+px-/, '/1400px-')
+        o.width > 1280 && s.thumbnail?.source.includes('/thumb/')
+          ? s.thumbnail.source.replace(/\/\d+px-/, '/1280px-')
           : o.source
       if (!/\.svg/i.test(url) && o.width / o.height < 2.2 && o.width / o.height > 0.5) {
         img = { url, credit: 'Wikimedia Commons', link: s.content_urls?.desktop?.page, w: o.width, h: o.height }
@@ -182,7 +193,7 @@ export async function commonsImage(name: string, place: string): Promise<Img> {
       gsrlimit: '10',
       prop: 'imageinfo',
       iiprop: 'url|size|mime',
-      iiurlwidth: '1400',
+      iiurlwidth: '1280',
     })
     type Page = { title: string; imageinfo?: { url: string; thumburl?: string; width: number; height: number; mime: string; descriptionurl: string }[] }
     const r = await getJson<{ query?: { pages?: Record<string, Page> } }>(`https://commons.wikimedia.org/w/api.php?${q}`)
