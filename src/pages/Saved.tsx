@@ -53,8 +53,8 @@ export function Saved() {
   const pick = (key: string, card: ReactNode) =>
     picking ? (
       <div key={key} className="relative">
-        <label className={`absolute inset-0 z-10 cursor-pointer rounded-[3px] [&>input]:bottom-auto [&>input]:top-[calc(75%-2.25rem)] ${picked.has(key) ? 'ring-[3px] ring-[var(--riso-pink)]' : 'bg-bg/60'}`}>
-          <input type="checkbox" checked={picked.has(key)} onChange={() => toggle(key)} className="absolute bottom-3 right-3 h-6 w-6 accent-[var(--riso-pink)]" aria-label="Include in list" />
+        <label className={`absolute inset-0 z-10 cursor-pointer rounded-[3px] ${picked.has(key) ? 'ring-[3px] ring-[var(--riso-pink)]' : 'bg-bg/60'}`}>
+          <input type="checkbox" checked={picked.has(key)} onChange={() => toggle(key)} className="absolute left-3 top-12 h-6 w-6 accent-[var(--riso-pink)]" aria-label="Include in list" />
         </label>
         {card}
       </div>
