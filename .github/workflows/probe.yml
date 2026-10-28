@@ -1,0 +1,30 @@
+# Tries candidate event sources and publishes the report to the `probe` branch.
+name: Probe sources
+
+on:
+  push:
+    branches: [main]
+    paths: ['scripts/probe-sources.ts', '.github/workflows/probe.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsx scripts/probe-sources.ts
+      - name: Publish report
+        run: |
+          mkdir -p /tmp/out && cp probe.json /tmp/out/
+          cd /tmp/out && git init -q && git checkout -q -b probe
+          git config user.name "worth-going-bot" && git config user.email "actions@users.noreply.github.com"
+          git add . && git commit -qm "Probe $(date -u +%F)"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" probe

@@ -17,7 +17,7 @@ export interface Source {
   /** Human-facing page for the source — shown on the Sources page. */
   homepage: string
   city: CityId | 'multi'
-  kind: 'ics' | 'tribe' | 'jsonld' | 'luma' | 'mlb' | 'nhl' | 'nba' | 'espn' | 'ticketmaster'
+  kind: 'ics' | 'tribe' | 'jsonld' | 'localist' | 'luma' | 'mlb' | 'nhl' | 'nba' | 'espn' | 'ticketmaster'
   /** Category to use when keyword rules don't match. */
   category: CategoryId
   enabled?: boolean

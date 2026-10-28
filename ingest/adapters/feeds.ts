@@ -6,7 +6,7 @@ import { excerpt, get, getJson, plain, slug } from '../lib/http.ts'
 import { parseIcs } from '../lib/ics.ts'
 import type { Draft, FetchContext } from './types.ts'
 
-interface Defaults {
+export interface Defaults {
   city: CityId
   category: CategoryId
   sourceName: string
@@ -210,4 +210,65 @@ export function stripBoilerplate(text: string): string {
     .replace(/^Get up-to-date information at:\s*\S+\s*/i, '')
     .replace(/^Address:\s*(Check event page for more details\.?|Register to see address\.?)?\s*/i, '')
     .trim()
+}
+
+// ——— Localist: the calendar platform many universities use (public JSON API) ———
+type LocalistEvent = {
+  id: number
+  title: string
+  description_text?: string
+  localist_url: string
+  location_name?: string
+  address?: string
+  room_number?: string
+  photo_url?: string
+  free?: boolean
+  ticket_cost?: string
+  ticket_url?: string
+  filters?: { event_types?: { name: string }[] }
+  event_instances: { event_instance: { start: string; end?: string; all_day?: boolean } }[]
+}
+
+export async function fromLocalist(base: string, d: Defaults, ctx: FetchContext): Promise<Draft[]> {
+  const days = Math.min(90, Math.ceil((ctx.to.getTime() - ctx.from.getTime()) / 86400000))
+  const out: Draft[] = []
+  for (let page = 1; page <= 5; page++) {
+    const res = await getJson<{ events: { event: LocalistEvent }[]; page?: { total: number } }>(
+      `${base.replace(/\/$/, '')}/api/2/events?days=${days}&pp=100&page=${page}`,
+    )
+    for (const { event: e } of res.events ?? []) {
+      const title = plain(e.title)
+      const description = excerpt(plain(e.description_text ?? ''))
+      const types = (e.filters?.event_types ?? []).map((t) => t.name)
+      const text = `${types.join(' ')} ${description}`
+      if (d.include && !d.include.test(`${title} ${text}`)) continue
+      const inst = e.event_instances[0]?.event_instance
+      if (!inst) continue
+      const start = inst.all_day ? inst.start.slice(0, 10) : new Date(inst.start).toISOString()
+      const end = inst.end ? (inst.all_day ? inst.end.slice(0, 10) : new Date(inst.end).toISOString()) : undefined
+      if (!inWindow(start, end, ctx)) continue
+      const photo = e.photo_url && !/default|placeholder/i.test(e.photo_url) ? e.photo_url.replace('/huge/', '/big/') : undefined
+      out.push({
+        id: `${slug(d.sourceName)}-${e.id}-${start.slice(0, 10)}`,
+        title,
+        kind: 'event',
+        city: d.city,
+        category: categorize(title, text, d.category),
+        format: formatFor(title),
+        tags: types.map((t) => t.toLowerCase()).slice(0, 5),
+        start,
+        end: end === start ? undefined : end,
+        venue: { name: plain(e.location_name ?? '') || d.sourceName, address: e.address || undefined },
+        description: description || title,
+        price: e.free ? 'Free' : e.ticket_cost || undefined,
+        isFree: e.free || isFree(text) || undefined,
+        image: photo ? { url: photo } : undefined,
+        sourceName: d.sourceName,
+        sourceUrl: e.localist_url,
+        ticketUrl: e.ticket_url || undefined,
+      })
+    }
+    if (!res.page || page >= res.page.total) break
+  }
+  return out
 }
