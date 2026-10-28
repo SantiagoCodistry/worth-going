@@ -1,6 +1,6 @@
 # Daily: fetch live events + photos, commit the data, deploy to GitHub Pages,
 # then screenshot the live site (download from the run's artifacts).
-# No secrets needed. Enable Pages once: Settings → Pages → Source: GitHub Actions.
+# Secrets are optional: TICKETMASTER_API_KEY adds regional concerts and games; VITE_SUPABASE_* turns on accounts. Enable Pages once: Settings → Pages → Source: GitHub Actions.
 name: Refresh and deploy
 
 on:
@@ -44,6 +44,10 @@ jobs:
         run: npm run build
         env:
           VITE_BASE: /${{ github.event.repository.name }}/
+          # Optional accounts (see README → Accounts). Leave unset to run without sign-in.
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+          VITE_SUPABASE_GOOGLE: ${{ vars.VITE_SUPABASE_GOOGLE }}
       - run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
         with:

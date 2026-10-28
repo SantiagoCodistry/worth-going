@@ -3,13 +3,15 @@ import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-do
 import type { CityFilter } from '../shared/types.ts'
 import { CITIES } from '../shared/taxonomy.ts'
 import { useStore } from '../lib/store.tsx'
+import { accountsEnabled } from '../lib/account.ts'
+import { CONTACT_URL } from '../pages/Legal.tsx'
 
-const NAV = [
+const NAV: { to: string; label: string; short?: string; end?: boolean }[] = [
   { to: '/', label: 'For you', end: true },
   { to: '/explore', label: 'Calendar' },
   { to: '/table', label: 'Eat' },
   { to: '/saved', label: 'Saved' },
-  { to: '/you', label: 'Your taste' },
+  { to: '/you', label: 'Your taste', short: 'Taste' },
 ]
 
 export function Wordmark({ className = '' }: { className?: string }) {
@@ -93,7 +95,10 @@ export function Layout() {
               </NavLink>
             ))}
           </nav>
-          <SearchBox className="hidden w-72 lg:flex" />
+          <div className="flex items-center gap-3">
+            <SearchBox className="hidden w-72 lg:flex" />
+            <AccountLink />
+          </div>
         </div>
       </header>
 
@@ -114,12 +119,23 @@ export function Layout() {
             end={n.end}
             className={({ isActive }) => `label relative py-3.5 text-center text-[11.5px] ${isActive ? 'bg-ink text-bg' : ''}`}
           >
-            {n.label}
+            {n.short ?? n.label}
             {n.to === '/saved' && saved.length > 0 && <span className="absolute right-[14%] top-3 h-1.5 w-1.5 rounded-full bg-[var(--riso-pink)]" />}
           </NavLink>
         ))}
       </nav>
     </div>
+  )
+}
+
+function AccountLink() {
+  const { session } = useStore()
+  if (!accountsEnabled) return null
+  const name = session?.user.email?.split('@')[0]
+  return (
+    <NavLink to="/account" className={({ isActive }) => `label max-w-[9rem] truncate border-[1.5px] border-ink px-3 py-1.5 text-[12px] ${isActive ? 'bg-ink text-bg' : 'hover:bg-[var(--riso-yellow)]'}`}>
+      {name ?? 'Sign in'}
+    </NavLink>
   )
 }
 
@@ -133,7 +149,7 @@ function Footer() {
       <div className="mx-auto grid max-w-[1400px] gap-10 px-4 py-10 md:grid-cols-[1.6fr_1fr_1fr] md:px-8">
         <div>
           <Wordmark className="text-[64px] md:text-[96px]" />
-          <p className="mt-3 max-w-sm text-[14px] text-ink-2">Events in New York, Philadelphia and Princeton. Every listing links to its source.</p>
+          <p className="mt-3 max-w-sm text-[14px] text-ink-2">Events and restaurants from New York to Philadelphia, by way of Princeton. Every listing links to its source.</p>
         </div>
         <ul className="space-y-1.5 text-[14px] font-semibold">
           <li><Link className="hover:underline" to="/explore?when=weekend">This weekend</Link></li>
@@ -141,17 +157,37 @@ function Footer() {
           <li><Link className="hover:underline" to="/explore?cat=ideas">Talks</Link></li>
           <li><Link className="hover:underline" to="/explore?cat=startups">Startups</Link></li>
           <li><Link className="hover:underline" to="/about">About and sources</Link></li>
+          <li><Link className="hover:underline" to="/account">{accountsEnabled ? 'Account' : 'Your data'}</Link></li>
         </ul>
         <div className="text-[14px] text-ink-2">
           {updated && <p>Updated {updated} ET.</p>}
           <p className="mt-2">Check times and tickets with the organizer before you go.</p>
         </div>
       </div>
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between px-4 pb-10 text-[13px] text-mute md:px-8">
+      <div className="mx-auto max-w-[1400px] space-y-3 border-t border-rule px-4 py-6 text-[12.5px] leading-relaxed text-mute md:px-8">
+        <p>
+          Listings, prices and availability come from third parties and can change. Prices are the latest we fetched and usually
+          exclude fees. Confirm with the organizer or seller before you buy or travel. Worth Going doesn’t sell tickets or take
+          reservations and isn’t affiliated with the venues, artists, teams, restaurants or platforms it links to, including
+          Ticketmaster, Resy, OpenTable, Tock and SevenRooms. Trademarks belong to their owners.
+        </p>
+        <p>
+          {data?.sources.some((x) => x.id === 'ticketmaster' && x.count > 0) && 'Event data in part from the Ticketmaster Discovery API. '}
+          Photos are credited to their owners; Wikipedia and Wikimedia
+          Commons content is used under CC BY-SA. Maps and geocoding © OpenStreetMap contributors (ODbL). Your saved items are
+          stored in this browser{accountsEnabled ? ', and in your account if you sign in' : ''}. No ads, no tracking.
+        </p>
+      </div>
+      <div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-x-6 gap-y-2 px-4 pb-10 text-[13px] text-mute md:px-8">
         <span>© {new Date().getFullYear()} Worth Going</span>
-        <a href="https://codistry.com" target="_blank" rel="noreferrer" className="hover:text-ink">
-          Built with Codistry
-        </a>
+        <span className="flex flex-wrap gap-x-5 gap-y-1">
+          <Link to="/privacy" className="hover:text-ink">Privacy</Link>
+          <Link to="/terms" className="hover:text-ink">Terms</Link>
+          <a href={CONTACT_URL} target="_blank" rel="noreferrer" className="hover:text-ink">Contact</a>
+          <a href="https://codistry.com" target="_blank" rel="noreferrer" className="hover:text-ink">
+            Built with Codistry
+          </a>
+        </span>
       </div>
     </footer>
   )

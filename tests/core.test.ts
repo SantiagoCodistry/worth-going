@@ -217,3 +217,14 @@ test('image size reader handles PNG and JPEG headers', () => {
   const jpg = new Uint8Array([0xff, 0xd8, 0xff, 0xc0, 0x00, 0x11, 0x08, 0x02, 0x58, 0x03, 0x84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
   assert.deepEqual(dimensions(jpg), { w: 900, h: 600 })
 })
+
+test('account sync merges browser and account state without dropping anything', async () => {
+  const { mergeState } = await import('../src/lib/account.ts')
+  const m = mergeState(
+    { saved: ['a', 'b'], profile: null, places: { x: { status: 'want' } } },
+    { saved: ['b', 'c'], profile: { home: 'nyc', levels: {}, busy: [], budget: 'any' }, places: { y: { status: 'been', verdict: 'loved' } } },
+  )
+  assert.deepEqual(m.saved, ['a', 'b', 'c'])
+  assert.equal(m.profile?.home, 'nyc')
+  assert.deepEqual(Object.keys(m.places).sort(), ['x', 'y'])
+})

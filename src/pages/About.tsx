@@ -16,7 +16,7 @@ export function About() {
         <h1 className="display text-[72px] md:text-[128px]">About</h1>
         <div className="mt-4 space-y-4 text-[17px] leading-relaxed text-ink-2">
           <p>
-            Worth Going lists events and restaurants in New York, Philadelphia and Princeton. We collect listings from public
+            Worth Going lists events and restaurants from New York to Philadelphia, including Princeton and the rest of New Jersey. We collect listings from public
             calendars: university lecture series, venue calendars, league schedules and startup community calendars. Then we drop
             the routine items and rank the rest.
           </p>

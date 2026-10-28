@@ -80,6 +80,22 @@ No secrets are needed. Optional: add `TICKETMASTER_API_KEY` as a repository secr
 
 Vercel and Netlify also work (build `npm run build`, output `dist`; routing config is included).
 
+## Accounts (optional)
+
+Without setup, everything a visitor saves stays in their browser. To add sign-in that syncs saved events, the restaurant log and taste across devices:
+
+1. Create a free project at [supabase.com](https://supabase.com).
+2. In **SQL Editor**, run [`supabase/schema.sql`](supabase/schema.sql). It creates one table with row-level security (each user can only touch their own row) and a `delete_me()` function for account deletion.
+3. In **Authentication → URL Configuration**, set the Site URL to your Pages URL (for example `https://santiagocodistry.github.io/worth-going/`) and add `https://santiagocodistry.github.io/worth-going/account` to the redirect URLs. Email sign-in links work with no other setup.
+4. In **Project Settings → API**, copy the project URL and the `anon` public key. Add them to GitHub as repository secrets `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`, then rerun the workflow.
+5. Optional Google sign-in: enable the Google provider in Supabase (it needs a Google Cloud OAuth client), then add a repository **variable** `VITE_SUPABASE_GOOGLE` = `1`.
+
+The anon key is meant to be public; the row-level security policies are what protect the data.
+
+## Legal
+
+`/privacy` and `/terms` (in `src/pages/Legal.tsx`) and the footer disclaimers are plain-language starting points covering local storage, accounts, third-party listings and prices, non-affiliation, and Wikimedia, Ticketmaster and OpenStreetMap attribution. Have a lawyer review them before relying on them.
+
 ## The personal concierge (next)
 
 `src/lib/recommend.ts` already takes a `RecommendationContext` with `interests` (category weights) and `busy` intervals (calendar commitments). It drops events that clash and boosts what you like. A private version needs three things:

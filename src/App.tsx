@@ -2,6 +2,8 @@ import { BrowserRouter, Link, MemoryRouter, Route, Routes } from 'react-router-d
 import { StoreProvider } from './lib/store.tsx'
 import { Layout } from './components/Layout.tsx'
 import { About } from './pages/About.tsx'
+import { Account } from './pages/Account.tsx'
+import { Privacy, Terms } from './pages/Legal.tsx'
 import { EventPage } from './pages/EventPage.tsx'
 import { Explore } from './pages/Explore.tsx'
 import { Home } from './pages/Home.tsx'
@@ -37,6 +39,9 @@ export default function App() {
             <Route path="saved" element={<Saved />} />
             <Route path="about" element={<About />} />
             <Route path="you" element={<You />} />
+            <Route path="account" element={<Account />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="terms" element={<Terms />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
