@@ -3,6 +3,7 @@
 import type { CityId, WGEvent } from '../shared/types.ts'
 import { TIMEZONE } from '../shared/taxonomy.ts'
 import { favoriteAt, reasonFor, topGenres, type Favorite } from './favorites.ts'
+import { distanceTo, eventPoint, formatMiles, type Near } from './geo.ts'
 
 export type Level = 0 | 1 | 2 // not for me, sometimes, love it
 
@@ -74,15 +75,20 @@ export interface Fit {
   hidden: boolean
 }
 
-/** How well an event fits this profile. */
-export function fit(e: WGEvent, p: Profile): Fit {
+/** How well an event fits this profile. With `near`, closeness to you replaces your home area. */
+export function fit(e: WGEvent, p: Profile, near?: Near | null): Fit {
   const matched = INTERESTS.filter((i) => i.match(e))
   const levels = matched.map((i) => p.levels[i.id] ?? 1)
   const best = levels.length ? Math.max(...levels) : 1
   const worst = levels.length ? Math.min(...levels) : 1
   let score = (e.score ?? 0) * (best === 2 ? 1.6 : best === 1 ? 1 : 0.25)
   const reasons = matched.filter((i) => p.levels[i.id] === 2).map((i) => i.label)
-  if (e.city === p.home) {
+  if (near) {
+    const pt = eventPoint(e)
+    const mi = distanceTo(near, pt)
+    score += mi < 2 ? 16 : mi < 5 ? 12 : mi < 15 ? 6 : 0
+    if (pt.exact && mi < 5) reasons.push(`${formatMiles(mi)} away`)
+  } else if (e.city === p.home) {
     score += 10
     reasons.push(`Near you`)
   }

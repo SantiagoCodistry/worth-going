@@ -4,6 +4,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import type { Session } from '@supabase/supabase-js'
 import type { CityFilter, Dataset, WGEvent } from '../shared/types.ts'
 import { DEFAULT_PROFILE, type Profile } from './profile.ts'
+import type { Near } from './geo.ts'
 import { accountsEnabled, type PlaceLog, loadState, mergeState, onSession, saveState } from './account.ts'
 
 interface Store {
@@ -11,6 +12,11 @@ interface Store {
   error: string | null
   city: CityFilter
   setCity: (c: CityFilter) => void
+  /** Your position for "near me". Kept in this browser only, never synced. */
+  near: Near | null
+  setNear: (n: Near | null) => void
+  /** city + near, ready to spread into applyFilters. */
+  where: { city: CityFilter; near: Near | null }
   saved: string[]
   isSaved: (id: string) => boolean
   toggleSaved: (id: string) => void
@@ -56,7 +62,11 @@ function writeLocal(key: string, value: unknown) {
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [data, setData] = useState<Dataset | null>(null)
   const [error, setError] = useState<string | null>(null)
-  const [city, setCityState] = useState<CityFilter>(() => readLocal('wg.city', 'all'))
+  const [near, setNearState] = useState<Near | null>(() => readLocal<Near | null>('wg.near', null))
+  const [city, setCityState] = useState<CityFilter>(() => {
+    const c = readLocal<CityFilter>('wg.city', 'all')
+    return c === 'near' && !readLocal('wg.near', null) ? 'all' : c
+  })
   const [saved, setSaved] = useState<string[]>(() => readLocal('wg.saved', []))
   const [profile, setProfileState] = useState<Profile>(() => upgradeProfile(readLocal<Partial<Profile>>('wg.profile', {})))
   const setProfile = useCallback((p: Profile) => {
@@ -137,6 +147,15 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     setCityState(c)
     writeLocal('wg.city', c)
   }, [])
+  const setNear = useCallback(
+    (n: Near | null) => {
+      setNearState(n)
+      writeLocal('wg.near', n)
+      setCity(n ? 'near' : 'all')
+    },
+    [setCity],
+  )
+  const where = useMemo(() => ({ city, near }), [city, near])
 
   const toggleSaved = useCallback((id: string) => {
     setSaved((prev) => {
@@ -154,6 +173,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       error,
       city,
       setCity,
+      near,
+      setNear,
+      where,
       saved,
       isSaved: (id) => saved.includes(id),
       toggleSaved,
@@ -165,7 +187,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       session,
       sync,
     }),
-    [data, error, city, setCity, saved, toggleSaved, index, profile, setProfile, places, logPlace, session, sync],
+    [data, error, city, setCity, near, setNear, where, saved, toggleSaved, index, profile, setProfile, places, logPlace, session, sync],
   )
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>

@@ -6,6 +6,7 @@ import { PLACES } from '../data/places.ts'
 import { applyFilters } from '../lib/recommend.ts'
 import { INTERESTS, fit, type Fit } from '../lib/profile.ts'
 import { favoriteAt } from '../lib/favorites.ts'
+import { distanceTo, placePoint, withinRadius } from '../lib/geo.ts'
 import { useStore } from '../lib/store.tsx'
 import { Avatar, EventCard, EventRow, Reasons } from '../components/Cards.tsx'
 import { CityTabs } from '../components/Layout.tsx'
@@ -19,15 +20,15 @@ type Ranked = { e: WGEvent; f: Fit }
 const featurable = (r: Ranked) => r.e.provenance === 'preview' || (!!r.e.image && (r.e.score ?? 0) >= 20)
 
 export function Home() {
-  const { data, error, city, profile } = useStore()
+  const { data, error, city, where, profile, near } = useStore()
   const events = useMemo(() => data?.events ?? [], [data])
 
   const ranked = useMemo<Ranked[]>(() => {
-    return applyFilters(events, { city, when: 'month' })
-      .map((e) => ({ e, f: fit(e, profile) }))
+    return applyFilters(events, { ...where, when: 'month' })
+      .map((e) => ({ e, f: fit(e, profile, city === 'near' ? near : null) }))
       .filter((r) => !r.f.hidden && !r.f.clash)
       .sort((a, b) => b.f.score - a.f.score)
-  }, [events, city, profile])
+  }, [events, where, city, near, profile])
 
   const picks = useMemo(() => {
     const out: Ranked[] = []
@@ -47,11 +48,11 @@ export function Home() {
     const used = new Set(picks.map((r) => r.e.id))
     const inWeek = applyFilters(
       ranked.map((r) => r.e),
-      { city, when: 'week' },
+      { ...where, when: 'week' },
     )
     const ids = new Set(inWeek.map((e) => e.id))
     return ranked.filter((r) => ids.has(r.e.id) && !used.has(r.e.id) && r.e.kind === 'event').slice(0, 8)
-  }, [ranked, picks, city])
+  }, [ranked, picks, where])
 
   if (error) return <LoadError message={error} />
   if (!data) return <Spinner />
@@ -71,7 +72,7 @@ export function Home() {
           <div>
             <h1 className="display text-[56px] md:text-[96px]">For you</h1>
             <p className="mt-2 max-w-xl text-[15px] text-ink-2">
-              Ranked for someone based in {cityById(profile.home).name} who’s into {loved.slice(0, 3).join(', ')}
+              {city === 'near' && near ? `Ranked for what’s within ${near.miles} miles of ${near.label}, for someone` : `Ranked for someone based in ${cityById(profile.home).name}`} who’s into {loved.slice(0, 3).join(', ')}
               {loved.length > 3 ? ' and more' : ''}.{' '}
               <Link to="/you" className="font-semibold text-ink underline underline-offset-2">
                 Change your taste
@@ -183,15 +184,15 @@ export function Row({ title, to, toLabel, children }: { title: string; to?: stri
 
 /** Events with your artists, teams, venues and people, soonest first. */
 function MyFavorites({ ranked }: { ranked: Ranked[] }) {
-  const { profile, data, city } = useStore()
+  const { profile, data, where } = useStore()
   const favs = profile.favorites ?? []
   const items = useMemo(
     () =>
-      applyFilters(data?.events ?? [], { city, when: 'all' })
+      applyFilters(data?.events ?? [], { ...where, when: 'all' })
         .filter((e) => favoriteAt(e, favs))
         .map((e) => ranked.find((r) => r.e.id === e.id) ?? { e, f: fit(e, profile) })
         .slice(0, 12),
-    [data, city, favs, ranked, profile],
+    [data, where, favs, ranked, profile],
   )
   if (!favs.length) return null
   if (!items.length)
@@ -224,10 +225,15 @@ function CategoryRow({ category, ranked }: { category: CategoryId; ranked: Ranke
 }
 
 function Restaurants() {
-  const { city, profile } = useStore()
-  const list = (city === 'all' ? PLACES : PLACES.filter((p) => p.city === city))
-    .slice()
-    .sort((a, b) => Number(b.city === profile.home) - Number(a.city === profile.home))
+  const { city, near, profile, data } = useStore()
+  const pt = (p: (typeof PLACES)[number]) => placePoint(p, data?.placeMeta?.[p.id])
+  const list =
+    city === 'near' && near
+      ? PLACES.filter((p) => withinRadius(near, pt(p))).sort((a, b) => distanceTo(near, pt(a)) - distanceTo(near, pt(b)))
+      : (city === 'all' ? PLACES : PLACES.filter((p) => p.city === city))
+          .slice()
+          .sort((a, b) => Number(b.city === profile.home) - Number(a.city === profile.home))
+  if (!list.length) return null
   return (
     <Row title="Where to eat" to="/table" toLabel="All restaurants">
       {list.slice(0, 10).map((p) => (
@@ -238,11 +244,18 @@ function Restaurants() {
 }
 
 function Empty() {
-  const { setCity } = useStore()
+  const { setCity, city, near, setNear } = useStore()
   return (
     <div className="mx-auto mt-8 max-w-[1400px] px-4 md:px-8">
       <div className="border border-rule py-16 text-center">
-        <p className="text-[18px] font-bold">Nothing listed here for the next month yet.</p>
+        <p className="text-[18px] font-bold">
+          {city === 'near' && near ? `Nothing in the next month within ${near.miles} miles of ${near.label}.` : 'Nothing listed here for the next month yet.'}
+        </p>
+        {city === 'near' && near && near.miles < 50 && (
+          <button onClick={() => setNear({ ...near, miles: near.miles < 25 ? 25 : 50 })} className="btn btn-quiet mr-2 mt-5">
+            Widen to {near.miles < 25 ? 25 : 50} miles
+          </button>
+        )}
         <button onClick={() => setCity('all')} className="btn mt-5">
           Show all cities
         </button>

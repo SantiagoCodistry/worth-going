@@ -42,6 +42,15 @@ export function Privacy() {
         removes your email and synced data.
       </p>
 
+      <H>Your location</H>
+      <p>
+        “Near me” only asks for your location when you tap Use my location, and your browser asks your permission first. The
+        position is used in your browser to measure distances and is saved there so you don’t have to share it again. It is never
+        sent to us or synced to your account. Turning it off (Stop using location) deletes it. If you search for a place instead,
+        the text you type is sent to OpenStreetMap’s Nominatim service to find it, and the same happens with your position once
+        to show the name of your town.
+      </p>
+
       <H>Spotify</H>
       <p>
         If you connect Spotify, we read your top and followed artists once, keep their names and genres in your taste

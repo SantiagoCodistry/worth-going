@@ -6,6 +6,7 @@ import { sortTime } from '../shared/time.ts'
 import { WHEN_OPTIONS, dayParts, relativeDay, startKey, todayKey, type When } from '../lib/dates.ts'
 import { applyFilters } from '../lib/recommend.ts'
 import { favoriteAt } from '../lib/favorites.ts'
+import { RADII, distanceTo, eventPoint, formatMiles } from '../lib/geo.ts'
 import { useStore } from '../lib/store.tsx'
 import { EventRow } from '../components/Cards.tsx'
 import { CityTabs } from '../components/Layout.tsx'
@@ -15,12 +16,13 @@ import { LoadError } from './Home.tsx'
 const isWhen = (s: string | null): s is When => !!s && WHEN_OPTIONS.some((w) => w.id === s)
 
 export function Explore() {
-  const { data, error, city, setCity, profile } = useStore()
+  const { data, error, city, setCity, where, near, setNear, profile } = useStore()
   const [params, setParams] = useSearchParams()
   const when: When = isWhen(params.get('when')) ? (params.get('when') as When) : 'month'
   const cat = (params.get('cat') as CategoryId | null) ?? 'all'
   const free = params.get('free') === '1'
   const mine = params.get('mine') === '1'
+  const nearest = params.get('sort') === 'near'
   const [q, setQ] = useState(params.get('q') ?? '')
 
   // A shared link may carry ?city=…
@@ -48,9 +50,30 @@ export function Explore() {
   }
 
   const results = useMemo(
-    () => applyFilters(data?.events ?? [], { city, category: cat, when, q, free }).filter((e) => !mine || !!favoriteAt(e, profile.favorites ?? [])),
-    [data, city, cat, when, q, free, mine, profile.favorites],
+    () => applyFilters(data?.events ?? [], { ...where, category: cat, when, q, free }).filter((e) => !mine || !!favoriteAt(e, profile.favorites ?? [])),
+    [data, where, cat, when, q, free, mine, profile.favorites],
   )
+
+  const nearMode = city === 'near' && !!near
+  // Nearest first: one list by distance instead of by day.
+  const byDistance = useMemo(
+    () =>
+      nearMode && nearest
+        ? results.map((e) => ({ e, mi: distanceTo(near!, eventPoint(e)) })).sort((a, b) => a.mi - b.mi).map((x) => x.e)
+        : [],
+    [results, nearMode, nearest, near],
+  )
+  // When nothing is in range, say how far the closest listing is.
+  const closest = useMemo(() => {
+    if (!nearMode || results.length) return null
+    const all = applyFilters(data?.events ?? [], { city: 'all', category: cat, when, q, free })
+    let best: number | null = null
+    for (const e of all) {
+      const mi = distanceTo(near!, eventPoint(e))
+      if (best === null || mi < best) best = mi
+    }
+    return best
+  }, [nearMode, results.length, data, cat, when, q, free, near])
 
   const { days, exhibits } = useMemo(() => {
     const today = todayKey()
@@ -108,6 +131,12 @@ export function Explore() {
               />
               Free only
             </label>
+            {nearMode && (
+              <label className="ml-4 inline-flex items-center gap-2 text-[14px] font-medium">
+                <input type="checkbox" checked={nearest} onChange={(e) => update({ sort: e.target.checked ? 'near' : null })} className="h-4 w-4 accent-[var(--accent)]" />
+                Nearest first
+              </label>
+            )}
             {(profile.favorites?.length ?? 0) > 0 && (
               <label className="ml-4 inline-flex items-center gap-2">
                 <input type="checkbox" checked={mine} onChange={(e) => update({ mine: e.target.checked ? '1' : null })} className="h-4 w-4 accent-[var(--accent)]" />
@@ -139,7 +168,15 @@ export function Explore() {
         {results.length} {results.length === 1 ? 'listing' : 'listings'}
       </p>
 
-      {days.map(([key, items]) => {
+      {nearMode && nearest && byDistance.length > 0 && (
+        <section className="mt-6 border-t rule">
+          {byDistance.map((e) => (
+            <EventRow key={e.id} e={e} />
+          ))}
+        </section>
+      )}
+
+      {!(nearMode && nearest) && days.map(([key, items]) => {
         const p = dayParts(key)
         const rel = relativeDay(key)
         return (
@@ -159,7 +196,7 @@ export function Explore() {
         )
       })}
 
-      {exhibits.length > 0 && (
+      {!(nearMode && nearest) && exhibits.length > 0 && (
         <section className="mt-12 grid gap-1 md:grid-cols-[200px_1fr] md:gap-8">
           <div>
             <h2 className="display text-[30px] md:text-[36px]">On view</h2>
@@ -173,7 +210,24 @@ export function Explore() {
         </section>
       )}
 
-      {results.length === 0 && (
+      {results.length === 0 && nearMode && (
+        <div className="py-16 text-center">
+          <p className="text-[18px] font-medium">Nothing within {near!.miles} miles of {near!.label}.</p>
+          {closest !== null && <p className="mt-2 text-mute">The closest listing that fits your other filters is {formatMiles(closest)} away.</p>}
+          <div className="mt-5 flex flex-wrap justify-center gap-2">
+            {RADII.filter((r) => r > near!.miles).slice(0, 2).map((r) => (
+              <button key={r} className="btn btn-quiet" onClick={() => setNear({ ...near!, miles: r })}>
+                Widen to {r} miles
+              </button>
+            ))}
+            <button className="btn btn-quiet" onClick={() => setCity('all')}>
+              Show everywhere
+            </button>
+          </div>
+        </div>
+      )}
+
+      {results.length === 0 && !nearMode && (
         <div className="py-20 text-center">
           <p className="text-[18px] font-medium">No matches.</p>
           <p className="mt-2 text-mute">Try a wider date range, another city, or a different search.</p>

@@ -4,6 +4,8 @@ import { cityById } from '../shared/taxonomy.ts'
 import { timeLabel, whenLine } from '../lib/dates.ts'
 import { Cover, Photo, Thumb, billed, dateStamp, formatOf, hash, summaryOf } from './Poster.tsx'
 import { PreviewTag, SaveButton } from './bits.tsx'
+import { Distance } from './NearMe.tsx'
+import { eventPoint } from '../lib/geo.ts'
 
 /** "Fareed Zakaria, Patrick Deneen": who's on. */
 export function whoLine(people?: Person[]) {
@@ -67,6 +69,7 @@ export function EventCard({ e, reasons, className = '' }: { e: WGEvent; reasons?
         <p className="mt-1.5 text-[13px] text-mute">
           {e.venue.name}
           {e.price ? ` · ${e.price}` : e.isFree ? ' · Free' : ''}
+          <Distance point={eventPoint(e)} className="font-semibold text-ink before:content-['_·_']" />
         </p>
         <Reasons reasons={reasons} className="mt-2" />
         <PreviewTag e={e} className="mt-1.5" />
@@ -93,6 +96,7 @@ export function EventRow({ e, showDate = true }: { e: WGEvent; showDate?: boolea
         <p className="truncate text-[13.5px] text-mute">
           {e.venue.name}, {cityById(e.city).short}
           {e.price ? ` · ${e.price}` : e.isFree ? ' · Free' : ''}
+          <Distance point={eventPoint(e)} className="font-semibold text-ink before:content-['_·_']" />
         </p>
       </div>
       <SaveButton id={e.id} className="h-9 w-9 justify-center" />

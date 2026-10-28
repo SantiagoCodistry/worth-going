@@ -5,6 +5,7 @@ import { CITIES } from '../shared/taxonomy.ts'
 import { useStore } from '../lib/store.tsx'
 import { accountsEnabled } from '../lib/account.ts'
 import { CONTACT_URL } from '../pages/Legal.tsx'
+import { NearMePanel } from './NearMe.tsx'
 
 const NAV: { to: string; label: string; short?: string; end?: boolean }[] = [
   { to: '/', label: 'For you', end: true },
@@ -26,15 +27,53 @@ export function Wordmark({ className = '' }: { className?: string }) {
 }
 
 export function CityTabs({ className = '' }: { className?: string }) {
-  const { city, setCity } = useStore()
+  const { city, setCity, near } = useStore()
+  const [open, setOpen] = useState(false)
   const opts: { id: CityFilter; label: string }[] = [{ id: 'all', label: 'All cities' }, ...CITIES.map((c) => ({ id: c.id, label: c.short }))]
   return (
-    <div role="tablist" aria-label="City" className={`no-scrollbar flex gap-1.5 overflow-x-auto ${className}`}>
-      {opts.map((o) => (
-        <button key={o.id} role="tab" aria-selected={city === o.id} onClick={() => setCity(o.id)} className="chip">
-          {o.label}
+    <div className={`min-w-0 ${className}`}>
+      <div role="tablist" aria-label="Where" className="no-scrollbar flex gap-1.5 overflow-x-auto">
+        <button
+          role="tab"
+          aria-selected={city === 'near'}
+          aria-expanded={open}
+          onClick={() => {
+            if (near && city !== 'near') setCity('near')
+            else setOpen((o) => !o)
+          }}
+          className="chip whitespace-nowrap"
+        >
+          <svg width="11" height="13" viewBox="0 0 11 13" aria-hidden className="mr-1 inline -translate-y-px">
+            <path d="M5.5 12.5s4.5-4.3 4.5-7.5a4.5 4.5 0 10-9 0c0 3.2 4.5 7.5 4.5 7.5z" fill="none" stroke="currentColor" strokeWidth="1.5" />
+            <circle cx="5.5" cy="5" r="1.5" fill="currentColor" />
+          </svg>
+          {near && city === 'near' ? `${near.label} · ${near.miles} mi` : 'Near me'}
         </button>
-      ))}
+        {near && city === 'near' && (
+          <button className="chip" onClick={() => setOpen((o) => !o)} aria-label="Change location or radius">
+            Change
+          </button>
+        )}
+        {opts.map((o) => (
+          <button
+            key={o.id}
+            role="tab"
+            aria-selected={city === o.id}
+            onClick={() => {
+              setCity(o.id)
+              setOpen(false)
+            }}
+            className="chip"
+          >
+            {o.label}
+          </button>
+        ))}
+      </div>
+      {open && (
+        <div className="mt-2 max-w-2xl">
+          <NearMePanel onDone={() => setOpen(false)} />
+        </div>
+      )}
     </div>
   )
 }

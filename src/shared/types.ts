@@ -3,7 +3,8 @@
 
 /** Areas, not just cities: New Jersey covers the rest of the state outside the Princeton area. */
 export type CityId = 'nyc' | 'nj' | 'princeton' | 'philly'
-export type CityFilter = CityId | 'all'
+/** An area, everywhere, or within a radius of you ('near'). */
+export type CityFilter = CityId | 'all' | 'near'
 
 export type CategoryId =
   | 'startups'

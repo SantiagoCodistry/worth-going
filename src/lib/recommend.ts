@@ -5,6 +5,7 @@
 import type { CategoryId, CityFilter, WGEvent } from '../shared/types.ts'
 import { sortTime } from '../shared/time.ts'
 import { overlaps, type When, whenRange } from './dates.ts'
+import { eventPoint, withinRadius, type Near } from './geo.ts'
 
 export interface Interval {
   start: string
@@ -22,6 +23,8 @@ export interface RecommendationContext {
 
 export interface Filters {
   city: CityFilter
+  /** Your position and radius, used when city is 'near'. */
+  near?: Near | null
   category?: CategoryId | 'all'
   when?: When
   q?: string
@@ -32,7 +35,9 @@ export function applyFilters(events: WGEvent[], f: Filters): WGEvent[] {
   const range = whenRange(f.when ?? 'all')
   const q = f.q?.trim().toLowerCase()
   return events.filter((e) => {
-    if (f.city !== 'all' && e.city !== f.city) return false
+    if (f.city === 'near') {
+      if (f.near && !withinRadius(f.near, eventPoint(e))) return false
+    } else if (f.city !== 'all' && e.city !== f.city) return false
     if (f.category && f.category !== 'all' && e.category !== f.category) return false
     if (f.free && !e.isFree) return false
     if (!overlaps(e, range)) return false

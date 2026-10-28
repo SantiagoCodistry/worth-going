@@ -9,6 +9,8 @@ import { CityTabs } from '../components/Layout.tsx'
 import { Photo, inkFor } from '../components/Poster.tsx'
 import { ShareButton } from '../components/bits.tsx'
 import { appUrl } from '../lib/share.ts'
+import { Distance } from '../components/NearMe.tsx'
+import { distanceTo, placePoint, withinRadius } from '../lib/geo.ts'
 
 const GOOD_FOR: Record<string, string> = {
   cheap: 'Cheap',
@@ -125,6 +127,7 @@ export function PlaceCard({ p, className = '' }: { p: Place; className?: string 
       <div className="pt-3">
         <p className="label text-[11px] text-mute">
           {p.cuisine} · {p.neighborhood}
+          <Distance point={placePoint(p, data?.placeMeta?.[p.id])} className="text-ink before:content-['_·_']" />
         </p>
         <h3 className="mt-1 text-[17px] font-bold leading-snug">
           <span className="link-underline">{p.name}</span>
@@ -146,14 +149,23 @@ export function PlaceCard({ p, className = '' }: { p: Place; className?: string 
 type Tab = 'all' | 'want' | 'been'
 
 export function Table() {
-  const { city, profile, places } = useStore()
+  const { city, near, profile, places, data } = useStore()
   const [good, setGood] = useState<string>('any')
+  const nearMode = city === 'near' && !!near
   const [tab, setTab] = useState<Tab>('all')
   const want = PLACES.filter((p) => places[p.id]?.status === 'want')
   const been = PLACES.filter((p) => places[p.id]?.status === 'been').sort(
     (a, b) => VERDICT_RANK[places[a.id].verdict ?? 'liked'] - VERDICT_RANK[places[b.id].verdict ?? 'liked'],
   )
-  const list = PLACES.filter((p) => (city === 'all' || p.city === city) && (good === 'any' || p.goodFor.includes(good)))
+  const list = PLACES.filter(
+    (p) =>
+      (city === 'all' || (nearMode ? withinRadius(near!, placePoint(p, data?.placeMeta?.[p.id])) : p.city === city)) &&
+      (good === 'any' || p.goodFor.includes(good)),
+  )
+  // Near me: one list, closest first.
+  const nearby = nearMode
+    ? list.map((p) => ({ p, mi: distanceTo(near!, placePoint(p, data?.placeMeta?.[p.id])) })).sort((a, b) => a.mi - b.mi).map((x) => x.p)
+    : []
   const order = [profile.home, ...CITIES.map((c) => c.id).filter((c) => c !== profile.home)]
   const groups = order.map((id) => ({ c: cityById(id), items: list.filter((p) => p.city === id) })).filter((g) => g.items.length)
 
@@ -190,7 +202,22 @@ export function Table() {
               ))}
             </div>
           </div>
-          {groups.map(({ c, items }) => (
+          {nearMode && nearby.length > 0 && (
+            <section className="mt-12">
+              <h2 className="display mb-5 border-t-[3px] border-ink pt-3 text-[40px] md:text-[56px]">Near {near!.label}</h2>
+              <div className="grid gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+                {nearby.map((p) => (
+                  <PlaceCard key={p.id} p={p} />
+                ))}
+              </div>
+            </section>
+          )}
+          {nearMode && !nearby.length && (
+            <p className="py-20 text-center text-mute">
+              No restaurants on our list within {near!.miles} miles of {near!.label}. Try a wider radius.
+            </p>
+          )}
+          {!nearMode && groups.map(({ c, items }) => (
             <section key={c.id} className="mt-12">
               <h2 className="display mb-5 border-t-[3px] border-ink pt-3 text-[40px] md:text-[56px]">{c.name}</h2>
               <div className="grid gap-x-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -200,7 +227,7 @@ export function Table() {
               </div>
             </section>
           ))}
-          {!groups.length && <p className="py-20 text-center text-mute">Nothing matches. Try another filter or area.</p>}
+          {!nearMode && !groups.length && <p className="py-20 text-center text-mute">Nothing matches. Try another filter or area.</p>}
         </>
       )}
 
