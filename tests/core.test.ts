@@ -234,3 +234,20 @@ test('edition dates read in the pick’s own city time', async () => {
   assert.equal(isPast(pick('d', 'nyc', 'music'), Date.parse('2026-11-02T00:00:00Z')), true)
   assert.equal(isPast(pick('e', 'nyc', 'music'), Date.parse('2026-10-30T00:00:00Z')), false)
 })
+
+test('near me: nearest area, distance nudges, restaurants closest first', async () => {
+  const { nearestArea, topTen, placesFor } = await import('../src/lib/edition.ts')
+  assert.equal(nearestArea({ lat: 40.678, lng: -73.944 }).city, 'nyc') // Brooklyn
+  assert.equal(nearestArea({ lat: 40.35, lng: -74.66 }).city, 'princeton')
+  assert.equal(nearestArea({ lat: 39.95, lng: -75.17 }).city, 'philly')
+  assert.ok(nearestArea({ lat: 41.88, lng: -87.63 }).miles > 600) // Chicago: far from everything
+  const here = { lat: 40.7, lng: -74.0 }
+  const e2 = structuredClone(ed)
+  e2.picks[7].venue = { name: 'Close', lat: 40.701, lng: -74.001 }
+  e2.picks[0].venue = { name: 'Far', lat: 40.95, lng: -73.6 }
+  const ids = topTen(e2, 'near', { interests: [], artists: [] }, here).map((r) => r.pick.id)
+  assert.ok(ids.indexOf('nyc7') < 7 && ids.indexOf('nyc0') > 0)
+  e2.places[3].lat = 40.7001
+  e2.places[3].lng = -74.0001
+  assert.equal(placesFor(e2, 'near', here)[0].id, 'nyc3')
+})

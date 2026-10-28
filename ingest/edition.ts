@@ -40,7 +40,7 @@ function fromEvent(e: WGEvent, src: Extract<EditionSource['picks'][number], { ev
     end: e.end,
     timeTBA: e.timeTBA,
     exhibition: e.kind === 'exhibition' || undefined,
-    venue: { name: e.venue.name, address: e.venue.address, neighborhood: e.venue.neighborhood },
+    venue: { name: e.venue.name, address: e.venue.address, neighborhood: e.venue.neighborhood, lat: e.venue.lat, lng: e.venue.lng },
     price: src.price ?? e.price,
     isFree: e.isFree,
     link: src.link ?? e.ticketUrl ?? e.sourceUrl,
@@ -66,6 +66,8 @@ function place(id: string, city: EditionCity): PlacePick {
     address: p.address,
     book: r ? { via: r.platform, url: r.url } : undefined,
     map: mapsUrl(p),
+    lat: data.placeMeta?.[p.id]?.lat,
+    lng: data.placeMeta?.[p.id]?.lng,
     image: data.placeImages?.[p.id] ?? undefined,
   }
 }
@@ -87,7 +89,11 @@ async function build() {
       const picks: Pick[] = []
       for (const s of src.picks) {
         if (s.event === undefined) {
-          picks.push(s)
+          // Written by hand: use as is, with an optional Wikipedia photo.
+          const { wiki, event: _none, ...manual } = s
+          void _none
+          if (wiki && !manual.image) manual.image = (await wikiImage(wiki).catch(() => null)) ?? undefined
+          picks.push(manual)
           continue
         }
         const e = byId.get(s.event)

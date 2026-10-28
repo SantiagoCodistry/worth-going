@@ -5,6 +5,11 @@ import type { Edition, EditionIndexEntry, Pick, PlacePick } from '../shared/edit
 import {
   CITY_LABEL,
   INTERESTS,
+  formatMiles,
+  locate,
+  showMiles,
+  milesTo,
+  nearestArea,
   calendarUrl,
   currentDate,
   editionDateLabel,
@@ -58,9 +63,10 @@ export function Week() {
 }
 
 function Sheet({ edition, latest }: { edition: Edition; latest: boolean }) {
-  const { city, setCity, taste, shortlist } = usePrefs()
-  const ten = useMemo(() => topTen(edition, city, taste), [edition, city, taste])
-  const places = useMemo(() => placesFor(edition, city), [edition, city])
+  const { city, setCity, here, taste, shortlist } = usePrefs()
+  const ten = useMemo(() => topTen(edition, city, taste, here), [edition, city, taste, here])
+  const places = useMemo(() => placesFor(edition, city, here), [edition, city, here])
+  const nearest = city === 'near' && here ? nearestArea(here) : null
   const personal = taste.interests.length > 0 || taste.artists.length > 0
   const [lead, ...rest] = ten
   const mine = shortlist(edition.date)
@@ -84,13 +90,27 @@ function Sheet({ edition, latest }: { edition: Edition; latest: boolean }) {
               Chosen by hand from what’s on around Princeton, New York and Philadelphia{' '}
               {latest ? `this week. New every Thursday.` : `for the week of ${weekLabel(edition.weekOf)}.`}
             </p>
-            <CityTabs city={city} setCity={setCity} />
+            <CityTabs />
           </div>
+          {nearest && (
+            <p className="mt-4 text-[15px] text-ink-2">
+              {nearest.miles > 45 ? (
+                <>
+                  <span className="bg-yellow px-1 font-semibold text-ink">You’re about {Math.round(nearest.miles)} miles from {CITY_LABEL[nearest.city]}</span>, the nearest
+                  area Worth Going covers. Here’s its list, in case you’re heading that way.
+                </>
+              ) : (
+                <>
+                  Showing <strong className="text-ink">{CITY_LABEL[nearest.city]}</strong>, the area you’re in, with what’s closest to you nudged up and distances on each.
+                </>
+              )}
+            </p>
+          )}
           <Personalize personal={personal} />
         </section>
 
         {/* ——— Number one ——— */}
-        {lead ? <Lead r={lead} date={edition.date} /> : <p className="py-24 text-center text-ink-2">Nothing in {CITY_LABEL[city]} this week.</p>}
+        {lead ? <Lead r={lead} date={edition.date} /> : <p className="py-24 text-center text-ink-2">Nothing in {CITY_LABEL[nearest?.city ?? city]} this week.</p>}
 
         {/* ——— Two to ten ——— */}
         {rest.length > 0 && (
@@ -102,7 +122,7 @@ function Sheet({ edition, latest }: { edition: Edition; latest: boolean }) {
         )}
         {ten.length > 0 && ten.length < 10 && (
           <p className="mt-6 text-[15px] text-ink-2">
-            That’s all {ten.length} we’d recommend in {CITY_LABEL[city]} this week.{' '}
+            That’s all {ten.length} we’d recommend in {CITY_LABEL[nearest?.city ?? city]} this week.{' '}
             <button className="link font-semibold" onClick={() => setCity('all')}>
               See all ten
             </button>
@@ -122,20 +142,55 @@ function Sheet({ edition, latest }: { edition: Edition; latest: boolean }) {
   )
 }
 
-function CityTabs({ city, setCity }: { city: CityChoice; setCity: (c: CityChoice) => void }) {
+const LOCATE_ERROR: Record<string, string> = {
+  denied: 'Location is off for this site. Turn it on in your browser’s settings, or pick an area.',
+  unavailable: 'Couldn’t find your location just now. Pick an area instead.',
+  unsupported: 'This browser can’t share its location. Pick an area instead.',
+}
+
+/** Areas, plus Near me: asks for your location only when you tap it. */
+function CityTabs() {
+  const { city, setCity, setHere } = usePrefs()
+  const [finding, setFinding] = useState(false)
+  const [error, setError] = useState('')
+  const nearMe = async () => {
+    setError('')
+    setFinding(true)
+    try {
+      setHere(await locate())
+      setCity('near')
+    } catch (e) {
+      setError(LOCATE_ERROR[String(e)] ?? LOCATE_ERROR.unavailable)
+    } finally {
+      setFinding(false)
+    }
+  }
   return (
-    <div role="tablist" aria-label="Area" className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 md:mx-0 md:px-0">
-      {(Object.keys(CITY_LABEL) as CityChoice[]).map((c) => (
-        <button
-          key={c}
-          role="tab"
-          aria-selected={city === c}
-          onClick={() => setCity(c)}
-          className={`shrink-0 border border-ink px-3.5 py-2 text-[14px] font-semibold transition-colors ${city === c ? 'bg-ink text-paper' : 'hover:bg-yellow'}`}
-        >
-          {CITY_LABEL[c]}
-        </button>
-      ))}
+    <div className="min-w-0">
+      <div role="tablist" aria-label="Area" className="no-scrollbar -mx-4 flex gap-1.5 overflow-x-auto px-4 md:mx-0 md:px-0">
+        {(Object.keys(CITY_LABEL) as CityChoice[]).map((c) => (
+          <button
+            key={c}
+            role="tab"
+            aria-selected={city === c}
+            onClick={() => (c === 'near' ? nearMe() : (setError(''), setCity(c)))}
+            className={`flex shrink-0 items-center gap-1.5 border border-ink px-3.5 py-2 text-[14px] font-semibold transition-colors ${city === c ? 'bg-ink text-paper' : 'hover:bg-yellow'}`}
+          >
+            {c === 'near' && (
+              <svg width="11" height="13" viewBox="0 0 11 13" aria-hidden>
+                <path d="M5.5 12.3s4.4-4.2 4.4-7.4a4.4 4.4 0 10-8.8 0c0 3.2 4.4 7.4 4.4 7.4z" fill="none" stroke="currentColor" strokeWidth="1.5" />
+                <circle cx="5.5" cy="5" r="1.4" fill="currentColor" />
+              </svg>
+            )}
+            {c === 'near' && finding ? 'Finding you…' : CITY_LABEL[c]}
+          </button>
+        ))}
+      </div>
+      {error && (
+        <p className="mt-2 text-[13px] font-semibold text-ink-2" role="status">
+          {error}
+        </p>
+      )}
     </div>
   )
 }
@@ -257,6 +312,8 @@ function Actions({ p, date }: { p: Pick; date: string }) {
 }
 
 function Kicker({ p, n }: { p: Pick; n?: number }) {
+  const { city, here } = usePrefs()
+  const mi = city === 'near' ? milesTo(here, p.venue) : null
   return (
     <p className="caps flex flex-wrap items-center gap-x-2 text-ink-2">
       {n && <span className="sr-only">Number {n}.</span>}
@@ -265,6 +322,12 @@ function Kicker({ p, n }: { p: Pick; n?: number }) {
       <span>{CITY_LABEL[p.city]}</span>
       <span className="text-mute">·</span>
       <span>{shortDay(p)}</span>
+      {showMiles(mi) && (
+        <>
+          <span className="text-mute">·</span>
+          <span className="text-pink">{formatMiles(mi)}</span>
+        </>
+      )}
       {isPast(p) && <span className="bg-paper-2 px-1.5 py-0.5 text-mute">Happened</span>}
     </p>
   )
@@ -340,14 +403,16 @@ function Entry({ r, n, date }: { r: Ranked; n: number; date: string }) {
 }
 
 function Eat({ places, city }: { places: PlacePick[]; city: CityChoice }) {
+  const { here } = usePrefs()
   if (!places.length) return null
+  const area = city === 'near' && here ? nearestArea(here).city : city
   return (
     <section className="mt-24 md:mt-32" aria-labelledby="eat">
       <div className="flex flex-col gap-2 border-t-[3px] border-ink pt-4 md:flex-row md:items-end md:justify-between">
         <h2 id="eat" className="display text-[56px] md:text-[96px]">
           And <Misreg>10</Misreg> places to eat
         </h2>
-        <p className="stamp text-[12px] text-ink-2 md:pb-3">{city === 'all' ? 'New York · Philadelphia · Princeton' : CITY_LABEL[city]}</p>
+        <p className="stamp text-[12px] text-ink-2 md:pb-3">{area === 'all' ? 'New York · Philadelphia · Princeton' : city === 'near' ? `Closest to you in ${CITY_LABEL[area]}` : CITY_LABEL[area]}</p>
       </div>
       <ol className="mt-6 grid gap-x-12 md:grid-cols-2">
         {places.map((pl, i) => (
@@ -360,6 +425,7 @@ function Eat({ places, city }: { places: PlacePick[]; city: CityChoice }) {
               <p className="caps mt-1.5 text-ink-2">
                 {pl.cuisine} · {pl.neighborhood}
                 {city === 'all' ? ` · ${CITY_LABEL[pl.city]}` : ''} · {pl.price}
+                {city === 'near' && showMiles(milesTo(here, pl)) && <span className="text-pink"> · {formatMiles(milesTo(here, pl)!)}</span>}
               </p>
               <p className="mt-2 text-[15.5px] leading-relaxed text-ink-2">{pl.why}</p>
               {pl.order && (

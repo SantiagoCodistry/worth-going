@@ -24,9 +24,58 @@ export function currentDate(index: EditionIndexEntry[], today = nyDateKey(new Da
   return index.find((e) => e.date <= today)?.date ?? index[index.length - 1]?.date
 }
 
-export type CityChoice = EditionCity | 'all'
+/** An area, everywhere, or the area nearest you ('near'). */
+export type CityChoice = EditionCity | 'all' | 'near'
+
+/** Where you are, from your device. Kept in this browser only. */
+export interface Here {
+  lat: number
+  lng: number
+}
+
+const AREA_CENTER: Record<EditionCity, Here> = {
+  princeton: { lat: 40.3487, lng: -74.6593 },
+  nyc: { lat: 40.7359, lng: -73.9911 },
+  philly: { lat: 39.9526, lng: -75.1652 },
+}
+
+export function milesBetween(a: Here, b: Here): number {
+  const rad = (d: number) => (d * Math.PI) / 180
+  const h = Math.sin(rad(b.lat - a.lat) / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(rad(b.lng - a.lng) / 2) ** 2
+  return 2 * 3958.8 * Math.asin(Math.sqrt(h))
+}
+
+/** The edition area closest to you, and how far its middle is. */
+export function nearestArea(here: Here): { city: EditionCity; miles: number } {
+  return (Object.keys(AREA_CENTER) as EditionCity[])
+    .map((city) => ({ city, miles: milesBetween(here, AREA_CENTER[city]) }))
+    .sort((a, b) => a.miles - b.miles)[0]
+}
+
+/** Miles from you to a pick or restaurant, when we know where it is. */
+export function milesTo(here: Here | null, at: { lat?: number; lng?: number }): number | null {
+  return here && at.lat && at.lng ? milesBetween(here, { lat: at.lat, lng: at.lng }) : null
+}
+
+/** Distances only mean something when you're in or near the area. */
+export const showMiles = (mi: number | null): mi is number => mi !== null && mi <= 60
+
+export const formatMiles = (mi: number) => (mi < 0.2 ? 'Around the corner' : mi < 10 ? `${mi.toFixed(1)} mi away` : `${Math.round(mi)} mi away`)
+
+/** Ask the browser where you are. Rejects with 'denied' | 'unavailable' | 'unsupported'. */
+export function locate(): Promise<Here> {
+  return new Promise((ok, no) => {
+    if (!('geolocation' in navigator)) return no('unsupported')
+    navigator.geolocation.getCurrentPosition(
+      (p) => ok({ lat: Math.round(p.coords.latitude * 1000) / 1000, lng: Math.round(p.coords.longitude * 1000) / 1000 }),
+      (e) => no(e.code === 1 ? 'denied' : 'unavailable'),
+      { timeout: 12000, maximumAge: 10 * 60 * 1000 },
+    )
+  })
+}
 
 export const CITY_LABEL: Record<CityChoice, string> = {
+  near: 'Near me',
   all: 'Everywhere',
   princeton: 'Princeton',
   nyc: 'New York',
@@ -72,17 +121,23 @@ export interface Ranked {
  * The ten to show: the editor's order, filtered by city, nudged by your taste
  * when you've set one. With no taste it's exactly the editor's list.
  */
-export function topTen(edition: Edition, city: CityChoice, taste: Taste): Ranked[] {
-  const pool = edition.picks.filter((p) => city === 'all' || p.city === city)
+export function topTen(edition: Edition, city: CityChoice, taste: Taste, here: Here | null = null): Ranked[] {
+  const area = city === 'near' ? (here ? nearestArea(here).city : 'nyc') : city
+  const pool = edition.picks.filter((p) => area === 'all' || p.city === area)
   const personal = taste.interests.length > 0 || taste.artists.length > 0
-  if (!personal) return pool.slice(0, 10).map((pick) => ({ pick }))
+  const near = city === 'near' && here
+  if (!personal && !near) return pool.slice(0, 10).map((pick) => ({ pick }))
   const liked = new Set(INTERESTS.filter((i) => taste.interests.includes(i.id)).flatMap((i) => i.categories))
   return pool
     .map((pick, i) => {
       const artist = artistIn(pick, taste.artists)
       const interest = liked.has(pick.category)
       // Editor's order counts most; your taste lifts a pick a few places, an artist you play lifts it to the top.
-      const score = pool.length - i + (interest ? 6 : 0) + (artist ? 40 : 0) - (liked.size && !interest && !artist ? 3 : 0)
+      // Near me: closer picks move up a little; far ones (more than ~20 miles) drop a few places.
+      const mi = near ? milesTo(here, pick.venue) : null
+      // Gentle enough that the editor's order mostly holds: about one place up when it's close by.
+      const distance = mi === null ? 0 : mi < 3 ? 1.5 : mi < 8 ? 0.5 : mi > 20 ? -3 : 0
+      const score = pool.length - i + (interest ? 6 : 0) + (artist ? 40 : 0) - (liked.size && !interest && !artist ? 3 : 0) + distance
       return { pick, score, reason: artist ? `You listen to ${artist}` : undefined }
     })
     .sort((a, b) => b.score - a.score)
@@ -91,7 +146,18 @@ export function topTen(edition: Edition, city: CityChoice, taste: Taste): Ranked
 }
 
 /** Ten places to eat for the city, or a mix for everywhere. */
-export function placesFor(edition: Edition, city: CityChoice): PlacePick[] {
+export function placesFor(edition: Edition, city: CityChoice, here: Here | null = null): PlacePick[] {
+  if (city === 'near') {
+    const area = here ? nearestArea(here).city : 'nyc'
+    const list = edition.places.filter((p) => p.city === area)
+    if (!here) return list.slice(0, 10)
+    // Closest first; places we can't place keep the editor's order at the end.
+    return list
+      .map((p, i) => ({ p, d: milesTo(here, p) ?? 1000 + i }))
+      .sort((a, b) => a.d - b.d)
+      .map((x) => x.p)
+      .slice(0, 10)
+  }
   if (city !== 'all') return edition.places.filter((p) => p.city === city).slice(0, 10)
   const by = (c: EditionCity, n: number) => edition.places.filter((p) => p.city === c).slice(0, n)
   return [...by('nyc', 4), ...by('philly', 3), ...by('princeton', 3)]

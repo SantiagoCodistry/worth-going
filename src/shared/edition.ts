@@ -26,7 +26,7 @@ export type PickSource =
       /** A Wikipedia page whose photo to use when the listing has none. */
       wiki?: string
     }
-  | ({ event?: undefined } & Pick)
+  | ({ event?: undefined; wiki?: string } & Pick)
 
 export interface EditionSource {
   /** The Thursday it comes out, YYYY-MM-DD. */
@@ -74,6 +74,8 @@ export interface PlacePick {
   address?: string
   book?: { via: string; url: string }
   map: string
+  lat?: number
+  lng?: number
   image?: { url: string; credit?: string; link?: string }
 }
 

@@ -36,9 +36,16 @@ export function Privacy() {
 
       <H>In your browser</H>
       <p>
-        Your chosen area, your interests, the artist names from Spotify if you connect it, and your shortlist of three are saved in
+        Your chosen area, your position if you use Near me, your interests, the artist names from Spotify if you connect it, and your shortlist of three are saved in
         your browser’s local storage so the page remembers them. They are never sent to us. Clearing your browser’s site data
         deletes them.
+      </p>
+
+      <H>Near me (optional)</H>
+      <p>
+        If you tap Near me, your browser asks your permission and then gives the page your approximate position, rounded to about
+        a hundred meters. It’s used in your browser to choose the nearest area and measure distances, and saved there so you don’t
+        have to share it again. It is never sent to us. Picking an area tab stops using it; clearing site data deletes it.
       </p>
 
       <H>Spotify (optional)</H>

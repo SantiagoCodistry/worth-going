@@ -18,7 +18,9 @@
    "venue": {
     "name": "Sixth Avenue",
     "address": "Lineup at Sixth Ave & Canal St",
-    "neighborhood": "Greenwich Village"
+    "neighborhood": "Greenwich Village",
+    "lat": 40.91726,
+    "lng": -73.80562
    },
    "price": "Free",
    "isFree": true,
@@ -43,7 +45,9 @@
    "end": "2026-10-29",
    "venue": {
     "name": "Matthews Theatre, McCarter Theatre Center",
-    "address": "91 University Place, Princeton"
+    "address": "91 University Place, Princeton",
+    "lat": 40.34401,
+    "lng": -74.66053
    },
    "link": "https://www.mccarter.org/",
    "sourceName": "Songkick",
@@ -88,6 +92,24 @@
    "sourceName": "TCS New York City Marathon"
   },
   {
+   "id": "ny-night-train-haunted-hop-2026",
+   "city": "nyc",
+   "category": "music",
+   "kind": "Halloween dance party",
+   "title": "The Haunted Hop",
+   "why": "New York Night Train’s 21st Halloween soul party: DJ Jonathan Toubin, go-go dancers and Moogstar, the vocoder player from Zapp and Cameo, in a former glass factory.",
+   "start": "2026-10-30T23:00:00.000Z",
+   "venue": {
+    "name": "Knockdown Center",
+    "address": "52-19 Flushing Ave, Queens",
+    "lat": 40.7155,
+    "lng": -73.9182
+   },
+   "price": "21+",
+   "link": "https://app.discotech.me/events/38259080-new-york-night-train-21st-annual-haunted-hop-devils-night-edition-at-knockdown-center",
+   "sourceName": "Discotech"
+  },
+  {
    "id": "songkick-vince-staples-2026-10-31",
    "city": "philly",
    "category": "music",
@@ -98,7 +120,9 @@
    "end": "2026-10-30",
    "venue": {
     "name": "Franklin Music Hall",
-    "address": "421 N. 7th Street, Philadelphia"
+    "address": "421 N. 7th Street, Philadelphia",
+    "lat": 39.95893,
+    "lng": -75.15002
    },
    "link": "https://www.franklinmusichall.com/",
    "sourceName": "Songkick",
@@ -134,7 +158,9 @@
    "start": "2026-10-30T00:00:00.000Z",
    "venue": {
     "name": "The Bell House",
-    "address": "149 7th Street, Brooklyn"
+    "address": "149 7th Street, Brooklyn",
+    "lat": 40.67373,
+    "lng": -73.99156
    },
    "link": "https://www.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-competition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC",
    "sourceName": "The Bell House"
@@ -150,7 +176,9 @@
    "end": "2026-11-01",
    "venue": {
     "name": "Matthews Theatre, McCarter Theatre Center",
-    "address": "91 University Place, Princeton"
+    "address": "91 University Place, Princeton",
+    "lat": 40.34401,
+    "lng": -74.66053
    },
    "link": "https://www.mccarter.org/",
    "sourceName": "Songkick",
@@ -161,34 +189,59 @@
     }
    ],
    "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg/1280px-Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg/1280px-McCarter_Theatre_Center%2C_Princeton%2C_New_Jersey_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
-    "link": "https://en.wikipedia.org/wiki/C%C3%A9cile_McLorin_Salvant",
-    "w": 8192,
-    "h": 5464
+    "link": "https://en.wikipedia.org/wiki/McCarter_Theatre",
+    "w": 4032,
+    "h": 3024
    }
   },
   {
-   "id": "luma-evt-egejit1g5mvurua-events-lu-ma-2026-11-03",
-   "city": "philly",
-   "category": "art",
-   "kind": "Film and dinner",
-   "title": "Big Night, and a timpano",
-   "why": "Watch Big Night, the 1996 film about two brothers and their failing Italian restaurant, then eat the timpano from its famous dinner.",
-   "start": "2026-11-03T00:00:00.000Z",
-   "end": "2026-11-03T03:30:00.000Z",
+   "id": "songkick-machine-girl-2026-10-31",
+   "city": "nyc",
+   "category": "music",
+   "kind": "Devil’s Night show",
+   "title": "Machine Girl",
+   "why": "Machine Girl play breakneck digital hardcore that turns any room into a mosh pit, and this is Pioneer Works’ Devil’s Night show.",
+   "start": "2026-10-31T00:00:00.000Z",
+   "end": "2026-10-30",
    "venue": {
-    "name": "Pen & Pencil Club",
-    "address": "1522 Latimer St, Philadelphia, PA 19102, USA"
+    "name": "Pioneer Works",
+    "address": "159 Pioneer Street, Brooklyn",
+    "lat": 40.67925,
+    "lng": -74.01215
    },
-   "link": "https://luma.com/cr2xox31",
-   "sourceName": "Luma",
+   "link": "https://pioneerworks.org/programs/machine-girl",
+   "sourceName": "Songkick",
+   "people": [
+    {
+     "name": "Machine Girl",
+     "role": "American electronic music group",
+     "wiki": "Machine_Girl",
+     "image": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Machine_Girl_Dec14-2024.jpg/1280px-Machine_Girl_Dec14-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "credit": "Wikimedia Commons",
+      "link": "https://en.wikipedia.org/wiki/Machine_Girl",
+      "w": 3024,
+      "h": 4032
+     }
+    },
+    {
+     "name": "Deli Girls",
+     "role": "American band",
+     "wiki": "Deli_Girls"
+    },
+    {
+     "name": "yesterdayneverhappened",
+     "role": "Performer"
+    }
+   ],
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/bn/39ec8f1f-a781-4495-ae77-c16be84510c8.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/cr2xox31",
-    "w": 800,
-    "h": 420
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Machine_Girl_Dec14-2024.jpg/1280px-Machine_Girl_Dec14-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Machine_Girl",
+    "w": 3024,
+    "h": 4032
    }
   },
   {
@@ -202,7 +255,9 @@
    "end": "2026-10-29",
    "venue": {
     "name": "Cafe Carlyle",
-    "address": "35 East 76th Street, New York (NYC)"
+    "address": "35 East 76th Street, New York (NYC)",
+    "lat": 40.7742,
+    "lng": -73.96312
    },
    "price": "From $175",
    "link": "https://www.exploretock.com/cafecarlyle",
@@ -230,6 +285,31 @@
    }
   },
   {
+   "id": "luma-evt-egejit1g5mvurua-events-lu-ma-2026-11-03",
+   "city": "philly",
+   "category": "art",
+   "kind": "Film and dinner",
+   "title": "Big Night, and a timpano",
+   "why": "Watch Big Night, the 1996 film about two brothers and their failing Italian restaurant, then eat the timpano from its famous dinner.",
+   "start": "2026-11-03T00:00:00.000Z",
+   "end": "2026-11-03T03:30:00.000Z",
+   "venue": {
+    "name": "Pen & Pencil Club",
+    "address": "1522 Latimer St, Philadelphia, PA 19102, USA",
+    "lat": 39.947919299999995,
+    "lng": -75.16723809999999
+   },
+   "link": "https://luma.com/cr2xox31",
+   "sourceName": "Luma",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/bn/39ec8f1f-a781-4495-ae77-c16be84510c8.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/cr2xox31",
+    "w": 800,
+    "h": 420
+   }
+  },
+  {
    "id": "pma-duchamp-retrospective",
    "city": "philly",
    "category": "art",
@@ -242,7 +322,9 @@
    "venue": {
     "name": "Philadelphia Art Museum",
     "address": "2600 Benjamin Franklin Pkwy, Philadelphia",
-    "neighborhood": "Fairmount"
+    "neighborhood": "Fairmount",
+    "lat": 39.96557,
+    "lng": -75.18152
    },
    "link": "https://www.philamuseum.org/",
    "sourceName": "Visit Philadelphia",
@@ -269,6 +351,24 @@
    }
   },
   {
+   "id": "nybg-dia-de-los-muertos-parade-2026",
+   "city": "nyc",
+   "category": "unusual",
+   "kind": "Día de los Muertos parade",
+   "title": "Día de los Muertos at the Botanical Garden",
+   "why": "Giant skeleton puppets and monarch butterflies parade through the Garden among marigolds and ofrendas, on the last weekend of the celebration.",
+   "start": "2026-11-01T19:00:00.000Z",
+   "venue": {
+    "name": "New York Botanical Garden",
+    "address": "2900 Southern Blvd, Bronx",
+    "lat": 40.8623,
+    "lng": -73.877
+   },
+   "price": "With Garden admission",
+   "link": "https://www.nybg.org/",
+   "sourceName": "NYC Tourism"
+  },
+  {
    "id": "92ny-neil-degrasse-tyson-2026",
    "city": "nyc",
    "category": "ideas",
@@ -279,7 +379,9 @@
    "venue": {
     "name": "92NY",
     "address": "1395 Lexington Ave, New York",
-    "neighborhood": "Upper East Side"
+    "neighborhood": "Upper East Side",
+    "lat": 40.78304,
+    "lng": -73.95277
    },
    "link": "https://bigseason.92ny.org/talks",
    "sourceName": "92NY",
@@ -321,14 +423,7 @@
    "price": "Free",
    "isFree": true,
    "link": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/",
-   "sourceName": "Planet Princeton",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg/1280px-Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "credit": "Wikimedia Commons",
-    "link": "https://en.wikipedia.org/wiki/Yiyun_Li",
-    "w": 1386,
-    "h": 1383
-   }
+   "sourceName": "Planet Princeton"
   },
   {
    "id": "the-bell-house-kaiju-big-battel-satan-sleeps-tonight-2026-11-01",
@@ -340,7 +435,9 @@
    "start": "2026-11-01T23:00:00.000Z",
    "venue": {
     "name": "The Bell House",
-    "address": "149 7th Street, Brooklyn"
+    "address": "149 7th Street, Brooklyn",
+    "lat": 40.67373,
+    "lng": -73.99156
    },
    "link": "https://www.ticketmaster.com/kaiju-big-battel-satan-sleeps-tonight-brooklyn-new-york-11-01-2026/event/3000651E16B195B0",
    "sourceName": "The Bell House"
@@ -356,19 +453,14 @@
    "end": "2026-10-30T21:00:00Z",
    "venue": {
     "name": "Palmer Square Green",
-    "address": "10 Palmer Square, Princeton"
+    "address": "10 Palmer Square, Princeton",
+    "lat": 40.35065,
+    "lng": -74.66184
    },
    "price": "Free",
    "isFree": true,
    "link": "https://artscouncilofprinceton.org/event/50-hometown-halloween-parade/",
-   "sourceName": "Arts Council of Princeton",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Palmer_Square_in_Princeton.jpg/1280px-Palmer_Square_in_Princeton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "credit": "Wikimedia Commons",
-    "link": "https://en.wikipedia.org/wiki/Palmer_Square",
-    "w": 1528,
-    "h": 1131
-   }
+   "sourceName": "Arts Council of Princeton"
   },
   {
    "id": "blue-note-robert-glasper-2026-11-01",
@@ -381,7 +473,9 @@
    "venue": {
     "name": "Blue Note",
     "address": "131 W 3rd St, New York",
-    "neighborhood": "Greenwich Village"
+    "neighborhood": "Greenwich Village",
+    "lat": 40.73083,
+    "lng": -74.00073
    },
    "link": "https://www.livenation.com/venue/KovZpZAkJtvA/blue-note-jazz-club-events/pg/2",
    "sourceName": "Live Nation",
@@ -411,7 +505,9 @@
    "end": "2026-10-30",
    "venue": {
     "name": "Miller Theater, Kimmel Center",
-    "address": "250 S. Broad St., Philadelphia"
+    "address": "250 S. Broad St., Philadelphia",
+    "lat": 39.94765,
+    "lng": -75.16519
    },
    "link": "http://www.songkick.com/concerts/43329058-afrocuban-all-stars-at-miller-theater-kimmel-center?utm_medium=organic&utm_source=microformat",
    "sourceName": "Songkick",
@@ -440,7 +536,9 @@
    "start": "2026-11-05T01:00:00.000Z",
    "venue": {
     "name": "The Bell House",
-    "address": "149 7th Street, Brooklyn"
+    "address": "149 7th Street, Brooklyn",
+    "lat": 40.67373,
+    "lng": -73.99156
    },
    "link": "https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-11-04-2026/event/300064BB1911E6D0",
    "sourceName": "The Bell House"
@@ -458,7 +556,9 @@
    "venue": {
     "name": "Eastern State Penitentiary",
     "address": "2027 Fairmount Ave, Philadelphia",
-    "neighborhood": "Fairmount"
+    "neighborhood": "Fairmount",
+    "lat": 39.96834,
+    "lng": -75.17266
    },
    "link": "https://www.easternstate.org/",
    "sourceName": "Visit Philadelphia",
@@ -481,7 +581,9 @@
    "end": "2026-10-31T20:00:00.000Z",
    "venue": {
     "name": "The Met Cloisters",
-    "address": "99 Margaret Corbin Dr, New York, NY 10040, USA"
+    "address": "99 Margaret Corbin Dr, New York, NY 10040, USA",
+    "lat": 40.8648628,
+    "lng": -73.9317274
    },
    "link": "https://luma.com/157thqlu",
    "sourceName": "Luma",
@@ -504,7 +606,9 @@
    "end": "2026-11-04",
    "venue": {
     "name": "The Town Hall",
-    "address": "123 West 43rd Street, New York (NYC)"
+    "address": "123 West 43rd Street, New York (NYC)",
+    "lat": 40.75612,
+    "lng": -73.98446
    },
    "link": "http://www.songkick.com/concerts/43021389-olafur-arnalds-at-town-hall?utm_medium=organic&utm_source=microformat",
    "sourceName": "Songkick",
@@ -541,7 +645,9 @@
    "end": "2026-11-01T19:00:00Z",
    "venue": {
     "name": "Princeton University Graduate College, Grover Cleveland Tower",
-    "address": "88 College Road West, Princeton"
+    "address": "88 College Road West, Princeton",
+    "lat": 40.3410654,
+    "lng": -74.664588
    },
    "price": "Free",
    "isFree": true,
@@ -588,7 +694,9 @@
    "end": "2026-10-31",
    "venue": {
     "name": "Franklin Music Hall",
-    "address": "421 N. 7th Street, Philadelphia"
+    "address": "421 N. 7th Street, Philadelphia",
+    "lat": 39.95893,
+    "lng": -75.15002
    },
    "link": "http://www.songkick.com/concerts/43263198-boy-harsher-at-franklin-music-hall?utm_medium=organic&utm_source=microformat",
    "sourceName": "Songkick",
@@ -634,7 +742,9 @@
    "venue": {
     "name": "Free Library, Parkway Central",
     "address": "1901 Vine St, Philadelphia",
-    "neighborhood": "Logan Square"
+    "neighborhood": "Logan Square",
+    "lat": 39.95959,
+    "lng": -75.17102
    },
    "price": "$5",
    "link": "https://libwww.freelibrary.org/calendar/type/author-events",
@@ -666,7 +776,9 @@
    "venue": {
     "name": "MoMA",
     "address": "11 W 53rd St, New York",
-    "neighborhood": "Midtown"
+    "neighborhood": "Midtown",
+    "lat": 40.76161,
+    "lng": -73.9775
    },
    "link": "https://www.artrabbit.com/places/united-states/new-york/features/lists/20261001-20261231/mustsee-museum-shows",
    "sourceName": "Art Rabbit",
@@ -703,7 +815,9 @@
    "end": "2026-11-01T20:00:00Z",
    "venue": {
     "name": "Princeton Shopping Center",
-    "address": "301 N Harrison Street, Princeton"
+    "address": "301 N Harrison Street, Princeton",
+    "lat": 40.36342,
+    "lng": -74.65059
    },
    "price": "Free",
    "isFree": true,
@@ -721,7 +835,9 @@
    "end": "2026-11-01T21:00:00.000Z",
    "venue": {
     "name": "Princeton Battle Monument",
-    "address": "1 Monument Drive, Princeton, NJ, 08540, United States"
+    "address": "1 Monument Drive, Princeton, NJ, 08540, United States",
+    "lat": 40.3482751,
+    "lng": -74.66579669999999
    },
    "link": "https://princetonhistory.org/events/princeton-history-walking-tour-271/",
    "sourceName": "Historical Society of Princeton"
@@ -737,7 +853,9 @@
    "end": "2026-10-29",
    "venue": {
     "name": "Punch Line - Philly",
-    "address": "1004 Canal St., Philadelphia"
+    "address": "1004 Canal St., Philadelphia",
+    "lat": 39.96462,
+    "lng": -75.13525
    },
    "link": "http://www.songkick.com/concerts/43096876-joanne-mcnally-at-punch-line-philly?utm_medium=organic&utm_source=microformat",
    "sourceName": "Songkick",
@@ -773,7 +891,9 @@
    "start": "2026-10-29T16:30:00Z",
    "end": "2026-10-29T17:00:00Z",
    "venue": {
-    "name": "Princeton University Chapel"
+    "name": "Princeton University Chapel",
+    "lat": 40.3467174,
+    "lng": -74.6568772
    },
    "price": "Free",
    "isFree": true,
@@ -798,7 +918,9 @@
    "end": "2026-11-02T00:00:00Z",
    "venue": {
     "name": "Dorothea’s House",
-    "address": "120 John Street, Princeton"
+    "address": "120 John Street, Princeton",
+    "lat": 40.352013,
+    "lng": -74.663335
    },
    "link": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
    "sourceName": "Planet Princeton",
@@ -821,7 +943,9 @@
    "end": "2026-10-29",
    "venue": {
     "name": "Ruba Club",
-    "address": "416 Green St, Philadelphia"
+    "address": "416 Green St, Philadelphia",
+    "lat": 39.96179,
+    "lng": -75.14597
    },
    "link": "http://www.songkick.com/concerts/43345031-guerilla-toss-at-ruba-club?utm_medium=organic&utm_source=microformat",
    "sourceName": "Songkick",
@@ -866,7 +990,9 @@
    "end": "2026-11-03",
    "venue": {
     "name": "Johnny Brenda's",
-    "address": "1201 Frankford Avenue, Philadelphia"
+    "address": "1201 Frankford Avenue, Philadelphia",
+    "lat": 39.96905,
+    "lng": -75.13432
    },
    "link": "http://www.songkick.com/concerts/43352624-bass-drum-of-death-at-johnny-brendas?utm_medium=organic&utm_source=microformat",
    "sourceName": "Songkick",
@@ -907,7 +1033,9 @@
     "via": "Resy",
     "url": "https://resy.com/cities/morristown-nj/venues/agricola-morristown"
    },
-   "map": "https://www.google.com/maps/search/?api=1&query=Agricola%2C%2011%20Witherspoon%20St%2C%20Princeton"
+   "map": "https://www.google.com/maps/search/?api=1&query=Agricola%2C%2011%20Witherspoon%20St%2C%20Princeton",
+   "lat": 40.3501239,
+   "lng": -74.6598063
   },
   {
    "id": "mistral",
@@ -922,7 +1050,9 @@
     "via": "OpenTable",
     "url": "https://www.opentable.com/mistral"
    },
-   "map": "https://www.google.com/maps/search/?api=1&query=Mistral%2C%2066%20Witherspoon%20St%2C%20Princeton"
+   "map": "https://www.google.com/maps/search/?api=1&query=Mistral%2C%2066%20Witherspoon%20St%2C%20Princeton",
+   "lat": 40.3514581,
+   "lng": -74.6608791
   },
   {
    "id": "xibei",
@@ -934,7 +1064,9 @@
    "why": "Opened in 2025. The Daily Princetonian and Princeton Alumni Weekly both recommend it.",
    "order": "Soup dumplings, beef noodles, tomato and egg noodles.",
    "address": "43 Witherspoon St, Princeton",
-   "map": "https://www.google.com/maps/search/?api=1&query=XiBei%20Cuisine%2C%2043%20Witherspoon%20St%2C%20Princeton"
+   "map": "https://www.google.com/maps/search/?api=1&query=XiBei%20Cuisine%2C%2043%20Witherspoon%20St%2C%20Princeton",
+   "lat": 40.351036,
+   "lng": -74.6602194
   },
   {
    "id": "eno-terra",
@@ -960,7 +1092,9 @@
    "price": "$$",
    "why": "Worth the 15-minute drive from Princeton.",
    "address": "10 E Broad St, Hopewell",
-   "map": "https://www.google.com/maps/search/?api=1&query=Nomad%20Pizza%2C%2010%20E%20Broad%20St%2C%20Hopewell"
+   "map": "https://www.google.com/maps/search/?api=1&query=Nomad%20Pizza%2C%2010%20E%20Broad%20St%2C%20Hopewell",
+   "lat": 40.389748,
+   "lng": -74.7616017
   },
   {
    "id": "jammin-crepes",
@@ -972,7 +1106,9 @@
    "why": "Started as a farmers market stand. Featured on Diners, Drive-Ins and Dives.",
    "order": "Turkey club crêpe, or the 20-layer lemon crêpe cake.",
    "address": "20 Nassau St, Princeton",
-   "map": "https://www.google.com/maps/search/?api=1&query=Jammin%E2%80%99%20Cr%C3%AApes%2C%2020%20Nassau%20St%2C%20Princeton"
+   "map": "https://www.google.com/maps/search/?api=1&query=Jammin%E2%80%99%20Cr%C3%AApes%2C%2020%20Nassau%20St%2C%20Princeton",
+   "lat": 40.3489125,
+   "lng": -74.6627855
   },
   {
    "id": "dinky",
@@ -988,6 +1124,8 @@
     "url": "https://resy.com/cities/prt/the-dinky-bar-and-kitchen"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=The%20Dinky%20Bar%20%26%20Kitchen%2C%2094%20University%20Pl%2C%20Princeton",
+   "lat": 40.3486701,
+   "lng": -74.6629195,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/%22Dinky%22_Sign_at_The_Dinky_Bar_%26_Kitchen_in_Princeton%2C_NJ.jpg/1280px-%22Dinky%22_Sign_at_The_Dinky_Bar_%26_Kitchen_in_Princeton%2C_NJ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
@@ -1007,6 +1145,8 @@
    "order": "The Phat Lady.",
    "address": "242 Nassau St, Princeton",
    "map": "https://www.google.com/maps/search/?api=1&query=Hoagie%20Haven%2C%20242%20Nassau%20St%2C%20Princeton",
+   "lat": 40.3521955,
+   "lng": -74.6519045,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Hoagie_Haven.jpg/1920px-Hoagie_Haven.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
@@ -1025,6 +1165,8 @@
    "why": "The cheap, fast standby downtown. Open 11 am to 9 pm every day.",
    "address": "20 Witherspoon St, Princeton",
    "map": "https://www.google.com/maps/search/?api=1&query=Mamoun%E2%80%99s%20Falafel%2C%2020%20Witherspoon%20St%2C%20Princeton",
+   "lat": 40.3504221,
+   "lng": -74.6602417,
    "image": {
     "url": "https://images.getbento.com/accounts/0e58cf8ea89fa9cc4ccdf16360d9f235/media/images/9541mamouns5386.jpg?w=1200&fit=crop&auto=compress,format&cs=origin&h=600",
     "credit": "mamouns.com",
@@ -1042,7 +1184,9 @@
    "price": "$",
    "why": "Made with ingredients from New Jersey farms. Worth the walk in any season.",
    "address": "35 Palmer Square W, Princeton",
-   "map": "https://www.google.com/maps/search/?api=1&query=The%20Bent%20Spoon%2C%2035%20Palmer%20Square%20W%2C%20Princeton"
+   "map": "https://www.google.com/maps/search/?api=1&query=The%20Bent%20Spoon%2C%2035%20Palmer%20Square%20W%2C%20Princeton",
+   "lat": 40.3498809,
+   "lng": -74.6618512
   },
   {
    "id": "kabawa",
@@ -1057,6 +1201,8 @@
     "url": "https://resy.com/cities/new-york-ny/search?query=Kabawa"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=Kabawa%2C%20East%20Village%2C%20New%20York",
+   "lat": 40.7249557,
+   "lng": -73.9913634,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/MDR_Group_Shot_1_AJB_1_fzrkiy",
     "credit": "The Infatuation",
@@ -1079,7 +1225,9 @@
     "via": "Resy",
     "url": "https://resy.com/cities/new-york-ny/search?query=Semma"
    },
-   "map": "https://www.google.com/maps/search/?api=1&query=Semma%2C%2060%20Greenwich%20Ave%2C%20New%20York"
+   "map": "https://www.google.com/maps/search/?api=1&query=Semma%2C%2060%20Greenwich%20Ave%2C%20New%20York",
+   "lat": 40.7360314,
+   "lng": -74.0005047
   },
   {
    "id": "torrisi",
@@ -1094,7 +1242,9 @@
     "via": "Resy",
     "url": "https://resy.com/cities/new-york-ny/search?query=Torrisi"
    },
-   "map": "https://www.google.com/maps/search/?api=1&query=Torrisi%2C%20275%20Mulberry%20St%2C%20New%20York"
+   "map": "https://www.google.com/maps/search/?api=1&query=Torrisi%2C%20275%20Mulberry%20St%2C%20New%20York",
+   "lat": 40.724217,
+   "lng": -73.9954001
   },
   {
    "id": "lei",
@@ -1111,6 +1261,8 @@
     "url": "https://resy.com/cities/ny/lei"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=Lei%2C%2015-17%20Doyers%20St%2C%20New%20York",
+   "lat": 40.7143767,
+   "lng": -73.9980122,
    "image": {
     "url": "http://static1.squarespace.com/static/681282bb6b86085cb558827c/t/68ae2cb9c1bfc45b6dc47c7f/1756245177666/_X7A5631.jpg?format=1500w",
     "credit": "leiwine.nyc",
@@ -1129,7 +1281,9 @@
    "why": "Usually near the top of any New York slice ranking. Expect a line.",
    "order": "Burrata slice.",
    "address": "254 S 2nd St, Brooklyn",
-   "map": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99Industrie%20Pizzeria%2C%20254%20S%202nd%20St%2C%20Brooklyn"
+   "map": "https://www.google.com/maps/search/?api=1&query=L%E2%80%99Industrie%20Pizzeria%2C%20254%20S%202nd%20St%2C%20Brooklyn",
+   "lat": 40.7115764,
+   "lng": -73.9578034
   },
   {
    "id": "katzs",
@@ -1142,6 +1296,8 @@
    "order": "Pastrami on rye. Tip the cutter.",
    "address": "205 E Houston St, New York",
    "map": "https://www.google.com/maps/search/?api=1&query=Katz%E2%80%99s%20Delicatessen%2C%20205%20E%20Houston%20St%2C%20New%20York",
+   "lat": 40.7223431,
+   "lng": -73.987353,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Katz%27s_Delicatessen_%2851623899326%29.jpg/1280px-Katz%27s_Delicatessen_%2851623899326%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
@@ -1165,6 +1321,8 @@
     "url": "https://resy.com/cities/new-york-ny/search?query=Thai%20Diner"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=Thai%20Diner%2C%20186%20Mott%20St%2C%20New%20York",
+   "lat": 40.7207443,
+   "lng": -73.9957016,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Thai_Diner_disco_fries.jpg/1920px-Thai_Diner_disco_fries.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
@@ -1183,6 +1341,8 @@
    "why": "One of the most famous pizzerias in New York.",
    "address": "575 Henry St, Brooklyn",
    "map": "https://www.google.com/maps/search/?api=1&query=Lucali%2C%20575%20Henry%20St%2C%20Brooklyn",
+   "lat": 40.6818319,
+   "lng": -74.0003712,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/TeddyWolff.Lucali.Socials.56_wpuy1y",
     "credit": "The Infatuation",
@@ -1202,6 +1362,8 @@
    "order": "The Superiority Burger, burnt broccoli salad.",
    "address": "119 Avenue A, New York",
    "map": "https://www.google.com/maps/search/?api=1&query=Superiority%20Burger%2C%20119%20Avenue%20A%2C%20New%20York",
+   "lat": 40.7264466,
+   "lng": -73.9834307,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Superiority_Burger_NYC.jpg/1280px-Superiority_Burger_NYC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
@@ -1224,6 +1386,8 @@
     "url": "https://resy.com/cities/new-york-ny/search?query=Penny"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=Penny%2C%2090%20E%2010th%20St%2C%20New%20York",
+   "lat": 40.7308231,
+   "lng": -73.989714,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Penny_FoodAmbiance_KatePrevite_NYC_00001_1_ypg3vx",
     "credit": "The Infatuation",
@@ -1247,6 +1411,8 @@
     "url": "https://resy.com/cities/philadelphia-pa/search?query=Zahav"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=Zahav%2C%20237%20St%20James%20Pl%2C%20Philadelphia",
+   "lat": 39.946306,
+   "lng": -75.145187,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Zahav_Group_Nicole_Guglielmo_Philly-180_sknqmz",
     "credit": "The Infatuation",
@@ -1268,7 +1434,9 @@
     "via": "Resy",
     "url": "https://resy.com/cities/philadelphia-pa/search?query=Kalaya"
    },
-   "map": "https://www.google.com/maps/search/?api=1&query=Kalaya%2C%204%20W%20Palmer%20St%2C%20Philadelphia"
+   "map": "https://www.google.com/maps/search/?api=1&query=Kalaya%2C%204%20W%20Palmer%20St%2C%20Philadelphia",
+   "lat": 39.975633,
+   "lng": -75.133092
   },
   {
    "id": "emmett",
@@ -1285,6 +1453,8 @@
     "url": "https://www.opentable.com/r/emmett-philadelphia"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=Emmett%2C%20161%20W%20Girard%20Ave%2C%20Philadelphia",
+   "lat": 39.9695248,
+   "lng": -75.1383426,
    "image": {
     "url": "https://static.wixstatic.com/media/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg",
     "credit": "emmettphilly.com",
@@ -1308,6 +1478,8 @@
     "url": "https://resy.com/cities/philadelphia-pa/search?query=Suraya"
    },
    "map": "https://www.google.com/maps/search/?api=1&query=Suraya%2C%201528%20Frankford%20Ave%2C%20Philadelphia",
+   "lat": 39.9737281,
+   "lng": -75.1339056,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/cms/reviews/suraya/suraya_infat-53_25202",
     "credit": "The Infatuation",
@@ -1330,7 +1502,9 @@
     "via": "Resy",
     "url": "https://resy.com/cities/philadelphia-pa/search?query=Vernick%20Food%20%26%20Drink"
    },
-   "map": "https://www.google.com/maps/search/?api=1&query=Vernick%20Food%20%26%20Drink%2C%202031%20Walnut%20St%2C%20Philadelphia"
+   "map": "https://www.google.com/maps/search/?api=1&query=Vernick%20Food%20%26%20Drink%2C%202031%20Walnut%20St%2C%20Philadelphia",
+   "lat": 39.950806,
+   "lng": -75.174892
   },
   {
    "id": "pizzeria-beddia",
@@ -1342,6 +1516,8 @@
    "why": "Bon Appétit named it the best pizza in America in 2015. Still worth the trip.",
    "address": "1313 N Lee St, Philadelphia",
    "map": "https://www.google.com/maps/search/?api=1&query=Pizzeria%20Beddia%2C%201313%20N%20Lee%20St%2C%20Philadelphia",
+   "lat": 39.9705054,
+   "lng": -75.1350963,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/PizzeriaBeddia_GreensCalabrianCreamMozzarellasGranaPadanoPizza_GabBonghi_Philadelphia-56_hekgcs",
     "credit": "The Infatuation",
@@ -1361,6 +1537,8 @@
    "order": "Roast pork with greens and sharp provolone.",
    "address": "14 E Snyder Ave, Philadelphia",
    "map": "https://www.google.com/maps/search/?api=1&query=John%E2%80%99s%20Roast%20Pork%2C%2014%20E%20Snyder%20Ave%2C%20Philadelphia",
+   "lat": 39.9210448,
+   "lng": -75.1449949,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/cms/c2fa1ccd-d692-4161-b8f4-2d6250d7b286",
     "credit": "The Infatuation",
@@ -1398,6 +1576,8 @@
    "order": "Roast pork at DiNic’s, then a doughnut from Beiler’s.",
    "address": "51 N 12th St, Philadelphia",
    "map": "https://www.google.com/maps/search/?api=1&query=Reading%20Terminal%20Market%2C%2051%20N%2012th%20St%2C%20Philadelphia",
+   "lat": 39.9531441,
+   "lng": -75.1590492,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Reading_Terminal_Market_%2853587020195%29.jpg/1280px-Reading_Terminal_Market_%2853587020195%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": "Wikimedia Commons",
@@ -1416,6 +1596,8 @@
    "why": "On The Infatuation’s Philadelphia Hit List of new restaurants.",
    "address": "1620 Sansom St, Philadelphia",
    "map": "https://www.google.com/maps/search/?api=1&query=Bar%20Cicci%2C%201620%20Sansom%20St%2C%20Philadelphia",
+   "lat": 39.9504301,
+   "lng": -75.1680186,
    "image": {
     "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/Bar_Cicci_Entree_Lifestyle_Nicole_Guglielmo_Philly-247_ir6twj",
     "credit": "The Infatuation",
@@ -1425,5 +1607,5 @@
    }
   }
  ],
- "builtAt": "2026-10-28T19:19:47.425Z"
+ "builtAt": "2026-10-28T19:51:05.223Z"
 }

@@ -1,11 +1,14 @@
-// What this browser remembers: your city, your taste, and your shortlist.
+// What this browser remembers: your area (or position, for Near me), your taste, and your shortlist.
 // No account; nothing leaves the browser.
 import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from 'react'
-import type { CityChoice, Taste } from './edition.ts'
+import type { CityChoice, Here, Taste } from './edition.ts'
 
 interface Prefs {
   city: CityChoice
   setCity: (c: CityChoice) => void
+  /** Your position for "Near me"; never leaves the browser. */
+  here: Here | null
+  setHere: (h: Here | null) => void
   taste: Taste
   setTaste: (t: Taste) => void
   /** Up to three pick ids, per edition date. */
@@ -35,13 +38,21 @@ function write(key: string, value: unknown) {
 }
 
 export function PrefsProvider({ children }: { children: ReactNode }) {
-  const [city, setCityState] = useState<CityChoice>(() => read('wg2.city', 'all'))
+  const [here, setHereState] = useState<Here | null>(() => read<Here | null>('wg2.here', null))
+  const [city, setCityState] = useState<CityChoice>(() => {
+    const c = read<CityChoice>('wg2.city', 'all')
+    return c === 'near' && !read('wg2.here', null) ? 'all' : c
+  })
   const [taste, setTasteState] = useState<Taste>(() => ({ interests: [], artists: [], ...read<Partial<Taste>>('wg2.taste', {}) }))
   const [lists, setLists] = useState<Record<string, string[]>>(() => read('wg2.shortlist', {}))
 
   const setCity = useCallback((c: CityChoice) => {
     setCityState(c)
     write('wg2.city', c)
+  }, [])
+  const setHere = useCallback((h: Here | null) => {
+    setHereState(h)
+    write('wg2.here', h)
   }, [])
   const setTaste = useCallback((t: Taste) => {
     setTasteState(t)
@@ -79,8 +90,8 @@ export function PrefsProvider({ children }: { children: ReactNode }) {
   )
 
   const value = useMemo(
-    () => ({ city, setCity, taste, setTaste, shortlist, toggleShortlist, clearShortlist }),
-    [city, setCity, taste, setTaste, shortlist, toggleShortlist, clearShortlist],
+    () => ({ city, setCity, here, setHere, taste, setTaste, shortlist, toggleShortlist, clearShortlist }),
+    [city, setCity, here, setHere, taste, setTaste, shortlist, toggleShortlist, clearShortlist],
   )
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>
 }
