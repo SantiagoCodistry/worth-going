@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T17:42:22.192Z",
+ "generatedAt": "2026-10-28T17:48:03.267Z",
  "events": [
   {
    "id": "met-costume-art",
@@ -163,7 +163,7 @@
    "sourceUrl": "https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 15,
    "timeTBA": true
@@ -188,7 +188,7 @@
    "sourceUrl": "https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 15,
    "timeTBA": true
@@ -244,17 +244,17 @@
    },
    "description": "Founders. Operators. Industry Leaders. Investors.\nTwice a year we host the consumer industry's best room: one summit for Consumer Tech, one for Consumer Brands. Our last Consumer Brand Summit brought together Martha Stewart and the founders of Tru Fru, Chomps, and CAVA.\nOn Wednesday, October 28th, we're doing it again.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fd/7fdaa7c6-1feb-4f0a-bf92-1c2449d2726c.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/mx9dqfpr",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/mx9dqfpr",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -272,17 +272,17 @@
    },
    "description": "Datadog\nNew York, NY\nUnited States\n\nOpening night for the largest agents meetup in New York!\nWe’ll meet once every two months, so come meet builders running agents that range from production deployments to robots.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/th/10cb3379-2336-4dd4-a297-faf30b4b5bd0.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/agentsinnyc",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/agentsinnyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -299,17 +299,17 @@
    },
    "description": "Join us for an evening on what it takes to build AI for the real world, with a fireside chat between Dennis Crowley, Co-Founder and CEO, Hopscotch Labs, and Jeff Smith, Head of Product, AI, Automattic. Crowley co-founded Dodgeball (acquired by Google in 2005) and Foursquare. Now he’s building BeeBot, an app that uses AI to tell you about the things around you as you walk through a city.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fa/f62bb02f-07b9-4688-a4fa-c5c88c402a7b.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/sjnwdzsw",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/sjnwdzsw",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -326,17 +326,17 @@
    },
    "description": "Hear Me Out is an in-person music discovery club, with the aim of facilitating music discovery that de-centers algorithms and re-centers recommendations from real people.\nRight on time for spooky season, this month’s theme is “SCARE,\" and we’re asking you to share a song that gives you goosebumps.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/lz/aeaeb76f-60fd-4604-9fe5-4419a35f8942.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/rc0hrnyo",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/rc0hrnyo",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -355,17 +355,17 @@
    },
    "description": "C.M. Neff The Knife Shop\nPhiladelphia, PA\nUnited States\n\nCome celebrate the impending release of 500 FINGER FILLET\nWED. OCT. 28th\n6-8 PM\nAt THE KNIFE SHOP\n1613 Passyunk Ave\nPhilly\n\n**MASKS REQUIRED**\n\nhttps://store.steampowered.com/app/4602120/500_FINGER_FILLET/\n\nEvent Disclaimer: By attending this event, you acknowledge and consent to the following:\nPhotography and/or recording may take place during the event.\nYour…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/oq/e18250c5-1c40-4623-96fd-a9eb9b463651.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/cxsxdhiy",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/cxsxdhiy",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 30
   },
   {
@@ -383,17 +383,17 @@
    },
    "description": "Curotec\nThe entrance is on 13th St, just left of Zios Pizza. You will see a sign for Eviama Spa—it's in the same building entrance as them. Use the touch screen at the entrance and press the button for Curotec.\n\nWhen you're inside, walk down the hall to the elevator.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/q9/668d0084-74b0-44d7-a6de-e854c7a6db81.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/pg7ekbxm",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/pg7ekbxm",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -412,17 +412,17 @@
    },
    "description": "Corgi Cafe\nNew York, NY\nUnited States\n\nPersonal agents are the biggest wave in consumer AI right now, and iMessage is where they live. The best ones don’t need an app. They just text you.\nWe’re bringing 5 to 10 of the best personal agent founders to Corgi Cafe for one night of pitches.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1g/d26613b4-622f-4f0d-82d8-879bc7ab2e99.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/photonhq-k0ni",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/photonhq-k0ni",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -440,17 +440,17 @@
    },
    "description": "Mindspace Williamsburg\nUse the North Lobby and go to the 4th floor.\nBrooklyn, NY\nUnited States\n\nPapers We Love, Espresso AI, Authentic and Antithesis are pleased to present the October edition of PwL.\nPapers We Love is a community of programmers who love reading and discussing computer science papers.\nWhat was the last paper within the realm of computing you read and loved? What did it inspire you to build or tinker…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f7/5ac2b135-3f60-4b10-bcb7-274bb6b522cd.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/xhgp3nlp",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/xhgp3nlp",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -468,17 +468,17 @@
    },
    "description": "Indy Hall Clubhouse\nPhiladelphia, Pennsylvania\nUnited States\n\nIndy Hall Reading Club is hosted on the 2nd & 4th Wednesday of ever month.\nGot a book that you’ve been dying to dive into? Come to the Indy Hall Reading Club, and join fellow readers.\nAt this low-key social event, we’ll get comfy, read individually, and discuss what you read with someone else — or not! It’s always really chill.\n💌 RSVP to receive access…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/n5/52680367-dca1-4ce2-a2ff-e413233229a5.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/readingclub-oct28",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/readingclub-oct28",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -495,17 +495,17 @@
    },
    "description": "Rupert Murdoch is one of the most influential media magnates in modern history. Through his distinctive character and unparalleled command of conservative media, he has shaped the political narratives through which millions understand the world.\nBut how did he reach a position of such unprecedented influence? What did Murdoch see that others didn’t? And has he changed journalism in ways that will endure?\nThe…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/76/4bfa519f-ea96-4a70-a3a4-06071303e656.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/murdoch",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/murdoch",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -523,17 +523,17 @@
    },
    "description": "New York Society for Ethical Culture\nCeremonial Hall (4th Floor)\nNew York, New York\nUnited States\n\nWe discuss the night’s topic in three half-hour sessions, speaking with new groups each time.\nMost guests stay much longer afterwards to continue their most fulfilling conversations.\nNo previous experience required.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/gk/616230a0-1ffc-4c53-951d-5467c3cdf013.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/8185ihqi",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/8185ihqi",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -555,7 +555,7 @@
    "sourceUrl": "https://planetprinceton.com/event/jersey-art-meetup/2026-10-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 14,
    "note": "Also on Nov 4, Nov 11, Nov 18, Nov 25 and later."
@@ -576,17 +576,17 @@
    "description": "Beverly's\nNew York, NY\nUnited States\n\nCurfew is back to kick of you’re Halloween week!! We’re throwing a FREE PARTY Wednesdays October 28th at Beverly’s! As always this party centers Black dance music from the diaspora. This night is stacked with a full line up including music from Phillip Morgan, internationaljoe and resident and founder Dom. Costumes are encouraged but not mandatory.",
    "isFree": true,
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/a5/6be4ee38-103f-4a43-996d-756308385570.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/venammy8",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/venammy8",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 28
   },
@@ -606,17 +606,17 @@
    },
    "description": "The Times Center\nNew York, NY\nUnited States\n\nAt a time when artificial intelligence is rapidly reshaping society, the conversation is shifting from broad principles to real-world accountability. The 2026 summit will explore the theme of Principles to Power: Embedding Accountability in the AI Era.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/b7/7a5c750f-3045-43e8-a622-795e9e29b6ce.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/05z8y8xs",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/05z8y8xs",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -649,7 +649,7 @@
    "sourceUrl": "https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-10-29/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 28,
    "note": "Also on Nov 5, Nov 12, Nov 19, Nov 26 and later."
@@ -670,17 +670,17 @@
    },
    "description": "Intuit Inc\nNew York, NY\nUnited States\n\nA monthly ML research colloquium by the New York Machine Learning Research Guild — this session in collaboration with our partner, Intuit.\n\nThe Mathematical Theory of Deep Learning\nArthur Jacot · Assistant Professor, Courant Institute of Mathematical Sciences, NYU\nTopic: TBD\nThis session is a close-quarters look at that theory, with plenty of room to push back and dig…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/x9/441f9ad5-81af-4c3c-94de-dbb155ef4610.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/812fof21",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/812fof21",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 18
   },
   {
@@ -699,17 +699,17 @@
    },
    "description": "3 World Trade Center\nNew York, NY\nUnited States\n\nDear guests,\nWe look forward to welcoming you tomorrow to 3 World Trade Center for What We Have Learned: Art, Place, and Mass Trauma.\nTo ensure a smooth arrival and entry process, please take a moment to review the following important access instructions.\nArrival time\nWe recommend arriving at the building from 4:30 PM onwards to allow sufficient time for the security…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/yp/5191eca6-8467-42fd-814e-a80cabedc706.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/vbwlaggb",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/vbwlaggb",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 30
   },
   {
@@ -726,17 +726,17 @@
    },
    "description": "Hosted by the Edison Scientific FDE team.\nCome hang out with other forward deployed engineers. We’re taking over a bar for happy hour.\nWe’re inviting FDEs, deployment strategists, and applied AI engineers. Aside from a good time, you can expect:\nDrinks and happy hour specials\nStories from the field\nCasual chats on running an FDE motion\nRSVP required for this small gathering of FDEs, builders, and people we’d love to…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fd/e5f1ad6c-75c3-4a56-b5bf-93afdeeedac9.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/xw65smfm",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/xw65smfm",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -755,17 +755,17 @@
    },
    "description": "85 Mercer St\nNew York, NY\nUnited States\n\nJoin us for the opening night of What’s Seen, Staring at the Ceiling.\nWorks by Ethan Caflisch.\nEthan Caflisch’s work moves between painting, photography, and design, shaped by an early practice in ceramics and a fascination with simple, honest forms.\nWorking with linen, wood, fabric, gouache, and acrylic, he creates quiet compositions drawn from everyday spaces and…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/vo/bbcc8bfc-4b81-4896-af6d-6a52797609c7.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/y4dhzmto",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/y4dhzmto",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 28
   },
   {
@@ -783,17 +783,17 @@
    },
    "description": "We're already back with our second demo night!\nWhether you're working on a side project or you want to show off the main thing you're working on right now, come join us at a former nun convent school to show your fellow designers the latest and greatest thing you're doing!\nSome designers are showcasing the work they've been doing! Each will present for about 15 minutes on what they're working on.\n\nOur Hosts\nThis…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pq/ec5854ec-6b49-456c-a548-6c91f2d3ad48.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/fr99l0d5",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/fr99l0d5",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 28
   },
   {
@@ -812,17 +812,17 @@
    },
    "description": "100 Sutton St\nBrooklyn, NY\nUnited States\n\nNewsreel is hosting \"Midterm Mania\" five days before this year's midterm election. The event will feature programming about this year's election with New York City Council Member Chi Ossé, Vox's Astead Herndon, Morris Katz, the political strategist behind Zohran Mamdani's rise, NewsNation host Batya Ungar-Sargon, Data & Society's Maia Woluchem, the Center for Organizing's…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/yo/83c3dc21-b221-49f7-8716-5bbbaebf9924.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/n6zknn92",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/n6zknn92",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -840,17 +840,17 @@
    },
    "description": "512 W 22nd St\nA QR code will be sent the day before- it is required for you to get into the building so please check your emails!\nNew York, NY\nUnited States\n\nKintsugi Facilitators: Bianca Valencia Criscuolo, Esther Mun\nThe art of Kintsugi embodies new beauty made through imperfections.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/da/99ec7c18-a47a-4f8a-a887-23f14d6cf8aa.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/sifokctr",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/sifokctr",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -867,17 +867,17 @@
    },
    "description": "For one night, we’re taking New York 100 years into the future.\nIf we looked back at 2026 from the year 2126, what parts of healthcare, technology, and the human body would suddenly feel primitive?\nOn October 29th, Chief Longevity Officer is bringing together ~100 founders, scientists, investors, operators, and a handful of people across media and culture for a one-of-a-kind night in Williamsburg focused on the…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/jb/a72db2cb-0ed4-4792-b674-fc5fe544488a.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/j6b8gu9b",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/j6b8gu9b",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -907,7 +907,7 @@
    "sourceUrl": "https://planetprinceton.com/event/the-original-asbury-park-ghost-tours-2/2026-10-30/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22,
    "note": "Also on Oct 31."
   },
@@ -927,17 +927,17 @@
    "description": "In this intensive hackathon led by the research team at Obvious you will build your autonomous software factory. TLDR: you'll be able to start assigning your agents features to build instead of prompts.\nNote: This event is entirely free, including unlimited tokens for the hackathon.",
    "isFree": true,
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/oo/89db40fb-3c95-47f0-ae8a-75f3c58532c5.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/frontierNYC2",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/frontierNYC2",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 36
   },
@@ -956,17 +956,17 @@
    },
    "description": "RUBBER N' ROAD\nNew York, NY\nUnited States\n\nJoin us for a beer and a hot dog as we present the third ISSUE of the Bambas Magazine.\nWe will chat through GET SOME GUTS, a piece in collaboration with our friends at Maurten that explores how peak performance is linked to our guts rather than the latest carbon-plated shoes.\nLimited units available, first come, first served.\n\nHosted by Mateo de la Vega",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/o7/ec4b3a30-3c93-448a-836b-8bffb8803d04.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/9d6c82b0",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/9d6c82b0",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 30
   },
   {
@@ -995,7 +995,7 @@
    "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -1019,7 +1019,7 @@
    "sourceUrl": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free and open to the public.",
    "score": 32
   },
@@ -1037,17 +1037,17 @@
    },
    "description": "NOUSCON is BACK baby\n\nLearn about the future of Hermes Agent. Meet the Nous Research team. Touch silicon.\n\nAn evening with people building open intelligence.\n\n• doors open 6pm\n• networking/exhibits 6-9pm\n• party from 9 till midnight\n\n *ੈ✩ TECHNOLOGICAL OPTIMISM IN TIMES OF GREAT WORRY *ੈ✩\n\nHosted by Nous Research",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/nc/1f684e2d-b238-4ace-8a40-c961e9802332.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/y0y9ngkm",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/y0y9ngkm",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -1066,17 +1066,17 @@
    },
    "description": "Village of Industry & Art\nPhiladelphia, PA\nUnited States\n\nThe Hamdeli Project & Middle East Center at UPenn are co-hosting a screening of An Eye For An Eye + Live Q&A with Director Tanaz Eshaghian and Producer, Cinematographer Gelareh Kiazand.\nThe Q&A discussion will be led by Armaghan Fakhraeirad, PhD Candidate in music studies at UPenn.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/mg/e3d9cac1-019a-43c3-923b-c29e9efd899f.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/xgs21ojy",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/xgs21ojy",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 28
   },
   {
@@ -1095,17 +1095,17 @@
    },
    "description": "345 Broome St\nNew York, NY\nUnited States\n\nJoin us for the launch of the Athletics Archive training journal at our New York City Marathon Pop-up. Drinks, snacks and music until 9pm.\nAthletics Archive designs printed solutions for runners. Training Journal One is an archival weekly training journal spanning 24 weeks to encapsulate one training cycle for a key race or season.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f0/a5cdbc3e-3dd7-4cfe-8e53-9478338c362f.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/nhfqhmbf",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/nhfqhmbf",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 24
   },
   {
@@ -1123,48 +1123,18 @@
    },
    "description": "Prospect Park\nBrooklyn, NY\nUnited States\n\na halloweekend evening game of capture the flag in prospect park\nwhat would you do to know the future?\nwe used to tell the future through stories, prophecies, reading messages in tea leaves and tarot cards. there was a community that thrived on these predictions: fortune tellers, scryers, witches in huts and The Oracle from her perch on the slopes of Mount Parnassus.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ft/019be684-47c0-4db4-b458-83aa30d6fd1b.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/p7g5rpfb",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/p7g5rpfb",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
-  },
-  {
-   "id": "espn-401909279",
-   "title": "Brooklyn Nets vs. Detroit Pistons",
-   "subtitle": "NBA",
-   "kind": "event",
-   "city": "nyc",
-   "category": "sports",
-   "tags": [
-    "nba"
-   ],
-   "start": "2026-10-30T23:30Z",
-   "venue": {
-    "name": "Barclays Center",
-    "address": "620 Atlantic Ave, Brooklyn"
-   },
-   "description": "Brooklyn Nets host the Detroit Pistons at Barclays Center.",
-   "sourceName": "ESPN",
-   "sourceUrl": "https://www.nba.com/nets/schedule",
-   "provenance": "live",
-   "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
-   "score": 12,
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "credit": "Wikimedia Commons",
-    "link": "https://en.wikipedia.org/wiki/Barclays_Center",
-    "w": 8126,
-    "h": 4571
-   }
   },
   {
    "id": "espn-401909280",
@@ -1186,7 +1156,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1194,6 +1164,36 @@
     "link": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
     "w": 2794,
     "h": 1634
+   }
+  },
+  {
+   "id": "espn-401909279",
+   "title": "Brooklyn Nets vs. Detroit Pistons",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-10-30T23:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Detroit Pistons at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
+   "score": 12,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Barclays_Center",
+    "w": 8126,
+    "h": 4571
    }
   },
   {
@@ -1216,7 +1216,7 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 18,
    "image": {
@@ -1247,7 +1247,7 @@
    "sourceUrl": "https://planetprinceton.com/event/winery-weekend-music-series/2026-10-31/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 6,
    "note": "Also on Nov 1, Nov 7, Nov 8, Nov 14 and later."
   },
@@ -1266,17 +1266,17 @@
    },
    "description": "48 Ludlow St\nNew York, NY\nUnited States\n\nHosted at SPEEDEASY this panel discussion explores the art of race-day photography and visual storytelling featuring Dave Hashim, Justin Sorensen, and Ashé Davis. Together, they'll discuss how they capture the emotion, energy, and defining moments that make marathon weekend unforgettable.\n\nHosted by Saucony Events",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/mj/01b15b96-632e-4b7c-95bf-2f56e857fc3a.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/2kvghex1",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/2kvghex1",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16
   },
   {
@@ -1297,7 +1297,7 @@
    "sourceUrl": "https://planetprinceton.com/event/fall-music-series-8/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 6
   },
   {
@@ -1321,7 +1321,7 @@
    "sourceUrl": "https://planetprinceton.com/event/author-signing-kate-fox/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free and open to the public.",
    "score": 32
   },
@@ -1340,17 +1340,17 @@
    },
    "description": "The Met Cloisters\nNew York, NY\nUnited States\n\nHey, if you missed our last Cloisters tour, we’re organizing another one! And wouldn’t it be amazing to celebrate Halloween with us inside The Met Cloisters?\nWe will go from birth and ultimate beginnings, through life and purpose, to death and scary ends.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/l0/3d34a5c7-e084-4bd0-86b8-3398418ef359.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/157thqlu",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/157thqlu",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "New York State residents can pay what they wish for admission to The Met.",
    "score": 35
   },
@@ -1469,7 +1469,7 @@
    "sourceUrl": "https://planetprinceton.com/event/mays-barden-cafe-at-herrontown-woods/2026-11-01/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16,
    "note": "Also on Dec 6."
   },
@@ -1504,7 +1504,7 @@
    "sourceUrl": "https://planetprinceton.com/event/free-carillon-concert-at-princeton-university-2-2-2/2026-11-01/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 38,
    "note": "Also on Nov 8, Nov 15, Nov 22, Nov 29 and later."
@@ -1529,7 +1529,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -1568,7 +1568,7 @@
    "sourceUrl": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 30
   },
   {
@@ -1591,7 +1591,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -1709,17 +1709,17 @@
    },
    "description": "Brooklyn Running Company\nBrooklyn, NY\nUnited States\n\nJoin us at Brooklyn Running Co. and celebrate your hard-earned miles. Bring your marathon medal, share your story, and get exclusive access to Brooks giveaways, photo ops, post-race recovery vibes, pizza, and more.\n📍 Brooklyn Running Co.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pm/e692362c-4748-4b09-aa11-88ebb9ccf91d.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/w8xgmw15",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/w8xgmw15",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16
   },
   {
@@ -1736,17 +1736,17 @@
    },
    "description": "The biggest shopping season of the year is coming. Here's how the brands winning it actually get it done.\n✨ Join Monday Girl for The Black Friday Edit, an exclusive evening with operators behind some of the most-loved consumer brands right now.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/wa/18492736-54a1-44ef-b160-aba63a0ddd34.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/MGMaxwellNovember",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/MGMaxwellNovember",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -1765,17 +1765,17 @@
    },
    "description": "Sulimay's Restaurant\nPhiladelphia, PA\nUnited States\n\nWe're gearing up for the 2027 iteration of the Philly Native Plant Project, and we need YOUR HELP!\nThis year we distributed 15,000 packets of native plant seeds throughout the city. We're doing it again!\nWe've got seeds, we've got stickers, we need YOUR hands to help us pack everything up.\nWe'll provide beers and pretzels, you bring those paws.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f1/81aaabec-2843-433d-9ed1-385d70168951.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/oemofy6g",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/oemofy6g",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22,
    "note": "Also on Nov 16."
   },
@@ -1795,49 +1795,18 @@
    },
    "description": "Pen & Pencil Club\nPhiladelphia, PA\nUnited States\n\nOn Monday Nov. 2, we're celebrating 30 years of the best food film to come out of the Jersey Shore, \"The Big Night\" by Stanley Tucci and Campbell Scott.\nNo matter how hard we tried, we couldn't get Tucci to join us.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/bn/39ec8f1f-a781-4495-ae77-c16be84510c8.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/cr2xox31",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/cr2xox31",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 28
-  },
-  {
-   "id": "espn-401909910",
-   "title": "New York Knicks vs. Brooklyn Nets",
-   "subtitle": "NBA",
-   "kind": "event",
-   "city": "nyc",
-   "category": "sports",
-   "tags": [
-    "nba"
-   ],
-   "start": "2026-11-03T00:30Z",
-   "venue": {
-    "name": "Madison Square Garden",
-    "address": "4 Pennsylvania Plaza, New York"
-   },
-   "description": "New York Knicks host the Brooklyn Nets at Madison Square Garden.",
-   "sourceName": "ESPN",
-   "sourceUrl": "https://www.nba.com/knicks/schedule",
-   "provenance": "live",
-   "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
-   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 22,
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1280px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "credit": "Wikimedia Commons",
-    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
-    "w": 5411,
-    "h": 3044
-   }
   },
   {
    "id": "espn-401909912",
@@ -1859,7 +1828,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -1867,6 +1836,37 @@
     "link": "https://en.wikipedia.org/wiki/Xfinity_Mobile_Arena",
     "w": 2794,
     "h": 1634
+   }
+  },
+  {
+   "id": "espn-401909910",
+   "title": "New York Knicks vs. Brooklyn Nets",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-03T00:30Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Knicks host the Brooklyn Nets at Madison Square Garden.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/knicks/schedule",
+   "provenance": "live",
+   "sourceId": "knicks",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 22,
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg/1280px-Madison_Square_Garden_%28MSG%29_-_Full_%2848124330357%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/Madison_Square_Garden",
+    "w": 5411,
+    "h": 3044
    }
   },
   {
@@ -1884,17 +1884,17 @@
    },
    "description": "Learn to orchestrate AI agents that write and ship code for you.\n\nClaude Code is already changing how the best engineering teams ship. This workshop, presented with Tenex, is a chance to build with it directly — not watch a demo, not sit through slides about it.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/m0/7ab2e0a7-d967-4ebc-9757-113ea1152183.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/tenex-claude-code-workshop-NYC-11.3",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/tenex-claude-code-workshop-NYC-11.3",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -1913,17 +1913,17 @@
    },
    "description": "Civic Hall\nNew York, NY\nUnited States\n\nJoin New York Robotics and Intel for a hands-on developer workshop on the technologies powering the next generation of Physical AI and robotics systems.\nBuilt for robotics developers, technical founders, engineers and ecosystem partners, this program offers real-world experience with Intel-based robotics systems, plus direct access to Intel engineers and technical experts who…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pg/d16cd5a0-6c42-4af2-b5cd-eef17d02f7e3.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/newyork-6qse",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/newyork-6qse",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 10
   },
   {
@@ -1941,49 +1941,18 @@
    },
    "description": "Welcome to the Outliers Welcome Party, presented by the Outliers Summit.\nThis is the event for founders, investors, and tech professionals building what’s next. We’re taking over an iconic, sprawling venue in the heart of NYC, and it’s going to be a night to remember.\n👋 What is this? An evening with hundreds of founders, operators, and investors.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1s/f775b3a3-1762-4df0-9909-10f5eca85ac1.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/outlierswelcome",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/outlierswelcome",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
-  },
-  {
-   "id": "nhl-2026020240",
-   "title": "New York Rangers vs. St. Louis Blues",
-   "subtitle": "NHL",
-   "kind": "event",
-   "city": "nyc",
-   "category": "sports",
-   "tags": [
-    "nhl"
-   ],
-   "start": "2026-11-04T00:00:00Z",
-   "venue": {
-    "name": "Madison Square Garden",
-    "address": "4 Pennsylvania Plaza, New York"
-   },
-   "description": "New York Rangers host the St. Louis Blues at Madison Square Garden.",
-   "sourceName": "NHL",
-   "sourceUrl": "https://www.nhl.com/rangers/schedule",
-   "provenance": "live",
-   "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
-   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
-   "score": 22,
-   "image": {
-    "url": "https://assets.nhle.com/team-arena/3.jpg",
-    "credit": "nhl.com",
-    "link": "https://www.nhl.com/rangers/schedule",
-    "w": 1296,
-    "h": 729
-   }
   },
   {
    "id": "nhl-2026020241",
@@ -2005,12 +1974,43 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
     "credit": "nhl.com",
     "link": "https://www.nhl.com/flyers/schedule",
+    "w": 1296,
+    "h": 729
+   }
+  },
+  {
+   "id": "nhl-2026020240",
+   "title": "New York Rangers vs. St. Louis Blues",
+   "subtitle": "NHL",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nhl"
+   ],
+   "start": "2026-11-04T00:00:00Z",
+   "venue": {
+    "name": "Madison Square Garden",
+    "address": "4 Pennsylvania Plaza, New York"
+   },
+   "description": "New York Rangers host the St. Louis Blues at Madison Square Garden.",
+   "sourceName": "NHL",
+   "sourceUrl": "https://www.nhl.com/rangers/schedule",
+   "provenance": "live",
+   "sourceId": "rangers",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
+   "why": "Madison Square Garden is home to the Knicks and the Rangers.",
+   "score": 22,
+   "image": {
+    "url": "https://assets.nhle.com/team-arena/3.jpg",
+    "credit": "nhl.com",
+    "link": "https://www.nhl.com/rangers/schedule",
     "w": 1296,
     "h": 729
    }
@@ -2056,17 +2056,17 @@
    },
    "description": "Bananas\nNew York, NY\nUnited States\n\nCome meet some new people, make professional connections, and hang out with other ladies in NYC at a relaxed networking night with New York Coworking Friends. This event is for women and non-binary folk only.\nWe’re taking over Bananas 🍌 for an evening designed to make networking feel a little less awkward and a lot more fun.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/dy/cd424f43-a373-4007-b4e4-0b8e3bed68db.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/9fzx48lg",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/9fzx48lg",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -2083,17 +2083,17 @@
    },
    "description": "Skills are quickly becoming the most important part of working with coding agents. The model matters, but what your agent knows how to do, and how reliably it does it, comes down to the skills you give it.\nWe're bringing in Jesse Vincent, CEO of Prime Radiant and creator of Superpowers, one of the most widely used skillsets for coding agents, to dig into skills: how to write ones that agents actually follow, how to…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/bm/71008608-bc46-4475-b7fe-700fb956007b.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/agentics-bos4",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/agentics-bos4",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -2110,17 +2110,17 @@
    },
    "description": "Join us for a night with 72andSunny, unlocking the mystery of the music brief and how music can make or break a campaign. \n\nFeaturing \nSTEVE ROSEN, Co-founder & Sound Engineer at Sonic Union\nCONNOR GOMEZ, Director of Production at 72andSunny NYC\nNILES HOWARD, Editor at Work Editorial\nMORGAN THORYK, Music Supervisor & Partner at GEMS\nLORA SCHULSON, Global Chief Production Officer at 72andSunny\nPETER RAEBURN, Founder…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ok/a5b7828e-90a2-48df-9ba7-332e9180a4c7.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/1npf4wcr",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/1npf4wcr",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -2137,17 +2137,17 @@
    },
    "description": "Join us for the live reveal of The Impact List 2027, a night celebrating the creators and talent shaping what comes next.\nCreated by FiveTwoNine, Billion Dollar Boy and Companion, The Impact List recognizes the people moving the creator economy forward, from creative visionaries and creator entrepreneurs to community builders, changemakers, and standout brand partners.\nAfter an open call and over 600 applications,…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/6f/7e7418a5-4a40-4d71-bf45-59bd97e55693.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/dpdvdih8",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/dpdvdih8",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -2165,17 +2165,17 @@
    },
    "description": "ShapeShifter Lab\nBrooklyn, NY\nUnited States\n\n🧘‍♀️ NY YOGA CLUB - STUDIO GHIBLI FLOW\n🎶 Flowing vinyasa practice to your favorite Studio Ghibli soundtracks + live music after\n🌊 Style: All-levels flow (accessible + revivifying)\n🙏 No yoga experience needed! Ideal for beginners and experienced yogis.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1h/61d40ee7-ba3c-4481-951f-b9688f006689.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/80y6ifyf",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/80y6ifyf",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -2192,17 +2192,17 @@
    },
    "description": "Join vCluster and SemiAnalysis for an evening in New York with the people building and running the world’s AI infrastructure.\nWe’re bringing together operators from AI Cloud Providers, AI labs, and financial services firms to talk about what it takes to turn GPUs into a reliable, isolated, multi-team platform, from bare metal to managed Kubernetes and Slurm.\nExpect candid conversation, sharp market insights from…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/lo/8f05f26f-8ce7-4295-b82d-027a640e2a4d.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/semixvcluster",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/semixvcluster",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -2220,17 +2220,17 @@
    },
    "description": "915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ai/175ad1b1-4070-4d30-930c-f14167d3dbd4.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/r5gibs2q",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/r5gibs2q",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -2292,7 +2292,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -2322,7 +2322,7 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -2460,17 +2460,17 @@
    },
    "description": "The Outliers Summit 2026\nWe're excited to announce the Outliers Summit. November 5 and 6 in New York City.\nA two-day gathering for founders, creators, operators, builders, and thinkers bringing unreasonably ambitious ideas to life, hosted by Ankur Nagpal and Andrew Yeung, in partnership with AngelList.\n\nPreviously, we called this event the OOO Summit.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/me/d1dfbc51-db83-4959-b6d2-79a7ded751ea.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/2026",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/2026",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -2501,7 +2501,7 @@
    "sourceUrl": "https://planetprinceton.com/event/sondheims-afterlives-symposium/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free and open to the public.",
    "score": 38
   },
@@ -2520,17 +2520,17 @@
    },
    "description": "DOORS NYC\nNew York, NY\nUnited States\n\nDiscover Spain as a way of life with Maese Place at DOORS NYC.\nJoin us for a relaxed evening celebrating handcrafted Spanish bags and accessories. Explore the collection up close, feel the quality of the materials and discover the details behind each piece.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/13/02122e79-6195-45ab-acb5-d9ed50cb1bc2.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/13udy1ot",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/13udy1ot",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -2597,17 +2597,17 @@
    },
    "description": "We're hosting a panel on the emerging market for AI compute.\n\nCompute is becoming something you can price, hedge, and trade. As demand for GPUs outruns supply and prices swing, the people who buy and sell compute are building the same market infrastructure that exists for energy and other commodities: indices, benchmarks, spot markets, and derivatives.\n\nJoin us at SPC NYC for a conversation with people building that…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ej/37ebf180-fe1f-4e00-8493-434dfd9c500b.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/compute-spcnyc",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/compute-spcnyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -2624,17 +2624,17 @@
    },
    "description": "About the Event\nJoin Contra for an evening of conversations, creativity, and community at the iconic Domino Sugar Refinery in Williamsburg, Brooklyn.\nWe're bringing together some of NYC's most exciting studio founders, independent designers, and creative leaders to explore the future of creative studios.\nFrom building a studio and landing clients to creative workflows, the tools powering today's agencies, and how AI…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/gy/f6221e2f-bf66-46b8-b8d0-7638645909e8.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/zbysvhdt",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/zbysvhdt",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -2658,7 +2658,7 @@
    "sourceUrl": "https://planetprinceton.com/event/an-evening-of-hope-to-prevent-suicide/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16
   },
   {
@@ -2677,17 +2677,17 @@
    },
    "description": "The Refinery at Domino Offices\nBrooklyn, NY\nUnited States\n\nNYC AI Demos returns to The Refinery at Domino on November 5 for our twelfth installment, themed around health tech.\nThis time our theme is Health Tech, and the lineup covers a lot of ground including Headway, Oscar, Evvy, Norbert Health, and Cleo Health.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ua/18df1b8e-3c49-4550-97df-0f02cd7cf2d5.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/nyc12",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/nyc12",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -2707,17 +2707,17 @@
    "description": "times\nNew York, NY\nUnited States\n\nTo further explore the intersections of tech, art, and culture from the magazine Culture Slop, we'll be hosting a conversation on the subject of SLOP at times.\nThe conversation will be between strategist Nikita Walia of U.N.N.A.M.E.D., trend strategist Anu Lingala, and writer Kyle Raymond Fitzpatrick of The Trend Report™.\nThere will be drinks and you can grab free copies of Culture…",
    "isFree": true,
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/x0/4fc823dd-f526-4c11-a778-23af90af839c.png",
     "credit": "luma.com",
-    "link": "https://luma.com/nyc",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/sxsm3y1q",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "sourceUrl": "https://luma.com/sxsm3y1q",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free and open to the public.",
    "score": 38
   },
@@ -2741,7 +2741,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -2849,7 +2849,7 @@
    "sourceUrl": "https://planetprinceton.com/event/acp-byob-wheel-ceramics-2/2026-11-06/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16
   },
   {
@@ -2867,17 +2867,17 @@
    },
    "description": "At My House\nPhiladelphia, Pennsylvania\nUnited States\n\nplatonic love club is the cutest, sweetest evening dedicated to making friends!! think bumble bff, but irl (and better) <333 we guide you with conversation starters, curated prompts, & even an after-hang.\nperf for introverts and extroverts! everyone coming is looking to make friends (whew) :) drinks and n/a bevs are provided.\nas per our communities request, we…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f1/d1576d61-ea41-4322-a9d3-b0cb357b6d56.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/3lz2au81",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/3lz2au81",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -2940,7 +2940,7 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 18,
    "image": {
@@ -3002,17 +3002,17 @@
    },
    "description": "2322 S 10th St\nPhiladelphia, PA\nUnited States\n\nSouth Philly Sala is a community gathering space in South Philadelphia that functions as a living room, community kitchen, workshop space, and mutual aid lab—a place where people can connect, create, share resources, learn across differences, and practice solidarity in everyday life.\nThis month, we are inviting you to join us for a lamp repair session.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/lv/06f13073-4692-44c7-8b3b-3605264ba32f.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/fi96du5d",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/fi96du5d",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -3030,17 +3030,17 @@
    },
    "description": "Freehand Art Supply\nPhiladelphia, PA\nUnited States\n\n*Note: Just posted this second class date since the original date filled up immediately! Same class, different date/time\nAdults (18+)  |  All Materials Provided  |  No experience needed\nInstructor: Amy Kelly\nLearn the basics of watercolor in this 2-hour class designed specifically for beginners.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/a0/cf345b19-9f8c-4283-a3f7-9a3c8b05ddd3.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/k6bidpqw",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/k6bidpqw",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -3258,7 +3258,7 @@
    "sourceUrl": "https://www.philadelphiaeagles.com/schedule/",
    "provenance": "live",
    "sourceId": "eagles",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Lincoln Financial Field is home to the Eagles.",
    "score": 20,
    "image": {
@@ -3614,7 +3614,7 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -3645,7 +3645,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -3721,7 +3721,7 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "note": "Also on Nov 25.",
@@ -3900,17 +3900,17 @@
    "description": "Freehand Art Supply\nPhiladelphia, PA\nUnited States\n\nJoin us for a Thursday Night Art Club - Open Studio!\nIt's free to join, just BYO something to work on. No instruction provided, just a chance to work with others and get inspired.\nWe will provide:\nBasics like easels, paint cups, palettes\nSome limited materials if needed, like surfaces, brushes, paints, water jars, etc\nSpace to hang out!\n\nOur (mostly) free and…",
    "isFree": true,
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/qm/df4531f3-587c-4a40-8b04-49b5b4546ac5.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/53a0waw4",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/53a0waw4",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 20
   },
@@ -3929,17 +3929,17 @@
    },
    "description": "Love City Brewing\nPhiladelphia, PA\nUnited States\n\nWe’re back! Following a fantastic sold-out summer meetup, we’re excited to bring the Philly FinTech community together again on November 12th, 2026.\nOur Philly friends, 'Gregory Agency' are hosting us at the event.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/wn/d6c8e3ef-37c0-4a5e-809d-ee5130ecee6b.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/vdeitztz",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/vdeitztz",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 10
   },
   {
@@ -3999,7 +3999,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4025,17 +4025,17 @@
    },
    "description": "Broad Hall\nPhiladelphia, PA\nUnited States\n\nSink into the rich visual world of Xenia Matthews’ debut feature film MAMABABY for the first event in the film’s fundraising campaign. Join the Sundance and BlackStar alum filmmaker for her Spirit Swamp Fundraiser Party, including an exclusive screening and talkback to kick off the night.\nThe spirit swamp holds the soul of the MAMABABY universe.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/da/4b126ec4-8e77-401a-9bed-4a29b6e282d9.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/uwj8nxsv",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/uwj8nxsv",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 20
   },
   {
@@ -4162,7 +4162,7 @@
    "sourceUrl": "https://planetprinceton.com/event/136th-annual-princeton-triangle-show/2026-11-13/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
    "score": 27,
    "timeTBA": true
@@ -4267,17 +4267,17 @@
    },
    "description": "Percy Diner & Bar\nPhiladelphia, PA\nUnited States\n\nTop Chef season 23 reunion: Chef Nana x Chef Laurence November 13th in Philadelphia!\nA Top Chef Season 23 reunion, one night only in Philadelphia — Chef Nana hosts Chef Laurence at Percy Diner in Fishtown for a collaboration dinner as part of his Have You Eaten Yet? tour\n\nLaurence Louie is a Boston-born Chinese American chef, cultural storyteller, and chef-owner of…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pi/b2ed8c3e-7611-4a76-9b53-11f4fce4b272.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/5bg0be3r",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/5bg0be3r",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -4304,7 +4304,7 @@
    "sourceUrl": "https://planetprinceton.com/event/pie-tasting-weekend/2026-11-14/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16,
    "note": "Also on Nov 15."
   },
@@ -4388,7 +4388,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4418,7 +4418,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -4448,7 +4448,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4478,7 +4478,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -4552,17 +4552,17 @@
    },
    "description": "Indy Hall Clubhouse at 709 N 2nd St\nIndy Hall Clubhouse at 709 N 2nd St, 709 N 2nd St 3rd Floor, Philadelphia, PA 19123, USA\nPhiladelphia, PA\nUnited States\n\n📍 Indy Hall, 709 N 2nd St 3rd Floor, Philadelphia, PA 19123\n🗓 Tuesday, November 17th\n🕕 6:00 – 8:30 PM\nA Philadelphia-based community for developers, designers, engineers, and AI enthusiasts exploring how tools like Cursor are reshaping the way we build,…",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/n0/7f6fb939-77d0-488b-8dec-e2b81a3b62ea.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/cursor-acqy",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/cursor-acqy",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -4585,7 +4585,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -4610,17 +4610,17 @@
    },
    "description": "915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/0q/5ce934e4-da2e-4552-9526-22c601dbe482.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/x0aey23b",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/x0aey23b",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -4678,7 +4678,7 @@
    "sourceUrl": "https://entrepreneurship.columbia.edu/event/fast-pitch-2026/",
    "provenance": "live",
    "sourceId": "columbia-entrepreneurship",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 14
   },
   {
@@ -4741,7 +4741,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -4819,7 +4819,7 @@
    "sourceUrl": "https://planetprinceton.com/event/story-verse-a-storytelling-and-poetic-open-mic/2026-11-19/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Free.",
    "score": 24
   },
@@ -4889,7 +4889,7 @@
    "sourceUrl": "https://entrepreneurship.columbia.edu/event/columbia-healthcare-ventures-fast-pitch-competition/",
    "provenance": "live",
    "sourceId": "columbia-entrepreneurship",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 14
   },
   {
@@ -4912,7 +4912,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5042,7 +5042,7 @@
    "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
    "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
    "score": 18,
    "image": {
@@ -5068,17 +5068,17 @@
    },
    "description": "915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/wj/b0fd03a2-99c0-42eb-bbf4-514ad653de13.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/iqxc4f2c",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/iqxc4f2c",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12
   },
   {
@@ -5101,7 +5101,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5126,17 +5126,17 @@
    },
    "description": "915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/nq/63bb490f-5865-4b41-a219-a517219427b4.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/87palv5r",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/87palv5r",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -5159,7 +5159,7 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5270,17 +5270,17 @@
    },
    "description": "Freehand Art Supply\nPhiladelphia, PA\nUnited States\n\nAdults (18+)  |  All Materials Provided  |  No experience needed\nInstructor: Cat\nLearn visible mending with Cat from sew+sew studio, the most colorful studio in philadelphia! In this one day workshop we will cover basic hand stitching techniques to keep your favorite clothes looking fresh and staying in rotation.",
    "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/0j/c9f65d99-40e7-43b4-9271-d1dab2dfab58.png",
     "credit": "luma.com",
-    "link": "https://luma.com/philadelphia",
-    "w": 1200,
-    "h": 630
+    "link": "https://luma.com/9jics0tc",
+    "w": 800,
+    "h": 420
    },
    "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
+   "sourceUrl": "https://luma.com/9jics0tc",
    "provenance": "live",
    "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 22
   },
   {
@@ -5303,7 +5303,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "note": "Also on Nov 30.",
@@ -5335,7 +5335,7 @@
    "sourceUrl": "https://www.philadelphiaeagles.com/schedule/",
    "provenance": "live",
    "sourceId": "eagles",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Lincoln Financial Field is home to the Eagles.",
    "score": 20,
    "image": {
@@ -5366,7 +5366,7 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5450,7 +5450,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5591,7 +5591,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5632,7 +5632,7 @@
    "sourceUrl": "https://planetprinceton.com/event/the-nutcracker/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "McCarter Theatre Center is Princeton’s main performing arts venue.",
    "score": 32
   },
@@ -5656,7 +5656,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -5684,7 +5684,7 @@
    "sourceUrl": "https://planetprinceton.com/event/palmer-square-annual-tree-lighting-2/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16
   },
   {
@@ -5707,7 +5707,7 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5735,7 +5735,7 @@
    "sourceUrl": "https://planetprinceton.com/event/holiday-strolling-entertainment-9/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16,
    "note": "Also on Nov 29, Dec 5, Dec 6, Dec 12."
   },
@@ -5759,7 +5759,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5788,7 +5788,7 @@
    "sourceUrl": "https://planetprinceton.com/event/cafe-improv/2026-11-28/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16
   },
   {
@@ -5811,7 +5811,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "note": "Also on Dec 3.",
    "image": {
@@ -5842,7 +5842,7 @@
    "sourceUrl": "https://www.nba.com/knicks/schedule",
    "provenance": "live",
    "sourceId": "knicks",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5873,7 +5873,7 @@
    "sourceUrl": "https://www.nba.com/nets/schedule",
    "provenance": "live",
    "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Barclays_Center_-_2026_%2855268559424%29.jpg/1280px-Barclays_Center_-_2026_%2855268559424%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5903,7 +5903,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5933,7 +5933,7 @@
    "sourceUrl": "https://www.nba.com/sixers/schedule",
    "provenance": "live",
    "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg/1280px-Wells_Fargo_Center_-_2019_OWL_Grand_Finals.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -5963,7 +5963,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -5994,7 +5994,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -6025,7 +6025,7 @@
    "sourceUrl": "https://www.nhl.com/rangers/schedule",
    "provenance": "live",
    "sourceId": "rangers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 22,
    "image": {
@@ -6054,7 +6054,7 @@
    "sourceUrl": "https://planetprinceton.com/event/annual-menorah-lighting-2/",
    "provenance": "live",
    "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 16
   },
   {
@@ -6077,7 +6077,7 @@
    "sourceUrl": "https://www.nhl.com/flyers/schedule",
    "provenance": "live",
    "sourceId": "flyers",
-   "checkedAt": "2026-10-28T17:42:22.192Z",
+   "checkedAt": "2026-10-28T17:48:03.267Z",
    "score": 12,
    "image": {
     "url": "https://assets.nhle.com/team-arena/4.jpg",
@@ -6138,12 +6138,19 @@
    "w": 1200,
    "h": 800
   },
+  "le-veau-dor": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Le_Veau_d%27Or_NYC.jpg/1280px-Le_Veau_d%27Or_NYC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "credit": "Wikimedia Commons",
+   "link": "https://en.wikipedia.org/wiki/Le_Veau_d'Or",
+   "w": 3481,
+   "h": 2611
+  },
   "via-carota": {
-   "url": "https://res.cloudinary.com/the-infatuation/image/upload/c_scale,w_1200,q_auto,f_webp/images/TeddyWolff.ViaCarota.socials.70_oq474e",
-   "credit": "The Infatuation",
-   "link": "https://www.theinfatuation.com/new-york/reviews/via-carota",
-   "w": 1200,
-   "h": 800
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Via_Carota_exterior.jpg/1280px-Via_Carota_exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Wikimedia Commons",
+   "link": "https://commons.wikimedia.org/wiki/File:Via_Carota_exterior.jpg",
+   "w": 4032,
+   "h": 3024
   },
   "emmett": {
    "url": "https://static.wixstatic.com/media/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/928818_0d8d827127c649dd99fc90d1450c08df%7Emv2.jpg",
@@ -6330,7 +6337,7 @@
    "homepage": "https://entrepreneurship.columbia.edu/events/",
    "ok": true,
    "count": 5,
-   "ms": 130
+   "ms": 153
   },
   {
    "id": "eagles",
@@ -6340,7 +6347,7 @@
    "homepage": "https://www.philadelphiaeagles.com/schedule/",
    "ok": true,
    "count": 2,
-   "ms": 227
+   "ms": 184
   },
   {
    "id": "flyers",
@@ -6350,7 +6357,7 @@
    "homepage": "https://www.nhl.com/flyers/schedule",
    "ok": true,
    "count": 8,
-   "ms": 372
+   "ms": 227
   },
   {
    "id": "knicks",
@@ -6360,7 +6367,7 @@
    "homepage": "https://www.nba.com/knicks/schedule",
    "ok": true,
    "count": 9,
-   "ms": 170
+   "ms": 206
   },
   {
    "id": "luma-nyc",
@@ -6370,7 +6377,7 @@
    "homepage": "https://luma.com/nyc",
    "ok": true,
    "count": 50,
-   "ms": 718
+   "ms": 950
   },
   {
    "id": "luma-philly",
@@ -6380,7 +6387,7 @@
    "homepage": "https://luma.com/philadelphia",
    "ok": true,
    "count": 21,
-   "ms": 826
+   "ms": 945
   },
   {
    "id": "mets",
@@ -6390,7 +6397,7 @@
    "homepage": "https://www.mlb.com/mets/schedule",
    "ok": true,
    "count": 0,
-   "ms": 336
+   "ms": 204
   },
   {
    "id": "nets",
@@ -6400,7 +6407,7 @@
    "homepage": "https://www.nba.com/nets/schedule",
    "ok": true,
    "count": 6,
-   "ms": 149
+   "ms": 197
   },
   {
    "id": "phillies",
@@ -6410,7 +6417,7 @@
    "homepage": "https://www.mlb.com/phillies/schedule",
    "ok": true,
    "count": 0,
-   "ms": 346
+   "ms": 180
   },
   {
    "id": "planet-princeton",
@@ -6420,7 +6427,7 @@
    "homepage": "https://planetprinceton.com/events/",
    "ok": true,
    "count": 169,
-   "ms": 4304
+   "ms": 4711
   },
   {
    "id": "preview",
@@ -6440,7 +6447,7 @@
    "homepage": "https://goprincetontigers.com/sports/football/schedule",
    "ok": true,
    "count": 3,
-   "ms": 142
+   "ms": 160
   },
   {
    "id": "princeton-mbb",
@@ -6450,7 +6457,7 @@
    "homepage": "https://goprincetontigers.com/sports/mens-basketball/schedule",
    "ok": true,
    "count": 0,
-   "ms": 119
+   "ms": 145
   },
   {
    "id": "rangers",
@@ -6460,7 +6467,7 @@
    "homepage": "https://www.nhl.com/rangers/schedule",
    "ok": true,
    "count": 10,
-   "ms": 354
+   "ms": 398
   },
   {
    "id": "sixers",
@@ -6470,7 +6477,7 @@
    "homepage": "https://www.nba.com/sixers/schedule",
    "ok": true,
    "count": 10,
-   "ms": 233
+   "ms": 172
   },
   {
    "id": "yankees",
@@ -6480,7 +6487,7 @@
    "homepage": "https://www.mlb.com/yankees/schedule",
    "ok": true,
    "count": 0,
-   "ms": 370
+   "ms": 234
   }
  ]
 }

@@ -1230,5 +1230,446 @@
   "w": 1200,
   "h": 801
  },
- "price:https://talkers.com/2026/10/16/terry-gross-to-interview-sir-paul-mccartney-at-the-town-hall-in-nyc/": null
+ "price:https://talkers.com/2026/10/16/terry-gross-to-interview-sir-paul-mccartney-at-the-town-hall-in-nyc/": null,
+ "og2:https://luma.com/rc0hrnyo": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/lz/aeaeb76f-60fd-4604-9fe5-4419a35f8942.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/rc0hrnyo",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/agentsinnyc": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/th/10cb3379-2336-4dd4-a297-faf30b4b5bd0.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/agentsinnyc",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/cxsxdhiy": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/oq/e18250c5-1c40-4623-96fd-a9eb9b463651.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/cxsxdhiy",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/xhgp3nlp": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f7/5ac2b135-3f60-4b10-bcb7-274bb6b522cd.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/xhgp3nlp",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/photonhq-k0ni": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1g/d26613b4-622f-4f0d-82d8-879bc7ab2e99.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/photonhq-k0ni",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/mx9dqfpr": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fd/7fdaa7c6-1feb-4f0a-bf92-1c2449d2726c.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/mx9dqfpr",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/sjnwdzsw": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fa/f62bb02f-07b9-4688-a4fa-c5c88c402a7b.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/sjnwdzsw",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/murdoch": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/76/4bfa519f-ea96-4a70-a3a4-06071303e656.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/murdoch",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/xw65smfm": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fd/e5f1ad6c-75c3-4a56-b5bf-93afdeeedac9.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/xw65smfm",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/05z8y8xs": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/b7/7a5c750f-3045-43e8-a622-795e9e29b6ce.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/05z8y8xs",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/readingclub-oct28": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/n5/52680367-dca1-4ce2-a2ff-e413233229a5.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/readingclub-oct28",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/venammy8": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/a5/6be4ee38-103f-4a43-996d-756308385570.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/venammy8",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/pg7ekbxm": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/q9/668d0084-74b0-44d7-a6de-e854c7a6db81.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/pg7ekbxm",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/812fof21": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/x9/441f9ad5-81af-4c3c-94de-dbb155ef4610.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/812fof21",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/vbwlaggb": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/yp/5191eca6-8467-42fd-814e-a80cabedc706.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/vbwlaggb",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/8185ihqi": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/gk/616230a0-1ffc-4c53-951d-5467c3cdf013.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/8185ihqi",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/y4dhzmto": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/vo/bbcc8bfc-4b81-4896-af6d-6a52797609c7.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/y4dhzmto",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/fr99l0d5": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pq/ec5854ec-6b49-456c-a548-6c91f2d3ad48.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/fr99l0d5",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/sifokctr": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/da/99ec7c18-a47a-4f8a-a887-23f14d6cf8aa.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/sifokctr",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/xgs21ojy": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/mg/e3d9cac1-019a-43c3-923b-c29e9efd899f.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/xgs21ojy",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/frontierNYC2": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/oo/89db40fb-3c95-47f0-ae8a-75f3c58532c5.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/frontierNYC2",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/y0y9ngkm": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/nc/1f684e2d-b238-4ace-8a40-c961e9802332.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/y0y9ngkm",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/j6b8gu9b": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/jb/a72db2cb-0ed4-4792-b674-fc5fe544488a.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/j6b8gu9b",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/n6zknn92": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/yo/83c3dc21-b221-49f7-8716-5bbbaebf9924.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/n6zknn92",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/157thqlu": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/l0/3d34a5c7-e084-4bd0-86b8-3398418ef359.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/157thqlu",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/9d6c82b0": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/o7/ec4b3a30-3c93-448a-836b-8bffb8803d04.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/9d6c82b0",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/w8xgmw15": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pm/e692362c-4748-4b09-aa11-88ebb9ccf91d.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/w8xgmw15",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/nhfqhmbf": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f0/a5cdbc3e-3dd7-4cfe-8e53-9478338c362f.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/nhfqhmbf",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/2kvghex1": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/mj/01b15b96-632e-4b7c-95bf-2f56e857fc3a.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/2kvghex1",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/p7g5rpfb": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ft/019be684-47c0-4db4-b458-83aa30d6fd1b.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/p7g5rpfb",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/tenex-claude-code-workshop-NYC-11.3": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/m0/7ab2e0a7-d967-4ebc-9757-113ea1152183.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/tenex-claude-code-workshop-NYC-11.3",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/cr2xox31": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/bn/39ec8f1f-a781-4495-ae77-c16be84510c8.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/cr2xox31",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/outlierswelcome": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1s/f775b3a3-1762-4df0-9909-10f5eca85ac1.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/outlierswelcome",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/newyork-6qse": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pg/d16cd5a0-6c42-4af2-b5cd-eef17d02f7e3.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/newyork-6qse",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/oemofy6g": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f1/81aaabec-2843-433d-9ed1-385d70168951.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/oemofy6g",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/1npf4wcr": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ok/a5b7828e-90a2-48df-9ba7-332e9180a4c7.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/1npf4wcr",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/9fzx48lg": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/dy/cd424f43-a373-4007-b4e4-0b8e3bed68db.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/9fzx48lg",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/MGMaxwellNovember": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/wa/18492736-54a1-44ef-b160-aba63a0ddd34.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/MGMaxwellNovember",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/dpdvdih8": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/6f/7e7418a5-4a40-4d71-bf45-59bd97e55693.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/dpdvdih8",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/80y6ifyf": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1h/61d40ee7-ba3c-4481-951f-b9688f006689.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/80y6ifyf",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/13udy1ot": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/13/02122e79-6195-45ab-acb5-d9ed50cb1bc2.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/13udy1ot",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/agentics-bos4": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/bm/71008608-bc46-4475-b7fe-700fb956007b.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/agentics-bos4",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/compute-spcnyc": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ej/37ebf180-fe1f-4e00-8493-434dfd9c500b.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/compute-spcnyc",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/sxsm3y1q": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/x0/4fc823dd-f526-4c11-a778-23af90af839c.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/sxsm3y1q",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/nyc12": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ua/18df1b8e-3c49-4550-97df-0f02cd7cf2d5.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/nyc12",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/r5gibs2q": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ai/175ad1b1-4070-4d30-930c-f14167d3dbd4.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/r5gibs2q",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/semixvcluster": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/lo/8f05f26f-8ce7-4295-b82d-027a640e2a4d.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/semixvcluster",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/zbysvhdt": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/gy/f6221e2f-bf66-46b8-b8d0-7638645909e8.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/zbysvhdt",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/k6bidpqw": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/a0/cf345b19-9f8c-4283-a3f7-9a3c8b05ddd3.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/k6bidpqw",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/53a0waw4": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/qm/df4531f3-587c-4a40-8b04-49b5b4546ac5.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/53a0waw4",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/vdeitztz": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/wn/d6c8e3ef-37c0-4a5e-809d-ee5130ecee6b.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/vdeitztz",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/fi96du5d": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/lv/06f13073-4692-44c7-8b3b-3605264ba32f.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/fi96du5d",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/uwj8nxsv": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/da/4b126ec4-8e77-401a-9bed-4a29b6e282d9.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/uwj8nxsv",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/3lz2au81": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/f1/d1576d61-ea41-4322-a9d3-b0cb357b6d56.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/3lz2au81",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/x0aey23b": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/0q/5ce934e4-da2e-4552-9526-22c601dbe482.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/x0aey23b",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/cursor-acqy": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/n0/7f6fb939-77d0-488b-8dec-e2b81a3b62ea.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/cursor-acqy",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/5bg0be3r": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pi/b2ed8c3e-7611-4a76-9b53-11f4fce4b272.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/5bg0be3r",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/87palv5r": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/nq/63bb490f-5865-4b41-a219-a517219427b4.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/87palv5r",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/9jics0tc": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/0j/c9f65d99-40e7-43b4-9271-d1dab2dfab58.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/9jics0tc",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/iqxc4f2c": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/wj/b0fd03a2-99c0-42eb-bbf4-514ad653de13.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/iqxc4f2c",
+  "w": 800,
+  "h": 420
+ },
+ "commons:Shu Jiao Fu Zhou|New York": null,
+ "commons:Sam Ping’s BBQ|New York": null,
+ "commons:Great NY Noodletown|New York": null,
+ "commons:Taqueria Ramirez|New York": null,
+ "commons:Bong|New York": null,
+ "commons:Trinidad Golden Place|New York": null,
+ "wiki2:Le_Veau_d'Or": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Le_Veau_d%27Or_NYC.jpg/1280px-Le_Veau_d%27Or_NYC.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Le_Veau_d'Or",
+  "w": 3481,
+  "h": 2611
+ },
+ "commons:Via Carota|New York": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Via_Carota_exterior.jpg/1280px-Via_Carota_exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://commons.wikimedia.org/wiki/File:Via_Carota_exterior.jpg",
+  "w": 4032,
+  "h": 3024
+ },
+ "commons:El Chingon|Philadelphia": null
 }
