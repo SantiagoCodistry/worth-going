@@ -4408,5 +4408,204 @@
  "geo:Nassau Inn Patio|10 Palmer Square, Princeton|Princeton area": {
   "lat": 40.35065,
   "lng": -74.66184
+ },
+ "who2:Derrick Hodge": {
+  "role": "American musician and composer",
+  "wiki": "Derrick_Hodge"
+ },
+ "who2:Chris Dave": {
+  "role": "American drummer (born 1973)",
+  "wiki": "Chris_Dave"
+ },
+ "wiki2:Derrick_Hodge": null,
+ "wiki2:Chris_Dave": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Chris_Dave_2017.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Chris_Dave",
+  "w": 672,
+  "h": 498
+ },
+ "who2:Sheer Mag": {
+  "role": "American rock band",
+  "wiki": "Sheer_Mag"
+ },
+ "who2:The Lemon Twigs": {
+  "role": "American rock band",
+  "wiki": "The_Lemon_Twigs"
+ },
+ "wiki2:Sheer_Mag": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Sheer_Mag_082317_Black_Cat%2C_Washington_DC_%2835969004853%29.jpg/1280px-Sheer_Mag_082317_Black_Cat%2C_Washington_DC_%2835969004853%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Sheer_Mag",
+  "w": 6720,
+  "h": 4480
+ },
+ "wiki2:The_Lemon_Twigs": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/The_Lemon_Twigs_%E2%80%93_July_2024.png/1280px-The_Lemon_Twigs_%E2%80%93_July_2024.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Lemon_Twigs",
+  "w": 3076,
+  "h": 2051
+ },
+ "who2:Mark Viera": null,
+ "who2:Jackie Fabulous": {
+  "role": "American comedian and actress",
+  "wiki": "Jackie_Fabulous"
+ },
+ "wiki2:Jackie_Fabulous": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jackie_Fabulous_Photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jackie_Fabulous",
+  "w": 961,
+  "h": 1528
+ },
+ "who2:Eagle Witt": null,
+ "who2:After Dark": null,
+ "who2:Meka Mo": null,
+ "who2:Baby Bugs": null,
+ "who2:Afro-Cuban All Stars": {
+  "role": "Cuban musical band",
+  "wiki": "Afro-Cuban_All_Stars"
+ },
+ "wiki2:Afro-Cuban_All_Stars": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Juan_de_marcos_gonzalez.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Afro-Cuban_All_Stars",
+  "w": 675,
+  "h": 1024
+ },
+ "who2:Deli Girls": {
+  "role": "American band",
+  "wiki": "Deli_Girls"
+ },
+ "wiki2:Deli_Girls": null,
+ "who2:Caitlin Peluffo": null,
+ "who2:Oscar Aydin": null,
+ "who2:Toad the Wet Sprocket": {
+  "role": "American alternative rock band",
+  "wiki": "Toad_the_Wet_Sprocket"
+ },
+ "wiki2:Toad_the_Wet_Sprocket": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Toad_the_Wet_Sprocket_2014.jpg/1280px-Toad_the_Wet_Sprocket_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Toad_the_Wet_Sprocket",
+  "w": 1632,
+  "h": 1632
+ },
+ "who2:Liam Cullagh": null,
+ "who2:Jamie Wolf": null,
+ "who2:Tom Cassidy": null,
+ "who2:Sean Conrad": null,
+ "who2:yesterdayneverhappened": null,
+ "who2:Tommy McClellan": null,
+ "who2:Dayseeker": {
+  "role": "American post-hardcore band",
+  "wiki": "Dayseeker"
+ },
+ "who2:Rosegarden Funeral Party": null,
+ "wiki2:Dayseeker": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Dayseeker_Concert_Photo.jpg/1280px-Dayseeker_Concert_Photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Dayseeker",
+  "w": 4032,
+  "h": 3024
+ },
+ "who2:Judah & the Lion": {
+  "role": "American band",
+  "wiki": "Judah_&_the_Lion"
+ },
+ "wiki2:Judah_&_the_Lion": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/J%26TL_Live.jpg/1280px-J%26TL_Live.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Judah_%26_the_Lion",
+  "w": 5616,
+  "h": 3744
+ },
+ "who2:Rata Blanca": {
+  "role": "Argentine rock band",
+  "wiki": "Rata_Blanca"
+ },
+ "wiki2:Rata_Blanca": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Adri%C3%A1n_Barilari_y_Walter_Giardino_%28Rata_Blanca%2C_en_2008%29.jpg/1280px-Adri%C3%A1n_Barilari_y_Walter_Giardino_%28Rata_Blanca%2C_en_2008%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Rata_Blanca",
+  "w": 1500,
+  "h": 913
+ },
+ "who2:Willy Porter": null,
+ "who2:Soul Glo": {
+  "role": "American hardcore punk band",
+  "wiki": "Soul_Glo"
+ },
+ "wiki2:Soul_Glo": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/SOUL_GLO.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Soul_Glo",
+  "w": 1024,
+  "h": 683
+ },
+ "who2:Dirty Dozen Brass Band": {
+  "role": "American brass band from New Orleans, Louisiana",
+  "wiki": "Dirty_Dozen_Brass_Band"
+ },
+ "who2:Joy Oladokun": {
+  "role": "American singer-songwriter (born 1992)",
+  "wiki": "Joy_Oladokun"
+ },
+ "wiki2:Dirty_Dozen_Brass_Band": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/DirtyDozenBrassBand.jpg/1280px-DirtyDozenBrassBand.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Dirty_Dozen_Brass_Band",
+  "w": 4032,
+  "h": 3024
+ },
+ "wiki2:Joy_Oladokun": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/P20221213HF-0034_%2852651400933%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Joy_Oladokun",
+  "w": 1028,
+  "h": 1160
+ },
+ "who2:Don Broco": {
+  "role": "English rock band",
+  "wiki": "Don_Broco"
+ },
+ "wiki2:Don_Broco": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/2017_RiP_-_Don_Broco_-_by_2eight_-_DSC0037.jpg/1280px-2017_RiP_-_Don_Broco_-_by_2eight_-_DSC0037.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Don_Broco",
+  "w": 2048,
+  "h": 1152
+ },
+ "who2:Freak Slug": {
+  "role": "British indie rock musician",
+  "wiki": "Freak_Slug"
+ },
+ "wiki2:Freak_Slug": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/FreakSlug_AnsonTong_SLCKBP_20260517_4-13.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Freak_Slug",
+  "w": 1125,
+  "h": 1688
+ },
+ "who2:Tchami": {
+  "role": "French DJ (born 1985)",
+  "wiki": "Tchami"
+ },
+ "wiki2:Tchami": null,
+ "who2:Louis CK": {
+  "role": "American comedian, actor and filmmaker (born 1967)",
+  "wiki": "Louis_C.K."
+ },
+ "who2:Joshua Radin": {
+  "role": "American singer-songwriter (born 1974)",
+  "wiki": "Joshua_Radin"
+ },
+ "wiki2:Joshua_Radin": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Joshua_Radin_Wiki_2.jpg/1280px-Joshua_Radin_Wiki_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Joshua_Radin",
+  "w": 2723,
+  "h": 3284
  }
 }
