@@ -24,6 +24,19 @@ const VERDICT_RANK = { loved: 0, liked: 1, meh: 2 } as const
 const mapsUrl = (p: Place) =>
   `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.name}, ${p.address ?? `${p.neighborhood}, ${cityById(p.city).name}`}`)}`
 
+const RESY_CITY: Record<string, string> = { nyc: 'new-york-ny', philly: 'philadelphia-pa', princeton: 'princeton-nj', nj: 'new-jersey' }
+
+/** Where to book: the hand-checked entry first, then a link found on the restaurant's own site. */
+function reservation(p: Place, found?: { platform: string; url: string }): { platform: string; url: string } | null {
+  const b = p.book
+  if (b && b.via !== 'Walk-in') {
+    if (b.url) return { platform: b.via, url: b.url }
+    if (found?.platform === b.via) return found
+    if (b.via === 'Resy') return { platform: 'Resy', url: `https://resy.com/cities/${RESY_CITY[p.city]}/search?query=${encodeURIComponent(p.name)}` }
+  }
+  return b?.via === 'Walk-in' ? null : (found ?? null)
+}
+
 /** Booking-page link with your date and party size filled in, where the platform supports it. */
 function bookingUrl(platform: string, url: string, date: string, seats: number, time = '19:00') {
   try {
@@ -82,8 +95,10 @@ function LogBadge({ log }: { log?: PlaceLog }) {
 }
 
 export function PlaceCard({ p, className = '' }: { p: Place; className?: string }) {
-  const { places, logPlace } = useStore()
+  const { places, logPlace, data } = useStore()
   const log = places[p.id]
+  const r = reservation(p, data?.placeMeta?.[p.id]?.reserve)
+  const how = r ? `Book on ${r.platform}` : p.book?.via === 'Walk-in' ? 'Walk-in' : null
   return (
     <Link to={`/table/${p.id}`} className={`group block ${className}`}>
       <div className="relative">
@@ -111,6 +126,7 @@ export function PlaceCard({ p, className = '' }: { p: Place; className?: string 
         </p>
         <h3 className="mt-1 text-[17px] font-bold leading-snug">
           <span className="link-underline">{p.name}</span>
+          {how && <span className="ml-2 align-middle text-[11.5px] font-semibold text-ink-2">{how}</span>}
         </h3>
         <p className="mt-1 text-[14px] leading-snug text-ink-2">{p.dek}</p>
         <p className="mt-2 flex flex-wrap gap-1">
@@ -267,21 +283,25 @@ function Book({ p }: { p: Place }) {
   const [date, setDate] = useState(todayKey())
   const [seats, setSeats] = useState(2)
   const [time, setTime] = useState('19:00')
-  if (!meta?.reserve)
+  const r = reservation(p, meta?.reserve)
+  if (!r)
     return (
       <div className="rounded-[3px] bg-bg-2 p-4">
-        <p className="label">Reservations</p>
+        <p className="label">{p.book?.via === 'Walk-in' ? 'No reservations' : 'Reservations'}</p>
         <p className="mt-1 text-[14px] text-ink-2">
-          We didn’t find an online booking link on their website. It may be walk-in only; Google Maps shows hours and how busy it is.
+          {p.book?.via === 'Walk-in'
+            ? p.book.note ?? 'Walk in. Google Maps shows today’s hours and how busy it is.'
+            : 'We didn’t find an online booking link. It may be walk-in only; Google Maps shows hours and how busy it is.'}
         </p>
         <a href={mapsUrl(p)} target="_blank" rel="noreferrer" className="btn btn-accent mt-3">
-          Open in Google Maps ↗
+          Hours on Google Maps ↗
         </a>
       </div>
     )
   return (
     <div className="rounded-[3px] bg-[var(--riso-yellow)] p-4">
-      <p className="label">Book on {meta.reserve.platform}</p>
+      <p className="label">Book on {r.platform}</p>
+      {p.book?.note && <p className="mt-1 text-[14px]">{p.book.note}</p>}
       <div className="mt-3 flex flex-wrap items-end gap-2">
         <label className="grid gap-1 text-[13px] font-semibold">
           Date
@@ -301,11 +321,11 @@ function Book({ p }: { p: Place }) {
             ))}
           </select>
         </label>
-        <a href={bookingUrl(meta.reserve.platform, meta.reserve.url, date, seats, time)} target="_blank" rel="noreferrer" className="btn btn-accent">
+        <a href={bookingUrl(r.platform, r.url, date, seats, time)} target="_blank" rel="noreferrer" className="btn btn-accent">
           See open tables ↗
         </a>
       </div>
-      <p className="mt-2 text-[12.5px] text-ink-2">Opens {meta.reserve.platform} showing live availability for your date and party size.</p>
+      <p className="mt-2 text-[12.5px] text-ink-2">Opens {r.platform} with live availability for your date and party size.</p>
     </div>
   )
 }

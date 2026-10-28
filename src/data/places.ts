@@ -24,6 +24,7 @@ export const PLACES: Place[] = [
     order: 'Thai tea babka French toast.',
     source: INF_MANHATTAN,
     goodFor: ['group', 'date'],
+    book: { via: 'Resy', note: 'Hard to book. You can also put your name in with the host and wait.' },
   },
   {
     id: 'lei',
@@ -38,6 +39,9 @@ export const PLACES: Place[] = [
     know: 'Book well ahead.',
     source: { name: 'Time Out', url: 'https://www.timeout.com/newyork/news/chinatowns-james-beard-winning-wine-bar-lives-up-to-the-hype-080326' },
     goodFor: ['date', 'new'],
+    address: '15-17 Doyers St, New York',
+    website: 'https://leiwine.nyc/',
+    book: { via: 'Resy', note: 'Tables are released 14 days ahead at 9 am. A few are kept for walk-ins.' },
   },
   {
     id: 'mam',
@@ -51,6 +55,9 @@ export const PLACES: Place[] = [
     order: 'Bún đậu mắm tôm, the platter it’s named for.',
     source: INF_MANHATTAN,
     goodFor: ['group', 'date'],
+    address: '70 Forsyth St, New York',
+    wiki: 'Mắm_(restaurant)',
+    book: { via: 'Walk-in', note: 'Hours are limited and change; check before you go.' },
   },
   {
     id: 'penny',
@@ -63,6 +70,8 @@ export const PLACES: Place[] = [
     why: 'Rated 9.4 by The Infatuation. Good for a nice dinner without a full tasting menu.',
     source: INF_MANHATTAN,
     goodFor: ['date', 'solo'],
+    address: '90 E 10th St, New York',
+    book: { via: 'Resy', note: 'All bar seats. A few are released a week ahead at 9 am; most are kept for walk-ins.' },
   },
   {
     id: 'shu-jiao-fu-zhou',
@@ -76,6 +85,8 @@ export const PLACES: Place[] = [
     order: 'Boiled pork and chive dumplings, peanut butter noodles.',
     source: { name: 'The Infatuation', url: 'https://www.theinfatuation.com/new-york/perfect-for/impressing-out-of-towners' },
     goodFor: ['cheap', 'solo'],
+    address: '118 Eldridge St, New York',
+    book: { via: 'Walk-in' },
   },
   {
     id: 'sam-pings',
@@ -89,6 +100,7 @@ export const PLACES: Place[] = [
     order: 'Char siu over rice.',
     source: INF_CHEAP,
     goodFor: ['cheap', 'solo'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'great-ny-noodletown',
@@ -103,6 +115,7 @@ export const PLACES: Place[] = [
     order: 'Roast duck over rice, salt-baked squid.',
     source: INF_CHEAP,
     goodFor: ['cheap', 'group', 'late'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'taqueria-ramirez',
@@ -116,6 +129,8 @@ export const PLACES: Place[] = [
     order: 'Suadero tacos.',
     source: { name: 'The Infatuation', url: 'https://www.theinfatuation.com/new-york/perfect-for/impressing-out-of-towners' },
     goodFor: ['cheap', 'solo'],
+    address: '94 Franklin St, Brooklyn',
+    book: { via: 'Walk-in', note: 'Expect a line.' },
   },
   {
     id: 'bong',
@@ -128,6 +143,8 @@ export const PLACES: Place[] = [
     why: 'Rated 9.2 by The Infatuation, which recommends it for impressing visitors.',
     source: { name: 'The Infatuation', url: 'https://www.theinfatuation.com/new-york/perfect-for/impressing-out-of-towners' },
     goodFor: ['group', 'date'],
+    address: '724 Sterling Pl, Brooklyn',
+    book: { via: 'Resy', note: 'About 20 seats and reservations go fast.' },
   },
   {
     id: 'trinidad-golden-place',
@@ -141,6 +158,7 @@ export const PLACES: Place[] = [
     order: 'Doubles.',
     source: INF_CHEAP,
     goodFor: ['cheap', 'solo'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'le-veau-dor',
@@ -153,6 +171,10 @@ export const PLACES: Place[] = [
     why: 'The top-rated restaurant in Manhattan on The Infatuation (9.7). A splurge.',
     source: INF_MANHATTAN,
     goodFor: ['splurge', 'date'],
+    address: '129 E 60th St, New York',
+    website: 'https://www.lvdnyc.com/',
+    wiki: 'Le_Veau_d\'Or',
+    book: { via: 'OpenTable', url: 'https://www.opentable.com/r/le-veau-dor-new-york', note: 'Released on OpenTable 14 days ahead.' },
   },
   {
     id: 'via-carota',
@@ -183,6 +205,9 @@ export const PLACES: Place[] = [
     order: 'The tasting menu. Don’t skip the sesame madeleines.',
     source: { name: 'The Infatuation', url: 'https://www.theinfatuation.com/philadelphia/reviews/emmett' },
     goodFor: ['date', 'splurge'],
+    address: '161 W Girard Ave, Philadelphia',
+    website: 'https://www.emmettphilly.com/',
+    book: { via: 'OpenTable', url: 'https://www.opentable.com/r/emmett-philadelphia' },
   },
   {
     id: 'el-chingon',
@@ -198,6 +223,7 @@ export const PLACES: Place[] = [
     source: { name: 'The Infatuation', url: 'https://www.theinfatuation.com/philadelphia/reviews/el-chingon' },
     wiki: 'El_Chingon',
     goodFor: ['cheap', 'group'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'kalaya',
@@ -211,6 +237,8 @@ export const PLACES: Place[] = [
     source: INF_PHL25,
     wiki: 'Kalaya_(restaurant)',
     goodFor: ['group', 'date'],
+    address: '4 W Palmer St, Philadelphia',
+    book: { via: 'Resy', note: 'Books open about a month ahead. Bar seats are kept for walk-ins from 5 pm.' },
   },
   {
     id: 'provenance',
@@ -224,6 +252,7 @@ export const PLACES: Place[] = [
     order: 'It’s a set menu. The uni with buttercup squash is a signature.',
     source: INF_PHL25,
     goodFor: ['splurge', 'date'],
+    book: { via: 'OpenTable', url: 'https://www.opentable.com/r/provenance-philadelphia', note: '$225 tasting menu, about 2.5 hours.' },
   },
   {
     id: 'bar-cicci',
@@ -236,6 +265,8 @@ export const PLACES: Place[] = [
     why: 'On The Infatuation’s Philadelphia Hit List of new restaurants.',
     source: { name: 'The Infatuation', url: 'https://www.theinfatuation.com/philadelphia/guides/best-new-philadelphia-restaurants-hit-list' },
     goodFor: ['solo', 'date', 'new'],
+    address: '1620 Sansom St, Philadelphia',
+    book: { via: 'Walk-in', note: 'Walk-in only for now, per Visit Philly.' },
   },
   {
     id: 'zahav',
@@ -251,6 +282,7 @@ export const PLACES: Place[] = [
     website: 'https://www.zahavrestaurant.com/',
     wiki: 'Zahav_(restaurant)',
     goodFor: ['group', 'date'],
+    book: { via: 'Resy', note: 'Released 8 weeks ahead at 11 am. It books up fast.' },
   },
   {
     id: 'johns-roast-pork',
@@ -266,6 +298,7 @@ export const PLACES: Place[] = [
     know: 'Daytime hours only.',
     website: 'https://www.johnsroastpork.com/',
     goodFor: ['cheap', 'solo'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'reading-terminal',
@@ -281,6 +314,7 @@ export const PLACES: Place[] = [
     website: 'https://readingterminalmarket.org/',
     wiki: 'Reading_Terminal_Market',
     goodFor: ['cheap', 'group'],
+    book: { via: 'Walk-in' },
   },
 
   // ——— Princeton ———
@@ -298,6 +332,7 @@ export const PLACES: Place[] = [
     website: 'https://www.princetonxibei.com/',
     source: PAW,
     goodFor: ['group', 'cheap', 'new'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'madras-dosa',
@@ -310,6 +345,7 @@ export const PLACES: Place[] = [
     why: 'One of the new Princeton spots Princeton Alumni Weekly recommends.',
     source: PAW,
     goodFor: ['cheap', 'solo', 'new'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'blue-point-grill',
@@ -322,6 +358,7 @@ export const PLACES: Place[] = [
     why: 'A Princeton favorite since 1999, and a good pick when family visits.',
     source: { name: 'NJ Monthly', url: 'https://njmonthly.com/articles/eat-drink/best-restaurants-in-princeton/' },
     goodFor: ['date', 'group'],
+    address: '258 Nassau St, Princeton',
   },
   {
     id: 'hoagie-haven',
@@ -336,6 +373,7 @@ export const PLACES: Place[] = [
     order: 'The Phat Lady.',
     website: 'https://www.hoagiehaven.com/',
     goodFor: ['cheap', 'late', 'group'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'bent-spoon',
@@ -349,6 +387,7 @@ export const PLACES: Place[] = [
     why: 'Made with ingredients from New Jersey farms. Worth the walk in any season.',
     website: 'https://www.thebentspoon.net/',
     goodFor: ['cheap', 'date'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'small-world',
@@ -362,6 +401,7 @@ export const PLACES: Place[] = [
     why: 'Where students and townspeople both work from.',
     website: 'https://www.smallworldcoffee.com/',
     goodFor: ['solo', 'cheap'],
+    book: { via: 'Walk-in' },
   },
   {
     id: 'agricola',

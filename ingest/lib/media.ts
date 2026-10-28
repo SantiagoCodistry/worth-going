@@ -281,7 +281,10 @@ export async function placeImage(p: Place): Promise<Img> {
     const w = await wikiImage(p.wiki)
     if (w) return w
   }
-  return p.website ? pageImage(p.website) : null
+  const site = p.website ? await pageImage(p.website) : null
+  if (site) return site
+  // OpenTable and Tock pages carry the restaurant's own photos.
+  return p.book?.url ? pageImage(p.book.url) : null
 }
 
 export function saveCache() {
@@ -342,7 +345,7 @@ const BOOKING: [RegExp, string][] = [
 export async function placeMeta(p: Place, cityName: string): Promise<PlaceMeta> {
   const key = `place:${p.id}`
   const cached = (cache as Record<string, unknown>)[key] as PlaceMeta | undefined
-  if (cached && (cached.lat || cached.reserve || cached.menu)) return cached
+  if (cached?.lat && (cached.reserve || cached.menu || !p.website)) return cached
   const meta: PlaceMeta = {}
   if (p.website) {
     try {
@@ -364,12 +367,16 @@ export async function placeMeta(p: Place, cityName: string): Promise<PlaceMeta> 
   }
   // OpenStreetMap geocoding (Nominatim): one request a second, identified.
   try {
-    const q = encodeURIComponent(`${p.name}, ${p.address ?? `${p.neighborhood}, ${cityName}`}`)
-    await new Promise((ok) => setTimeout(ok, 1100))
-    const res = await getJson<{ lat: string; lon: string }[]>(`https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${q}`)
-    if (res[0]) {
-      meta.lat = Number(res[0].lat)
-      meta.lng = Number(res[0].lon)
+    // Name first (puts the pin on the building), then the street address alone.
+    const queries = [`${p.name}, ${p.address ?? `${p.neighborhood}, ${cityName}`}`, p.address].filter((x): x is string => !!x)
+    for (const q of queries) {
+      await new Promise((ok) => setTimeout(ok, 1100))
+      const res = await getJson<{ lat: string; lon: string }[]>(`https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes=us&q=${encodeURIComponent(q)}`)
+      if (res[0]) {
+        meta.lat = Number(res[0].lat)
+        meta.lng = Number(res[0].lon)
+        break
+      }
     }
   } catch {
     /* no map pin */

@@ -110,6 +110,8 @@ export interface Place {
   wiki?: string
   /** 'cheap', 'date', 'group', 'solo', 'late', 'splurge', 'new' … */
   goodFor: string[]
+  /** How to get a table, checked by hand. A Resy entry without a url links to Resy search. */
+  book?: { via: 'Resy' | 'OpenTable' | 'Tock' | 'Walk-in'; url?: string; note?: string }
 }
 
 export interface SourceStatus {
