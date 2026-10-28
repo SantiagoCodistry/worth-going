@@ -29,6 +29,13 @@ export type { PlaceLog }
 
 const Ctx = createContext<Store | null>(null)
 
+/** Fill new fields and carry over older saved shapes. */
+function upgradeProfile(p: Partial<Profile> & { artists?: { name: string; genres?: string[]; from: 'spotify' | 'you' }[] }): Profile {
+  const { artists, ...rest } = p
+  const favorites = rest.favorites ?? artists?.map((a) => ({ ...a, kind: 'artist' as const }))
+  return { ...DEFAULT_PROFILE, ...rest, ...(favorites ? { favorites } : {}) }
+}
+
 function readLocal<T>(key: string, fallback: T): T {
   try {
     const raw = localStorage.getItem(key)
@@ -51,7 +58,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [error, setError] = useState<string | null>(null)
   const [city, setCityState] = useState<CityFilter>(() => readLocal('wg.city', 'all'))
   const [saved, setSaved] = useState<string[]>(() => readLocal('wg.saved', []))
-  const [profile, setProfileState] = useState<Profile>(() => ({ ...DEFAULT_PROFILE, ...readLocal<Partial<Profile>>('wg.profile', {}) }))
+  const [profile, setProfileState] = useState<Profile>(() => upgradeProfile(readLocal<Partial<Profile>>('wg.profile', {})))
   const setProfile = useCallback((p: Profile) => {
     setProfileState(p)
     writeLocal('wg.profile', p)
@@ -92,7 +99,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
         writeLocal('wg.saved', m.saved)
         setPlaces(m.places)
         writeLocal('wg.places', m.places)
-        if (m.profile) setProfile({ ...DEFAULT_PROFILE, ...m.profile })
+        if (m.profile) setProfile(upgradeProfile(m.profile))
         ready.current = uid
         return saveState(uid, m)
       })

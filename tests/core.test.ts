@@ -243,13 +243,24 @@ test('portraits must be named after the person', async () => {
   assert.ok(!isPortraitOf('https://upload.wikimedia.org/x/1280px-Eisenhower_Executive_Office_Building_26.jpg', 'Sahil Lavingia'))
 })
 
-test('your artists match their shows, and only whole names', async () => {
-  const { artistAt } = await import('../src/lib/spotify.ts')
-  const ev = (title: string, people: string[] = []) => ({ title, category: 'music', people: people.map((name) => ({ name, role: 'Performer' })) }) as never
-  const mine = [{ name: 'Geese', genres: ['indie rock'], from: 'spotify' as const }, { name: 'Yes', genres: [], from: 'you' as const }]
-  assert.equal(artistAt(ev('Geese: Getting Killed Tour'), mine)?.name, 'Geese')
-  assert.equal(artistAt(ev('Night at the Bowery', ['Geese']), mine)?.name, 'Geese')
-  assert.equal(artistAt(ev('Yes, Chef! A cooking show'), mine), undefined)
+test('favorites match artists, teams, venues and people, and only whole names', async () => {
+  const { favoriteAt } = await import('../src/lib/favorites.ts')
+  const ev = (title: string, category = 'music', people: string[] = [], venue = 'Somewhere') =>
+    ({ title, category, people: people.map((name) => ({ name, role: 'Performer' })), venue: { name: venue } }) as never
+  const favs = [
+    { name: 'Geese', kind: 'artist' as const, from: 'spotify' as const },
+    { name: 'Yes', kind: 'artist' as const, from: 'you' as const },
+    { name: 'New York Knicks', kind: 'team' as const, from: 'you' as const },
+    { name: 'Mütter Museum', kind: 'venue' as const, from: 'you' as const },
+    { name: 'Jerome Powell', kind: 'person' as const, from: 'you' as const },
+  ]
+  assert.equal(favoriteAt(ev('Geese: Getting Killed Tour'), favs)?.name, 'Geese')
+  assert.equal(favoriteAt(ev('Night at the Bowery', 'music', ['Geese']), favs)?.name, 'Geese')
+  assert.equal(favoriteAt(ev('Yes, Chef! A cooking show', 'unusual'), favs), undefined)
+  assert.equal(favoriteAt(ev('Philadelphia 76ers vs. New York Knicks', 'sports'), favs)?.kind, 'team')
+  assert.equal(favoriteAt(ev('Knicks Watch Party', 'unusual'), favs), undefined)
+  assert.equal(favoriteAt(ev('Fathoming Frankenstein', 'ideas', [], 'Mutter Museum'), favs)?.kind, 'venue')
+  assert.equal(favoriteAt(ev('A conversation with Jerome Powell', 'ideas'), favs)?.kind, 'person')
 })
 
 test('structured-data times without an offset are New York time', async () => {

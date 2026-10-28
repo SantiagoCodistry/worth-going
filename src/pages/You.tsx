@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { CITIES } from '../shared/taxonomy.ts'
 import { DEFAULT_PROFILE, INTERESTS, type BusyBlock, type Level } from '../lib/profile.ts'
 import { useStore } from '../lib/store.tsx'
-import { MusicTaste } from '../components/MusicTaste.tsx'
+import { Favorites } from '../components/Favorites.tsx'
 
 const LEVELS: { v: Level; label: string }[] = [
   { v: 0, label: 'Not for me' },
@@ -61,8 +61,8 @@ export function You() {
         </ul>
       </section>
 
-      <div id="music">
-        <MusicTaste />
+      <div id="favorites">
+        <Favorites />
       </div>
 
       <section className="mt-12">

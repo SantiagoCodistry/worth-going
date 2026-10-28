@@ -17,9 +17,9 @@ export function SpotifyReturn() {
     started.current = true
     finishSpotify(code)
       .then((found) => {
-        const typed = (profile.artists ?? []).filter((a) => a.from === 'you')
-        setProfile({ ...profile, artists: [...typed, ...found.filter((f) => !typed.some((t) => t.name.toLowerCase() === f.name.toLowerCase()))] })
-        nav('/you#music', { replace: true })
+        const kept = (profile.favorites ?? []).filter((a) => a.from === 'you')
+        setProfile({ ...profile, favorites: [...kept, ...found.filter((f) => !kept.some((t) => t.name.toLowerCase() === f.name.toLowerCase()))] })
+        nav('/you#favorites', { replace: true })
       })
       .catch((e: Error) => setError(e.message))
   }, [params, profile, setProfile, nav])

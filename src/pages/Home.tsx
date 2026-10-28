@@ -5,7 +5,7 @@ import { CATEGORIES, cityById } from '../shared/taxonomy.ts'
 import { PLACES } from '../data/places.ts'
 import { applyFilters } from '../lib/recommend.ts'
 import { INTERESTS, fit, type Fit } from '../lib/profile.ts'
-import { artistAt } from '../lib/spotify.ts'
+import { favoriteAt } from '../lib/favorites.ts'
 import { useStore } from '../lib/store.tsx'
 import { Avatar, EventCard, EventRow, Reasons } from '../components/Cards.tsx'
 import { CityTabs } from '../components/Layout.tsx'
@@ -94,7 +94,7 @@ export function Home() {
         </section>
       )}
 
-      <MyArtists ranked={ranked} />
+      <MyFavorites ranked={ranked} />
 
       {week.length > 0 && (
         <section className="mx-auto mt-16 max-w-[1400px] px-4 md:mt-20 md:px-8">
@@ -181,28 +181,28 @@ export function Row({ title, to, toLabel, children }: { title: string; to?: stri
   )
 }
 
-/** Shows by artists you listen to (Spotify or typed in), soonest first. */
-function MyArtists({ ranked }: { ranked: Ranked[] }) {
+/** Events with your artists, teams, venues and people, soonest first. */
+function MyFavorites({ ranked }: { ranked: Ranked[] }) {
   const { profile, data, city } = useStore()
-  const artists = profile.artists ?? []
+  const favs = profile.favorites ?? []
   const items = useMemo(
     () =>
       applyFilters(data?.events ?? [], { city, when: 'all' })
-        .filter((e) => artistAt(e, artists))
+        .filter((e) => favoriteAt(e, favs))
         .map((e) => ranked.find((r) => r.e.id === e.id) ?? { e, f: fit(e, profile) })
         .slice(0, 12),
-    [data, city, artists, ranked, profile],
+    [data, city, favs, ranked, profile],
   )
-  if (!artists.length) return null
+  if (!favs.length) return null
   if (!items.length)
     return (
       <section className="mx-auto mt-16 max-w-[1400px] px-4 md:px-8">
-        <SectionHead title="Your artists" />
-        <p className="text-[15px] text-ink-2">None of your {artists.length} artists have a show listed nearby yet. New dates are added every morning.</p>
+        <SectionHead title="Your favorites" />
+        <p className="text-[15px] text-ink-2">Nothing from your {favs.length} favorites is listed yet. New dates are added every morning.</p>
       </section>
     )
   return (
-    <Row title="Your artists" to="/explore?cat=music&when=all&mine=1" toLabel="All their shows">
+    <Row title="Your favorites" to="/explore?when=all&mine=1" toLabel="See all">
       {items.map((r) => (
         <EventCard key={r.e.id} e={r.e} reasons={r.f.reasons} className="w-[78vw] shrink-0 snap-start sm:w-[320px]" />
       ))}

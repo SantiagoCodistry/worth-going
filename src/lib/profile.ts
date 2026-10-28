@@ -2,7 +2,7 @@
 // Stored on this device only. The ranking in recommend.ts reads it.
 import type { CityId, WGEvent } from '../shared/types.ts'
 import { TIMEZONE } from '../shared/taxonomy.ts'
-import { artistAt, topGenres, type Artist } from './spotify.ts'
+import { favoriteAt, reasonFor, topGenres, type Favorite } from './favorites.ts'
 
 export type Level = 0 | 1 | 2 // not for me, sometimes, love it
 
@@ -42,8 +42,8 @@ export interface Profile {
   busy: BusyBlock[]
   /** Prefer free and cheap things. */
   budget: 'any' | 'cheap'
-  /** Artists you listen to, from Spotify or typed in. */
-  artists?: Artist[]
+  /** Artists, teams, venues and people you follow, typed in or from Spotify. */
+  favorites?: Favorite[]
 }
 
 /** Starting point, from what we know so far. Everything is editable on the Your taste page. */
@@ -87,12 +87,12 @@ export function fit(e: WGEvent, p: Profile): Fit {
     reasons.push(`Near you`)
   }
   if (p.budget === 'cheap' && e.isFree) score += 10
-  const artist = artistAt(e, p.artists ?? [])
-  if (artist) {
+  const fav = favoriteAt(e, p.favorites ?? [])
+  if (fav) {
     score += 70
-    reasons.unshift(artist.from === 'spotify' ? `You listen to ${artist.name}` : `You like ${artist.name}`)
-  } else if (e.category === 'music' && p.artists?.length) {
-    const genres = topGenres(p.artists)
+    reasons.unshift(reasonFor(fav))
+  } else if (e.category === 'music' && p.favorites?.length) {
+    const genres = topGenres(p.favorites)
     if (e.tags.some((t) => t.length > 3 && genres.some((g) => g.includes(t)))) {
       score += 12
       reasons.push('Close to what you listen to')
