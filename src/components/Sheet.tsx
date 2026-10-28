@@ -78,6 +78,26 @@ const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >
 /** The pick's photo, or a one-colour riso flyer with its name when there isn't one (or it won't load). */
 export function PickImage({ pick, className = '', sizes = 'text' }: { pick: Pick; className?: string; sizes?: 'hero' | 'text' }) {
   const [failed, setFailed] = useState(false)
+  // Organizer flyers (Luma covers and the like) carry their own text: show them whole, over a blurred copy.
+  const flyer = !!pick.image && !/wikimedia|ticketmaster/i.test(pick.image.credit ?? '') && !!pick.image.w && !!pick.image.h && pick.image.w / pick.image.h > 1.5
+  if (pick.image && !failed && flyer)
+    return (
+      <figure>
+        <div className={`relative overflow-hidden bg-ink ${className}`}>
+          <img src={pick.image.url} alt="" aria-hidden referrerPolicy="no-referrer" className="absolute inset-0 h-full w-full scale-125 object-cover opacity-50 blur-2xl" />
+          <img
+            src={pick.image.url}
+            alt=""
+            loading={sizes === 'hero' ? 'eager' : 'lazy'}
+            decoding="async"
+            referrerPolicy="no-referrer"
+            onError={() => setFailed(true)}
+            className="absolute inset-0 h-full w-full object-contain"
+          />
+        </div>
+        <Credit pick={pick} />
+      </figure>
+    )
   if (pick.image && !failed)
     return (
       <figure>

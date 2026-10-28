@@ -93,8 +93,8 @@ async function build() {
         const e = byId.get(s.event)
         if (e) {
           const pick = fromEvent(e, s)
-          // A photo from the editor's chosen Wikipedia page when the listing has none (needs network; cached).
-          if (!pick.image && s.wiki) pick.image = (await wikiImage(s.wiki).catch(() => null)) ?? undefined
+          // The editor's chosen Wikipedia photo wins over the listing's (needs network; cached).
+          if (s.wiki) pick.image = (await wikiImage(s.wiki).catch(() => null)) ?? pick.image
           picks.push(pick)
         }
         else {
