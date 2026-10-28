@@ -6,7 +6,7 @@ import { sortTime } from '../shared/time.ts'
 import { WHEN_OPTIONS, dayParts, relativeDay, startKey, todayKey, type When } from '../lib/dates.ts'
 import { applyFilters } from '../lib/recommend.ts'
 import { favoriteAt } from '../lib/favorites.ts'
-import { RADII, distanceTo, eventPoint, formatMiles } from '../lib/geo.ts'
+import { distanceTo, eventPoint, formatMiles, radiusLabel, radiusOptions, usesKm } from '../lib/geo.ts'
 import { useStore } from '../lib/store.tsx'
 import { EventRow } from '../components/Cards.tsx'
 import { CityTabs } from '../components/Layout.tsx'
@@ -212,12 +212,12 @@ export function Explore() {
 
       {results.length === 0 && nearMode && (
         <div className="py-16 text-center">
-          <p className="text-[18px] font-medium">Nothing within {near!.miles} miles of {near!.label}.</p>
-          {closest !== null && <p className="mt-2 text-mute">The closest listing that fits your other filters is {formatMiles(closest)} away.</p>}
+          <p className="text-[18px] font-medium">Nothing within {radiusLabel(near!)} of {near!.label}.</p>
+          {closest !== null && <p className="mt-2 text-mute">The closest listing that fits your other filters is {formatMiles(closest, usesKm(near))} away.</p>}
           <div className="mt-5 flex flex-wrap justify-center gap-2">
-            {RADII.filter((r) => r > near!.miles).slice(0, 2).map((r) => (
-              <button key={r} className="btn btn-quiet" onClick={() => setNear({ ...near!, miles: r })}>
-                Widen to {r} miles
+            {radiusOptions(near).filter((r) => r.miles > near!.miles + 0.01).slice(0, 2).map((r) => (
+              <button key={r.label} className="btn btn-quiet" onClick={() => setNear({ ...near!, miles: r.miles })}>
+                Widen to {r.label}
               </button>
             ))}
             <button className="btn btn-quiet" onClick={() => setCity('all')}>

@@ -10,7 +10,7 @@ import { Photo, inkFor } from '../components/Poster.tsx'
 import { ShareButton } from '../components/bits.tsx'
 import { appUrl } from '../lib/share.ts'
 import { Distance } from '../components/NearMe.tsx'
-import { distanceTo, placePoint, withinRadius } from '../lib/geo.ts'
+import { distanceTo, placePoint, radiusLabel, withinRadius } from '../lib/geo.ts'
 
 const GOOD_FOR: Record<string, string> = {
   cheap: 'Cheap',
@@ -214,7 +214,7 @@ export function Table() {
           )}
           {nearMode && !nearby.length && (
             <p className="py-20 text-center text-mute">
-              No restaurants on our list within {near!.miles} miles of {near!.label}. Try a wider radius.
+              No restaurants on our list within {radiusLabel(near!)} of {near!.label}. Try a wider radius.
             </p>
           )}
           {!nearMode && groups.map(({ c, items }) => (

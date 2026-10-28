@@ -39,7 +39,14 @@ jobs:
           git config user.name "worth-going-bot"
           git config user.email "actions@users.noreply.github.com"
           git add public/data/events.json ingest/cache
-          git diff --cached --quiet || (git commit -m "Refresh events $(date -u +%Y-%m-%d)" && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh events $(date -u +%Y-%m-%d)"
+          # Someone may have pushed during the run: replay this data commit on top (its data wins).
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
       - name: Build for Pages
         run: npm run build
         env:

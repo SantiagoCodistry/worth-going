@@ -3,7 +3,7 @@
 // type on a single ink colour, like a plain gig flyer: what it is, and who.
 import { useState } from 'react'
 import type { CategoryId, WGEvent } from '../shared/types.ts'
-import { categoryById } from '../shared/taxonomy.ts'
+import { categoryById, tzOf } from '../shared/taxonomy.ts'
 import { dayParts, endKey, startKey, timeLabel } from '../lib/dates.ts'
 
 /** Roles that support rather than headline: "…, co-host", "Fidelity, moderator". */
@@ -142,7 +142,7 @@ export function Cover({ e, className = '' }: { e: WGEvent; className?: string })
 export function Thumb({ e, className = '' }: { e: WGEvent; className?: string }) {
   const [failed, setFailed] = useState(false)
   const ink = inkFor(e.category)
-  const p = dayParts(e.start)
+  const p = dayParts(e.start, tzOf(e.city))
   if (e.image && !failed)
     return (
       <div className={`relative overflow-hidden bg-bg-2 ${className}`}>
@@ -159,9 +159,9 @@ export function Thumb({ e, className = '' }: { e: WGEvent; className?: string })
 
 /** "THU 12 NOV · 7 PM" */
 export function dateStamp(e: WGEvent) {
-  const p = dayParts(e.start)
-  if (e.kind === 'exhibition') return e.end ? `Until ${dayParts(e.end).month} ${dayParts(e.end).day}` : 'On now'
+  const p = dayParts(e.start, tzOf(e.city))
+  if (e.kind === 'exhibition') return e.end ? `Until ${dayParts(e.end, tzOf(e.city)).month} ${dayParts(e.end, tzOf(e.city)).day}` : 'On now'
   const t = timeLabel(e)
-  const range = e.end && endKey(e) !== startKey(e) ? `–${dayParts(e.end).day}` : ''
+  const range = e.end && endKey(e) !== startKey(e) ? `–${dayParts(e.end, tzOf(e.city)).day}` : ''
   return `${p.weekday} ${p.day}${range} ${p.month}${t ? ` · ${t}` : ''}`
 }

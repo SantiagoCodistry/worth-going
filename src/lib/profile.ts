@@ -1,9 +1,9 @@
 // Your taste: what you're into, where you're based, and when you're busy.
 // Stored on this device only. The ranking in recommend.ts reads it.
 import type { CityId, WGEvent } from '../shared/types.ts'
-import { TIMEZONE } from '../shared/taxonomy.ts'
+import { tzOf } from '../shared/taxonomy.ts'
 import { favoriteAt, reasonFor, topGenres, type Favorite } from './favorites.ts'
-import { distanceTo, eventPoint, formatMiles, type Near } from './geo.ts'
+import { distanceTo, eventPoint, formatMiles, usesKm, type Near } from './geo.ts'
 
 export type Level = 0 | 1 | 2 // not for me, sometimes, love it
 
@@ -55,13 +55,13 @@ export const DEFAULT_PROFILE: Profile = {
   budget: 'any',
 }
 
-const fmtParts = new Intl.DateTimeFormat('en-US', { timeZone: TIMEZONE, weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
+const fmtParts = (tz: string) => new Intl.DateTimeFormat('en-US', { timeZone: tz, weekday: 'short', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
 const DAY = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 } as Record<string, number>
 
 /** Does a timed event start inside one of your busy blocks (or within 30 minutes after)? */
 export function clashes(e: WGEvent, busy: BusyBlock[]): BusyBlock | undefined {
   if (e.kind === 'exhibition' || e.timeTBA || e.start.length === 10 || !busy.length) return undefined
-  const parts = Object.fromEntries(fmtParts.formatToParts(new Date(e.start)).map((p) => [p.type, p.value]))
+  const parts = Object.fromEntries(fmtParts(tzOf(e.city)).formatToParts(new Date(e.start)).map((p) => [p.type, p.value]))
   const day = DAY[parts.weekday]
   const minutes = Number(parts.hour) * 60 + Number(parts.minute)
   const toMin = (t: string) => Number(t.slice(0, 2)) * 60 + Number(t.slice(3, 5))
@@ -87,7 +87,7 @@ export function fit(e: WGEvent, p: Profile, near?: Near | null): Fit {
     const pt = eventPoint(e)
     const mi = distanceTo(near, pt)
     score += mi < 2 ? 16 : mi < 5 ? 12 : mi < 15 ? 6 : 0
-    if (pt.exact && mi < 5) reasons.push(`${formatMiles(mi)} away`)
+    if (pt.exact && mi < 5) reasons.push(`${formatMiles(mi, usesKm(near))} away`)
   } else if (e.city === p.home) {
     score += 10
     reasons.push(`Near you`)

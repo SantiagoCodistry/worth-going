@@ -6,6 +6,7 @@ import { useStore } from '../lib/store.tsx'
 import { accountsEnabled } from '../lib/account.ts'
 import { CONTACT_URL } from '../pages/Legal.tsx'
 import { NearMePanel } from './NearMe.tsx'
+import { radiusLabel } from '../lib/geo.ts'
 
 const NAV: { to: string; label: string; short?: string; end?: boolean }[] = [
   { to: '/', label: 'For you', end: true },
@@ -47,7 +48,7 @@ export function CityTabs({ className = '' }: { className?: string }) {
             <path d="M5.5 12.5s4.5-4.3 4.5-7.5a4.5 4.5 0 10-9 0c0 3.2 4.5 7.5 4.5 7.5z" fill="none" stroke="currentColor" strokeWidth="1.5" />
             <circle cx="5.5" cy="5" r="1.5" fill="currentColor" />
           </svg>
-          {near && city === 'near' ? `${near.label} · ${near.miles} mi` : 'Near me'}
+          {near && city === 'near' ? `${near.label} · ${radiusLabel(near)}` : 'Near me'}
         </button>
         {near && city === 'near' && (
           <button className="chip" onClick={() => setOpen((o) => !o)} aria-label="Change location or radius">

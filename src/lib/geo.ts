@@ -13,6 +13,21 @@ export interface Near {
 }
 
 export const RADII = [2, 5, 10, 25, 50] as const
+/** The same choices in kilometres (stored as miles), for places that use km. */
+export const RADII_KM = [3, 8, 15, 40, 80] as const
+const KM = 1.609344
+
+/** Mexico (and anywhere else south of the US border) measures in km. */
+export const usesKm = (p: { lat: number; lng: number } | null | undefined) => !!p && p.lat < 32.5 && p.lng < -86
+
+/** Radius choices for this position, as { miles, label }. */
+export function radiusOptions(p?: { lat: number; lng: number } | null): { miles: number; label: string }[] {
+  return usesKm(p) ? RADII_KM.map((k) => ({ miles: k / KM, label: `${k} km` })) : RADII.map((m) => ({ miles: m, label: `${m} mi` }))
+}
+
+export function radiusLabel(near: Near): string {
+  return usesKm(near) ? `${Math.round(near.miles * KM)} km` : `${near.miles} mi`
+}
 
 /** Middle of each area, for listings without an exact venue position. */
 const AREA_CENTER: Record<CityId, { lat: number; lng: number }> = {
@@ -20,9 +35,13 @@ const AREA_CENTER: Record<CityId, { lat: number; lng: number }> = {
   nj: { lat: 40.7357, lng: -74.1724 },
   princeton: { lat: 40.3487, lng: -74.6593 },
   philly: { lat: 39.9526, lng: -75.1652 },
+  cdmx: { lat: 19.4326, lng: -99.1332 },
 }
-/** The covered region, for telling people outside it what to expect. */
-const COVERAGE = { lat: 40.35, lng: -74.6, radiusMiles: 90 }
+/** The covered regions, for telling people outside them what to expect. */
+const COVERAGE = [
+  { lat: 40.35, lng: -74.6, radiusMiles: 90 }, // New York to Philadelphia
+  { lat: 19.4326, lng: -99.1332, radiusMiles: 30 }, // Mexico City
+]
 
 export function milesBetween(a: { lat: number; lng: number }, b: { lat: number; lng: number }): number {
   const R = 3958.8
@@ -58,15 +77,16 @@ export function withinRadius(near: Near, point: { lat: number; lng: number; exac
   return point.exact ? d <= near.miles : d <= near.miles + 8
 }
 
-export function formatMiles(mi: number): string {
+export function formatMiles(mi: number, km = false): string {
   if (mi < 0.2) return 'Nearby'
-  if (mi < 10) return `${mi.toFixed(1)} mi`
-  return `${Math.round(mi)} mi`
+  const v = km ? mi * KM : mi
+  const unit = km ? 'km' : 'mi'
+  return v < 10 ? `${v.toFixed(1)} ${unit}` : `${Math.round(v)} ${unit}`
 }
 
-/** How far you are from the area we cover (0 inside it). */
+/** How far you are from the nearest area we cover (0 inside one). */
 export function outsideCoverage(near: Near): number {
-  return Math.max(0, milesBetween(near, COVERAGE) - COVERAGE.radiusMiles)
+  return Math.max(0, Math.min(...COVERAGE.map((c) => milesBetween(near, c) - c.radiusMiles)))
 }
 
 export type LocateError = 'denied' | 'unavailable' | 'timeout' | 'unsupported'
@@ -91,13 +111,13 @@ export interface PlaceHit {
 
 const shortLabel = (a: Record<string, string | undefined>, fallback: string) => {
   const town = a.neighbourhood ?? a.suburb ?? a.city_district ?? a.town ?? a.city ?? a.village ?? a.hamlet ?? a.county
-  const state = a['ISO3166-2-lvl4']?.replace(/^US-/, '') ?? a.state
+  const state = a.country_code === 'mx' ? (a.city === 'Ciudad de México' && town !== a.city ? 'CDMX' : a.state) : (a['ISO3166-2-lvl4']?.replace(/^US-/, '') ?? a.state)
   return [town, state].filter(Boolean).join(', ') || fallback
 }
 
-/** Search for a town, neighborhood, address or ZIP code (US). */
+/** Search for a town, neighborhood, address or postal code (US and Mexico). */
 export async function searchPlaces(q: string): Promise<PlaceHit[]> {
-  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=6&countrycodes=us&q=${encodeURIComponent(q)}`
+  const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=6&countrycodes=us,mx&q=${encodeURIComponent(q)}`
   const res = await fetch(url, { headers: { accept: 'application/json' } })
   if (!res.ok) throw new Error(`Search failed (${res.status})`)
   type R = { lat: string; lon: string; display_name: string; address?: Record<string, string> }

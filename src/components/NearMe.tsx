@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { RADII, distanceTo, formatMiles, locate, outsideCoverage, placeName, searchPlaces, type LocateError, type PlaceHit } from '../lib/geo.ts'
+import { distanceTo, formatMiles, locate, outsideCoverage, placeName, radiusLabel, radiusOptions, searchPlaces, usesKm, type LocateError, type PlaceHit } from '../lib/geo.ts'
 import { useStore } from '../lib/store.tsx'
 
 const LOCATE_ERROR: Record<LocateError, string> = {
@@ -17,6 +17,11 @@ export function NearMePanel({ onDone }: { onDone?: () => void }) {
   const [status, setStatus] = useState<'idle' | 'locating' | 'searching'>('idle')
   const [error, setError] = useState('')
   const miles = near?.miles ?? 10
+  /** Keep the radius sensible when moving between mi and km places. */
+  const radiusFor = (p: { lat: number; lng: number }) => {
+    const opts = radiusOptions(p)
+    return opts.reduce((best, o) => (Math.abs(o.miles - miles) < Math.abs(best.miles - miles) ? o : best), opts[2]).miles
+  }
 
   const useDevice = async () => {
     setError('')
@@ -24,7 +29,7 @@ export function NearMePanel({ onDone }: { onDone?: () => void }) {
     try {
       const pos = await locate()
       const label = (await placeName(pos.lat, pos.lng)) ?? 'Your location'
-      setNear({ lat: pos.lat, lng: pos.lng, label, miles, from: 'device' })
+      setNear({ lat: pos.lat, lng: pos.lng, label, miles: radiusFor(pos), from: 'device' })
       onDone?.()
     } catch (e) {
       setError(LOCATE_ERROR[(e as LocateError) in LOCATE_ERROR ? (e as LocateError) : 'unavailable'])
@@ -84,7 +89,7 @@ export function NearMePanel({ onDone }: { onDone?: () => void }) {
               <button
                 className="w-full px-1 py-2 text-left text-[15px] font-semibold hover:bg-[var(--riso-yellow)]"
                 onClick={() => {
-                  setNear({ lat: h.lat, lng: h.lng, label: h.label, miles, from: 'search' })
+                  setNear({ lat: h.lat, lng: h.lng, label: h.label, miles: radiusFor(h), from: 'search' })
                   setHits(null)
                   setQ('')
                   onDone?.()
@@ -101,9 +106,9 @@ export function NearMePanel({ onDone }: { onDone?: () => void }) {
 
       <div className="mt-4 flex flex-wrap items-center gap-1.5">
         <span className="mr-1 text-[13px] font-semibold">Within</span>
-        {RADII.map((r) => (
-          <button key={r} className="chip" aria-pressed={miles === r} onClick={() => near && setNear({ ...near, miles: r })} disabled={!near}>
-            {r} mi
+        {radiusOptions(near).map((r) => (
+          <button key={r.label} className="chip" aria-pressed={Math.abs(miles - r.miles) < 0.01} onClick={() => near && setNear({ ...near, miles: r.miles })} disabled={!near}>
+            {r.label}
           </button>
         ))}
       </div>
@@ -111,7 +116,7 @@ export function NearMePanel({ onDone }: { onDone?: () => void }) {
       {near && (
         <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[14px]">
           <span>
-            Showing what’s within {near.miles} miles of <strong>{near.label}</strong>.
+            Showing what’s within {radiusLabel(near)} of <strong>{near.label}</strong>.
           </span>
           <button className="text-mute underline" onClick={() => setNear(null)}>
             Stop using location
@@ -120,7 +125,7 @@ export function NearMePanel({ onDone }: { onDone?: () => void }) {
       )}
       {near && away > 0 && (
         <p className="mt-3 rounded-[2px] bg-[var(--riso-yellow)] p-3 text-[14px]">
-          Worth Going covers New York, New Jersey and Philadelphia. {near.label} is about {Math.round(away)} miles outside that, so
+          Worth Going covers New York to Philadelphia, and Mexico City. {near.label} is about {formatMiles(away, usesKm(near))} outside those, so
           there may be nothing within your radius.
         </p>
       )}
@@ -136,5 +141,6 @@ export function Distance({ point, className = '' }: { point: { lat: number; lng:
   const { near, city } = useStore()
   if (!near || city !== 'near') return null
   const mi = distanceTo(near, point)
-  return <span className={className}>{point.exact ? formatMiles(mi) : `~${formatMiles(mi)}`}</span>
+  const km = usesKm(near)
+  return <span className={className}>{point.exact ? formatMiles(mi, km) : `~${formatMiles(mi, km)}`}</span>
 }

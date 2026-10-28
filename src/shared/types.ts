@@ -2,7 +2,7 @@
 // Keep this file dependency-free so both runtimes can import it.
 
 /** Areas, not just cities: New Jersey covers the rest of the state outside the Princeton area. */
-export type CityId = 'nyc' | 'nj' | 'princeton' | 'philly'
+export type CityId = 'nyc' | 'nj' | 'princeton' | 'philly' | 'cdmx'
 /** An area, everywhere, or within a radius of you ('near'). */
 export type CityFilter = CityId | 'all' | 'near'
 

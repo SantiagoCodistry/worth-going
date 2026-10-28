@@ -1,5 +1,6 @@
 import type { CategoryId, CityId } from './types.ts'
 
+/** Default timezone. Each city has its own (see CITY_TZ); most are New York. */
 export const TIMEZONE = 'America/New_York'
 
 export interface City {
@@ -13,9 +14,20 @@ export const CITIES: City[] = [
   { id: 'nyc', name: 'New York', short: 'New York' },
   { id: 'nj', name: 'New Jersey', short: 'New Jersey' },
   { id: 'philly', name: 'Philadelphia', short: 'Philadelphia' },
+  { id: 'cdmx', name: 'Mexico City', short: 'Mexico City' },
 ]
 
 export const cityById = (id: CityId) => CITIES.find((c) => c.id === id)!
+
+/** Local time for each area. */
+export const CITY_TZ: Record<CityId, string> = {
+  princeton: TIMEZONE,
+  nyc: TIMEZONE,
+  nj: TIMEZONE,
+  philly: TIMEZONE,
+  cdmx: 'America/Mexico_City',
+}
+export const tzOf = (city: CityId) => CITY_TZ[city] ?? TIMEZONE
 
 export interface Category {
   id: CategoryId

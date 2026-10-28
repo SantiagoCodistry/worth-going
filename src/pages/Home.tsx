@@ -6,7 +6,7 @@ import { PLACES } from '../data/places.ts'
 import { applyFilters } from '../lib/recommend.ts'
 import { INTERESTS, fit, type Fit } from '../lib/profile.ts'
 import { favoriteAt } from '../lib/favorites.ts'
-import { distanceTo, placePoint, withinRadius } from '../lib/geo.ts'
+import { distanceTo, placePoint, radiusLabel, radiusOptions, withinRadius } from '../lib/geo.ts'
 import { useStore } from '../lib/store.tsx'
 import { Avatar, EventCard, EventRow, Reasons } from '../components/Cards.tsx'
 import { CityTabs } from '../components/Layout.tsx'
@@ -72,7 +72,7 @@ export function Home() {
           <div>
             <h1 className="display text-[56px] md:text-[96px]">For you</h1>
             <p className="mt-2 max-w-xl text-[15px] text-ink-2">
-              {city === 'near' && near ? `Ranked for what’s within ${near.miles} miles of ${near.label}, for someone` : `Ranked for someone based in ${cityById(profile.home).name}`} who’s into {loved.slice(0, 3).join(', ')}
+              {city === 'near' && near ? `Ranked for what’s within ${radiusLabel(near)} of ${near.label}, for someone` : `Ranked for someone based in ${cityById(profile.home).name}`} who’s into {loved.slice(0, 3).join(', ')}
               {loved.length > 3 ? ' and more' : ''}.{' '}
               <Link to="/you" className="font-semibold text-ink underline underline-offset-2">
                 Change your taste
@@ -249,13 +249,13 @@ function Empty() {
     <div className="mx-auto mt-8 max-w-[1400px] px-4 md:px-8">
       <div className="border border-rule py-16 text-center">
         <p className="text-[18px] font-bold">
-          {city === 'near' && near ? `Nothing in the next month within ${near.miles} miles of ${near.label}.` : 'Nothing listed here for the next month yet.'}
+          {city === 'near' && near ? `Nothing in the next month within ${radiusLabel(near)} of ${near.label}.` : 'Nothing listed here for the next month yet.'}
         </p>
-        {city === 'near' && near && near.miles < 50 && (
-          <button onClick={() => setNear({ ...near, miles: near.miles < 25 ? 25 : 50 })} className="btn btn-quiet mr-2 mt-5">
-            Widen to {near.miles < 25 ? 25 : 50} miles
+        {city === 'near' && near && radiusOptions(near).filter((r) => r.miles > near.miles + 0.01).slice(-1).map((r) => (
+          <button key={r.label} onClick={() => setNear({ ...near, miles: r.miles })} className="btn btn-quiet mr-2 mt-5">
+            Widen to {r.label}
           </button>
-        )}
+        ))}
         <button onClick={() => setCity('all')} className="btn mt-5">
           Show all cities
         </button>

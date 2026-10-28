@@ -1,5 +1,5 @@
 import type { WGEvent } from '../shared/types.ts'
-import { TIMEZONE } from '../shared/taxonomy.ts'
+import { TIMEZONE, tzOf } from '../shared/taxonomy.ts'
 import { addDays, isDateOnly, nyDateKey, weekday } from '../shared/time.ts'
 
 export type When = 'today' | 'weekend' | 'week' | 'month' | 'all'
@@ -34,24 +34,26 @@ export function whenRange(when: When, today = todayKey()): [string, string] {
   }
 }
 
-export const startKey = (e: WGEvent) => nyDateKey(e.start)
+/** Calendar dates are in the event's own city time. */
+export const startKey = (e: WGEvent) => nyDateKey(e.start, tzOf(e.city))
 /** Open-ended exhibitions (no published closing date) are treated as ongoing. */
-export const endKey = (e: WGEvent) => (e.end ? nyDateKey(e.end) : e.kind === 'exhibition' ? '9999-12-31' : startKey(e))
+export const endKey = (e: WGEvent) => (e.end ? nyDateKey(e.end, tzOf(e.city)) : e.kind === 'exhibition' ? '9999-12-31' : startKey(e))
 
 export function overlaps(e: WGEvent, [from, to]: [string, string]) {
   return startKey(e) <= to && endKey(e) >= from
 }
 
-const fmt = (opts: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat('en-US', { timeZone: TIMEZONE, ...opts })
+const fmt = (opts: Intl.DateTimeFormatOptions, tz = TIMEZONE) => new Intl.DateTimeFormat('en-US', { timeZone: tz, ...opts })
 const fmtUtc = (opts: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat('en-US', { timeZone: 'UTC', ...opts })
 
 /** Date objects for display. Date-only keys are formatted at UTC noon. */
-function asDate(value: string): { d: Date; f: typeof fmt } {
-  return isDateOnly(value) ? { d: new Date(value + 'T12:00:00Z'), f: fmtUtc } : { d: new Date(value), f: fmt }
+function asDate(value: string, tz: string): { d: Date; f: (o: Intl.DateTimeFormatOptions) => Intl.DateTimeFormat } {
+  return isDateOnly(value) ? { d: new Date(value + 'T12:00:00Z'), f: fmtUtc } : { d: new Date(value), f: (o) => fmt(o, tz) }
 }
 
-export function dayParts(value: string) {
-  const { d, f } = asDate(value)
+/** Weekday, day and month of a value, in a timezone (the event's city; New York by default). */
+export function dayParts(value: string, tz = TIMEZONE) {
+  const { d, f } = asDate(value, tz)
   return {
     weekday: f({ weekday: 'short' }).format(d),
     weekdayLong: f({ weekday: 'long' }).format(d),
@@ -63,7 +65,7 @@ export function dayParts(value: string) {
 
 export function timeLabel(e: WGEvent): string | null {
   if (e.timeTBA || isDateOnly(e.start)) return null
-  return fmt({ hour: 'numeric', minute: '2-digit' })
+  return fmt({ hour: 'numeric', minute: '2-digit' }, tzOf(e.city))
     .format(new Date(e.start))
     .replace(':00', '')
     .replace(' AM', ' am')
@@ -71,43 +73,46 @@ export function timeLabel(e: WGEvent): string | null {
 }
 
 /** "Tonight", "Tomorrow", "Sat", or "Nov 14". */
-export function relativeDay(value: string, today = todayKey()): string {
-  const key = nyDateKey(value)
+export function relativeDay(value: string, today = todayKey(), tz = TIMEZONE): string {
+  const key = nyDateKey(value, tz)
   if (key === today) return 'Today'
   if (key === addDays(today, 1)) return 'Tomorrow'
-  const p = dayParts(value)
+  const p = dayParts(value, tz)
   if (key > today && key <= addDays(today, 6)) return p.weekdayLong
   return `${p.weekday}, ${p.month} ${p.day}`
 }
 
 export function whenLine(e: WGEvent, today = todayKey()): string {
   if (e.kind === 'exhibition') return exhibitionLine(e, today)
-  const day = relativeDay(e.start, today)
+  const tz = tzOf(e.city)
+  const day = relativeDay(e.start, today, tz)
   const t = timeLabel(e)
   const isTonight = day === 'Today' && t && /pm/.test(t) && parseInt(t) >= 5 && !t.startsWith('12')
   const label = isTonight ? 'Tonight' : day
   if (e.end && endKey(e) !== startKey(e)) {
-    const ep = dayParts(e.end)
+    const ep = dayParts(e.end, tz)
     return `${label} – ${ep.month} ${ep.day}`
   }
   return t ? `${label} · ${t}` : `${label} · Time TBA`
 }
 
 export function exhibitionLine(e: WGEvent, today = todayKey()): string {
+  const tz = tzOf(e.city)
   if (startKey(e) > today) {
-    const p = dayParts(e.start)
+    const p = dayParts(e.start, tz)
     return `Opens ${p.month} ${p.day}`
   }
   if (!e.end) return 'On view now'
-  const p = dayParts(e.end)
+  const p = dayParts(e.end, tz)
   return `On view through ${p.month} ${p.day}`
 }
 
 export function fullDate(e: WGEvent): string {
-  const p = dayParts(e.start)
+  const tz = tzOf(e.city)
+  const p = dayParts(e.start, tz)
   let s = `${p.weekdayLong}, ${p.monthLong} ${p.day}`
   if (e.end && endKey(e) !== startKey(e)) {
-    const q = dayParts(e.end)
+    const q = dayParts(e.end, tz)
     s += ` – ${q.weekdayLong}, ${q.monthLong} ${q.day}`
   }
   return s
