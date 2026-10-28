@@ -165,6 +165,46 @@ export async function wikiImage(title: string): Promise<Img> {
   return img
 }
 
+// Wikimedia Commons photo search, for restaurants without a Wikipedia article.
+// Only accepts a file whose title contains the restaurant's full name, so a
+// search hit for something else isn't used.
+export async function commonsImage(name: string, place: string): Promise<Img> {
+  const key = `commons:${name}|${place}`
+  if (key in cache) return cache[key]
+  let img: Img = null
+  try {
+    const q = new URLSearchParams({
+      action: 'query',
+      format: 'json',
+      generator: 'search',
+      gsrsearch: `"${name}" ${place}`,
+      gsrnamespace: '6',
+      gsrlimit: '10',
+      prop: 'imageinfo',
+      iiprop: 'url|size|mime',
+      iiurlwidth: '1400',
+    })
+    type Page = { title: string; imageinfo?: { url: string; thumburl?: string; width: number; height: number; mime: string; descriptionurl: string }[] }
+    const r = await getJson<{ query?: { pages?: Record<string, Page> } }>(`https://commons.wikimedia.org/w/api.php?${q}`)
+    const norm = (x: string) => x.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, ' ').trim()
+    const want = norm(name.replace(/^the /i, ''))
+    for (const pg of Object.values(r.query?.pages ?? {})) {
+      const ii = pg.imageinfo?.[0]
+      if (!ii || ii.mime !== 'image/jpeg' || ii.width < 1000) continue
+      // One-word names (e.g. "Agricola") also need the town in the file name.
+      if (!norm(pg.title).includes(want) || (!want.includes(' ') && !norm(pg.title).includes(norm(place)))) continue
+      const ratio = ii.width / ii.height
+      if (ratio < 0.6 || ratio > 2) continue
+      img = { url: ii.thumburl ?? ii.url, credit: 'Wikimedia Commons', link: ii.descriptionurl, w: ii.width, h: ii.height }
+      break
+    }
+  } catch {
+    return null
+  }
+  cache[key] = img
+  return img
+}
+
 // Wikipedia pages for venues we list often. Used when nothing better exists.
 const VENUE_WIKI: [RegExp, string][] = [
   [/92ny|92nd street y/i, '92nd_Street_Y'],
@@ -283,6 +323,8 @@ export async function placeImage(p: Place): Promise<Img> {
   }
   const site = p.website ? await pageImage(p.website) : null
   if (site) return site
+  const commons = await commonsImage(p.name, p.city === 'nyc' ? 'New York' : p.city === 'philly' ? 'Philadelphia' : 'Princeton')
+  if (commons) return commons
   // OpenTable and Tock pages carry the restaurant's own photos.
   return p.book?.url ? pageImage(p.book.url) : null
 }

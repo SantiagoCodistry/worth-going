@@ -27,6 +27,7 @@ export function headliners(e: WGEvent): string[] {
 /** One plain sentence saying what this is. */
 export function summaryOf(e: WGEvent): string {
   const clean = e.description
+    .replace(/^Get up-to-date information at:\s*\S+\s*(Address:\s*(Check event page for more details\.?)?)?/i, '')
     .replace(/https?:\/\/\S+/g, '')
     .replace(/[\u{1F300}-\u{1FAFF}\u{2600}-\u{27BF}]/gu, '')
     .replace(/\s+/g, ' ')

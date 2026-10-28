@@ -38,7 +38,7 @@ export async function fromIcs(url: string, d: Defaults, ctx: FetchContext): Prom
     .filter((e) => inWindow(e.start, e.end, ctx))
     .filter((e) => !d.include || d.include.test(`${e.summary} ${e.description ?? ''}`))
     .map((e) => {
-      const description = excerpt(plain(e.description ?? ''))
+      const description = excerpt(stripBoilerplate(plain(e.description ?? '')))
       const text = `${e.categories.join(' ')} ${description}`
       return {
         id: `${slug(d.sourceName)}-${slug(e.uid ?? e.summary)}-${e.start.slice(0, 10)}`,
@@ -200,4 +200,12 @@ export async function fromJsonLd(url: string, d: Defaults, ctx: FetchContext): P
       }
     })
     .filter((e): e is Draft => !!e && inWindow(e.start, e.end, ctx))
+}
+
+/** Luma and similar calendars prepend a link and a placeholder address to every description. */
+export function stripBoilerplate(text: string): string {
+  return text
+    .replace(/^Get up-to-date information at:\s*\S+\s*/i, '')
+    .replace(/^Address:\s*(Check event page for more details\.?|Register to see address\.?)?\s*/i, '')
+    .trim()
 }
