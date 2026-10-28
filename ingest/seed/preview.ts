@@ -87,6 +87,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'mutter-meet-geek-frankenstein-2026',
+    wiki: 'Mütter_Museum',
     format: 'Museum talk',
     title: 'Fathoming Frankenstein',
     subtitle: 'An evening talk at the Mütter Museum',
@@ -105,6 +106,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'wagner-first-saturday-creature-feature-2026',
+    wiki: 'Wagner_Free_Institute_of_Science',
     format: 'Museum open house',
     title: 'Wagner Free Institute open house',
     subtitle: 'Spooky Creature Feature, costumes encouraged',
@@ -122,6 +124,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'eastern-state-halloween-nights-2026',
+    wiki: 'Eastern_State_Penitentiary',
     format: 'Haunted house',
     kind: 'exhibition',
     title: 'Halloween Nights at Eastern State',
@@ -140,6 +143,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'village-halloween-parade-2026',
+    wiki: 'Village_Halloween_Parade',
     format: 'Costume parade',
     title: 'Village Halloween Parade',
     city: 'nyc',
@@ -159,6 +163,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'tcs-nyc-marathon-2026',
+    wiki: 'New_York_City_Marathon',
     format: 'Marathon, free to watch',
     title: 'NYC Marathon',
     city: 'nyc',
@@ -177,6 +182,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'brooklyn-flea-dumbo-nov-2026',
+    wiki: 'Brooklyn_Flea',
     format: 'Flea market',
     kind: 'exhibition',
     title: 'Brooklyn Flea',
@@ -410,6 +416,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'amnh-frontiers-clouds-2026',
+    wiki: 'Hayden_Planetarium',
     format: 'Astronomy lecture',
     title: 'Clouds Across the Universe',
     subtitle: 'Frontiers Lecture at the Natural History Museum',
@@ -544,6 +551,26 @@ const seeds: Seed[] = [
   },
 
   // ——— Startups ———
+  {
+    id: 'hackprinceton-fall-2026',
+    title: 'HackPrinceton',
+    format: 'Student hackathon',
+    subtitle: 'A weekend of building with other students',
+    city: 'princeton',
+    category: 'startups',
+    tags: ['hackathon', 'students'],
+    start: '2026-11-13',
+    end: '2026-11-15',
+    timeTBA: true,
+    venue: { name: 'Princeton University', address: 'Princeton, NJ', neighborhood: 'Campus' },
+    description:
+      'Princeton’s student hackathon, run by the Princeton Entrepreneurship Club. Teams build software or hardware projects over a weekend and demo them for judges and sponsors.',
+    why: 'The biggest builder event on campus this fall.',
+    note: 'Applications closed on September 28.',
+    sourceName: 'HackPrinceton',
+    sourceUrl: 'https://www.hackprinceton.com/',
+    pick: true,
+  },
   {
     id: 'outliers-summit-nyc-2026',
     format: 'Founder conference',
@@ -911,6 +938,7 @@ const seeds: Seed[] = [
   },
   {
     id: 'met-costume-art',
+    wiki: 'Anna_Wintour_Costume_Center',
     format: 'Fashion exhibition',
     kind: 'exhibition',
     title: 'Costume Art',
@@ -932,6 +960,7 @@ const seeds: Seed[] = [
 
   {
     id: 'philadelphia-marathon-2026',
+    wiki: 'Philadelphia_Marathon',
     format: 'Marathon, free to watch',
     title: 'Philadelphia Marathon',
     city: 'philly',

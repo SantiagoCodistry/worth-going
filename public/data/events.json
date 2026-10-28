@@ -1,8 +1,9 @@
 {
- "generatedAt": "2026-10-28T17:03:39.928Z",
+ "generatedAt": "2026-10-28T17:11:47.707Z",
  "events": [
   {
    "id": "met-costume-art",
+   "wiki": "Anna_Wintour_Costume_Center",
    "format": "Fashion exhibition",
    "kind": "exhibition",
    "title": "Costume Art",
@@ -183,6 +184,7 @@
   },
   {
    "id": "eastern-state-halloween-nights-2026",
+   "wiki": "Eastern_State_Penitentiary",
    "format": "Haunted house",
    "kind": "exhibition",
    "title": "Halloween Nights at Eastern State",
@@ -292,6 +294,31 @@
    "score": 20
   },
   {
+   "id": "luma-evt-vxvspn7z9yeme0m-events-lu-ma-2026-10-28",
+   "title": "Hear Me Out: \"SCARE\"",
+   "kind": "event",
+   "city": "nyc",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-10-28T22:00:00.000Z",
+   "end": "2026-10-29T01:00:00.000Z",
+   "venue": {
+    "name": "https://luma.com/event/evt-vXvspN7z9yEME0M"
+   },
+   "description": "Get up-to-date information at: https://luma.com/rc0hrnyo\n\nAddress:\nCheck event page for more details.\n\nHear Me Out is an in-person music discovery club, with the aim of facilitating music discovery that de-centers algorithms and re-centers recommendations from real people.\nRight on time for spooky season, this month’s theme is “SCARE,\" and we’re asking you to share a song that gives you goosebumps.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "luma-evt-zobentmrxd3c1rn-events-lu-ma-2026-10-28",
    "title": "500 FINGER FILLET PRE-LAUNCH PARTY",
    "kind": "event",
@@ -343,57 +370,6 @@
    "sourceId": "luma-philly",
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "score": 22
-  },
-  {
-   "id": "luma-evt-vxvspn7z9yeme0m-events-lu-ma-2026-10-28",
-   "title": "Hear Me Out: \"SCARE\"",
-   "kind": "event",
-   "city": "nyc",
-   "category": "unusual",
-   "tags": [],
-   "start": "2026-10-28T22:00:00.000Z",
-   "end": "2026-10-29T01:00:00.000Z",
-   "venue": {
-    "name": "https://luma.com/event/evt-vXvspN7z9yEME0M"
-   },
-   "description": "Get up-to-date information at: https://luma.com/rc0hrnyo\n\nAddress:\nCheck event page for more details.\n\nHear Me Out is an in-person music discovery club, with the aim of facilitating music discovery that de-centers algorithms and re-centers recommendations from real people.\nRight on time for spooky season, this month’s theme is “SCARE,\" and we’re asking you to share a song that gives you goosebumps.",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
-  },
-  {
-   "id": "luma-evt-5rb7dgxdj73gq2t-events-lu-ma-2026-10-28",
-   "title": "📚 Indy Hall Reading Club",
-   "kind": "event",
-   "city": "philly",
-   "category": "ideas",
-   "tags": [],
-   "start": "2026-10-28T22:30:00.000Z",
-   "end": "2026-10-29T00:30:00.000Z",
-   "venue": {
-    "name": "Indy Hall Clubhouse",
-    "address": "709 N 2nd St 3rd Floor, Philadelphia, PA 19123, USA"
-   },
-   "description": "Get up-to-date information at: https://luma.com/readingclub-oct28\n\nAddress:\nIndy Hall Clubhouse\nPhiladelphia, Pennsylvania\nUnited States\n\nIndy Hall Reading Club is hosted on the 2nd & 4th Wednesday of ever month.\nGot a book that you’ve been dying to dive into? Come to the Indy Hall Reading Club, and join fellow readers.\nAt this low-key social event, we’ll get comfy, read individually, and discuss what you read with…",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/philadelphia"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
-   "provenance": "live",
-   "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 12
   },
   {
    "id": "luma-evt-8kpfo54jieskhdx-events-lu-ma-2026-10-28",
@@ -449,6 +425,59 @@
    "score": 22
   },
   {
+   "id": "luma-evt-5rb7dgxdj73gq2t-events-lu-ma-2026-10-28",
+   "title": "📚 Indy Hall Reading Club",
+   "kind": "event",
+   "city": "philly",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-10-28T22:30:00.000Z",
+   "end": "2026-10-29T00:30:00.000Z",
+   "venue": {
+    "name": "Indy Hall Clubhouse",
+    "address": "709 N 2nd St 3rd Floor, Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/readingclub-oct28\n\nAddress:\nIndy Hall Clubhouse\nPhiladelphia, Pennsylvania\nUnited States\n\nIndy Hall Reading Club is hosted on the 2nd & 4th Wednesday of ever month.\nGot a book that you’ve been dying to dive into? Come to the Indy Hall Reading Club, and join fellow readers.\nAt this low-key social event, we’ll get comfy, read individually, and discuss what you read with…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 12
+  },
+  {
+   "id": "planet-princeton-10053872",
+   "title": "Jersey Art Meetup",
+   "kind": "event",
+   "city": "princeton",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-10-28T23:00:00Z",
+   "end": "2026-10-29T01:00:00Z",
+   "venue": {
+    "name": "Arts Council of Princeton"
+   },
+   "description": "Princeton Comic Makers presents: JERSEY ART MEETUPS (JAM), a weekly social event connecting creatives within the greater Central Jersey area through a shared passion for sequential art and new media. Attendees may use this open workshop space to draw, write, and develop their own artwork, with an opportunity to receive peer review and feedback from other members if desired.",
+   "price": "Free",
+   "isFree": true,
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/01/COMICMAKERS_JAMBANNER-e1718819987740.jpg"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/jersey-art-meetup/2026-10-28/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "why": "Free.",
+   "score": 20,
+   "note": "Also on Nov 4, Nov 11, Nov 18, Nov 25 and later."
+  },
+  {
    "id": "luma-evt-izq634anffqs0r0-events-lu-ma-2026-10-28",
    "title": "Murdoch’s world: The empire that changed news",
    "kind": "event",
@@ -498,33 +527,6 @@
    "sourceId": "luma-nyc",
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "score": 12
-  },
-  {
-   "id": "planet-princeton-10053872",
-   "title": "Jersey Art Meetup",
-   "kind": "event",
-   "city": "princeton",
-   "category": "unusual",
-   "tags": [],
-   "start": "2026-10-28T23:00:00Z",
-   "end": "2026-10-29T01:00:00Z",
-   "venue": {
-    "name": "Arts Council of Princeton"
-   },
-   "description": "Princeton Comic Makers presents: JERSEY ART MEETUPS (JAM), a weekly social event connecting creatives within the greater Central Jersey area through a shared passion for sequential art and new media. Attendees may use this open workshop space to draw, write, and develop their own artwork, with an opportunity to receive peer review and feedback from other members if desired.",
-   "price": "Free",
-   "isFree": true,
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/01/COMICMAKERS_JAMBANNER-e1718819987740.jpg"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/jersey-art-meetup/2026-10-28/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "why": "Free.",
-   "score": 20,
-   "note": "Also on Nov 4, Nov 11, Nov 18, Nov 25 and later."
   },
   {
    "id": "luma-evt-nszxvzu1h5peglv-events-lu-ma-2026-10-29",
@@ -851,6 +853,31 @@
    "score": 36
   },
   {
+   "id": "planet-princeton-197581",
+   "title": "50th Annual Hometown Halloween Parade",
+   "kind": "event",
+   "city": "princeton",
+   "category": "unusual",
+   "format": "Parade",
+   "tags": [],
+   "start": "2026-10-30T20:00:00Z",
+   "end": "2026-10-30T21:00:00Z",
+   "venue": {
+    "name": "On the Green at Palmer Square",
+    "address": "40 Nassau Street, Princeton"
+   },
+   "description": "@ \n\nCelebrate 50 years of this spirited Princeton tradition!\nDon your best costume for the Arts Council of Princeton’s Hometown Halloween Parade — it’s been a Princeton tradition since 1976!\n\nGather with your friends and neighbors on the Green starting at 4pm to enjoy music by the Princeton University Band before departing promptly at 4:30pm.",
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/08/halloween-parade-2025-23-scaled-Rlnyf2.webp"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "luma-evt-vnfnnd0ixv6gat7-events-lu-ma-2026-10-30",
    "title": "BAMBAS ISSUE03 NY LAUNCH",
    "kind": "event",
@@ -875,31 +902,6 @@
    "sourceId": "luma-nyc",
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "score": 30
-  },
-  {
-   "id": "planet-princeton-197581",
-   "title": "50th Annual Hometown Halloween Parade",
-   "kind": "event",
-   "city": "princeton",
-   "category": "unusual",
-   "format": "Parade",
-   "tags": [],
-   "start": "2026-10-30T20:00:00Z",
-   "end": "2026-10-30T21:00:00Z",
-   "venue": {
-    "name": "On the Green at Palmer Square",
-    "address": "40 Nassau Street, Princeton"
-   },
-   "description": "@ \n\nCelebrate 50 years of this spirited Princeton tradition!\nDon your best costume for the Arts Council of Princeton’s Hometown Halloween Parade — it’s been a Princeton tradition since 1976!\n\nGather with your friends and neighbors on the Green starting at 4pm to enjoy music by the Princeton University Band before departing promptly at 4:30pm.",
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/08/halloween-parade-2025-23-scaled-Rlnyf2.webp"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/50th-annual-hometown-halloween-parade/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
   },
   {
    "id": "planet-princeton-198590",
@@ -930,6 +932,31 @@
    "score": 38
   },
   {
+   "id": "luma-evt-g1yccgoc9218f9c-events-lu-ma-2026-10-30",
+   "title": "NousCon 2026",
+   "kind": "event",
+   "city": "nyc",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-10-30T22:00:00.000Z",
+   "end": "2026-10-31T04:00:00.000Z",
+   "venue": {
+    "name": "https://luma.com/event/evt-g1yccgOC9218f9C"
+   },
+   "description": "Get up-to-date information at: https://luma.com/y0y9ngkm\n\nAddress:\nCheck event page for more details.\n\nNOUSCON is BACK baby\n\nLearn about the future of Hermes Agent. Meet the Nous Research team. Touch silicon.\n\nAn evening with people building open intelligence.\n\n• doors open 6pm\n• networking/exhibits 6-9pm\n• party from 9 till midnight\n\n *ੈ✩ TECHNOLOGICAL OPTIMISM IN TIMES OF GREAT WORRY *ੈ✩\n\nHosted by Nous Research",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "luma-evt-6q5ipkgk7ptv2a4-events-lu-ma-2026-10-30",
    "title": "An Eye For An Eye Film Screening",
    "kind": "event",
@@ -955,31 +982,6 @@
    "sourceId": "luma-philly",
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "score": 28
-  },
-  {
-   "id": "luma-evt-g1yccgoc9218f9c-events-lu-ma-2026-10-30",
-   "title": "NousCon 2026",
-   "kind": "event",
-   "city": "nyc",
-   "category": "unusual",
-   "tags": [],
-   "start": "2026-10-30T22:00:00.000Z",
-   "end": "2026-10-31T04:00:00.000Z",
-   "venue": {
-    "name": "https://luma.com/event/evt-g1yccgOC9218f9C"
-   },
-   "description": "Get up-to-date information at: https://luma.com/y0y9ngkm\n\nAddress:\nCheck event page for more details.\n\nNOUSCON is BACK baby\n\nLearn about the future of Hermes Agent. Meet the Nous Research team. Touch silicon.\n\nAn evening with people building open intelligence.\n\n• doors open 6pm\n• networking/exhibits 6-9pm\n• party from 9 till midnight\n\n *ੈ✩ TECHNOLOGICAL OPTIMISM IN TIMES OF GREAT WORRY *ੈ✩\n\nHosted by Nous Research",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
   },
   {
    "id": "luma-evt-i124ievsgj6kxzq-events-lu-ma-2026-10-30",
@@ -1081,30 +1083,6 @@
    "score": 6
   },
   {
-   "id": "espn-401867831",
-   "title": "Princeton Tigers vs. Cornell Big Red",
-   "subtitle": "Ivy League football",
-   "kind": "event",
-   "city": "princeton",
-   "category": "sports",
-   "tags": [
-    "ivy league football"
-   ],
-   "start": "2026-10-31T16:00Z",
-   "venue": {
-    "name": "Princeton Stadium",
-    "address": "Princeton University"
-   },
-   "description": "Princeton Tigers host the Cornell Big Red at Princeton Stadium.",
-   "sourceName": "ESPN",
-   "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
-   "provenance": "live",
-   "sourceId": "princeton-football",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
-   "score": 12
-  },
-  {
    "id": "planet-princeton-10053752",
    "title": "Winery Weekend Music Series",
    "kind": "event",
@@ -1132,30 +1110,28 @@
    "note": "Also on Nov 1, Nov 7, Nov 8, Nov 14 and later."
   },
   {
-   "id": "luma-evt-y8uoybpakrbmhb7-events-lu-ma-2026-10-31",
-   "title": "Shutter Speed: Capturing Race Day",
+   "id": "espn-401867831",
+   "title": "Princeton Tigers vs. Cornell Big Red",
+   "subtitle": "Ivy League football",
    "kind": "event",
-   "city": "nyc",
-   "category": "ideas",
-   "tags": [],
-   "start": "2026-10-31T17:00:00.000Z",
-   "end": "2026-10-31T19:00:00.000Z",
+   "city": "princeton",
+   "category": "sports",
+   "tags": [
+    "ivy league football"
+   ],
+   "start": "2026-10-31T16:00Z",
    "venue": {
-    "name": "48 Ludlow St",
-    "address": "New York, NY 10002, USA"
+    "name": "Princeton Stadium",
+    "address": "Princeton University"
    },
-   "description": "Get up-to-date information at: https://luma.com/2kvghex1\n\nAddress:\n48 Ludlow St\nNew York, NY\nUnited States\n\nHosted at SPEEDEASY this panel discussion explores the art of race-day photography and visual storytelling featuring Dave Hashim, Justin Sorensen, and Ashé Davis.",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
+   "description": "Princeton Tigers host the Cornell Big Red at Princeton Stadium.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://goprincetontigers.com/sports/football/schedule",
    "provenance": "live",
-   "sourceId": "luma-nyc",
+   "sourceId": "princeton-football",
    "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
+   "why": "Ivy League tickets are inexpensive and the seats are close to the action.",
+   "score": 12
   },
   {
    "id": "planet-princeton-197583",
@@ -1210,6 +1186,32 @@
    "score": 38
   },
   {
+   "id": "luma-evt-y8uoybpakrbmhb7-events-lu-ma-2026-10-31",
+   "title": "Shutter Speed: Capturing Race Day",
+   "kind": "event",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-10-31T17:00:00.000Z",
+   "end": "2026-10-31T19:00:00.000Z",
+   "venue": {
+    "name": "48 Ludlow St",
+    "address": "New York, NY 10002, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/2kvghex1\n\nAddress:\n48 Ludlow St\nNew York, NY\nUnited States\n\nHosted at SPEEDEASY this panel discussion explores the art of race-day photography and visual storytelling featuring Dave Hashim, Justin Sorensen, and Ashé Davis.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "luma-evt-h80rhu7sxttgmqi-events-lu-ma-2026-10-31",
    "title": "Philosophy at the Museum: Medieval Art at The Met Cloisters",
    "kind": "event",
@@ -1238,6 +1240,7 @@
   },
   {
    "id": "village-halloween-parade-2026",
+   "wiki": "Village_Halloween_Parade",
    "format": "Costume parade",
    "title": "Village Halloween Parade",
    "city": "nyc",
@@ -1272,6 +1275,7 @@
   },
   {
    "id": "tcs-nyc-marathon-2026",
+   "wiki": "New_York_City_Marathon",
    "format": "Marathon, free to watch",
    "title": "NYC Marathon",
    "city": "nyc",
@@ -1301,6 +1305,7 @@
   },
   {
    "id": "brooklyn-flea-dumbo-nov-2026",
+   "wiki": "Brooklyn_Flea",
    "format": "Flea market",
    "kind": "exhibition",
    "title": "Brooklyn Flea",
@@ -2002,6 +2007,31 @@
    "score": 22
   },
   {
+   "id": "luma-evt-1bvi2tdxxkmd4lz-events-lu-ma-2026-11-05",
+   "title": "SemiAnalysis x vCluster Presents: The Assembly",
+   "kind": "event",
+   "city": "nyc",
+   "category": "ideas",
+   "tags": [],
+   "start": "2026-11-05T00:00:00.000Z",
+   "end": "2026-11-05T03:00:00.000Z",
+   "venue": {
+    "name": "https://luma.com/event/evt-1BVI2tdxXkMd4LZ"
+   },
+   "description": "Get up-to-date information at: https://luma.com/semixvcluster\n\nAddress:\nCheck event page for more details.\n\nJoin vCluster and SemiAnalysis for an evening in New York with the people building and running the world’s AI infrastructure.\nWe’re bringing together operators from AI Cloud Providers, AI labs, and financial services firms to talk about what it takes to turn GPUs into a reliable, isolated, multi-team platform,…",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/nyc"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/nyc",
+   "provenance": "live",
+   "sourceId": "luma-nyc",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "luma-evt-fs6kacmzi7ootr6-events-lu-ma-2026-11-05",
    "title": "clay club: garlands",
    "kind": "event",
@@ -2026,31 +2056,6 @@
    "sourceId": "luma-philly",
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "score": 12
-  },
-  {
-   "id": "luma-evt-1bvi2tdxxkmd4lz-events-lu-ma-2026-11-05",
-   "title": "SemiAnalysis x vCluster Presents: The Assembly",
-   "kind": "event",
-   "city": "nyc",
-   "category": "ideas",
-   "tags": [],
-   "start": "2026-11-05T00:00:00.000Z",
-   "end": "2026-11-05T03:00:00.000Z",
-   "venue": {
-    "name": "https://luma.com/event/evt-1BVI2tdxXkMd4LZ"
-   },
-   "description": "Get up-to-date information at: https://luma.com/semixvcluster\n\nAddress:\nCheck event page for more details.\n\nJoin vCluster and SemiAnalysis for an evening in New York with the people building and running the world’s AI infrastructure.\nWe’re bringing together operators from AI Cloud Providers, AI labs, and financial services firms to talk about what it takes to turn GPUs into a reliable, isolated, multi-team platform,…",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/nyc-social2.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/nyc"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/nyc",
-   "provenance": "live",
-   "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
   },
   {
    "id": "free-library-jesse-wegman-2026",
@@ -2085,29 +2090,6 @@
    "score": 48
   },
   {
-   "id": "espn-401909925",
-   "title": "Brooklyn Nets vs. Charlotte Hornets",
-   "subtitle": "NBA",
-   "kind": "event",
-   "city": "nyc",
-   "category": "sports",
-   "tags": [
-    "nba"
-   ],
-   "start": "2026-11-05T00:30Z",
-   "venue": {
-    "name": "Barclays Center",
-    "address": "620 Atlantic Ave, Brooklyn"
-   },
-   "description": "Brooklyn Nets host the Charlotte Hornets at Barclays Center.",
-   "sourceName": "ESPN",
-   "sourceUrl": "https://www.nba.com/nets/schedule",
-   "provenance": "live",
-   "sourceId": "nets",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 6
-  },
-  {
    "id": "espn-401909926",
    "title": "New York Knicks vs. Chicago Bulls",
    "subtitle": "NBA",
@@ -2130,6 +2112,29 @@
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "why": "Madison Square Garden is home to the Knicks and the Rangers.",
    "score": 16
+  },
+  {
+   "id": "espn-401909925",
+   "title": "Brooklyn Nets vs. Charlotte Hornets",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "nyc",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-05T00:30Z",
+   "venue": {
+    "name": "Barclays Center",
+    "address": "620 Atlantic Ave, Brooklyn"
+   },
+   "description": "Brooklyn Nets host the Charlotte Hornets at Barclays Center.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/nets/schedule",
+   "provenance": "live",
+   "sourceId": "nets",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 6
   },
   {
    "id": "moth-storyslam-bell-house-2026-11-04",
@@ -2363,6 +2368,33 @@
    }
   },
   {
+   "id": "planet-princeton-198634",
+   "title": "An Evening of Hope to Prevent Suicide",
+   "kind": "event",
+   "city": "princeton",
+   "category": "ideas",
+   "tags": [
+    "fundraiser"
+   ],
+   "start": "2026-11-05T22:30:00Z",
+   "end": "2026-11-06T01:00:00Z",
+   "venue": {
+    "name": "Cobblestone Creek Country Club",
+    "address": "Lawrenceville"
+   },
+   "description": "Cobblestone Creek Country Club\n\n2170 Lawrenceville Road (Route 206)\n\nLawrenceville, New Jersey\n\nA Taste of Our Community\nJoin us for a special evening featuring food and beverages from local restaurants and vendors, bringing together the flavors—and the people—of our community in support of CONTACT’s life-saving mission.\n\nFor more than 50 years, CONTACT of Mercer County, NJ has been there when people need someone to…",
+   "price": "$40 – $150",
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/10/Updated_EVent_Logo_1790779710827-BlLmqfXd.jpg"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/an-evening-of-hope-to-prevent-suicide/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "luma-evt-w8qzh9d4bszsy0k-events-lu-ma-2026-11-05",
    "title": "Building a New Market: Compute as an Asset Class",
    "kind": "event",
@@ -2409,33 +2441,6 @@
    "sourceUrl": "https://luma.com/nyc",
    "provenance": "live",
    "sourceId": "luma-nyc",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
-  },
-  {
-   "id": "planet-princeton-198634",
-   "title": "An Evening of Hope to Prevent Suicide",
-   "kind": "event",
-   "city": "princeton",
-   "category": "ideas",
-   "tags": [
-    "fundraiser"
-   ],
-   "start": "2026-11-05T22:30:00Z",
-   "end": "2026-11-06T01:00:00Z",
-   "venue": {
-    "name": "Cobblestone Creek Country Club",
-    "address": "Lawrenceville"
-   },
-   "description": "Cobblestone Creek Country Club\n\n2170 Lawrenceville Road (Route 206)\n\nLawrenceville, New Jersey\n\nA Taste of Our Community\nJoin us for a special evening featuring food and beverages from local restaurants and vendors, bringing together the flavors—and the people—of our community in support of CONTACT’s life-saving mission.\n\nFor more than 50 years, CONTACT of Mercer County, NJ has been there when people need someone to…",
-   "price": "$40 – $150",
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/10/Updated_EVent_Logo_1790779710827-BlLmqfXd.jpg"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/an-evening-of-hope-to-prevent-suicide/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "score": 22
   },
@@ -2716,6 +2721,7 @@
   },
   {
    "id": "wagner-first-saturday-creature-feature-2026",
+   "wiki": "Wagner_Free_Institute_of_Science",
    "format": "Museum open house",
    "title": "Wagner Free Institute open house",
    "subtitle": "Spooky Creature Feature, costumes encouraged",
@@ -3622,6 +3628,7 @@
   },
   {
    "id": "mutter-meet-geek-frankenstein-2026",
+   "wiki": "Mütter_Museum",
    "format": "Museum talk",
    "title": "Fathoming Frankenstein",
    "subtitle": "An evening talk at the Mütter Museum",
@@ -3655,29 +3662,6 @@
    }
   },
   {
-   "id": "espn-401909976",
-   "title": "Philadelphia 76ers vs. Toronto Raptors",
-   "subtitle": "NBA",
-   "kind": "event",
-   "city": "philly",
-   "category": "sports",
-   "tags": [
-    "nba"
-   ],
-   "start": "2026-11-13T00:00Z",
-   "venue": {
-    "name": "Xfinity Mobile Arena",
-    "address": "3601 S Broad St, Philadelphia"
-   },
-   "description": "Philadelphia 76ers host the Toronto Raptors at Xfinity Mobile Arena.",
-   "sourceName": "ESPN",
-   "sourceUrl": "https://www.nba.com/sixers/schedule",
-   "provenance": "live",
-   "sourceId": "sixers",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 6
-  },
-  {
    "id": "luma-evt-epb6pis79u9ramh-events-lu-ma-2026-11-13",
    "title": "MAMABABY SPIRIT SWAMP FUNDRAISER PARTY 🌴",
    "kind": "event",
@@ -3703,6 +3687,29 @@
    "sourceId": "luma-philly",
    "checkedAt": "2026-10-28T17:03:39.928Z",
    "score": 20
+  },
+  {
+   "id": "espn-401909976",
+   "title": "Philadelphia 76ers vs. Toronto Raptors",
+   "subtitle": "NBA",
+   "kind": "event",
+   "city": "philly",
+   "category": "sports",
+   "tags": [
+    "nba"
+   ],
+   "start": "2026-11-13T00:00Z",
+   "venue": {
+    "name": "Xfinity Mobile Arena",
+    "address": "3601 S Broad St, Philadelphia"
+   },
+   "description": "Philadelphia 76ers host the Toronto Raptors at Xfinity Mobile Arena.",
+   "sourceName": "ESPN",
+   "sourceUrl": "https://www.nba.com/sixers/schedule",
+   "provenance": "live",
+   "sourceId": "sixers",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 6
   },
   {
    "id": "free-library-tommasini-mcgill-2026",
@@ -3863,6 +3870,37 @@
     "credit": "abc7ny.com",
     "link": "https://abc7ny.com/post/2026-new-york-comedy-festival-returns-nyc-200-comedians-100-shows-november/19499323/"
    }
+  },
+  {
+   "id": "hackprinceton-fall-2026",
+   "title": "HackPrinceton",
+   "format": "Student hackathon",
+   "subtitle": "A weekend of building with other students",
+   "city": "princeton",
+   "category": "startups",
+   "tags": [
+    "hackathon",
+    "students"
+   ],
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "timeTBA": true,
+   "venue": {
+    "name": "Princeton University",
+    "address": "Princeton, NJ",
+    "neighborhood": "Campus"
+   },
+   "description": "Princeton’s student hackathon, run by the Princeton Entrepreneurship Club. Teams build software or hardware projects over a weekend and demo them for judges and sponsors.",
+   "why": "The biggest builder event on campus this fall.",
+   "note": "Applications closed on September 28.",
+   "sourceName": "HackPrinceton",
+   "sourceUrl": "https://www.hackprinceton.com/",
+   "pick": true,
+   "kind": "event",
+   "provenance": "preview",
+   "sourceId": "preview",
+   "checkedAt": "2026-10-28T12:00:00.000Z",
+   "score": 71
   },
   {
    "id": "luma-evt-6wb1ndvsfmmhjwx-events-lu-ma-2026-11-14",
@@ -4149,6 +4187,32 @@
    "score": 12
   },
   {
+   "id": "luma-evt-mxxrvtcieljoozq-events-lu-ma-2026-11-18",
+   "title": "BIPOC craft night",
+   "kind": "event",
+   "city": "philly",
+   "category": "unusual",
+   "tags": [],
+   "start": "2026-11-18T00:00:00.000Z",
+   "end": "2026-11-18T02:00:00.000Z",
+   "venue": {
+    "name": "915 Spring Garden St",
+    "address": "Philadelphia, PA 19123, USA"
+   },
+   "description": "Get up-to-date information at: https://luma.com/x0aey23b\n\nAddress:\n915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
+   "image": {
+    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
+    "credit": "luma.com",
+    "link": "https://luma.com/philadelphia"
+   },
+   "sourceName": "Luma",
+   "sourceUrl": "https://luma.com/philadelphia",
+   "provenance": "live",
+   "sourceId": "luma-philly",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "nhl-2026020337",
    "title": "Philadelphia Flyers vs. Buffalo Sabres",
    "subtitle": "NHL",
@@ -4175,32 +4239,6 @@
     "credit": "nhl.com",
     "link": "https://www.nhl.com/flyers/schedule"
    }
-  },
-  {
-   "id": "luma-evt-mxxrvtcieljoozq-events-lu-ma-2026-11-18",
-   "title": "BIPOC craft night",
-   "kind": "event",
-   "city": "philly",
-   "category": "unusual",
-   "tags": [],
-   "start": "2026-11-18T00:00:00.000Z",
-   "end": "2026-11-18T02:00:00.000Z",
-   "venue": {
-    "name": "915 Spring Garden St",
-    "address": "Philadelphia, PA 19123, USA"
-   },
-   "description": "Get up-to-date information at: https://luma.com/x0aey23b\n\nAddress:\n915 Spring Garden St\nthe entrance for club is on percy street located in the same building as triple bottom. there are 2 steps to enter the building, but once inside there is an elevator. we open doors for club 5 minutes prior to the start time and close the doors 15 minutes after.",
-   "image": {
-    "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=1200,height=630/discovery/philly-social.png",
-    "credit": "luma.com",
-    "link": "https://luma.com/philadelphia"
-   },
-   "sourceName": "Luma",
-   "sourceUrl": "https://luma.com/philadelphia",
-   "provenance": "live",
-   "sourceId": "luma-philly",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
   },
   {
    "id": "new-york-venture-summit-2026",
@@ -4736,6 +4774,7 @@
   },
   {
    "id": "philadelphia-marathon-2026",
+   "wiki": "Philadelphia_Marathon",
    "format": "Marathon, free to watch",
    "title": "Philadelphia Marathon",
    "city": "philly",
@@ -5029,6 +5068,7 @@
   },
   {
    "id": "amnh-frontiers-clouds-2026",
+   "wiki": "Hayden_Planetarium",
    "format": "Astronomy lecture",
    "title": "Clouds Across the Universe",
    "subtitle": "Frontiers Lecture at the Natural History Museum",
@@ -5210,6 +5250,30 @@
    "note": "Also on Nov 29, Dec 5, Dec 6, Dec 12."
   },
   {
+   "id": "planet-princeton-10054104",
+   "title": "Café Improv",
+   "kind": "event",
+   "city": "princeton",
+   "category": "comedy",
+   "tags": [],
+   "start": "2026-11-29T00:00:00Z",
+   "end": "2026-11-29T03:00:00Z",
+   "venue": {
+    "name": "Arts Council of Princeton"
+   },
+   "description": "For the past 30 years, Café Improv has connected beginning and professional performers in the Arts Council of Princeton’s Solley Theater. Serving as a vibrant musical oasis for the Princeton community, Café Improv is a gathering place to share artistic ideas and provide inspiration to others. Attendees can expect an evening of exciting local music, poetry, comedy, and more! Café Improv is easily accessible to the…",
+   "price": "$2",
+   "image": {
+    "url": "https://planetprinceton.com/wp-content/uploads/2026/01/6063304_orig.jpg"
+   },
+   "sourceName": "Planet Princeton",
+   "sourceUrl": "https://planetprinceton.com/event/cafe-improv/2026-11-28/",
+   "provenance": "live",
+   "sourceId": "planet-princeton",
+   "checkedAt": "2026-10-28T17:03:39.928Z",
+   "score": 22
+  },
+  {
    "id": "nhl-2026020419",
    "title": "New York Rangers vs. Calgary Flames",
    "subtitle": "NHL",
@@ -5237,30 +5301,6 @@
     "credit": "nhl.com",
     "link": "https://www.nhl.com/rangers/schedule"
    }
-  },
-  {
-   "id": "planet-princeton-10054104",
-   "title": "Café Improv",
-   "kind": "event",
-   "city": "princeton",
-   "category": "comedy",
-   "tags": [],
-   "start": "2026-11-29T00:00:00Z",
-   "end": "2026-11-29T03:00:00Z",
-   "venue": {
-    "name": "Arts Council of Princeton"
-   },
-   "description": "For the past 30 years, Café Improv has connected beginning and professional performers in the Arts Council of Princeton’s Solley Theater. Serving as a vibrant musical oasis for the Princeton community, Café Improv is a gathering place to share artistic ideas and provide inspiration to others. Attendees can expect an evening of exciting local music, poetry, comedy, and more! Café Improv is easily accessible to the…",
-   "price": "$2",
-   "image": {
-    "url": "https://planetprinceton.com/wp-content/uploads/2026/01/6063304_orig.jpg"
-   },
-   "sourceName": "Planet Princeton",
-   "sourceUrl": "https://planetprinceton.com/event/cafe-improv/2026-11-28/",
-   "provenance": "live",
-   "sourceId": "planet-princeton",
-   "checkedAt": "2026-10-28T17:03:39.928Z",
-   "score": 22
   },
   {
    "id": "nhl-2026020423",
@@ -5553,9 +5593,10 @@
    "city": "nyc",
    "kind": "tribe",
    "homepage": "https://entrepreneurship.columbia.edu/events/",
-   "ok": true,
-   "count": 5,
-   "ms": 288
+   "ok": false,
+   "count": 2,
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "eagles",
@@ -5563,9 +5604,10 @@
    "city": "philly",
    "kind": "espn",
    "homepage": "https://www.philadelphiaeagles.com/schedule/",
-   "ok": true,
+   "ok": false,
    "count": 2,
-   "ms": 326
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "flyers",
@@ -5573,9 +5615,10 @@
    "city": "philly",
    "kind": "nhl",
    "homepage": "https://www.nhl.com/flyers/schedule",
-   "ok": true,
-   "count": 8,
-   "ms": 390
+   "ok": false,
+   "count": 7,
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "knicks",
@@ -5583,9 +5626,10 @@
    "city": "nyc",
    "kind": "espn",
    "homepage": "https://www.nba.com/knicks/schedule",
-   "ok": true,
-   "count": 9,
-   "ms": 312
+   "ok": false,
+   "count": 8,
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "luma-nyc",
@@ -5593,9 +5637,10 @@
    "city": "nyc",
    "kind": "luma",
    "homepage": "https://luma.com/nyc",
-   "ok": true,
-   "count": 50,
-   "ms": 836
+   "ok": false,
+   "count": 42,
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "luma-philly",
@@ -5603,9 +5648,10 @@
    "city": "philly",
    "kind": "luma",
    "homepage": "https://luma.com/philadelphia",
-   "ok": true,
-   "count": 21,
-   "ms": 738
+   "ok": false,
+   "count": 19,
+   "ms": 1,
+   "error": "skipped (offline run)"
   },
   {
    "id": "mets",
@@ -5613,9 +5659,10 @@
    "city": "nyc",
    "kind": "mlb",
    "homepage": "https://www.mlb.com/mets/schedule",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "ms": 490
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "nets",
@@ -5623,9 +5670,10 @@
    "city": "nyc",
    "kind": "espn",
    "homepage": "https://www.nba.com/nets/schedule",
-   "ok": true,
+   "ok": false,
    "count": 6,
-   "ms": 302
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "phillies",
@@ -5633,9 +5681,10 @@
    "city": "philly",
    "kind": "mlb",
    "homepage": "https://www.mlb.com/phillies/schedule",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "ms": 459
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "planet-princeton",
@@ -5643,9 +5692,10 @@
    "city": "princeton",
    "kind": "tribe",
    "homepage": "https://planetprinceton.com/events/",
-   "ok": true,
-   "count": 169,
-   "ms": 4330
+   "ok": false,
+   "count": 23,
+   "ms": 1,
+   "error": "skipped (offline run)"
   },
   {
    "id": "preview",
@@ -5654,7 +5704,7 @@
    "kind": "manual",
    "homepage": "",
    "ok": true,
-   "count": 51,
+   "count": 52,
    "ms": 0
   },
   {
@@ -5663,9 +5713,10 @@
    "city": "princeton",
    "kind": "espn",
    "homepage": "https://goprincetontigers.com/sports/football/schedule",
-   "ok": true,
+   "ok": false,
    "count": 3,
-   "ms": 298
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "princeton-mbb",
@@ -5673,9 +5724,10 @@
    "city": "princeton",
    "kind": "espn",
    "homepage": "https://goprincetontigers.com/sports/mens-basketball/schedule",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "ms": 257
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "rangers",
@@ -5683,9 +5735,10 @@
    "city": "nyc",
    "kind": "nhl",
    "homepage": "https://www.nhl.com/rangers/schedule",
-   "ok": true,
-   "count": 10,
-   "ms": 391
+   "ok": false,
+   "count": 9,
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "sixers",
@@ -5693,9 +5746,10 @@
    "city": "philly",
    "kind": "espn",
    "homepage": "https://www.nba.com/sixers/schedule",
-   "ok": true,
+   "ok": false,
    "count": 10,
-   "ms": 346
+   "ms": 0,
+   "error": "skipped (offline run)"
   },
   {
    "id": "yankees",
@@ -5703,9 +5757,10 @@
    "city": "nyc",
    "kind": "mlb",
    "homepage": "https://www.mlb.com/yankees/schedule",
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "ms": 454
+   "ms": 0,
+   "error": "skipped (offline run)"
   }
  ]
 }

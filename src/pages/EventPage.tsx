@@ -6,7 +6,8 @@ import { exhibitionLine, fullDate, timeLabel } from '../lib/dates.ts'
 import { rank } from '../lib/recommend.ts'
 import { useStore } from '../lib/store.tsx'
 import { Avatar, EventCard } from '../components/Cards.tsx'
-import { Flyer } from '../components/Poster.tsx'
+import { Cover, formatOf, summaryOf } from '../components/Poster.tsx'
+import { clashes } from '../lib/profile.ts'
 import { SaveButton, Spinner } from '../components/bits.tsx'
 
 // Sandboxed previews block file downloads, so the .ics button is hidden there.
@@ -14,7 +15,7 @@ const canDownload = import.meta.env.VITE_ROUTER !== 'memory'
 
 export function EventPage() {
   const { id } = useParams()
-  const { data, byId } = useStore()
+  const { data, byId, profile } = useStore()
   const e = id ? byId(id) : undefined
 
   useEffect(() => {
@@ -37,6 +38,7 @@ export function EventPage() {
     )
 
   const cat = categoryById(e.category)
+  const clash = clashes(e, profile.busy)
   const t = timeLabel(e)
   const maps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue.name, e.venue.address].filter(Boolean).join(', '))}`
   const related = rank(data.events, { city: e.city, when: 'month' })
@@ -62,7 +64,7 @@ export function EventPage() {
 
       <div className="mt-5 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:gap-14">
         <div className="lg:sticky lg:top-24 lg:self-start">
-          <Flyer event={e} className="aspect-[3/4]" />
+          <Cover e={e} className="aspect-[4/3] rounded-[3px] lg:aspect-[4/5]" />
           {e.image?.credit && (
             <p className="mt-2 text-[12px] text-mute">
               Image:{' '}
@@ -79,10 +81,16 @@ export function EventPage() {
 
         <div className="min-w-0">
           <p className="label">
-            {e.format ?? cat.label} · {cityById(e.city).name}
+            {formatOf(e)} · {cityById(e.city).name}
           </p>
           <h1 className="display mt-2 text-[56px] md:text-[92px]">{e.title}</h1>
           {e.subtitle && <p className="mt-3 text-[18px] text-ink-2">{e.subtitle}</p>}
+          <p className="mt-4 text-[18px] leading-relaxed">{summaryOf(e)}</p>
+          {clash && (
+            <p className="mt-3 rounded-[3px] bg-[var(--riso-pink)] px-3 py-2 text-[14px] font-semibold">
+              This overlaps with {clash.label}.
+            </p>
+          )}
 
           <div className="mt-6 space-y-1 border-y-[1.5px] border-ink py-4 text-[16px]">
             <p className="stamp text-[15px]">{when}</p>

@@ -23,6 +23,8 @@ const inWindow = (start: string, end: string | undefined, ctx: FetchContext) => 
 }
 
 function splitLocation(loc = ''): { name: string; address?: string } {
+  // Luma hides the address until you register and puts the event URL here instead.
+  if (/^https?:\/\//.test(loc.trim())) return { name: 'Address shared after you register' }
   const [name, ...rest] = loc.split(/,\s*/)
   return { name: name || 'See listing', address: rest.join(', ') || undefined }
 }

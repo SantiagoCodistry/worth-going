@@ -182,3 +182,38 @@ test('The Events Calendar adapter maps WordPress REST events', async () => {
     restore()
   }
 })
+
+import { clashes, fit, DEFAULT_PROFILE } from '../src/lib/profile.ts'
+import { dimensions } from '../ingest/lib/media.ts'
+
+test('busy blocks hide events that start during them', () => {
+  const swim = { id: 's', label: 'Swim practice', days: [1, 2, 3, 4, 5], from: '06:00', to: '08:00' }
+  const tue7am = ev({ start: nyIso('2026-11-10 07:00') })
+  const tue730pm = ev({ start: nyIso('2026-11-10 19:30') })
+  const sat7am = ev({ start: nyIso('2026-11-14 07:00') })
+  assert.equal(clashes(tue7am, [swim])?.label, 'Swim practice')
+  assert.equal(clashes(tue730pm, [swim]), undefined)
+  assert.equal(clashes(sat7am, [swim]), undefined)
+  assert.equal(clashes(ev({ start: '2026-11-10', timeTBA: true }), [swim]), undefined)
+})
+
+test('taste ranking boosts loved categories and the home city', () => {
+  const comedy = ev({ category: 'comedy', score: 20, city: 'nyc' })
+  const classical = ev({ category: 'music', tags: ['classical'], score: 20, city: 'nyc' })
+  const local = ev({ category: 'comedy', score: 20, city: 'princeton' })
+  const p = DEFAULT_PROFILE
+  assert.ok(fit(comedy, p).score > fit(classical, p).score)
+  assert.ok(fit(local, p).score > fit(comedy, p).score)
+  assert.ok(fit(comedy, p).reasons.includes('Comedy'))
+})
+
+test('image size reader handles PNG and JPEG headers', () => {
+  const png = new Uint8Array(24)
+  png.set([0x89, 0x50, 0x4e, 0x47])
+  new DataView(png.buffer).setUint32(16, 1200)
+  new DataView(png.buffer).setUint32(20, 800)
+  assert.deepEqual(dimensions(png), { w: 1200, h: 800 })
+  // SOI, then a SOF0 segment: length 17, precision 8, height 600, width 900
+  const jpg = new Uint8Array([0xff, 0xd8, 0xff, 0xc0, 0x00, 0x11, 0x08, 0x02, 0x58, 0x03, 0x84, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+  assert.deepEqual(dimensions(jpg), { w: 900, h: 600 })
+})

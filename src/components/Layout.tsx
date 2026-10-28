@@ -5,10 +5,11 @@ import { CITIES } from '../shared/taxonomy.ts'
 import { useStore } from '../lib/store.tsx'
 
 const NAV = [
-  { to: '/', label: 'Discover', end: true },
+  { to: '/', label: 'For you', end: true },
   { to: '/explore', label: 'Calendar' },
-  { to: '/table', label: 'Restaurants' },
+  { to: '/table', label: 'Eat' },
   { to: '/saved', label: 'Saved' },
+  { to: '/you', label: 'Your taste' },
 ]
 
 export function Wordmark({ className = '' }: { className?: string }) {
@@ -104,7 +105,7 @@ export function Layout() {
 
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-4 border-t-[1.5px] border-ink bg-bg pb-[env(safe-area-inset-bottom)] md:hidden"
+        className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t-[1.5px] border-ink bg-bg pb-[env(safe-area-inset-bottom)] md:hidden"
       >
         {NAV.map((n) => (
           <NavLink

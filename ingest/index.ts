@@ -13,7 +13,7 @@ import { addDays, nyDateKey, sortTime } from '../src/shared/time.ts'
 import type { Draft } from './adapters/types.ts'
 import { CONFIG } from './config.ts'
 import { isNoise, outOfArea, score, whyFor } from './lib/enrich.ts'
-import { addMedia, pageImage } from './lib/media.ts'
+import { addMedia, placeImage, saveCache } from './lib/media.ts'
 import { PLACES } from '../src/data/places.ts'
 import { slug } from './lib/http.ts'
 import { previewEvents } from './seed/preview.ts'
@@ -88,25 +88,26 @@ async function run() {
   }
   const final = collapseRepeats([...byId.values()]).sort((a, b) => sortTime(a.start) - sortTime(b.start))
 
-  // Pictures: reuse what earlier runs found, then look up anything missing.
+  // Pictures: offline runs reuse what the last online run found; online runs re-check everything.
   const before = new Map((prev?.events ?? []).map((e) => [e.id, e]))
-  for (const e of final) {
-    const old = before.get(e.id)
-    if (!old) continue
-    e.image ??= old.image
-    e.people = e.people?.map((p) => ({ ...p, image: p.image ?? old.people?.find((o) => o.name === p.name)?.image }))
+  if (offline) {
+    for (const e of final) {
+      const old = before.get(e.id)
+      if (!old) continue
+      e.image ??= old.image
+      e.people = e.people?.map((p) => ({ ...p, image: p.image ?? old.people?.find((o) => o.name === p.name)?.image }))
+    }
   }
   if (!offline) await addMedia(final)
   for (const e of final) e.score = score(e)
 
-  const placeImages: NonNullable<Dataset['placeImages']> = { ...(prev?.placeImages ?? {}) }
+  const placeImages: NonNullable<Dataset['placeImages']> = offline ? { ...(prev?.placeImages ?? {}) } : {}
   if (!offline) {
     for (const p of PLACES) {
-      if (placeImages[p.id]) continue
-      const img = await pageImage(p.website)
+      const img = await placeImage(p)
       if (img) placeImages[p.id] = img
     }
-    await addMedia([]) // flush the media cache
+    saveCache()
   }
 
   const data: Dataset = {

@@ -67,6 +67,8 @@ export interface WGEvent {
   isFree?: boolean
   /** Who's on: speakers for talks, artists for shows, hosts and guests. */
   people?: Person[]
+  /** Wikipedia page for the event itself (a parade, a marathon), used for a photo. */
+  wiki?: string
   image?: { url: string; credit?: string; link?: string }
   sourceName: string
   sourceUrl: string
@@ -89,18 +91,23 @@ export interface Place {
   name: string
   city: CityId
   neighborhood: string
-  address: string
+  /** Street address when we're sure of it; maps fall back to name + city. */
+  address?: string
   cuisine: string
   /** `$`–`$$$$`, a rough guide only. */
   price: string
-  /** One line, set in the card. */
+  /** What to get, in one line. Shown on the card. */
   dek: string
+  /** Why it's on the list. */
   why: string
   order?: string
-  /** Practical notes: reservations, lines, cash. */
   know?: string
-  website: string
-  /** Good for: 'date', 'group', 'solo', 'late', 'cheap', 'parents' … */
+  website?: string
+  /** Where the recommendation comes from, so readers can check. */
+  source?: { name: string; url: string }
+  /** Wikipedia page, used for a photo when the restaurant has one. */
+  wiki?: string
+  /** 'cheap', 'date', 'group', 'solo', 'late', 'splurge', 'new' … */
   goodFor: string[]
 }
 

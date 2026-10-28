@@ -2,6 +2,7 @@
 // Saved items live in localStorage — no account needed.
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { CityFilter, Dataset, WGEvent } from '../shared/types.ts'
+import { DEFAULT_PROFILE, type Profile } from './profile.ts'
 
 interface Store {
   data: Dataset | null
@@ -12,6 +13,8 @@ interface Store {
   isSaved: (id: string) => boolean
   toggleSaved: (id: string) => void
   byId: (id: string) => WGEvent | undefined
+  profile: Profile
+  setProfile: (p: Profile) => void
 }
 
 const Ctx = createContext<Store | null>(null)
@@ -38,6 +41,11 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [error, setError] = useState<string | null>(null)
   const [city, setCityState] = useState<CityFilter>(() => readLocal('wg.city', 'all'))
   const [saved, setSaved] = useState<string[]>(() => readLocal('wg.saved', []))
+  const [profile, setProfileState] = useState<Profile>(() => ({ ...DEFAULT_PROFILE, ...readLocal<Partial<Profile>>('wg.profile', {}) }))
+  const setProfile = useCallback((p: Profile) => {
+    setProfileState(p)
+    writeLocal('wg.profile', p)
+  }, [])
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/events.json`, { cache: 'no-cache' })
@@ -80,8 +88,10 @@ export function StoreProvider({ children }: { children: ReactNode }) {
       isSaved: (id) => saved.includes(id),
       toggleSaved,
       byId: (id) => index.get(id),
+      profile,
+      setProfile,
     }),
-    [data, error, city, setCity, saved, toggleSaved, index],
+    [data, error, city, setCity, saved, toggleSaved, index, profile, setProfile],
   )
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>

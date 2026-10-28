@@ -3,7 +3,7 @@ import { mkdirSync } from 'node:fs'
 import { chromium } from 'playwright'
 
 const base = (process.argv[2] ?? 'http://localhost:5173/').replace(/\/?$/, '/')
-const pages = ['', 'explore', 'table', 'e/92ny-munk-debate-liberalism-2026', 'e/nerd-nite-nyc-nov-2026']
+const pages = ['', 'explore', 'table', 'you', 'e/92ny-munk-debate-liberalism-2026', 'e/nycf-marc-maron-beacon-2026', 'e/village-halloween-parade-2026', 'table/thai-diner']
 mkdirSync('screenshots', { recursive: true })
 const browser = await chromium.launch()
 for (const [name, viewport] of [

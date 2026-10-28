@@ -7,6 +7,7 @@ import { Explore } from './pages/Explore.tsx'
 import { Home } from './pages/Home.tsx'
 import { Saved } from './pages/Saved.tsx'
 import { PlacePage, Table } from './pages/Table.tsx'
+import { You } from './pages/You.tsx'
 
 function NotFound() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
             <Route path="table/:id" element={<PlacePage />} />
             <Route path="saved" element={<Saved />} />
             <Route path="about" element={<About />} />
+            <Route path="you" element={<You />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
