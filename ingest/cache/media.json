@@ -2503,5 +2503,903 @@
   "w": 1536,
   "h": 2048
  },
- "commons:Jammin’ Crêpes|Princeton": null
+ "commons:Jammin’ Crêpes|Princeton": null,
+ "who2:Esther Povitsky": {
+  "role": "American comedian (born 1988)",
+  "wiki": "Esther_Povitsky"
+ },
+ "wiki2:Esther_Povitsky": null,
+ "who2:Anthony Moore": {
+  "role": "British musician (born 1948)",
+  "wiki": "Anthony_Moore"
+ },
+ "who2:Julian McCullough": {
+  "role": "American actor, writer and comedian",
+  "wiki": "Julian_McCullough"
+ },
+ "who2:Amos Gill": {
+  "role": "Australian comedian (born 1991)",
+  "wiki": "Amos_Gill"
+ },
+ "wiki2:Anthony_Moore": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/PeterBlegvad_AnthonyMoore_February2017_%28crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Anthony_Moore",
+  "w": 1035,
+  "h": 1199
+ },
+ "wiki2:Julian_McCullough": null,
+ "wiki2:Amos_Gill": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Amos_Gill_foto_Micha%C5%82_Stachyra.jpg/1280px-Amos_Gill_foto_Micha%C5%82_Stachyra.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Amos_Gill",
+  "w": 1669,
+  "h": 2712
+ },
+ "who2:Emma Willmann": {
+  "role": "American comedian",
+  "wiki": "Emma_Willmann"
+ },
+ "wiki2:Emma_Willmann": null,
+ "who2:A Boogie Wit da Hoodie": {
+  "role": "American rapper (born 1995)",
+  "wiki": "A_Boogie_wit_da_Hoodie"
+ },
+ "wiki2:A_Boogie_wit_da_Hoodie": null,
+ "who2:Lawrence": {
+  "role": "American pop band",
+  "wiki": "Lawrence_(band)"
+ },
+ "wiki2:Lawrence_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Lawrence_%40_The_Novo_10_07_2021_%2851784356600%29.jpg/1280px-Lawrence_%40_The_Novo_10_07_2021_%2851784356600%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Lawrence_(band)",
+  "w": 4000,
+  "h": 3475
+ },
+ "who2:Nick Griffin": {
+  "role": "American comedian and writer",
+  "wiki": "Nick_Griffin_(comedian)"
+ },
+ "wiki2:Nick_Griffin_(comedian)": null,
+ "who2:James Davis": null,
+ "who2:Grace Johnson": null,
+ "who2:JC Mendoza": null,
+ "who2:Ruby Setnik": null,
+ "who2:Joanne McNally": {
+  "role": "Irish comedian and actress (born 1983)",
+  "wiki": "Joanne_McNally"
+ },
+ "who2:Jenny Lewis": {
+  "role": "American musician and actress (born 1976)",
+  "wiki": "Jenny_Lewis"
+ },
+ "wiki2:Joanne_McNally": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Joanne_McNally_profile.jpg/1280px-Joanne_McNally_profile.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Joanne_McNally",
+  "w": 1290,
+  "h": 1679
+ },
+ "wiki2:Jenny_Lewis": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/JennyLewisWayOutWest2018Crop.jpg/1280px-JennyLewisWayOutWest2018Crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jenny_Lewis",
+  "w": 1545,
+  "h": 2164
+ },
+ "who2:Staycation": null,
+ "who2:Calise Hawkins": null,
+ "who2:Fetty Wap": {
+  "role": "American rapper (born 1991)",
+  "wiki": "Fetty_Wap"
+ },
+ "who2:Afrojack": {
+  "role": "Dutch DJ and record producer (born 1987)",
+  "wiki": "Afrojack"
+ },
+ "who2:Murda Beatz": {
+  "role": "Canadian record producer (born 1994)",
+  "wiki": "Murda_Beatz"
+ },
+ "who2:Swae Lee": {
+  "role": "American rapper and singer (born 1993)",
+  "wiki": "Swae_Lee"
+ },
+ "wiki2:Fetty_Wap": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Fetty_Wap_2026.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Fetty_Wap",
+  "w": 670,
+  "h": 980
+ },
+ "wiki2:Afrojack": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Afrojack_2012.jpg/1280px-Afrojack_2012.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Afrojack",
+  "w": 2832,
+  "h": 4256
+ },
+ "wiki2:Murda_Beatz": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Murda_Beatz_2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Murda_Beatz",
+  "w": 650,
+  "h": 843
+ },
+ "wiki2:Swae_Lee": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Swae_Lee_%282019%29.png/1280px-Swae_Lee_%282019%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Swae_Lee",
+  "w": 1500,
+  "h": 2250
+ },
+ "who2:Robert Glasper": {
+  "role": "American jazz pianist, record producer, and songwriter",
+  "wiki": "Robert_Glasper"
+ },
+ "who2:Vince Staples": {
+  "role": "American rapper and actor (born 1993)",
+  "wiki": "Vince_Staples"
+ },
+ "who2:Boney James": {
+  "role": "American saxophonist and songwriter",
+  "wiki": "Boney_James"
+ },
+ "who2:Tenille Townes": {
+  "role": "Canadian country music singer",
+  "wiki": "Tenille_Townes"
+ },
+ "wiki2:Vince_Staples": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Vince_Staples_by_Gage_Skidmore.jpg/1280px-Vince_Staples_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Vince_Staples",
+  "w": 1831,
+  "h": 2565
+ },
+ "wiki2:Boney_James": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Boney_James_2013.jpg/1280px-Boney_James_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Boney_James",
+  "w": 3840,
+  "h": 5760
+ },
+ "wiki2:Tenille_Townes": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/TenilleTownes2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Tenille_Townes",
+  "w": 1077,
+  "h": 1507
+ },
+ "who2:Jamie xx": {
+  "role": "British DJ and producer (born 1988)",
+  "wiki": "Jamie_xx"
+ },
+ "who2:Harry Styles": {
+  "role": "English singer, songwriter, and actor (born 1994)",
+  "wiki": "Harry_Styles"
+ },
+ "who2:She Wants Revenge": {
+  "role": "American rock band",
+  "wiki": "She_Wants_Revenge"
+ },
+ "wiki2:Jamie_xx": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jamie_xx_-_8_June_2016_%28cropped%29.jpg/1280px-Jamie_xx_-_8_June_2016_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jamie_xx",
+  "w": 2953,
+  "h": 3700
+ },
+ "wiki2:Harry_Styles": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/1280px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Harry_Styles",
+  "w": 1490,
+  "h": 1987
+ },
+ "who2:Kaytranada": {
+  "role": "Haitian and Canadian DJ and music producer (born 1992)",
+  "wiki": "Kaytranada"
+ },
+ "wiki2:She_Wants_Revenge": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/She_Wants_Revenge_em_concerto.jpg/1280px-She_Wants_Revenge_em_concerto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/She_Wants_Revenge",
+  "w": 1632,
+  "h": 1224
+ },
+ "who2:Mark Normand": {
+  "role": "American stand-up comedian and actor (born 1983)",
+  "wiki": "Mark_Normand"
+ },
+ "wiki2:Kaytranada": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Kaytranada_2016_September.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Kaytranada",
+  "w": 985,
+  "h": 1339
+ },
+ "wiki2:Mark_Normand": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Mark_Normand_on_Neal_Breannan%27s_podcast.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Mark_Normand",
+  "w": 830,
+  "h": 902
+ },
+ "who2:Rachel Williams": null,
+ "who2:Bassvictim": {
+  "role": "Electronic music duo",
+  "wiki": "Bassvictim"
+ },
+ "who2:Cypress Hill": {
+  "role": "American hip-hop group",
+  "wiki": "Cypress_Hill"
+ },
+ "wiki2:Bassvictim": null,
+ "wiki2:Cypress_Hill": null,
+ "who2:Boy Harsher": {
+  "role": "American electronic music band",
+  "wiki": "Boy_Harsher"
+ },
+ "who2:Alice Cooper": {
+  "role": "American rock singer (born 1948)",
+  "wiki": "Alice_Cooper"
+ },
+ "who2:Paul Oakenfold": {
+  "role": "British record producer and trance music DJ (born 1963)",
+  "wiki": "Paul_Oakenfold"
+ },
+ "wiki2:Alice_Cooper": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/2024_Alice_Cooper_-_by_2eight_-_9SC8435.jpg/1280px-2024_Alice_Cooper_-_by_2eight_-_9SC8435.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Alice_Cooper",
+  "w": 1365,
+  "h": 2048
+ },
+ "wiki2:Boy_Harsher": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Boy_Harsher_live_at_Mars_Pub_in_February_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Boy_Harsher",
+  "w": 782,
+  "h": 589
+ },
+ "wiki2:Paul_Oakenfold": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Paul_Oakenfold.jpg/1280px-Paul_Oakenfold.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Paul_Oakenfold",
+  "w": 2564,
+  "h": 1709
+ },
+ "who2:Purple Disco Machine": {
+  "role": "German DJ and house music producer (born 1980)",
+  "wiki": "Purple_Disco_Machine"
+ },
+ "wiki2:Purple_Disco_Machine": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Purple_Disco_Machine_2018.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Purple_Disco_Machine",
+  "w": 707,
+  "h": 770
+ },
+ "who2:Patti Smith": {
+  "role": "American singer and songwriter (born 1946)",
+  "wiki": "Patti_Smith"
+ },
+ "wiki2:Patti_Smith": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Patti_Smith_at_the_81st_Venice_International_Film_Festival_in_2024.jpg/1280px-Patti_Smith_at_the_81st_Venice_International_Film_Festival_in_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Patti_Smith",
+  "w": 2528,
+  "h": 3370
+ },
+ "who2:Chief Keef": {
+  "role": "American rapper (born 1995)",
+  "wiki": "Chief_Keef"
+ },
+ "who2:Paul Anka": {
+  "role": "Canadian and American singer and actor (born 1941)",
+  "wiki": "Paul_Anka"
+ },
+ "wiki2:Chief_Keef": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Chief_Keef_2019_performance.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Chief_Keef",
+  "w": 864,
+  "h": 1080
+ },
+ "wiki2:Paul_Anka": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Paul_Anka_performing_at_Caesars_Windsor%2C_2024-05-24_10.jpg/1280px-Paul_Anka_performing_at_Caesars_Windsor%2C_2024-05-24_10.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Paul_Anka",
+  "w": 2251,
+  "h": 3335
+ },
+ "who2:Meshell Ndegeocello": {
+  "role": "American musician (born 1968)",
+  "wiki": "Meshell_Ndegeocello"
+ },
+ "wiki2:Meshell_Ndegeocello": null,
+ "who2:Corrosion of Conformity": {
+  "role": "American heavy metal band",
+  "wiki": "Corrosion_of_Conformity"
+ },
+ "wiki2:Corrosion_of_Conformity": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Hellfest2018CorrosionOfConformity_01.jpg/1280px-Hellfest2018CorrosionOfConformity_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Corrosion_of_Conformity",
+  "w": 4000,
+  "h": 2667
+ },
+ "who2:Brutalismus 3000": {
+  "role": "German electronic music duo",
+  "wiki": "Brutalismus_3000"
+ },
+ "wiki2:Brutalismus_3000": null,
+ "who2:Blue October": {
+  "role": "American rock band",
+  "wiki": "Blue_October"
+ },
+ "who2:Steve Vai": {
+  "role": "American guitarist (born 1960)",
+  "wiki": "Steve_Vai"
+ },
+ "who2:Adrian Belew": {
+  "role": "American musician, songwriter, and record producer (born 1949)",
+  "wiki": "Adrian_Belew"
+ },
+ "who2:Terry Bozzio": {
+  "role": "American drummer (born 1950)",
+  "wiki": "Terry_Bozzio"
+ },
+ "wiki2:Blue_October": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Blue_October_at_the_Kapaun_Air_Station.jpg/1280px-Blue_October_at_the_Kapaun_Air_Station.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Blue_October",
+  "w": 4288,
+  "h": 2848
+ },
+ "wiki2:Steve_Vai": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Steve_Vai%2C_3-Maj%C3%B3wka_2023_08.jpg/1280px-Steve_Vai%2C_3-Maj%C3%B3wka_2023_08.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Steve_Vai",
+  "w": 5568,
+  "h": 3712
+ },
+ "wiki2:Adrian_Belew": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Beat_Sept_18_2024%2C_Phoenix%2C_Arizona_%281%29_%28Adrian_Belew_crop%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Adrian_Belew",
+  "w": 853,
+  "h": 1067
+ },
+ "wiki2:Terry_Bozzio": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Terry_Bozzio.jpg/1280px-Terry_Bozzio.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Terry_Bozzio",
+  "w": 3072,
+  "h": 2304
+ },
+ "who2:State Champs": {
+  "role": "American pop-punk band",
+  "wiki": "State_Champs"
+ },
+ "wiki2:State_Champs": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/State_Champs.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/State_Champs",
+  "w": 640,
+  "h": 640
+ },
+ "who2:Deerhoof": {
+  "role": "American band",
+  "wiki": "Deerhoof"
+ },
+ "who2:Every Avenue": {
+  "role": "American pop-punk band",
+  "wiki": "Every_Avenue"
+ },
+ "who2:Alter Bridge": {
+  "role": "American rock band",
+  "wiki": "Alter_Bridge"
+ },
+ "wiki2:Deerhoof": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Deerhoof_-_Haldern_Pop_Festival_2018-6.jpg/1280px-Deerhoof_-_Haldern_Pop_Festival_2018-6.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Deerhoof",
+  "w": 5184,
+  "h": 3456
+ },
+ "wiki2:Every_Avenue": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Every_Avenue.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Every_Avenue",
+  "w": 925,
+  "h": 617
+ },
+ "wiki2:Alter_Bridge": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Alter_Bridge_-_2023174214713_2023-06-23_Alpen_Flair_-_Sven_-_5DS_R_-_0458_-_5DSR5317.jpg/1280px-Alter_Bridge_-_2023174214713_2023-06-23_Alpen_Flair_-_Sven_-_5DS_R_-_0458_-_5DSR5317.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Alter_Bridge",
+  "w": 6632,
+  "h": 4421
+ },
+ "who2:Journey": {
+  "role": "American rock band",
+  "wiki": "Journey_(band)"
+ },
+ "wiki2:Journey_(band)": null,
+ "who2:Hiss Golden Messenger": {
+  "role": "American folk band",
+  "wiki": "Hiss_Golden_Messenger"
+ },
+ "wiki2:Hiss_Golden_Messenger": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Hiss_Golden_Messenger.jpg/1280px-Hiss_Golden_Messenger.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Hiss_Golden_Messenger",
+  "w": 3504,
+  "h": 2336
+ },
+ "who2:Steve Earle": {
+  "role": "American country, rock, and folk singer-songwriter (born 1955)",
+  "wiki": "Steve_Earle"
+ },
+ "who2:Suzanne Vega": {
+  "role": "American singer-songwriter (born 1959)",
+  "wiki": "Suzanne_Vega"
+ },
+ "who2:Anuel AA": {
+  "role": "Puerto Rican rapper and singer (born 1992)",
+  "wiki": "Anuel_AA"
+ },
+ "who2:Built to Spill": {
+  "role": "American indie rock band",
+  "wiki": "Built_to_Spill"
+ },
+ "wiki2:Steve_Earle": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/20180705-Rudolstadt-Festival-Steve_Earle-and-the-Dukes-4821_%28cropped%29.jpg/1280px-20180705-Rudolstadt-Festival-Steve_Earle-and-the-Dukes-4821_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Steve_Earle",
+  "w": 1375,
+  "h": 1682
+ },
+ "wiki2:Suzanne_Vega": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Suzanne_Vega_13._Inselleuchten_03_%28cropped%29.jpg/1280px-Suzanne_Vega_13._Inselleuchten_03_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Suzanne_Vega",
+  "w": 2188,
+  "h": 3067
+ },
+ "wiki2:Anuel_AA": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Anuel_AA_in_2022.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Anuel_AA",
+  "w": 627,
+  "h": 896
+ },
+ "wiki2:Built_to_Spill": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Built_to_Spill_Treefort_2016_2.jpg/1280px-Built_to_Spill_Treefort_2016_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Built_to_Spill",
+  "w": 2449,
+  "h": 1633
+ },
+ "who2:Danny L Harle": {
+  "role": "British music producer and composer",
+  "wiki": "Danny_L_Harle"
+ },
+ "who2:Olivia Rodrigo": {
+  "role": "American singer-songwriter and actress (born 2003)",
+  "wiki": "Olivia_Rodrigo"
+ },
+ "wiki2:Danny_L_Harle": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Danny_L._Harle%2C_2026_%28cropped%29.jpg/1280px-Danny_L._Harle%2C_2026_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Danny_L_Harle",
+  "w": 1689,
+  "h": 2387
+ },
+ "wiki2:Olivia_Rodrigo": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Glasto2025-546_%28cropped%29_2.jpg/1280px-Glasto2025-546_%28cropped%29_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Olivia_Rodrigo",
+  "w": 1433,
+  "h": 2111
+ },
+ "who2:The Smithereens": {
+  "role": "American rock band",
+  "wiki": "The_Smithereens"
+ },
+ "who2:Ginuwine": {
+  "role": "American singer (born 1970)",
+  "wiki": "Ginuwine"
+ },
+ "who2:Dionne Warwick": {
+  "role": "American singer (born 1940)",
+  "wiki": "Dionne_Warwick"
+ },
+ "wiki2:The_Smithereens": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/TheSmithereens3.JPG/1280px-TheSmithereens3.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Smithereens",
+  "w": 2181,
+  "h": 2188
+ },
+ "wiki2:Ginuwine": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ginuwine_performing_in_Austin%2C_Texas_2014.jpg/1280px-Ginuwine_performing_in_Austin%2C_Texas_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Ginuwine",
+  "w": 1580,
+  "h": 2048
+ },
+ "wiki2:Dionne_Warwick": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Dionne_Warwick_2021.jpg/1280px-Dionne_Warwick_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Dionne_Warwick",
+  "w": 2720,
+  "h": 3199
+ },
+ "who2:Ryan Hemsworth": {
+  "role": "Canadian record producer and DJ",
+  "wiki": "Ryan_Hemsworth"
+ },
+ "who2:George Clanton": {
+  "role": "American musician (born 1988)",
+  "wiki": "George_Clanton"
+ },
+ "wiki2:George_Clanton": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/GeorgeClantonVarietyPlayhouse1.jpg/1280px-GeorgeClantonVarietyPlayhouse1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/George_Clanton",
+  "w": 3024,
+  "h": 4032
+ },
+ "wiki2:Ryan_Hemsworth": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Ryanpresshot2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Ryan_Hemsworth",
+  "w": 901,
+  "h": 950
+ },
+ "who2:Wheatus": {
+  "role": "American rock band",
+  "wiki": "Wheatus"
+ },
+ "wiki2:Wheatus": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Brendan_B._Brown.jpg/1280px-Brendan_B._Brown.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Wheatus",
+  "w": 3024,
+  "h": 4032
+ },
+ "who2:Orville Peck": {
+  "role": "South African country musician (born 1988)",
+  "wiki": "Orville_Peck"
+ },
+ "wiki2:Orville_Peck": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Orville_Peck%2C_Roundhouse%2C_London.jpg/1280px-Orville_Peck%2C_Roundhouse%2C_London.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Orville_Peck",
+  "w": 3000,
+  "h": 4000
+ },
+ "who2:Steve Gerben": {
+  "role": "American comedian (born 1983)",
+  "wiki": "Steve_Gerben"
+ },
+ "wiki2:Steve_Gerben": null,
+ "who2:The Afghan Whigs": {
+  "role": "American rock band",
+  "wiki": "The_Afghan_Whigs"
+ },
+ "wiki2:The_Afghan_Whigs": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Afghan_Whigs_-_Haldern_Pop_Festival_2017_-_Alexander_Kellner_-_5.jpg/1280px-The_Afghan_Whigs_-_Haldern_Pop_Festival_2017_-_Alexander_Kellner_-_5.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Afghan_Whigs",
+  "w": 5369,
+  "h": 3579
+ },
+ "who2:Vic Mensa": {
+  "role": "American rapper (born 1993)",
+  "wiki": "Vic_Mensa"
+ },
+ "who2:Parachute": {
+  "role": "American pop rock band",
+  "wiki": "Parachute_(band)"
+ },
+ "wiki2:Parachute_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Parachute_2008.jpg/1280px-Parachute_2008.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Parachute_(band)",
+  "w": 3008,
+  "h": 2000
+ },
+ "who2:In Flames": {
+  "role": "Swedish heavy metal band",
+  "wiki": "In_Flames"
+ },
+ "who2:Fit for an Autopsy": {
+  "role": "American deathcore band",
+  "wiki": "Fit_for_an_Autopsy"
+ },
+ "wiki2:Fit_for_an_Autopsy": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/2018_Fit_For_An_Autopsy_-_by_2eight_-_DSC8316.jpg/1280px-2018_Fit_For_An_Autopsy_-_by_2eight_-_DSC8316.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Fit_for_an_Autopsy",
+  "w": 2048,
+  "h": 1363
+ },
+ "wiki2:In_Flames": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/In_Flames_-_2017153171434_2017-06-02_Rock_am_Ring_-_Sven_-_1D_X_II_-_1069_-_AK8I7011.jpg/1280px-In_Flames_-_2017153171434_2017-06-02_Rock_am_Ring_-_Sven_-_1D_X_II_-_1069_-_AK8I7011.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/In_Flames",
+  "w": 3558,
+  "h": 2372
+ },
+ "who2:Anamanaguchi": {
+  "role": "American chiptune-based pop and rock band",
+  "wiki": "Anamanaguchi"
+ },
+ "who2:Madeon": {
+  "role": "French musician and DJ (born 1994)",
+  "wiki": "Madeon"
+ },
+ "who2:Dave Matthews Band": {
+  "role": "American rock band",
+  "wiki": "Dave_Matthews_Band"
+ },
+ "who2:The All-American Rejects": {
+  "role": "American rock band",
+  "wiki": "The_All-American_Rejects"
+ },
+ "wiki2:Anamanaguchi": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Anamanaguchi.jpg/1280px-Anamanaguchi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Anamanaguchi",
+  "w": 5184,
+  "h": 3456
+ },
+ "wiki2:Madeon": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Madeon-portland-victory-live-vip-qa.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Madeon",
+  "w": 1071,
+  "h": 1428
+ },
+ "wiki2:Dave_Matthews_Band": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg/1280px-Dave_Matthews_Band_-_Band_Shot_Melbourne_2005.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Dave_Matthews_Band",
+  "w": 1807,
+  "h": 1233
+ },
+ "wiki2:The_All-American_Rejects": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/All_American_Rejects_Hampton_Casino_Ballroom.jpg/1280px-All_American_Rejects_Hampton_Casino_Ballroom.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_All-American_Rejects",
+  "w": 3914,
+  "h": 2598
+ },
+ "who2:The Pharcyde": {
+  "role": "American hip-hop group",
+  "wiki": "The_Pharcyde"
+ },
+ "who2:Parra for Cuva": {
+  "role": "German musician (born 1991)",
+  "wiki": "Parra_for_Cuva"
+ },
+ "wiki2:The_Pharcyde": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/The_Pharcyde_at_Rock_the_Bells_2008_-5_%283179590686%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Pharcyde",
+  "w": 1000,
+  "h": 750
+ },
+ "wiki2:Parra_for_Cuva": null,
+ "who2:Sugarland": {
+  "role": "American country music duo",
+  "wiki": "Sugarland"
+ },
+ "wiki2:Sugarland": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nettles_and_Bush_of_Sugarland_at_2007_MyCoke_Fest_in_Atlanta.JPG/1280px-Nettles_and_Bush_of_Sugarland_at_2007_MyCoke_Fest_in_Atlanta.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Sugarland",
+  "w": 1721,
+  "h": 1178
+ },
+ "who2:Genesis Owusu": {
+  "role": "Ghanaian-Australian singer (born 1998)",
+  "wiki": "Genesis_Owusu"
+ },
+ "wiki2:Genesis_Owusu": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Genesis_Owusu_%2853777280531%29.jpg/1280px-Genesis_Owusu_%2853777280531%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Genesis_Owusu",
+  "w": 3000,
+  "h": 2001
+ },
+ "who2:The Bad Plus": {
+  "role": "American jazz group",
+  "wiki": "The_Bad_Plus"
+ },
+ "wiki2:The_Bad_Plus": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/The_Bad_Plus-2.jpg/1280px-The_Bad_Plus-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Bad_Plus",
+  "w": 4353,
+  "h": 3269
+ },
+ "who2:Pianos Become the Teeth": {
+  "role": "Musical group from Baltimore, United States",
+  "wiki": "Pianos_Become_the_Teeth"
+ },
+ "who2:Jay Electronica": {
+  "role": "American rapper and record producer (born 1976)",
+  "wiki": "Jay_Electronica"
+ },
+ "wiki2:Jay_Electronica": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Jay_Electronica_%2841260354874%29.jpg/1280px-Jay_Electronica_%2841260354874%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jay_Electronica",
+  "w": 3638,
+  "h": 4074
+ },
+ "wiki2:Pianos_Become_the_Teeth": null,
+ "who2:Trippie Redd": {
+  "role": "American rapper (born 1999)",
+  "wiki": "Trippie_Redd"
+ },
+ "wiki2:Trippie_Redd": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Trippie_Redd_Photo_by_Kris_Knesel_%28cropped%29.jpg/1280px-Trippie_Redd_Photo_by_Kris_Knesel_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Trippie_Redd",
+  "w": 1498,
+  "h": 2001
+ },
+ "who2:Stewart Copeland": {
+  "role": "American drummer and composer (born 1952)",
+  "wiki": "Stewart_Copeland"
+ },
+ "wiki2:Stewart_Copeland": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Stewart_Copeland_at_SXSW_London_June_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Stewart_Copeland",
+  "w": 644,
+  "h": 931
+ },
+ "who2:John Scofield": {
+  "role": "American jazz guitarist and composer (born 1951)",
+  "wiki": "John_Scofield"
+ },
+ "who2:Larry Goldings": {
+  "role": "American jazz pianist, organist, and composer (born 1968)",
+  "wiki": "Larry_Goldings"
+ },
+ "who2:Oteil Burbridge": {
+  "role": "American musician (born 1964)",
+  "wiki": "Oteil_Burbridge"
+ },
+ "who2:Frost Children": {
+  "role": "American hyperpop duo",
+  "wiki": "Frost_Children"
+ },
+ "wiki2:John_Scofield": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/John_Scofield-8615.jpg/1280px-John_Scofield-8615.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/John_Scofield",
+  "w": 4187,
+  "h": 6280
+ },
+ "wiki2:Larry_Goldings": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Larry_Goldings_Oslo_Jazzfestival_2023_%28191407%29.jpg/1280px-Larry_Goldings_Oslo_Jazzfestival_2023_%28191407%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Larry_Goldings",
+  "w": 5500,
+  "h": 3667
+ },
+ "wiki2:Oteil_Burbridge": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Allman_Brother_-_Oteil_Burbridge.jpg/1280px-Allman_Brother_-_Oteil_Burbridge.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Oteil_Burbridge",
+  "w": 3008,
+  "h": 2000
+ },
+ "wiki2:Frost_Children": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/FrostChildren_ReithHumphreys1.jpg/1280px-FrostChildren_ReithHumphreys1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Frost_Children",
+  "w": 6000,
+  "h": 4000
+ },
+ "who2:Marshall Crenshaw": {
+  "role": "American musician (born 1953)",
+  "wiki": "Marshall_Crenshaw"
+ },
+ "who2:Lil' Kim": {
+  "role": "American rapper (born 1974)",
+  "wiki": "Lil'_Kim"
+ },
+ "wiki2:Marshall_Crenshaw": null,
+ "wiki2:Lil'_Kim": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/WEHO2022-6_%2852122368631%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Lil'_Kim",
+  "w": 1068,
+  "h": 1600
+ },
+ "who2:Danny Brown": {
+  "role": "American rapper (born 1981)",
+  "wiki": "Danny_Brown"
+ },
+ "who2:Menahan Street Band": {
+  "role": "American instrumental band",
+  "wiki": "Menahan_Street_Band"
+ },
+ "who2:Adam Pally": {
+  "role": "American comedian and actor (born 1982)",
+  "wiki": "Adam_Pally"
+ },
+ "wiki2:Danny_Brown": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Danny_Brown_%282022%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Danny_Brown",
+  "w": 675,
+  "h": 1038
+ },
+ "wiki2:Menahan_Street_Band": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/The_Menahan_Street_Band_%28Jazz_Fest_Wien_2011%29_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Menahan_Street_Band",
+  "w": 1280,
+  "h": 960
+ },
+ "wiki2:Adam_Pally": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/AdamPally-byPhilipRomano.jpg/1280px-AdamPally-byPhilipRomano.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Adam_Pally",
+  "w": 4000,
+  "h": 6000
+ },
+ "who2:Mason Jennings": {
+  "role": "American singer-songwriter (born 1975",
+  "wiki": "Mason_Jennings"
+ },
+ "wiki2:Mason_Jennings": null,
+ "who2:10,000 Maniacs": {
+  "role": "American alternative rock band",
+  "wiki": "10,000_Maniacs"
+ },
+ "wiki2:10,000_Maniacs": null,
+ "who2:Nessa Barrett": {
+  "role": "American singer-songwriter and media personality (born 2002)",
+  "wiki": "Nessa_Barrett"
+ },
+ "who2:Joan Osborne": {
+  "role": "American musician (born 1962)",
+  "wiki": "Joan_Osborne"
+ },
+ "who2:Cyndi Lauper": {
+  "role": "American singer-songwriter and actress (born 1953)",
+  "wiki": "Cyndi_Lauper"
+ },
+ "wiki2:Nessa_Barrett": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Nessa_Barrett_Irving_Plaza.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Nessa_Barrett",
+  "w": 1170,
+  "h": 1493
+ },
+ "wiki2:Joan_Osborne": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Joan_Osborne_at_the_2025_Toronto_International_Film_Festival_%28cropped_2%29.jpg/1280px-Joan_Osborne_at_the_2025_Toronto_International_Film_Festival_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Joan_Osborne",
+  "w": 3016,
+  "h": 4010
+ },
+ "wiki2:Cyndi_Lauper": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/CyndiLauperRAH260624_%2842_of_51%29_%2853819380830%29_%28cropped%29.jpg/1280px-CyndiLauperRAH260624_%2842_of_51%29_%2853819380830%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Cyndi_Lauper",
+  "w": 1523,
+  "h": 1868
+ }
 }
