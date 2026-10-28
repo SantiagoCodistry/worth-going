@@ -76,7 +76,7 @@ export function Table() {
     <div className="mx-auto max-w-[1400px] px-4 md:px-8">
       <section className="pt-10 md:pt-14">
         <h1 className="display text-[72px] md:text-[128px]">Restaurants</h1>
-        <p className="mt-3 max-w-xl text-[17px] text-ink-2">Places we’d send a friend, and what to order. Nobody pays to be here.</p>
+        <p className="mt-3 max-w-xl text-[17px] text-ink-2">Where we’d eat in New York, Philadelphia and Princeton, and what to order. Nobody paid to be listed.</p>
         <div className="mt-6 flex flex-col gap-2">
           <CityTabs />
           <div className="no-scrollbar flex gap-1.5 overflow-x-auto">

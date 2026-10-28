@@ -6,6 +6,7 @@ import type { CategoryId, WGEvent } from '../../src/shared/types.ts'
 
 const RULES: [CategoryId, RegExp][] = [
   ['startups', /\b(startup|start-up|founder|venture|vc\b|pitch|accelerator|entrepreneur|demo day|fundrais|investor|angel|seed round|hackathon|tech meetup|networking)\b/i],
+  ['comedy', /\b(comedy|comedian|stand-?up|improv|sketch)\b/i],
   ['sports', /\b(vs\.?|versus|game|match|football|basketball|hockey|baseball|soccer|lacrosse|regatta|marathon|tip-?off|kickoff)\b/i],
   ['music', /\b(concert|jazz|quartet|quintet|trio|orchestra|symphony|choir|chorus|recital|band|dj\b|live music|album|tour|opera|philharmonic|ensemble|songwriter)\b/i],
   ['art', /\b(exhibition|exhibit|gallery|museum|architecture|installation|opening reception|artist talk|curator|photograph|sculpture|dance|ballet|film screening|screening|theater|theatre)\b/i],
@@ -66,7 +67,7 @@ export function whyFor(e: WGEvent): string {
 }
 
 const CATEGORY_WEIGHT: Record<CategoryId, number> = {
-  music: 12, ideas: 12, art: 10, startups: 10, unusual: 12, sports: 6, dining: 0,
+  music: 12, ideas: 12, art: 10, startups: 10, unusual: 12, comedy: 12, sports: 6, dining: 0,
 }
 
 export function score(e: WGEvent): number {

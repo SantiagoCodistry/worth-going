@@ -12,6 +12,7 @@ export type CategoryId =
   | 'dining'
   | 'art'
   | 'unusual'
+  | 'comedy'
 
 /**
  * Where a listing came from.

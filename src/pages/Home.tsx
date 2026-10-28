@@ -44,7 +44,7 @@ export function Home() {
 
       {week.length > 0 && (
         <section className="mx-auto mt-16 max-w-[1400px] px-4 md:mt-20 md:px-8">
-          <SectionHead title="This week" blurb={city === 'all' ? 'Everything we’re tracking, in order.' : `Everything in ${cityById(city).name}, in order.`} to="/explore?when=week" toLabel="Full calendar" />
+          <SectionHead title="This week" blurb={city === 'all' ? undefined : cityById(city).name} to="/explore?when=week" toLabel="Full calendar" />
           <div className="border-t-[1.5px] border-ink">
             {week.slice(0, 10).map((e) => (
               <EventRow key={e.id} e={e} />
@@ -77,9 +77,6 @@ function Wall({ picks }: { picks: WGEvent[] }) {
           </Link>
         ))}
       </div>
-      <p className="mt-3 text-[14px] text-ink-2">
-        <span className="font-bold">This week’s wall:</span> {picks.map((e) => e.title).join(' / ')}
-      </p>
     </section>
   )
 }
@@ -131,7 +128,7 @@ function Restaurants() {
   const { city } = useStore()
   const places = city === 'all' ? PLACES : PLACES.filter((p) => p.city === city)
   return (
-    <Row title="Restaurants" blurb="Places we’d send a friend, and what to order." to="/table" toLabel="All restaurants">
+    <Row title="Restaurants" to="/table" toLabel="All restaurants">
       {places.slice(0, 10).map((p) => (
         <PlaceCard key={p.id} p={p} className="w-[68vw] shrink-0 snap-start sm:w-[260px]" />
       ))}

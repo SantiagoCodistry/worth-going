@@ -28,13 +28,14 @@ export interface Category {
 }
 
 export const CATEGORIES: Category[] = [
-  { id: 'unusual', label: 'Unusual', title: 'Unusual', blurb: 'Odd, specific, one-night-only.', color: 'var(--c-unusual)' },
-  { id: 'ideas', label: 'Talks', title: 'Talks', blurb: 'Who’s speaking, and why you’d want to hear them.', color: 'var(--c-ideas)' },
-  { id: 'music', label: 'Music', title: 'Music', blurb: 'Shows we’d buy tickets for.', color: 'var(--c-music)' },
-  { id: 'startups', label: 'Startups', title: 'Startups', blurb: 'Founder and investor events with real speakers.', color: 'var(--c-startups)' },
-  { id: 'art', label: 'Art', title: 'Art', blurb: 'Exhibitions worth the trip.', color: 'var(--c-art)' },
-  { id: 'sports', label: 'Sports', title: 'Sports', blurb: 'Games with something riding on them.', color: 'var(--c-sports)' },
-  { id: 'dining', label: 'Food', title: 'Restaurants', blurb: 'Places we’d send a friend.', color: 'var(--c-dining)' },
+  { id: 'unusual', label: 'Unusual', title: 'Unusual', blurb: '', color: 'var(--riso-pink)' },
+  { id: 'comedy', label: 'Comedy', title: 'Comedy', blurb: '', color: 'var(--riso-orange)' },
+  { id: 'ideas', label: 'Talks', title: 'Talks', blurb: '', color: 'var(--riso-yellow)' },
+  { id: 'music', label: 'Music', title: 'Music', blurb: '', color: 'var(--riso-blue)' },
+  { id: 'startups', label: 'Startups', title: 'Startups', blurb: '', color: 'var(--riso-green)' },
+  { id: 'art', label: 'Art', title: 'Art', blurb: '', color: 'var(--riso-teal)' },
+  { id: 'sports', label: 'Sports', title: 'Sports', blurb: '', color: 'var(--riso-federal)' },
+  { id: 'dining', label: 'Food', title: 'Restaurants', blurb: '', color: 'var(--riso-orange)' },
 ]
 
 export const categoryById = (id: CategoryId) => CATEGORIES.find((c) => c.id === id)!

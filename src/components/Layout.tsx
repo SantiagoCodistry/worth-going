@@ -132,7 +132,7 @@ function Footer() {
       <div className="mx-auto grid max-w-[1400px] gap-10 px-4 py-10 md:grid-cols-[1.6fr_1fr_1fr] md:px-8">
         <div>
           <Wordmark className="text-[64px] md:text-[96px]" />
-          <p className="mt-3 max-w-sm text-[14px] text-ink-2">New York, Philadelphia and Princeton. Picked by hand, linked to the source.</p>
+          <p className="mt-3 max-w-sm text-[14px] text-ink-2">Events in New York, Philadelphia and Princeton. Every listing links to its source.</p>
         </div>
         <ul className="space-y-1.5 text-[14px] font-semibold">
           <li><Link className="hover:underline" to="/explore?when=weekend">This weekend</Link></li>

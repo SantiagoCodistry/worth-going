@@ -69,7 +69,7 @@ export function Explore() {
     <div className="mx-auto max-w-[1400px] px-4 md:px-8">
       <section className="pt-10 md:pt-16">
         <h1 className="display text-[72px] md:text-[128px]">Calendar</h1>
-        <p className="mt-3 text-[17px] text-ink-2">Everything we’re tracking, day by day.</p>
+        
       </section>
 
       {/* Filters */}

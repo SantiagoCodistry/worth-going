@@ -27,6 +27,7 @@ const I = (bg: string, ink: string, dark = false): Ink => ({
 // Ink pairs per category: paper colour + second ink.
 const INKS: Record<CategoryId, Ink[]> = {
   unusual: [I('pink', 'blue'), I('orange', 'federal'), I('yellow', 'pink'), I('green', 'pink', true)],
+  comedy: [I('orange', 'pink'), I('pink', 'yellow'), I('yellow', 'orange')],
   ideas: [I('yellow', 'blue'), I('federal', 'pink', true), I('teal', 'yellow', true), I('orange', 'blue'), I('pink', 'federal')],
   music: [I('blue', 'pink', true), I('pink', 'federal'), I('orange', 'blue'), I('federal', 'yellow', true), I('green', 'yellow', true)],
   startups: [I('green', 'yellow', true), I('yellow', 'green'), I('federal', 'orange', true)],

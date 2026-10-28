@@ -112,6 +112,15 @@ export function EventPage() {
             </a>
           </div>
 
+          <section className="mt-10">
+            <h2 className="display text-[36px]">About</h2>
+            <div className="prose-wg mt-2 text-[16px] leading-relaxed text-ink-2">
+              {e.description.split(/\n\n+/).map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
+          </section>
+
           {e.people && e.people.length > 0 && (
             <section className="mt-10">
               <h2 className="display text-[36px]">{whoTitle}</h2>
@@ -146,14 +155,6 @@ export function EventPage() {
             </section>
           )}
 
-          <section className="mt-10">
-            <h2 className="display text-[36px]">About</h2>
-            <div className="prose-wg mt-2 text-[16px] leading-relaxed text-ink-2">
-              {e.description.split(/\n\n+/).map((para, i) => (
-                <p key={i}>{para}</p>
-              ))}
-            </div>
-          </section>
 
           <p className="mt-10 border-t rule pt-4 text-[13px] text-mute">
             {e.provenance === 'preview' ? 'Preview listing, added by hand' : 'Fetched automatically'} on {checked} from{' '}
