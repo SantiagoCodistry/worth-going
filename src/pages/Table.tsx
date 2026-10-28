@@ -7,6 +7,8 @@ import { PLACES } from '../data/places.ts'
 import { useStore, type PlaceLog } from '../lib/store.tsx'
 import { CityTabs } from '../components/Layout.tsx'
 import { Photo, inkFor } from '../components/Poster.tsx'
+import { ShareButton } from '../components/bits.tsx'
+import { appUrl } from '../lib/share.ts'
 
 const GOOD_FOR: Record<string, string> = {
   cheap: 'Cheap',
@@ -397,6 +399,7 @@ export function PlacePage() {
             <a href={mapsUrl(p)} target="_blank" rel="noreferrer" className="btn btn-quiet">
               Directions ↗
             </a>
+            <ShareButton title={p.name} text={`${p.name} — ${p.dek}`} url={appUrl(`table/${p.id}`)} />
             {p.website && (
               <a href={p.website} target="_blank" rel="noreferrer" className="btn btn-quiet">
                 Website ↗

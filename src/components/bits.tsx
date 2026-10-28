@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import { shareOrCopy } from '../lib/share.ts'
 import type { WGEvent } from '../shared/types.ts'
 import { useStore } from '../lib/store.tsx'
 
@@ -61,5 +63,29 @@ export function Spinner() {
     <div className="flex min-h-[50vh] items-center justify-center">
       <p className="stamp animate-pulse text-[14px] text-mute">Loading</p>
     </div>
+  )
+}
+
+/** Share sheet on phones, copy link elsewhere. Says what happened for a moment. */
+export function ShareButton({ title, text, url, label = 'Share', className = 'btn btn-quiet' }: { title: string; text?: string; url: string; label?: string; className?: string }) {
+  const [state, setState] = useState<'idle' | 'copied' | 'failed'>('idle')
+  return (
+    <button
+      type="button"
+      className={className}
+      onClick={async (ev) => {
+        ev.preventDefault()
+        ev.stopPropagation()
+        const r = await shareOrCopy({ title, text, url })
+        if (r === 'shared') return
+        setState(r)
+        setTimeout(() => setState('idle'), 2200)
+      }}
+    >
+      <svg width="13" height="15" viewBox="0 0 13 15" aria-hidden>
+        <path d="M6.5 1v9M3 4.5L6.5 1 10 4.5M1.5 8v5.5h10V8" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round" />
+      </svg>
+      <span>{state === 'copied' ? 'Link copied' : state === 'failed' ? 'Couldn’t copy' : label}</span>
+    </button>
   )
 }

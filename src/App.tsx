@@ -8,6 +8,7 @@ import { EventPage } from './pages/EventPage.tsx'
 import { Explore } from './pages/Explore.tsx'
 import { Home } from './pages/Home.tsx'
 import { Saved } from './pages/Saved.tsx'
+import { SharedList } from './pages/SharedList.tsx'
 import { PlacePage, Table } from './pages/Table.tsx'
 import { You } from './pages/You.tsx'
 
@@ -37,6 +38,7 @@ export default function App() {
             <Route path="table" element={<Table />} />
             <Route path="table/:id" element={<PlacePage />} />
             <Route path="saved" element={<Saved />} />
+            <Route path="list" element={<SharedList />} />
             <Route path="about" element={<About />} />
             <Route path="you" element={<You />} />
             <Route path="account" element={<Account />} />
