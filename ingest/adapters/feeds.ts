@@ -40,6 +40,8 @@ export async function fromIcs(url: string, d: Defaults, ctx: FetchContext): Prom
     .map((e) => {
       const description = excerpt(stripBoilerplate(plain(e.description ?? '')))
       const text = `${e.categories.join(' ')} ${description}`
+      // Luma puts the event's own page in the description, not in URL.
+      const own = (e.description ?? '').match(/up-to-date information at:\s*(https?:\/\/\S+)/i)?.[1]
       return {
         id: `${slug(d.sourceName)}-${slug(e.uid ?? e.summary)}-${e.start.slice(0, 10)}`,
         title: e.summary,
@@ -55,7 +57,7 @@ export async function fromIcs(url: string, d: Defaults, ctx: FetchContext): Prom
         isFree: isFree(text) || undefined,
         image: e.image ? { url: e.image } : undefined,
         sourceName: d.sourceName,
-        sourceUrl: e.url || d.homepage,
+        sourceUrl: own || e.url || d.homepage,
       }
     })
 }

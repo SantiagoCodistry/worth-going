@@ -228,3 +228,10 @@ test('account sync merges browser and account state without dropping anything', 
   assert.equal(m.profile?.home, 'nyc')
   assert.deepEqual(Object.keys(m.places).sort(), ['x', 'y'])
 })
+
+test('Luma descriptions lose their boilerplate and give the event its own link', async () => {
+  const { stripBoilerplate } = await import('../ingest/adapters/feeds.ts')
+  const raw = 'Get up-to-date information at: https://luma.com/mx9dqfpr\n\nAddress:\nCheck event page for more details.\n\nFounders. Operators.'
+  assert.equal(stripBoilerplate(raw), 'Founders. Operators.')
+  assert.equal(raw.match(/up-to-date information at:\s*(https?:\/\/\S+)/i)?.[1], 'https://luma.com/mx9dqfpr')
+})

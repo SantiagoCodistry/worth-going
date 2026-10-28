@@ -21,7 +21,7 @@ const cache: CacheShape = existsSync(CACHE) ? JSON.parse(readFileSync(CACHE, 'ut
 
 // ——— Image checks ———
 
-const JUNK_URL = /logo|favicon|sprite|icon|placeholder|default|blank|spacer|map|staticmap|avatar|badge|banner-ad|share-image|og-default|wordmark/i
+const JUNK_URL = /logo|favicon|sprite|icon|placeholder|default|blank|spacer|map|staticmap|avatar|badge|banner-ad|share-image|og-default|wordmark|\/discovery\//i
 
 /** Read just enough of an image to learn its pixel size. */
 async function measure(url: string): Promise<{ w: number; h: number; type: string } | null> {
