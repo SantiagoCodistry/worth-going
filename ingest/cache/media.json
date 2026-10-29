@@ -925,6 +925,7 @@
   "lng": -74.6510893
  },
  "place:hoagie-haven": {
+  "menu": "https://www.hoagiehaven.com/#menu",
   "lat": 40.3521955,
   "lng": -74.6519045
  },
@@ -5167,5 +5168,377 @@
   "link": "https://en.wikipedia.org/wiki/New_York_Botanical_Garden",
   "w": 800,
   "h": 532
+ },
+ "og2:https://www.songkick.com/festivals/3811727-dj-bash-halloween-en-nuevayol/id/43490418-dj-bash-halloween-en-nuevayol-2026?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://newyorkcomedyclub.com/events/elle-orlando-sean-donnelly-mike-britt-julian-mccullough-mike-figs": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/img-7859-jpg-aaee095f-img-7859-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/elle-orlando-sean-donnelly-mike-britt-julian-mccullough-mike-figs",
+  "w": 809,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/jamie-wolf-leclerc-meka-mo-sarah-adelman": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/untitled-design-45-png-40e50dc6-untitled-design-45-png.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/jamie-wolf-leclerc-meka-mo-sarah-adelman",
+  "w": 975,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/ashley-austin-morris-kevin-dombrowski-eagle-witt-oscar-aydin-mike-figs": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/headshot-plaid-jpeg-168b0cfc-headshot-plaid-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/ashley-austin-morris-kevin-dombrowski-eagle-witt-oscar-aydin-mike-figs",
+  "w": 934,
+  "h": 660
+ },
+ "og2:https://www.songkick.com/concerts/43361187-a-boogie-wit-da-hoodie-at-ubs-arena?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-10-29/": null,
+ "who2:Neurosis": {
+  "role": "American post-metal band",
+  "wiki": "Neurosis_(band)"
+ },
+ "wiki2:Neurosis_(band)": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Neurosis-at-tuska.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Neurosis_(band)",
+  "w": 1141,
+  "h": 685
+ },
+ "og2:https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-10-29/": null,
+ "who2:The Blaze": {
+  "role": "French musical duo",
+  "wiki": "The_Blaze_(band)"
+ },
+ "wiki2:The_Blaze_(band)": null,
+ "og2:https://www.songkick.com/concerts/43438321-blaze-at-knockdown-center?utm_medium=organic&utm_source=microformat": null,
+ "who2:Blu DeTiger": {
+  "role": "American musician (born 1998)",
+  "wiki": "Blu_DeTiger"
+ },
+ "wiki2:Blu_DeTiger": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Kitten_%40_Hermosa_Beach_Pier_08_17_2019_%2848563493986%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Blu_DeTiger",
+  "w": 1062,
+  "h": 1327
+ },
+ "og2:https://luma.com/harvest-vercel": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/06/286c9637-7497-4bef-b419-e38b1238d59a.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/harvest-vercel",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://planetprinceton.com/event/jersey-art-meetup/2026-11-04/": null,
+ "og2:https://luma.com/klw6jrtv": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/4f/6412ccd2-2a90-499d-9935-89a4952885ee.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/klw6jrtv",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Big Wreck": {
+  "role": "Canadian rock band",
+  "wiki": "Big_Wreck"
+ },
+ "og2:https://luma.com/whcrrc4g": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/t3/4c6ed955-6d8d-49d6-af14-7426f41cf877.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/whcrrc4g",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Cowboy Junkies": {
+  "role": "Canadian band",
+  "wiki": "Cowboy_Junkies"
+ },
+ "wiki2:Big_Wreck": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Big_Wreck.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Big_Wreck",
+  "w": 1280,
+  "h": 720
+ },
+ "wiki2:Cowboy_Junkies": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Cowboy_Junkies_2015-10-02.jpg/1280px-Cowboy_Junkies_2015-10-02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Cowboy_Junkies",
+  "w": 5312,
+  "h": 2988
+ },
+ "who2:Punch Brothers": {
+  "role": "American band",
+  "wiki": "Punch_Brothers"
+ },
+ "wiki2:Punch_Brothers": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/2008_Punch_Brothers_-_credit_Cassandra_Jenkins_SMALL_for_website.jpg/1280px-2008_Punch_Brothers_-_credit_Cassandra_Jenkins_SMALL_for_website.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Punch_Brothers",
+  "w": 2854,
+  "h": 2020
+ },
+ "og2:https://luma.com/vfgd7f4r": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/8l/1067678f-0b0e-4952-b28d-cccc451e42cf.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/vfgd7f4r",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Louis Cato": {
+  "role": "American musician and bandleader (born 1985)",
+  "wiki": "Louis_Cato"
+ },
+ "wiki2:Louis_Cato": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Brooklyn_Jam_Session_with_Louis_Cato.jpg/1280px-Brooklyn_Jam_Session_with_Louis_Cato.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Louis_Cato",
+  "w": 2162,
+  "h": 2408
+ },
+ "og2:https://artscouncilofprinceton.org/event/jam/2026-11-04/": null,
+ "who2:Sam Amidon": {
+  "role": "American musician (born 1981)",
+  "wiki": "Sam_Amidon"
+ },
+ "wiki2:Sam_Amidon": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Sam_Amidon-1160199.jpg/1280px-Sam_Amidon-1160199.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Sam_Amidon",
+  "w": 3448,
+  "h": 4592
+ },
+ "og2:https://luma.com/take2-5cht": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/h5/9cb21bec-9588-4420-8973-c08a9c802a27.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/take2-5cht",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Fuel": {
+  "role": "American rock band",
+  "wiki": "Fuel_(band)"
+ },
+ "wiki2:Fuel_(band)": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/LRAFB_Rock_Fest_%28Image_20_of_20%29.jpg/1280px-LRAFB_Rock_Fest_%28Image_20_of_20%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Fuel_(band)",
+  "w": 8256,
+  "h": 5504
+ },
+ "og2:https://luma.com/151i0zqo": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/0n/87ea9cb0-49fb-4773-ae4b-6526db6f2cd0.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/151i0zqo",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/m6cjlqdd": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/w3/633aa797-d353-4620-8ebe-2f2094e735ec.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/m6cjlqdd",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/fyma6djb": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ot/06b2a67c-2c1d-43b2-accf-0bcfe16d8498.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/fyma6djb",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Suzanne Ciani": {
+  "role": "American musician (born 1946)",
+  "wiki": "Suzanne_Ciani"
+ },
+ "og2:https://luma.com/xoab7j3q": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/8m/185fc0bf-8ef2-49b5-88bf-b2f005491689.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/xoab7j3q",
+  "w": 800,
+  "h": 420
+ },
+ "wiki2:Suzanne_Ciani": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Suzanne_Ciani_at_KQED_in_August_2024.jpg/1280px-Suzanne_Ciani_at_KQED_in_August_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Suzanne_Ciani",
+  "w": 3965,
+  "h": 2875
+ },
+ "who2:Abbie Callahan": {
+  "role": "American country singer-songwriter (born 2001)",
+  "wiki": "Abbie_Callahan"
+ },
+ "wiki2:A_Place_to_Bury_Strangers": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/A_Place_To_Bury_Strangers.JPG/1280px-A_Place_To_Bury_Strangers.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/A_Place_to_Bury_Strangers",
+  "w": 3648,
+  "h": 2736
+ },
+ "wiki2:Abbie_Callahan": null,
+ "og2:https://luma.com/maayans-l7fo": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/vs/eea4733c-1ede-49d2-849b-5b9aafeb3601.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/maayans-l7fo",
+  "w": 800,
+  "h": 420
+ },
+ "price:https://donyc.com/venues/92ny": null,
+ "who2:Kate Bollinger": {
+  "role": "American folk musician",
+  "wiki": "Kate_Bollinger"
+ },
+ "wiki2:Kate_Bollinger": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/KateBollingerManchester.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Kate_Bollinger",
+  "w": 989,
+  "h": 1386
+ },
+ "og2:https://luma.com/andrews-z9j8": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/4d/109e2a95-0079-4bd6-885a-058732e2cc56.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/andrews-z9j8",
+  "w": 800,
+  "h": 420
+ },
+ "who2:The Casket Lottery": {
+  "role": "American indie rock band",
+  "wiki": "The_Casket_Lottery"
+ },
+ "wiki2:The_Casket_Lottery": null,
+ "who2:Strawberry Guy": {
+  "role": "Welsh indie pop musician",
+  "wiki": "Strawberry_Guy"
+ },
+ "wiki2:Strawberry_Guy": null,
+ "who2:Angine de Poitrine": {
+  "role": "Canadian experimental rock duo",
+  "wiki": "Angine_de_Poitrine"
+ },
+ "wiki2:Angine_de_Poitrine": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Angine_de_Poitrine_in_May_2026_at_the_Great_Escape_40.jpg/1280px-Angine_de_Poitrine_in_May_2026_at_the_Great_Escape_40.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Angine_de_Poitrine",
+  "w": 1920,
+  "h": 1280
+ },
+ "og2:https://luma.com/another-p5rf": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/qw/282fe1f2-e0b0-4575-891c-c1d9f9568a30.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/another-p5rf",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/juntodinnernov9": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/lu/0ac6b519-56d6-4db3-8828-8e56a2505878.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/juntodinnernov9",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43313123-protomartyr-at-webster-hall?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43401316-mike-sullivan-at-perch-music-and-arts-workshop?utm_medium=organic&utm_source=microformat": null,
+ "who2:LCD Soundsystem": {
+  "role": "American rock band",
+  "wiki": "LCD_Soundsystem"
+ },
+ "who2:Rufus Wainwright": {
+  "role": "Canadian-American singer-songwriter (born 1973)",
+  "wiki": "Rufus_Wainwright"
+ },
+ "who2:Action Bronson": {
+  "role": "American rapper (born 1983)",
+  "wiki": "Action_Bronson"
+ },
+ "wiki2:Action_Bronson": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Action_Bronson_Gov_Ball_2016_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Action_Bronson",
+  "w": 1143,
+  "h": 1598
+ },
+ "who2:Giveon": {
+  "role": "American R&B singer (born 1995)",
+  "wiki": "Giveon"
+ },
+ "wiki2:Giveon": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png/1280px-Giveon_at_2026_Montreux_Jazz_Festival_-_Upright.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Giveon",
+  "w": 2971,
+  "h": 4160
+ },
+ "who2:Steve Aoki": {
+  "role": "American DJ and music producer (born 1977)",
+  "wiki": "Steve_Aoki"
+ },
+ "wiki2:Steve_Aoki": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Steve_Aoki_by_Gage_Skidmore.jpg/1280px-Steve_Aoki_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Steve_Aoki",
+  "w": 1704,
+  "h": 2089
+ },
+ "og2:https://www.songkick.com/concerts/43154992-sombr-at-xfinity-mobile-arena?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43416650-destructos-at-johnny-brendas?utm_medium=organic&utm_source=microformat": null,
+ "who2:Rachael Yamagata": {
+  "role": "American musician (born 1977)",
+  "wiki": "Rachael_Yamagata"
+ },
+ "who2:Hot Water Music": {
+  "role": "American post-hardcore band",
+  "wiki": "Hot_Water_Music"
+ },
+ "wiki2:Rachael_Yamagata": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Rachael_Yamagata_%40_Moroccan_Lounge_10_24_2024_%2854229274646%29.jpg/1280px-Rachael_Yamagata_%40_Moroccan_Lounge_10_24_2024_%2854229274646%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Rachael_Yamagata",
+  "w": 2800,
+  "h": 3500
+ },
+ "og2:https://www.songkick.com/concerts/43344237-jodeci-at-xcite-center-parx-casino?utm_medium=organic&utm_source=microformat": null,
+ "wiki2:Hot_Water_Music": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Hot_Water_Music_-_Rock_am_Ring_2019-4836.jpg/1280px-Hot_Water_Music_-_Rock_am_Ring_2019-4836.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Hot_Water_Music",
+  "w": 6720,
+  "h": 4480
+ },
+ "who2:Suicide Silence": {
+  "role": "American deathcore band",
+  "wiki": "Suicide_Silence"
+ },
+ "wiki2:Suicide_Silence": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Suicide_Silence_-_Rock_am_Ring_2017-AL3048.jpg/1280px-Suicide_Silence_-_Rock_am_Ring_2017-AL3048.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Suicide_Silence",
+  "w": 5092,
+  "h": 2703
+ },
+ "who2:Paul McCartney": {
+  "role": "English musician and songwriter (born 1942)",
+  "wiki": "Paul_McCartney"
+ },
+ "who2:Terry Gross": {
+  "role": "American radio host and producer (born 1951)",
+  "wiki": "Terry_Gross"
+ },
+ "og2:https://www.songkick.com/concerts/43412929-sleepwalk-at-ortliebs?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43429899-decent-criminal-at-theatre-of-living-arts?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43452322-paul-mccartney-at-town-hall?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43471298-tagua-tagua-at-milkboy?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43269796-rising-appalachia-at-national-sawdust?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43364437-jamila-woods-at-music-hall-of-williamsburg?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43477885-6lack-at-irving-plaza?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://just-nesh.helium-comedy.com/philadelphia/": null,
+ "og2:https://artscouncilofprinceton.org/event/artist-winter-village-week-5/": null,
+ "geo:The Perch Music & Arts Workshop|Philadelphia|Philadelphia": null,
+ "og2:https://www.hoagiehaven.com/": {
+  "url": "https://hoagiehaven.com/wp-content/plugins/haven-demo-c/img/crew-50th.jpg",
+  "credit": "hoagiehaven.com",
+  "link": "https://www.hoagiehaven.com/",
+  "w": 1100,
+  "h": 825
  }
 }
