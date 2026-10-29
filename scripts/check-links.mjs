@@ -23,8 +23,8 @@ for (const p of edition.picks) {
   if (p.image) rows.push({ what: `${p.title} · photo`, url: p.image.url, ...(await check(p.image.url)) })
 }
 for (const pl of edition.places) if (pl.book) rows.push({ what: `${pl.name} · booking`, url: pl.book.url, ...(await check(pl.book.url)) })
-// 403/429 from bot protection usually means the page is fine for people; anything else is worth a look.
-const bad = rows.filter((r) => !(r.status >= 200 && r.status < 400) && r.status !== 403 && r.status !== 429)
+// 403/406/429 from bot protection usually means the page is fine for people; anything else is worth a look.
+const bad = rows.filter((r) => !(r.status >= 200 && r.status < 400) && r.status !== 403 && r.status !== 406 && r.status !== 429)
 mkdirSync('screenshots', { recursive: true })
 writeFileSync('screenshots/links.json', JSON.stringify({ edition: edition.date, checked: rows.length, bad, rows }, null, 1))
 console.log(`${rows.length} links checked, ${bad.length} need a look`)

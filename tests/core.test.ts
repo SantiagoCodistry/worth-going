@@ -251,3 +251,12 @@ test('near me: nearest area, distance nudges, restaurants closest first', async 
   e2.places[3].lng = -74.0001
   assert.equal(placesFor(e2, 'near', here)[0].id, 'nyc3')
 })
+
+test('booking: a scraped Resy link for a sister location in another town is ignored', async () => {
+  const { reservation } = await import('../src/lib/booking.ts')
+  const { PLACES } = await import('../src/data/places.ts')
+  const agricola = PLACES.find((p) => p.id === 'agricola')!
+  assert.equal(reservation(agricola, { platform: 'Resy', url: 'https://resy.com/cities/morristown-nj/venues/agricola-morristown' }), null)
+  const ok = { platform: 'Resy', url: 'https://resy.com/cities/princeton-nj/venues/agricola' }
+  assert.deepEqual(reservation(agricola, ok), ok)
+})

@@ -1056,10 +1056,6 @@
    "price": "$$$",
    "why": "The safe, good choice when parents visit.",
    "address": "11 Witherspoon St, Princeton",
-   "book": {
-    "via": "Resy",
-    "url": "https://resy.com/cities/morristown-nj/venues/agricola-morristown"
-   },
    "map": "https://www.google.com/maps/search/?api=1&query=Agricola%2C%2011%20Witherspoon%20St%2C%20Princeton",
    "lat": 40.3501239,
    "lng": -74.6598063
@@ -1634,5 +1630,5 @@
    }
   }
  ],
- "builtAt": "2026-10-29T17:18:38.106Z"
+ "builtAt": "2026-10-29T17:23:43.942Z"
 }

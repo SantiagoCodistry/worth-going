@@ -5,7 +5,14 @@ import { cityById } from '../shared/taxonomy.ts'
 
 const RESY_CITY: Record<string, string> = { nyc: 'new-york-ny', philly: 'philadelphia-pa', princeton: 'princeton-nj', nj: 'new-jersey' }
 
-export function reservation(p: Place, found?: { platform: string; url: string }): { platform: string; url: string } | null {
+/** A Resy link scraped from a restaurant group's site can point at a sister location in another town. */
+const otherTown = (p: Place, url: string) => {
+  const slug = url.match(/resy\.com\/cities\/([a-z]+-[a-z]{2})\//)?.[1]
+  return !!slug && slug !== RESY_CITY[p.city]
+}
+
+export function reservation(p: Place, scraped?: { platform: string; url: string }): { platform: string; url: string } | null {
+  const found = scraped && !otherTown(p, scraped.url) ? scraped : undefined
   const b = p.book
   if (b && b.via !== 'Walk-in') {
     if (b.url) return { platform: b.via, url: b.url }
