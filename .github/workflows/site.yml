@@ -82,6 +82,7 @@ jobs:
         with:
           node-version: 22
       - run: npm i --no-save playwright && npx playwright install --with-deps chromium
+      - run: node scripts/check-links.mjs
       - run: node scripts/screenshots.mjs "${{ needs.deploy.outputs.url }}"
       - uses: actions/upload-artifact@v4
         with:

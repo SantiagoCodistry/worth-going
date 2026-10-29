@@ -4,7 +4,8 @@
 // details, photos, people) and writes frozen copies to public/data/editions/.
 // An edition is rebuilt while its week is still running; after that the frozen
 // file is kept as it is, so the archive doesn't change when listings expire.
-// Pass --all to rebuild every edition whose events are still in the data.
+// Pass --all to rebuild every edition whose events are still in the data, and
+// --refresh to re-read picked events from the feeds instead of the pinned copy.
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
@@ -14,13 +15,27 @@ import { addDays, nyDateKey } from '../src/shared/time.ts'
 import { categoryById } from '../src/shared/taxonomy.ts'
 import { PLACES } from '../src/data/places.ts'
 import { mapsUrl, reservation } from '../src/lib/booking.ts'
-import { saveCache, wikiImage } from './lib/media.ts'
+import { commonsImage, saveCache, wikiImage } from './lib/media.ts'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const OUT = resolve(root, 'public/data/editions')
 const NOT_BILLED = /moderator$|(^|,\s*)(co-)?host$/i
 const CITIES: EditionCity[] = ['princeton', 'nyc', 'philly']
 const all = process.argv.includes('--all')
+const refresh = process.argv.includes('--refresh')
+
+/** A Wikipedia page's photo, or a Commons search, as the editor asked (needs network; cached). */
+async function editorPhoto(wiki?: string, commons?: string) {
+  if (wiki) {
+    const w = await wikiImage(wiki).catch(() => null)
+    if (w) return w
+  }
+  if (commons) {
+    const [name, place = ''] = commons.split('|')
+    return commonsImage(name, place).catch(() => null)
+  }
+  return null
+}
 
 const data = JSON.parse(readFileSync(resolve(root, 'public/data/events.json'), 'utf8')) as Dataset
 const byId = new Map(data.events.map((e) => [e.id, e]))
@@ -89,26 +104,28 @@ async function build() {
       const picks: Pick[] = []
       for (const s of src.picks) {
         if (s.event === undefined) {
-          // Written by hand: use as is, with an optional Wikipedia photo.
-          const { wiki, event: _none, ...manual } = s
+          // Written by hand: use as is, with an optional Wikipedia or Commons photo.
+          const { wiki, commons, event: _none, ...manual } = s
           void _none
-          if (wiki && !manual.image) manual.image = (await wikiImage(wiki).catch(() => null)) ?? undefined
+          if (!manual.image) manual.image = (await editorPhoto(wiki, commons)) ?? undefined
           picks.push(manual)
           continue
         }
+        // Details the editor checked are pinned once the edition is built: a later feed
+        // refresh can't change the time, venue or link (pass --refresh to rebuild from the feeds).
+        const old = frozen?.picks.find((p) => p.id === s.event)
         const e = byId.get(s.event)
-        if (e) {
-          const pick = fromEvent(e, s)
-          // The editor's chosen Wikipedia photo wins over the listing's (needs network; cached).
-          if (s.wiki) pick.image = (await wikiImage(s.wiki).catch(() => null)) ?? pick.image
-          picks.push(pick)
-        }
+        let pick: Pick
+        if (old && !refresh) pick = { ...old, why: s.why, title: s.title ?? old.title, kind: s.kind ?? old.kind, link: s.link ?? old.link, price: s.price ?? old.price, city: s.city ?? old.city }
+        else if (e) pick = fromEvent(e, s)
         else {
-          // Gone from the feeds (it happened, or the source dropped it): keep the frozen copy if there is one.
-          const old = frozen?.picks.find((p) => p.id === s.event)
-          if (old) picks.push({ ...old, why: s.why })
-          else console.warn(`! ${src.date}: no listing with id ${s.event}; skipped`)
+          console.warn(`! ${src.date}: no listing with id ${s.event}; skipped`)
+          continue
         }
+        // Photo: the editor's choice first, then the listing's. Organizer flyers with UI text (Luma cards) don't count.
+        const chosen = (await editorPhoto(s.wiki, s.commons)) ?? (old?.image && !refresh ? old.image : e?.image)
+        pick.image = chosen && !/luma/i.test(chosen.credit ?? '') ? chosen : undefined
+        picks.push(pick)
       }
       const places = CITIES.flatMap((c) => src.places[c].map((id) => place(id, c)))
       edition = { date: src.date, number: src.number, weekOf, picks, places, builtAt: new Date().toISOString() }

@@ -190,6 +190,13 @@ export function shortDay(p: Pick): string {
   return new Intl.DateTimeFormat('en-US', { timeZone: isDateOnly(p.start) ? 'UTC' : tzOf(p.city), weekday: 'short', month: 'short', day: 'numeric' }).format(d)
 }
 
+/** Day, weekday and month on their own, for the poster fallback: { day: "31", weekday: "Sat", month: "Oct" }. */
+export function dateParts(p: Pick): { day: string; weekday: string; month: string } {
+  const d = new Date(isDateOnly(p.start) ? `${p.start}T12:00:00Z` : p.start)
+  const f = (o: Intl.DateTimeFormatOptions) => new Intl.DateTimeFormat('en-US', { timeZone: isDateOnly(p.start) ? 'UTC' : tzOf(p.city), ...o }).format(d)
+  return { day: f({ day: 'numeric' }), weekday: f({ weekday: 'long' }), month: f({ month: 'short' }) }
+}
+
 /** Has it already happened (not counting exhibitions still on view)? */
 export function isPast(p: Pick, now = Date.now()): boolean {
   const last = p.end ?? p.start

@@ -1,6 +1,5 @@
 @import 'tailwindcss';
 @import '@fontsource-variable/anybody/standard.css';
-@import '@fontsource-variable/bodoni-moda/opsz.css';
 @import '@fontsource-variable/bodoni-moda/opsz-italic.css';
 @import '@fontsource-variable/archivo/standard.css';
 
@@ -130,9 +129,9 @@ p {
   /* Small spaced capitals for labels, kickers and the masthead. */
   .caps {
     font-family: var(--font-sans);
-    font-size: 11.5px;
+    font-size: 12px;
     font-weight: 600;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.13em;
     text-transform: uppercase;
   }
   .hairline {
@@ -182,6 +181,14 @@ p {
   .btn:disabled {
     opacity: 0.4;
     pointer-events: none;
+  }
+  /* Riso halftone: a dot screen in the second colour, fading across the sheet. */
+  .halftone {
+    background-image: radial-gradient(circle at center, var(--dot) 0 34%, transparent 36%);
+    background-size: 2.6cqw 2.6cqw;
+    /* Dense behind the numeral, clear under the type at the top and bottom. */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 14%, #000 38%, #000 56%, transparent 72%);
+    mask-image: linear-gradient(to bottom, transparent 14%, #000 38%, #000 56%, transparent 72%);
   }
   .no-scrollbar {
     scrollbar-width: none;

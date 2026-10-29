@@ -1,8 +1,9 @@
 // The printed sheet around every page: masthead, footer, and the shared bits
-// (misregistered type, photos with flyer fallbacks).
+// (misregistered type, photos with riso poster fallbacks).
 import { useState, type ReactNode } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import type { Pick } from '../shared/edition.ts'
+import { dateParts, timeOf } from '../lib/edition.ts'
 
 /** Ink text with a pink pass printed slightly out of register behind it. */
 export function Misreg({ children, className = '' }: { children: string; className?: string }) {
@@ -68,61 +69,98 @@ export function Footer() {
   )
 }
 
-const FLYER = [
-  { bg: 'var(--pink)', fg: 'var(--ink)' },
-  { bg: 'var(--ink)', fg: 'var(--paper)' },
-  { bg: 'var(--yellow)', fg: 'var(--ink)' },
+// Two-colour riso sheets for picks without a photo: paper, ink and a second pass.
+const SHEETS = [
+  { bg: 'var(--pink)', fg: 'var(--ink)', dot: 'var(--ink)', num: 'var(--ink)', off: 'var(--paper)' },
+  { bg: 'var(--ink)', fg: 'var(--paper)', dot: 'var(--pink)', num: 'var(--paper)', off: 'var(--pink)' },
+  { bg: 'var(--yellow)', fg: 'var(--ink)', dot: 'var(--pink)', num: 'var(--ink)', off: 'var(--pink)' },
 ]
 const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7)
 
-/** The pick's photo, or a one-colour riso flyer with its name when there isn't one (or it won't load). */
+/** Wikimedia thumbs come in a few standard widths; offer them so phones don't download the big one. */
+function srcSet(url: string): string | undefined {
+  const m = url.match(/^(.*\/thumb\/.+\/)(\d+)px-([^/]+)$/)
+  if (!m) return undefined
+  return [500, 960, 1280].map((w) => `${m[1]}${w}px-${m[3]} ${w}w`).join(', ')
+}
+const SIZES = { hero: '(min-width: 768px) 58vw, 100vw', text: '(min-width: 768px) 40vw, 100vw' }
+
+/** The pick's photo, or an art-directed riso poster when there isn't one (or it won't load). */
 export function PickImage({ pick, className = '', sizes = 'text' }: { pick: Pick; className?: string; sizes?: 'hero' | 'text' }) {
   const [failed, setFailed] = useState(false)
+  const img = pick.image
   // Organizer flyers (Luma covers and the like) carry their own text: show them whole, over a blurred copy.
-  const flyer = !!pick.image && !/wikimedia|ticketmaster/i.test(pick.image.credit ?? '') && !!pick.image.w && !!pick.image.h && pick.image.w / pick.image.h > 1.5
-  if (pick.image && !failed && flyer)
+  const flyer = !!img && !/wikimedia|ticketmaster/i.test(img.credit ?? '') && !!img.w && !!img.h && img.w / img.h > 1.5
+  const common = {
+    alt: '',
+    loading: sizes === 'hero' ? ('eager' as const) : ('lazy' as const),
+    decoding: 'async' as const,
+    referrerPolicy: 'no-referrer' as const,
+    onError: () => setFailed(true),
+  }
+  if (img && !failed)
     return (
       <figure>
-        <div className={`relative overflow-hidden bg-ink ${className}`}>
-          <img src={pick.image.url} alt="" aria-hidden referrerPolicy="no-referrer" className="absolute inset-0 h-full w-full scale-125 object-cover opacity-50 blur-2xl" />
+        <div className={`relative overflow-hidden ${flyer ? 'bg-ink' : 'bg-paper-2'} ${className}`}>
+          {flyer && <img src={img.url} alt="" aria-hidden referrerPolicy="no-referrer" className="absolute inset-0 h-full w-full scale-125 object-cover opacity-50 blur-2xl" />}
           <img
-            src={pick.image.url}
-            alt=""
-            loading={sizes === 'hero' ? 'eager' : 'lazy'}
-            decoding="async"
-            referrerPolicy="no-referrer"
-            onError={() => setFailed(true)}
-            className="absolute inset-0 h-full w-full object-contain"
+            {...common}
+            src={img.url}
+            srcSet={srcSet(img.url)}
+            sizes={SIZES[sizes]}
+            className={`absolute inset-0 h-full w-full ${flyer ? 'object-contain' : 'object-cover object-[50%_30%]'}`}
           />
         </div>
         <Credit pick={pick} />
       </figure>
     )
-  if (pick.image && !failed)
-    return (
-      <figure>
-        <div className={`relative overflow-hidden bg-paper-2 ${className}`}>
-          <img
-          src={pick.image.url}
-          alt=""
-          loading={sizes === 'hero' ? 'eager' : 'lazy'}
-          decoding="async"
-          referrerPolicy="no-referrer"
-          onError={() => setFailed(true)}
-          className="absolute inset-0 h-full w-full object-cover"
-          />
-        </div>
-        <Credit pick={pick} />
-      </figure>
-    )
-  const ink = FLYER[hash(pick.id) % FLYER.length]
-  const name = pick.people?.[0]?.name && pick.people[0].name.length < pick.title.length ? pick.people[0].name : pick.title
-  const long = name.length > 26
+  return <Poster pick={pick} className={className} />
+}
+
+/** A poster for the night: the day in huge misregistered numerals, the weekday, the kind and where. */
+function Poster({ pick, className }: { pick: Pick; className: string }) {
+  const sheet = SHEETS[hash(pick.id) % SHEETS.length]
+  const { day, weekday, month } = dateParts(pick)
+  const time = timeOf(pick)
+  const area = { nyc: 'New York', philly: 'Philadelphia', princeton: 'Princeton' }[pick.city]
   return (
-    <div className={`@container relative overflow-hidden ${className}`} style={{ background: ink.bg, color: ink.fg }}>
-      <div className="absolute inset-0 flex flex-col justify-between p-[6cqw]">
-        <p className="stamp text-[3.6cqw]">{pick.kind}</p>
-        <p className={`display ${long ? 'text-[11cqw]' : 'text-[16cqw]'}`}>{name}</p>
+    <div
+      className={`relative overflow-hidden [container-type:size] ${className}`}
+      style={{ background: sheet.bg, color: sheet.fg, ['--dot' as string]: sheet.dot }}
+      role="img"
+      aria-label={`${pick.kind}, ${pick.exhibition ? 'on view' : `${weekday} ${month} ${day}`}, ${pick.venue.name}`}
+    >
+      <div className="halftone absolute inset-0" aria-hidden />
+      <div className="absolute inset-0 flex flex-col p-[6cqw]">
+        <div className="flex items-start justify-between gap-[3cqw] border-b-[0.5cqw] pb-[2.5cqw]" style={{ borderColor: sheet.fg }}>
+          <p className="stamp text-[3.8cqw]">{pick.kind}</p>
+          <p className="stamp shrink-0 text-[3.8cqw]">{area}</p>
+        </div>
+        <div className="flex flex-1 items-center gap-[3cqw]">
+          {!pick.exhibition && <p className="stamp self-start pt-[8cqw] text-[6cqw] [writing-mode:vertical-rl]">{month}</p>}
+          {pick.exhibition ? (
+            <p className="display text-[min(30cqw,24cqh)]">On view</p>
+          ) : (
+            <p className="numeral relative text-[min(64cqw,44cqh)]" style={{ color: sheet.num }}>
+              <span aria-hidden className="absolute left-[2.2cqw] top-[1.8cqw]" style={{ color: sheet.off }}>
+                {day}
+              </span>
+              <span className="relative">{day}</span>
+            </p>
+          )}
+        </div>
+        <div className="border-t-[0.5cqw] pt-[2.5cqw]" style={{ borderColor: sheet.fg }}>
+          {!pick.exhibition && (
+            <>
+              <p className="stamp text-[4cqw]">
+                {month} {day}
+                {time ? ` · ${time}` : ''}
+              </p>
+              <p className="display mt-[1.5cqw] text-[min(14cqw,11cqh)]">{weekday}</p>
+            </>
+          )}
+          <p className="stamp mt-[2.5cqw] line-clamp-2 text-[3.8cqw] leading-[1.25]">{pick.venue.name}</p>
+        </div>
       </div>
     </div>
   )

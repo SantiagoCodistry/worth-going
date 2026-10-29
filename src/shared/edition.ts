@@ -23,10 +23,12 @@ export type PickSource =
       link?: string
       price?: string
       city?: EditionCity
-      /** A Wikipedia page whose photo to use when the listing has none. */
+      /** A Wikipedia page whose photo to use instead of the listing's. */
       wiki?: string
+      /** A Wikimedia Commons search, "Name|Place": a file named after the event or act. */
+      commons?: string
     }
-  | ({ event?: undefined; wiki?: string } & Pick)
+  | ({ event?: undefined; wiki?: string; commons?: string } & Pick)
 
 export interface EditionSource {
   /** The Thursday it comes out, YYYY-MM-DD. */
