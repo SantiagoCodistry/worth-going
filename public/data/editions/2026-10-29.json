@@ -89,7 +89,14 @@
    "price": "Free to watch",
    "isFree": true,
    "link": "https://www.tcsnycmarathon.org/",
-   "sourceName": "TCS New York City Marathon"
+   "sourceName": "TCS New York City Marathon",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/New_York_City_Marathon_2014_%2815517538398%29.jpg/1280px-New_York_City_Marathon_2014_%2815517538398%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://commons.wikimedia.org/wiki/File:New_York_City_Marathon_2014_(15517538398).jpg",
+    "w": 1680,
+    "h": 1185
+   }
   },
   {
    "id": "ny-night-train-haunted-hop-2026",
@@ -438,7 +445,14 @@
     "lng": -73.99156
    },
    "link": "https://www.ticketmaster.com/kaiju-big-battel-satan-sleeps-tonight-brooklyn-new-york-11-01-2026/event/3000651E16B195B0",
-   "sourceName": "The Bell House"
+   "sourceName": "The Bell House",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Metal_Wing_Black_vs_Yarsminko_%28Kaiju_Big_Battel%29_%40_MTAC_%2710_%284576117843%29.jpg/1280px-Metal_Wing_Black_vs_Yarsminko_%28Kaiju_Big_Battel%29_%40_MTAC_%2710_%284576117843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://commons.wikimedia.org/wiki/File:Metal_Wing_Black_vs_Yarsminko_(Kaiju_Big_Battel)_@_MTAC_%2710_(4576117843).jpg",
+    "w": 2640,
+    "h": 1980
+   }
   },
   {
    "id": "arts-council-of-princeton-50272",
@@ -591,7 +605,14 @@
     "lng": -73.9317274
    },
    "link": "https://luma.com/157thqlu",
-   "sourceName": "Luma"
+   "sourceName": "Luma",
+   "image": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/The_Met_Cloisters.jpg/1280px-The_Met_Cloisters.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": "Wikimedia Commons",
+    "link": "https://en.wikipedia.org/wiki/The_Cloisters",
+    "w": 5579,
+    "h": 3114
+   }
   },
   {
    "id": "songkick-olafur-arnalds-2026-11-05",
@@ -1613,5 +1634,5 @@
    }
   }
  ],
- "builtAt": "2026-10-29T17:13:51.955Z"
+ "builtAt": "2026-10-29T17:18:38.106Z"
 }
