@@ -27,6 +27,8 @@ export type PickSource =
       wiki?: string
       /** A Wikimedia Commons search, "Name|Place": a file named after the event or act. */
       commons?: string
+      /** No photo fits: use the printed poster instead. */
+      noPhoto?: true
     }
   | ({ event?: undefined; wiki?: string; commons?: string } & Pick)
 

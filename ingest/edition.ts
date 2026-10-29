@@ -124,7 +124,7 @@ async function build() {
         }
         // Photo: the editor's choice first, then the listing's. Organizer flyers with UI text (Luma cards) don't count.
         const chosen = (await editorPhoto(s.wiki, s.commons)) ?? (old?.image && !refresh ? old.image : e?.image)
-        pick.image = chosen && !/luma/i.test(chosen.credit ?? '') ? chosen : undefined
+        pick.image = chosen && !s.noPhoto && !/luma/i.test(chosen.credit ?? '') ? chosen : undefined
         picks.push(pick)
       }
       const places = CITIES.flatMap((c) => src.places[c].map((id) => place(id, c)))

@@ -10,7 +10,7 @@ const edition: EditionSource = {
     // ——— The overall ten, in order ———
     { event: 'village-halloween-parade-2026', link: 'https://halloween-nyc.com/', why: 'Fifty thousand people in costume march up Sixth Avenue, and anyone dressed up can join in. No ticket, no RSVP.' },
     { event: 'songkick-mariza-2026-10-29', kind: 'Fado concert', wiki: 'Mariza', city: 'princeton', why: 'Mariza is the best-known fado singer of her generation, and Portugal’s music of longing sounds best in a room like McCarter’s.', link: 'https://www.mccarter.org/' },
-    { event: 'tcs-nyc-marathon-2026', commons: 'New York City Marathon|New York', wiki: 'New_York_City_Marathon', why: 'The best free show in the city: about 50,000 runners, two million people cheering, and First Avenue at its loudest around mile 17.' },
+    { event: 'tcs-nyc-marathon-2026', noPhoto: true, why: 'The best free show in the city: about 50,000 runners, two million people cheering, and First Avenue at its loudest around mile 17.' },
     {
       id: 'ny-night-train-haunted-hop-2026',
       city: 'nyc',

@@ -89,14 +89,7 @@
    "price": "Free to watch",
    "isFree": true,
    "link": "https://www.tcsnycmarathon.org/",
-   "sourceName": "TCS New York City Marathon",
-   "image": {
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/New_York_City_Marathon_2014_%2815517538398%29.jpg/1280px-New_York_City_Marathon_2014_%2815517538398%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "credit": "Wikimedia Commons",
-    "link": "https://commons.wikimedia.org/wiki/File:New_York_City_Marathon_2014_(15517538398).jpg",
-    "w": 1680,
-    "h": 1185
-   }
+   "sourceName": "TCS New York City Marathon"
   },
   {
    "id": "ny-night-train-haunted-hop-2026",
@@ -1630,5 +1623,5 @@
    }
   }
  ],
- "builtAt": "2026-10-29T17:23:43.942Z"
+ "builtAt": "2026-10-29T17:24:43.195Z"
 }
