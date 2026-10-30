@@ -1,0 +1,488 @@
+{
+ "edition": "2026-10-29",
+ "checked": 76,
+ "bad": [
+  {
+   "what": "NYC Marathon · link",
+   "url": "https://www.tcsnycmarathon.org/",
+   "status": 0,
+   "error": "fetch failed"
+  },
+  {
+   "what": "Mistral · booking",
+   "url": "https://www.opentable.com/mistral",
+   "status": 0,
+   "error": "The operation was aborted due to timeout"
+  },
+  {
+   "what": "Eno Terra · booking",
+   "url": "https://www.opentable.com/r/eno-terra-kingston",
+   "status": 0,
+   "error": "The operation was aborted due to timeout"
+  },
+  {
+   "what": "Emmett · booking",
+   "url": "https://www.opentable.com/r/emmett-philadelphia",
+   "status": 0,
+   "error": "The operation was aborted due to timeout"
+  }
+ ],
+ "rows": [
+  {
+   "what": "Village Halloween Parade · link",
+   "url": "https://halloween-nyc.com/",
+   "status": 200,
+   "final": "https://halloween-nyc.com/"
+  },
+  {
+   "what": "Village Halloween Parade · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Greenwich_Village_Halloween_Parade_%286451249051%29.jpg/1280px-Greenwich_Village_Halloween_Parade_%286451249051%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Greenwich_Village_Halloween_Parade_%286451249051%29.jpg/1280px-Greenwich_Village_Halloween_Parade_%286451249051%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Mariza · link",
+   "url": "https://www.mccarter.org/",
+   "status": 200,
+   "final": "https://www.mccarter.org/"
+  },
+  {
+   "what": "Mariza · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg/1280px-Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg/1280px-Mariza%2C_Fado_singer_%28November_2022%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "NYC Marathon · link",
+   "url": "https://www.tcsnycmarathon.org/",
+   "status": 0,
+   "error": "fetch failed"
+  },
+  {
+   "what": "The Haunted Hop · link",
+   "url": "https://www.newyorknighttrain.com/",
+   "status": 200,
+   "final": "https://www.newyorknighttrain.com/"
+  },
+  {
+   "what": "The Haunted Hop · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/KdC_main_interior.jpg/1280px-KdC_main_interior.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/KdC_main_interior.jpg/1280px-KdC_main_interior.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Vince Staples · link",
+   "url": "https://www.franklinmusichall.com/",
+   "status": 200,
+   "final": "https://www.franklinmusichall.com/"
+  },
+  {
+   "what": "Vince Staples · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Vince_Staples_by_Gage_Skidmore.jpg/1280px-Vince_Staples_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Vince_Staples_by_Gage_Skidmore.jpg/1280px-Vince_Staples_by_Gage_Skidmore.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Wunderkammer · link",
+   "url": "https://www.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-competition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC",
+   "status": 403,
+   "final": "https://www.ticketmaster.com/wunderkammer-a-taxidermy-showcase-and-competition-brooklyn-new-york-10-29-2026/event/3000650B12927DCC"
+  },
+  {
+   "what": "Cécile McLorin Salvant · link",
+   "url": "https://www.mccarter.org/",
+   "status": 200,
+   "final": "https://www.mccarter.org/"
+  },
+  {
+   "what": "Cécile McLorin Salvant · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg/1280px-Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg/1280px-Cecile_McLorin_Salvant_by_Ebru_Yildiz_454_0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Machine Girl · link",
+   "url": "https://pioneerworks.org/programs/machine-girl",
+   "status": 200,
+   "final": "https://pioneerworks.org/programs/machine-girl"
+  },
+  {
+   "what": "Machine Girl · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Machine_Girl_Dec14-2024.jpg/1280px-Machine_Girl_Dec14-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Machine_Girl_Dec14-2024.jpg/1280px-Machine_Girl_Dec14-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "St. Vincent · link",
+   "url": "https://www.exploretock.com/cafecarlyle",
+   "status": 403,
+   "final": "https://www.exploretock.com/cafecarlyle"
+  },
+  {
+   "what": "St. Vincent · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/St._Vincent_10_29_2018_-2_%2844237126380%29.jpg/1280px-St._Vincent_10_29_2018_-2_%2844237126380%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/St._Vincent_10_29_2018_-2_%2844237126380%29.jpg/1280px-St._Vincent_10_29_2018_-2_%2844237126380%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Big Night, and a timpano · link",
+   "url": "https://luma.com/cr2xox31",
+   "status": 200,
+   "final": "https://luma.com/cr2xox31"
+  },
+  {
+   "what": "Marcel Duchamp · link",
+   "url": "https://www.philamuseum.org/",
+   "status": 200,
+   "final": "https://www.philamuseum.org/"
+  },
+  {
+   "what": "Marcel Duchamp · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg/1280px-Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/en/thumb/3/34/Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg/1280px-Man_Ray%2C_1920-21%2C_Portrait_of_Marcel_Duchamp%2C_gelatin_silver_print%2C_Yale_University_Art_Gallery.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Día de los Muertos at the Botanical Garden · link",
+   "url": "https://www.nybg.org/",
+   "status": 200,
+   "final": "https://www.nybg.org/"
+  },
+  {
+   "what": "Día de los Muertos at the Botanical Garden · photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_New_York_Botanical_Garden_Visitor_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "status": 200,
+   "final": "https://upload.wikimedia.org/wikipedia/commons/8/8a/The_New_York_Botanical_Garden_Visitor_Center.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+   "what": "Neil deGrasse Tyson on meeting aliens · link",
+   "url": "https://bigseason.92ny.org/talks",
+   "status": 200,
+   "final": "https://bigseason.92ny.org/talks"
+  },
+  {
+   "what": "Neil deGrasse Tyson on meeting aliens · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Neil_DeGrasse_Tyson_%282023%29.jpg/1280px-Neil_DeGrasse_Tyson_%282023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Neil_DeGrasse_Tyson_%282023%29.jpg/1280px-Neil_DeGrasse_Tyson_%282023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Yiyun Li on her new novel · link",
+   "url": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/",
+   "status": 200,
+   "final": "https://planetprinceton.com/event/conversation-with-yiyun-li-on-her-new-novel-music-against-the-night-presented-by-the-fund-for-irish-studies-and-lewis-center-for-the-arts-at-princeton-university/"
+  },
+  {
+   "what": "Yiyun Li on her new novel · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg/1280px-Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg/1280px-Yiyun_Li_at_BBF_2026_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Kaiju Big Battel: Satan Sleeps Tonight · link",
+   "url": "https://www.ticketmaster.com/kaiju-big-battel-satan-sleeps-tonight-brooklyn-new-york-11-01-2026/event/3000651E16B195B0",
+   "status": 403,
+   "final": "https://www.ticketmaster.com/kaiju-big-battel-satan-sleeps-tonight-brooklyn-new-york-11-01-2026/event/3000651E16B195B0"
+  },
+  {
+   "what": "Kaiju Big Battel: Satan Sleeps Tonight · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Metal_Wing_Black_vs_Yarsminko_%28Kaiju_Big_Battel%29_%40_MTAC_%2710_%284576117843%29.jpg/1280px-Metal_Wing_Black_vs_Yarsminko_%28Kaiju_Big_Battel%29_%40_MTAC_%2710_%284576117843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Metal_Wing_Black_vs_Yarsminko_%28Kaiju_Big_Battel%29_%40_MTAC_%2710_%284576117843%29.jpg/1280px-Metal_Wing_Black_vs_Yarsminko_%28Kaiju_Big_Battel%29_%40_MTAC_%2710_%284576117843%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  },
+  {
+   "what": "The Hometown Halloween Parade · link",
+   "url": "https://artscouncilofprinceton.org/event/50-hometown-halloween-parade/",
+   "status": 200,
+   "final": "https://artscouncilofprinceton.org/event/50-hometown-halloween-parade/"
+  },
+  {
+   "what": "The Hometown Halloween Parade · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Palmer_Square_in_Princeton.jpg/1280px-Palmer_Square_in_Princeton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Palmer_Square_in_Princeton.jpg/1280px-Palmer_Square_in_Princeton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Robert Glasper · link",
+   "url": "https://www.bluenotejazz.com/nyc/",
+   "status": 200,
+   "final": "https://www.bluenotejazz.com/nyc/"
+  },
+  {
+   "what": "Robert Glasper · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RG_Trio_3.jpg/1280px-RG_Trio_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/RG_Trio_3.jpg/1280px-RG_Trio_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Afro-Cuban All Stars · link",
+   "url": "https://www.kimmelculturalcampus.org/",
+   "status": 200,
+   "final": "https://www.ensembleartsphilly.org/"
+  },
+  {
+   "what": "Afro-Cuban All Stars · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Kimmel_Center_for_the_Performing_Arts_%2853587020645%29.jpg/1280px-Kimmel_Center_for_the_Performing_Arts_%2853587020645%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Kimmel_Center_for_the_Performing_Arts_%2853587020645%29.jpg/1280px-Kimmel_Center_for_the_Performing_Arts_%2853587020645%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "The Moth StorySLAM · link",
+   "url": "https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-11-04-2026/event/300064BB1911E6D0",
+   "status": 403,
+   "final": "https://www.ticketmaster.com/the-moth-storyslam-brooklyn-new-york-11-04-2026/event/300064BB1911E6D0"
+  },
+  {
+   "what": "Halloween Nights at Eastern State · link",
+   "url": "https://www.easternstate.org/",
+   "status": 200,
+   "final": "https://easternstate.org/"
+  },
+  {
+   "what": "Halloween Nights at Eastern State · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif/lossy-page1-330px-Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif/lossy-page1-330px-Eastern_State_Penitentiary%2C_Philadelphia%2C_Pennsylvania_LCCN2011632222.tif.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Philosophy at the Cloisters · link",
+   "url": "https://luma.com/157thqlu",
+   "status": 200,
+   "final": "https://luma.com/157thqlu"
+  },
+  {
+   "what": "Philosophy at the Cloisters · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/The_Met_Cloisters.jpg/1280px-The_Met_Cloisters.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/The_Met_Cloisters.jpg/1280px-The_Met_Cloisters.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Ólafur Arnalds · link",
+   "url": "https://www.thetownhall.org/",
+   "status": 200,
+   "final": "https://www.thetownhall.org/"
+  },
+  {
+   "what": "Ólafur Arnalds · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg/1280px-20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg/1280px-20190706-Rudolstadt-Festival-Olafur-Arnalds-8734.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Carillon concert at the Graduate College · link",
+   "url": "https://planetprinceton.com/event/free-carillon-concert-at-princeton-university-2-2-2/2026-11-01/",
+   "status": 200,
+   "final": "https://planetprinceton.com/event/free-carillon-concert-at-princeton-university-2-2-2/2026-11-01/"
+  },
+  {
+   "what": "Carillon concert at the Graduate College · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg/1280px-Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg/1280px-Princeton_University_Graduate_College%2C_NJ_-_looking_north.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Princeton vs. Cornell · link",
+   "url": "https://goprincetontigers.com/sports/football/schedule",
+   "status": 200,
+   "final": "https://goprincetontigers.com/sports/football/schedule"
+  },
+  {
+   "what": "Princeton vs. Cornell · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Princeton_Stadium%2C_2026_aerial_view.jpg/1280px-Princeton_Stadium%2C_2026_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Princeton_Stadium%2C_2026_aerial_view.jpg/1280px-Princeton_Stadium%2C_2026_aerial_view.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Boy Harsher · link",
+   "url": "https://www.franklinmusichall.com/",
+   "status": 200,
+   "final": "https://www.franklinmusichall.com/"
+  },
+  {
+   "what": "Boy Harsher · photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Boy_Harsher_live_at_Mars_Pub_in_February_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "status": 200,
+   "final": "https://upload.wikimedia.org/wikipedia/commons/7/78/Boy_Harsher_live_at_Mars_Pub_in_February_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+   "what": "Jesse Wegman: The Lost Founder · link",
+   "url": "https://libwww.freelibrary.org/calendar/type/author-events",
+   "status": 403,
+   "final": "https://libwww.freelibrary.org/calendar/type/author-events"
+  },
+  {
+   "what": "Jesse Wegman: The Lost Founder · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/The_Free_Library_of_Philadelphia_%2853574634710%29.jpg/1280px-The_Free_Library_of_Philadelphia_%2853574634710%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/The_Free_Library_of_Philadelphia_%2853574634710%29.jpg/1280px-The_Free_Library_of_Philadelphia_%2853574634710%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Brancusi · link",
+   "url": "https://www.moma.org/",
+   "status": 200,
+   "final": "https://www.moma.org/"
+  },
+  {
+   "what": "Brancusi · photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Edward_Steichen_-_Brancusi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+   "status": 200,
+   "final": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Edward_Steichen_-_Brancusi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+  },
+  {
+   "what": "Day of the Dead in Princeton · link",
+   "url": "https://artscouncilofprinceton.org/event/day-of-the-dead-26/",
+   "status": 200,
+   "final": "https://artscouncilofprinceton.org/event/day-of-the-dead-26/"
+  },
+  {
+   "what": "A walk through Princeton history · link",
+   "url": "https://princetonhistory.org/events/princeton-history-walking-tour-271/",
+   "status": 200,
+   "final": "https://princetonhistory.org/events/princeton-history-walking-tour-271/"
+  },
+  {
+   "what": "Joanne McNally · link",
+   "url": "https://www.punchlinephilly.com/shows",
+   "status": 200,
+   "final": "https://www.punchlinephilly.com/shows"
+  },
+  {
+   "what": "Joanne McNally · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Joanne_McNally_profile.jpg/1280px-Joanne_McNally_profile.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Joanne_McNally_profile.jpg/1280px-Joanne_McNally_profile.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Organ at noon in the Chapel · link",
+   "url": "https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-10-29/",
+   "status": 200,
+   "final": "https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-10-29/"
+  },
+  {
+   "what": "Organ at noon in the Chapel · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Princeton_University_Chapel_%2855143708212%29.jpg/1280px-Princeton_University_Chapel_%2855143708212%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Princeton_University_Chapel_%2855143708212%29.jpg/1280px-Princeton_University_Chapel_%2855143708212%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Paul Moses on The Italian Squad · link",
+   "url": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/",
+   "status": 200,
+   "final": "https://planetprinceton.com/event/author-reveals-how-italian-immigrant-cops-took-on-gangsters/"
+  },
+  {
+   "what": "Paul Moses on The Italian Squad · photo",
+   "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=198911&type=planetprinceton-com&hash=f2ba2f266378f5020e1048ccb2aad87a",
+   "status": 200,
+   "final": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=198911&type=planetprinceton-com&hash=f2ba2f266378f5020e1048ccb2aad87a"
+  },
+  {
+   "what": "Guerilla Toss · link",
+   "url": "http://www.songkick.com/concerts/43345031-guerilla-toss-at-ruba-club?utm_medium=organic&utm_source=microformat",
+   "status": 406,
+   "final": "https://www.songkick.com/concerts/43345031-guerilla-toss-at-ruba-club?utm_medium=organic&utm_source=microformat"
+  },
+  {
+   "what": "Guerilla Toss · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Guerilla_Toss_Live%2C_November_16%2C_2022.jpg/1280px-Guerilla_Toss_Live%2C_November_16%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Guerilla_Toss_Live%2C_November_16%2C_2022.jpg/1280px-Guerilla_Toss_Live%2C_November_16%2C_2022.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Bass Drum of Death · link",
+   "url": "https://www.johnnybrendas.com/",
+   "status": 200,
+   "final": "https://johnnybrendas.com/"
+  },
+  {
+   "what": "Bass Drum of Death · photo",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bass_Drum_of_Death_2023_%2801%29.jpg/1280px-Bass_Drum_of_Death_2023_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+   "status": 200,
+   "final": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Bass_Drum_of_Death_2023_%2801%29.jpg/1280px-Bass_Drum_of_Death_2023_%2801%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+  },
+  {
+   "what": "Mistral · booking",
+   "url": "https://www.opentable.com/mistral",
+   "status": 0,
+   "error": "The operation was aborted due to timeout"
+  },
+  {
+   "what": "Eno Terra · booking",
+   "url": "https://www.opentable.com/r/eno-terra-kingston",
+   "status": 0,
+   "error": "The operation was aborted due to timeout"
+  },
+  {
+   "what": "The Dinky Bar & Kitchen · booking",
+   "url": "https://resy.com/cities/prt/the-dinky-bar-and-kitchen",
+   "status": 200,
+   "final": "https://resy.com/cities/princeton-nj/venues/the-dinky-bar-and-kitchen"
+  },
+  {
+   "what": "Kabawa · booking",
+   "url": "https://resy.com/cities/new-york-ny/search?query=Kabawa",
+   "status": 200,
+   "final": "https://resy.com/cities/new-york-ny/search?query=Kabawa"
+  },
+  {
+   "what": "Semma · booking",
+   "url": "https://resy.com/cities/new-york-ny/search?query=Semma",
+   "status": 200,
+   "final": "https://resy.com/cities/new-york-ny/search?query=Semma"
+  },
+  {
+   "what": "Torrisi · booking",
+   "url": "https://resy.com/cities/new-york-ny/search?query=Torrisi",
+   "status": 200,
+   "final": "https://resy.com/cities/new-york-ny/search?query=Torrisi"
+  },
+  {
+   "what": "Lei · booking",
+   "url": "https://resy.com/cities/ny/lei",
+   "status": 200,
+   "final": "https://resy.com/cities/new-york-ny/venues/lei"
+  },
+  {
+   "what": "Thai Diner · booking",
+   "url": "https://resy.com/cities/new-york-ny/search?query=Thai%20Diner",
+   "status": 200,
+   "final": "https://resy.com/cities/new-york-ny/search?query=Thai%20Diner"
+  },
+  {
+   "what": "Penny · booking",
+   "url": "https://resy.com/cities/new-york-ny/search?query=Penny",
+   "status": 200,
+   "final": "https://resy.com/cities/new-york-ny/search?query=Penny"
+  },
+  {
+   "what": "Zahav · booking",
+   "url": "https://resy.com/cities/philadelphia-pa/search?query=Zahav",
+   "status": 200,
+   "final": "https://resy.com/cities/philadelphia-pa/search?query=Zahav"
+  },
+  {
+   "what": "Kalaya · booking",
+   "url": "https://resy.com/cities/philadelphia-pa/search?query=Kalaya",
+   "status": 200,
+   "final": "https://resy.com/cities/philadelphia-pa/search?query=Kalaya"
+  },
+  {
+   "what": "Emmett · booking",
+   "url": "https://www.opentable.com/r/emmett-philadelphia",
+   "status": 0,
+   "error": "The operation was aborted due to timeout"
+  },
+  {
+   "what": "Suraya · booking",
+   "url": "https://resy.com/cities/philadelphia-pa/search?query=Suraya",
+   "status": 200,
+   "final": "https://resy.com/cities/philadelphia-pa/search?query=Suraya"
+  },
+  {
+   "what": "Vernick Food & Drink · booking",
+   "url": "https://resy.com/cities/philadelphia-pa/search?query=Vernick%20Food%20%26%20Drink",
+   "status": 200,
+   "final": "https://resy.com/cities/philadelphia-pa/search?query=Vernick%20Food%20%26%20Drink"
+  }
+ ]
+}
