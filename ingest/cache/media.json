@@ -6231,5 +6231,438 @@
  },
  "og2:https://www.songkick.com/concerts/43218239-ghostwoman-at-bowery-ballroom?utm_medium=organic&utm_source=microformat": null,
  "who2:ROSTAM": null,
- "geo:CODE ASTORIA|Astoria|New York": null
+ "geo:CODE ASTORIA|Astoria|New York": null,
+ "who2:Jimmy McCullough": {
+  "role": "Scottish musician (1953–1979)",
+  "wiki": "Jimmy_McCulloch"
+ },
+ "wiki2:Jimmy_McCulloch": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Jimmy_McCulloch_-_Wings_-_1976.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jimmy_McCulloch",
+  "w": 738,
+  "h": 1123
+ },
+ "og2:https://newyorkcomedyclub.com/events/nyc-comedy-class-graduation-show-2026-11-01140000": {
+  "url": "https://newyorkcomedyclub.com/img/events/Class-Show-Generic-Flyer-Nov-1-Square-432412f7-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/nyc-comedy-class-graduation-show-2026-11-01140000",
+  "w": 1320,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/comedy-mob-open-mic-2026-11-01173000": null,
+ "who2:Ariel Elias": {
+  "role": "American comedian",
+  "wiki": "Ariel_Elias"
+ },
+ "who2:Judah Friedlander": {
+  "role": "American actor and comedian (born 1969)",
+  "wiki": "Judah_Friedlander"
+ },
+ "wiki2:Ariel_Elias": null,
+ "wiki2:Judah_Friedlander": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Judah_Friedlander.jpg/1280px-Judah_Friedlander.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Judah_Friedlander",
+  "w": 2940,
+  "h": 3230
+ },
+ "og2:https://mark-viera.helium-comedy.com/philadelphia/": null,
+ "og2:https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-11-01/": null,
+ "og2:https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-11-01/": null,
+ "og2:https://planetprinceton.com/event/winery-weekend-music-series/2026-11-01/": null,
+ "og2:https://newyorkcomedyclub.com/events/new-jokes-newbies-2026-11-01214500": {
+  "url": "https://newyorkcomedyclub.com/img/events/New-Jokes-Newbie-1072-x-680-px-Blue-1-1d1b1125-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/new-jokes-newbies-2026-11-01214500",
+  "w": 1040,
+  "h": 660
+ },
+ "who2:Danny Hallinan": null,
+ "who2:Subhah Agarwal": null,
+ "who2:Alvin Kuai": null,
+ "og2:https://goprincetontigers.com/sports/mens-basketball/schedule": null,
+ "who2:Carolina Montesquieu": null,
+ "wiki2:Jadwin_Gymnasium": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Jadwin_Gymnasium.jpg/1280px-Jadwin_Gymnasium.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jadwin_Gymnasium",
+  "w": 3082,
+  "h": 2312
+ },
+ "who2:Phoebe Robinson": {
+  "role": "American comedian (born 1984)",
+  "wiki": "Phoebe_Robinson"
+ },
+ "wiki2:Phoebe_Robinson": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Screen_shot_of_Phoebe_Robinson_on_%22Pretty_Big_Deal_with_Ashley_Graham%22.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Phoebe_Robinson",
+  "w": 1134,
+  "h": 1138
+ },
+ "who2:Daryn Passarello": null,
+ "who2:Christine Berg": null,
+ "who2:Ryan Dacalos": null,
+ "who2:Andre D Thompson": null,
+ "who2:Will Abeles": null,
+ "who2:Amanda Gail": null,
+ "og2:https://newyorkcomedyclub.com/events/matinee-with-ry-daddy-ft-daniel-simonsen-jenny-tian-subhah-agarwal-alvin-kuai-amanda-gail-ryan-dacalos-1": {
+  "url": "https://newyorkcomedyclub.com/img/events/Sunday-5pm-show-da9c0b4f-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/matinee-with-ry-daddy-ft-daniel-simonsen-jenny-tian-subhah-agarwal-alvin-kuai-amanda-gail-ryan-dacalos-1",
+  "w": 1084,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/runnin-late-ft-andre-d-thompson-will-abeles-colin-cab-washington": null,
+ "og2:https://www.songkick.com/concerts/43475851-amenazzy-at-vogue-restaurant-and-lounge?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://newyorkcomedyclub.com/events/james-davis-carolina-montesquieu-j-p-mcdade-andrew-collin": null,
+ "og2:https://newyorkcomedyclub.com/events/james-davis-christine-berg-caroline-hanes-eeland-stribling": null,
+ "og2:https://newyorkcomedyclub.com/events/monroe-martin-simeon-goodson-jessica-levin-carolina-montesquieu": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/77476d99-8fa6-4a68-a6bd-1599048fd22f-jpeg-1cae10b7-77476d99-8fa6-4a68-a6bd-1599048fd22f-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/monroe-martin-simeon-goodson-jessica-levin-carolina-montesquieu",
+  "w": 989,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/reg-thomas-kevin-dombrowski-ophira-eisenberg-jill-weiner": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/reg-thomas-jpg-d0040afe-reg-thomas-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/reg-thomas-kevin-dombrowski-ophira-eisenberg-jill-weiner",
+  "w": 1139,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/michael-brigante-simeon-goodson-monroe-martin-jatty-robinson": null,
+ "og2:https://newyorkcomedyclub.com/events/gray-west-simeon-goodson-jatty-robinson-lizzy-cassidy": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/img-5705-jpg-aaa50950-img-5705-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/gray-west-simeon-goodson-jatty-robinson-lizzy-cassidy",
+  "w": 877,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/mike-cannon-dean-edwards-kevin-dombrowski-jack-finnegan": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/mike-cannon-5-17-25-headshot-color-jpg-42c712ce-mike-cannon-5-17-25-headshot-color-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/mike-cannon-dean-edwards-kevin-dombrowski-jack-finnegan",
+  "w": 932,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/good-bits-ft-brittany-schmitt-andre-d-thompson-shaun-murphy-lisa-curry-collin-chamberlin": null,
+ "og2:https://luma.com/jjbkcojw": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/tx/01f9308d-dab2-4569-9bac-2992405ef2ef.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/jjbkcojw",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://newyorkcomedyclub.com/events/nore-davis-mike-cannon-reg-thomas-jill-weiner": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/untitled-design-2-jpg-34af0d83-untitled-design-2-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/nore-davis-mike-cannon-reg-thomas-jill-weiner",
+  "w": 1051,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-ashley-austin-morris-kevin-dombrowski-jack-finnegan": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/nicetry-jpg-af350a12-nicetry-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/nice-try-ft-michael-kosta-ashley-austin-morris-kevin-dombrowski-jack-finnegan",
+  "w": 1223,
+  "h": 660
+ },
+ "og2:https://luma.com/lvql9buv": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/so/c423732a-d8da-4847-a0eb-9ae52c46d622.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/lvql9buv",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://newyorkcomedyclub.com/events/caitlin-peluffo-mike-cannon-dean-edwards-ashley-austin-morris": null,
+ "og2:https://luma.com/93894hbq": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/az/d77b20c6-9ad4-4693-a23f-164e4eab6a9f.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/93894hbq",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/thecanvas-z0ot": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/xn/f9541800-5929-45ac-92bd-b15a62a33afa.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/thecanvas-z0ot",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43461400-omer-adam-at-barclays-center?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://newyorkcomedyclub.com/events/ashton-womack-vannessa-jackson-kunal-c-arora-abby-washuta-surprise-guest": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/ashton-jpg-a41c09a7-ashton-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/ashton-womack-vannessa-jackson-kunal-c-arora-abby-washuta-surprise-guest",
+  "w": 1061,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/dan-st-germain-ismael-loutfi-alex-castagne-eeland-stribling-katie-hannigan": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/danstgermain-jpg-f0240c0d-danstgermain-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/dan-st-germain-ismael-loutfi-alex-castagne-eeland-stribling-katie-hannigan",
+  "w": 855,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/kunal-c-arora-jc-mendoza-rick-younger-surprise-guest": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/kunal-jpeg-a1e40991-kunal-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/kunal-c-arora-jc-mendoza-rick-younger-surprise-guest",
+  "w": 956,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/nick-griffin-rick-younger-juan-nicolon-rosey-catherine": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/nick-griffin-b8a30a49-nick-griffin.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/nick-griffin-rick-younger-juan-nicolon-rosey-catherine",
+  "w": 868,
+  "h": 660
+ },
+ "og2:https://luma.com/z1r3syq3": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/5y/e2f0f8da-b81e-4c57-897b-122beeb88c9a.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/z1r3syq3",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://newyorkcomedyclub.com/events/calise-hawkins-ashton-womack-max-manticof-surprise-guest": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/calise-hawkins-d3db0b45-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/calise-hawkins-ashton-womack-max-manticof-surprise-guest",
+  "w": 1174,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/comedy-mob-presents-the-lineup-2026-11-05180000": null,
+ "og2:https://newyorkcomedyclub.com/events/good-eggs-presented-by-mark-normand-gary-vider-matt-ruby-2026-11-04200000": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/eggs-5-png-9b400915-eggs-5-png.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/good-eggs-presented-by-mark-normand-gary-vider-matt-ruby-2026-11-04200000",
+  "w": 978,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/new-york-comedy-club-presents-2026-11-05190000": null,
+ "og2:https://luma.com/0lle67mn": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/no/6d487c18-ccc0-4751-82f3-ec8ab4b3acd4.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/0lle67mn",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/q84f4dow": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/7r/329d2cb3-3f6d-4a0a-99db-05d2bfb78cca.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/q84f4dow",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://newyorkcomedyclub.com/events/we-should-date-live-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/tokyo-kanpai-boys-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/tony-dabas-presented-by-the-new-york-comedy-festival": {
+  "url": "https://newyorkcomedyclub.com/img/events/NYCF-Tony-Dabas-11-7-Graphics-1072x680-2-46151190-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/tony-dabas-presented-by-the-new-york-comedy-festival",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/rumble-presented-by-the-new-york-comedy-festival-ft-reg-thomas-maddy-smith-brendan-sagalow-ben-demarco-remy-kassimir": null,
+ "og2:https://newyorkcomedyclub.com/events/matinee-with-ry-daddy-2026-11-07160000": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/ryandacalos-jpg-e0660b8c-ryandacalos-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/matinee-with-ry-daddy-2026-11-07160000",
+  "w": 1078,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/sharief-johnson-i-wish-that-was-a-joke-too-album-recording-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/ryan-goodcase-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/angelo-colina-presented-by-the-new-york-comedy-festival-11-08-26-08-00-pm": null,
+ "og2:https://newyorkcomedyclub.com/events/an-evening-of-stand-up-comedy-with-jason-choi-and-friends-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/new-york-comedy-club-s-annual-nycf-panel-discussion-the-black-hoody-panel": null,
+ "og2:https://newyorkcomedyclub.com/events/ester-steinberg-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/secret-headliner-presented-by-the-new-york-comedy-festival-1": {
+  "url": "https://newyorkcomedyclub.com/img/events/NYCF-Secret-Headliner-Graphics-1072x680-2-7b881307-main-image-3d1218f4-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/secret-headliner-presented-by-the-new-york-comedy-festival-1",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/double-edged-caroline-hanes-and-salma-zaky-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/the-30-30-series-ft-geoffrey-asmus-aaron-berg-hosted-by-brittany-brave-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/valeria-vulpe-presented-by-the-new-york-comedy-festival": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/valeria-vulpe-nycf-png-495a0e3f-valeria-vulpe-nycf-png.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/valeria-vulpe-presented-by-the-new-york-comedy-festival",
+  "w": 1075,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/nice-try-2026-11-10200000": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/nicetry-jpg-af350a12-nicetry-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/nice-try-2026-11-10200000",
+  "w": 1223,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/shapel-lacey-headlining-live-presented-by-the-new-york-comedy-festival-1": null,
+ "og2:https://newyorkcomedyclub.com/events/an-hour-with-yamaneika-saunders-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/shelly-belly-presented-by-the-new-york-comedy-festival": {
+  "url": "https://newyorkcomedyclub.com/img/events/NYCF-Shelly-Belly-11-12-Graphics-1072x680-2-863a1289-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/shelly-belly-presented-by-the-new-york-comedy-festival",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/best-of-smacking-balls-talking-smack-w-shivani-dave-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/candi-shoppe-presented-by-the-new-york-comedy-festival": null,
+ "who2:Ho99o9": {
+  "role": "American punk rap group",
+  "wiki": "Ho99o9"
+ },
+ "wiki2:Ho99o9": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Press_image_of_Ho99o9.jpg/1280px-Press_image_of_Ho99o9.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Ho99o9",
+  "w": 1800,
+  "h": 1215
+ },
+ "og2:https://newyorkcomedyclub.com/events/what-s-in-a-name-presented-by-the-new-york-comedy-festival": null,
+ "who2:Die Spitz": {
+  "role": "American rock band",
+  "wiki": "Die_Spitz"
+ },
+ "wiki2:Die_Spitz": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Die_Spitz_Eurocks2025_-_Nathan_Fabry.jpg/1280px-Die_Spitz_Eurocks2025_-_Nathan_Fabry.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Die_Spitz",
+  "w": 5512,
+  "h": 3675
+ },
+ "og2:https://newyorkcomedyclub.com/events/nycf-jake-velazquez-special-taping-2026-11-15170000": {
+  "url": "https://newyorkcomedyclub.com/img/shows/NYCF-Jake-Velazquez-Special-Taping-11-15-Graphics-1072x680-2-3d5c18de-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/nycf-jake-velazquez-special-taping-2026-11-15170000",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/scrambled-presented-by-the-new-york-comedy-festival": null,
+ "og2:https://newyorkcomedyclub.com/events/jessica-kirson-live-in-new-york-2026-11-17190000": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/JessicaKirson-copy-0b3e0cdb-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/jessica-kirson-live-in-new-york-2026-11-17190000",
+  "w": 990,
+  "h": 660
+ },
+ "who2:Emmure": {
+  "role": "American metalcore band",
+  "wiki": "Emmure"
+ },
+ "wiki2:Emmure": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Emmure_With_Full_Force_2014_05.jpg/1280px-Emmure_With_Full_Force_2014_05.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Emmure",
+  "w": 2048,
+  "h": 1365
+ },
+ "who2:cupcakKe": {
+  "role": "American rapper (born 1997)",
+  "wiki": "Cupcakke"
+ },
+ "who2:Pure Prairie League": {
+  "role": "American country rock band",
+  "wiki": "Pure_Prairie_League"
+ },
+ "who2:Jefferson Starship": {
+  "role": "American rock band",
+  "wiki": "Jefferson_Starship"
+ },
+ "wiki2:Pure_Prairie_League": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/PurePrairieLeague.JPG/1280px-PurePrairieLeague.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Pure_Prairie_League",
+  "w": 2560,
+  "h": 1920
+ },
+ "wiki2:Jefferson_Starship": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Jefferson_Starship_photo_1976_%28names_cropped%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jefferson_Starship",
+  "w": 943,
+  "h": 645
+ },
+ "og2:https://newyorkcomedyclub.com/events/story-warz-w-big-jay-oakerson-luis-j-gomez-special-guests-2026-11-18194500": {
+  "url": "https://newyorkcomedyclub.com/img/shows/Story-Warz-NYCC-Graphics-1072x680-e4fb1064-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/story-warz-w-big-jay-oakerson-luis-j-gomez-special-guests-2026-11-18194500",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/previously-on-generational-curse-with-nore-davis": null,
+ "og2:https://newyorkcomedyclub.com/events/secret-headliner-1": {
+  "url": "https://newyorkcomedyclub.com/img/events/Secret-Headliner-April-16-Graphics-1072x680-2-dd14144d-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/secret-headliner-1",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/jack-grady-2026-11-20224500": {
+  "url": "https://newyorkcomedyclub.com/img/events/Jack-Grady-NYCC-UWS-Nov-20-2026-Graphics-1072x680-2-235d1488-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/jack-grady-2026-11-20224500",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://luma.com/d5cg5ur9": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/al/51342d3f-6109-456e-b985-db6e90ca59ab.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/d5cg5ur9",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://newyorkcomedyclub.com/events/christian-finnegan-live-special-taping-2026-10-18170000": null,
+ "og2:https://www.songkick.com/concerts/43029491-pooh-at-hard-rock-live-at-etess-arena?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43475501-triforce-quartet-at-underground-arts?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43481723-terry-hunter-at-loft-warehouse-on-watts?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43152276-west-22nd-at-brooklyn-bowl-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://newyorkcomedyclub.com/events/yerrrlywood-2026-11-22200000": null,
+ "og2:https://www.songkick.com/concerts/43396140-toosii-at-theatre-of-living-arts?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43373448-makari-at-arrow?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43391676-catie-turner-at-foundry-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "who2:Blue Öyster Cult": {
+  "role": "American rock band",
+  "wiki": "Blue_Öyster_Cult"
+ },
+ "wiki2:Blue_Öyster_Cult": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Blue_Oyster_Cult_Costa_Mesa_2017.jpg/1280px-Blue_Oyster_Cult_Costa_Mesa_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Blue_%C3%96yster_Cult",
+  "w": 2048,
+  "h": 1052
+ },
+ "og2:https://www.songkick.com/concerts/43286626-tiny-habits-at-brooklyn-bowl-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43313578-first-to-eleven-at-world-stage?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://newyorkcomedyclub.com/events/judy-gold-2026-11-24193000": {
+  "url": "https://newyorkcomedyclub.com/img/events/Judy-Gold-NYCC-UWS-Nov-24-2026-Graphics-1072x680-2-0ed61442-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/judy-gold-2026-11-24193000",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://www.songkick.com/concerts/43481817-elvis-martinez-at-maraca-nyc?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43307637-natasha-diggs-at-chocolate-factory?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43402310-david-morales-at-refuge-ten-eyck?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43400016-buray-at-palladium-times-square?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43425028-twinsick-at-marquee?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43467260-maleek-berry-at-sobs?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43357385-new-york-philharmonic-at-david-geffen-hall-lincoln-center?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://newyorkcomedyclub.com/events/highly-suspicious-w-aaron-putnam-kerryn-feehan-zach-liss-11-29-26-09-00-pm": {
+  "url": "https://newyorkcomedyclub.com/img/events/Highly-Suspicious-NYCC-UWS-Oct-25-Graphics-1072x680-2-958916b7-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/highly-suspicious-w-aaron-putnam-kerryn-feehan-zach-liss-11-29-26-09-00-pm",
+  "w": 1040,
+  "h": 660
+ },
+ "og2:https://www.songkick.com/concerts/43212132-fantastic-cat-at-stone-pony?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://michelle-collins.helium-comedy.com/philadelphia/": null,
+ "og2:https://newyorkcomedyclub.com/events/in-rhythm-ft-aminah-imani-mohtasham-yaqub-alfonso-hernandez-jc-mendoza-samantha-santos": null,
+ "geo:Jadwin Gymnasium|Princeton University|Princeton area": null
 }
