@@ -9195,5 +9195,351 @@
   "h": 420
  },
  "og2:https://www.songkick.com/concerts/43495805-damian-lazarus-at-pacha-new-york?utm_medium=organic&utm_source=microformat": null,
- "og2:https://artscouncilofprinceton.org/event/pop-up-choir-princeton-dec26/": null
+ "og2:https://artscouncilofprinceton.org/event/pop-up-choir-princeton-dec26/": null,
+ "og2:https://luma.com/whd4vokn": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/8i/e9ee9856-1ab2-430a-8c56-7109367cac93.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/whd4vokn",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/4l1afmbm": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/u8/313e172c-bad8-4efa-8d1a-f3bb2127a25b.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/4l1afmbm",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/wih3ih1s": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/25/ffe90fc2-fa09-4a10-819d-715a76901f53.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/wih3ih1s",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/0w5708l8": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/yy/721a793d-136f-4ebc-ab2b-acaca46f13a1.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/0w5708l8",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-11-12/": null,
+ "og2:https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-11-12/": null,
+ "who2:Nick Tilleli": null,
+ "og2:https://luma.com/bsr-nov13": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ba/0be86181-b4ce-4529-8b5c-69dbde6092ff.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/bsr-nov13",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Ivy": {
+  "role": "American indie pop band",
+  "wiki": "Ivy_(band)"
+ },
+ "wiki2:Ivy_(band)": null,
+ "who2:Spice": {
+  "role": "Jamaican dancehall musician (born 1982)",
+  "wiki": "Spice_(musician)"
+ },
+ "wiki2:Spice_(musician)": null,
+ "who2:Mia Jackson": null,
+ "who2:Cast of Camp Rock": null,
+ "who2:Disney": null,
+ "who2:Will Purpura": null,
+ "who2:Jared Waters": null,
+ "who2:Carmen Lynch": {
+  "role": "Spanish-American comedian, actress and writer",
+  "wiki": "Carmen_Lynch"
+ },
+ "wiki2:Carmen_Lynch": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Carmen_Lynch_2022_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Carmen_Lynch",
+  "w": 816,
+  "h": 1088
+ },
+ "who2:Nation of Language": {
+  "role": "American indie pop band",
+  "wiki": "Nation_of_Language"
+ },
+ "who2:Maggie Lalley": null,
+ "wiki2:Nation_of_Language": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nation_of_Language_%2852107874999%29.jpg/1280px-Nation_of_Language_%2852107874999%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Nation_of_Language",
+  "w": 1920,
+  "h": 1280
+ },
+ "og2:https://newyorkcomedyclub.com/events/kaneez-surka-jared-waters-jared-goldstein-nick-tilleli": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/image3-2-jpeg-bdad0a1c-image3-2-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/kaneez-surka-jared-waters-jared-goldstein-nick-tilleli",
+  "w": 952,
+  "h": 660
+ },
+ "who2:Descendants - Cast": null,
+ "who2:Chris Reiter": null,
+ "who2:Nathan Macintosh": {
+  "role": "Canadian stand-up comedian",
+  "wiki": "Nathan_Macintosh"
+ },
+ "wiki2:Nathan_Macintosh": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Nathan_Macintosh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Nathan_Macintosh",
+  "w": 908,
+  "h": 1360
+ },
+ "who2:Sir Woman": null,
+ "who2:Surprise Chef": null,
+ "who2:ZOMBIES - Cast": null,
+ "who2:Ayanna Dookie": null,
+ "who2:Mila Degray": null,
+ "og2:https://newyorkcomedyclub.com/events/jon-rudnitsky-tom-cassidy-dan-davies-vannessa-jackson": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/jon-rudnitsky-headshot-jpeg-9d0f104f-jon-rudnitsky-headshot-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/jon-rudnitsky-tom-cassidy-dan-davies-vannessa-jackson",
+  "w": 1071,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/reg-thomas-sam-morrison-jade-catta-preta-dustin-nickerson": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/reg-thomas-jpg-d0040afe-reg-thomas-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/reg-thomas-sam-morrison-jade-catta-preta-dustin-nickerson",
+  "w": 1139,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/maximilian-spinelli-liz-glazer-dustin-nickerson": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/maximilian-spinelli-headshot-png-ffdf124b-maximilian-spinelli-headshot-png.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/maximilian-spinelli-liz-glazer-dustin-nickerson",
+  "w": 1030,
+  "h": 660
+ },
+ "og2:https://luma.com/voiceai-workshop-nyc-nov17": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fx/e640dc05-303f-4164-a2f8-9da04d1713a7.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/voiceai-workshop-nyc-nov17",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/jy5mz3eb": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ku/50c62e1b-87ea-46b2-bd74-df3fbf5cb2ef.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/jy5mz3eb",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/refpxck2": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/k9/cc1482db-2d58-4e53-8b1b-e064ff1c1666.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/refpxck2",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://newyorkcomedyclub.com/events/sean-patton-ashley-austin-morris-mia-jackson-ruby-setnik": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/sean-patton-jpg-e0270b8d-sean-patton-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/sean-patton-ashley-austin-morris-mia-jackson-ruby-setnik",
+  "w": 1216,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/matt-lopes-corey-b-marcus-monroe": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/the-boy-friends-nycf-11-12-25-1080x1080-jpg-929312b4-the-boy-friends-nycf-11-12-25-1080x1080-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/matt-lopes-corey-b-marcus-monroe",
+  "w": 1070,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/caitlin-peluffo-sean-patton-adam-ferrara": null,
+ "og2:https://newyorkcomedyclub.com/events/calise-hawkins-adam-ferrara-tom-cassidy-lili-michelle-napoleon-emill": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/calise-hawkins-d3db0b45-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/calise-hawkins-adam-ferrara-tom-cassidy-lili-michelle-napoleon-emill",
+  "w": 1174,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/adam-ferrara-jared-harvin-vannessa-jackson-alex-dragicevich-surprise-guest": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/adam-png-8a2a08a8-adam-png.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/adam-ferrara-jared-harvin-vannessa-jackson-alex-dragicevich-surprise-guest",
+  "w": 970,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/new-york-comedy-club-presents-2026-11-19193000": null,
+ "who2:Francis of Delirium": {
+  "role": "Luxembourgish musician",
+  "wiki": "Francis_of_Delirium"
+ },
+ "wiki2:Francis_of_Delirium": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Francis_of_Delirium_at_LeftOfTheDial_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Francis_of_Delirium",
+  "w": 895,
+  "h": 635
+ },
+ "og2:https://artscouncilofprinceton.org/event/jam/2026-11-18/": null,
+ "og2:https://newyorkcomedyclub.com/events/drew-lynch-avi-liberman-tyler-groce-lili-michelle": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/drew-tour-mic-jpeg-07f30c8c-drew-tour-mic-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/drew-lynch-avi-liberman-tyler-groce-lili-michelle",
+  "w": 981,
+  "h": 660
+ },
+ "who2:Mitchell Tenpenny": {
+  "role": "American singer-songwriter (born 1989)",
+  "wiki": "Mitchell_Tenpenny"
+ },
+ "wiki2:Mitchell_Tenpenny": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Mitchell_Tenpenny_performing_at_Hogs_for_Hospice%2C_Leamington%2C_Ontario%2C_2025-08-02_39.jpg/1280px-Mitchell_Tenpenny_performing_at_Hogs_for_Hospice%2C_Leamington%2C_Ontario%2C_2025-08-02_39.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Mitchell_Tenpenny",
+  "w": 5176,
+  "h": 4000
+ },
+ "og2:https://planetprinceton.com/event/jersey-art-meetup/2026-11-18/": null,
+ "og2:https://newyorkcomedyclub.com/events/mike-cannon-mike-recine-lili-michelle-zac-amico-lee-syatt-bam-jacob-s": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/mike-cannon-5-17-25-headshot-color-jpg-42c712ce-mike-cannon-5-17-25-headshot-color-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/mike-cannon-mike-recine-lili-michelle-zac-amico-lee-syatt-bam-jacob-s",
+  "w": 932,
+  "h": 660
+ },
+ "who2:Catie Turner": {
+  "role": "American singer (born 2000)",
+  "wiki": "Catie_Turner"
+ },
+ "wiki2:Catie_Turner": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Catie_Turner_%28born_2000%29_in_a_2023_interview_for_Popdust.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Catie_Turner",
+  "w": 636,
+  "h": 583
+ },
+ "og2:https://www.songkick.com/concerts/43513561-el-nuevo-acapulco-tropical-at-el-patron-restaurant-and-bar?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43366936-winderman-colman-and-kimock-at-johnny-brendas?utm_medium=organic&utm_source=microformat": null,
+ "who2:Static Dress": {
+  "role": "English rock band",
+  "wiki": "Static_Dress"
+ },
+ "wiki2:Static_Dress": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Static_Dress_Full_Force_2023_01.jpg/1280px-Static_Dress_Full_Force_2023_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Static_Dress",
+  "w": 5760,
+  "h": 3840
+ },
+ "who2:Kate Voegele": {
+  "role": "American singer-songwriter and actress (born 1986)",
+  "wiki": "Kate_Voegele"
+ },
+ "wiki2:Kate_Voegele": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Kate_Voegele_6-26-11_Seattle.jpg/1280px-Kate_Voegele_6-26-11_Seattle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Kate_Voegele",
+  "w": 1828,
+  "h": 2639
+ },
+ "who2:Judith Hill": {
+  "role": "American singer-songwriter",
+  "wiki": "Judith_Hill"
+ },
+ "wiki2:Judith_Hill": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Judith_Hill_crop.jpg/1280px-Judith_Hill_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Judith_Hill",
+  "w": 2472,
+  "h": 2848
+ },
+ "og2:https://www.songkick.com/concerts/43354197-rev-vince-anderson-at-union-pool?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43452924-guy-gerber-at-brooklyn-mirage-avant-gardner?utm_medium=organic&utm_source=microformat": null,
+ "who2:REO Speedwagon": {
+  "role": "American rock band",
+  "wiki": "REO_Speedwagon"
+ },
+ "who2:Night Ranger": {
+  "role": "American hard rock band",
+  "wiki": "Night_Ranger"
+ },
+ "who2:Loverboy": {
+  "role": "Canadian rock band",
+  "wiki": "Loverboy"
+ },
+ "wiki2:Night_Ranger": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Night_Ranger_080121-N-5416W-044.JPG/1280px-Night_Ranger_080121-N-5416W-044.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Night_Ranger",
+  "w": 2100,
+  "h": 1500
+ },
+ "wiki2:REO_Speedwagon": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/REO_Speedwagon_%281982_Epic_Press_photo%29.jpg/1280px-REO_Speedwagon_%281982_Epic_Press_photo%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/REO_Speedwagon",
+  "w": 1296,
+  "h": 838
+ },
+ "wiki2:Loverboy": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Loverboy_band_in_2017.jpg/1280px-Loverboy_band_in_2017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Loverboy",
+  "w": 5056,
+  "h": 2367
+ },
+ "who2:Skream": {
+  "role": "English electronic music producer",
+  "wiki": "Skream"
+ },
+ "wiki2:Skream": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Skream_at_Metropolis_Leeds.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Skream",
+  "w": 1024,
+  "h": 718
+ },
+ "who2:Richard Barone": {
+  "role": "American rock musician",
+  "wiki": "Richard_Barone"
+ },
+ "wiki2:Richard_Barone": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Barone_Carnegie.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Richard_Barone",
+  "w": 667,
+  "h": 1000
+ },
+ "who2:Martha Wainwright": {
+  "role": "Canadian musician",
+  "wiki": "Martha_Wainwright"
+ },
+ "wiki2:Martha_Wainwright": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Martha_Wainwright_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Martha_Wainwright",
+  "w": 1279,
+  "h": 2135
+ },
+ "og2:https://www.songkick.com/concerts/43512543-imani-graham-at-ortliebs?utm_medium=organic&utm_source=microformat": null,
+ "who2:S. Carey": {
+  "role": "American musician",
+  "wiki": "S._Carey"
+ },
+ "wiki2:S._Carey": null,
+ "og2:https://www.songkick.com/concerts/43365462-zohar-and-adam-at-blue-note-jazz-club?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43419545-underachievers-at-gramercy-theatre?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43271496-dexter-and-the-moonrocks-at-webster-hall?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43455387-jennie-at-liberty-bell-beer-garden?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43362449-venna-uk-at-union-transfer?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43353051-s-carey-at-national-sawdust?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43495805-damian-lazarus-at-brooklyn-mirage-avant-gardner?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43320604-eloise-at-foundry-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43344252-men-without-hats-at-asbury-lanes?utm_medium=organic&utm_source=microformat": null,
+ "who2:Janine Harouni": {
+  "role": "American comedian",
+  "wiki": "Janine_Harouni"
+ },
+ "og2:https://www.songkick.com/concerts/43364970-mareux-at-saint-vitus-bar?utm_medium=organic&utm_source=microformat": null,
+ "wiki2:Janine_Harouni": null
 }
