@@ -10126,5 +10126,295 @@
  "geo:Sellersville Theatre|Sellersville|Philadelphia": {
   "lat": 40.35924,
   "lng": -75.31145
- }
+ },
+ "og2:https://luma.com/65yfjkuf": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/zj/277301f6-c0c3-41bb-9111-b2a984bf4620.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/65yfjkuf",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-11-15/": null,
+ "og2:https://planetprinceton.com/event/winery-weekend-music-series/2026-11-15/": null,
+ "og2:https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-11-15/": null,
+ "og2:https://planetprinceton.com/event/artist-winter-village/2026-11-15/": null,
+ "og2:https://planetprinceton.com/event/pie-tasting-weekend/2026-11-15/": null,
+ "og2:https://planetprinceton.com/event/136th-annual-princeton-triangle-show/2026-11-15/": {
+  "url": "https://planetprinceton.com/wp-admin/admin-ajax.php?action=rank_math_overlay_thumb&id=198719&type=planetprinceton-com&hash=0b824b6f7ab2dbafaa67d29146930854",
+  "credit": "planetprinceton.com",
+  "link": "https://planetprinceton.com/event/136th-annual-princeton-triangle-show/2026-11-15/",
+  "w": 1200,
+  "h": 1697
+ },
+ "og2:https://luma.com/muatkdcv": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/of/e03955dd-3c3c-4cf8-86ea-74be225c5607.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/muatkdcv",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Gastor Almonte": null,
+ "who2:Chris Miceli": null,
+ "og2:https://newyorkcomedyclub.com/events/maddy-smith-alingon-mitra-gastor-almonte-kevin-sullivan-and-special-guest": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/maddy-smith-new-headshot-as-of-april-2026-1-jpg-28f31618-maddy-smith-new-headshot-as-of-april-2026-1-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/maddy-smith-alingon-mitra-gastor-almonte-kevin-sullivan-and-special-guest",
+  "w": 985,
+  "h": 660
+ },
+ "who2:Andrew Collin": null,
+ "who2:Aaron Branch": null,
+ "who2:El Cuarteto de Nos": {
+  "role": "Uruguayan rock band",
+  "wiki": "El_Cuarteto_de_Nos"
+ },
+ "who2:Cuarteto de nos": {
+  "role": "Uruguayan rock band",
+  "wiki": "El_Cuarteto_de_Nos"
+ },
+ "wiki2:El_Cuarteto_de_Nos": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Cuarteto-de-Nos.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/El_Cuarteto_de_Nos",
+  "w": 800,
+  "h": 582
+ },
+ "who2:HOHYUN": null,
+ "who2:Brandon Barrera": null,
+ "who2:Rell Battle": null,
+ "who2:Drew Lynch": {
+  "role": "American stand-up comedian (born 1991)",
+  "wiki": "Drew_Lynch"
+ },
+ "who2:Jay Larson": {
+  "role": "American comedian, actor, and writer",
+  "wiki": "Jay_Larson"
+ },
+ "wiki2:Drew_Lynch": null,
+ "wiki2:Jay_Larson": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Jay_Larson.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jay_Larson",
+  "w": 667,
+  "h": 1000
+ },
+ "who2:Sarah Kang": null,
+ "who2:Igor Martinez": null,
+ "who2:Hollywood Crime Scene": null,
+ "who2:Thank You Thank You": null,
+ "og2:https://newyorkcomedyclub.com/events/olivia-carter-rell-battle-alex-babbitt-fabrizio-copano-igor-martinez": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/image001-jpg-b04b09a7-image001-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/olivia-carter-rell-battle-alex-babbitt-fabrizio-copano-igor-martinez",
+  "w": 1163,
+  "h": 660
+ },
+ "og2:https://luma.com/reductoai-fiw4": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ub/9bcc712e-e7f6-4972-aac7-0d03cdd7e1c6.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/reductoai-fiw4",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Leanne Morgan": {
+  "role": "American comedian and actress",
+  "wiki": "Leanne_Morgan"
+ },
+ "wiki2:Leanne_Morgan": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Leanne_Morgan_on_Neal_Brennan%27s_podcast_Blocks.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Leanne_Morgan",
+  "w": 992,
+  "h": 1004
+ },
+ "who2:Daniel Geneen": null,
+ "og2:https://newyorkcomedyclub.com/events/gastor-almonte-jack-finnegan-brandon-barrera-daniel-geneen-tatiana-frank": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/GastorAlmonte-bdce0ac4-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/gastor-almonte-jack-finnegan-brandon-barrera-daniel-geneen-tatiana-frank",
+  "w": 880,
+  "h": 660
+ },
+ "og2:https://luma.com/0b0iw40z": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/3b/68aa4ebb-6dd6-40c5-be48-78b76d8a2dc0.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/0b0iw40z",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/ptm8uj5v": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/w6/c3cbfca1-4711-4c12-a1df-a5e9e242d049.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/ptm8uj5v",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/pu8n5y2v": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/y2/d52f1484-e032-4612-ae3b-305052f77ef9.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/pu8n5y2v",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/i2zndqmy": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/a6/2ac2543a-32a0-460d-a162-3f0d10655afa.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/i2zndqmy",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Low Cut Connie": {
+  "role": "American rock and roll band",
+  "wiki": "Low_Cut_Connie"
+ },
+ "wiki2:Low_Cut_Connie": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Low_Cut_Connie_at_Stone_Pony_Summer_Stage_on_Aug_31_2025.jpg/1280px-Low_Cut_Connie_at_Stone_Pony_Summer_Stage_on_Aug_31_2025.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Low_Cut_Connie",
+  "w": 3849,
+  "h": 2930
+ },
+ "who2:Gene": {
+  "role": "English alternative rock band",
+  "wiki": "Gene_(band)"
+ },
+ "og2:https://luma.com/climate-qbyo": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/b5/93f82cfa-620f-4dce-afaa-924bcd254959.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/climate-qbyo",
+  "w": 800,
+  "h": 420
+ },
+ "wiki2:Gene_(band)": null,
+ "og2:https://luma.com/smart-glass-hack-nyc": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/om/82378184-5fd7-4387-aece-237f060bf6ca.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/smart-glass-hack-nyc",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43500221-mike-lorenz-at-48-record-bar?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://luma.com/576alwfq": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1l/75602c3e-d6c9-4b21-9f62-721c45dc48dd.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/576alwfq",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Barbara Tucker": {
+  "role": "American singer-songwriter",
+  "wiki": "Barbara_Tucker"
+ },
+ "og2:https://luma.com/9xd9gr87": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/uk/376968cf-27db-4505-b74d-c3d018a376de.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/9xd9gr87",
+  "w": 800,
+  "h": 420
+ },
+ "wiki2:Barbara_Tucker": null,
+ "og2:https://luma.com/mraj5eyt": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/1g/e83fa33b-4bb6-4318-9828-7d1e7931b14c.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/mraj5eyt",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/jamxi": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/od/50b2e24b-b1b8-49ea-9609-37b23a935de7.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/jamxi",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Ben Caplan": {
+  "role": "Canadian musician",
+  "wiki": "Ben_Caplan"
+ },
+ "wiki2:Ben_Caplan": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Ben_Caplan_%E2%80%93_Nochtspeicher_Hamburg_2016_08.jpg/1280px-Ben_Caplan_%E2%80%93_Nochtspeicher_Hamburg_2016_08.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Ben_Caplan",
+  "w": 3843,
+  "h": 5491
+ },
+ "og2:https://luma.com/enrexhqq": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fn/ce55e27c-d0a9-4607-8f9f-ddf3b329c7d2.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/enrexhqq",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/isqoo7vi": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ve/51fefa72-2ca9-4f83-9a61-01a226299e83.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/isqoo7vi",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Ensiferum": {
+  "role": "Finnish folk metal band",
+  "wiki": "Ensiferum"
+ },
+ "wiki2:Ensiferum": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Ensiferum_Rockharz_2026_17.jpg/1280px-Ensiferum_Rockharz_2026_17.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Ensiferum",
+  "w": 4053,
+  "h": 2702
+ },
+ "who2:Jerrod Carmichael": {
+  "role": "American comedian (born 1987)",
+  "wiki": "Jerrod_Carmichael"
+ },
+ "wiki2:Jerrod_Carmichael": null,
+ "who2:Pig Destroyer": {
+  "role": "American grindcore band",
+  "wiki": "Pig_Destroyer"
+ },
+ "wiki2:Pig_Destroyer": null,
+ "who2:David Archuleta": {
+  "role": "American singer-songwriter (born 1990)",
+  "wiki": "David_Archuleta"
+ },
+ "wiki2:David_Archuleta": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/David_Archuleta_-_LATFOB_2026-01.jpg/1280px-David_Archuleta_-_LATFOB_2026-01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/David_Archuleta",
+  "w": 1600,
+  "h": 2000
+ },
+ "og2:https://www.songkick.com/concerts/43261875-bonobo-at-brooklyn-paramount?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://luma.com/readingclub-dec9": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/i2/a362213a-ca52-4b41-ac6e-af35fceb1f71.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/readingclub-dec9",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Less Than Jake": {
+  "role": "American punk band",
+  "wiki": "Less_Than_Jake"
+ },
+ "wiki2:Less_Than_Jake": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/BftA_Less_Than_Jake_20220710_022810826_%2852215383579%29_%28cropped%29.jpg/1280px-BftA_Less_Than_Jake_20220710_022810826_%2852215383579%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Less_Than_Jake",
+  "w": 3153,
+  "h": 1797
+ },
+ "og2:https://www.songkick.com/concerts/43456987-they-are-gutting-a-body-of-water-at-elsewhere?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43491442-deaf-club-at-philamoca?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43441225-keep-flying-at-kung-fu-necktie?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43211988-dresden-dolls-at-brooklyn-paramount?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43404210-celtic-tenors-at-strand-theater?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43320695-eloise-at-warsaw?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43500830-afloat-at-milkboy?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43513151-machhommy-at-blue-note-jazz-club?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43370911-lucy-bedroque-at-union-transfer?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43331496-daisy-grenade-at-arrow?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43493118-eyehategod-at-nikki-lopez-philly?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43265150-rhye-at-brooklyn-steel?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://planetprinceton.com/event/holiday-market-weekend-and-more/2026-12-11/": null,
+ "og2:https://www.songkick.com/concerts/43156005-dave-koz-at-lansdowne-theater?utm_medium=organic&utm_source=microformat": null
 }
