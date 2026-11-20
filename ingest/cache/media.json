@@ -11625,5 +11625,309 @@
  "og2:https://www.songkick.com/concerts/43493052-rozes-at-mercury-lounge?utm_medium=organic&utm_source=microformat": null,
  "og2:https://www.songkick.com/concerts/43311294-sounds-of-april-and-randall-at-south?utm_medium=organic&utm_source=microformat": null,
  "og2:https://www.songkick.com/concerts/43472543-your-old-droog-at-mercury-lounge?utm_medium=organic&utm_source=microformat": null,
- "og2:https://artscouncilofprinceton.org/event/art-of-mocktails/": null
+ "og2:https://artscouncilofprinceton.org/event/art-of-mocktails/": null,
+ "og2:https://newyorkcomedyclub.com/events/classy-comedy-ft-chuck-nice-alvin-kuai-amanda-gail-matt-lopes-dan-carney-missy-baker": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/chuck-nice-new-jpg-061e0c72-chuck-nice-new-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/classy-comedy-ft-chuck-nice-alvin-kuai-amanda-gail-matt-lopes-dan-carney-missy-baker",
+  "w": 1156,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/todd-barry-mike-britt-juan-nicolon-ayanna-dookie-jordan-adams": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/todd-barry-420x260-jpg-2fce0ced-todd-barry-420x260-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/todd-barry-mike-britt-juan-nicolon-ayanna-dookie-jordan-adams",
+  "w": 1109,
+  "h": 660
+ },
+ "who2:Snakehips": {
+  "role": "British electronic music duo",
+  "wiki": "Snakehips_(duo)"
+ },
+ "og2:https://planetprinceton.com/event/artist-winter-village/2026-11-20/": null,
+ "og2:https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-11-20/": null,
+ "og2:https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-11-20/": null,
+ "og2:https://planetprinceton.com/event/festival-of-trees/2026-11-20/": null,
+ "og2:https://newyorkcomedyclub.com/events/the-30-30-series-ft-secret-headliner-caroline-hanes": null,
+ "og2:https://newyorkcomedyclub.com/events/ian-fidance-jack-finnegan-neko-white-philipp-kostelecky": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/ian2-jpeg-936c08e5-ian2-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/ian-fidance-jack-finnegan-neko-white-philipp-kostelecky",
+  "w": 1146,
+  "h": 660
+ },
+ "og2:https://www.songkick.com/concerts/43426180-baby-smoove-at-gramercy-theatre?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://luma.com/lxvml4ib": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/yg/ba9b63c6-e680-4522-b2f7-96dffdbb5d13.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/lxvml4ib",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43528585-avery-wilson-at-city-winery-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43528599-latrice-royale-at-city-winery-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43297647-david-ostwalds-louis-armstrong-eternity-band-at-cielo?utm_medium=organic&utm_source=microformat": null,
+ "who2:The War and Treaty": {
+  "role": "American country music duo",
+  "wiki": "The_War_and_Treaty"
+ },
+ "wiki2:The_War_and_Treaty": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/The_War_and_Treaty_performs_a_duet_at_the_La_Bella_Vista_club_on_Aviano_Air_Base%2C_Italy%2C_Oct._23%2C_2024.jpg/1280px-The_War_and_Treaty_performs_a_duet_at_the_La_Bella_Vista_club_on_Aviano_Air_Base%2C_Italy%2C_Oct._23%2C_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_War_and_Treaty",
+  "w": 3062,
+  "h": 2038
+ },
+ "og2:https://www.songkick.com/concerts/43485356-blitzkid-at-milkboy-philly?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43482650-surfing-for-daisy-at-milkboy-philly?utm_medium=organic&utm_source=microformat": null,
+ "who2:Pop Evil": {
+  "role": "American rock band",
+  "wiki": "Pop_Evil"
+ },
+ "wiki2:Pop_Evil": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Pop_Evil.jpg/1280px-Pop_Evil.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Pop_Evil",
+  "w": 4032,
+  "h": 3024
+ },
+ "who2:Julien Baker": {
+  "role": "American rock musician (born 1995)",
+  "wiki": "Julien_Baker"
+ },
+ "wiki2:Julien_Baker": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Boygenius_-_53085336671.jpg/1280px-Boygenius_-_53085336671.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Julien_Baker",
+  "w": 2082,
+  "h": 2723
+ },
+ "og2:https://www.songkick.com/concerts/43526306-julien-baker-at-music-hall-of-williamsburg?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://planetprinceton.com/event/after-noon-concert-series-at-the-princeton-university-chapel/2026-11-26/": null,
+ "who2:Carbon Leaf": {
+  "role": "American rock band",
+  "wiki": "Carbon_Leaf"
+ },
+ "wiki2:Carbon_Leaf": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/CarbonLeafBluebird.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Carbon_Leaf",
+  "w": 604,
+  "h": 403
+ },
+ "og2:https://www.songkick.com/concerts/43525299-flamingosis-at-only-the-wild-ones?utm_medium=organic&utm_source=microformat": null,
+ "who2:Sander van Doorn": {
+  "role": "Dutch DJ",
+  "wiki": "Sander_van_Doorn"
+ },
+ "og2:https://luma.com/nyc13": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/oh/96939ad1-d0c3-4339-aace-10240782a31e.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/nyc13",
+  "w": 800,
+  "h": 420
+ },
+ "wiki2:Sander_van_Doorn": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Sander_van_Doorn_%2811%29.JPG/1280px-Sander_van_Doorn_%2811%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Sander_van_Doorn",
+  "w": 3456,
+  "h": 5184
+ },
+ "who2:Jalen Ngonda": {
+  "role": "American soul musician",
+  "wiki": "Jalen_Ngonda"
+ },
+ "who2:Maceo Plex": {
+  "role": "American DJ (born 1978)",
+  "wiki": "Maceo_Plex"
+ },
+ "wiki2:Maceo_Plex": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/2015-07-19_6886_Maceo_Plex_%28Sea_You%29.jpg/1280px-2015-07-19_6886_Maceo_Plex_%28Sea_You%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Maceo_Plex",
+  "w": 4154,
+  "h": 2769
+ },
+ "og2:https://luma.com/yw1r73na": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ps/c267ca32-8b2e-4559-a4fc-70c7a0f305de.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/yw1r73na",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/financehack": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/58/961dd3b8-06cc-44b4-9aa2-43252c91e33e.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/financehack",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/0juxbuln": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/qc/dcff21f0-f2ca-4fc8-94cb-d517696dcbfb.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/0juxbuln",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/jslygyrf": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/9c/c4e945a9-15eb-4642-8469-5b2b5c6f36b3.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/jslygyrf",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/5vw9be8v": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/h4/13962aff-c31e-427a-9837-be9ab987ed2c.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/5vw9be8v",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/56lqizoy": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/9n/073cf99a-9951-47d8-adcf-c204615adef9.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/56lqizoy",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43528826-mike-tramp-at-city-winery-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://luma.com/up43rou6": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/ec/f3d02147-bda5-4719-8541-90b4959952c3.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/up43rou6",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Shakey Graves": {
+  "role": "American Americana musician",
+  "wiki": "Shakey_Graves"
+ },
+ "og2:https://www.songkick.com/concerts/43529087-phil-vassar-at-sellersville-theater-1894?utm_medium=organic&utm_source=microformat": null,
+ "wiki2:Shakey_Graves": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Shakey_Graves_performs_at_the_Longhorn_City_Limits_stage_in_2021_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Shakey_Graves",
+  "w": 957,
+  "h": 1028
+ },
+ "who2:Eyehategod": {
+  "role": "American sludge metal band",
+  "wiki": "Eyehategod"
+ },
+ "wiki2:Eyehategod": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/HF2022EyeHateGod_3.jpg/1280px-HF2022EyeHateGod_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Eyehategod",
+  "w": 4000,
+  "h": 2671
+ },
+ "og2:https://luma.com/rwew51iq": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/cf/dd02c32f-b295-4d53-af83-4271ae47f88e.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/rwew51iq",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://luma.com/monewslive": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/o2/f52e1a76-930e-4945-ad43-de9da8e012a0.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/monewslive",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Beanie Sigel": {
+  "role": "American rapper (born 1974)",
+  "wiki": "Beanie_Sigel"
+ },
+ "wiki2:Beanie_Sigel": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Beanie_Sigel_%28tHEMq0B7URw%29_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Beanie_Sigel",
+  "w": 615,
+  "h": 614
+ },
+ "who2:The Flatliners": {
+  "role": "Canadian punk rock band",
+  "wiki": "The_Flatliners"
+ },
+ "wiki2:The_Flatliners": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/The_Flatliners.jpg/1280px-The_Flatliners.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_Flatliners",
+  "w": 1536,
+  "h": 1024
+ },
+ "og2:https://www.songkick.com/concerts/43529105-benny-the-butcher-at-city-winery-philadelphia?utm_medium=organic&utm_source=microformat": null,
+ "who2:Old Crow Medicine Show": {
+  "role": "Americana string band based in Tennessee",
+  "wiki": "Old_Crow_Medicine_Show"
+ },
+ "wiki2:Old_Crow_Medicine_Show": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/New_Year%27s_Eve_Molly_Tuttle_Old_Crow_Medicine_Show_Ryman_Auditorium_Nashville_TN_December_2024_03.jpg/1280px-New_Year%27s_Eve_Molly_Tuttle_Old_Crow_Medicine_Show_Ryman_Auditorium_Nashville_TN_December_2024_03.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Old_Crow_Medicine_Show",
+  "w": 4032,
+  "h": 3024
+ },
+ "who2:Chris Botti": {
+  "role": "American trumpeter and composer (born 1962)",
+  "wiki": "Chris_Botti"
+ },
+ "wiki2:Chris_Botti": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Chris_Botti_at_Thorton_Winery_2006_retouched.jpg/1280px-Chris_Botti_at_Thorton_Winery_2006_retouched.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Chris_Botti",
+  "w": 1600,
+  "h": 1192
+ },
+ "og2:https://luma.com/double-diamond-dec-2026": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/fk/7bc8f38a-40be-4380-a3b1-f6f1b24b2972.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/double-diamond-dec-2026",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43500830-afloat-at-milkboy-philly?utm_medium=organic&utm_source=microformat": null,
+ "who2:Molly Hatchet": {
+  "role": "American Southern rock band",
+  "wiki": "Molly_Hatchet"
+ },
+ "wiki2:Molly_Hatchet": null,
+ "who2:Alan Broadbent": {
+  "role": "New Zealand jazz pianist and arranger/composer",
+  "wiki": "Alan_Broadbent"
+ },
+ "wiki2:Alan_Broadbent": null,
+ "og2:https://www.songkick.com/concerts/43506263-atomic-life-at-milkboy-philly?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43398326-russell-howard-at-gramercy-theatre?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43428470-shoshana-bean-at-beacon-theatre?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43467692-repressions-at-cowgirl-seahorse?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43470477-bill-cunliffe-at-mezzrow?utm_medium=organic&utm_source=microformat": null,
+ "who2:Michelle Collins": {
+  "role": "British actress (born 1962)",
+  "wiki": "Michelle_Collins"
+ },
+ "og2:https://www.songkick.com/concerts/43419538-haley-heynderickx-at-bowery-ballroom?utm_medium=organic&utm_source=microformat": null,
+ "wiki2:Michelle_Collins": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Michelle_Collins_at_BAFTA_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Michelle_Collins",
+  "w": 924,
+  "h": 1319
+ },
+ "og2:https://www.songkick.com/concerts/43250757-molly-hatchet-at-sellersville-theater-1894?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43528132-banda-maguey-at-el-patron-restaurant-and-bar?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://artscouncilofprinceton.org/event/story-verse-a-storytelling-and-poetic-open-mic-dec26/": null,
+ "og2:https://www.songkick.com/concerts/43511260-piebald-at-milkboy-philly?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43348714-stacey-kent-at-birdland?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43465303-fiery-furnaces-at-union-pool?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://princetonhistory.org/events/winter-solstice-history-nature-walk/": null,
+ "og2:https://luma.com/0cdxrg5s": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/qa/2659706f-29c2-488f-b849-32c4fda168ba.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/0cdxrg5s",
+  "w": 800,
+  "h": 420
+ }
 }
