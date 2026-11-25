@@ -12852,5 +12852,355 @@
  "og2:https://www.songkick.com/concerts/43536988-durand-bernarr-at-union-transfer?utm_medium=organic&utm_source=microformat": null,
  "og2:https://www.songkick.com/concerts/43437689-starting-line-at-fillmore-philadelphia?utm_medium=organic&utm_source=microformat": null,
  "og2:https://www.songkick.com/concerts/43226553-they-are-gutting-a-body-of-water-at-union-transfer?utm_medium=organic&utm_source=microformat": null,
- "og2:https://www.songkick.com/concerts/43454330-fcukers-at-brooklyn-paramount?utm_medium=organic&utm_source=microformat": null
+ "og2:https://www.songkick.com/concerts/43454330-fcukers-at-brooklyn-paramount?utm_medium=organic&utm_source=microformat": null,
+ "who2:Chloe Radcliffe": {
+  "role": "American comedian (born 1990)",
+  "wiki": "Chloe_Radcliffe"
+ },
+ "wiki2:Chloe_Radcliffe": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Chloe_Radcliffe_Is-This-Thing-On_%28cropped%29.jpg/1280px-Chloe_Radcliffe_Is-This-Thing-On_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Chloe_Radcliffe",
+  "w": 2768,
+  "h": 3688
+ },
+ "og2:https://newyorkcomedyclub.com/events/katie-boyle-ian-fidance-dean-edwards-neko-white-nick-tilleli": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/katie-boyle-3-2025-headshot-sam-cashell-alt-jpeg-2021167c-katie-boyle-3-2025-headshot-sam-cashell-alt-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/katie-boyle-ian-fidance-dean-edwards-neko-white-nick-tilleli",
+  "w": 995,
+  "h": 660
+ },
+ "og2:https://luma.com/zlvc2adp": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/6c/fac19ad8-4432-4f66-ad8e-10e693122470.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/zlvc2adp",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://planetprinceton.com/event/joint-effort-witherspoon-jackson-community-princeton-safe-streets/2026-11-25/": null,
+ "og2:https://planetprinceton.com/event/illuminations-by-artist-jordan-eagles/2026-11-25/": null,
+ "who2:Chris O'Connor": {
+  "role": "American alternative rock band",
+  "wiki": "Primitive_Radio_Gods"
+ },
+ "wiki2:Primitive_Radio_Gods": null,
+ "og2:https://luma.com/thecanvas-s6n3": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/qz/5921d509-bc68-405c-b692-ce2fb66f16ff.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/thecanvas-s6n3",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Sarah Cooper": {
+  "role": "Jamaican-American comedian and author (born 1977)",
+  "wiki": "Sarah_Cooper"
+ },
+ "wiki2:Sarah_Cooper": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Sarah_Cooper.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Sarah_Cooper",
+  "w": 742,
+  "h": 1010
+ },
+ "who2:Fred Hammond": {
+  "role": "American musician and record producer",
+  "wiki": "Fred_Hammond"
+ },
+ "who2:Colorblind": {
+  "role": "American rock band",
+  "wiki": "Colorblind_(band)"
+ },
+ "wiki2:Fred_Hammond": null,
+ "wiki2:Colorblind_(band)": null,
+ "who2:Catch Your Breath": {
+  "role": "American rock band",
+  "wiki": "Catch_Your_Breath_(band)"
+ },
+ "wiki2:Catch_Your_Breath_(band)": null,
+ "who2:Simeon Goodson": null,
+ "who2:David Ostwald's Louis Armstrong Eternity Band": null,
+ "who2:CHIEF ADJUAH": null,
+ "who2:John Gallagher, Jr.": {
+  "role": "American actor (born 1984)",
+  "wiki": "John_Gallagher_Jr."
+ },
+ "wiki2:John_Gallagher_Jr.": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/John_Gallagher%2C_Jr._at_PaleyFest_2013.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/John_Gallagher_Jr.",
+  "w": 1067,
+  "h": 1600
+ },
+ "who2:Liam Dalton": null,
+ "who2:Aitana": {
+  "role": "Spanish singer (born 1999)",
+  "wiki": "Aitana_(singer)"
+ },
+ "wiki2:Aitana_(singer)": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/173794_aitana-estrena-dark-red-hair-40-music-awards-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Aitana_(singer)",
+  "w": 720,
+  "h": 888
+ },
+ "who2:The Anderson Brothers": null,
+ "who2:El Nuevo Acapulco Tropical": null,
+ "who2:Harry Terjanian": null,
+ "who2:Antibalas": {
+  "role": "American afrobeat band",
+  "wiki": "Antibalas"
+ },
+ "wiki2:Antibalas": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Antibalas_afrobeat_orchestra.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Antibalas",
+  "w": 1024,
+  "h": 768
+ },
+ "who2:Byron Stingily": {
+  "role": "American R&B and house-music singer",
+  "wiki": "Byron_Stingily"
+ },
+ "wiki2:Byron_Stingily": null,
+ "who2:Jeff Redd": {
+  "role": "American singer",
+  "wiki": "Jeff_Redd"
+ },
+ "who2:The System": {
+  "role": "American synth-pop duo (1981–1989)",
+  "wiki": "The_System_(band)"
+ },
+ "wiki2:Jeff_Redd": null,
+ "wiki2:The_System_(band)": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/David_Frank_and_Mic_Murphy.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/The_System_(band)",
+  "w": 738,
+  "h": 526
+ },
+ "who2:Lillo Thomas": {
+  "role": "American soul musician (born 1961)",
+  "wiki": "Lillo_Thomas"
+ },
+ "wiki2:Lillo_Thomas": null,
+ "who2:Cassian": null,
+ "who2:TX2": null,
+ "who2:Arankai": null,
+ "who2:Mike Yard": {
+  "role": "American stand-up comedian",
+  "wiki": "Mike_Yard"
+ },
+ "wiki2:Mike_Yard": null,
+ "who2:Ista": null,
+ "who2:Jackie Hollander": null,
+ "who2:Adrienne Iapalucci": {
+  "role": "American comedian",
+  "wiki": "Adrienne_Iapalucci"
+ },
+ "wiki2:Adrienne_Iapalucci": null,
+ "og2:https://newyorkcomedyclub.com/events/jordan-rock-jake-velazquez-geo-perez": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/jordanrock-car-carousel-jpg-9bcc1032-jordanrock-car-carousel-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/jordan-rock-jake-velazquez-geo-perez",
+  "w": 1133,
+  "h": 660
+ },
+ "who2:Jason Bonham's Led Zeppelin Evening": {
+  "role": "Led Zeppelin tribute band",
+  "wiki": "Jason_Bonham's_Led_Zeppelin_Evening"
+ },
+ "og2:https://newyorkcomedyclub.com/events/alex-babbitt-jared-harvin-brandon-barrera-joe-nunnink-tatiana-frank": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/babbit-79af0815-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/alex-babbitt-jared-harvin-brandon-barrera-joe-nunnink-tatiana-frank",
+  "w": 893,
+  "h": 660
+ },
+ "wiki2:Jason_Bonham's_Led_Zeppelin_Evening": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Jason_Bonham_%2826867828101%29.jpg/1280px-Jason_Bonham_%2826867828101%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Jason_Bonham's_Led_Zeppelin_Evening",
+  "w": 1972,
+  "h": 1109
+ },
+ "og2:https://newyorkcomedyclub.com/events/vinny-guadagnino-chuck-nice-phil-duckett-nick-callas-lissa-lenis": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/S1170019-2-2-9a060815-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/vinny-guadagnino-chuck-nice-phil-duckett-nick-callas-lissa-lenis",
+  "w": 990,
+  "h": 660
+ },
+ "og2:https://www.songkick.com/concerts/43532018-shelf-life-at-perch-music-and-arts-workshop?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://newyorkcomedyclub.com/events/mike-britt-jason-salmon-terry-thomas-jr": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/mike-britt-jpg-d17f0b08-mike-britt-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/mike-britt-jason-salmon-terry-thomas-jr",
+  "w": 1038,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/jatty-robinson-samantha-santos-ben-herwitz-olivia-carter-maxwell-fine": null,
+ "og2:https://newyorkcomedyclub.com/events/dj-collins-eric-walsh-irina-chelidze-mariel-o-reilly": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/1000557958-8aa607be-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/dj-collins-eric-walsh-irina-chelidze-mariel-o-reilly",
+  "w": 990,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/marina-franklin-caroline-hanes-terry-thomas-jr-nick-smith-ryan-beck": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/marina0828-jpg-c83c0a60-marina0828-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/marina-franklin-caroline-hanes-terry-thomas-jr-nick-smith-ryan-beck",
+  "w": 1032,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/jason-salmon-mike-britt-kaneez-surka-jc-mendoza": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/jason-salmon-headshot-jpeg-8a740fe1-jason-salmon-headshot-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/jason-salmon-mike-britt-kaneez-surka-jc-mendoza",
+  "w": 1062,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/todd-barry-mike-britt-erin-maguire-terry-thomas-jr": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/todd-barry-420x260-jpg-2fce0ced-todd-barry-420x260-jpg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/todd-barry-mike-britt-erin-maguire-terry-thomas-jr",
+  "w": 1109,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/jenny-zigrino-maximilian-spinelli-jason-choi-eeland-stribling": {
+  "url": "https://newyorkcomedyclub.com/img/comedians/Original-3-9ff6093e-main-image.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/jenny-zigrino-maximilian-spinelli-jason-choi-eeland-stribling",
+  "w": 989,
+  "h": 660
+ },
+ "og2:https://newyorkcomedyclub.com/events/alingon-mitra-riley-lassin-shafi-hossain-lizzy-cassidy-tom-cassidy": {
+  "url": "https://newyorkcomedyclub.com/img/imagetest/alingon-jpeg-ba170a60-alingon-jpeg.jpg",
+  "credit": "newyorkcomedyclub.com",
+  "link": "https://newyorkcomedyclub.com/events/alingon-mitra-riley-lassin-shafi-hossain-lizzy-cassidy-tom-cassidy",
+  "w": 999,
+  "h": 660
+ },
+ "og2:https://luma.com/pvq7bisv": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/wc/3c7060d2-1913-44fb-a2c3-b73d38b2c39d.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/pvq7bisv",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Tommy James": {
+  "role": "American musician (born 1947)",
+  "wiki": "Tommy_James"
+ },
+ "wiki2:Tommy_James": null,
+ "who2:The Raging Nathans": {
+  "role": "American band",
+  "wiki": "The_Raging_Nathans"
+ },
+ "wiki2:The_Raging_Nathans": null,
+ "who2:Alice Phoebe Lou": {
+  "role": "South African musician (born 1993)",
+  "wiki": "Alice_Phoebe_Lou"
+ },
+ "og2:https://luma.com/6kwt1ho2": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/pt/93ffc4c6-00ff-4947-809e-02a4d2035e0a.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/6kwt1ho2",
+  "w": 800,
+  "h": 420
+ },
+ "wiki2:Alice_Phoebe_Lou": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Alice_Phoebe_Lou_08.jpg/1280px-Alice_Phoebe_Lou_08.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Alice_Phoebe_Lou",
+  "w": 6720,
+  "h": 4480
+ },
+ "og2:https://luma.com/3sq7ejef": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/9g/62e238f1-349d-41c1-8618-13598091af30.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/3sq7ejef",
+  "w": 800,
+  "h": 420
+ },
+ "who2:Horse Jumper of Love": {
+  "role": "American indie rock band",
+  "wiki": "Horse_Jumper_of_Love"
+ },
+ "wiki2:Horse_Jumper_of_Love": null,
+ "og2:https://luma.com/dg233i92": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/gp/7c0dd437-86f0-46b9-a45e-ebd47092dfe8.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/dg233i92",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43535865-baauer-at-314-scholes-st?utm_medium=organic&utm_source=microformat": null,
+ "who2:Your Old Droog": {
+  "role": "American rapper",
+  "wiki": "Your_Old_Droog"
+ },
+ "wiki2:Your_Old_Droog": null,
+ "who2:Lenny White": {
+  "role": "American drummer (born 1949)",
+  "wiki": "Lenny_White"
+ },
+ "wiki2:Lenny_White": null,
+ "who2:Mondo Cozmo": {
+  "role": "American singer-songwriter (born 1979)",
+  "wiki": "Josh_Ostrander"
+ },
+ "og2:https://www.songkick.com/concerts/43535858-ruth-in-the-bardo-at-ortliebs?utm_medium=organic&utm_source=microformat": null,
+ "who2:Richard Marx": {
+  "role": "American singer-songwriter (born 1963)",
+  "wiki": "Richard_Marx"
+ },
+ "wiki2:Richard_Marx": null,
+ "who2:Fcukers": {
+  "role": "American electronic band",
+  "wiki": "Fcukers"
+ },
+ "wiki2:Fcukers": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Fcukers_at_Trans_Musicales_2024%2C_2.jpg/1280px-Fcukers_at_Trans_Musicales_2024%2C_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Fcukers",
+  "w": 4698,
+  "h": 2337
+ },
+ "og2:https://www.songkick.com/concerts/43371392-richard-marx-at-sound-waves-hard-rock-hotel-and-casino-atlantic-city?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43394208-amorphis-at-irving-plaza?utm_medium=organic&utm_source=microformat": null,
+ "who2:Grimes": {
+  "role": "Canadian musician (born 1988)",
+  "wiki": "Grimes"
+ },
+ "wiki2:Grimes": {
+  "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Grimes_Governors_Ball_2014_03_%28cropped%29.png/1280px-Grimes_Governors_Ball_2014_03_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+  "credit": "Wikimedia Commons",
+  "link": "https://en.wikipedia.org/wiki/Grimes",
+  "w": 1461,
+  "h": 1928
+ },
+ "og2:https://www.songkick.com/concerts/43458886-dawn-penn-at-harrahs-philadelphia-casino-and-racetrack?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43494187-gryffin-at-marquee?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43513504-manic-focus-at-underground-arts?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/festivals/3463069-reconnect/id/43472376-reconnect-2026?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://www.songkick.com/concerts/43363641-thee-sinseers-at-underground-arts?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://luma.com/1grycdv4": {
+  "url": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=1,anim=false,background=white,quality=75,width=800,height=420/event-social/uw/47a884e5-70fd-4d2c-837e-987ab4c76650.png",
+  "credit": "luma.com",
+  "link": "https://luma.com/1grycdv4",
+  "w": 800,
+  "h": 420
+ },
+ "og2:https://www.songkick.com/concerts/43371447-richard-marx-at-paramount?utm_medium=organic&utm_source=microformat": null,
+ "og2:https://artscouncilofprinceton.org/event/three-kings-day-2027/": {
+  "url": "https://artscouncilofprinceton.org/wp-content/uploads/2023/10/Three-Kings-Day-Princeton-Flamenco-scaled-e1795554393170.jpg",
+  "credit": "artscouncilofprinceton.org",
+  "link": "https://artscouncilofprinceton.org/event/three-kings-day-2027/",
+  "w": 2560,
+  "h": 1220
+ },
+ "og2:https://planetprinceton.com/event/caroling-with-the-choirs/": null,
+ "og2:https://www.songkick.com/concerts/43465309-trace-mountains-at-ruba-club?utm_medium=organic&utm_source=microformat": null
 }
